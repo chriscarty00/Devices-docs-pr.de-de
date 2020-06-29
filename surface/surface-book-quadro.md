@@ -1,0 +1,141 @@
+---
+title: Surface Book 3 GPU – technische Übersicht
+description: In diesem Artikel werden die erweiterten Funktionen beschrieben, die von NVIDIA Quadro RTX 3000 in ausgewählten Surface Book 3 für Business-15-Zoll-Modellen aktiviert sind.
+ms.prod: w10
+ms.mktglfcycl: manage
+ms.localizationpriority: medium
+ms.sitesec: library
+author: coveminer
+ms.author: greglin
+ms.topic: article
+ms.date: 5/06/2020
+ms.reviewer: brrecord
+manager: laurawi
+audience: itpro
+ms.openlocfilehash: d93008acfdbddd9d47c3a948f2fec392ac83d025
+ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "10832272"
+---
+# DGM-Buch 3 Quadro RTX 3000 – technische Übersicht
+
+DGM-Buch 3 für Unternehmen, angetrieben durch die NVIDIA® Quadro RTX™ 3000 GPU, ist für professionelle Anwender konzipiert, die Echtzeitrendering, Ai-Beschleunigung, Erweiterte Grafiken und Rechenleistung in einem tragbaren Formfaktor benötigen. Quadro RTX 3000 ändert grundlegend, was Sie mit dem neuen DGM-Buch 3 tun können:
+
+- **Raytracing** – mit 30 RT-Kernen für hardwarebeschleunigte Raytracing werden beeindruckende Renders, Designs und Animationen schneller als je zuvor erstellt.
+- **Künstliche Intelligenz** – entfernen Sie redundante, mühsame Aufgaben, und berechnen Sie intensive Arbeit mit 240 Tensor-Kernen für GPU-beschleunigte AI.
+- **Erweiterte Grafik-und Compute-Technologie** – erleben Sie erstaunliche Geschwindigkeit und Interaktivität während der meisten belastenden Grafiken und rechenlasten mit 1.920 CUDA-Kernen und 6 GB GDDR6-Speicher.
+
+## Enterprise-Grade-Lösung
+
+Quadro RTX 3000 ist für kommerzielle Kunden von größter Bedeutung und bietet eine vollständig professionelle Lösung, die eine beschleunigte Raytracing-und Deep-Learning-Funktion mit einer integrierten Management-und Support-Lösung auf Unternehmensebene kombiniert. Quadro-Treiber werden von führenden ISVs für mehr als 100 Professional-Anwendungen getestet und zertifiziert, wodurch eine zusätzliche Ebene der Qualitätssicherung zur Überprüfung von Stabilität, Zuverlässigkeit und Leistung bereitgestellt wird.
+ 
+Quadro umfasst dedizierte Enterprise-Tools für die Remoteverwaltung von Surface Book 3-Geräten mit Quadro RTX 3000. IT-Administratoren können Grafiksysteme Remote konfigurieren, Konfigurationen speichern/wiederherstellen, Grafiksysteme kontinuierlich überwachen und bei Bedarf Remote-Problembehandlung durchführen. Diese Funktionen sowie Bereitstellungstools helfen, die Verfügbarkeit zu maximieren und die IT-Supportanforderungen zu minimieren.
+ 
+NVIDIA entwickelt und pflegt Quadro optimal Drivers for Enterprise (Ode), die optimiert, getestet und validiert sind, um Stabilität, Zuverlässigkeit, Verfügbarkeit und Support auf Unternehmensebene mit erweiterter Produktverfügbarkeit zu gewährleisten. Jede Treiberversion umfasst mehr als 2.000 Arbeitstage für Tests mit professionellen Anwendungen, Test Suites und Test Cases sowie WHQL-Zertifizierung. Sicherheitsbedrohungen werden kontinuierlich überwacht, und es werden regelmäßige Sicherheitsupdates veröffentlicht, um vor neu entdeckten Sicherheitsanfälligkeiten zu schützen. Darüber hinaus unterziehen sich Quadro-Treiber einer zusätzlichen Testphase durch Surface Engineering, bevor Sie über Windows Update veröffentlicht werden.
+ 
+
+## Für rechenintensive Arbeitslasten entwickelt
+
+Das DGM-Buch 3 mit Quadro RTX 3000 bietet die beste Grafikleistung eines beliebigen Surface-Laptops, sodass erfahrene Experten von überall aus arbeiten können.
+ 
+- **Kreative Fachleute wie Designer und Animatoren.** Quadro RTX ermöglicht das Rendering in Echtzeit in Kinoqualität über Turing-optimierte Raytracing-APIs wie NVIDIA OptiX, Microsoft DXR und Vulkan.
+- **Architekten und Ingenieure, die große, komplexe CAD-Modelle (Computer Aided Design) und Baugruppen verwenden.** Die RTX-Plattform bietet das neue NGX-SDK, mit dem Sie leistungsstarke, von der Ki erweiterte Funktionen in visuelle Anwendungen einfließen können. Dadurch werden Zeit und Ressourcen durch intelligente Manipulation von Bildern, die Automatisierung von wiederkehrenden Aufgaben und die Optimierung rechenintensiver Prozesse freigegeben.
+- **Software Entwickler in den Bereichen Produktion, Medien und Unterhaltung, Medizin und andere Branchen.** Quadro RTX beschleunigt die Anwendungsentwicklung mit Raytracing, Deep Learning und Rasterung mithilfe von branchenführenden Software-SDKs und-APIs.
+- **Daten Wissenschaftler verwenden Tensor-Kerne und CUDA-Kerne, um rechenintensive Aufgaben und andere tief greifende Lernvorgänge zu beschleunigen.** Durch die Verwendung von Sensoren, erhöhte Konnektivität und tiefes lernen können Forscher und Entwickler AI-Anwendungen für alles ermöglichen, von autonomen Vehikeln bis zu wissenschaftlicher Forschung.
+
+ 
+**Tabelle1. Quadro RTX 3000-Leistungsfeatures**
+
+| **Komponente**                                       | **Beschreibung**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| RT-Kerne                                            | Mithilfe einer dedizierten hardwarebasierten Raytracing-Technologie kann die GPU Filmqualität, fotorealistische Objekte und Umgebungen mit physikalisch exakten Schatten, Reflexionen und Brechungen rendern.  Das Echtzeit-Raytracing-Modul arbeitet mit NVIDIA-OptiX-, Microsoft DXR-und Vulkan-APIs zusammen, um einen realistischen Realismus zu liefern, der weit über das hinausgeht, was mithilfe herkömmlicher Rendering-Techniken möglich ist. RT-Kerne beschleunigen die Durchquerung und Raytracing-Funktionen der Bounding Volume-Hierarchie (BVH) mit einer geringen Anzahl von Strahlen, die durch ein Pixel gegossen werden.                                     |
+| Erweiterte Tensor-Kerne                               | Gemischte Präzisions-Kerne, die für Deep Learning Matrix-Arithmetik entwickelt wurden, liefern 8X-TFLOPS für Schulungen im Vergleich zur vorherigen Generation.  Quadro RTX 3000 nutzt 240 Tensor-Cores; jeder Tensor-Core führt 64-Gleitkomma verschmolzenen multiplizieren (FMA)-Operationen pro Uhr durch, und jeder Streaming-Multiprozessor (SM) führt insgesamt 1.024 einzelne Gleitkommaoperationen pro Uhr durch. Zusätzlich zur Unterstützung von FP16/FP32-Matrix Vorgängen wurden in neuen Tensor-Kernen int8 (2.048-Ganzzahl-Operationen pro Uhr) sowie experimentelle INT4-und int1-Präzisions Modi für matrixvorgänge hinzugefügt. |
+| Turing-optimierte Software                           | Deep Learning-Frameworks wie Microsoft Cognitive Toolkit (CNTK), Caffe2, MXNet, TensorFlow und andere bieten deutlich schnellere Schulungszeiten und höhere mehrstufige Schulungs Leistung. GPU-beschleunigte Bibliotheken wie "cuDNN", "cuBLAS" und "TensorRT" bieten höhere Leistung sowohl für Deep-Learning-Rückschluss als auch für HPC-Anwendungen (High-Performance Computing).                                                                                                                                                                                           |
+| NVIDIA CUDA Parallel Computing-Plattform             | Führen Sie systemeigene Standard Programmiersprachen wie C/C++ und Fortran sowie APIs wie OpenCL, OpenACC und Direct Compute aus, um Techniken wie Raytracing, Video-und Bildverarbeitung sowie die Fluiddynamik für Berechnungen zu beschleunigen.                                                                                                                                                                                                                                                                                                                                        |
+| Erweiterte Streaming-Multiprozessor (SM)-Architektur | Kombinierter Shared Memory-und L1-Cache verbessern die Leistung erheblich, während Sie die Programmierung vereinfachen und die Optimierung verringern, die erforderlich ist, um die optimale Anwendungsleistung zu erzielen.                                                                                                                                                                                                                                                                                                                                                                                                |
+| Hochleistungs-GDDR6-Speicher             | Quadro RTX 3000 verfügt über 6 GB Framepuffer und ist damit die ideale Plattform für den Umgang mit umfangreichen Datasets und Latenz empfindlichen Anwendungen.                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Einzelne Anweisung, mehrere Threads (SIMT)          | Neue unabhängige Thread-Planungsfunktion ermöglicht eine feinere Synchronisierung und Zusammenarbeit zwischen parallelen Threads, indem Ressourcen zwischen kleinen Aufträgen freigegeben werden.                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Mixed-Precision-Computing                           | 16-Bit-Gleitkomma Präzisionsberechnungen ermöglichen die Schulung und Bereitstellung größerer neuronaler Netzwerke. Mit unabhängigen parallelen ganzzahligen und Gleitkommadaten Pfaden verarbeitet der Turing SM Arbeitslasten effizienter mit einer Kombination aus Berechnungs-und Adressierungs Berechnungen.                                                                                                                                                                                                                                                                                          |
+| Dynamischer Lastenausgleich                              | Bietet dynamische Zuordnungsfunktionen für GPU-Ressourcen für Grafiken und Rechenaufgaben nach Bedarf, um die Ressourcennutzung zu maximieren.                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Rechen Unterbrechung                                  | Unterbrechung auf Anweisungsebene bietet eine feinere Körnungs Kontrolle über Rechenaufgaben, um zu verhindern, dass Anwendungen mit langer Laufzeit entweder Systemressourcen monopolisieren oder ein Timeout durchführen.                                                                                                                                                                                                                                                                                                                                                                                            |
+| H. 264, h. 265 und HEVC kodieren/Decodieren von Modulen         | Ermöglicht schnellere als Echtzeitleistung für Transcodierung, Videobearbeitung und andere Codierungs Anwendungen mit zwei dedizierten H. 264-und HEVC-Codierungs Modulen sowie einem dedizierten Decodierungs Modul, das unabhängig von der 3D/Compute-Pipeline ist.                                                                                                                                                                                                                                                                                                                                        |
+| NVIDIA GPU-Boost 4,0                                |  Maximiert die Anwendungsleistung automatisch, ohne den Leistungs-und thermischen Umschlag der GPU zu überschreiten.  Ermöglicht es Anwendungen, im Boost Clock-Status länger unter einem höheren Temperaturgrenzwert zu bleiben, bevor Sie auf eine sekundäre Temperatureinstellung Base Clock fallen.                                                                                                                                                                                                                                                                                               |
+
+ **Tabelle 2 Quadro RTX-Technische Daten**
+
+| **Komponente**                                              | **Beschreibung** |
+| ---------------------------------------------------------- | --------------- |
+| NVIDIA CUDA-Prozessorkerne                               | 1.920           |
+| NVIDIA RT-Kerne                                            | 30              |
+| Tensor-Kerne                                               | 240             |
+| GPU-Speicher                                                 | 6 GB            |
+| Speicherbandbreite                                           | 288 Gbit/s        |
+| Arbeitsspeichertyp                                                | GDDR6           |
+| Speicherschnittstelle                                           | 192-Bit         |
+| TGP max. Stromverbrauch                                  | 65W             |
+| Port anzeigen                                               | 1,4             |
+| OpenGL                                                     | 4,6             |
+| Shader-Modell                                               | 5,1             |
+| DirectX                                                    | 12,1            |
+| PCIe-Generierung                                            | 3               |
+| Gleitkommaleistung mit einfacher Genauigkeit (TFLOPS, Peak) | 5,4             |
+| Tensor-Leistung (Tops, Peak)                            | 42,9            |
+| NVIDIA FXAA/TX AA-Antialiasing                             | Ja             |
+| GPU Direct für Video                                       | Ja             |
+| Vulkan-Unterstützung                                             | Ja             |
+| NVIDIA 3D Vision pro                                       | Ja             |
+| NVIDIA Optimus                                             | Ja             |
+
+ 
+## App-Beschleunigung
+
+Die folgende Tabelle zeigt, wie Quadro RTX 3000 für führende professionelle Anwendungen eine deutlich schnellere Beschleunigung bietet. Sie umfasst SPECview perf 13-Benchmark-Testergebnisse, die das Surface Book 3 15-inch mit NVIDIA Quadro RTX 3000 versus dem Surface Book 2 15-inch mit NVIDIA GeForce GTX 1060-Geräten im Markt ab März 2020 vergleichen.
+
+**Tabelle 3. App-Beschleunigung auf Surface Book 3 mit Quadro RTX 3000**
+
+| **App**                                     | **Quadro RTX 3000-App-Beschleunigungsfunktionen**<br>                                                                                                                                                                                                                                                                                                                                          |
+| ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Adobe-Dimension                             | -RTX-Accelerated Ray Tracing liefert fotorealistische 3D-Renderings an 2D-Künstler und-Designer.                                                                                                                                                                                                                                                                                                     |
+| Adobe Substance Alchemist                   | – Mit RTX-beschleunigter Ki können Sie Materialien mühelos erstellen und verschmelzen.                                                                                                                                                                                                                                                                                                                             |
+| Adobe Substance Painter                     | -Malen Sie Materialien auf 3D-Modelle, mit RTX-beschleunigten Bäckern und iray RTX-Rendering, das fotorealistische Bilder für interaktive und Batch-Rendering-Workflows generiert. <br>                                      |
+| Adobe Substance-Designer                    | -Autoren von prozeduralen Materialien mit RTX-beschleunigten Bäckern<br>– Verwendet das NVIDIA iray-Rendering, einschließlich Texturen/Substanzen und Bitmap-Textur Export, um in allen iray zu rendern, die mit MDL kompatibel sind.<br>-DXR-beschleunigtes Licht-und Umgebungs-Okklusion-backen.                                                                                                                                  |
+| Adobe Photoshop                             | -CUDA Core Acceleration ermöglicht schnellere Bearbeitung mit mehr als 30 GPU-beschleunigten Features wie Blur Gallery, verflüssigen, Smart schärfen und Perspective Warp ermöglichen Fotografen und Designern, Bilder reibungslos und schnell zu ändern.                                                                                                                                                                        |
+| Adobe Lightroom                             | -Schnellere Bearbeitung von Bildern mit hoher Auflösung mit GPU-beschleunigtem Viewport, wodurch größere 3D-Szenen modelliert und komplexere Animationen manipuliert werden können.<br>– Die GPU-beschleunigte Bildverarbeitung ermöglicht deutlich schnellere Anpassungen, insbesondere bei 4K-oder höher Auflösungen.<br>-GPU-beschleunigte AI-powered "Enhance Details" für die Verfeinerung der feinen Farbdetails von RAW-Bildern. |
+| Adobe Illustrator                           | -Schwenken und Zoomen Sie mit GPU-beschleunigter Leinwand schneller, wodurch Grafikdesigner und Illustratoren komplexe Vektorgrafiken problemlos und interaktiv überqueren und verkleinern können.                                                                                                                                                                                                        |
+| Adobe<br>Premiere Pro                       | -Deutlich schnellere Bearbeitung und Wiedergabe von Videos mit GPU-beschleunigten Effekten vs CPU.<br>-GPU-beschleunigte Effekte mit NVIDIA CUDA-Technologie für Videobearbeitung in Echtzeit und schnelleres Rendern des endgültigen Frames.<br>-GPU-beschleunigte Ki-Auto-Umrechnungsfunktion für die intelligente Umwandlung von Landschafts Video in dynamisch nachverfolgtes hoch-oder quadratisches Video.                                           |
+| Autodesk<br>Revit                           | – GPU-beschleunigtes Ansichtsfenster für eine reibungslosere, interaktivere Designoberfläche.<br>– Unterstützt GPU-beschleunigte 3D-Renderer von Drittanbietern wie V-Ray und enscape.                                                                                                                                                                                                                                      |
+| Autodesk<br>3ds Max                         | -GPU-beschleunigte Viewport-Grafiken für schnelle, interaktive 3D-Modellierung und Design.<br>-RTX-beschleunigte Raytracing-und AI-Denoising mit dem standardmäßigen Arnold-Renderer.<br>-Mehr als 70 Prozent schneller verglichen mit dem Surface Book 2 15 ".                                                                                                                                               |
+| Autodesk<br>Maya                            | -RTX-beschleunigte Raytracing-und AI-Denoising mit dem standardmäßigen Arnold-Renderer.<br>-OpenGL-Viewport-Beschleunigung.                                                                                                                                                                                                                                                                             |
+| Dassault Systèmes<br>SolidWorks             | -SolidWorks Interactive Ray tracer (visualisieren), beschleunigt durch RT-Kerne und Tensor-Cores; AI-beschleunigter DeNoiser.<br>-Führt mehr als 50% schneller im Vergleich zu Surface Book 2 15 "aus.                                                                                                                                                                                                             |
+| Dassault Systèmes<br>3D-Erlebnisplattform | -CATIA Interactive Ray tracer (Live Rendering) wird durch RT-Kerne beschleunigt.<br>-CATIA läuft mit mehr als 100% schneller als mit dem Surface Book 2 15 ".                                                                                                                                                                                                                                                     |
+| ImageVis3D                                  | -Mehr als 2X schneller läuft im Vergleich zu Surface Book 2 15 ".                                                                                                                                                                                                                                                                                                                                       |
+| McNeel & Associates<br>Rhino 3D             | – GPU-beschleunigtes Ansichtsfenster für eine reibungslose und interaktive Modellierung und Design Erfahrung.<br>-Unterstützt Zyklen für GPU-beschleunigtes 3D-Rendering.                                                                                                                                                                                                                                                     |
+| Siemens NX                                  | -Siemens NX Interactive Ray tracer (ray traced Studio), beschleunigt durch RT-Cores.<br>-Mehr als 10X schneller läuft im Vergleich zu Surface Book 2 15 ".                                                                                                                                                                                                                                                 |
+| ESRI ArcGIS                                 | -Echtzeit-Ergebnisse aus dem, was Tage und Wochen dauerte, aufgrund von DL-einseitiger Nutzung von Tensor-Kernen.                                                                                                                                                                                                                                                                                                     |
+| PTC Creo                                    | -Creos Echt Zeit technisches Simulationstool (Creo Simulation Live), das auf CUDA basiert.<br>-Führt mehr als 15% schneller im Vergleich zu Surface Book 2 15 ".                                                                                                                                                                                                                                               |
+| Luxion-keyshot                              | -interaktiver Ray tracer von Drittanbietern, der von SolidWorks, Creo und Rhino verwendet wird. Beschleunigt durch RT-Cores, Optix™ AI-Accelerated Denoising.                                                                                                                                                                                                                                                                   |
+| ANSYS<br>Live Discovery                     | -ANSYS Real-Time Engineering-Simulationstool (ANSYS Discovery Live), das auf CUDA basiert.                                                                                                                                                                                                                                                                                                                  |
+## SKUs
+
+**Tabelle4. DGM-Buch 3 mit Quadro RTX 3000 SKUs**
+
+| **Anzeige** | **Prozessor**                     | **GPU**                                                                                          | **RAM**    | **Speicher** |
+| ----------- | --------------------------------- | ------------------------------------------------------------------------------------------------ | ---------- | ----------- |
+| 15 Zoll | Quadcore-Core i7-1065G7 | Intel IRIS™ plus-Grafiken<br>NVIDIA Quadro RTX 3000. Max-Q-Design mit 6 GB GDDR6-Grafikspeicher | 32 LPDDR4x | 512 GB      |
+| 15 Zoll | Quadcore-Core i7-1065G7 | Intel IRIS™ plus-Grafiken<br>NVIDIA Quadro RTX 3000. Max-Q-Design mit 6 GB GDDR6-Grafikspeicher | 32 LPDDR4x | 1 TB        |
+
+## Zusammenfassung
+
+Das Surface Book 3 mit Quadro RTX 3000 bietet die beste Grafikleistung eines beliebigen Surface-Laptops und bietet Architekten, Ingenieuren, Entwicklern und Daten Wissenschaftlern die Tools, die Sie benötigen, um von überall aus effizient zu arbeiten:
+ 
+- RTX – Beschleunigung über mehrere Workflows wie Design, Animation, Videoproduktion und vieles mehr.
+- Leistung auf Desktop-Niveau in einem mobilen Formfaktor.
+- Funktionen der Unternehmensklasse, Zuverlässigkeit und Unterstützung für unternehmenskritische Projekte.
+
+## Mehr erfahren
+
+- [Surface Book 3 GPU – technische Übersicht](surface-book-GPU-overview.md)
+- [Surface für Unternehmen](https://www.microsoft.com/surface/business)
+- [Microsoft Cognitive Toolkit (CNTK)](https://docs.microsoft.com/cognitive-toolkit/)

@@ -1,0 +1,100 @@
+### YamlMime:Landing
+title: Dokumentation zu Surface-Geräten
+summary: Nutzen Sie die Leistungsfähigkeit von Surface, Windows und Office, die über die Cloud miteinander verbunden sind.
+metadata:
+  title: Dokumentation zu Surface-Geräten
+  description: Erste Schritte mit Microsoft Surface-Geräten
+  ms.service: product-insights
+  ms.topic: landing-page
+  manager: laurawi
+  author: greg-lindsay
+  ms.author: greglin
+  audience: itpro
+  ms.localizationpriority: High
+  ms.openlocfilehash: 90908a9ff95875cf0c3337bf0b8e93f7bfc42e53
+  ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+  ms.translationtype: MT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 06/27/2020
+  ms.locfileid: "10834151"
+landingContent:
+- title: Surface-Geräte
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Surface Go 2 für Unternehmen
+      url: https://www.microsoft.com/surface/business/surface-go-2
+    - text: DGM-Buch 3 für Unternehmen
+      url: https://www.microsoft.com/surface/business/surface-book-3
+    - text: Entdecken Sie alle Produkte der Surface-Familie
+      url: https://www.microsoft.com/surface/business
+- title: Erste Schritte
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Surface Book 3 GPU – technische Übersicht
+      url: surface-book-gpu-overview.md
+    - text: DGM-Buch 3 Quadro RTX 3000 – technische Übersicht
+      url: surface-book-quadro.md
+    - text: Neuerungen in Surface Dock 2
+      url: surface-dock-whats-new.md
+- title: Bereitstellen von Surface-Geräten
+  linkLists:
+  - linkListType: deploy
+    links:
+    - text: Surface Deployment Accelerator-Tool
+      url: microsoft-surface-deployment-accelerator.md
+    - text: Autopilot- und Surface-Geräte
+      url: windows-autopilot-and-surface-devices.md
+    - text: Virtueller Windows-Desktop auf Surface
+      url: windows-virtual-desktop-surface.md
+- title: Verwalten von Oberflächen Geräten
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Verwalten und Bereitstellen von Treiber- und Firmwareupdates für Surface
+      url: manage-surface-driver-and-firmware-updates.md
+    - text: Bewährte Methoden für die Energieeinstellungen für Surface-Geräte
+      url: maintain-optimal-power-settings-on-Surface-devices.md
+    - text: Optimieren der WLAN-Konnektivität für Surface-Geräte
+      url: surface-wireless-connect.md
+- title: Durchsuchen von Sicherheitsrichtlinien
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Sichere Surface Dock 2-Anschlüsse mit Surface Enterprise Management Mode (Semm)
+      url: secure-surface-dock-ports-semm.md
+    - text: Intune-Verwaltung von Surface UEFI-Einstellungen
+      url: surface-manage-dfci-guide.md
+    - text: Surface Data Eraser-Tool
+      url: microsoft-surface-data-eraser.md
+- title: Erkunden von Surface-Tools
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Surface-Diagnosetoolkit für Unternehmen
+      url: surface-diagnostic-toolkit-for-business-intro.md
+    - text: SEMM und UEFI
+      url: surface-enterprise-management-mode.md
+    - text: Einstellungen für Akkulimit
+      url: battery-limit.md
+- title: Durchsuchen von Supportlösungen
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: Top-Supportlösungen
+      url: support-solutions-surface.md
+    - text: Schützen Ihrer Daten während der Reparatur oder des Diensts
+      url: https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service
+    - text: Problembehandlung bei Surface Dock und Dockingstations
+      url: https://support.microsoft.com/help/4023468/surface-troubleshoot-surface-dock-and-docking-stations
+- title: Teilnehmen an Surface Community
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: Surface IT Pro Blog
+      url: https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro
+    - text: Tech Community für Surface-Geräte
+      url: https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices
+    - text: Videos zu Surface von Microsoft Mechanics
+      url: https://www.youtube.com/watch?v=Uk2kJ5FUZxY&list=PLXtHYVsvn_b__1Baibdu4elN4SoF3JTBZ
