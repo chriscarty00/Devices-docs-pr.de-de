@@ -1,0 +1,99 @@
+---
+title: Sitzung beenden – Beenden einer Surface Hub-Besprechung
+description: Tippen Sie zum Beenden einer Surface Hub-Besprechung auf „Sitzung beenden“. Surface Hub bereinigt den Status der Anwendung und des Betriebssystems und die Benutzeroberfläche, sodass Surface Hub für die nächste Besprechung bereit ist.
+keywords: Fertig, Surface Hub-Besprechung beenden, Surface Hub-Besprechung bereinigen
+ms.prod: surface-hub
+ms.sitesec: library
+author: dansimp
+ms.author: dansimp
+ms.topic: article
+ms.date: 07/27/2017
+ms.reviewer: ''
+manager: laurawi
+ms.localizationpriority: medium
+ms.openlocfilehash: b18bc4b15b8a3925aeecdd9999b09b61011d1db5
+ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "10833694"
+---
+# <span data-ttu-id="38ae6-105">Beenden einer Surface Hub-Besprechung mit „Sitzung beenden“.</span><span class="sxs-lookup"><span data-stu-id="38ae6-105">End a Surface Hub meeting with End session</span></span>
+<span data-ttu-id="38ae6-106">Surface Hub ist ein Gerät für die Zusammenarbeit, das in Besprechungsräumen von verschiedenen Gruppen von Personen verwendet werden kann.</span><span class="sxs-lookup"><span data-stu-id="38ae6-106">Surface Hub is a collaboration device designed to be used in meeting spaces by different groups of people.</span></span> <span data-ttu-id="38ae6-107">Am Ende einer Besprechung können Benutzer auf **Sitzung beenden** tippen, um vertrauliche Daten zu entfernen und das Gerät für die nächste Besprechung vorzubereiten.</span><span class="sxs-lookup"><span data-stu-id="38ae6-107">At the end of a meeting, users can tap **End session** to clean up any sensitive data and prepare the device for the next meeting.</span></span> <span data-ttu-id="38ae6-108">Der Surface Hub bereinigt bzw. setzt folgende Komponenten zurück:</span><span class="sxs-lookup"><span data-stu-id="38ae6-108">Surface Hub will clean up, or reset, the following states:</span></span>
+- <span data-ttu-id="38ae6-109">Anwendungen</span><span class="sxs-lookup"><span data-stu-id="38ae6-109">Applications</span></span>
+- <span data-ttu-id="38ae6-110">Betriebssystem</span><span class="sxs-lookup"><span data-stu-id="38ae6-110">Operating system</span></span>
+- <span data-ttu-id="38ae6-111">Benutzeroberfläche</span><span class="sxs-lookup"><span data-stu-id="38ae6-111">User interface</span></span>
+
+<span data-ttu-id="38ae6-112">In diesem Thema wird beschrieben, welche Elemente der einzelnen Komponenten mittels **Sitzung beenden** zurückgesetzt werden.</span><span class="sxs-lookup"><span data-stu-id="38ae6-112">This topic explains what **End session** resets for each of these states.</span></span>
+
+## <span data-ttu-id="38ae6-113">Anwendungen</span><span class="sxs-lookup"><span data-stu-id="38ae6-113">Applications</span></span>
+<span data-ttu-id="38ae6-114">Wenn Sie Apps auf Surface Hub starten, werden sie im Arbeitsspeicher gespeichert. Die Daten werden auf der Anwendungsebene gespeichert.</span><span class="sxs-lookup"><span data-stu-id="38ae6-114">When you start apps on Surface Hub, they are stored in memory and data is stored at the application level.</span></span> <span data-ttu-id="38ae6-115">Während einer Sitzung (oder Besprechung) sind die Daten für alle Benutzer verfügbar, bis sie entfernt oder überschrieben werden.</span><span class="sxs-lookup"><span data-stu-id="38ae6-115">Data is available to all users during that session (or meeting) until date is removed or overwritten.</span></span> <span data-ttu-id="38ae6-116">Wenn **Sitzung beenden** ausgewählt ist, wird der Surface Hub-Anwendungszustand bereinigt, indem Anwendungen geschlossen, Browserverlauf gelöscht, Anwendungen zurückgesetzt und Skype-Protokolle entfernt werden.</span><span class="sxs-lookup"><span data-stu-id="38ae6-116">When **End session** is selected, Surface Hub application state is cleared out by closing applications, deleting browser history, resetting applications, and removing Skype logs.</span></span>
+
+### <span data-ttu-id="38ae6-117">Schließen von Anwendungen</span><span class="sxs-lookup"><span data-stu-id="38ae6-117">Close applications</span></span>
+<span data-ttu-id="38ae6-118">Surface Hub schließt alle sichtbaren Fenster, einschließlich der Win32-Anwendung und der Universellen Windows-Plattform (UWP).</span><span class="sxs-lookup"><span data-stu-id="38ae6-118">Surface Hub closes all visible windows, including Win32 and Universal Windows Platform (UWP) applications.</span></span> <span data-ttu-id="38ae6-119">Wenn die Anwendung geschlossen ist, wird die Multitasking-Ansicht verwendet, um die angezeigten Fenster abzufragen.</span><span class="sxs-lookup"><span data-stu-id="38ae6-119">The application close stage uses the multitasking view to query the visible windows.</span></span> <span data-ttu-id="38ae6-120">Win32-Fenster, die innerhalb eines bestimmten Zeitrahmens nicht schließen, werden mit **TerminateProcess** geschlossen.</span><span class="sxs-lookup"><span data-stu-id="38ae6-120">Win32 windows that do not close within a certain timeframe are closed using **TerminateProcess**.</span></span> 
+   
+### <span data-ttu-id="38ae6-121">Löschen des Browserverlaufs</span><span class="sxs-lookup"><span data-stu-id="38ae6-121">Delete browser history</span></span>
+<span data-ttu-id="38ae6-122">Surface Hub verwendet die Funktion zum Löschen des Bildverlaufs (Delete Browser History, DBH) in Microsoft Edge, um den Edge-Verlauf und die zwischengespeicherten Daten zu löschen.</span><span class="sxs-lookup"><span data-stu-id="38ae6-122">Surface Hub uses Delete Browser History (DBH) in Edge to clear Edge history and cached data.</span></span> <span data-ttu-id="38ae6-123">Das ist vergleichbar damit, wenn ein Benutzer den Browserverlauf manuell löscht. Mit **Sitzung beenden** wird jedoch sichergestellt, dass auch die Anwendungszustände gelöscht und die Daten vor Beginn der nächsten Sitzung oder Besprechung entfernt werden.</span><span class="sxs-lookup"><span data-stu-id="38ae6-123">This is similar to how a user can clear out their browser history manually, but **End session** also ensures that application states are cleared and data is removed before the next session, or meeting, starts.</span></span> 
+ 
+### <span data-ttu-id="38ae6-124">Zurücksetzen von Anwendungen</span><span class="sxs-lookup"><span data-stu-id="38ae6-124">Reset applications</span></span>
+<span data-ttu-id="38ae6-125">**Sitzung beenden** setzt den Status jeder Anwendung zurück, die auf Surface Hub installiert ist.</span><span class="sxs-lookup"><span data-stu-id="38ae6-125">**End session** resets the state of each application that is installed on the Surface Hub.</span></span> <span data-ttu-id="38ae6-126">Durch das Zurücksetzen einer Anwendung werden alle Hintergrundaufgaben, Anwendungsdaten, Benachrichtigungen und Benutzerzustimmungs-Dialogfelder gelöscht.</span><span class="sxs-lookup"><span data-stu-id="38ae6-126">Resetting an application clears all background tasks, application data, notifications, and user consent dialogs.</span></span> <span data-ttu-id="38ae6-127">Anwendungen werden für die nächsten Benutzer in den Zustand der ersten Ausführung zurückgesetzt, die Surface Hub verwenden.</span><span class="sxs-lookup"><span data-stu-id="38ae6-127">Applications are returned to their first-run state for the next people that use Surface Hub.</span></span>  
+ 
+### <span data-ttu-id="38ae6-128">Entfernen von Skype-Protokollen</span><span class="sxs-lookup"><span data-stu-id="38ae6-128">Remove Skype logs</span></span>
+<span data-ttu-id="38ae6-129">Skype speichert keine personenbezogenen Informationen auf Surface Hub.</span><span class="sxs-lookup"><span data-stu-id="38ae6-129">Skype does not store personally-identifiable information on Surface Hub.</span></span> <span data-ttu-id="38ae6-130">Informationen werden im Skype-Dienst gespeichert, um vorhandene Skype for Business-Richtlinien zu erfüllen.</span><span class="sxs-lookup"><span data-stu-id="38ae6-130">Information is stored in the Skype service to meet existing Skype for Business guidance.</span></span> <span data-ttu-id="38ae6-131">Lokale Skype-Protokollinformationen sind die einzigen Daten, die entfernt werden, wenn **Sitzung beenden** ausgewählt wird.</span><span class="sxs-lookup"><span data-stu-id="38ae6-131">Local Skype logging information is the only data removed when **End session** is selected.</span></span> <span data-ttu-id="38ae6-132">Dazu zählen Protokolle von Unified Communications Client Platform (UCCP) und Medien-Protokolle.</span><span class="sxs-lookup"><span data-stu-id="38ae6-132">This includes Unified Communications Client Platform (UCCP) logs and media logs.</span></span>   
+
+## <span data-ttu-id="38ae6-133">Betriebssystem</span><span class="sxs-lookup"><span data-stu-id="38ae6-133">Operating System</span></span>
+<span data-ttu-id="38ae6-134">Im Betriebssystem wird eine Vielzahl von Informationen über den Zustand der Sitzungen gehostet, die nach jeder Surface Hub-Besprechung gelöscht werden müssen.</span><span class="sxs-lookup"><span data-stu-id="38ae6-134">The operating system hosts a variety of information about the state of the sessions that needs to be cleared after each Surface Hub meeting.</span></span> 
+
+### <span data-ttu-id="38ae6-135">Dateisystem</span><span class="sxs-lookup"><span data-stu-id="38ae6-135">File System</span></span>
+<span data-ttu-id="38ae6-136">Die Teilnehmer einer Besprechung haben Zugriff auf eine begrenzte Zahl an Verzeichnissen auf dem Surface Hub.</span><span class="sxs-lookup"><span data-stu-id="38ae6-136">Meeting attendees have access to a limited set of directories on the Surface Hub.</span></span> <span data-ttu-id="38ae6-137">Wenn **Sitzung beenden** ausgewählt wird, löscht Surface Hub diese Verzeichnisse:</span><span class="sxs-lookup"><span data-stu-id="38ae6-137">When **End session** is selected, Surface Hub clears these directories:</span></span><br>
+- <span data-ttu-id="38ae6-138">Musik</span><span class="sxs-lookup"><span data-stu-id="38ae6-138">Music</span></span>
+- <span data-ttu-id="38ae6-139">Videos</span><span class="sxs-lookup"><span data-stu-id="38ae6-139">Videos</span></span>
+- <span data-ttu-id="38ae6-140">Dokumente</span><span class="sxs-lookup"><span data-stu-id="38ae6-140">Documents</span></span>
+- <span data-ttu-id="38ae6-141">Bilder</span><span class="sxs-lookup"><span data-stu-id="38ae6-141">Pictures</span></span>
+- <span data-ttu-id="38ae6-142">Downloads</span><span class="sxs-lookup"><span data-stu-id="38ae6-142">Downloads</span></span>
+
+<span data-ttu-id="38ae6-143">Surface Hub löscht auch diese Verzeichnisse, da viele Anwendungen oft in diese schreiben:</span><span class="sxs-lookup"><span data-stu-id="38ae6-143">Surface Hub also clears these directories, since many applications often write to them:</span></span>
+- <span data-ttu-id="38ae6-144">Desktop</span><span class="sxs-lookup"><span data-stu-id="38ae6-144">Desktop</span></span>
+- <span data-ttu-id="38ae6-145">Favoriten</span><span class="sxs-lookup"><span data-stu-id="38ae6-145">Favorites</span></span>
+- <span data-ttu-id="38ae6-146">Zuletzt verwendet</span><span class="sxs-lookup"><span data-stu-id="38ae6-146">Recent</span></span>
+- <span data-ttu-id="38ae6-147">Öffentliche Dokumente</span><span class="sxs-lookup"><span data-stu-id="38ae6-147">Public Documents</span></span>
+- <span data-ttu-id="38ae6-148">Öffentliche Musik</span><span class="sxs-lookup"><span data-stu-id="38ae6-148">Public Music</span></span>
+- <span data-ttu-id="38ae6-149">Öffentliche Videos</span><span class="sxs-lookup"><span data-stu-id="38ae6-149">Public Videos</span></span>
+- <span data-ttu-id="38ae6-150">Öffentliche Downloads</span><span class="sxs-lookup"><span data-stu-id="38ae6-150">Public Downloads</span></span>
+
+### <span data-ttu-id="38ae6-151">Anmeldeinformationen</span><span class="sxs-lookup"><span data-stu-id="38ae6-151">Credentials</span></span>
+<span data-ttu-id="38ae6-152">Benutzeranmeldeinformationen, die in **TokenBroker**, **PasswordVault** oder in der **Anmeldeinformationsverwaltung** gespeichert sind, werden gelöscht, wenn Sie auf **Sitzung beenden** tippen.</span><span class="sxs-lookup"><span data-stu-id="38ae6-152">User credentials that are stored in **TokenBroker**, **PasswordVault**, or **Credential Manager** are cleared when you tap **End session**.</span></span>
+
+## <span data-ttu-id="38ae6-153">Benutzeroberfläche</span><span class="sxs-lookup"><span data-stu-id="38ae6-153">User interface</span></span>
+<span data-ttu-id="38ae6-154">Die Einstellungen der Benutzeroberfläche (UI) werden auf die jeweiligen Standardwerte zurückgesetzt, wenn **Sitzung beenden** ausgewählt wird.</span><span class="sxs-lookup"><span data-stu-id="38ae6-154">User interface (UI) settings are returned to their default values when **End session** is selected.</span></span> 
+
+### <span data-ttu-id="38ae6-155">Benutzeroberflächenelemente</span><span class="sxs-lookup"><span data-stu-id="38ae6-155">UI items</span></span>
+- <span data-ttu-id="38ae6-156">Reset Quick Actions to default state</span><span class="sxs-lookup"><span data-stu-id="38ae6-156">Reset Quick Actions to default state</span></span>
+- <span data-ttu-id="38ae6-157">Clear Toast notifications</span><span class="sxs-lookup"><span data-stu-id="38ae6-157">Clear Toast notifications</span></span>
+- <span data-ttu-id="38ae6-158">Reset volume levels</span><span class="sxs-lookup"><span data-stu-id="38ae6-158">Reset volume levels</span></span>
+- <span data-ttu-id="38ae6-159">Reset sidebar width</span><span class="sxs-lookup"><span data-stu-id="38ae6-159">Reset sidebar width</span></span>
+- <span data-ttu-id="38ae6-160">Reset tablet mode layout</span><span class="sxs-lookup"><span data-stu-id="38ae6-160">Reset tablet mode layout</span></span>
+- <span data-ttu-id="38ae6-161">Abmelden von Benutzern aus Office365-Besprechungen und -Dateien</span><span class="sxs-lookup"><span data-stu-id="38ae6-161">Sign user out of Office 365 meetings and files</span></span>
+
+### <span data-ttu-id="38ae6-162">Barrierefreiheit</span><span class="sxs-lookup"><span data-stu-id="38ae6-162">Accessibility</span></span>
+<span data-ttu-id="38ae6-163">Wenn **Sitzung beenden** ausgewählt wird, werden Barrierefreiheitsfeatures und Apps auf die Standardeinstellungen zurückgesetzt.</span><span class="sxs-lookup"><span data-stu-id="38ae6-163">Accessibility features and apps are returned to default settings when **End session** is selected.</span></span>
+- <span data-ttu-id="38ae6-164">Anschlagverzögerung</span><span class="sxs-lookup"><span data-stu-id="38ae6-164">Filter keys</span></span>
+- <span data-ttu-id="38ae6-165">Hoher Kontrast</span><span class="sxs-lookup"><span data-stu-id="38ae6-165">High contrast</span></span>
+- <span data-ttu-id="38ae6-166">Einrastfunktion</span><span class="sxs-lookup"><span data-stu-id="38ae6-166">Sticky keys</span></span>
+- <span data-ttu-id="38ae6-167">Umschalttasten</span><span class="sxs-lookup"><span data-stu-id="38ae6-167">Toggle keys</span></span>
+- <span data-ttu-id="38ae6-168">Tastaturmaus</span><span class="sxs-lookup"><span data-stu-id="38ae6-168">Mouse keys</span></span>
+- <span data-ttu-id="38ae6-169">Bildschirmlupe</span><span class="sxs-lookup"><span data-stu-id="38ae6-169">Magnifier</span></span>
+- <span data-ttu-id="38ae6-170">Sprachausgabe</span><span class="sxs-lookup"><span data-stu-id="38ae6-170">Narrator</span></span>
+
+### <span data-ttu-id="38ae6-171">Zwischenablage</span><span class="sxs-lookup"><span data-stu-id="38ae6-171">Clipboard</span></span>
+<span data-ttu-id="38ae6-172">Die Zwischenablage wird gelöscht, um Daten zu entfernen, die während der Sitzung in die Zwischenablage kopiert wurden.</span><span class="sxs-lookup"><span data-stu-id="38ae6-172">The clipboard is cleared to remove data that was copied to the clipboard during the session.</span></span> 
+
+## <span data-ttu-id="38ae6-173">Häufig gestellte Fragen</span><span class="sxs-lookup"><span data-stu-id="38ae6-173">Frequently asked questions</span></span>
+**<span data-ttu-id="38ae6-174">Was geschieht, wenn ich am Ende einer Besprechung vergesse, auf „Sitzung beenden“ zu tippen, und später eine andere Person den Surface Hub verwendet?</span><span class="sxs-lookup"><span data-stu-id="38ae6-174">What happens if I forget to tap End session at the end of a meeting, and someone else uses the Surface Hub later?</span></span>**<br>
+<span data-ttu-id="38ae6-175">Surface Hub bereinigt Besprechungsinhalte nur, wenn Benutzer auf **Sitzung beenden** tippen.</span><span class="sxs-lookup"><span data-stu-id="38ae6-175">Surface Hub only cleans up meeting content when users tap **End session**.</span></span> <span data-ttu-id="38ae6-176">Wenn Sie die Besprechung verlassen, ohne auf **Sitzung beenden** zu tippen, zeigt das Gerät nach einiger Zeit erneut die Willkommensseite an.</span><span class="sxs-lookup"><span data-stu-id="38ae6-176">If you leave the meeting without tapping **End session**, the device will return to the welcome screen after some time.</span></span> <span data-ttu-id="38ae6-177">Über die Willkommensseite können Benutzer die vorherige Sitzung fortsetzen oder eine neue Sitzung starten.</span><span class="sxs-lookup"><span data-stu-id="38ae6-177">From the welcome screen, users have the option to resume the previous session or start a new one.</span></span> <span data-ttu-id="38ae6-178">Sie können auch die Funktion zum Fortsetzen einer Sitzung deaktivieren, wenn **Sitzung beenden** nicht gedrückt wird.</span><span class="sxs-lookup"><span data-stu-id="38ae6-178">You can also disable the ability to resume a session if **End session** is not pressed.</span></span>
+
+**<span data-ttu-id="38ae6-179">Können Dokumente wiederhergestellt werden?</span><span class="sxs-lookup"><span data-stu-id="38ae6-179">Are documents recoverable?</span></span>**<br> <span data-ttu-id="38ae6-180">Das Entfernen von Dateien von der Festplatte bei Auswahl von **Sitzung beenden** führt zum gleichen Ergebnis wie das Löschen von Dateien von einer Festplatte.</span><span class="sxs-lookup"><span data-stu-id="38ae6-180">Removing files from the hard drive when **End session** is selected is just like any other file deletion from a hard disk drive.</span></span> <span data-ttu-id="38ae6-181">Die Daten können möglicherweise mithilfe einer Drittanbietersoftware von der Festplatte wiederhergestellt werden. Die Dateiwiederherstellung wird von Surface Hub jedoch nicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="38ae6-181">Third-party software might be able to recover data from the hard disk drive, but file recovery is not a supported feature on Surface Hub.</span></span> <span data-ttu-id="38ae6-182">Um den Verlust von Daten zu verhindern, sollten Sie benötigte Daten stets speichern, bevor Sie eine Besprechung verlassen.</span><span class="sxs-lookup"><span data-stu-id="38ae6-182">To prevent data loss, always save the data you need before leaving a meeting.</span></span>
+
+**<span data-ttu-id="38ae6-183">Entsprechen die Bereinigungsvorgänge über „Sitzung beenden“ dem Lösch- und Bereinigungsstandard DoD 5220.22-M des US-Verteidigungsministeriums?</span><span class="sxs-lookup"><span data-stu-id="38ae6-183">Do the clean-up actions from End session comply with the US Department of Defense clearing and sanitizing standard: DoD 5220.22-M?</span></span>**<br>
+<span data-ttu-id="38ae6-184">Nein.</span><span class="sxs-lookup"><span data-stu-id="38ae6-184">No.</span></span> <span data-ttu-id="38ae6-185">Derzeit erfüllen die mit **Sitzung beenden** ausgeführten Bereinigungsvorgängen nicht diesen Standard.</span><span class="sxs-lookup"><span data-stu-id="38ae6-185">Currently, the clean-up actions from **End session** do not comply with this standard.</span></span>  
+  
