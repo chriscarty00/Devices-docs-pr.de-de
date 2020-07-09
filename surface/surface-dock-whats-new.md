@@ -12,12 +12,12 @@ ms.date: 6/25/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 92838599a9d05dbe75f1caad948b97c9cb75bcac
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 1f6f4a7efb8dc345487e5e5054374f81a91a20d5
+ms.sourcegitcommit: 36bac9da2f7b0815fbceb008f869b497380c55db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832233"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "10860635"
 ---
 # Neuerungen in Surface Dock 2
 
@@ -35,19 +35,16 @@ Surface Dock 2 wurde entwickelt, um die IT-Verwaltung zu vereinfachen, sodass Ad
 - Windows 10, Version 1809. Es gibt keine Unterstützung für Windows 7-, Windows 8-oder nicht-Surface-Hostgeräte. Surface Dock 2 funktioniert mit den folgenden Surface-Geräten:
 
   - Surface pro (fünfte Generation)
-  - Surface pro (5th Gen) mit LTE Advanced
   - Surface-Laptop (1st Generation)
   - Surface Pro 6
   - Surface Book 2
   - Surface Laptop 2
   - Surface Go
-  - Surface Go mit LTE Advanced 
   - Surface Pro 7
+  - Surface Pro X 
   - Surface Laptop 3
   - DGM-Buch 3
   - Surface Go 2
-  - Surface Go 2 mit LTE Advanced
-
 
 ## Surface Dock 2-Komponenten
 
@@ -65,7 +62,6 @@ Surface Dock 2 wurde entwickelt, um die IT-Verwaltung zu vereinfachen, sodass Ad
 
   - DGM-Buch 3
   - Surface Go 2
-  - Surface Go 2 mit LTE Advanced
   - Surface Pro 7
   - Surface Pro X
   - Surface Laptop 3
@@ -74,7 +70,6 @@ Surface Dock 2 wurde entwickelt, um die IT-Verwaltung zu vereinfachen, sodass Ad
 
   - Surface Pro 6
   - Surface pro (fünfte Generation)
-  - Surface pro (5th Gen) mit LTE Advanced
   - Surface Laptop 2
   - Surface-Laptop (1st Generation)
   - Surface Go
@@ -132,4 +127,4 @@ Surface hat mithilfe von Windows Update optimierte Verwaltungsfunktionen freigeg
 
 - [Sichere Surface Dock 2-Anschlüsse mit Surface Enterprise-Verwaltungsmodus](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)
 - [Surface Enterprise Management-Modus](surface-enterprise-management-mode.md)
-- [Bewährte Methoden für die Energieeinstellungen für Surface-Geräte](maintain-optimal-power-settings-on-Surface-devices.md)
+- [Bewährte Energieeinstellungen für Surface-Geräte](maintain-optimal-power-settings-on-Surface-devices.md)
