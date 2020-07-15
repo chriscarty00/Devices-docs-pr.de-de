@@ -15,19 +15,19 @@ ms.topic: article
 ms.date: 09/26/2019
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 98de32213861aa53ac00a565d4f81f0199995077
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 88c7029c99d69818e9f0b8fddef5fc193581963a
+ms.sourcegitcommit: 608226b64ef92743b1a3361877d4c49228e3ea5d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832224"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "10868749"
 ---
 # Die wichtigsten Supportlösungen für Surface-Geräte
 
 > [!Note]
-> **Privatbenutzer**: Dieser Artikel ist nur für die Verwendung durch IT-Experten und technische Supportmitarbeiter vorgesehen und gilt nur für Surface-Geräte. Wenn Sie nach Hilfe zu einem Problem mit Ihrem Home-Gerät suchen, lesen Sie [Hilfe zu Surface Devices](https://support.microsoft.com/products/surface-devices).
+> **Privatbenutzer**: Dieser Artikel ist nur für die Verwendung durch IT-Experten und technische Supportmitarbeiter vorgesehen und gilt nur für Surface-Geräte. Wenn Sie nach Hilfe zu einem Problem mit Ihrem Home-Gerät suchen, lesen Sie [Surface Support](contact-surface-support.md?tabs=online).
 
-Dies sind die Microsoft-Support Lösungen für häufige Probleme, die bei der Verwendung von Surface-Geräten in einem Unternehmen auftreten können. Wenn Ihr Problem hier nicht aufgeführt ist, [wenden Sie sich an den Microsoft-Support](https://support.microsoft.com/supportforbusiness/productselection).
+Dies sind die Microsoft-Support Lösungen für häufige Probleme, die bei der Verwendung von Surface-Geräten in einem Unternehmen auftreten können. Wenn Ihr Problem hier nicht aufgeführt ist, [wenden Sie sich an den Surface-Support](contact-surface-support.md?tabs=online).
 
 ## Oberflächen Treiber und Firmware
 
@@ -54,7 +54,7 @@ Microsoft veröffentlicht regelmäßig Updates und Lösungen für Surface-Gerät
 
 ## Probleme mit zerbrochenem oder zerkratztem Bildschirm
 
-- [Microsoft-Support kontaktieren](https://support.microsoft.com/supportforbusiness/productselection)
+- [Surface-Support kontaktieren](contact-surface-support.md?tabs=online)
 
 ## Probleme mit der Oberfläche oder Batterie
 
