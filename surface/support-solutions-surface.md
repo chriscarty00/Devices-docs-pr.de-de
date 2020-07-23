@@ -15,17 +15,17 @@ ms.topic: article
 ms.date: 09/26/2019
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 88c7029c99d69818e9f0b8fddef5fc193581963a
-ms.sourcegitcommit: 608226b64ef92743b1a3361877d4c49228e3ea5d
+ms.openlocfilehash: 661d84adbff40ff6cd89fb0c71c60fa795f4236c
+ms.sourcegitcommit: 8738f44f2f4c86e3a45e9fbcbe6469388fc15924
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "10868749"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "10893077"
 ---
 # Die wichtigsten Supportlösungen für Surface-Geräte
 
 > [!Note]
-> **Privatbenutzer**: Dieser Artikel ist nur für die Verwendung durch IT-Experten und technische Supportmitarbeiter vorgesehen und gilt nur für Surface-Geräte. Wenn Sie nach Hilfe zu einem Problem mit Ihrem Home-Gerät suchen, lesen Sie [Surface Support](contact-surface-support.md?tabs=online).
+> **Privatbenutzer**: Dieser Artikel ist nur für die Verwendung durch IT-Experten und technische Supportmitarbeiter vorgesehen und gilt nur für Surface-Geräte. Wenn Sie nach Hilfe zu einem Problem mit Ihrem Home-Gerät suchen, lesen Sie [Hilfe zu Surface Devices](https://support.microsoft.com/products/surface-devices).
 
 Dies sind die Microsoft-Support Lösungen für häufige Probleme, die bei der Verwendung von Surface-Geräten in einem Unternehmen auftreten können. Wenn Ihr Problem hier nicht aufgeführt ist, [wenden Sie sich an den Surface-Support](contact-surface-support.md?tabs=online).
 
@@ -43,9 +43,7 @@ Microsoft veröffentlicht regelmäßig Updates und Lösungen für Surface-Gerät
 ## Probleme mit dem Surface Dock
 
 - [Problembehandlung bei Surface Dock und Dockingstations](https://support.microsoft.com/help/4023468/surface-troubleshoot-surface-dock-and-docking-stations)
-
 - [Problembehandlung beim Verbinden der Oberfläche mit einem zweiten Bildschirm](https://support.microsoft.com/help/4023496)
-
 - [Firmware-Update für Microsoft Surface Dock](https://docs.microsoft.com/surface/surface-dock-updater)
 
 ## Probleme mit dem Cover oder der Tastatur des Geräts
@@ -59,25 +57,19 @@ Microsoft veröffentlicht regelmäßig Updates und Lösungen für Surface-Gerät
 ## Probleme mit der Oberfläche oder Batterie
 
 - [Laden der Oberfläche (DGM-PSU-Informationen)](https://support.microsoft.com/help/4023496)
-
 - [Die Oberfläche des Akkus wird nicht aufgeladen oder die Oberfläche läuft nicht auf dem Akku](https://support.microsoft.com/help/4023536)
-
 - [Surface lässt sich nicht einschalten oder wird nicht aus dem Standbymodus reaktiviert](https://support.microsoft.com/help/4023537)
-
 - [Maximieren der Surface-Akkulaufzeit](https://support.microsoft.com/help/4483194)
 
 ## Gerät zurücksetzen
 
 - [Erstellen und Verwenden eines USB-Wiederherstellungs Laufwerks für Surface](https://support.microsoft.com/help/4023512)
-
 - [Häufig gestellte Fragen: Schützen Ihrer Daten, wenn Sie die Oberfläche für den Service senden](https://support.microsoft.com/help/4023508)
-
 - [Microsoft Surface Data Eraser](https://docs.microsoft.com/surface/microsoft-surface-data-eraser)
 
 ## Bereitstellungsprobleme
 
 - [Disk0 nicht gefunden, wenn Sie Windows auf Surface pro Modell 1796 oder Surface Laptop bereitstellen](https://support.microsoft.com/help/4046108)
-
 - [Surface pro-Modell 1796 und Surface Laptop 1TB-Display zwei Laufwerke](https://support.microsoft.com/help/4046105)
-
 - [System-SKU-Referenz](https://docs.microsoft.com/surface/surface-system-sku-reference)
+

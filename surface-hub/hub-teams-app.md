@@ -7,14 +7,14 @@ ms.sitesec: library
 author: greglin
 ms.author: greglin
 ms.topic: article
-ms.date: 06/15/2020
+ms.date: 07/15/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: d393385643b3f1ecad8db364e76711baa7a73aa1
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: fbdacbc2a5b0ca7e6b38dc5588ed7b0279ce0c68
+ms.sourcegitcommit: 8738f44f2f4c86e3a45e9fbcbe6469388fc15924
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10833673"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "10893037"
 ---
 # Microsoft Teams-App für Surface Hub 
 
@@ -24,6 +24,6 @@ Die Microsoft Teams-App für Surface Hub wird in regelmäßigen Abständen aktua
 ## Versionsverlauf
 | Store-App-Version | Updates                                                                                         | Im Microsoft Store veröffentlicht |
 | --------------------- | --------------------------------------------------------------------------------------------------- | -------------------------------- |
-| 0.2020.13201.0        | -3X3-Katalogansicht auf Surface Hub<br>-Möglichkeit zum Suchen nach externen Benutzern                         | 10. Juni 2020<br>            |
+| 0.2020.521.2344.0         | -3X3-Katalogansicht auf Surface Hub<br>-Möglichkeit zum Suchen nach externen Benutzern                         | 10. Juni 2020<br>            |
 | 0.2020.13201          | -Qualitätsverbesserungen und Fehlerbehebungen                                                                | 1. Juni 2020<br>          |
-| 0.2020.4301.0         | – Eingehende PSTN-Anrufe auf Surface Hub akzeptieren<br>– Ändern der Rollen von Teilnehmern/Referenten            | 21. Mai 2020                     |
+| 0.2020.4301.0         | – Eingehende PSTN-Anrufe auf Surface Hub akzeptieren<br>– Ändern der Rollen von Teilnehmern/Referenten            | 21.Mai 2020                     |
