@@ -14,25 +14,25 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.audience: itpro
-ms.openlocfilehash: 91cde5fdf4a7745d491bd2eb928baca75955b90d
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: f41974193d62e4c0cbc1e286976105c20534d906
+ms.sourcegitcommit: ed4478dd3c6116a25b1e01a3a0f5ff6c1f940013
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832830"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "10897063"
 ---
 # Verwalten und Bereitstellen von Treiber- und Firmwareupdates für Surface
 
-Wie Sie Oberflächen Treiber-und Firmware-Updates verwalten, hängt von Ihrer Umgebung und den organisatorischen Anforderungen ab. Auf Surface-Geräten wird die Firmware dem Betriebssystem als Treiber zur Verfügung gestellt und im Geräte-Manager angezeigt, sodass die Geräte-Firmware und Treiber mithilfe von Windows Update oder Windows Update für Unternehmen automatisch aktualisiert werden können. Obwohl dieser vereinfachte Ansatz für Startups und kleine oder mittelständische Unternehmen möglicherweise geeignet ist, benötigen größere Organisationen in der Regel IT-Administratoren, um Updates intern zu verteilen. Dies kann eine umfassende Planung, Anwendungskompatibilitätstests, das Testen und Überprüfen von Updates sowie die endgültige Genehmigung und Verteilung im gesamten Netzwerk beinhalten.
+Wie Sie Oberflächen Treiber-und Firmware-Updates verwalten, hängt von Ihrer Umgebung und den organisatorischen Anforderungen ab. Auf Surface-Geräten wird die Firmware dem Betriebssystem als Treiber verfügbar gemacht und im Geräte-Manager angezeigt. Auf diese Weise können Geräte-Firmware und-Treiber mithilfe von Windows Update oder Windows Update für Unternehmen automatisch aktualisiert werden. Obwohl dieser vereinfachte Ansatz für Startups und kleine oder mittelständische Unternehmen möglicherweise geeignet ist, benötigen größere Organisationen in der Regel IT-Administratoren, um Updates intern zu verteilen. Dies kann eine umfassende Planung, Anwendungskompatibilitätstests sowie das Testen und Überprüfen von Updates vor der endgültigen Genehmigung und Verteilung im gesamten Netzwerk beinhalten.
 
 > [!NOTE]
 > Dieser Artikel richtet sich an technische Support-Mitarbeiter und IT-Experten und gilt nur für Surface-Geräte. Wenn Sie Hilfe bei der Installation von Surface-Updates oder Firmware auf einem Home-Gerät benötigen, lesen Sie [Aktualisieren der Surface-Firmware und Windows 10](https://support.microsoft.com/help/4023505).
 
-Während Software verteilungslösungen auf Unternehmensniveau weiterentwickelt werden, bleibt die Geschäftslogik für die zentrale Verwaltung von Updates gleich: die Sicherheit von Surface-Geräten wird beibehalten und mit den neuesten Verbesserungen des Betriebssystems und der Features aktualisiert. Dies ist für die Aufrechterhaltung einer stabilen Produktionsumgebung und die Sicherstellung, dass Benutzer nicht produktiv sind, unerlässlich. Dieser Artikel enthält eine Übersicht über empfohlene Tools und Prozesse für größere Organisationen, um diese Ziele zu erreichen.
+Während Software verteilungslösungen auf Unternehmensniveau weiterentwickelt werden, bleibt die Geschäftslogik für die zentrale Verwaltung von Updates gleich: die Sicherheit von Surface-Geräten wird beibehalten und mit den neuesten Verbesserungen des Betriebssystems und der Features aktualisiert. Dies ist wichtig, um eine stabile Produktionsumgebung zu erhalten und sicherzustellen, dass die Benutzer nicht von der Produktivität blockiert werden. Dieser Artikel enthält eine Übersicht über empfohlene Tools und Prozesse für größere Organisationen, um diese Ziele zu erreichen.
 
 ## Zentrales Update Management in kommerziellen Umgebungen
 
-Microsoft verfügt über optimierte Tools für die Verwaltung von Geräten – einschließlich Treiber-und Firmware-Updates – in einer einzigen vereinheitlichten Benutzeroberfläche mit dem Namen [Microsoft Endpoint Manager Admin Center](https://devicemanagement.microsoft.com/) , auf das von Devicemanagement.Microsoft.com aus zugegriffen wird.
+Microsoft verfügt über optimierte Tools für die Verwaltung von Geräten, einschließlich Treiber-und Firmware-Updates, in eine einheitliche, einheitliche Benutzeroberfläche mit dem Namen [Microsoft Endpoint Manager Admin Center](https://devicemanagement.microsoft.com/) , auf die von [Devicemanagement.Microsoft.com](https://devicemanagement.microsoft.com/#home)aus zugegriffen wird.
 
 ### Verwalten von Updates mit Configuration Manager und InTune
 
@@ -40,13 +40,13 @@ Microsoft Endpoint Configuration Manager ermöglicht das Synchronisieren und Ber
 
 Detaillierte Anweisungen finden Sie in den folgenden Ressourcen:
 
-- [Verwalten von Oberflächen Treiberupdates in Configuration Manager](https://docs.microsoft.com/surface/manage-surface-driver-updates-configuration-manager)
+- [Verwalten von Surface-Treiberupdates im Konfigurations-Manager](https://docs.microsoft.com/surface/manage-surface-driver-updates-configuration-manager)
 - [Bereitstellen von Anwendungen mit Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/deploy-applications)
 - [Endpunkt-Konfigurations-Manager-Dokumentation](https://docs.microsoft.com/configmgr/)
 
 ### Verwalten von Updates mit dem Microsoft Deployment Toolkit
 
-Das Microsoft Deployment Toolkit (MDT) enthält in Endpoint Configuration Manager optionale Bereitstellungstools, die Sie je nach Umgebung verwenden möchten. Dazu gehören das Windows-Bewertungs-und Bereitstellungs-Kit (Windows ADK), Windows-System Abbild-Manager (Windows SIM), Bereitstellungs-Image-Service und-Verwaltung (DISM) und das Benutzerstatus-Migrations Tool (USMT). Sie können die neueste Version von MDT über die [Download Seite des Microsoft Deployment Toolkit](https://www.microsoft.com/download/details.aspx?id=54259)herunterladen.
+Das Microsoft Deployment Toolkit (MDT) ist im Endpunkt-Konfigurations-Manager enthalten. Es enthält optionale Bereitstellungstools, die Sie je nach Umgebung verwenden möchten. Dazu gehören das Windows-Bewertungs-und Bereitstellungs-Kit (Windows ADK), Windows-System Abbild-Manager (Windows SIM), Bereitstellungs-Image-Service und-Verwaltung (DISM) und das Benutzerstatus-Migrations Tool (USMT). Sie können die neueste Version von MDT über die [Download Seite des Microsoft Deployment Toolkit](https://www.microsoft.com/download/details.aspx?id=54259)herunterladen.
 
 Detaillierte Anweisungen finden Sie in den folgenden Ressourcen:
 
@@ -54,7 +54,7 @@ Detaillierte Anweisungen finden Sie in den folgenden Ressourcen:
 - [Bereitstellen von Windows10 mit dem Microsoft Deployment Toolkit](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/deploy-windows-10-with-the-microsoft-deployment-toolkit)
 - [Bereitstellen von Windows 10 auf Surface-Geräten mit Microsoft Deployment Toolkit](https://docs.microsoft.com/surface/deploy-windows-10-to-surface-devices-with-mdt)
 
-Oberflächen Treiber-und Firmware-Updates werden als Windows Installer-Dateien (*. msi) verpackt. Zum Bereitstellen dieser Windows Installer-Pakete können Sie Endpoint Configuration Manager oder MDT verwenden. Informationen zum Auswählen der richtigen MSI-Datei für ein Gerät und Betriebssystem finden Sie in den folgenden Anleitungen zum Herunterladen von MSI-Dateien.
+Oberflächen Treiber-und Firmware-Updates werden als Windows Installer-Dateien (*. msi) verpackt. Zum Bereitstellen dieser Windows Installer-Pakete können Sie Endpoint Configuration Manager oder MDT verwenden. Informationen dazu, wie Sie die richtige MSI-Datei für ein Gerät und ein Betriebssystem auswählen können, finden Sie in den Anleitungen in den folgenden Abschnitten zum Herunterladen von MSI-Dateien.
 
 Anweisungen zum Bereitstellen von Updates mithilfe des Endpunkt Konfigurations-Managers finden Sie unter [Bereitstellen von Anwendungen mit Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/deploy-applications). Anweisungen zum Bereitstellen von Updates mithilfe von MDT finden Sie unter [Bereitstellen eines Windows 10-Bilds mithilfe von MDT](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt).
 
@@ -68,18 +68,18 @@ Ab Endpunkt-Konfigurations-Manager können Sie Microsoft Surface-Firmware und-Tr
 
 ## Unterstützte Geräte
 
-Herunterladbare MSI-Dateien stehen für Surface-Geräte von Surface pro 2 und höher zur Verfügung. Informationen zu MSI-Dateien für die neuesten Surface-Geräte wie Surface pro 7, Surface pro X und Surface Laptop 3 sind nach der Veröffentlichung auf dieser Seite verfügbar.
+Herunterladbare MSI-Dateien stehen für die Oberfläche pro 2 und höher zur Verfügung. Informationen zu MSI-Dateien für die neuesten Surface-Geräte wie Surface pro 7 und Surface Laptop 3 sind nach der Veröffentlichung auf dieser Seite verfügbar.
 
 ## Verwalten von Firmware mit DFCI
 
-Mit DFCI-Profilen (Device Firmware Configuration Interface), die in InTune integriert sind (jetzt in [Public Preview](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows)verfügbar), erweitert die Oberfläche-UEFI-Verwaltung den modernen Verwaltungs Stapel auf die UEFI-Hardwareebene. DFCI unterstützt die Zero-Touch-Bereitstellung, beseitigt BIOS-Kennwörter, bietet die Kontrolle über Sicherheitseinstellungen, einschließlich Startoptionen und integrierte Peripheriegeräte, und legt die Grundlagen für fortschrittliche Sicherheitsszenarien in der Zukunft fest. Weitere Informationen finden Sie unter:
+Durch die Einrichtung von DFCI-Profilen (Device Firmware Configuration Interface), die in InTune integriert sind (jetzt in [Public Preview](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows)verfügbar), erweitert die Oberflächen UEFI-Verwaltung den modernen Verwaltungs Stapel auf die UEFI-Hardwareebene. DFCI unterstützt die Zero-Touch-Bereitstellung, beseitigt BIOS-Kennwörter, bietet die Kontrolle über die Sicherheitseinstellungen (einschließlich Startoptionen und integrierte Peripheriegeräte) und legt den Grundstein für fortschrittliche Sicherheitsszenarien in der Zukunft. Weitere Informationen finden Sie in den folgenden Artikeln:
 
 - [Intune-Verwaltung von Surface UEFI-Einstellungen](https://docs.microsoft.com/surface/surface-manage-dfci-guide)
 - [Ignite 2019: Ankündigung der Remoteverwaltung von Oberflächen UEFI-Einstellungen aus InTune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333).
 
 ## Bewährte Methoden für Update Bereitstellungsprozesse
 
-Um eine stabile Umgebung beizubehalten, wird dringend empfohlen, die Parität mit der neuesten Version von Windows 10 beizubehalten.  Empfehlungen für bewährte Methoden finden Sie unter [Erstellen von Bereitstellungs Ringen für Updates für Windows 10](https://docs.microsoft.com/windows/deployment/update/waas-deployment-rings-windows-10-updates).
+Um eine stabile Umgebung beizubehalten, empfehlen wir dringend, die Parität mit der neuesten Version von Windows 10 beizubehalten.  Empfehlungen für bewährte Methoden finden Sie unter [Erstellen von Bereitstellungs Ringen für Updates für Windows 10](https://docs.microsoft.com/windows/deployment/update/waas-deployment-rings-windows-10-updates).
 
 ## Herunterladbare Oberflächen Aktualisierungspakete
 
@@ -98,7 +98,7 @@ Bestimmte Versionen von Windows 10 verfügen über separate MSI-Dateien, die jew
 ### Herunterladen von MSI-Dateien
 
 1. Navigieren Sie zum [Herunterladen von Treibern und Firmware für Surface](https://support.microsoft.com/help/4023482/surface-download-drivers-and-firmware) im Microsoft Download Center.
-2. Wählen Sie den MSI-Dateinamen aus, der dem Surface-Modell und der Windows-Version entspricht. Der Name der MSI-Datei enthält die minimale unterstützte Windows-Buildnummer, die erforderlich ist, um die Treiber und die Firmware zu installieren. So können Sie beispielsweise, wie in der folgenden Abbildung gezeigt, zum Aktualisieren eines DGM-Buches 2 mit Build 18362 von Windows 10 **SurfaceBook2_Win10_18362_19.101.13994.msi auswählen.** Wählen Sie für ein DGM-Buch 2 mit Build 16299 von Windows 10 **SurfaceBook2_Win10_16299_1803509_3.msi**aus.
+2. Wählen Sie den MSI-Dateinamen aus, der dem Surface-Modell und der Windows-Version entspricht. Der Name der MSI-Datei enthält die unterstützte mindestbuildnummer für Windows, die erforderlich ist, um die Treiber und die Firmware zu installieren. Lesen Sie beispielsweise die folgende Abbildung. Wenn Sie ein DGM-Buch 2 mit Build 18362 von Windows 10 aktualisieren möchten, wählen Sie **SurfaceBook2_Win10_18362_19.101.13994.msi aus.** Wählen Sie für ein DGM-Buch 2 mit Build 16299 von Windows 10 **SurfaceBook2_Win10_16299_1803509_3.msi**aus.
 
     ![Abbildung1. Herunterladen von DGM-Updates](images/fig1-downloads-msi.png)
 

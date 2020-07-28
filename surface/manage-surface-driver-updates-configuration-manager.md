@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Oberflächen Treiberupdates in Configuration Manager
+title: Verwalten von Surface-Treiberupdates im Konfigurations-Manager
 description: In diesem Artikel werden die verfügbaren Optionen zum Verwalten und Bereitstellen von Firmware-und Treiberupdates für Surface-Geräte beschrieben.
 ms.assetid: b64879c4-37eb-4fcf-a000-e05cbb3d26ea
 ms.reviewer: ''
@@ -14,14 +14,14 @@ ms.sitesec: library
 ms.author: daclark
 ms.topic: article
 audience: itpro
-ms.openlocfilehash: 1a9c8c64bd524de58696c73a28795b69cc70a7b2
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: be32309b26ff6a873c36927cc39595022c4dbb90
+ms.sourcegitcommit: ed4478dd3c6116a25b1e01a3a0f5ff6c1f940013
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10833418"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "10897073"
 ---
-# Verwalten von Oberflächen Treiberupdates in Configuration Manager
+# Verwalten von Surface-Treiberupdates im Konfigurations-Manager
 
 ## Zusammenfassung
 
@@ -162,24 +162,23 @@ Weitere Informationen zur Bereitstellung finden Sie unter [System Center 2012 Co
 
 Wenn Sie die Synchronisierung von einem Upstream-Server für Windows Server Update Services (WSUS) anstelle von Microsoft Update durchführen, stellen Sie sicher, dass der WSUS-Upstream-Server für die Unterstützung und Synchronisierung von Oberflächen Treiberupdates konfiguriert ist. Alle Downstreamserver sind auf Updates limitiert, die in der WSUS-Upstream-Server Datenbank vorhanden sind.
 
-Es gibt mehr als 68.000-Updates, die in WSUS als Treiber klassifiziert werden. Um zu verhindern, dass nicht mit der Oberfläche Verwandte Treiber mit dem Configuration Manager synchronisiert werden, wird die Treiber Synchronisierung mit einer Zulassungsliste von Microsoft gefiltert. Nachdem die neue Zulassungsliste veröffentlicht und in Configuration Manager integriert wurde, werden die neuen Treiber der Konsole nach der nächsten Synchronisierung hinzugefügt. Microsoft hat sich zum Ziel gesetzt, die Surface-Treiber jeden Monat in Einklang mit Patch Tuesday zur Liste "zulassen" hinzuzufügen, damit Sie für die Synchronisierung mit Configuration Manager zur Verfügung stehen.
+Es gibt mehr als 68.000-Updates, die in WSUS als Treiber klassifiziert werden. Um zu verhindern, dass nicht mit der Oberfläche Verwandte Treiber mit dem Configuration Manager synchronisiert werden, wird die Treiber Synchronisierung mit einer Zulassungsliste von Microsoft gefiltert. Nachdem die neue Zulassungsliste veröffentlicht und in Configuration Manager integriert wurde, werden die neuen Treiber der Konsole nach der nächsten Synchronisierung hinzugefügt. Microsoft hat sich zum Ziel gesetzt, die Oberflächen Treiber jeden Monat in Übereinstimmung mit monatlichen Updateversionen zur Liste "zulassen" hinzuzufügen, damit Sie für die Synchronisierung mit Configuration Manager zur Verfügung stehen.
 
 Wenn Ihre Configuration Manager-Umgebung offline ist, wird jedes Mal, wenn Sie [Wartungsupdates](https://docs.microsoft.com/mem/configmgr/core/servers/manage/use-the-service-connection-tool) in Configuration Manager importieren, eine neue Zulassungsliste importiert. Darüber hinaus müssen Sie einen [neuen WSUS-Katalog](https://docs.microsoft.com/mem/configmgr/sum/get-started/synchronize-software-updates-disconnected) importieren, der die Treiber enthält, bevor die Updates in der Configuration Manager-Konsole angezeigt werden. Da eine eigenständige WSUS-Umgebung mehr Treiber als ein Configuration Manager-SUP enthält, empfiehlt es sich, eine Configuration Manager-Umgebung mit Online Funktionen zu erstellen und diese für die Synchronisierung von Oberflächen Treibern zu konfigurieren. Dadurch wird ein kleinerer WSUS-Export bereitgestellt, der der Offlineumgebung ähnlich ist.
 
-Wenn Ihre Configuration Manager-Umgebung online ist und neue Updates erkennen kann, erhalten Sie automatisch Updates für die Liste. Wenn die erwarteten Treiber nicht angezeigt werden, überprüfen Sie die Funktionen "WCM. log" und "WsyncMgr. log" auf Synchronisierungsfehler.
+Wenn Ihre Configuration Manager-Umgebung online ist und neue Updates erkennen kann, erhalten Sie automatisch Updates für die Liste. Wenn die erwarteten Treiber nicht angezeigt werden, überprüfen Sie die Dateien "WCM. log" und "WsyncMgr. log" auf etwaige Synchronisierungsfehler.
 
-**Meine Configuration Manager-Umgebung offline ist, kann ich Oberflächen Treiber manuell in WSUS importieren?**
+**Meine Configuration Manager-Umgebung ist offline. Kann ich Oberflächen Treiber manuell in WSUS importieren?**
 
 Nein. Auch wenn das Update in WSUS importiert wurde, wird das Update nicht in die Configuration Manager-Konsole für die Bereitstellung importiert, wenn es nicht in der Zulassungsliste aufgeführt ist. Sie müssen das [Dienst Verbindungs Tool](https://docs.microsoft.com/mem/configmgr/core/servers/manage/use-the-service-connection-tool) verwenden, um Wartungsupdates in Configuration Manager zu importieren, um die Zulassungsliste zu aktualisieren.
 
 **Welche alternativen Methoden sind für die Bereitstellung von Oberflächen Treiber-und Firmware-Updates verfügbar?**
 
-Informationen zum Bereitstellen von Oberflächen Treiber-und Firmware-Updates über alternative Kanäle finden Sie unter [Verwalten von Oberflächen Treiber-und Firmware-Updates](https://docs.microsoft.com/surface/manage-surface-driver-and-firmware-updates). Wenn Sie die MSI-oder exe-Datei herunterladen und dann über herkömmliche Software Bereitstellungskanäle bereitstellen möchten, lesen Sie [Aktualisieren der Surface-Firmware mit Configuration Manager](https://docs.microsoft.com/archive/blogs/thejoncallahan/keeping-surface-firmware-updated-with-configuration-manager).
+Informationen zum Bereitstellen von Oberflächen Treiber-und Firmware-Updates über alternative Kanäle finden Sie unter [Verwalten von Oberflächen Treiber-und Firmware-Updates](manage-surface-driver-and-firmware-updates.md). Wenn Sie die MSI-oder exe-Datei herunterladen und dann über herkömmliche Software Bereitstellungskanäle bereitstellen möchten, lesen Sie [Aktualisieren der Surface-Firmware mit Configuration Manager](https://docs.microsoft.com/archive/blogs/thejoncallahan/keeping-surface-firmware-updated-with-configuration-manager).
 
 ## Weitere Informationen
 
 Weitere Informationen zu Oberflächen Treiber-und Firmware-Updates finden Sie in den folgenden Artikeln:
 
-- [Herunterladen der neuesten Firmware und Treiber für Surface-Geräte](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices)
-- [Verwalten von Treiber- und Firmwareupdates für Surface](https://docs.microsoft.com/surface/manage-surface-pro-3-firmware-updates)
-- [Überlegungen für Surface und System Center Configuration Manager](https://docs.microsoft.com/surface/considerations-for-surface-and-system-center-configuration-manager)
+- [Verwalten von Treiber- und Firmwareupdates für Surface](manage-surface-driver-and-firmware-updates.md)
+- [Überlegungen für Surface und System Center Configuration Manager](considerations-for-surface-and-system-center-configuration-manager.md)
