@@ -52,6 +52,7 @@
 ### [Einstellungen für Akkulimit](battery-limit.md)
 ### [Surface Helligkeitsregler](microsoft-surface-brightness-control.md)
 ### [Surface Asset-Tag](assettag.md)
+### [Wake-on-Power für Surface-Geräte](wake-on-power-for-surface.md)
 
 ## Sicherheit
 

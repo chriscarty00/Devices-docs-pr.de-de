@@ -1,6 +1,6 @@
 ---
 title: Surface-Diagnosetoolkit für Unternehmen im Desktopmodus verwenden
-description: So verwenden Sie die Funktion "nachfragen", damit Benutzer in Ihrer Organisation das Tool ausführen können, um Probleme mit dem Surface-Gerät zu erkennen und zu diagnostizieren.
+description: So verwenden Sie die Funktion "Unterstützung" für Benutzer in Ihrer Organisation, um Probleme mit dem Surface-Gerät zu identifizieren und zu diagnostizieren sowie Support Anfragen direkt aus dem Tool zu übermitteln.
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -11,16 +11,19 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 9e6b34a8d34081fc12cab4851104f0b67c3dfea4
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 7/31/2020
+ms.openlocfilehash: ec4a90d0d72956eaa4f98e928d128dca70d49c59
+ms.sourcegitcommit: f875a45961ff5f3c04006afc8690b5e5965e4d80
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832218"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "10902956"
 ---
 # Surface-Diagnosetoolkit für Unternehmen im Desktopmodus verwenden
 
-In diesem Thema wird erläutert, wie Sie mit dem Surface Diagnostic Toolkit (unstrukturiertes Toolkit) Benutzern in Ihrer Organisation das Tool zum Ermitteln und Diagnostizieren von Problemen mit dem Surface-Gerät zur Verfügung stellen. Durch das erfolgreiche Ausführen von "mit" können Sie schnell feststellen, ob ein gemeldetes Problem durch fehlerhafte Hardware oder Benutzer verursacht wurde. Eine Liste der unterstützten Surface-Geräte finden Sie unter [Bereitstellen des Surface Diagnostics Toolkit for Business](surface-diagnostic-toolkit-business.md).
+In diesem Thema wird erläutert, wie Sie mit dem Surface Diagnostic Toolkit (unstrukturiertes Toolkit) Benutzern in Ihrer Organisation helfen können, Probleme mit dem Surface-Gerät zu identifizieren und zu diagnostizieren sowie Support Anfragen direkt vom Tool zu übermitteln. 
+
+Durch das erfolgreiche Ausführen von "mit" können Sie schnell feststellen, ob ein gemeldetes Problem durch fehlerhafte Hardware oder Benutzer verursacht wurde. Eine Liste der unterstützten Surface-Geräte finden Sie unter [Bereitstellen des Surface Diagnostics Toolkit for Business](surface-diagnostic-toolkit-business.md).
 
 
 1. Weisen Sie den Benutzer an, das unstrukturierte [Paket](surface-diagnostic-toolkit-business.md#create-custom-sdt) von einem Softwareverteilungspunkt oder einer Netzwerkfreigabe zu installieren. Nachdem die Installation abgeschlossen ist, können Sie den Benutzer durch eine Reihe von Tests führen. 
@@ -32,12 +35,12 @@ In diesem Thema wird erläutert, wie Sie mit dem Surface Diagnostic Toolkit (uns
 
 3. Wenn für das Gerät die neuesten Updates angezeigt werden, klicken Sie auf **weiter** , um zum Katalog der verfügbaren Tests zu gelangen, wie in Abbildung 2 zu sehen ist.
 
-    ![Wählen Sie aus den Optionen in der Sonderoptionen ](images/sdt-desk-2.png)
+    ![Wählen Sie aus den Optionen in der Sonderoptionen ](images/sdt1.png)
  *Abbildung 2 aus. Wählen Sie aus den Optionen für eine Option aus* .
 
 4. Sie können auswählen, dass alle Diagnosetests ausgeführt werden. Wenn Sie bereits ein bestimmtes Problem wie eine fehlerhafte Anzeige oder ein Netzteil-Problem vermuten, klicken Sie auf **auswählen** , um aus den verfügbaren Tests auszuwählen, und klicken Sie auf **ausgewählt ausführen**, wie in Abbildung 3 dargestellt. Einzelheiten zu den einzelnen Tests finden Sie in der folgenden Tabelle. 
 
-    ![Wählen Sie Hardwaretests aus ](images/sdt-desk-3.png)
+    ![Wählen Sie Hardwaretests aus ](images/sdt2.png)
  *Abbildung 3 aus. Hardwaretests auswählen*
 
     Hardware Test | Beschreibung
@@ -52,9 +55,15 @@ In diesem Thema wird erläutert, wie Sie mit dem Surface Diagnostic Toolkit (uns
     Sensoren | Überprüft die Funktionsweise unterschiedlicher Sensoren im Gerät
     Hardware |  Überprüfung von Problemen mit verschiedenen Hardwarekomponenten wie Grafikkarte und Kamera
 
+5. Wenn alle Tests fertig sind, werden Sie vom Tool aufgefordert, zu bestätigen, ob Ihr Problem behoben ist. 
 
+ ![Wurde Ihr Problem behoben? ](images/sdt3.png)
+ *Abbildung 3a. Wurde Ihr Problem behoben?*
 
-
+6. Wenn das Problem nicht behoben wird oder Sie nicht wissen, können Sie ein Support-Ticket einreichen, indem Sie auf " **Kontakt** " klicken, um **Hilfe zu erhalten.**
+ 
+ ![Senden eines Support Tickets ](images/sdt4.png)
+ *Abbildung 3B. Einreichen eines Support-Tickets*
 
 <span id="multiple" />
 

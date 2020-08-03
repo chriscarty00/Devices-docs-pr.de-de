@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 05/11/2020
+ms.date: 07/31/2020
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 9233ca1f7e32e2017424e9fb6ceb0556de9d37bd
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 9c250cef63b760f3faab9172aa950c305e4e47e5
+ms.sourcegitcommit: f875a45961ff5f3c04006afc8690b5e5965e4d80
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832242"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "10902983"
 ---
 # Surface-Diagnosetoolkit für Unternehmen bereitstellen
 
@@ -179,6 +179,14 @@ Sie können auswählen, dass eine große Auswahl von Protokollen für Anwendunge
 - [Verwenden von Surface Diagnostics Toolkit for Business mithilfe von Befehlen](surface-diagnostic-toolkit-command-line.md)
 
 ## Änderungen und Updates
+
+
+### Version 2.121.139
+*Veröffentlichungsdatum: Juli 31 2020*<br>
+Diese Version des Surface Diagnostics Toolkit for Business bietet Unterstützung für die folgenden Optionen:
+
+- Nahtlose Unterstützung
+- Fehlerbehebungen
 
 ### Version 2.94.139.0
 *Veröffentlichungsdatum: 11. Mai 2020*<br>
