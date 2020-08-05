@@ -9,23 +9,23 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 03/09/2020
+ms.date: 08/04/2020
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 1fa192902b17ca811d4ecc8eac65abe1655ce370
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 3eb177e976bd99ec245996db8cb22eab639f63cc
+ms.sourcegitcommit: c0676329f894135388b6d52f85ee8ac9507a836e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10833190"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "10905672"
 ---
 # System-SKU-Referenz
 
 Dieses Dokument enthält einen Verweis auf Systemmodell-und System-SKU-Namen, mit denen Sie den Computerzustand eines bestimmten Geräts mithilfe von PowerShell oder WMI schnell ermitteln können.
 
-Systemmodell und System-SKU sind Variablen, die in den SMBIOS-Tabellen (System Management BIOS) auf der UEFI-Ebene von Surface Devices gespeichert werden. Der Name der System-SKU muss zwischen Geräten unterschieden werden, die den gleichen Systemmodell Namen wie Surface pro und Surface pro mit LTE Advanced aufweisen. 
+Systemmodell und System-SKU sind Variablen, die in den SMBIOS-Tabellen (System Management BIOS) auf der UEFI-Ebene von Surface Devices gespeichert werden. Verwenden Sie den System-SKU-Namen, wenn Sie zwischen Geräten mit dem gleichen Systemmodell Namen unterscheiden möchten, beispielsweise Surface pro und Surface pro mit LTE Advanced.
 
 | Gerät   | System Modell | System-SKU       |
 | ---------- | ----------- | -------------- |
@@ -38,10 +38,12 @@ Systemmodell und System-SKU sind Variablen, die in den SMBIOS-Tabellen (System M
 | Surface Pro mit LTE Advanced                                | Surface Pro      | Surface_Pro_1807                 |
 | DGM-Buch 2 13 "                                        | Surface Book 2   | Surface_Book_1832                |
 | DGM-Buch 2 15 "                                        | Surface Book 2   | Surface_Book_1793                |
-| Surface go LTE-Consumer  | Surface Go | Surface_Go_1825_Consumer |
+| DGM-Buch 3 13 "                                        | DGM-Buch 3   | Surface_Book_3_1900                |
+| DGM-Buch 3 15 "                                        | DGM-Buch 3   | Surface_Book_3_1899
 | Surface go LTE-Werbespot | System Go | Surface_Go_1825_Commercial |
 | Surface go-Consumer                                          | Surface Go       | Surface_Go_1824_Consumer         |
 | Surface go-Werbespot                                        | Surface Go       | Surface_Go_1824_Commercial       |
+| Surface Go 2                                                 | Surface Go 2     | Surface_Go_2_1927                |
 | Surface pro 6 Consumer                                       | Surface Pro 6    | Surface_Pro_6_1796_Consumer      |
 | Surface pro 6 Commercial                                     | Surface Pro 6    | Surface_Pro_6_1796_Commercial    |
 | Surface Laptop                                               | Surface Laptop   | Surface_Laptop                   |
