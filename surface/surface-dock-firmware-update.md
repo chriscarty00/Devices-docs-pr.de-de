@@ -11,12 +11,13 @@ ms.topic: article
 ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: aab4c67a6a262b11cd5982ebe145afbddfeaa1c9
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 8/05/2020
+ms.openlocfilehash: 331d5122c6c64a99dad48ff6e5a90f38ce3d4ed4
+ms.sourcegitcommit: 603bcb41dc1b7dd92d3bab1601fa6336480e1218
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832491"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "10916026"
 ---
 # Firmware-Update für Microsoft Surface Dock: technische Informationen für IT-Administratoren
 
@@ -56,7 +57,7 @@ So überwachen Sie das Update:
 3. Installieren Sie das Update wie im [nächsten Abschnitt](#install-the-surface-dock-firmware-update) dieses Artikels beschrieben.
 4. Das Ereignis 2007 mit dem folgenden Text zeigt eine erfolgreiche Aktualisierung an: das **Firmware-Update ist abgeschlossen. hr = 0 DriverTelementry EventCode = 2007**. 
     - Wenn das Update nicht erfolgreich ist, wird die Ereignis-ID 2007 als **Fehler** Ereignis anstelle von **Informationen**angezeigt. Darüber hinaus ist die in der Windows-Registrierung gemeldete Version nicht aktuell.
-5. Nach Abschluss des Updates werden in der Windows-Registrierung aktualisierte DWORD-Werte angezeigt, die der aktuellen Version des Tools entsprechen. Weitere Informationen finden Sie im Abschnitt [Versions Referenz](#versions-reference) in diesem Artikel. Beispiel:
+5. Nach Abschluss des Updates werden in der Windows-Registrierung aktualisierte DWORD-Werte angezeigt, die der aktuellen Version des Tools entsprechen. Weitere Informationen finden Sie im Abschnitt [Versions Referenz](#versions-reference) in diesem Artikel. Zum Beispiel:
     - Component10CurrentFwVersion 0x04ac3970 (78395760)
     - Component20CurrentFwVersion 0x04915a70 (76634736)
 
@@ -75,7 +76,7 @@ Sie können Windows Installer-Befehle (Msiexec.exe) verwenden, um das Surface Do
 
 - **Msiexec.exe/i \<path to msi file\> /quiet/norestart** 
 
-  Beispiel:
+  Zum Beispiel:
   ```
   msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.msi" /quiet /norestart
   ```
@@ -155,6 +156,16 @@ Ereignisse werden im Anwendungsereignisprotokoll protokolliert.  Hinweis: frühe
 
 >[!NOTE]
 >Die Installationsdatei wird mit dem folgenden Benennungsformat freigegeben: **Surface_Dock_FwUpdate_X.XX.XXX_Win10_XXXXX_XX.XXX.XXXXX_X.MSI** (ex: Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.msi) und wird standardmäßig auf C:\Program Files\SurfaceUpdate. installiert.
+
+### Version 1.53.139.0
+*Veröffentlichungsdatum: 4. August 2020*
+
+Diese Version des Surface Dock-Firmware-Updates enthält Fehlerbehebungen und Support für:
+- Aktualisieren des Surface Dock 1 mit Surface pro X 
+   > [!NOTE]
+   > Wenn Sie Surface pro X ausführen, laden Sie die. ARM64-Build. Verwenden Sie für alle anderen Geräte den amd64-Build. 
+ 
+
 
 ### Version 1.42.139 
 *Veröffentlichungsdatum: September 18 2019*

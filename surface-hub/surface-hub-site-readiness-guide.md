@@ -9,12 +9,12 @@ author: greg-lindsay
 ms.author: greglin
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: f523fcfb29a2a7141dcc13183d7b0bc2801fc796
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 74b48d6fb7501d8c17d17604b5b2dbc9eff308c9
+ms.sourcegitcommit: 603bcb41dc1b7dd92d3bab1601fa6336480e1218
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832893"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "10916016"
 ---
 # Anleitung zur Standortvorbereitung für Surface Hub 
 
@@ -115,6 +115,7 @@ Mit Connect können Personen Ihren Laptop, Ihr Tablet oder Ihr Smartphone auf de
 Da die drahtlose Verbindung auf Miracast basiert, benötigen Sie keine Kabel oder zusätzliche Setup Planung, um Sie zu verwenden. Ihre Benutzer können Miracast auf den meisten Miracast-fähigen Windows 8,1-und Windows 10-Geräten laden. Anschließend können Sie die Anzeige von Ihrem Computer oder Telefon auf den Surface Hub-Bildschirm projizieren.
 
 <span id="wired" />
+
 #### Kabelgebundene Verbindung
 
 Mit kabelgebundener Verbindung werden Informationen von Computern, Tablets oder Smartphones an Surface Hub übertragen. Es gibt drei Videokabel Optionen, die alle dasselbe USB 2,0-Kabel verwenden. Das Kabelbündel kann eine oder alle dieser Verbindungsoptionen enthalten.
@@ -137,6 +138,6 @@ Ausführliche Informationen zu Touchback und Inkback finden Sie im Nutzerleitfad
 
 
 
-## Weitere Informationen
+## Weitere Informationen:
 
 [Sehen Sie sich das Video an (wird in einem Popup MediaPlayer geöffnet)](https://compass.xbox.com/assets/27/aa/27aa7dd7-7cb7-40ea-9bd6-c7de0795f68c.mov?n=04.07.16_installation_video_01_site_readiness.mov)  
