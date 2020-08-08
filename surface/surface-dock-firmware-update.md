@@ -11,13 +11,13 @@ ms.topic: article
 ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
-ms.date: 8/05/2020
-ms.openlocfilehash: 331d5122c6c64a99dad48ff6e5a90f38ce3d4ed4
-ms.sourcegitcommit: 603bcb41dc1b7dd92d3bab1601fa6336480e1218
+ms.date: 8/07/2020
+ms.openlocfilehash: 159eb4ca27bb867623020936276470ba9897f3b8
+ms.sourcegitcommit: 83530906c7e34c92bbee90b723321acd61e77669
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "10916026"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "10918935"
 ---
 # Firmware-Update für Microsoft Surface Dock: technische Informationen für IT-Administratoren
 
@@ -39,7 +39,7 @@ In diesem Abschnitt wird beschrieben, wie Sie das Firmware-Update manuell instal
     - Für das Update ist ein Surface-Gerät erforderlich, auf dem Windows 10, Version 1803 oder höher ausgeführt wird.
     - Beim Installieren der MSI-Datei werden Sie möglicherweise aufgefordert, Surface neu zu starten. Ein Neustart ist jedoch nicht erforderlich, um das Update durchzuführen.
 
-2. Trennen Sie das Surface-Gerät vom Surface Dock (mit dem Netzteil), warten Sie 5 Sekunden, und stellen Sie die Verbindung wieder her. Mit dem Firmware-Update für Surface Dock wird das Dock im Hintergrund automatisch aktualisiert. Es kann einige Minuten dauern, bis der Vorgang abgeschlossen ist, und wird auch dann fortgesetzt, wenn er unterbrochen wird. 
+2. Trennen Sie das Surface-Gerät vom Surface Dock, warten Sie 5 Sekunden, und stellen Sie die Verbindung wieder her. Mit dem Firmware-Update für Surface Dock wird das Dock im Hintergrund automatisch aktualisiert. Es kann einige Minuten dauern, bis der Vorgang abgeschlossen ist, und wird auch dann fortgesetzt, wenn er unterbrochen wird. 
 
 ## Überwachen des Firmware-Updates für Surface Dock
 
