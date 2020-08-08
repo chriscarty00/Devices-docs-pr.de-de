@@ -17,7 +17,7 @@
 #### [Anpassen der Wandhalterung für Surface Hub 2S](surface-hub-2s-custom-install.md)
 #### [Arbeitsblatt für die Einrichtung](setup-worksheet-surface-hub.md)
 #### [Surface Hub 2S-Anschlüsse und Tastaturübersicht](surface-hub-2s-port-keypad-overview.md)
-#### [Verbinden von Geräten mit Surface Hub 2S](surface-hub-2s-connect.md)
+#### [Verbinden von Geräten mit Surface Surface Hub 2S](surface-hub-2s-connect.md)
 ### [Vorbereiten der Umgebung für Microsoft Surface Hub 2S](surface-hub-2s-prepare-environment.md)
 
 
@@ -36,6 +36,7 @@
 
 ## Verwalten
 ### [Installieren der Vorabversion des Windows10 Team2020-Updates](surface-hub-install-2020preview.md)  
+### [Bekannte Probleme – Windows 10 Team 2020-Update](surface-hub-2020-team-update-known-issues.md)
 ### [Installieren und Konfigurieren des neuen MicrosoftEdge auf SurfaceHub](surface-hub-install-chromium-edge.md)        
 ### [Verwalten von Einstellungen für Surface Hub 2S mit Microsoft Intune](surface-hub-2s-manage-intune.md)
 ### [Lokale Verwaltung von Einstellungen für Surface Hub 2S](local-management-surface-hub-settings.md)
