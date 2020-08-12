@@ -10,12 +10,12 @@ ms.date: 01/18/2018
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: bdc6e384839606fe6138c75e190d68a84679f5b4
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 722309a6b018c32bde329cb7b2cdd68b859fc1ca
+ms.sourcegitcommit: 8e809e8481023fe4421abcdaa1e055a6f2f74f5f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832689"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "10924941"
 ---
 # Neuigkeiten in Windows10, Version1703, für Microsoft Surface Hub
 
@@ -65,7 +65,7 @@ Beim Zurücksetzen eines Surface Hub-Geräts besteht jetzt die Möglichkeit, ein
     
 ## Sitzung beenden
 
-**Fertig** ist jetzt **Sitzung beenden**. [Hier erfahren Sie, wie Sie „Sitzung beenden” verwenden können.](i-am-done-finishing-your-surface-hub-meeting.md) 
+**Fertig** ist jetzt **Sitzung beenden**. [Hier erfahren Sie, wie Sie „Sitzung beenden” verwenden können.](finishing-your-surface-hub-meeting.md) 
 
 ![Sitzung beenden](images/end-session.png)
 

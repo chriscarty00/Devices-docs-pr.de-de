@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 01/17/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 04eb2b08ebc8fc7034ab5d27a038c5d517a2eda3
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 935f67e88af8b784230becb1cd89f7360b8a0857
+ms.sourcegitcommit: 8e809e8481023fe4421abcdaa1e055a6f2f74f5f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834227"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "10924961"
 ---
 # Verwalten von Microsoft Surface Hub
 
@@ -40,7 +40,7 @@ Informationen zum Verwalten und Aktualisieren von Surface Hub.
 | [Installieren von Apps auf Surface Hub]( https://technet.microsoft.com/itpro/surface-hub/install-apps-on-surface-hub) | Administratoren können Apps entweder aus dem Microsoft Store oder dem Microsoft Store für Unternehmen installieren.|
 [Konfigurieren des Surface Hub-Startmenüs](surface-hub-start-menu.md) | Verwenden Sie MDM, um das Startmenü für Surface Hub benutzerdefiniert anzupassen.
 | [Einrichten und Verwenden von Microsoft Whiteboard](whiteboard-collaboration.md)  | Das aktuelle Update von Microsoft Whiteboard kann zwei Surface Hubs für die Zusammenarbeit in Echtzeit auf dem gleichen Board enthalten.   |
-| [Beenden einer Besprechung mit Sitzung beenden](https://technet.microsoft.com/itpro/surface-hub/i-am-done-finishing-your-surface-hub-meeting) | Am Ende einer Besprechung können Benutzer auf **Sitzung beenden** tippen, um vertrauliche Daten zu entfernen und das Gerät für die nächste Besprechung vorzubereiten.|
+| [Beenden einer Besprechung mit Sitzung beenden](https://technet.microsoft.com/itpro/surface-hub/finishing-your-surface-hub-meeting) | Am Ende einer Besprechung können Benutzer auf **Sitzung beenden** tippen, um vertrauliche Daten zu entfernen und das Gerät für die nächste Besprechung vorzubereiten.|
 | [Melden Sie sich bei Surface Hub mit Microsoft Authenticator an](surface-hub-authenticator-app.md) | Sie können sich auf einem Surface Hub ohne Kennwort mithilfe der Microsoft Authenticator-App auf Android und iOS anmelden.   |
 | [Speichern des BitLocker-Schlüssels](https://technet.microsoft.com/itpro/surface-hub/save-bitlocker-key-surface-hub) | Jeder Surface Hub wird automatisch mit BitLocker-Laufwerkverschlüsselungssoftware eingerichtet. Microsoft empfiehlt nachdrücklich, die BitLocker-Wiederherstellungsschlüssel unbedingt zu sichern.|
 | [Verbinden anderer Geräte und deren Anzeige mit Surface Hub](https://technet.microsoft.com/itpro/surface-hub/connect-and-display-with-surface-hub) | Sie können andere Geräte mit Ihrem Surface Hub verbinden, um Inhalte anzuzeigen.|
