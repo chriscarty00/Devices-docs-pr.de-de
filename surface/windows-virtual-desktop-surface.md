@@ -1,5 +1,5 @@
 ---
-title: Virtueller Windows-Desktop auf Surface
+title: Windows virtueller Desktop auf Surface
 description: In diesem Artikel wird erläutert, wie Surface-Geräte einen idealen Endknoten für virtuelle Windows-Desktop Lösungen bereitstellen und Kunden flexible Formfaktoren, moderne Gerätesicherheit und Verwaltbarkeit in Windows 10 sowie Unterstützung für permanente, bedarfsgesteuerte & Just-in-Time-arbeitsszenarien bieten.
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -8,22 +8,22 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 5/20/2020
+ms.date: 8/12/2020
 ms.reviewer: rohenr
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 7db54b7bf8d08a10707753738e40c358a8723cf4
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: a3dfb5e4b2e5dc87dd4ae1dbced943e6be0772df
+ms.sourcegitcommit: 16845b3289a035b4e6ab5e7536307ef66651db28
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832827"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "10926307"
 ---
-# Virtueller Windows-Desktop auf Surface
+# Windows virtueller Desktop auf Surface
 
 ## Einführung
 
-Mit dem Windows-virtuellen Desktop auf Surface können Sie die Virtual Desktop Infrastructure (VDI) auf einem Surface-Gerät ausführen, das die Linien zwischen dem lokalen Desktop und dem virtuellen Desktop verwischt, wobei sich die Fingereingabe-, Stift-, Freihand-und biometrische Authentifizierung sowohl auf physische als auch auf virtuelle Umgebungen erstrecken. Als weiteren Meilenstein in der Entwicklung des Computings werden in Windows Virtual Desktop auf Surface <a href="#1"><sup> 1 </sup></a> Microsoft 365-virtualisierte in der Azure-Cloud mit erweiterten Sicherheitsschutz Funktionen, Verwaltbarkeit auf Unternehmensebene und erweiterte Produktivitätstools von Windows 10 auf Surface kombiniert.  Diese Fusion des Premium-Formfaktors und der virtuellen Desktop-Infrastruktur in Azure bietet außergewöhnlichen Kunden nutzen für Benutzererlebnisse, Portabilität, Sicherheit, Business Continuity und modernes Management.
+Mit dem Windows-virtuellen Desktop auf Surface können Sie die Virtual Desktop Infrastructure (VDI) auf einem Surface-Gerät ausführen, das die Linien zwischen dem lokalen Desktop und dem virtuellen Desktop verwischt, wobei sich die Fingereingabe-, Stift-, Freihand-und biometrische Authentifizierung sowohl auf physische als auch auf virtuelle Umgebungen erstrecken. Als weiteren Meilenstein in der Entwicklung des Computings werden in Windows Virtual Desktop auf Surface <a href="#1"><sup> 1 </sup></a> Microsoft 365-virtualisierte in der Azure-Cloud mit erweiterten Sicherheitsschutz Funktionen, Verwaltbarkeit auf Unternehmensebene und erweiterte Produktivitätstools von Windows 10 auf Surface kombiniert.  Diese Kombination aus Premium-Formfaktoren und virtueller Desktop-Infrastruktur in Azure bietet außergewöhnlichen Kunden nutzen für Benutzererlebnisse, Portabilität, Sicherheit, Business Continuity und modernes Management.
 
 ### Windows Virtual Desktop
 
@@ -37,7 +37,7 @@ Eine Liste der genehmigten Partner Anbieter und unabhängigen Softwarelieferante
 
 Surface Engineering hat seit langem neue Maßstäbe für Innovationen gesetzt, indem Sie über die Tastatur und die Maus hinausgehen, um mehr natürliche Möglichkeiten für die Interaktion mit Geräten zu finden, sei es durch Berührung, Stimme, Freihand oder Surface Dial. Und mit der Integration von Microsoft 365 und der Sicherheit und Verwaltbarkeit von Windows 10 pro durch die Chip-zu-Cloud-Integration bietet Surface angeschlossene Hardware, Software, Apps und Dienste in der gewünschten Weise. Obwohl es möglich ist, Oktober von Windows-Geräten aus zurück zu Windows 7 auszuführen, bieten die Microsoft Surface-Geräte einzigartige Vorteile, einschließlich Unterstützung für:
 
-- **Flexible Formfaktoren** -wie 2-in-1-Geräte wie Surface Go 2, Surface pro 7 und Surface pro X mit Stift, Touch und abnehmbarer Tastatur.
+- **Flexible Formfaktoren** -wie 2-in-1-Geräte wie Surface Go 2, Surface pro 7 und Surface pro X mit Stift, Touch und abnehmbarer Tastatur. Sie können sogar das neue Surface Duo zum Herstellen einer Verbindung mit Oktober verwenden.
 - **Beständige, bedarfsgesteuerte und Just-in-Time-arbeitsszenarien** mit Offline-und Geräte Zugriff für mehr produktive Erfahrungen.
 - **Moderne Gerätesicherheit und Verwaltbarkeit in Windows 10** – bietet die Flexibilität, überall produktiv zu sein.
 
