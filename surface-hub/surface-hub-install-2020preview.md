@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 08/07/2020
+ms.date: 08/13/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 79e6c35deba5c4635945c3b376a1069e3df324d9
-ms.sourcegitcommit: 83530906c7e34c92bbee90b723321acd61e77669
+ms.openlocfilehash: 51d6b9169b0074eb474ddc89b6fe9b43a921bb07
+ms.sourcegitcommit: feb81137d009d9b7c743aabd7d02615e89842200
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "10918915"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "10929765"
 ---
 # Installieren der Vorabversion des Windows10 Team2020-Updates 
 
@@ -53,8 +53,14 @@ Weitere Informationen finden Sie unter [Speichern des BitLocker-Schlüssels](htt
 ## Installieren des Windows 10 Team 2020 Update Preview-Builds
 
 1. Öffnen Sie auf Surface Hub die **Einstellungen** , und geben Sie Ihre Administratoranmeldeinformationen ein, wenn Sie dazu aufgefordert werden.
-2. Navigieren Sie zu **Datenschutz > Diagnose & Feedback** und **vollständig** für die Diagnosedaten. 
-3. Navigieren Sie zu **Update & Security**  >  **Windows Insider-Programm** , und wählen Sie dann **Erste Schritte**aus.
+2. Navigieren Sie zu **Datenschutz > Diagnose & Feedback** , und setzen Sie Diagnosedaten auf **vollständig**. Möglicherweise müssen einige Regionen oder Organisationen diese Einstellung über die MDM-Richtlinie oder die PPKG-Datei anwenden:
+   - **Für MDM:** Setzen Sie die folgende Richtlinie:. **/Vendor/MSFT/Policy/System/AllowTelemetry** mit dem ganzzahligen Wert 3:
+    
+        ![AllowTelemetry auf 3 setzen](images/hub-2020-allow-telemetry.png)
+
+    - **Für PPKG:** Laden Sie die [PPKG-Datei](https://aka.ms/HubTltmtry)herunter.
+
+3. Navigieren Sie zu **Update & Security**  >  **Windows Insider-Programm** , und wählen Sie dann **Erste Schritte** aus, um sich anzumelden.
 4. Folgen Sie den Anweisungen, um sich als Windows-Insider zu registrieren, indem Sie entweder Ihr geschäftliches Konto (empfohlen) oder Ihr persönliches Microsoft-Konto verwenden. Detaillierte Informationen zu den Vorteilen der Registrierung für Ihr geschäftliches Konto finden Sie unter [registrieren für das Windows-Insider-Programm für Unternehmen](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-register).
 5. Wählen Sie unter **Insider-Einstellungen auswählen die**Option **schnell**aus.
 6. Ermöglichen Sie es dem Surface Hub, den Preview-Build und die erforderlichen Firmware-Updates in den nächsten 3 bis 4 Tagen automatisch zu installieren. Das Gerät lädt die Updates während der täglichen [Wartung](https://docs.microsoft.com/surface-hub/manage-windows-updates-for-surface-hub#maintenance-window)automatisch herunter und installiert sie. Zum Beispiel:
