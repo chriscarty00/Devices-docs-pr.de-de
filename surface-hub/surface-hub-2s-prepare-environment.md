@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 11/21/2019
 ms.localizationpriority: Medium
-ms.openlocfilehash: 38f02b885a0ac2789ffc82f1ab38dc57fea5e841
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: dddab2adce1bec9ff722a3324b9c4b1be609ae89
+ms.sourcegitcommit: ac34f0ec1a9df74ea688bf0da2a51fadf5139a41
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10833025"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "10934845"
 ---
 # Vorbereiten Ihrer Umgebung für Surface Hub 2S
 
@@ -31,7 +31,7 @@ Microsoft aktualisiert den Office 365-Dienst regelmäßig mit neuen Features und
 ## Geräte Zugehörigkeit
 
 Verwenden Sie die Geräte Zugehörigkeit, um den Benutzer Zugriff auf die Einstellungs-APP auf Surface Hub 2S zu verwalten.
-Mit dem Betriebssystem Windows 10 Team Edition (das auf Surface Hub 2S ausgeführt wird) können nur autorisierte Benutzer die Einstellungen mithilfe der Einstellungs-APP anpassen. Da sich die Auswahl der Zuordnung auf die Verfügbarkeit von Features auswirken kann, sollten Sie entsprechend planen, um sicherzustellen, dass Benutzer auf Funktionen wie beabsichtigt zugreifen können.
+Mit dem Windows 10-Team Betriebssystem (das auf Surface Hub 2S ausgeführt wird) können nur autorisierte Benutzer die Einstellungen mithilfe der Einstellungs-APP anpassen. Da sich die Auswahl der Zuordnung auf die Verfügbarkeit von Features auswirken kann, sollten Sie entsprechend planen, um sicherzustellen, dass Benutzer auf Funktionen wie beabsichtigt zugreifen können.
 
 > [!NOTE]
 > Sie können die Geräte Zugehörigkeit nur während des anfänglichen out-of-Box Experience (OOBE)-Setups festzulegen. Wenn Sie die Geräte Zugehörigkeit zurücksetzen müssen, müssen Sie das OOBE-Setup wiederholen.

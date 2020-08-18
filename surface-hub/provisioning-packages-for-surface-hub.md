@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 03/16/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: 0ce77122aecfc9a30ac9dc52dfea7e0b0ccf7e1f
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 9158bec3d2285e5e8d4f9f56e582ff2320a34024
+ms.sourcegitcommit: ac34f0ec1a9df74ea688bf0da2a51fadf5139a41
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10833898"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "10934875"
 ---
 # Erstellen von Bereitstellungspaketen (Surface Hub)
 
@@ -107,7 +107,7 @@ Eine Konfigurationsdatei für Surface Hub enthält eine Liste der Gerätekonten,
 
 Verwenden Sie Microsoft Excel oder einen anderen CSV-Editor zum Erstellen einer CSV-Datei mit dem Namen `SurfaceHubConfiguration.csv`. Geben Sie in der Datei eine Liste von Gerätekonten und Namen im folgenden Format ein:
 
-```
+```console
 <DeviceAccountName>,<DeviceAccountPassword>,<FriendlyName>
 ```
 >[!IMPORTANT]
@@ -116,7 +116,7 @@ Verwenden Sie Microsoft Excel oder einen anderen CSV-Editor zum Erstellen einer 
 
 Im Folgenden finden Sie ein Beispiel von `SurfaceHubConfiguration.csv`. 
 
-```
+```console
 Rainier@contoso.com,password,Rainier Surface Hub
 Adams@contoso.com,password,Adams Surface Hub
 Baker@contoso.com,password,Baker Surface Hub
@@ -156,11 +156,11 @@ Nachdem Sie den [Windows-Konfigurations-Designer](https://technet.microsoft.com/
    
 3. Benennen Sie Ihr Projekt, und klicken Sie auf **Weiter**.
 
-4. Wählen Sie **Spezifisch für Windows 10 Team-Edition** aus, und klicken Sie auf **Weiter** und auf **Fertig stellen**.
+4. Wählen Sie im **Windows 10-Team die Option Allgemein**aus, klicken Sie auf **weiter**, und klicken Sie dann auf **Fertig stellen**.
 
     ![Neues ICD-Projekt](images/icd-new-project.png)
 
-5. Wählen Sie im Projekt unter **Verfügbare Anpassungen** die Option **Allgemeine Team Edition-Einstellungen** aus.
+5. Wählen Sie im Projekt unter **Verfügbare Anpassungen**die Option **Allgemeine Team Einstellungen**aus.
 
     ![Allgemeine ICD-Einstellungen](images/icd-common-settings.png)
 

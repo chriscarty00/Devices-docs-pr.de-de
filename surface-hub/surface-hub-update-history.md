@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 1b7ea8b795681bd3d7b8708d81b1e6a7d745fcca
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 031a826a8868d9452e13bb1ffc6b43eeb287f181
+ms.sourcegitcommit: ac34f0ec1a9df74ea688bf0da2a51fadf5139a41
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832770"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "10934835"
 ---
 # Surface Hub-Updateverlauf
 
@@ -62,7 +62,7 @@ Dieses Update ist spezifisch für den Surface Hub 2S und bietet die folgenden Tr
 </details>
 
 <details>
-<summary>11. Februar 2020 – Update für Team Edition auf Grundlage von KB4537765 * (OS Build 15063,2284)</summary>
+<summary>11. Februar 2020 – Update für Team basierend auf KB4537765 * (OS Build 15063,2284)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -74,7 +74,7 @@ Weitere Informationen finden Sie im [Surface Hub-Administratorhandbuch](https://
 </details>
 
 <details>
-<summary>14. Januar 2020 – Update für Team Edition auf Grundlage von KB4534296 * (OS Build 15063,2254)</summary>
+<summary>14. Januar 2020 – Update für Team basierend auf KB4534296 * (OS Build 15063,2254)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -85,13 +85,13 @@ Weitere Informationen finden Sie im [Surface Hub-Administratorhandbuch](https://
 </details>
 
 <details>
-<summary>24. September 2019 – Update für Team Edition auf Grundlage von KB4516059 * (OS Build 15063,2078)</summary>
+<summary>24. September 2019 – Update für Team basierend auf KB4516059 * (OS Build 15063,2078)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
  * Auf Surface Hub 2S-Wiederherstellungseinstellungen aktualisieren, um die Wiederherstellungsoptionen exakt wiederzugeben.
  * Aktualisieren Sie den Surface Hub 2S-Begrüßungsbildschirm, um die Erkennung des Geräts zu verbessern.
- * Ein Problem wurde behoben, bei dem der Shell-Hintergrund der Windows Team Edition falsch angezeigt wurde.
+ * Ein Problem wurde behoben, bei dem der Hintergrund der Windows-Team-Shell falsch angezeigt wurde.
  * Es wurde ein Problem mit der Layout-Persistenz des Start Menüs behoben, wenn es mithilfe der MDM-Richtlinie konfiguriert wurde.
  * Ein Problem in Microsoft Edge, das beim Durchsuchen einiger interner Websites auftritt, wurde behoben.
  * Es wurde ein Problem in Skype for Business behoben, das bei der Präsentation im Vollbildmodus auftritt.
@@ -101,7 +101,7 @@ Weitere Informationen finden Sie im [Surface Hub-Administratorhandbuch](https://
 </details>
 
 <details>
-<summary>17. August 2019 – Update für Team Edition auf Grundlage von KB4512474 * (OS Build 15063,2021)</summary>
+<summary>17. August 2019 – Update für Team basierend auf KB4512474 * (OS Build 15063,2021)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -113,7 +113,7 @@ Weitere Informationen finden Sie im [Surface Hub-Administratorhandbuch](https://
  </details>
 
 <details>
-<summary>18. Juni 2019 – Update für Team Edition auf Grundlage von KB4503289 * (OS Build 15063,1897)</summary>
+<summary>18. Juni 2019 – Update für Team basierend auf KB4503289 * (OS Build 15063,1897)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -127,7 +127,7 @@ Weitere Informationen finden Sie im [Surface Hub-Administratorhandbuch](https://
 </details>
 
 <details>
-<summary>28. Mai 2019 – Update für Team Edition auf Grundlage von KB4499162 * (OS Build 15063,1835)</summary>
+<summary>28. Mai 2019 – Update für Team basierend auf KB4499162 * (OS Build 15063,1835)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -141,7 +141,7 @@ Weitere Informationen finden Sie im [Surface Hub-Administratorhandbuch](https://
 </details>
 
 <details>
-<summary>25. April 2019 – Update für Team Edition auf Grundlage von KB4493436 * (OS Build 15063,1784)</summary>
+<summary>25. April 2019 – Update für Team basierend auf KB4493436 * (OS Build 15063,1784)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -152,7 +152,7 @@ Weitere Informationen finden Sie im [Surface Hub-Administratorhandbuch](https://
 </details>
 
 <details>
-<summary>27. November 2018 – Update für Team Edition auf Grundlage von KB4467699 * (OS Build 15063,1478)</summary>
+<summary>27. November 2018 – Update für Team basierend auf KB4467699 * (OS Build 15063,1478)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -163,7 +163,7 @@ Weitere Informationen finden Sie im [Surface Hub-Administratorhandbuch](https://
 </details>
 
 <details>
-<summary>18. Oktober 2018 – Update für Team Edition auf Grundlage von KB4462939 * (Betriebssystem Build 15063,1418)</summary>
+<summary>18. Oktober 2018 – Update für Team basierend auf KB4462939 * (Betriebssystem Build 15063,1418)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -179,7 +179,7 @@ Weitere Informationen finden Sie im [Surface Hub-Administratorhandbuch](https://
 </details>
 
 <details>
-<summary>31. August 2018 – Update für Team Edition auf Grundlage von KB4343889 * (Betriebssystem Build 15063,1292)</summary>
+<summary>31. August 2018 – Update für Team basierend auf KB4343889 * (OS Build 15063,1292)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -193,7 +193,7 @@ Weitere Informationen finden Sie im [Surface Hub-Administratorhandbuch](https://
 </details>
 
 <details>
-<summary>21. Juni 2018 – Update für Team Edition auf Grundlage von KB4284830 * (Betriebssystem Build 15063,1182)</summary>
+<summary>21. Juni 2018 – Update für Team basierend auf KB4284830 * (Betriebssystem Build 15063,1182)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -204,7 +204,7 @@ Weitere Informationen finden Sie im [Surface Hub-Administratorhandbuch](https://
 </details>
 
 <details>
-<summary>17. April 2018 – Update für Team Edition auf Grundlage von KB4093117 * (Betriebssystem Build 15063,1058)</summary>
+<summary>17. April 2018 – Update für Team basierend auf KB4093117 * (Betriebssystem Build 15063,1058)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -222,7 +222,7 @@ Weitere Informationen finden Sie im [Surface Hub-Administratorhandbuch](https://
 </details>
 
 <details>
-<summary>23. Februar 2018 – Update für Team Edition auf Grundlage von KB4077528 * (Betriebssystem Build 15063,907)</summary>
+<summary>23. Februar 2018 – Update für Team basierend auf KB4077528 * (Betriebssystem Build 15063,907)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -234,7 +234,7 @@ Weitere Informationen finden Sie im [Surface Hub-Administratorhandbuch](https://
 </details>
 
 <details>
-<summary>16. Januar 2018 – Update für Team Edition auf Grundlage von KB4057144 * (Betriebssystem Build 15063,877)</summary>
+<summary>16. Januar 2018 – Update für Team basierend auf KB4057144 * (Betriebssystem Build 15063,877)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -246,7 +246,7 @@ Weitere Informationen finden Sie im [Surface Hub-Administratorhandbuch](https://
 </details>
 
 <details>
-<summary>12. Dezember 2017 – Update für Team Edition auf Grundlage von KB4053580 * (Betriebssystem Build 15063,786)</summary>
+<summary>12. Dezember 2017 – Update für Team basierend auf KB4053580 * (Betriebssystem Build 15063,786)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -258,7 +258,7 @@ Weitere Informationen finden Sie im [Surface Hub-Administratorhandbuch](https://
 </details>
 
 <details>
-<summary>14. November 2017 – Update für Team Edition auf Grundlage von KB4048954 * (Betriebssystem Build 15063,726)</summary>
+<summary>14. November 2017 – Update für Team basierend auf KB4048954 * (Betriebssystem Build 15063,726)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -276,7 +276,7 @@ Weitere Informationen finden Sie im [Surface Hub-Administratorhandbuch](https://
 </details>
 
 <details>
-<summary>10. Oktober 2017 – Update für Team Edition auf Grundlage von KB4041676 * (Betriebssystem Build 15063,674)</summary>
+<summary>10. Oktober 2017 – Update für Team basierend auf KB4041676 * (Betriebssystem Build 15063,674)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -292,7 +292,7 @@ Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherhe
 </details>
 
 <details>
-<summary>12. September 2017 – Update für Team Edition auf Grundlage von KB4038788 * (Betriebssystem Build 15063,605) </summary>
+<summary>12. September 2017 – Update für Team basierend auf KB4038788 * (Betriebssystem Build 15063,605) </summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -306,7 +306,7 @@ Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherhe
 </details>
 
 <details>
-<summary>1. August 2017 – Update für Team Edition auf Grundlage von KB4032188 * (Betriebssystem Build 15063,498)</summary>
+<summary>1. August 2017 – Update für Team basierend auf KB4032188 * (Betriebssystem Build 15063,498)</summary>
 
 * Skype for Business 
   * Behebt das Skype for Business-Anmeldeproblem, bei dem eine erneute Wiederholung oder ein Neustart des Systems erforderlich ist.
@@ -317,7 +317,7 @@ Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherhe
 </details>
 
 <details>
-<summary>27. Juni 2017 – Update für Team Edition auf Grundlage von KB4022716 * (Betriebssystem Build 15063,442)</summary>
+<summary>27. Juni 2017 – Update für Team basierend auf KB4022716 * (Betriebssystem Build 15063,442)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -328,7 +328,7 @@ Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherhe
 </details>
 
 <details>
-<summary>13. Juni 2017 – Update für Team Edition auf Grundlage von KB4022725 * (Betriebssystem Build 15063,413)</summary>
+<summary>13. Juni 2017 – Update für Team basierend auf KB4022725 * (Betriebssystem Build 15063,413)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -340,7 +340,7 @@ Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherhe
 </details>
 
 <details>
-<summary>24. Mai, 2017 – Update für Team Edition auf Grundlage von KB4021573 * (Betriebssystem Build 15063,328)</summary>
+<summary>24. Mai, 2017 – Update für Team basierend auf KB4021573 * (OS Build 15063,328)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -351,7 +351,7 @@ Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherhe
 </details>
 
 <details>
-<summary>9. Mai 2017 – Update für Team Edition auf Grundlage von KB4016871 * (Betriebssystem Build 15063,296)</summary>
+<summary>9. Mai 2017 – Update für Team basierend auf KB4016871 * (OS Build 15063,296)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -414,7 +414,7 @@ Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherhe
 ## Windows 10-Team Anniversary Update 1607
 
 <details>
-<summary>14. März 2017 – Update für Team Edition auf Grundlage von KB4013429 * (Betriebssystem Build 14393,953)</summary>
+<summary>14. März 2017 – Update für Team basierend auf KB4013429 * (Betriebssystem Build 14393,953)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -427,7 +427,7 @@ Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherhe
 </details>
 
 <details>
-<summary>10. Januar 2017 – Update für Team Edition auf Grundlage von KB4000825 * (Betriebssystem Build 14393,693)</summary>
+<summary>10. Januar 2017 – Update für Team basierend auf KB4000825 * (Betriebssystem Build 14393,693)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -437,7 +437,7 @@ Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherhe
 </details>
 
 <details>
-<summary>13. Dezember 2016 – Update für Team Edition auf Grundlage von KB3206632 * (Betriebssystem Build 14393,576)</summary>
+<summary>13. Dezember 2016 – Update für Team basierend auf KB3206632 * (Betriebssystem Build 14393,576)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -457,7 +457,7 @@ Dieses Update für das Windows 10-Team Anniversary-Update (Version 1607) für Su
 </details>
 
 <details>
-<summary>25. Oktober 2016 – Update für Team Edition auf Grundlage von KB3197954 * (Betriebssystem Build 14393,351)</summary>
+<summary>25. Oktober 2016 – Update für Team basierend auf KB3197954 * (Betriebssystem Build 14393,351)</summary>
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -473,7 +473,7 @@ Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherhe
 </details>
 
 <details>
-<summary>11. Oktober 2016 – Update für Team Edition auf Grundlage von KB3194496 * (Betriebssystem Build 14393,222)</summary>
+<summary>11. Oktober 2016 – Update für Team basierend auf KB3194496 * (Betriebssystem Build 14393,222)</summary>
 
 Dieses Update bietet das Windows 10-Team Anniversary-Update für Surface Hub und umfasst Qualitätsverbesserungen und Sicherheitsfixes. (Auf Ihrem Gerät wird Windows 10, Version 1607, nach der Installation ausgeführt.) Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
@@ -518,7 +518,7 @@ Dieses Update bietet das Windows 10-Team Anniversary-Update für Surface Hub und
 <details>
 <summary>4. November 2016 – Update für Windows 10 Team (Version 1511) auf KB3198586 * (OS Build 10586,679)</summary>
 
-Dieses Update für Windows 10 Team Edition (Version 1511) to Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes, die im [Windows 10-Updateverlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)erläutert werden. In diesem Update sind keine spezifischen Elemente des Surface Hub vorhanden.
+Dieses Update für das Windows 10-Team (Version 1511) zu Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes, die im [Windows 10-Updateverlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind. In diesem Update sind keine spezifischen Elemente des Surface Hub vorhanden.
 
 *[KB3198586](https://support.microsoft.com/help/3198586)
 </details>
