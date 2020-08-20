@@ -8,16 +8,21 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 11/13/2019
+ms.date: 08/19/2020
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: 0aa69bb229f0d76972620bc58f236e43e03075b2
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+appliesto:
+- Surface Pro 7
+- Surface Pro X
+- Surface Laptop 3
+- Surface Book 3
+ms.openlocfilehash: 9d83fe9b7febf996d2cb314399505ed050a69a92
+ms.sourcegitcommit: b94832cba98e01014f7d184c85d79f8339e046c4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10833205"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "10941665"
 ---
 # Intune-Verwaltung von Surface UEFI-Einstellungen
 
@@ -43,11 +48,12 @@ Entscheidend ist, dass DFCI das Zero-Touch-Management ermöglicht, wodurch die m
 
 ## Unterstützte Geräte
 
-Zu diesem Zeitpunkt wird DFCI in den folgenden Geräten unterstützt:
+DFCI wird in den folgenden Geräten unterstützt:
 
 - Surface Pro 7
 - Surface Pro X
 - Surface Laptop 3
+- DGM-Buch 3
 
 > [!NOTE]
 > Surface pro X unterstützt nicht die Verwaltung von DFCI-Einstellungen für integrierte Kamera, Audio und WLAN/Bluetooth.
@@ -56,7 +62,7 @@ Zu diesem Zeitpunkt wird DFCI in den folgenden Geräten unterstützt:
 
 - Geräte müssen bei Windows Autopilot von einem [Microsoft Cloud Solution Provider (CSP)-Partner](https://partner.microsoft.com/membership/cloud-solution-provider) oder OEM-Verteiler registriert sein.
 
-- Bevor Sie DFCI für Surface konfigurieren, sollten Sie mit den Konfigurationsanforderungen von Autopilot in [Microsoft InTune](https://docs.microsoft.com/intune/) und [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/) (Azure AD) vertraut sein.
+- Bevor Sie DFCI für Surface konfigurieren, sollten Sie mit den Konfigurationsanforderungen von Autopilot in  [Microsoft InTune](https://docs.microsoft.com/intune/) und [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/) (Azure AD) vertraut sein.
 
 ## Vorbemerkungen
 
