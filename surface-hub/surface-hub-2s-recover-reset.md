@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 12/05/2019
 ms.localizationpriority: Medium
-ms.openlocfilehash: 7d79fab22b62e6ef29832be6241c484e9caf72e0
-ms.sourcegitcommit: 537fa38bdd21fcd679af0764e734f4b8efb6a03f
+ms.openlocfilehash: e3b1e380f9776fc56e99b8d4e35f708aa952759c
+ms.sourcegitcommit: e075b46f14b730464d66246b0280ef2cfa16b3fe
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "10959947"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "10963584"
 ---
 # Zurücksetzen und Wiederherstellen für Surface Hub 2S
 
@@ -62,7 +62,7 @@ Mithilfe von Surface Hub 2S können Sie das Gerät mithilfe eines Wiederherstell
 
    1. Drücken Sie bei gedrückter Lautstärketaste die Power-Taste.
    1. Drücken Sie beide Tasten so lange, bis Sie das Windows-Logo sehen.
-   1. Lassen Sie die Power-Taste los, halten Sie die Lautstärketaste aber weiterhin gedrückt, bis die Benutzeroberfläche für die Installation beginnt.
+   1. Lassen Sie den Netzschalter Los, halten Sie die Lautstärketaste aber weiterhin gedrückt, bis die Benutzeroberfläche für die Installation beginnt.
 
    ![* Verwenden Sie die Lautstärke-und Netztasten, um die Wiederherstellung zu initiieren *](images/sh2-keypad.png) <br>
    **Abbildung2. Lautstärke-und Power-Tasten**
