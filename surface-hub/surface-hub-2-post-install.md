@@ -1,6 +1,6 @@
 ---
-title: Windows 10 für Surface Hub 2-Konfiguration nach der Installation
-description: Windows 10 für Surface Hub 2-Konfiguration nach der Installation
+title: Konfigurieren von Windows 10 pro oder Enterprise auf Surface Hub 2
+description: Dieser Artikel enthält Empfehlungen, mit denen Sie bei Verwendung eines personalisierten Touchscreen-und Stift Computers mit großem Touchscreen optimale Ergebnisse erzielen können.
 keywords: Surface Hub, Windows 10, Desktop, Installation, Konfiguration
 ms.prod: surface-hub
 ms.mktglfcycl: deploy
@@ -13,14 +13,14 @@ ms.audience: itpro
 author: greg-lindsay
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.openlocfilehash: d6a1cdb2cac01b48c80e0fa4b7ccb6d3bcdb76ac
-ms.sourcegitcommit: 6618e8fe05628aa8b17654584657eff0f784dbfd
+ms.openlocfilehash: 47852284c35d213b81dd7b87ca875b400d8c713f
+ms.sourcegitcommit: c74835239cf4e304af59465fb6fc785de4a0c5cc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "10986508"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "10994591"
 ---
-# Windows 10 für Surface Hub 2-Konfiguration nach der Installation
+# Konfigurieren von Windows 10 pro oder Enterprise auf Surface Hub 2
 
 **Gilt für: Surface Hub 2S** 
 
@@ -135,14 +135,20 @@ Verwenden Sie ein Windows Hello Certified-Gerät für die Flächen Erkennung. Di
 So fügen Sie der Taskleiste ein Symbol hinzu, das eine Touchscreen-Sperre ähnlich der Windows-L-Tastenkombination ermöglicht: 
 
 1.  Tippen und halten oder klicken Sie mit der rechten Maustaste auf den Desktop, wählen Sie **neue**  >  **Verknüpfung**  >  **Durchsuchen**  >  **Desktop**  >  **OK**  >  **weiter**aus.
-2.  Geben Sie einen Namen für die Verknüpfung ein, beispielsweise " **mein PC sperren**", und wählen Sie dann **Fertig stellen**aus.
-3.  Klicken Sie mit der rechten Maustaste, oder tippen und halten Sie die neu erstellte Verknüpfung auf dem Desktop, und wählen Sie **Eigenschaften**aus. Geben Sie auf der Registerkarte **Verknüpfung** im Feld **Ziel** Folgendes ein: **Rundll32.exe User32.dll, Lock Workstation**
-4.  Wählen Sie die Schaltfläche **Symbol ändern** aus, und navigieren Sie zu **C:\Windows\System32\imageres.dll** , und wählen Sie ein Symbol aus, das Sie verwenden möchten. 
-5. Siehe hierzu das folgende Beispiel:
+
+1.  Geben Sie einen Namen für die Verknüpfung ein, beispielsweise " **mein PC sperren**", und wählen Sie dann **Fertig stellen**aus.
+
+1.  Klicken Sie mit der rechten Maustaste, oder tippen und halten Sie die neu erstellte Verknüpfung auf dem Desktop, und wählen Sie **Eigenschaften**aus. Geben Sie auf der Registerkarte **Verknüpfung** im Feld **Ziel** Folgendes ein: **Rundll32.exe User32.dll, Lock Workstation**
+
+1.  Wählen Sie die Schaltfläche **Symbol ändern** aus, und navigieren Sie zu **C:\Windows\System32\imageres.dll** , und wählen Sie ein Symbol aus, das Sie verwenden möchten. 
+
+    Siehe hierzu das folgende Beispiel:
 
     ![Wählen Sie ein Symbol aus.](images/lock.png)
-6.  Wählen Sie **OK** aus, um die Verknüpfung zu speichern.
-7.  Klicken Sie mit der rechten Maustaste, oder tippen und halten Sie die Verknüpfung, und wählen Sie **an Taskleiste anheften**aus.
+    
+1.  Wählen Sie **OK** aus, um die Verknüpfung zu speichern.
+
+1.  Klicken Sie mit der rechten Maustaste, oder tippen und halten Sie die Verknüpfung, und wählen Sie **an Taskleiste anheften**aus.
 
 ## Anwendungen
 
@@ -151,14 +157,16 @@ So fügen Sie der Taskleiste ein Symbol hinzu, das eine Touchscreen-Sperre ähnl
 So aktualisieren Sie alle installierten Store-Apps:
 
 1. Öffnen Sie die Microsoft Store-App, und wählen Sie in der oberen rechten Ecke die Option Weitere Auslassungszeichen **anzeigen** aus.
-2. Wählen Sie **Downloads und Updates**aus.
-2. Wählen Sie **Updates abrufen**aus.
+2. Klicken Sie auf **Downloads und Updates**.
+2. Klicken Sie auf **Updates abrufen**.
 
 ### Microsoft Whiteboard
 
 So installieren Sie das Microsoft Whiteboard:
 
-1. Wählen Sie unten rechts in der Taskleiste das Symbol frei Hand Arbeitsbereich von **Windows Ink Workspace** aus ![ ](images/ink.png) , und laden Sie **Whiteboard**herunter.
+ - Wählen Sie unten rechts in der Taskleiste das Symbol für den **Windows-Freihand-Arbeitsbereich** aus, und laden Sie **Whiteboard**herunter.
+ 
+   ![Freihand-Arbeitsbereich](images/ink.png) 
 
 Sie können Whiteboard auch über den Microsoft Store installieren:
 
@@ -275,9 +283,9 @@ Aktivieren Sie den Tablet-Modus, wenn dies für Barrierefreiheitsanforderungen e
 
 1. Suchen Sie nach **Software Center** , und öffnen Sie Sie.
 2. Wählen Sie im Navigationsbereich **Optionen** aus.
-3. Erweitern Sie den Abschnitt **Energieverwaltung** , und aktivieren Sie das Kontrollkästchen **Energieeinstellungen von meiner IT-Abteilung auf diesem Computer nicht anwenden**.
+3. Erweitern Sie den Abschnitt **Energieverwaltung** , und wählen Sie **auf diesem Computer keine Energieeinstellungen von meiner IT-Abteilung anwenden aus**.
 
-  ![Software Einstellungen](images/soft-cntr.png)
+   ![Software Einstellungen](images/soft-cntr.png)
 
 ### Sound Einstellungen
 
@@ -327,4 +335,4 @@ Aktivieren Sie den Tablet-Modus, wenn dies für Barrierefreiheitsanforderungen e
 
 ## Verwandte Themen
 
-[Migrieren zu Windows 10 pro oder Enterprise auf Surface Hub 2](surface-hub-2s-migrate-os.md)
+[Migrieren zu Windows 10 Pro oder Enterprise auf Surface Hub 2](surface-hub-2s-migrate-os.md)
