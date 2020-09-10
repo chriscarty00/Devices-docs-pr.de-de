@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren von Windows 10 pro oder Enterprise auf Surface Hub 2
+title: Konfigurieren von Windows 10 Pro oder Enterprise auf Surface Hub 2
 description: Dieser Artikel enthält Empfehlungen, mit denen Sie bei Verwendung eines personalisierten Touchscreen-und Stift Computers mit großem Touchscreen optimale Ergebnisse erzielen können.
 keywords: Surface Hub, Windows 10, Desktop, Installation, Konfiguration
 ms.prod: surface-hub
@@ -11,16 +11,17 @@ audience: admin
 manager: laurawi
 ms.audience: itpro
 author: greg-lindsay
+ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.openlocfilehash: 47852284c35d213b81dd7b87ca875b400d8c713f
-ms.sourcegitcommit: c74835239cf4e304af59465fb6fc785de4a0c5cc
+ms.openlocfilehash: f6ea6324799981e57c36a11b33cf2e22ea80039e
+ms.sourcegitcommit: d24759da42dfe0b913fd9ebf716407a673c2b818
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "10994591"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "11004477"
 ---
-# Konfigurieren von Windows 10 pro oder Enterprise auf Surface Hub 2
+# Konfigurieren von Windows 10 Pro oder Enterprise auf Surface Hub 2
 
 **Gilt für: Surface Hub 2S** 
 

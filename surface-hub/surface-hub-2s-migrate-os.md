@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/03/2020
+ms.date: 09/08/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: a114a9200a58a848f2480de965f268cee71cebae
-ms.sourcegitcommit: c74835239cf4e304af59465fb6fc785de4a0c5cc
+ms.openlocfilehash: e47ee735c0ba1cc0782c892b64d50f7e9d09f355
+ms.sourcegitcommit: d24759da42dfe0b913fd9ebf716407a673c2b818
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "10994601"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "11004487"
 ---
 # Migrieren zu Windows 10 Pro oder Enterprise auf Surface Hub 2
 
@@ -64,10 +64,11 @@ Die minimale UEFI-Version, die vor der Migration des Surface Hub von Windows 10-
 
 1. Klicken Sie auf der Startseite des Surface Hub 2S auf **Start** , und öffnen Sie die **SurfaceApp** (**alle apps**  >  -**Oberfläche**).
 
-1. Wählen Sie **die Oberfläche** aus, um Informationen zum Surface-Hub anzuzeigen, einschließlich der aktuellen Version des UEFI auf dem Gerät. Wenn die UEFI-Version **694.2938.768.0** oder höher ist, wie unten dargestellt, kann UEFI für Sie das Semm-Paket erstellen, um die Betriebssystemmigration zu aktivieren.
+2. Wählen Sie **die Oberfläche** aus, um Informationen zum Surface-Hub anzuzeigen, einschließlich der aktuellen Version des UEFI auf dem Gerät. Wenn die UEFI-Version **694.2938.768.0** oder höher ist, wie unten dargestellt, kann UEFI für Sie das Semm-Paket erstellen, um die Betriebssystemmigration zu aktivieren.
 
-   ! [Öffnen von sur
-1. Wenn es sich bei der UEFI-Version um eine frühere Version als 6face-app & wählen Sie die Oberfläche] (Bilder/shm-fig1.png) 94.2938.768.0, müssen Sie eine aktuelle Version mithilfe von Windows Update abrufen.
+    ![Oberfläche-APP öffnen & DGM auswählen](images/shm-fig1.png)
+ 
+3. Wenn die UEFI-Version älter als Version **694.2938.768.0**ist, müssen Sie mithilfe von Windows Update eine aktuelle Version abrufen.
 
 **So aktualisieren Sie UEFI über Windows Update:**
 1. Registrieren Sie sich auf dem Surface Hub 2S als Administrator, wechseln Sie zu **"** **alle apps**-  >  **Einstellungen** >  **Aktualisieren" und "Sicherheit**  >  **Windows Update** ", und installieren Sie alle Updates, und starten Sie dann das Gerät neu. Überprüfen Sie die UEFI-Version mithilfe der Surface-app. Hinweis: Wenn Sie Ihren Benutzernamen oder Ihr Administratorkennwort nicht kennen, müssen Sie das Gerät zurücksetzen. Weitere Informationen finden Sie unter [Zurücksetzen und Wiederherstellen für Surface Hub 2S](https://docs.microsoft.com/surface-hub/surface-hub-2s-recover-reset).
