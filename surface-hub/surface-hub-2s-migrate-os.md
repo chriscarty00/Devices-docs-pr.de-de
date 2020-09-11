@@ -1,7 +1,7 @@
 ---
 title: Migrieren zu Windows 10 Pro oder Enterprise auf Surface Hub 2
 description: In diesem Artikel wird beschrieben, wie Sie von Windows 10 Team auf Surface Hub 2 zu Windows 10 pro oder Windows 10 Enterprise migrieren.
-keywords: Trennen Sie Werte durch Kommata
+keywords: Surface Hub-Desktop, Surface Hub
 ms.prod: surface-hub
 ms.sitesec: library
 author: greg-lindsay
@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/08/2020
+ms.date: 09/09/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: e47ee735c0ba1cc0782c892b64d50f7e9d09f355
-ms.sourcegitcommit: d24759da42dfe0b913fd9ebf716407a673c2b818
+ms.openlocfilehash: 5431cb9c11fbcfadf0ef517164521c237fb6b3bb
+ms.sourcegitcommit: 75940bb1ab4e08c96736923859c7dd673dcf8d79
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "11004487"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "11009623"
 ---
 # Migrieren zu Windows 10 Pro oder Enterprise auf Surface Hub 2
 
@@ -232,7 +232,7 @@ Verwenden Sie Ihr **BOOTME** -Laufwerk, um die Semm-Paketdateien zu installieren
 
    ![Auswählen von Verwaltungs & von USB installieren](images/shm-fig21.png)
    
-5. Wählen Sie **jetzt neu starten**aus, wie unten dargestellt. Das Gerät wird heruntergefahren.
+5. Wählen Sie **jetzt neu starten**aus, wie unten dargestellt. Das Gerät wird neu gestartet und zeigt das weiße 4-Quadrat-Logo in der Mitte des Bildschirms an und wird dann heruntergefahren.
 
    ![Wählen Sie jetzt neu starten aus.](images/shm-fig25.png)
    
@@ -245,7 +245,7 @@ Verwenden Sie Ihr **BOOTME** -Laufwerk, um die Semm-Paketdateien zu installieren
    > [!NOTE]
    > Nachdem Sie Semm auf Ihrem Gerät aktiviert haben, wird die neue UEFI-Einstellung **EnableOSMigration** angewendet. Sie sind nicht mehr in der Lage, auf das Windows 10-Team zuzugreifen, und müssen mit dem nächsten Schritt fortfahren und Windows 10 pro oder Windows 10 Enterprise installieren. 
 
-8. Das Gerät wird neu gestartet, zeigt das weiße 4-Quadrat in der Mitte des Bildschirms an und schaltet dann erneut aus.
+8. Das Gerät wird neu gestartet, zeigt das weiße 4-Quadrat-Logo in der Mitte des Bildschirms an und wird dann wieder geschlossen.
 
 ### Installieren von Windows 10 pro oder Enterprise
 
@@ -253,7 +253,7 @@ Verwenden Sie Ihr **BOOTME** -Laufwerk, um die Semm-Paketdateien zu installieren
 
 2. Wenn das Gerät gestartet wird, sehen Sie das weiße 4-Quadrat in der Mitte des Bildschirms, und dann sehen Sie einen rotierenden Kreis unter dem weißen viereckigen Logo.
 
-3. Wenn das Gerät nicht automatisch auf das USB-Laufwerk bootet, schalten Sie das Gerät aus (ziehen Sie das Netzkabel ab, und schließen Sie es wieder an), drücken Sie die Power-Taste, und lassen Sie sie los, und halten Sie dann die Lautstärketaste gedrückt, bis Sie den rotierenden Kreis unterhalb des weißen viereckigen Logos sehen.
+3. Wenn das Gerät nicht automatisch auf das USB-Laufwerk bootet, schalten Sie das Gerät aus (ziehen Sie das Netzkabel ab, und schließen Sie es wieder an). Nachdem Sie das Netzkabel wieder angeschlossen haben, sollte das Gerät nach ein paar Sekunden mit dem weißen 4-quadratischen Logo in der Mitte des Bildschirms Booten, oder Sie können den Netzschalter drücken und loslassen, um das Gerät wieder einzuschalten. Nachdem Sie das viereckige Logo in der Mitte des Bildschirms angezeigt haben, halten Sie die Lautstärketaste gedrückt, bis Sie den Kreis unterhalb des weißen viereckigen Logos sehen.
  
    ![Starten Sie Windows 10 von USB](images/shm-fig26.png)
    
