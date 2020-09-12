@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/10/2020
+ms.date: 09/11/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: fe5f76034b5b8ae4801a8fb403d6db0ed423c144
-ms.sourcegitcommit: 75940bb1ab4e08c96736923859c7dd673dcf8d79
+ms.openlocfilehash: 6de949c7341f9d9bee60f808dab77770377acefc
+ms.sourcegitcommit: a64f5f375ebc0611e5735c63afd9540db0f807c4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "11009613"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "11013696"
 ---
 # Installieren und Konfigurieren des neuen MicrosoftEdge auf SurfaceHub
 
@@ -24,15 +24,16 @@ Das Windows 10-Team 2020-Update unterstützt den neuen Microsoft-Edge basierend 
 
 Standardmäßig sind Surface-Hub-Geräte mit Microsoft Edge Legacy (Version 44) vorinstalliert.
  
-Wenn Sie Edge dev bereits installiert haben, führen Sie die folgenden Schritte aus:
-
-1. Wenn Sie Ihre Version nicht kennen oder bestätigen möchten, öffnen Sie den Edge-Browser, und wechseln Sie zu Edge://Version.
-2. Navigieren Sie zu **Surface Hub > Device Management**. Wählen Sie unter **Bereitstellungspakete** **die Option hinzufügen oder Entfernen eines Bereitstellungspakets aus.**
-3. Wenn Sie das frühere Installationsprogramm zum Anheften von Microsoft Edge dev im Startmenü verwendet haben, klicken Sie in der Liste auf **benutzerdefiniertes Startmenü** , und klicken Sie auf **entfernen.**
-4. Wenn Sie eine benutzerdefinierte Start Layout-Richtlinie verwendet haben, müssen Sie Sie mithilfe des neuesten Edge-Pfads ändern, wie im folgenden Abschnitt [Anzeigen von Microsoft Edge im Startmenü von Surface Hub](#display-microsoft-edge-in-the-surface-hub-start-menu)beschrieben.
-5. Nun können Sie MicrosoftEdgeDevUninstaller. ppkg bereitstellen.
-6. Nachdem Edge dev aus **allen apps**entfernt wurde, entfernen Sie zuerst "MicrosoftEdgeDevInstaller", und entfernen Sie dann "MicrosoftEdgeDevUninstaller".
-7. Dadurch wird Microsoft Edge dev erfolgreich deinstalliert. Sie können jetzt die Standard Version installieren.
+> [!NOTE]
+> Wenn Sie Edge dev bereits installiert haben, führen Sie die folgenden Schritte aus:
+>
+>1. Wenn Sie Ihre Version nicht kennen oder bestätigen möchten, öffnen Sie den Edge-Browser, und wechseln Sie zu Edge://Version.
+>2. Navigieren Sie zu **Surface Hub > Device Management**. Wählen Sie unter **Bereitstellungspakete** **die Option hinzufügen oder Entfernen eines Bereitstellungspakets aus.**
+>3. Wenn Sie das frühere Installationsprogramm zum Anheften von Microsoft Edge dev im Startmenü verwendet haben, klicken Sie in der Liste auf **benutzerdefiniertes Startmenü** , und klicken Sie auf **entfernen.**
+>4. Wenn Sie eine benutzerdefinierte Start Layout-Richtlinie verwendet haben, müssen Sie Sie mithilfe des neuesten Edge-Pfads ändern, wie im folgenden Abschnitt [Anzeigen von Microsoft Edge im Startmenü von Surface Hub](#display-microsoft-edge-in-the-surface-hub-start-menu)beschrieben.
+>5. Nun können Sie MicrosoftEdgeDevUninstaller. ppkg bereitstellen.
+>6. Nachdem Edge dev aus **allen apps**entfernt wurde, entfernen Sie zuerst "MicrosoftEdgeDevInstaller", und entfernen Sie dann "MicrosoftEdgeDevUninstaller".
+>7. Dadurch wird Microsoft Edge dev erfolgreich deinstalliert. Sie können jetzt die Standard Version installieren.
 
  
  
@@ -40,7 +41,7 @@ Wenn Sie Edge dev bereits installiert haben, führen Sie die folgenden Schritte 
 
 ### Installieren von Microsoft Edge mithilfe eines Bereitstellungspakets
 
-1. Laden Sie das [Microsoft Edge Provisioning-Paket](https://aka.ms/HubEdge) (MicrosoftEdgeDevInstaller. ppkg) von einem PC in den Stammordner eines USB-Laufwerks herunter.
+1. Laden Sie das [Microsoft Edge Provisioning-Paket](https://aka.ms/HubEdge) (MicrosoftEdgeInstaller. ppkg) von einem PC in den Stammordner eines USB-Laufwerks herunter.
 2. Legen Sie das USB-Laufwerk in Surface Hub ein.
 3. Öffnen Sie auf dem Surface Hub **Einstellungen** , und geben Sie Ihre Administratoranmeldeinformationen ein, wenn Sie dazu aufgefordert werden.
 4. Navigieren Sie zu **Surface Hub** > **Geräteverwaltung**. Wählen Sie unter **Bereitstellungspakete** die Option **Bereitstellungspaket hinzufügen oder entfernen** aus.

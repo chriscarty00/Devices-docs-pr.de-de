@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 06/20/2019
+ms.date: 09/11/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 2da6daf2bb32e9209f33d5eb19d76221db28c0ed
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: a552434846c14a5f612b3743ea42819999aa8553
+ms.sourcegitcommit: ae0dae16e0b7bb9c906de78095634c3070a58c61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10833553"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "11013415"
 ---
 # Neues in Surface Hub 2S für IT-Administratoren
 
@@ -24,6 +24,7 @@ Surface Hub 2S ist eine All-in-One-Kollaborations Leinwand, die für Teamarbeit 
 
 |**Funktion**|**Zusammenfassung**|**Mehr erfahren**|
 |:-------|:------|:----|
+|**Migration zu Windows 10 pro oder Enterprise**| Surface Hub 2S ist mit dem Windows 10-Team vorinstalliert, einer angepassten Edition von Windows 10, die eine einfache Zusammenarbeit in Besprechungsraum Umgebungen ermöglicht. Sie haben jetzt die Möglichkeit, Windows 10 pro oder Enterprise zu verwenden, um Surface Hub 2S ähnlich wie jeden anderen PC zu verwenden.| [Ankündigung der Verfügbarkeit von Windows 10 pro und Enterprise auf Surface Hub 2](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107) <br> <br> [Migrieren zu Windows 10 Pro oder Enterprise auf Surface Hub 2](surface-hub-2s-migrate-os.md) |
 |**Verwaltung mobiler Geräte und UEFI-Verwaltbarkeit**| Verwalten von Einstellungen und Richtlinien mithilfe eines MDM-Anbieters (Mobile Device Management) <br> <br> Durch die vollständige Integration in Surface Enterprise Management Mode (Semm) können Sie Hardwarekomponenten und Firmware verwalten. | [Verwalten von Surface Hub 2S mit Microsoft InTune](surface-hub-2s-manage-intune.md) <br> <br> [Surface Enterprise Management-Modus](https://docs.microsoft.com/surface/surface-enterprise-management-mode) |
 |**Cloud und lokale Koexistenz**| Unterstützt lokal, Hybrid oder online. | [Vorbereiten der Umgebung für Microsoft Surface Hub 2S](surface-hub-2s-prepare-environment.md) |
 |**Zurücksetzen und Wiederherstellen**| Wiederherstellen von der Cloud oder dem USB-Laufwerk. | [Wiederherstellen und Zurücksetzen von Surface Hub 2S](surface-hub-2s-recover-reset.md) |
@@ -58,7 +59,7 @@ In der folgenden Tabelle werden die Unterschiede zwischen Surface Hub und Surfac
 |**Network**| Wi-Fi (802,11 a/b/g/n/AC) <br> Ethernet 1 Gbit/s <br> Bluetooth 4,0-Low-Energy <br> Miracast aktiviert | Wi-Fi (802,11 a/b/g/n/AC) <br> Ethernet 1 Gbit/s <br> Bluetooth 4,0-Low-Energy <br> Miracast aktiviert | Wi-Fi 5 (IEEE 802,11 a/b/g/n/AC) <br> Ethernet 1 Gbit/s <br> Bluetooth Wireless 4,1-Technologie <br> Miracast-Anzeige |
 |**Anschlüsse**| (1) USB 3,0 (unten) + (1) USB 3,0 (seitlicher Zugriff)  <br> (2) USB 2,0 <br> DisplayPort-Video Ausgabe <br> 3,5 mm Stereo Ausgang <br> RJ11-Stecker für Steuerung auf Systemebene <br> <br> DisplayPort-Video Eingang <br> HDMI-Video Eingang <br> VGA-Video Eingang <br> 3,5 mm Stereo-Eingang <br> (1) USB 2,0 Typ B Touchback Output | (1) USB 3,0 (unten) + (1) USB 3,0 (seitlicher Zugriff) <br> (4) USB 2,0 <br> DisplayPort-Video Ausgabe <br> 3,5 mm Stereo Ausgang <br> RJ11-Stecker für Steuerung auf Systemebene <br> <br> DisplayPort-Video Eingang <br> HDMI-Video Eingang <br> VGA-Video Eingang <br> 3,5 mm Stereo-Eingang <br> (1) USB 2,0 Typ B Touchback Output | (1) USB-A <br> Mini-DisplayPort-Video Ausgang <br> HDMI-Video Eingang <br> USB-C mit DisplayPort-Eingang <br> (4) USB-C (auf dem Display) <br> RJ45-Gigabit-Ethernet |
 |**Sensoren**| (2) passive Infrarot-Anwesenheitssensoren, Umgebungslichtsensoren | (2) passive Infrarot-Anwesenheitssensoren, Umgebungslichtsensoren | Doppler-Belegungs Sensor, <br> Beschleunigungs <br> Gyroskop  |
-|**NFC**| NFC-Reader | NFC-Reader | n.v. |
+|**NFC**| NFC-Reader | NFC-Reader | n.a. |
 |**Lautsprecher**| (2) Stereolautsprecher mit Front Verkleidung | (2) Stereolautsprecher mit Front Verkleidung | Vollbereichs Front-3-Wege-Stereolautsprecher |
 |**Mikrofon**| Hochleistungs-Array mit 4 Elementen | Hochleistungs-Array mit 4 Elementen | Voll Band-Mikrofonarray mit 8 Elementen |
 |**Kamera**| (2) Weitwinkel-HD-Kameras 1080p bei 30 fps | (2) Weitwinkel-HD-Kameras 1080p bei 30 fps | (1) Microsoft Surface Hub 2-Kamera, 4K, USB-C-Anschluss, 90-Grad-horizontales Sichtfeld                                                           |
