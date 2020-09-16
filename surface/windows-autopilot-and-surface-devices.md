@@ -13,16 +13,31 @@ ms.author: greglin
 ms.topic: article
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: ea5920649a4a29841b102de73c88187440968910
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 9/14/2020
+ms.openlocfilehash: d2a948d236ffa286192937cc5ca71099b6eeeafb
+ms.sourcegitcommit: c2df79cab0e59e9d7ea6640e5899531b57cd383f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832482"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "11016424"
 ---
 # Windows Autopilot und Surface-Geräte
 
 Windows Autopilot ist eine Cloud-basierte Bereitstellungstechnologie in Windows 10. Sie können Windows Autopilot verwenden, um Geräte in einem Zero-Touch-Prozess Remote bereitzustellen und zu konfigurieren.
+
+In der Regel verbringen IT-Experten viel Zeit mit dem Erstellen und Anpassen von Bildern, die später auf Geräten bereitgestellt werden, die bereits über ein perfekt geeignetes Betriebssystem verfügen, das bereits auf Ihnen installiert ist. Mithilfe einer Sammlung von Technologien zum Einrichten und Konfigurieren von Windows-Geräten führt Windows Autopilot einen neuen Zero-Touch-Bereitstellungsansatz ein. Auf diese Weise kann eine IT-Abteilung Bilder mit wenig zu keiner Infrastruktur konfigurieren/anpassen, um Sie zu verwalten, und ein einfaches und einfaches Verfahren. Aus Sicht des Benutzers sind nur einige einfache Schritte erforderlich, um die Oberfläche in einen produktiven Zustand zu bringen. Tatsächlich besteht die einzige vom Endbenutzer benötigte Interaktion darin, eine Verbindung mit einem Netzwerk herzustellen und deren Anmeldeinformationen zu überprüfen. Alles nach diesem ist vollständig automatisiert.
+
+Mit Windows Autopilot können Sie Folgendes ausführen:
+
+- Automatisches beitreten von Geräten zu Azure Active Directory (Azure AD).
+- Automatisches Registrieren von Geräten in MDM-Dienste wie Microsoft InTune (erfordert ein Azure AD Premium-Abonnement)
+- Einschränkung der Administratorkontoerstellung. Autopilot ist die einzige Möglichkeit, die erste Person, die sich bei Windows anmeldet, als Standardbenutzer einzugeben.
+- Erstellen und automatisches Zuweisen von Geräten zu Konfigurationsgruppen auf der Grundlage von Geräteprofilen.
+- Passen Sie die Inhalte und das Branding von OOBE (außerhalb des Felds) an, um die organisatorischen Anforderungen zu erfüllen.
+- Aktivieren Sie die vollständige Gerätekonfiguration mit InTune.
+- Geräte remote zurücksetzen oder neu starten
+
+## Funktionsweise
 
 Windows Autopilot-registrierte Geräte werden beim ersten Start über das Internet identifiziert, und zwar über eine eindeutige Geräte Signatur, die als *Hardwarehash*bezeichnet wird. Sie werden automatisch registriert und mit modernen Verwaltungslösungen wie Azure Active Directory (Azure AD) und Verwaltung mobiler Geräte konfiguriert.
 
@@ -47,6 +62,10 @@ Microsoft überprüft automatisch alle Oberflächen auf die Autopilot-Registrier
 > [!NOTE]
 > Wenn Kunden einen Partner für die Rückgabe von Geräten verwenden, ist der Partner für die Verwaltung des Exchange-Prozesses verantwortlich, einschließlich der Deregistrierung und Anmeldung von Geräten in Windows Autopilot.
 
+## Microsoft-Support-Registrierung
+
+Kunden und Microsoft Cloud Solution Provider (LSP) haben die Möglichkeit, Surface Devices zu registrieren, indem Sie Anfragen an den Microsoft-Support senden. Weitere Informationen finden Sie unter [Surface-Registrierungsunterstützung für Windows Autopilot](surface-autopilot-registration-support.md).
+
 ## Für Windows Autopilot aktivierte Surface-Partner
 
 Wählen Sie Surface Partners kann Surface Devices in Windows Autopilot für Sie zum Zeitpunkt des Kaufs registrieren. Sie können auch registrierte Geräte direkt an Ihre Benutzer senden. Die Geräte können mithilfe von Windows Autopilot, Azure AD und der Verwaltung mobiler Geräte vollständig über einen Zero-Touch-Prozess konfiguriert werden.
@@ -68,3 +87,4 @@ Surface-Partner, die für Windows Autopilot aktiviert sind, umfassen Folgendes:
 Weitere Informationen zu Windows Autopilot finden Sie unter:
 - [Übersicht über Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-10-autopilot)
 - [Anforderungen für Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot-requirements)
+- [Surface-Registrierungsunterstützung für Windows Autopilot](surface-autopilot-registration-support.md)

@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/11/2020
+ms.date: 09/15/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 44e7ca08ca4b8c077d430cba2a8cb4b674b68631
-ms.sourcegitcommit: ae0dae16e0b7bb9c906de78095634c3070a58c61
+ms.openlocfilehash: d36f42485107dd84be08c20291b36540662503da
+ms.sourcegitcommit: c2df79cab0e59e9d7ea6640e5899531b57cd383f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/11/2020
-ms.locfileid: "11013435"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "11016454"
 ---
 # Migrieren zu Windows 10 Pro oder Enterprise auf Surface Hub 2
 
@@ -26,6 +26,11 @@ Surface Hub 2S ist mit dem Windows 10-Team vorinstalliert, einer angepassten Edi
 
 > [!IMPORTANT]
 >Im Gegensatz zu einem typischen Upgrade oder einer Migration erfordert dieser Vorgang, wie auf dieser Seite beschrieben, eine normative Vorgehensweise. Überprüfen Sie die [Lösungskomponenten](#solution-components) und den [Migrations-und Installations Workflow,](#migration-and-installation-workflow-summary) bevor Sie fortfahren.
+
+
+> [!NOTE]
+> Wenn Sie Windows 10 pro oder Enterprise installieren, benötigen Sie eine neue Lizenz, die von Ihrer vorhandenen Windows 10-Team Lizenz getrennt ist. 
+
 
 Sie starten die Migration von einem Windows 10-Team mit einem separaten PC und einem herunterladbaren Tool – **Surface UEFI Configurator** – zum Erstellen eines Pakets, das eine neue UEFI-Einstellung enthält, die Sie auf Surface Hub 2S anwenden.  Die Oberflächen UEFI-Konfiguration fungiert als Schnittstelle in Surface Enterprise Management Mode (Semm), die die zentralisierte Verwaltung von Firmwareeinstellungen auf Surface-Geräten in einer Unternehmensumgebung vereinfacht. Weitere Informationen zu Semm finden Sie in der [Dokumentation zu Microsoft Surface Enterprise Management Mode](https://docs.microsoft.com/surface/surface-enterprise-management-mode).
  
@@ -93,7 +98,7 @@ Wenn Sie das Surface UEFI Configurator zum ersten Mal verwenden, müssen Sie ein
 
 - Mittelständische Unternehmen und andere Personen können beschließen, ein Zertifikat von Drittanbietern zu erhalten. Dies ist die empfohlene Option für Organisationen ohne genügend IT-Fachkenntnisse oder dediziertes IT-Sicherheitsteam.
 
-- Sie können auch ein selbstsigniertes Zertifikat mit einem PowerShell-Skript pro der folgenden Dokumentation generieren: [Zertifikatanforderungen für den Surface Enterprise-Verwaltungsmodus](https://docs.microsoft.com/surface/surface-enterprise-management-mode#surface-enterprise-management-mode-certificate-requirements). Oder verwenden Sie PowerShell zum Erstellen eines eigenen Zertifikats pro der folgenden Dokumentation: [New-SelfSignedCertificate](https://docs.microsoft.com/powershell/module/pkiclient/new-selfsignedcertificate?view=win10-ps).
+- Sie können auch ein selbstsigniertes Zertifikat mit einem PowerShell-Skript pro der folgenden Dokumentation generieren: [Zertifikatanforderungen für den Surface Enterprise-Verwaltungsmodus](https://docs.microsoft.com/surface/surface-enterprise-management-mode#surface-enterprise-management-mode-certificate-requirements). Oder verwenden Sie PowerShell zum Erstellen eines eigenen Zertifikats pro der folgenden Dokumentation: [New-SelfSignedCertificate](https://docs.microsoft.com/powershell/module/pkiclient/new-selfsignedcertificate).
 
 Das Semm-Paket muss mit einem Zertifikat gesichert werden, um die Signatur von Konfigurationsdateien zu überprüfen, bevor UEFI-Einstellungen angewendet werden können. Weitere Informationen finden Sie unter Dokumentation zu [Surface Enterprise Management Mode](https://docs.microsoft.com/surface/surface-enterprise-management-mode) .
  
@@ -274,3 +279,9 @@ Informationen zum vollständigen Konfigurieren von Surface Hub 2S als persönlic
 
 Wenn Sie Ihr Gerät auf das Windows 10-Team wiederherstellen möchten, lesen Sie [Zurücksetzen und Wiederherstellen für Surface Hub 2S](surface-hub-2s-recover-reset.md) .
 
+## Versionsverlauf
+
+| Version | Date               | Beschreibung                                                                                           |
+| ------- | ------------------ | ----------------------------------------------------------------------------------------------------- |
+| v. 1.1  | 15. September 2020 | Zusätzliche Notiz in die Einführung zur Klärung der Lizenzierungsanforderungen für die Installation eines neuen Betriebssystems gestellt. |
+| v. 1.0  | 1. September 2020  | Neuer Artikel                                                                                           |

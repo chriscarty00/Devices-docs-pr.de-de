@@ -15,12 +15,12 @@ ms.author: greglin
 ms.topic: article
 ms.audience: itpro
 ms.date: 5/08/2020
-ms.openlocfilehash: 32d8fded8c325766f7ab6bbc750ba7fe13e01d70
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 0e136bd0a69db7a4c4e5cea7d2c065727dcc8fcc
+ms.sourcegitcommit: c2df79cab0e59e9d7ea6640e5899531b57cd383f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832311"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "11016438"
 ---
 # Microsoft Surface Deployment Accelerator
 
@@ -32,13 +32,42 @@ Das Open Source-skriptgesteuerte SDA-Tool nutzt das Windows Assessment and Deplo
 
 Das resultierende Bild entspricht in engem Zusammenhang mit der Konfiguration von grundlegendem (Bare Metal Recovery)-Bildern ohne vorinstallierte Anwendungen wie Microsoft Office oder die Surface UWP-Anwendung.
 
+## Anforderungen
+
+1. Ein USB-Stick mit einer Größe von mindestens 16 GB. Das USB-Laufwerk wird formatiert.
+2. Eine ISO-Datei mit Windows 10 pro oder Windows 10 Enterprise. Das Medien Erstellungstool kann zum Herunterladen von Windows 10 und zum Erstellen einer ISO-Datei verwendet werden. Weitere Informationen finden Sie unter [Herunterladen von Windows 10](https://www.microsoft.com/software-download/windows10).
+
+## Ausführen von SDA
+
 **So führen Sie SDA aus:**
 
 1. Wechseln Sie zu [SurfaceDeploymentAccelerator](https://github.com/microsoft/SurfaceDeploymentAccelerator) auf GitHub. 
-2. Wählen Sie **Klonen oder herunterladen** aus, und überprüfen Sie die Readme-Datei.
-3. Bearbeiten Sie das Skript mit den entsprechenden Variablen für Ihre Umgebung, wie in der Readme-Datei dokumentiert, und überprüfen Sie Sie, bevor Sie Sie in Ihrer Testumgebung ausführen. 
+2. Lesen Sie die [Readme](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md) -Dokumentation.
+3. Klicken Sie auf der [SurfaceDeploymentAccelerator](https://github.com/microsoft/SurfaceDeploymentAccelerator) -Seite auf die Schaltfläche **Code** , und wählen Sie dann **ZIP herunterladen** aus, um die Dateien lokal auf Ihrem Computer zu speichern.
+4. Klicken Sie mit der rechten Maustaste auf die ZIP-Datei, und klicken Sie dann auf **Eigenschaften**.
+5. Aktivieren Sie auf der Registerkarte **Allgemein** das Kontrollkästchen **Blockierung aufheben** , und klicken Sie dann auf **OK**.
+6. Extrahieren Sie die ZIP-Datei an einen Speicherort auf Ihrer Festplatte (z. b.: C:\SDA).
+7. Öffnen Sie eine Windows PowerShell-Eingabeaufforderung mit erhöhten Rechten, und legen Sie ExecutionPolicy für die aktuelle Sitzung auf Unrestricted.
 
-   ![Tool zum Ausführen des Surface-Bereitstellungs Beschleunigers](images/surface-deployment-accelerator.png)
+    ```powershell
+    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted -Force
+    ```
+8. Führen Sie das SDA-Skript aus, das Parameter für Ihre Umgebung angibt. Mit dem folgenden Befehl wird beispielsweise ein bootfähiges USB-Laufwerk erstellt, das zum Installieren von Windows 10 auf einem Surface Hub 2 verwendet werden kann:
+
+    ```powershell
+    .\CreateSurfaceWindowsImage.ps1 -ISO C:\SDA\enterprise_client.iso -OSSKU Enterprise -DestinationFolder C:\Output -Device SurfaceHub2 -CreateUSB $True
+    ```
+
+   ![Tool zum Ausführen des Surface-Bereitstellungs Beschleunigers](images/sda1.png)
+
+    Das Skript erfordert etwa 45 Minuten für die Ausführung, kann aber je nach verfügbarer CPU-und Datenträgerressourcen länger dauern. 
+
+    Nach dem Erstellen eines Windows-Abbilds werden Sie vom Skript aufgefordert, den Laufwerkbuchstaben Ihres USB-Laufwerks zu bestätigen. Das USB-Laufwerk wird dann formatiert, als bootfähig konfiguriert und Dateien kopiert, um die Installation des benutzerdefinierten Windows 10-Bilds für Surface-Geräte zu ermöglichen.
+
+9. Legen Sie das USB-Laufwerk in das Gerät ein, auf dem Sie Windows 10 installieren möchten, und starten Sie die Installation von Windows 10. USB-Start muss im BIOS aktiviert sein, was eine vorübergehende Deaktivierung des sicheren Starts erfordern kann.
+
+> [!IMPORTANT]
+> Das Booten vom USB-Laufwerk beginnt sofort mit der Installation von Windows 10. Stellen Sie sicher, dass Ihr Gerät bereit ist, bevor Sie den USB-Anschluss einfügen und neu starten. 
 
 ## Verwandte Links
 
