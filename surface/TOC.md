@@ -30,6 +30,7 @@
 
 ### [Bereitstellen von Surface-Geräten](deploy.md)
 ### [Windows Autopilot und Surface-Geräte](windows-autopilot-and-surface-devices.md)
+### [Surface-Registrierungsunterstützung für Windows-Autopilot](surface-autopilot-registration-support.md)
 ### [Windows virtueller Desktop auf Surface](windows-virtual-desktop-surface.md)
 ### [Bereitstellen, Verwalten und Warten von Surface Pro X](surface-pro-arm-app-management.md)
 ### [App-Kompatibilität für Surface Pro X](surface-pro-arm-app-performance.md)
