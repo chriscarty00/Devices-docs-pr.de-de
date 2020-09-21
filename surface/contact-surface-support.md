@@ -19,12 +19,12 @@ ms.custom:
 - CSSTroubleshoot
 ms.reviewer: mablaik
 description: Support Informationen für Microsoft Surface-und Surface Hub-Produkte.
-ms.openlocfilehash: 52be75fdec27e1ccf4d68be36afab19c77db540a
-ms.sourcegitcommit: 16845b3289a035b4e6ab5e7536307ef66651db28
+ms.openlocfilehash: f423bdcc5bc4890861614e6213e9281b22925b42
+ms.sourcegitcommit: 13015036a3e5cb5909924d7e4289473a1572cf9d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "10926297"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "11030412"
 ---
 # Surface-Unterstützung
 
@@ -39,7 +39,7 @@ Wenn nach dem Ausführen des Toolkits weiterhin ein Problem auftritt, wählen Si
 > [!NOTE]
 > Sie müssen sich mit Ihrem Microsoft-Konto oder Azure Active Directory-Konto beim Online Übermittlungs Portal anmelden.  
 
-Für Geschäftskunden: [Senden Sie Ihre Serviceanfrage](https://support.microsoft.com/supportforbusiness/productselection?sapid=d383b26c-f150-6220-8f1b-e8aa325d9727). 
+Für Geschäftskunden: [Senden Sie Ihre Serviceanfrage](https://support.microsoft.com/supportforbusiness/productselection). 
 
 Für Microsoft Premier-Kunden: [übermitteln Sie Ihre Serviceanfrage auf dem Hub Services](https://serviceshub.microsoft.com/support/contactsupport). 
 

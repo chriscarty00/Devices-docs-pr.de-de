@@ -14,13 +14,13 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 audience: itpro
-ms.date: 05/11/2020
-ms.openlocfilehash: da3624d5eb271e999334b4859cfb6123eeabfa46
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 09/18/2020
+ms.openlocfilehash: dc1a9b4480f37af6d74699a2e693ef8d5318da76
+ms.sourcegitcommit: 8bd03770279d5e53446436781226ffd51eeec916
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832350"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "11029229"
 ---
 # Microsoft Surface Data Eraser
 
@@ -34,26 +34,13 @@ Erfahren Sie, wie Ihnen das Microsoft Surface Data Eraser-Tool helfen kann, Date
 
 Kompatible Surface-Geräte:
 
-* DGM-Buch 3
-* Surface Go 2
-* Surface Pro 7
-* Surface Pro X
-* Surface Laptop 3
-* Surface Pro 6
-* Surface Laptop 2
-* Surface Go
-* Surface Book 2
-* Surface Pro mit LTE Advanced (Modell 1807)
-* Surface Pro (Modell 1796)
-* Surface Laptop
-* Surface Studio
-* Surface Studio 2
-* Surface Book
-* Surface Pro 4
-* Surface 3 LTE
-* Surface3
-* Surface Pro 3
-* Surface Pro 2
+- DGM-Buch (alle Editionen)
+- Surface Go (alle Editionen)
+- Surface pro X (alle Editionen)
+- Surface Laptop (alle Editionen)
+- Surface Studio (alle Editionen)
+- Surface pro 2 und höher
+- Windows 10 pro und Enterprise auf Surface Hub 2
 
 Einige Szenarien, in denen Microsoft Surface Data Eraser hilfreich sein könnte, sind:
 
@@ -97,7 +84,7 @@ Nachdem das Erstellungstool installiert ist, führen Sie die folgenden Schritte 
    ![Starten des Microsoft Surface Data Eraser-Tools](images/dataeraser-start-tool.png "Start the Microsoft Surface Data Eraser tool")
 
    *Abbildung1. Starten des Microsoft Surface Data Eraser-Tools*
-4.  Wählen Sie **x64** für die meisten Surface-Geräte oder **ARM64** für Surface pro X auf der Seite **Architektur Auswahl** aus, wie in Abbildung 2 dargestellt. Wählen Sie **Weiter** aus.
+4.  Wählen Sie **x64** für die meisten Surface-Geräte oder  **ARM64** für Surface pro X auf der Seite **Architektur Auswahl** aus, wie in Abbildung 2 dargestellt. Wählen Sie **Weiter** aus.
 
     ![Architektur Auswahl](images/dataeraser-arch.png "Architecture Selection")<br>
        *Abbildung2. Gerätearchitektur auswählen*
@@ -171,6 +158,17 @@ Nachdem Sie einen Microsoft Surface Data Eraser-USB-Stick erstellt haben, könne
 ## Änderungen und Updates
 
 Microsoft Surface Data Eraser wird in regelmäßigen Abständen von Microsoft aktualisiert. Informationen zu den Änderungen, die in jeder neuen Version bereitgestellt werden, finden Sie hier:
+
+### 3.33.139
+*Veröffentlichungsdatum: 9. September 2020*
+
+Diese Version von Surface Data Eraser enthält Fehlerbehebungen und fügt Unterstützung für Folgendes hinzu: 
+
+- Erneutes Entwerfen von Architekturen, um die Aktualisierung mit neuen Produktversionen zu verringern
+- Benachrichtigung für neue Tool Updates verfügbar
+- Telemetrie-Ergänzungen
+- Windows 10 pro und Enterprise auf Surface Hub 2
+
 
 ### 3.30.139
 *Veröffentlichungsdatum: 11 Mai 2020*
