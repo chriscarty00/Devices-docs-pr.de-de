@@ -1,5 +1,5 @@
 ---
-title: Essential Add-ons für Windows 10 pro und Enterprise auf Surface Hub 2
+title: Grundlegende Add-ons für Windows 10 Pro und Enterprise auf Surface Hub 2
 description: Dieser Artikel enthält Informationen zu optionalen Zubehörteilen, die Sie mit Windows 10 pro oder Enterprise auf Surface Hub 2 verwenden können.
 keywords: Surface Hub, Windows 10, Desktop, Fingerabdruckleser, Windows Hello
 ms.prod: surface-hub
@@ -12,17 +12,17 @@ manager: laurawi
 ms.audience: itpro
 author: greg-lindsay
 ms.author: greglin
-ms.date: 09/16/2020
+ms.date: 09/18/2020
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.openlocfilehash: d908c937c331e36f6b82f4c3c5ee213abf8a0176
-ms.sourcegitcommit: 2ac88d30b7d104d86b3bec657941457c916a116c
+ms.openlocfilehash: 24998848f16803585bc414d50e2099745943dcc7
+ms.sourcegitcommit: 13015036a3e5cb5909924d7e4289473a1572cf9d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "11027002"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "11030422"
 ---
-# Essential Add-ons für Windows 10 pro und Enterprise auf Surface Hub 2
+# Grundlegende Add-ons für Windows 10 Pro und Enterprise auf Surface Hub 2
 
 Wenn Sie von Windows 10-Team zu Windows 10 pro oder Enterprise auf Surface Hub 2 migriert haben, können Sie aus einer Vielzahl von Zubehörteilen wählen, die über USB-C, USB-a, HDMI oder Bluetooth verbunden sind. 
 
@@ -54,6 +54,7 @@ Weitere Informationen zum Konfigurieren des Fingerabdrucklesers zur Anmeldung mi
 | **System Anforderung**          | Windows 10 pro, Windows 10 Enterprise.                                                                                               |
 | **Windows-Zertifizierung**       | Windows 10                                                                                                                           |
 | **Falsche Akzeptanz Rate (Far)** | 1/1,5 Mio. Far zeigt die Wahrscheinlichkeit, dass ein biometrisches Sicherheitssystem Zugriffsversuche von nicht autorisierten Benutzern fälschlicherweise akzeptiert. |
+| **Falsche Ablehnungs Rate (FRR)** | 4,9%. FRR zeigt die Wahrscheinlichkeit, dass ein biometrisches Sicherheitssystem Zugriffsversuche von autorisierten Benutzern fälschlicherweise ablehnt. |
 
 
 > [!NOTE]
