@@ -14,16 +14,17 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.openlocfilehash: f6ea6324799981e57c36a11b33cf2e22ea80039e
-ms.sourcegitcommit: d24759da42dfe0b913fd9ebf716407a673c2b818
+ms.date: 09/22/2020
+appliesto:
+- Surface Hub 2S
+ms.openlocfilehash: dd580a3b67ffa7c46ce823765d589fec47fadb44
+ms.sourcegitcommit: d7fe059a823b7e5f1daec447d92dac60bdd2a26e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "11004477"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "11072842"
 ---
 # Konfigurieren von Windows 10 Pro oder Enterprise auf Surface Hub 2
-
-**Gilt für: Surface Hub 2S** 
 
 Nachdem Sie den Installationsvorgang für die Migration zu Windows 10 pro oder Enterprise abgeschlossen haben, können Sie die folgenden Schritte ausführen, um apps und Einstellungen auf dem Surface Hub 2 zu konfigurieren. Diese Schritte werden empfohlen, um die optimale Benutzerfreundlichkeit bei der Verwendung dieses personalisierten Touchscreen-und Stift Computers zu gewährleisten.
 
@@ -182,7 +183,7 @@ Sie können Whiteboard auch über den Microsoft Store installieren:
 3. Installieren Sie die **Surface** -app. Dies sollte die erste aufgelistete APP sein. Möglicherweise müssen Sie Ihre MSA dem Store zuordnen, um die APP installieren zu können.
 4. Anheften Sie die **Surface** -APP an die Taskleiste.
 
-### Snip-& Skizze
+### Ausschneiden und skizzieren
 
 1. Öffnen Sie die APP **Snip & Sketch** , und fixieren Sie Sie an die Taskleiste.
 2. Wählen Sie die Auslassungspunkte in der oberen rechten Ecke aus, und wählen Sie dann **Einstellungen**aus.
@@ -251,9 +252,8 @@ Laden Sie den neuen [Edge Chrom-Browser](https://www.microsoft.com/en-us/edge?fo
 
 1. Wählen Sie **Start**  >  **Einstellungen**  >  **System**  >  **Power & Sleep**aus.
 2. Stellen Sie den Power Mode-Schieberegler auf **optimale Leistung**ein.
-3. Konfigurieren Sie die Werte für Bildschirm und Ruhemodus nach Ihren Wünschen.
-
-### Bildschirmschoner
+3. Konfigurieren Sie die Einstellungen für den Bildschirm und den Ruhezustand nach Ihren wünschen, während Sie auch die Doppler-Anwesenheitserkennung erfassen, die das Gerät aktiviert, wenn Bewegungen erkannt werden. Daher empfiehlt es sich, den Bildschirm so zu konfigurieren, dass er **nach 2 Stunden ausgeschaltet** wird und der PC **nach 4 Stunden ausgeschaltet wird.**
+### Bildschirmschoner.
 
 1. Suchen Sie nach **dem Sperrbildschirm** , und öffnen Sie die Einstellungen für den **Sperrbildschirm**.
 2. Konfigurieren Sie die Einstellungen für das **Bildschirm Timeout** und die **Bildschirmschonereinstellungen** nach Ihren Wünschen.
@@ -314,7 +314,7 @@ Aktivieren Sie den Tablet-Modus, wenn dies für Barrierefreiheitsanforderungen e
 4. Überprüfen der Taskleisten-apps
     - Connect-App
     - Symbol "Sperren"
-    - Snip-& Skizze
+    - Ausschneiden und skizzieren
     - Teams (falls zutreffend)
     - Office-Apps (falls zutreffend)
     - Surface-App
@@ -324,12 +324,11 @@ Aktivieren Sie den Tablet-Modus, wenn dies für Barrierefreiheitsanforderungen e
 6. Überprüfen Sie, ob das projizieren auf diesen PC mit der Connect-App aktiviert ist (die Anwendung muss vor dem Herstellen der Verbindung nicht ausgeführt werden).
 7. Überprüfen Sie die Energie-und Ruhezustandseinstellungen.
     - Bildschirmschoner: 15 Minuten, auf (keine), Mystify oder leer; Kontrollkästchen zum Anfordern eines Kennworts ist aktiviert
-    - Bildschirm: 2 Stunden
-    - PC: 4 Stunden
+    - Bildschirm: Ausschalten **nach 2 Stunden.**
+    - PC: Ausschalten  **nach 4 Stunden.**
 8. Überprüfen Sie, ob Windows Hello funktioniert.
-9. Überprüfen Sie die Energieeinstellungen.
-10. Überprüfen der Synchronisierung Ihre Einstellungen sind deaktiviert.
-11. Überprüfen von Start-apps.
+9. Überprüfen der Synchronisierung Ihre Einstellungen sind deaktiviert.
+10. Überprüfen von Start-apps.
 
 > [!TIP]
 > Nach der Installation und Konfiguration von Windows 10 kann der Surface Hub 2S genauso wie jedes andere Windows 10-Gerät verwaltet werden.
