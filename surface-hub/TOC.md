@@ -5,7 +5,7 @@
 ## Übersicht
 ### [Neues in Surface Hub 2S für IT-Administratoren](surface-hub-2s-whats-new.md)
 ### [Surface Hub 2S 50-Zoll technische Daten](surface-hub-2s-techspecs.md) 
-### [Surface Hub 2S 85-Zoll](surface-hub-2s-85.md)
+### [Surface Hub 2S 85-Zoll technische Daten](surface-hub-2s-85.md)
 ### [Betriebssystem-Grundlagen (Surface Hub)](differences-between-surface-hub-and-windows-10-enterprise.md)
 ### [Anpassen von Helligkeit, Lautstärke und Eingabe bei Surface Hub 2S](surface-hub-2s-onscreen-display.md)
 ### [Verwenden von Microsoft Whiteboard auf ein Surface Hub](https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d)
