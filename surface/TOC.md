@@ -4,7 +4,8 @@
 
 ## Übersicht
 
-### [Neuerungen in Surface Dock 2](surface-dock-whats-new.md)
+### [ROI-Maximierung mit Microsoft Surface](forrester-tei-study.md)
+### [Neuerungen in Surface Dock](surface-dock-whats-new.md)
 ### [Surface Book 3 GPU – Technische Übersicht](surface-book-GPU-overview.md)
 ### [Surface Book 3 Quadro RTX 3000 – Technische Übersicht](surface-book-quadro.md)
 ### [Surface Book 3 für Unternehmen](https://www.microsoft.com/surface/business/surface-book-3)
