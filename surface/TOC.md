@@ -5,6 +5,7 @@
 ## Übersicht
 
 ### [ROI-Maximierung mit Microsoft Surface](forrester-tei-study.md)
+### [Gesamte wirtschaftliche Auswirkungen von Microsoft Surface for Education](forrester-tei-edu-study.md)
 ### [Neuerungen in Surface Dock](surface-dock-whats-new.md)
 ### [Surface Book 3 GPU – Technische Übersicht](surface-book-GPU-overview.md)
 ### [Surface Book 3 Quadro RTX 3000 – Technische Übersicht](surface-book-quadro.md)
