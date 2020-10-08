@@ -14,15 +14,15 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.date: 10/01/2020
+ms.date: 10/08/2020
 appliesto:
 - Surface Hub 2S
-ms.openlocfilehash: 68f3fe1eb2fba0673444510fc77d3f41e09144af
-ms.sourcegitcommit: e0047f07c42b1e3cbd074b66a4704ea72e9d7bae
+ms.openlocfilehash: 66245f84f4413df2d9ae7b683947afbd84484325
+ms.sourcegitcommit: 56526c92d84dbc2cebcb8071d995efe399f306df
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "11093895"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "11105331"
 ---
 # Konfigurieren von Windows 10 Pro oder Enterprise auf Surface Hub 2
 
@@ -33,31 +33,46 @@ Wenn Sie diese Schritte ausführen, ist es möglicherweise hilfreich, eine kabel
 ## Konfigurieren von Systemeinstellungen
 
 1. Anmelden mit einem Konto, das über lokale Administratorrechte auf dem Gerät verfügt.  
+
     - Auf Azure AD-verbundenen Geräten wird der Benutzer, der die Azure AD-Verknüpfung ausführt, automatisch der lokalen Administratorgruppe hinzugefügt. Azure AD Global Administrators und Azure AD Devices-Administratoren sind [auch lokale Administratoren](https://docs.microsoft.com/azure/active-directory/devices/assign-local-admin). 
+    
     - Sie können **net localgroup-Administratoren** an einer Eingabeaufforderung eingeben, um die Konten aufzulisten, die über lokale Administratorrechte verfügen.
+    
 2. Benennen Sie das Gerät mit einem Anzeigenamen um, beispielsweise: **username-SHub-Desktop**.
+
 3. Wählen Sie **Start**  >  **Einstellungen**  >  -**Konten**  >  **Synchronisieren Sie Ihre Einstellungen** aus, und deaktivieren Sie die **Synchronisierungseinstellungen** . 
+
     - Die hier verwendeten Einstellungen dienen dazu, die optimale Touchscreen-Bildschirmoberfläche zu aktivieren, und daher möchten Sie möglicherweise keine anderen Geräte synchronisieren.
+    
 4. Starten Sie das Gerät neu.
 
 ## Aktivieren der Bildschirmtastatur und des Touchpads
 
 1. Tippen und halten oder klicken Sie mit der rechten Maustaste auf die Taskleiste, und wählen Sie dann die Schaltfläche **Bildschirmtastatur anzeigen** und die **Schaltfläche Touchpad anzeigen**aus. 
+
     - Die Bildschirmtastatur ist für die direkte Benutzereingabe hilfreich, und das virtuelle Touchpad hilft bei der präzisen Auswahl, dem Hovern des Bildschirms oder als Alternative zum Tippen und halten für das Klicken mit der rechten Maustaste. 
     - Nachfolgend sehen Sie ein Beispiel.
 
-     ![Touch-Einstellungen](images/touch.png)
+      ![Touch-Einstellungen](images/touch.png)
 
 2. Konfigurieren Sie die Bildschirmtastatur auf QWERTY und unverankert.
-    1. Wählen Sie das Tastatursymbol in der Taskleiste aus, um die Bildschirmtastatur anzuzeigen.
+
+    1. Wählen Sie das **Tastatur** Symbol in der Taskleiste aus, um die Bildschirmtastatur anzuzeigen.
+    
     2. Wählen Sie auf der Bildschirmtastatur das Tastatursymbol in der oberen linken Ecke aus, um die Tastatureinstellungen zu öffnen.
+    
     3. Wählen Sie in der obersten Zeile den neben letzten Tastaturtyp aus, um die QWERTY-Funktion zu aktivieren, und die letzte Option in der zweiten Zeile, um das Floating zu aktivieren, was auf diesem großen Bildschirm sehr hilfreich ist. Weitere Informationen finden Sie in den folgenden Beispielen.
 
-     ![Tastatureinstellungen](images/kbd.png)
-
+      ![Tastatureinstellungen](images/kbd.png)
+ 
 3. Konfigurieren Sie die Einstellungen für die Soft-Tastatur.
-    1. Suchen nach und Öffnen von **Eingabeeinstellungen** 
-    2. Aktivieren Sie alle Optionen unter Rechtschreibung, Eingabe und Bildschirmtastatur.
+
+
+    1. Wählen Sie auf der Bildschirmtastatur das Symbol **Einstellungen** aus, oder suchen Sie nach den **Eingabeeinstellungen**, und öffnen Sie Sie.
+    
+       ![Soft Keyboard-Einstellungen](images/sh2-softkeyboard.png)
+
+    1. Aktivieren Sie alle Optionen unter Rechtschreibung, Eingabe und Bildschirmtastatur.
 
 
 Das folgende Beispiel zeigt das Trackpad, das nützlich ist, um zu navigieren und Optionen auszuwählen. Die Bildschirmtastatur wird verwendet, um den Microsoft Store zu durchsuchen:
@@ -91,16 +106,23 @@ SharePoint-und Teams-Kanaldateien können mithilfe des OneDrive-Synchronisierung
 So synchronisieren Sie interne Unternehmensdateien mit der OneDrive-Synchronisierungs-App auf Ihr lokales Laufwerk:
 
 1. Wechseln Sie zu einer SharePoint-Website, und navigieren Sie zum Dokumentverzeichnis auf oberster Ebene für Dateien, die Sie auf Ihrem lokalen Gerät anzeigen oder bearbeiten möchten.
+
 2. Wählen Sie auf der Schaltfläche " **Synchronisieren** " oben im SharePoint-Menüband aus.
+
 3. Wählen Sie auf **Öffnen** im Popupfenster aus, auf dem **diese Website versucht, Microsoft OneDrive zu öffnen**.
+
 4. Überprüfen Sie, ob die SharePoint-Dateien mit Ihrem lokalen Laufwerk synchronisiert werden, indem Sie auf das OneDrive-Symbol unten rechts in der Taskleiste klicken.
+
 5. Überprüfen Sie, ob die Konfiguration so eingestellt ist, dass die Dateien online bleiben, und laden Sie die Dateien nur während der Verwendung herunter.
+
     1. Öffnen Sie den Datei-Explorer.
     2. Navigieren Sie zu und wählen Sie mit der rechten Maustaste auf dem **Microsoft \ \<SharePoint Document Folder Name\> **aus.
     3. Wählen Sie **Speicherplatz freigeben**aus.
     4. In der Spalte Status wird der Status von Dateien und Ordnern angezeigt. Weitere Informationen finden Sie unter [Synchronisieren von SharePoint-Dateien mit dem OneDrive-synchronisierungsclient](https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd).
+    
 6. Teams-Kanaldateien werden auf SharePoint-Websites mit allen gleichen SharePoint-Dokumentfunktionen wie Versionsverlauf und Synchronisierung mit Ihren lokalen Desktopgeräten gespeichert. So synchronisieren Sie Teams-Kanaldateien:
-    1. Navigieren Sie zu dem Interessenbereich "Teams", und wählen Sie oben auf der Registerkarte " **Dateien** " aus. Wählen Sie dann **Synchronisieren**aus. Die Dateien werden synchronisiert und werden im Datei-Explorer unter **Desktop \ Microsoft \ \<name of the Teams Channel\> **angezeigt.
+
+    1. Navigieren Sie zu dem Interessenbereich "Teams", und wählen Sie oben die Registerkarte " **Dateien** " aus. Wählen Sie dann **Synchronisieren**aus. Die Dateien werden synchronisiert und werden im Datei-Explorer unter **Desktop \ Microsoft \ \<name of the Teams Channel\> **angezeigt.
     2. Verwenden Sie dasselbe Verfahren, das Sie zum Synchronisieren von SharePoint-Websites verwendet haben, um die Dateien in der Cloud zu speichern, und laden Sie Sie nur herunter, wenn Sie Sie verwenden, indem Sie im Datei-Explorer auf den Namen des Teams-Kanals tippen und halten oder mit der rechten Maustaste darauf klicken und dann **Platz freigeben**auswählen.
 
 ## Surface Hub-Stifteinstellungen
@@ -110,13 +132,28 @@ So synchronisieren Sie interne Unternehmensdateien mit der OneDrive-Synchronisie
 Koppeln Sie den Stift, um die Stift-Firmware auf dem neuesten Stand zu halten, und erhalten Sie Informationen zu den Akkuladestatus auf der Seite Bluetooth-Geräteeinstellungen oder in der Surface-App:
 
 1. Wählen Sie **Start**  >  **Settings**  >  **Devices**aus.
+
 2. Wählen Sie **Bluetooth oder anderes Gerät hinzufügen**aus.
+
 3. Wählen Sie **Bluetooth**aus.
+
 4. Entfernen Sie die Stift-Endstück-Taste und schütteln, um die Batterie Verbindung zu trennen.
+
 5. Setzen Sie die Kappe wieder ein, und halten Sie die Kappe gedrückt, bis die Kopplungs-LED blinkt.
+
 6. Wählen Sie auf den Surface Hub Bluetooth-Einstellungen die Option **Surface Hub 2 Pen**aus.
+
 7. Führen Sie den Kopplungsvorgang aus. 
-8. Wenn die Kopplung nicht erfolgreich ist, versuchen Sie, den Stift erneut zu koppeln. Falls erforderlich, starten Sie das Gerät neu, und versuchen Sie es dann erneut.
+
+8. Wenn die Kopplung nicht erfolgreich ist, können Sie versuchen, den Stift erneut zu koppeln. Wenn dies nicht funktioniert, können Sie testen, ob der Akku aufgeladen wird, indem Sie überprüfen, ob der Stift in der Whiteboard-Anwendung funktioniert. Wenn dies nicht der Fall ist, ersetzen Sie die Batterie, und versuchen Sie dann, den Stift erneut zu koppeln. Falls erforderlich, starten Sie das Gerät neu, und versuchen Sie es dann erneut.
+
+**Einrichten von Stifttasten Kombinationen** Der Surface-Hub-Stift hat eine Verknüpfungsschaltfläche, die manchmal auch als "Schwanz Klick" bezeichnet wird. Für das Konfigurieren von Tastenkombinationen müssen Sie den Stift zunächst wie zuvor beschrieben koppeln.
+
+1. Suchen Sie nach Stift, und wählen Sie **Stift & Windows Ink-Einstellungen**aus.
+
+2. Wählen Sie am unteren Rand der Seite Stifttasten Kombinationen aus, die das Dialogfeld öffnen, das hier angezeigt wird:
+
+![Stifttasten Kombinationen](images/sh2-pen-shortcuts.png)
 
 ## Kamerakonfiguration
 
@@ -177,59 +214,84 @@ So installieren Sie das Microsoft Whiteboard:
 Sie können Whiteboard auch über den Microsoft Store installieren:
 
 1. Öffnen Sie die Microsoft Store-App, und suchen Sie nach **Whiteboard**.
+
 2. Wählen Sie " **Nein** ", wenn Sie sich anmelden und geräteübergreifend verwenden.
+
 3. Anheften des Whiteboards an die Taskleiste
 
 ### Surface-App
 
 1. Suchen Sie im Microsoft Store nach **Surface**.
+
 2. Setzen Sie den **verfügbaren** Filter auf **alle Geräte**.
+
 3. Installieren Sie die **Surface** -app. Dies sollte die erste aufgelistete APP sein. Möglicherweise müssen Sie Ihre MSA dem Store zuordnen, um die APP installieren zu können.
+
 4. Anheften Sie die **Surface** -APP an die Taskleiste.
 
 ### Ausschneiden und skizzieren
 
 1. Öffnen Sie die APP **Snip & Sketch** , und fixieren Sie Sie an die Taskleiste.
+
 2. Wählen Sie die Auslassungspunkte in der oberen rechten Ecke aus, und wählen Sie dann **Einstellungen**aus.
+
 3. Aktivieren Sie in **Einstellungen** **die Option automatisch in Zwischenablage kopieren**, **snips speichern**und **mehrere Fenster** (optional).
 
 ### Microsoft Office
 
 1. Öffnen Sie das [Office-Portal](https://portal.office.com/account#installs) , und installieren Sie die gewünschten Anwendungen.
+
 2. Anheften Sie die gewünschten Office-Anwendungen an die Taskleiste.
+
 3. Wenn Outlook installiert ist, müssen Sie Outlook Ost so einstellen, dass nur der letzte zwei Wochen-Cache gespeichert wird. Dadurch werden die Datenträgernutzung und die Einrichtungszeit erheblich reduziert.
+
     - Wählen Sie **Datei**  >  **Kontoeinstellungen** aus, und wählen Sie Ihr Konto aus.
     - Wählen Sie **ändern** aus, und legen Sie den Schieberegler für die **Verwendung des Exchange-Cache-Modus** auf 14 Tage.
 
 ### Microsoft Teams
 
 1. Laden Sie [Microsoft Teams](https://teams.microsoft.com/downloads)herunter, und installieren Sie Sie.
+
 2. Konfigurieren Sie die Einstellungen für die automatische Startanwendung (optional).
+
 3. Anheften von Teams an die Taskleiste.
+
 4. Sie können die Benachrichtigungen für Teams auf dem Gerät reduzieren, um Ablenkungen zu vermeiden (optional).
 
-  ![Teams-Benachrichtigungen](images/teams.png)
+   ![Teams-Benachrichtigungen](images/teams.png)
 
 ### Connect-App
 
 > [!IMPORTANT]
-> In Windows 10, Version 2004 und höher, ist die Connect-App für drahtlose Projektion unter Verwendung von Miracast nicht standardmäßig installiert, steht aber als optionales Feature zur Verfügung. Wenn Sie die APP installieren möchten, wählen Sie unter **Einstellungen**  >  **apps**  >  **optionale Features**  >  **ein Feature hinzufügen** aus, und installieren Sie dann die **drahtlose Anzeige** -app.
+> In Windows 10, Version 2004 und höher, ist die Connect-App für drahtlose Projektion unter Verwendung von Miracast nicht standardmäßig installiert, steht aber als optionales Feature zur Verfügung. Wenn Sie Windows-Version 2004 oder höher installiert (oder aktualisiert) haben, wird möglicherweise auf dem Bildschirm Projektion auf diesen PC unter Einstellungen Folgendes angezeigt:
 
-1. Suchen Sie nach **Connect**.
-2. Öffnen Sie die APP, und schließen Sie Sie dann (**Project auf diesem PC** funktioniert möglicherweise nicht, wenn die APP mindestens einmal ausgeführt wurde).
-3. Tippen und halten oder klicken Sie mit der rechten Maustaste, um die Taskleiste zu anheften.
-4. Suchen Sie nach **Projektions Einstellungen**.
-5. **Wenn Sie unter Windows-und Android-Geräten auf diesen PC projizieren können, wenn Sie sagen, dass es in Ordnung ist**, wählen Sie **überall verfügbar** aus, wenn sich das Gerät nicht in einem Unternehmensnetzwerk befindet. Andernfalls können Sie **überall in sicheren Netzwerken verfügbar**wählen.
-6. Wählen Sie unter **Projekt auf diesem PC anfordern**die Option **nur erstes Mal**aus.
-7. Wählen Sie unter **PIN für Kopplung anfordern**die Option **nie**aus.
+![Projekt auf diesem PC](images/sh2-project.png) 
+
+
+1. Wenn Sie die APP auf der Seite "auf diesen PC projizieren" installieren möchten, wählen Sie **optionale Features**  >  **Add a Feature** und dann die **drahtlose Anzeige** -App aus.
+
+2. Unter **einigen Windows-und Android-Geräten können Sie auf diesen PC projizieren, wenn Sie sagen, dass es in Ordnung ist**, wählen Sie:
+
+    - **Überall verfügbar** , wenn sich das Gerät nicht in einem Unternehmensnetzwerk befindet.
+    - Wählen Sie andernfalls **überall in sicheren Netzwerken verfügbar**aus.
+    
+3. Wählen Sie unter **Projekt auf diesem PC anfordern**die Option **nur erstes Mal**aus.
+
+4. Wählen Sie unter **PIN für Kopplung anfordern**die Option **nie**aus.
+
+5. Wenn Sie die app starten und an die Taskleiste anheften möchten, suchen Sie nach **Connect**.
+
+6. Öffnen Sie die app. Klicken Sie, während die APP geöffnet ist, mit der rechten Maustaste auf das Symbol "App verbinden" auf der Taskleiste, und wählen Sie **an Taskleiste anheften**aus.
+
+7. Schließen Sie dann die Connect-app. **Project auf diesem PC** funktioniert möglicherweise nur, wenn die APP mindestens einmal ausgeführt wurde.
 
 Empfohlene Konfiguration, wenn Sie sich nicht im Unternehmensnetzwerk befinden:
 
-  ![Einstellungen zu Hause](images/project1.png)
+![Einstellungen zu Hause](images/project1.png)
 
 Empfohlene Konfiguration im Unternehmensnetzwerk:
 
-  ![Einstellungen bei der Arbeit](images/project2.png)
+![Einstellungen bei der Arbeit](images/project2.png)
 
 ### Ihr Smartphone
 
@@ -250,6 +312,7 @@ Laden Sie den neuen [Edge Chrom-Browser](https://www.microsoft.com/en-us/edge?fo
 ### Stift Schwanz auswählen, um Whiteboard zu starten
 
 1. Suchen Sie nach **Stift** , und wählen Sie **Stift & Windows Ink-Einstellungen**aus.
+
 2. **Klicken Sie** am unteren Rand der Seite unter **Stifttasten Kombinationen** auf **Microsoft Whiteboard**auswählen. 
 
 ### Energieverwaltung
@@ -261,24 +324,48 @@ Mit Windows 10 pro oder Enterprise auf Surface Hub 2 können Sie den Bildschirm 
 **Energieverwaltung: Bildschirm-und PC-Ruhemodus-Einstellungen**
 
 1. Wählen Sie **Start**  >  **Einstellungen**  >  **System**  >  **Power & Sleep**aus.
+
 2. Stellen Sie den Power Mode-Schieberegler auf **optimale Leistung**ein.
+
 3. Konfigurieren Sie die Einstellungen für den Bildschirm und den Ruhezustand nach Ihren wünschen, während Sie auch die Doppler-Anwesenheitserkennung erfassen, die das Gerät aktiviert, wenn Bewegungen erkannt werden. Daher empfiehlt es sich, den Bildschirm so zu konfigurieren, dass er **nach 2 Stunden ausgeschaltet** wird und der PC **nach 4 Stunden ausgeschaltet wird.**
 
 **Energieverwaltung: Bildschirmschoner**
 
 1. Suchen Sie nach **dem Sperrbildschirm** , und öffnen Sie die Einstellungen für den **Sperrbildschirm**.
-2. Konfigurieren Sie die Einstellungen für das **Bildschirm Timeout** und die **Bildschirmschonereinstellungen** nach Ihren Wünschen.
+
+2. Konfigurieren Sie die Einstellungen für das **Bildschirm Timeout** und die **Bildschirmschonereinstellungen** nach Ihren Wünschen. Empfohlene Standardwerte:
+
+   - Bildschirmschoner (ohne) oder Bildschirmschoner Ihrer Wahl.
+   - Warten Sie "Zeit bis 15 Minuten.
+   - Zeigen Sie auf Resume den Anmeldebildschirm an.
+
+
+**Energieverwaltung: Gruppenrichtlinien**
+
+Bevor Sie das folgende Verfahren ausführen, erkundigen Sie sich bei Ihrer IT-Abteilung, ob ein Surface Hub 2S-Gerät aus der globalen Energieverwaltungsrichtlinie ausgeschlossen werden soll. Einige Energieverwaltungseinstellungen können die Anwesenheits Erkennungsfunktion deaktivieren.
+
+1. Suchen Sie nach **Software Center** , und öffnen Sie Sie.
+
+2. Wählen Sie **Optionen**aus.
+
+3. Erweitern Sie die **Energieverwaltung**  , und wählen Sie **auf diesem Computer keine Energieeinstellungen von meiner IT-Abteilung anwenden aus**.
+
+   ![Software Einstellungen](images/soft-cntr.png)
 
 ### Speicheroptimierung
 
 Der Surface Hub 2 verfügt über eine 128 GB-SSD für den lokalen Speicher, daher ist es notwendig, die Verwendung von Speicher Sparmaßnahmen während der normalen Nutzung zu überdenken.  So konfigurieren Sie den Speicher Sinn:
 
 1.  Suchen Sie nach den **Speichereinstellungen**, die unter **System Einstellungen**gefunden werden.
+
 2.  Wählen Sie unter **Einstellungen**die Option **Speicher Sinn aktivieren** aus, um die Seite **Speicher** Einstellungen zu öffnen.
+
 3.  Stellen Sie den Speicher Sinn auf **ein**.
+
 4.  Wählen Sie **Speicher Sinn konfigurieren aus, oder führen Sie es jetzt** aus, und konfigurieren Sie die Einstellungen so, dass Dateien so weit wie möglich online bleiben (aufgrund des geringen Festplattenspeichers).
 
 Empfohlene Einstellungen:
+
 - Führen Sie den Speicher Sinn = jeden Tag aus.
 - Löschen Sie temporäre Dateien, die meine apps nicht verwenden = alle 14 Tage (mindestens).
 - Löschen Sie Dateien im Ordner "Downloads", wenn Sie über mehr als = 30 Tage vorhanden sind.
@@ -288,57 +375,65 @@ Empfohlene Einstellungen:
 
 Aktivieren Sie den Tablet-Modus, wenn dies für Barrierefreiheitsanforderungen erforderlich ist.
 
-### Energieverwaltung
-
-> [!NOTE]
-> Bevor Sie das folgende Verfahren ausführen, erkundigen Sie sich bei Ihrer IT-Abteilung, ob ein Surface Hub 2S-Gerät aus der globalen Energieverwaltungsrichtlinie ausgeschlossen werden soll. Einige Energieverwaltungseinstellungen können die Anwesenheits Erkennungsfunktion deaktivieren.
-
-1. Suchen Sie nach **Software Center** , und öffnen Sie Sie.
-2. Wählen Sie im Navigationsbereich **Optionen** aus.
-3. Erweitern Sie den Abschnitt **Energieverwaltung** , und wählen Sie **auf diesem Computer keine Energieeinstellungen von meiner IT-Abteilung anwenden aus**.
-
-   ![Software Einstellungen](images/soft-cntr.png)
 
 ### Sound Einstellungen
 
 1. Suchen Sie nach **Sounds-Einstellungen** , und öffnen Sie diese Seite.
+
 2. Wählen Sie auf der rechten Seite **Sound Control Panel** aus, und klicken Sie auf die Registerkarte **Sounds** .
+
 3. Klicken Sie unter **Programmereignisse** auf **Gerät verbinden** und **Gerät trennen** mit **keiner**.
 
 ### Benachrichtigungen zum Schweigen
 
 1. Suchen Sie nach **Fokus Unterstützung** , und öffnen Sie diese Seite.
+
 2. Wählen Sie **nur Erinnerungen**aus. Dadurch werden keine Konstanten Benachrichtigungs Flyouts vermieden.
 
 ### Datenträgerbereinigung
 
 1. Suchen Sie nach **Datenträgerbereinigung** , und öffnen Sie diese APP.
+
 2. Wählen Sie unter **zu löschende Dateien**die Dateien aus, die Sie löschen möchten. 
+
 3. Wählen Sie auch **Systemdateien bereinigen**aus.
 
 ## Fertig stellen und überprüfen
 
 1. Suchen Sie nach allen Windows-Updates, und installieren Sie Sie.
+
 2. Aktualisieren von Gruppenrichtlinien
-    1. Geben Sie an einer Eingabeaufforderung mit erhöhten Rechten **gpupdate force/Boot/Wait: 0**ein.
+
+   1. Geben Sie an einer Eingabeaufforderung mit erhöhten Rechten **gpupdate force/Boot/Wait: 0**ein.
+   
 3. Starten Sie das Gerät neu.
+
 4. Überprüfen der Taskleisten-apps
-    - Connect-App
-    - Symbol "Sperren"
-    - Ausschneiden und skizzieren
-    - Teams (falls zutreffend)
-    - Office-Apps (falls zutreffend)
-    - Surface-App
-    - Whiteboard
+
+   - Connect-App
+   - Symbol "Sperren"
+   - Ausschneiden und skizzieren
+   - Teams (falls zutreffend)
+   - Office-Apps (falls zutreffend)
+   - Surface-App
+   - Whiteboard
+    
 5. Überprüfen Sie die Anwesenheitserkennung.
-    - Die Anwesenheitserkennung ist ein grünes Symbol in der Taskleiste.
+
+   - Die Anwesenheitserkennung ist ein grünes Symbol in der Taskleiste.
+    
 6. Überprüfen Sie, ob das projizieren auf diesen PC mit der Connect-App aktiviert ist (die Anwendung muss vor dem Herstellen der Verbindung nicht ausgeführt werden).
+
 7. Überprüfen Sie die Energie-und Ruhezustandseinstellungen.
+
     - Bildschirmschoner: 15 Minuten, auf (keine), Mystify oder leer; Kontrollkästchen zum Anfordern eines Kennworts ist aktiviert
-    - Bildschirm: Ausschalten **nach 2 Stunden.**
-    - PC: Ausschalten  **nach 4 Stunden.**
+    - Bildschirm: Ausschalten **nach 2 Stunden**.
+    - PC: Ausschalten  **nach 4 Stunden**.
+    
 8. Überprüfen Sie, ob Windows Hello funktioniert.
+
 9. Überprüfen der Synchronisierung Ihre Einstellungen sind deaktiviert.
+
 10. Überprüfen von Start-apps.
 
 > [!TIP]

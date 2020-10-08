@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 07/31/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: c5cf643d0f4a68344bb098916a909dd66e1dac9b
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 1c8d8b6d89ec1a20550b7aa13c82c73a239c3965
+ms.sourcegitcommit: d0a5c8fb2b37eb11858c7be4549e55c4b36d7471
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10833730"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "11104817"
 ---
 # Zurücksetzen oder Wiederherstellen eines Surface-Hubs
 
@@ -73,7 +73,7 @@ Möglicherweise müssen Sie diese Art des Wiederherstellungsprozesses unter den 
 - [Der Surface-Hub ist gesperrt](#recover-a-locked-surface-hub)
 
 >[!IMPORTANT]
->Der Prozess " **Wiederherstellen aus der Cloud** " erfordert eine offene Internetverbindung (kein Proxy oder andere Authentifizierungen). Eine Ethernet-Verbindung wird empfohlen.
+>Der Prozess " **Wiederherstellen aus der Cloud** " erfordert eine Kabelverbindung, die eine offene Internetverbindung (keine Proxy-oder andere Authentifizierungs Aufforderungen) bereitstellt.
 
 ### Wiederherstellen von Surface Hub in einem fehlerhaften Zustand
 
@@ -122,7 +122,7 @@ In seltenen Fällen kann für einen Surface Hub ein Fehler auftreten, während a
    Wenn der Download abgeschlossen ist, stellt der Wiederherstellungsprozess den Surface-Hub entsprechend den von Ihnen ausgewählten Optionen wieder her.
    
 
-## Support kontaktieren
+## Hilfe und Support zu Windows
 
 Wenn Sie Fragen haben oder Hilfe benötigen, können Sie [eine Supportanfrage erstellen](https://support.microsoft.com/supportforbusiness/productselection).
 

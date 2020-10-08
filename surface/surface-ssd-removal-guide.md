@@ -8,7 +8,7 @@ ms.sitesec: library
 author: mccoybot
 ms.author: v-todmc
 ms.topic: article
-ms.date: 8/7/2020
+ms.date: 10/7/2020
 ms.reviewer: johnk
 manager: laurawi
 ms.audience: itpro
@@ -19,17 +19,17 @@ appliesto:
 ms.custom:
 - CI 121887
 - CSSTroubleshoot
-ms.openlocfilehash: 66860af06f4fad8f19ca26702350f19cc85ffef1
-ms.sourcegitcommit: bad416f04c6877f2200f134a69146bb633155f22
+ms.openlocfilehash: 00109e4e1bb3873fc2914b2044f58e6fa3b6c211
+ms.sourcegitcommit: d0a5c8fb2b37eb11858c7be4549e55c4b36d7471
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "10919224"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "11104807"
 ---
 # Bewährte Methoden für die SSD-Entfernung von kompatiblen Surface-Geräten
 
 > [!IMPORTANT]
-> Dieser Artikel ist nur für die Verwendung durch qualifizierte IT-Techniker in einer Unternehmensorganisation vorgesehen. Es werden die empfohlenen bewährten Methoden für die Verwendung durch qualifizierte IT-Techniker beschrieben, wenn Sie SSDs in Surface-Geräten mit wechselbaren SSDs entfernen und ersetzen. 
+> Dieser Artikel ist nur für die Verwendung durch qualifizierte IT-Techniker in einer Unternehmensorganisation vorgesehen. Sie beschreibt die empfohlenen bewährten Methoden für die Verwendung durch qualifizierte IT-Techniker beim Entfernen und Ersetzen von SSDs in Surface Laptop 3 oder Surface pro X. 
 
 > [!WARNING]
 > Durch das Öffnen von Geräten und das Ersetzen von Gerätekomponenten können elektrische Schocks, Geräteschäden, Brände sowie Risiken für Personenschäden und andere Gefahren auftreten.  Verwenden Sie immer Vorsicht, wenn Sie solche Aktivitäten durchführen. Befolgen Sie die Sicherheitsvorkehrungen und Vorgehensweisen, die im [rSSD-Entfernungs Leit Faden für Enterprise](https://www.microsoft.com/download/100440)aufgeführt sind. Wir empfehlen, dass Sie professionelle Unterstützung erhalten, wenn Sie die Sicherheitsvorkehrungen und Verfahren, die im "rSSD-Entfernungs Leit Faden für Unternehmen" angegeben sind, nicht befolgen können.
