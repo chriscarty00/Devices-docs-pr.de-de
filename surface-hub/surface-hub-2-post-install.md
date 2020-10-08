@@ -1,7 +1,7 @@
 ---
-title: Configure Windows 10 Pro or Enterprise on Surface Hub 2
-description: This article includes recommendations to ensure the best experience when using a personalized large screen touch and pen computer.
-keywords: Surface Hub, Windows 10, desktop, install, configuration
+title: Konfigurieren von Windows 10 Pro oder Enterprise auf Surface Hub 2
+description: Dieser Artikel enthält Empfehlungen, mit denen Sie bei Verwendung eines personalisierten Touchscreen-und Stift Computers mit großem Touchscreen optimale Ergebnisse erzielen können.
+keywords: Surface Hub, Windows 10, Desktop, Installation, Konfiguration
 ms.prod: surface-hub
 ms.mktglfcycl: deploy
 ms.localizationpriority: low
@@ -24,326 +24,326 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 10/02/2020
 ms.locfileid: "11093895"
 ---
-# Configure Windows 10 Pro or Enterprise on Surface Hub 2
+# Konfigurieren von Windows 10 Pro oder Enterprise auf Surface Hub 2
 
-After you have completed the installation process of migrating to Windows 10 Pro or Enterprise, you can perform the following steps to configure apps and settings on your Surface Hub 2. These steps are recommended to ensure the best experience when using this personalized large screen touch and pen computer.
+Nachdem Sie den Installationsvorgang für die Migration zu Windows 10 pro oder Enterprise abgeschlossen haben, können Sie die folgenden Schritte ausführen, um apps und Einstellungen auf dem Surface Hub 2 zu konfigurieren. Diese Schritte werden empfohlen, um die optimale Benutzerfreundlichkeit bei der Verwendung dieses personalisierten Touchscreen-und Stift Computers zu gewährleisten.
 
-When performing these steps, you might find it useful to use a wired or wireless keyboard and mouse.
+Wenn Sie diese Schritte ausführen, ist es möglicherweise hilfreich, eine kabelgebundene oder drahtlose Tastatur und Maus zu verwenden.
 
-## Configure system settings
+## Konfigurieren von Systemeinstellungen
 
-1. Sign in with an account that has local administrator privileges on the device.  
-    - On Azure AD joined devices, the user that performs the Azure AD join is automatically added to the local administrator group. Azure AD global administrators and Azure AD devices administrators are [also local administrators](https://docs.microsoft.com/azure/active-directory/devices/assign-local-admin). 
-    - You can type **net localgroup administrators** at a command prompt to list the accounts that have local administrator rights.
-2. Rename the device using a friendly name, for example: **username-SHub-Desktop**.
-3. Select **Start** > **Settings** > **Accounts** > **Sync your settings** and turn **Sync settings** off. 
-    - The settings used here are intended to enable the best large-screen touch experience, and therefore you may not want to sync other devices.
-4. Reboot the device.
+1. Anmelden mit einem Konto, das über lokale Administratorrechte auf dem Gerät verfügt.  
+    - Auf Azure AD-verbundenen Geräten wird der Benutzer, der die Azure AD-Verknüpfung ausführt, automatisch der lokalen Administratorgruppe hinzugefügt. Azure AD Global Administrators und Azure AD Devices-Administratoren sind [auch lokale Administratoren](https://docs.microsoft.com/azure/active-directory/devices/assign-local-admin). 
+    - Sie können **net localgroup-Administratoren** an einer Eingabeaufforderung eingeben, um die Konten aufzulisten, die über lokale Administratorrechte verfügen.
+2. Benennen Sie das Gerät mit einem Anzeigenamen um, beispielsweise: **username-SHub-Desktop**.
+3. Wählen Sie **Start**  >  **Einstellungen**  >  -**Konten**  >  **Synchronisieren Sie Ihre Einstellungen** aus, und deaktivieren Sie die **Synchronisierungseinstellungen** . 
+    - Die hier verwendeten Einstellungen dienen dazu, die optimale Touchscreen-Bildschirmoberfläche zu aktivieren, und daher möchten Sie möglicherweise keine anderen Geräte synchronisieren.
+4. Starten Sie das Gerät neu.
 
-## Enable the touch keyboard and touchpad
+## Aktivieren der Bildschirmtastatur und des Touchpads
 
-1. Tap and hold or right-click the taskbar and then select **Show touch keyboard button** and **Show touchpad button**. 
-    - The touch keyboard is helpful for direct user input, and the virtual touchpad helps with precise selections, hovering screen tips, or as an alternative to tap and hold for right-click. 
-    - See the following example.
+1. Tippen und halten oder klicken Sie mit der rechten Maustaste auf die Taskleiste, und wählen Sie dann die Schaltfläche **Bildschirmtastatur anzeigen** und die **Schaltfläche Touchpad anzeigen**aus. 
+    - Die Bildschirmtastatur ist für die direkte Benutzereingabe hilfreich, und das virtuelle Touchpad hilft bei der präzisen Auswahl, dem Hovern des Bildschirms oder als Alternative zum Tippen und halten für das Klicken mit der rechten Maustaste. 
+    - Nachfolgend sehen Sie ein Beispiel.
 
-     ![Touch settings](images/touch.png)
+     ![Touch-Einstellungen](images/touch.png)
 
-2. Configure the touch keyboard to QWERTY and floating.
-    1. Select the keyboard icon on the taskbar to show the touch keyboard.
-    2. On the touch keyboard, select the keyboard icon in the upper left corner to open keyboard settings.
-    3. Select the next to last keyboard type on the top row to enable QWERTY, and the last option on the second row to enable floating, which is very helpful on this large screen. See the following examples.
+2. Konfigurieren Sie die Bildschirmtastatur auf QWERTY und unverankert.
+    1. Wählen Sie das Tastatursymbol in der Taskleiste aus, um die Bildschirmtastatur anzuzeigen.
+    2. Wählen Sie auf der Bildschirmtastatur das Tastatursymbol in der oberen linken Ecke aus, um die Tastatureinstellungen zu öffnen.
+    3. Wählen Sie in der obersten Zeile den neben letzten Tastaturtyp aus, um die QWERTY-Funktion zu aktivieren, und die letzte Option in der zweiten Zeile, um das Floating zu aktivieren, was auf diesem großen Bildschirm sehr hilfreich ist. Weitere Informationen finden Sie in den folgenden Beispielen.
 
-     ![Keyboard settings](images/kbd.png)
+     ![Tastatureinstellungen](images/kbd.png)
 
-3. Configure the soft keyboard settings.
-    1. Search for and open **Typing settings** 
-    2. Enable all the options under Spelling, Typing, and Touch keyboard.
+3. Konfigurieren Sie die Einstellungen für die Soft-Tastatur.
+    1. Suchen nach und Öffnen von **Eingabeeinstellungen** 
+    2. Aktivieren Sie alle Optionen unter Rechtschreibung, Eingabe und Bildschirmtastatur.
 
 
-The following example shows the trackpad, which is useful to navigate and select options. The onscreen keyboard is being used to search the Microsoft Store:
+Das folgende Beispiel zeigt das Trackpad, das nützlich ist, um zu navigieren und Optionen auszuwählen. Die Bildschirmtastatur wird verwendet, um den Microsoft Store zu durchsuchen:
 
-![Using the trackpad](images/store.png)
+![Verwenden des Trackpads](images/store.png)
 
-## Configure bluetooth keyboard and mouse (optional)
+## Konfigurieren der Bluetooth-Tastatur und-Maus (optional)
 
-Connect a keyboard and mouse if you are using the device as your primary Windows device, or you use it often for typing or precision work.
+Schließen Sie eine Tastatur und Maus an, wenn Sie das Gerät als Ihr primäres Windows-Gerät verwenden, oder verwenden Sie es häufig für die Eingabe oder die Genauigkeit der Arbeit.
 
-If your Surface Hub device is near to a PC, you can use [Mouse without Borders](https://aka.ms/mm) to move seamlessly between the Surface Hub and the PC. For more information, see [Microsoft download from The Garage: Mouse without Borders](https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/).
+Wenn sich Ihr Surface-Hub-Gerät in der Nähe eines PCs befindet, können Sie die [Maus ohne Rahmen](https://aka.ms/mm) verwenden, um nahtlos zwischen dem Surface-Hub und dem PC zu wechseln. Weitere Informationen finden Sie unter [Microsoft-Download aus der Garage: Maus ohne Rahmen](https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/).
 
 ## OneDrive for Business
 
-Use [OneDrive for Business](https://docs.microsoft.com/onedrive/onedrive) to easily share tools, logs, and other files between all your work devices.
+Verwenden Sie [OneDrive for Business](https://docs.microsoft.com/onedrive/onedrive) , um Tools, Protokolle und andere Dateien auf einfache Weise zwischen allen ihren Arbeitsgeräten freizugeben.
 
-- OneDrive enables you to share your work files between your laptops, Surface Hub Desktop, and your Intune-managed mobile devices. Files can be edited on any device, and all network connected devices will be updated with the changes.
-- Considering the size of the Surface Hub SSD (128GB), if you configure OneDrive on your Surface Hub Desktop device, make sure the default configuration is to keep the files online and download files as you use them.
+- Mit OneDrive können Sie Ihre Arbeitsdateien zwischen ihren Laptops, dem Surface Hub-Desktop und ihren von InTune verwalteten mobilen Geräten freigeben. Dateien können auf jedem Gerät bearbeitet werden, und alle mit dem Netzwerk verbundenen Geräte werden mit den Änderungen aktualisiert.
+- Wenn Sie die Größe der Surface-Hub-SSD (128 GB) berücksichtigen und OneDrive auf Ihrem Surface Hub-Desktop Gerät konfigurieren, stellen Sie sicher, dass die Standardkonfiguration darin besteht, die Dateien online zu speichern und während der Verwendung Dateien herunterzuladen.
 
-To configure OneDrive to download files only when needed, set the **Files On-Demand** setting to **Save space and download files as you use them**. For more information, see [Query and set Files On-Demand states in Windows](https://docs.microsoft.com/onedrive/files-on-demand-windows).
+Wenn Sie OneDrive so konfigurieren möchten, dass Dateien nur bei Bedarf heruntergeladen werden, legen Sie die Einstellung **files on-Demand** fest, um **Speicherplatz zu sparen und während der Verwendung Dateien herunterzuladen**. Weitere Informationen finden Sie unter [Abfragen und Einrichten von Dateien auf Anforderungsstatus in Windows](https://docs.microsoft.com/onedrive/files-on-demand-windows).
 
-![OneDrive settings](images/onedrive.png)
+![OneDrive-Einstellungen](images/onedrive.png)
 
 > [!NOTE]
-> You can also repeat these steps to configure a personal OneDrive but be sure to conserve drive space and only download files as you need them.
+> Sie können diese Schritte auch wiederholen, um eine persönliche OneDrive zu konfigurieren, aber achten Sie darauf, den Speicherplatz zu sparen und nur Dateien herunterzuladen, wenn Sie Sie benötigen.
 
-## SharePoint and Teams
+## SharePoint und Teams
 
-SharePoint and Teams Channel files can also sync locally to your desktop devices, such as laptops and Surface Hubs, using the OneDrive sync engine.
+SharePoint-und Teams-Kanaldateien können mithilfe des OneDrive-Synchronisierungsmoduls auch lokal mit ihren Desktopgeräten wie Laptops und Surface Hubs synchronisiert werden.
 
-To sync internal corporate files to your local drive with the OneDrive sync app:
+So synchronisieren Sie interne Unternehmensdateien mit der OneDrive-Synchronisierungs-App auf Ihr lokales Laufwerk:
 
-1. Go to a SharePoint site and navigate to the top-level document directory for files that you are interested in viewing or editing from your local device.
-2. Select on the **Sync** button on the top of the SharePoint ribbon.
-3. Select on **Open** on the popup **This site is trying to open Microsoft OneDrive**.
-4. Verify that the SharePoint files are synchronizing to your local drive by selecting on the OneDrive icon at the bottom right of the taskbar.
-5. Verify the configuration is set to keep the files online and download the files only as you use them:
-    1. Open file explorer.
-    2. Navigate to and right select on the **Microsoft \ \<SharePoint Document Folder Name\>**.
-    3. Select **Free up space**.
-    4. The Status column will display the status of files and folders. For more information, see [Sync SharePoint files with the OneDrive sync client](https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd).
-6. Teams Channel files are stored in SharePoint sites, with all of the same SharePoint document functionality, including version history and synchronizing to your local desktop devices. To sync Teams Channel files:
-    1. Navigate to the Teams Channel of interest and select on the **Files** tab at the top. Then select **Sync**. The files will start synchronizing and will be visible in File Explorer at **Desktop \ Microsoft \ \<name of the Teams Channel\>**.
-    2. Use the same procedure that you used for synchronizing SharePoint sites to keep the files in the cloud and only download them when you use them, by tap and hold or right-click in File Explorer on the Teams Channel name, and then selecting **Free up space**.
+1. Wechseln Sie zu einer SharePoint-Website, und navigieren Sie zum Dokumentverzeichnis auf oberster Ebene für Dateien, die Sie auf Ihrem lokalen Gerät anzeigen oder bearbeiten möchten.
+2. Wählen Sie auf der Schaltfläche " **Synchronisieren** " oben im SharePoint-Menüband aus.
+3. Wählen Sie auf **Öffnen** im Popupfenster aus, auf dem **diese Website versucht, Microsoft OneDrive zu öffnen**.
+4. Überprüfen Sie, ob die SharePoint-Dateien mit Ihrem lokalen Laufwerk synchronisiert werden, indem Sie auf das OneDrive-Symbol unten rechts in der Taskleiste klicken.
+5. Überprüfen Sie, ob die Konfiguration so eingestellt ist, dass die Dateien online bleiben, und laden Sie die Dateien nur während der Verwendung herunter.
+    1. Öffnen Sie den Datei-Explorer.
+    2. Navigieren Sie zu und wählen Sie mit der rechten Maustaste auf dem **Microsoft \ \<SharePoint Document Folder Name\> **aus.
+    3. Wählen Sie **Speicherplatz freigeben**aus.
+    4. In der Spalte Status wird der Status von Dateien und Ordnern angezeigt. Weitere Informationen finden Sie unter [Synchronisieren von SharePoint-Dateien mit dem OneDrive-synchronisierungsclient](https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd).
+6. Teams-Kanaldateien werden auf SharePoint-Websites mit allen gleichen SharePoint-Dokumentfunktionen wie Versionsverlauf und Synchronisierung mit Ihren lokalen Desktopgeräten gespeichert. So synchronisieren Sie Teams-Kanaldateien:
+    1. Navigieren Sie zu dem Interessenbereich "Teams", und wählen Sie oben auf der Registerkarte " **Dateien** " aus. Wählen Sie dann **Synchronisieren**aus. Die Dateien werden synchronisiert und werden im Datei-Explorer unter **Desktop \ Microsoft \ \<name of the Teams Channel\> **angezeigt.
+    2. Verwenden Sie dasselbe Verfahren, das Sie zum Synchronisieren von SharePoint-Websites verwendet haben, um die Dateien in der Cloud zu speichern, und laden Sie Sie nur herunter, wenn Sie Sie verwenden, indem Sie im Datei-Explorer auf den Namen des Teams-Kanals tippen und halten oder mit der rechten Maustaste darauf klicken und dann **Platz freigeben**auswählen.
 
-## Surface Hub pen settings
+## Surface Hub-Stifteinstellungen
 
-**Pair the Bluetooth Surface Hub Pen**
+**Koppeln des Bluetooth Surface Hub-Stifts**
 
-Pair the pen to keep the pen firmware up to date and get battery charge information on the Bluetooth device settings page, or in the Surface app:
+Koppeln Sie den Stift, um die Stift-Firmware auf dem neuesten Stand zu halten, und erhalten Sie Informationen zu den Akkuladestatus auf der Seite Bluetooth-Geräteeinstellungen oder in der Surface-App:
 
-1. Select **Start** > **Settings** > **Devices**.
-2. Select **Add Bluetooth or other device**.
-3. Choose **Bluetooth**.
-4. Remove the pen tail button and shake to disconnect the battery connection.
-5. Put the cap back on and press and hold the cap until the pairing LED flashes.
-6. On the Surface Hub Bluetooth settings, choose **Surface Hub 2 Pen**.
-7. Complete the pairing operation. 
-8. If the pairing is not successful, attempt to pair the pen again. If necessary, reboot the device and then try again.
+1. Wählen Sie **Start**  >  **Settings**  >  **Devices**aus.
+2. Wählen Sie **Bluetooth oder anderes Gerät hinzufügen**aus.
+3. Wählen Sie **Bluetooth**aus.
+4. Entfernen Sie die Stift-Endstück-Taste und schütteln, um die Batterie Verbindung zu trennen.
+5. Setzen Sie die Kappe wieder ein, und halten Sie die Kappe gedrückt, bis die Kopplungs-LED blinkt.
+6. Wählen Sie auf den Surface Hub Bluetooth-Einstellungen die Option **Surface Hub 2 Pen**aus.
+7. Führen Sie den Kopplungsvorgang aus. 
+8. Wenn die Kopplung nicht erfolgreich ist, versuchen Sie, den Stift erneut zu koppeln. Falls erforderlich, starten Sie das Gerät neu, und versuchen Sie es dann erneut.
 
-## Camera configuration
+## Kamerakonfiguration
 
-You can mount the camera on the top or on either side of the device. Mount the camera in a position to optimize the camera angle if you are using the Hub with a desktop stand instead of a cart, or are in close proximity to the Hub. The camera does not auto-rotate, so you need to have a 2mm hex key to manually rotate the camera. 
+Sie können die Kamera oben oder an jeder Seite des Geräts montieren. Montieren Sie die Kamera in einer Position, um den Kamerawinkel zu optimieren, wenn Sie den Hub mit einem Desktop-Standfuß statt mit einem Wagen verwenden oder sich in der Nähe des Hubs befinden. Da die Kamera nicht automatisch gedreht wird, benötigen Sie eine 2mm-Sechskant-Taste, um die Kamera manuell zu drehen. 
 
-For more information on how to side-mount the camera and rotate the camera manually, see [Surface Hub 2S camera lens orientation](https://support.microsoft.com/help/4509729/surface-hub-2s-camera-lens-orientation).
+Weitere Informationen dazu, wie Sie die Kamera seitlich montieren und die Kamera manuell drehen können, finden Sie unter [Surface Hub 2S-Kameralinsen Ausrichtung](https://support.microsoft.com/help/4509729/surface-hub-2s-camera-lens-orientation).
 
-## Windows Hello configuration
+## Windows Hello-Konfiguration
 
-Surface Hub 2S running Windows 10 Enterprise allows the full suite of Win32 desktop applications as well as biometric Windows Hello options. The Surface Hub 2 Fingerprint Reader accessory can be plugged into any USB-C port on the device. 
+Surface Hub 2S mit Windows 10 Enterprise ermöglicht die vollständige Suite von Win32-Desktopanwendungen sowie biometrische Windows Hello-Optionen. Der Surface Hub 2-Fingerabdruckleser-Zubehör kann an einen beliebigen USB-C-Anschluss des Geräts angeschlossen werden. 
 
-To order a Surface Hub 2 Fingerprint Reader or view technical specs, see [Essential add-ons for Windows 10 Pro and Enterprise on Surface Hub 2](surface-hub-2-essential-add-ons.md). 
+Wenn Sie einen Surface Hub 2-Fingerabdruckleser bestellen oder technische Daten anzeigen möchten, lesen Sie [grundlegende Add-ons für Windows 10 pro und Enterprise auf Surface Hub 2](surface-hub-2-essential-add-ons.md). 
 
-After inserting the fingerprint reader, select **Start** > **Settings** > **Accounts** > **Sign-in options** > **Windows Hello Fingerprint** to enroll your fingerprint.
+Nachdem Sie den Fingerabdruckleser eingefügt haben, wählen Sie **Start**  >  **Einstellungen**  >  **Accounts**  >  für die**Anmeldeoptionen**  >  **Windows Hello Fingerabdruck** aus, um Ihren Fingerabdruck einzuschreiben.
 
-Use a Windows Hello certified device for face recognition. The Surface Hub 2S camera does not support Windows Hello face recognition.
+Verwenden Sie ein Windows Hello Certified-Gerät für die Flächen Erkennung. Die Surface Hub 2S-Kamera unterstützt keine Windows Hello Face-Erkennung.
 
-## Enable a Lock Screen shortcut icon on the taskbar
+## Aktivieren eines Symbol Symbols für den Sperrbildschirm auf der Taskleiste
 
-To add an icon to the taskbar that enables one-touch screen lock similar to the Windows-L keyboard shortcut: 
+So fügen Sie der Taskleiste ein Symbol hinzu, das eine Touchscreen-Sperre ähnlich der Windows-L-Tastenkombination ermöglicht: 
 
-1.  Tap and hold or right-click on the desktop, select **New** > **Shortcut** > **Browse** > **Desktop** > **OK** > **Next**.
+1.  Tippen und halten oder klicken Sie mit der rechten Maustaste auf den Desktop, wählen Sie **neue**  >  **Verknüpfung**  >  **Durchsuchen**  >  **Desktop**  >  **OK**  >  **weiter**aus.
 
-1.  Provide a name for the shortcut such as **Lock my PC**, and then select **Finish**.
+1.  Geben Sie einen Namen für die Verknüpfung ein, beispielsweise " **mein PC sperren**", und wählen Sie dann **Fertig stellen**aus.
 
-1.  Right-click or tap and hold the newly created shortcut on the desktop, and select **Properties**. On the **Shortcut** tab, enter the following in the **Target** field: **Rundll32.exe User32.dll,LockWorkStation**
+1.  Klicken Sie mit der rechten Maustaste, oder tippen und halten Sie die neu erstellte Verknüpfung auf dem Desktop, und wählen Sie **Eigenschaften**aus. Geben Sie auf der Registerkarte **Verknüpfung** im Feld **Ziel** Folgendes ein: **Rundll32.exe User32.dll, Lock Workstation**
 
-1.  Select the **Change Icon** button and browse to **C:\Windows\System32\imageres.dll** and select an icon to use. 
+1.  Wählen Sie die Schaltfläche **Symbol ändern** aus, und navigieren Sie zu **C:\Windows\System32\imageres.dll** , und wählen Sie ein Symbol aus, das Sie verwenden möchten. 
 
-    See the following example:
+    Siehe hierzu das folgende Beispiel:
 
-    ![Choose an icon](images/lock.png)
+    ![Wählen Sie ein Symbol aus.](images/lock.png)
     
-1.  Select **OK** to save the shortcut.
+1.  Wählen Sie **OK** aus, um die Verknüpfung zu speichern.
 
-1.  Right-click or tap and hold the shortcut and select **Pin to taskbar**.
+1.  Klicken Sie mit der rechten Maustaste, oder tippen und halten Sie die Verknüpfung, und wählen Sie **an Taskleiste anheften**aus.
 
-1. After you have pinned the lock shortcut to the taskbar, you can delete it from the desktop.
+1. Nachdem Sie die Tastenkombination "Sperren" an die Taskleiste angeheftet haben, können Sie Sie vom Desktop löschen.
 
-## Applications
+## Anwendungen
 
-### Update installed apps
+### Aktualisieren von installierten apps
 
-To update all installed Store apps:
+So aktualisieren Sie alle installierten Store-Apps:
 
-1. Open Microsoft Store app and select the **See more** ellipsis in the top-right corner.
-2. Select **Downloads and updates**.
-2. Select **Get updates**.
+1. Öffnen Sie die Microsoft Store-App, und wählen Sie in der oberen rechten Ecke die Option Weitere Auslassungszeichen **anzeigen** aus.
+2. Klicken Sie auf **Downloads und Updates**.
+2. Klicken Sie auf **Updates abrufen**.
 
 ### Microsoft Whiteboard
 
-To install the Microsoft Whiteboard:
+So installieren Sie das Microsoft Whiteboard:
 
- - Select the **Windows Ink Workspace** icon on the lower right of the taskbar and download **Whiteboard**.
+ - Wählen Sie unten rechts in der Taskleiste das Symbol für den **Windows-Freihand-Arbeitsbereich** aus, und laden Sie **Whiteboard**herunter.
  
-   ![Ink workspace](images/ink.png) 
+   ![Freihand-Arbeitsbereich](images/ink.png) 
 
-Alternatively, you can install Whiteboard from the Microsoft Store:
+Sie können Whiteboard auch über den Microsoft Store installieren:
 
-1. Open Microsoft Store app and search for **Whiteboard**.
-2. Choose **No thanks** to sign in and use across devices.
-3. Pin Whiteboard to the taskbar.
+1. Öffnen Sie die Microsoft Store-App, und suchen Sie nach **Whiteboard**.
+2. Wählen Sie " **Nein** ", wenn Sie sich anmelden und geräteübergreifend verwenden.
+3. Anheften des Whiteboards an die Taskleiste
 
-### Surface app
+### Surface-App
 
-1. In the Microsoft Store, search for **Surface**.
-2. Set the **Available on** filter to **All devices**.
-3. Install the **Surface** app. This should be the first app listed. You might need to associate your MSA to the Store in order to install the app.
-4. Pin the **Surface** app to taskbar.
+1. Suchen Sie im Microsoft Store nach **Surface**.
+2. Setzen Sie den **verfügbaren** Filter auf **alle Geräte**.
+3. Installieren Sie die **Surface** -app. Dies sollte die erste aufgelistete APP sein. Möglicherweise müssen Sie Ihre MSA dem Store zuordnen, um die APP installieren zu können.
+4. Anheften Sie die **Surface** -APP an die Taskleiste.
 
-### Snip & Sketch
+### Ausschneiden und skizzieren
 
-1. Open the **Snip & Sketch** app and pin it to the taskbar.
-2. Select the ellipsis in the upper right corner and then select **Settings**.
-3. In **Settings**, turn on **Auto copy to clipboard**, **Save snips**, and **Multiple windows** (optional).
+1. Öffnen Sie die APP **Snip & Sketch** , und fixieren Sie Sie an die Taskleiste.
+2. Wählen Sie die Auslassungspunkte in der oberen rechten Ecke aus, und wählen Sie dann **Einstellungen**aus.
+3. Aktivieren Sie in **Einstellungen** **die Option automatisch in Zwischenablage kopieren**, **snips speichern**und **mehrere Fenster** (optional).
 
 ### Microsoft Office
 
-1. Open the [Office Portal](https://portal.office.com/account#installs) and install your desired applications.
-2. Pin desired Office applications to the taskbar.
-3. If Outlook is installed, be sure to set the Outlook OST to only save last two weeks cache. This will vastly reduce disk usage and setup time.
-    - Select **File** > **Account Settings** and select your account.
-    - Select **Change** and set the slider for **Use Cached Exchange Mode** to 14 days.
+1. Öffnen Sie das [Office-Portal](https://portal.office.com/account#installs) , und installieren Sie die gewünschten Anwendungen.
+2. Anheften Sie die gewünschten Office-Anwendungen an die Taskleiste.
+3. Wenn Outlook installiert ist, müssen Sie Outlook Ost so einstellen, dass nur der letzte zwei Wochen-Cache gespeichert wird. Dadurch werden die Datenträgernutzung und die Einrichtungszeit erheblich reduziert.
+    - Wählen Sie **Datei**  >  **Kontoeinstellungen** aus, und wählen Sie Ihr Konto aus.
+    - Wählen Sie **ändern** aus, und legen Sie den Schieberegler für die **Verwendung des Exchange-Cache-Modus** auf 14 Tage.
 
 ### Microsoft Teams
 
-1. Download and install [Microsoft Teams](https://teams.microsoft.com/downloads).
-2. Configure settings to Auto-start application (optional).
-3. Pin Teams to the taskbar.
-4. Consider reducing Teams notifications on the device to avoid distractions (optional).
+1. Laden Sie [Microsoft Teams](https://teams.microsoft.com/downloads)herunter, und installieren Sie Sie.
+2. Konfigurieren Sie die Einstellungen für die automatische Startanwendung (optional).
+3. Anheften von Teams an die Taskleiste.
+4. Sie können die Benachrichtigungen für Teams auf dem Gerät reduzieren, um Ablenkungen zu vermeiden (optional).
 
-  ![Teams notifications](images/teams.png)
+  ![Teams-Benachrichtigungen](images/teams.png)
 
-### Connect app
+### Connect-App
 
 > [!IMPORTANT]
-> In Windows 10, version 2004 and later, the Connect app for wireless projection using Miracast is not installed by default, but is available as an optional feature. To install the app, select on **Settings** > **Apps** > **Optional features** > **Add a feature** and then install the **Wireless Display** app.
+> In Windows 10, Version 2004 und höher, ist die Connect-App für drahtlose Projektion unter Verwendung von Miracast nicht standardmäßig installiert, steht aber als optionales Feature zur Verfügung. Wenn Sie die APP installieren möchten, wählen Sie unter **Einstellungen**  >  **apps**  >  **optionale Features**  >  **ein Feature hinzufügen** aus, und installieren Sie dann die **drahtlose Anzeige** -app.
 
-1. Search for **Connect**.
-2. Open the app and then close it (**Project to this PC** might not work unless the app has been run at least once).
-3. Tap and hold or right-click to pin to taskbar.
-4. Search for **Projection settings**.
-5. Under **Some Windows and Android devices can project to this PC when you say it's OK**, choose **Available everywhere** if the device is not on a corporate network. Otherwise, you can choose **Available everywhere on secure networks**.
-6. Under **Ask to project to this PC**, choose **First time only**.
-7. Under **Require PIN for pairing**, choose **Never**.
+1. Suchen Sie nach **Connect**.
+2. Öffnen Sie die APP, und schließen Sie Sie dann (**Project auf diesem PC** funktioniert möglicherweise nicht, wenn die APP mindestens einmal ausgeführt wurde).
+3. Tippen und halten oder klicken Sie mit der rechten Maustaste, um die Taskleiste zu anheften.
+4. Suchen Sie nach **Projektions Einstellungen**.
+5. **Wenn Sie unter Windows-und Android-Geräten auf diesen PC projizieren können, wenn Sie sagen, dass es in Ordnung ist**, wählen Sie **überall verfügbar** aus, wenn sich das Gerät nicht in einem Unternehmensnetzwerk befindet. Andernfalls können Sie **überall in sicheren Netzwerken verfügbar**wählen.
+6. Wählen Sie unter **Projekt auf diesem PC anfordern**die Option **nur erstes Mal**aus.
+7. Wählen Sie unter **PIN für Kopplung anfordern**die Option **nie**aus.
 
-Recommended configuration when not on the corporate network:
+Empfohlene Konfiguration, wenn Sie sich nicht im Unternehmensnetzwerk befinden:
 
-  ![Settings at home](images/project1.png)
+  ![Einstellungen zu Hause](images/project1.png)
 
-Recommended configuration on the corporate network:
+Empfohlene Konfiguration im Unternehmensnetzwerk:
 
-  ![Settings at work](images/project2.png)
+  ![Einstellungen bei der Arbeit](images/project2.png)
 
-### Your Phone
+### Ihr Smartphone
 
-The **Your Phone** app is installed by default on Windows 10. If it is not present, you can also install it from the Windows Store.
+Die APP **Ihres Telefons** wird unter Windows 10 standardmäßig installiert. Wenn Sie nicht vorhanden ist, können Sie Sie auch aus dem Windows Store installieren.
 
-For information about setting up the app, see [How to set up Your Phone on Windows 10 and sync data between your PC and phone](https://www.windowscentral.com/how-set-your-phone-windows-10). Also see [How to fix common problems with Your Phone app on Windows 10](https://www.windowscentral.com/how-fix-common-problems-your-phone-app-windows-10).
+Informationen zum Einrichten der App finden Sie unter so wird es [gemacht: Einrichten Ihres Telefons unter Windows 10 und Synchronisieren von Daten zwischen Ihrem PC und Smartphone](https://www.windowscentral.com/how-set-your-phone-windows-10). Weitere Informationen finden Sie unter [Beheben häufig auftretender Probleme mit ihrer Telefon-APP unter Windows 10](https://www.windowscentral.com/how-fix-common-problems-your-phone-app-windows-10).
 
 ### Super Fancy Zones
 
-**Super Fancy Zones** helps users arrange windows to maximize screen real estate. It is now included in [PowerToys](https://github.com/microsoft/PowerToys/releases) on GitHub.
+**Super fancy Zones** hilft Benutzern beim Anordnen von Windows zum Maximieren von Bildschirm Immobilien. Sie ist jetzt in [PowerToys](https://github.com/microsoft/PowerToys/releases) auf GitHub enthalten.
 
-### Edge Chromium browser
+### Edge Chrom-Browser
 
-Download and install the new [Edge Chromium browser](https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL).
+Laden Sie den neuen [Edge Chrom-Browser](https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL)herunter, und installieren Sie ihn.
 
-## Additional settings
+## Zusätzliche Einstellungen
 
-### Pen tail select to launch Whiteboard
+### Stift Schwanz auswählen, um Whiteboard zu starten
 
-1. Search for **Pen** and select **Pen & Windows Ink settings**.
-2. Near the bottom of the page, under **Pen shortcuts** set **Select once** to **Microsoft Whiteboard**. 
+1. Suchen Sie nach **Stift** , und wählen Sie **Stift & Windows Ink-Einstellungen**aus.
+2. **Klicken Sie** am unteren Rand der Seite unter **Stifttasten Kombinationen** auf **Microsoft Whiteboard**auswählen. 
 
-### Power management
+### Energieverwaltung
 
-There are several power settings available to get the best experience using Windows 10 Pro or Enterprise on Surface Hub 2. This includes screen and pc timeouts and how they interact with the built-in human presence detection (Doppler), the screen saver and password protection, and then if appropriate how to by-pass group policy power settings intended for laptop / desktop users.
+Es stehen mehrere Energieeinstellungen zur Verfügung, mit denen Sie Windows 10 pro oder Enterprise auf Surface Hub 2 optimal nutzen können. Dazu gehören Bildschirm-und PC-Timeouts sowie deren Interaktion mit der integrierten Anwesenheitserkennung (Human Presence Detection, Doppler), dem Bildschirmschoner und dem Kennwortschutz und dann, wenn angemessen, wie die Energieeinstellungen für Gruppenrichtlinien, die für Laptops/Desktopbenutzer vorgesehen sind.
 
-Windows 10 Pro or Enterprise on Surface Hub 2 keeps the screen from going to sleep by touch, mouse, and keyboard actions, as well as the built-in human occupancy detection (Doppler). Human occupancy detection is enabled by default, but if desired it can be disabled in UEFI by toggling the device option in the Surface UEFI Configurator tool either as part of the initial migration, or by building and applying a later UEFI configuration package. 
+Mit Windows 10 pro oder Enterprise auf Surface Hub 2 können Sie den Bildschirm nicht über die Fingereingabe, Maus-und Tastaturaktionen sowie über die integrierte Erkennung für die menschliche Benutzungs Erkennung (Human Auslastung Detection, Doppler) in den Standbymodus versetzen. Die Erkennung für die menschliche Auslastung ist standardmäßig aktiviert, kann aber bei Bedarf in UEFI deaktiviert werden, indem die Option Device im Surface UEFI Configurator-Tool entweder als Teil der anfänglichen Migration oder durch Erstellen und Anwenden eines späteren UEFI-Konfigurationspakets deaktiviert wird. 
 
-**Power Management: Screen and PC sleep settings**
+**Energieverwaltung: Bildschirm-und PC-Ruhemodus-Einstellungen**
 
-1. Select **Start** > **Settings** > **System** > **Power & sleep**.
-2. Set the power mode slider to **Best performance**.
-3. Configure screen and sleep values to your preference while also accounting for Doppler presence detection that wakes up the device when movement is detected. Accordingly, as a best practice, it's recommended to set Screen to **Turn off after 2 hours** and the PC to **Turn off after 4 hours.**
+1. Wählen Sie **Start**  >  **Einstellungen**  >  **System**  >  **Power & Sleep**aus.
+2. Stellen Sie den Power Mode-Schieberegler auf **optimale Leistung**ein.
+3. Konfigurieren Sie die Einstellungen für den Bildschirm und den Ruhezustand nach Ihren wünschen, während Sie auch die Doppler-Anwesenheitserkennung erfassen, die das Gerät aktiviert, wenn Bewegungen erkannt werden. Daher empfiehlt es sich, den Bildschirm so zu konfigurieren, dass er **nach 2 Stunden ausgeschaltet** wird und der PC **nach 4 Stunden ausgeschaltet wird.**
 
-**Power Management: Screen saver**
+**Energieverwaltung: Bildschirmschoner**
 
-1. Search for **Lock Screen** and open **Lock screen settings**.
-2. Configure **Screen timeout settings** and **Screen saver settings** to your preference.
+1. Suchen Sie nach **dem Sperrbildschirm** , und öffnen Sie die Einstellungen für den **Sperrbildschirm**.
+2. Konfigurieren Sie die Einstellungen für das **Bildschirm Timeout** und die **Bildschirmschonereinstellungen** nach Ihren Wünschen.
 
-### Storage Sense
+### Speicheroptimierung
 
-The Surface Hub 2 has a 128GB SSD for local storage, so it is necessary to consider the use of storage saving measures during normal usage.  To configure Storage Sense:
+Der Surface Hub 2 verfügt über eine 128 GB-SSD für den lokalen Speicher, daher ist es notwendig, die Verwendung von Speicher Sparmaßnahmen während der normalen Nutzung zu überdenken.  So konfigurieren Sie den Speicher Sinn:
 
-1.  Search for **storage settings**, which is found under **System settings**.
-2.  Under **Settings**, select **Turn on storage sense** to open the **Storage** settings page.
-3.  Turn Storage Sense to **On**.
-4.  Select **Configure Storage Sense or run it now** and configure settings to keep files online as much as possible (due to limited drive space).
+1.  Suchen Sie nach den **Speichereinstellungen**, die unter **System Einstellungen**gefunden werden.
+2.  Wählen Sie unter **Einstellungen**die Option **Speicher Sinn aktivieren** aus, um die Seite **Speicher** Einstellungen zu öffnen.
+3.  Stellen Sie den Speicher Sinn auf **ein**.
+4.  Wählen Sie **Speicher Sinn konfigurieren aus, oder führen Sie es jetzt** aus, und konfigurieren Sie die Einstellungen so, dass Dateien so weit wie möglich online bleiben (aufgrund des geringen Festplattenspeichers).
 
-Recommended settings:
-- Run Storage Sense = Every Day.
-- Delete temporary files that my apps aren't using = Every 14 days (at least).
-- Delete files in my Downloads folder if they have been there for over = 30 days.
-- OneDrive: Content will become online-only if not opened for more than = 30 days.
+Empfohlene Einstellungen:
+- Führen Sie den Speicher Sinn = jeden Tag aus.
+- Löschen Sie temporäre Dateien, die meine apps nicht verwenden = alle 14 Tage (mindestens).
+- Löschen Sie Dateien im Ordner "Downloads", wenn Sie über mehr als = 30 Tage vorhanden sind.
+- OneDrive: Inhalt wird online – nur, wenn er nicht mehr als = 30 Tage geöffnet ist.
 
-### Tablet mode
+### Tabletmodus
 
-Turn on Tablet mode if desired for accessibility needs.
+Aktivieren Sie den Tablet-Modus, wenn dies für Barrierefreiheitsanforderungen erforderlich ist.
 
-### Power management
+### Energieverwaltung
 
 > [!NOTE]
-> Before performing the following procedure, check with your IT department for approval to exclude a Surface Hub 2S device from global power management policy. Some power management settings can disable the presence detection function.
+> Bevor Sie das folgende Verfahren ausführen, erkundigen Sie sich bei Ihrer IT-Abteilung, ob ein Surface Hub 2S-Gerät aus der globalen Energieverwaltungsrichtlinie ausgeschlossen werden soll. Einige Energieverwaltungseinstellungen können die Anwesenheits Erkennungsfunktion deaktivieren.
 
-1. Search for **Software Center** and open it.
-2. Select **Options** in the navigation pane.
-3. Expand the **Power management** section and select **Do not apply power settings from my IT department to this computer**.
+1. Suchen Sie nach **Software Center** , und öffnen Sie Sie.
+2. Wählen Sie im Navigationsbereich **Optionen** aus.
+3. Erweitern Sie den Abschnitt **Energieverwaltung** , und wählen Sie **auf diesem Computer keine Energieeinstellungen von meiner IT-Abteilung anwenden aus**.
 
-   ![Software settings](images/soft-cntr.png)
+   ![Software Einstellungen](images/soft-cntr.png)
 
-### Sound settings
+### Sound Einstellungen
 
-1. Search for **Sounds settings** and open this page.
-2. Select **Sound Control Panel** on the right and select the **Sounds** tab.
-3. Under **Program Events** set **Device Connect** and **Device Disconnect** to **None**.
+1. Suchen Sie nach **Sounds-Einstellungen** , und öffnen Sie diese Seite.
+2. Wählen Sie auf der rechten Seite **Sound Control Panel** aus, und klicken Sie auf die Registerkarte **Sounds** .
+3. Klicken Sie unter **Programmereignisse** auf **Gerät verbinden** und **Gerät trennen** mit **keiner**.
 
-### Silence notifications
+### Benachrichtigungen zum Schweigen
 
-1. Search for **Focus assist** and open this page.
-2. Select **Alarms Only**. This will avoid constant notification flyouts.
+1. Suchen Sie nach **Fokus Unterstützung** , und öffnen Sie diese Seite.
+2. Wählen Sie **nur Erinnerungen**aus. Dadurch werden keine Konstanten Benachrichtigungs Flyouts vermieden.
 
-### Disk Cleanup
+### Datenträgerbereinigung
 
-1. Search for **Disk Cleanup** and open this app.
-2. Under **Files to delete**, select the files you wish to delete. 
-3. Also select **Clean up system files**.
+1. Suchen Sie nach **Datenträgerbereinigung** , und öffnen Sie diese APP.
+2. Wählen Sie unter **zu löschende Dateien**die Dateien aus, die Sie löschen möchten. 
+3. Wählen Sie auch **Systemdateien bereinigen**aus.
 
-## Complete and verify
+## Fertig stellen und überprüfen
 
-1. Scan for and install all Windows Updates.
-2. Update Group Policy
-    1. At an elevated command prompt, enter **gpupdate /force /boot /wait:0**.
-3. Reboot the device.
-4. Verify taskbar apps.
-    - Connect App
-    - Lock Icon
-    - Snip & Sketch
-    - Teams (if applicable)
-    - Office Apps (if applicable)
-    - Surface App
+1. Suchen Sie nach allen Windows-Updates, und installieren Sie Sie.
+2. Aktualisieren von Gruppenrichtlinien
+    1. Geben Sie an einer Eingabeaufforderung mit erhöhten Rechten **gpupdate force/Boot/Wait: 0**ein.
+3. Starten Sie das Gerät neu.
+4. Überprüfen der Taskleisten-apps
+    - Connect-App
+    - Symbol "Sperren"
+    - Ausschneiden und skizzieren
+    - Teams (falls zutreffend)
+    - Office-Apps (falls zutreffend)
+    - Surface-App
     - Whiteboard
-5. Verify presence detection.
-    - Presence detection will be a green icon in the system tray
-6. Verify projecting to this PC is enabled with the Connect App (the application does not need to be running before connecting).
-7. Verify power and sleep settings.
-    - Screen Saver: 15 minutes, set to (none), Mystify or Blank; check box for requiring password is checked
-    - Screen: **Turn off after 2 hours.**
-    - PC:  **Turn off after 4 hours.**
-8. Verify Windows Hello is working.
-9. Verify sync your settings is disabled.
-10. Verify startup apps.
+5. Überprüfen Sie die Anwesenheitserkennung.
+    - Die Anwesenheitserkennung ist ein grünes Symbol in der Taskleiste.
+6. Überprüfen Sie, ob das projizieren auf diesen PC mit der Connect-App aktiviert ist (die Anwendung muss vor dem Herstellen der Verbindung nicht ausgeführt werden).
+7. Überprüfen Sie die Energie-und Ruhezustandseinstellungen.
+    - Bildschirmschoner: 15 Minuten, auf (keine), Mystify oder leer; Kontrollkästchen zum Anfordern eines Kennworts ist aktiviert
+    - Bildschirm: Ausschalten **nach 2 Stunden.**
+    - PC: Ausschalten  **nach 4 Stunden.**
+8. Überprüfen Sie, ob Windows Hello funktioniert.
+9. Überprüfen der Synchronisierung Ihre Einstellungen sind deaktiviert.
+10. Überprüfen von Start-apps.
 
 > [!TIP]
-> After installing and configuring Windows 10, the Surface Hub 2S can be managed just like any other Windows 10 device.
+> Nach der Installation und Konfiguration von Windows 10 kann der Surface Hub 2S genauso wie jedes andere Windows 10-Gerät verwaltet werden.
 
-## Related topics
+## Verwandte Themen
 
-[Migrate to Windows 10 Pro or Enterprise on Surface Hub 2](surface-hub-2s-migrate-os.md)
+[Migrieren zu Windows 10 Pro oder Enterprise auf Surface Hub 2](surface-hub-2s-migrate-os.md)
