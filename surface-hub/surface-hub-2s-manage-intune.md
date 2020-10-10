@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 07/23/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: a031fd7fd861e5d45194ec1a8c391621a2bcb71a
-ms.sourcegitcommit: 5fa5efefd510ce6f435d7142fb2f2cc08b520da9
+ms.openlocfilehash: 2fafca4a8f19da72d1584c02cbebe1ce3c03adde
+ms.sourcegitcommit: a16c75f4e81c48e2d0e3ec45430af0939e4feaa2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "11078745"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "11105941"
 ---
 # Verwalten von Einstellungen für Surface Hub 2S mit Intune
 
@@ -92,19 +92,25 @@ Um eine optimale Video- und Audioqualität auf dem Surface Hub 2S zu gewährleis
 > [!NOTE]
 > In beiden Tabellen werden standardmäßige Portbereiche angezeigt. Administratoren können die Portbereiche in der Systemsteuerung in Skype for Business und Teams ändern.
 
-## Microsoft Teams-Modus – Einstellungen
+## Microsoft Teams-Einstellungen
 
-Sie können den Microsoft Teams-Anwendungsmodus mit Intune einstellen. Surface Hub 2S wird mit Microsoft Teams im Modus 0 installiert, der sowohl Microsoft Teams als auch Skype for Business unterstützt. Sie können die Modi wie unten dargestellt anpassen.
+Sie können verschiedene Microsoft Teams-Einstellungen mithilfe von InTune konfigurieren.
 
-### Modi:
+### Modi
+
+Surface Hub 2S wird mit Microsoft Teams im Modus 0 installiert, der sowohl Microsoft Teams als auch Skype for Business unterstützt. Die Modi funktionieren wie nachfolgend beschrieben:
 
 - Modus 0 – Skype for Business mit Microsoft Teams für geplante Besprechungen.
 - Modus 1 – Microsoft Teams mit Skype for Business für geplante Besprechungen.
 - Modus 2 – Nur Microsoft Teams.
 
-Um Modi einzurichten, fügen Sie die folgenden Einstellungen zu einem benutzerdefinierten Gerätekonfigurationsprofil hinzu.
+Um den Modus anzupassen, fügen Sie die folgenden Einstellungen zu einem [benutzerdefinierten Geräte Konfigurationsprofil](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure)hinzu.
 
 | Name | Beschreibung | OMA-URI | Typ | Wert |
 |:--- |:--- |:--- |:--- |:--- |
 |**ID der Teams-App**|Name der App|./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId|Zeichenfolge| Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams|
 |**Modus der Teams-App**|Teams-Modus|./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode|Ganze Zahl| 0 oder 1 oder 2|
+
+### Koordinierte Besprechungen und Proximity-Join
+
+Teams koordinierte Besprechungs-und Proximity-Join [-Features können über eine XML-Datei konfiguriert](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) werden, die über ein InTune-Profil bereitgestellt wird.
