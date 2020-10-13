@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 07/31/2020
+ms.date: 10/12/2020
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 9c250cef63b760f3faab9172aa950c305e4e47e5
-ms.sourcegitcommit: f875a45961ff5f3c04006afc8690b5e5965e4d80
+ms.openlocfilehash: 1f2661811516507abd432dba602cf8ce81e6dbb3
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "10902983"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114663"
 ---
 # Surface-Diagnosetoolkit für Unternehmen bereitstellen
 
@@ -46,6 +46,7 @@ Befehlszeile |  Direkte Problembehandlung von Surface Devices Remote ohne Benutz
 
 Für Unternehmens-Devices (Surface 3 und höher) werden die folgenden Geräte unterstützt:
 
+- Surface Laptop go
 - DGM-Buch 3
 - Surface Go 2
 - Surface Pro X
@@ -180,6 +181,17 @@ Sie können auswählen, dass eine große Auswahl von Protokollen für Anwendunge
 
 ## Änderungen und Updates
 
+### Version 2.124.139.0
+
+Diese Version des Surface Diagnostics Toolkit for Business bietet Unterstützung für die folgenden Optionen:
+
+- Nahtloser integrierter Support
+- Speichern aller Testergebnisse
+- Überprüfen, ob das Bild Benutzerdefiniert erstellt wurde
+- Einbeziehen von Warnungen aus dem Geräte-Manager
+- Dock-Firmware-Version
+- Kennzeichnen von Festplatten als potenzielle Fehler im Speichertest
+- Link "Store entfernen" 
 
 ### Version 2.121.139
 *Veröffentlichungsdatum: Juli 31 2020*<br>

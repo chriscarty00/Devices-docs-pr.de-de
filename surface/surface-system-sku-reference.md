@@ -9,17 +9,17 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 08/04/2020
+ms.date: 10/12/2020
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 3eb177e976bd99ec245996db8cb22eab639f63cc
-ms.sourcegitcommit: c0676329f894135388b6d52f85ee8ac9507a836e
+ms.openlocfilehash: ec1d53a4bdbcaaf6606dcb0e52fc81de92a2a53b
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "10905672"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114543"
 ---
 # System-SKU-Referenz
 
@@ -51,9 +51,11 @@ Systemmodell und System-SKU sind Variablen, die in den SMBIOS-Tabellen (System M
 | Surface Laptop 2 Werbespot                                  | Surface Laptop 2 | Surface_Laptop_2_1769_Commercial |
 | Surface Pro 7                 | Surface Pro 7    | Surface_Pro_7_1866         |
 | Surface Pro X                 | Surface Pro X    | Surface_Pro_X_1876         |
+| Surface pro X mit SQ2-Prozessor                | Surface Pro X    | Surface_Pro_X_H_1876        |
 | Surface Laptop 3 13 "Intel | Surface Laptop 3 | Surface_Laptop_3_1867:1868 |
 | Surface Laptop 3 15 "Intel | Surface Laptop 3 | Surface_Laptop_3_1872      |
 | Surface Laptop 3 15 "AMD   | Surface Laptop 3 | Surface_Laptop_3_1873      | 
+| Surface Laptop go  | Surface Laptop go | Surface_Laptop_Go_1943      | 
 
 ## Beispiele 
 

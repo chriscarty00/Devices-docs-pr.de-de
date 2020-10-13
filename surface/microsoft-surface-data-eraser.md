@@ -14,13 +14,13 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 audience: itpro
-ms.date: 09/18/2020
-ms.openlocfilehash: dc1a9b4480f37af6d74699a2e693ef8d5318da76
-ms.sourcegitcommit: 8bd03770279d5e53446436781226ffd51eeec916
+ms.date: 10/12/2020
+ms.openlocfilehash: 8b201ce45533c28740a7c6bdfcb56688ada25718
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "11029229"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114703"
 ---
 # Microsoft Surface Data Eraser
 
@@ -38,6 +38,7 @@ Kompatible Surface-Geräte:
 - Surface Go (alle Editionen)
 - Surface pro X (alle Editionen)
 - Surface Laptop (alle Editionen)
+- Surface Laptop go
 - Surface Studio (alle Editionen)
 - Surface pro 2 und höher
 - Windows 10 pro und Enterprise auf Surface Hub 2

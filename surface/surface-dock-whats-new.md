@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/01/2020
+ms.date: 10/12/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 19aba3e88afd7b17de5b391d1bfe6eaf77db38e9
-ms.sourcegitcommit: f996a95af741e54536b1f3eb94d0f13f681f5d5d
+ms.openlocfilehash: e96242ab9cef127238bda3ee3ea797c943479798
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "11093138"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114683"
 ---
 # Neuerungen in Surface Dock 
 
@@ -45,6 +45,7 @@ Surface Dock 2 wurde entwickelt, um die IT-Verwaltung zu vereinfachen, sodass Ad
   - Surface Laptop 3
   - DGM-Buch 3
   - Surface Go 2
+  - Surface Laptop go
 
 ## Surface Dock 2-Komponenten
 
@@ -115,7 +116,7 @@ Surface Dock 2 wurde entwickelt, um die IT-Verwaltung zu vereinfachen, sodass Ad
 
 
 
-1. *Geräte müssen für Wake-on-LAN über Surface Enterprise Management Mode (Semm) oder Device Firmware Control Interface (DFCI) konfiguriert werden, um aus dem Ruhezustand oder aus dem Standbymodus zu reaktivieren. Wake from Hibernate oder Power-Off wird unter Surface pro 7, Surface Laptop 3, Surface pro X, Surface Book 3 und Surface Go 2 unterstützt.  Für einige Funktionen ist eine Software Lizenz erforderlich. Separat erhältlich.*
+1. *Geräte müssen für Wake-on-LAN über Surface Enterprise Management Mode (Semm) oder Device Firmware Control Interface (DFCI) konfiguriert werden, um aus dem Ruhezustand oder Power-Off Zuständen zu reaktivieren. Wake aus dem Ruhezustand oder Power-Off wird auf Surface pro 7, Surface Laptop 3, Surface pro X, Surface Book 3 und Surface Go 2 unterstützt.  Für einige Funktionen ist eine Software Lizenz erforderlich. Separat erhältlich.*
 
 2. *Für einige Funktionen ist eine Software Lizenz erforderlich. Separat erhältlich.*
 

@@ -10,18 +10,29 @@ ms.pagetype: devices, surface
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.reviewer: ''
+ms.reviewer: hachidan
 manager: laurawi
-ms.openlocfilehash: ce857260c3f4b42ae560a7dba51d47d0e20233bd
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 10/12/2020
+ms.openlocfilehash: 218f98b23adcb7bae2af92655d85144c6e5665e6
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10833409"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114723"
 ---
 # Verwalten der Surface UEFI-Einstellungen
 
 Alle aktuellen und zukünftigen Generationen von Surface-Geräten verwenden eine einzigartige Unified Extensible Firmware Interface (UEFI), die von Microsoft speziell für diese Geräte entwickelt wurde. Oberflächen UEFI-Einstellungen bieten die Möglichkeit, integrierte Geräte und Komponenten zu aktivieren oder zu deaktivieren, die UEFI-Einstellungen vor Änderungen zu schützen und die Start Einstellungen des Surface-Geräts anzupassen. 
+
+## Unterstützte Produkte
+
+Die UEFI-Verwaltung wird auf der folgenden Grundlage unterstützt: 
+
+- Surface pro 4, Surface pro (5. Generation), Surface pro 6, Surface pro 7, Surface pro X
+- Surface Laptop (1st Generation), Surface Laptop 2, Surface Laptop 3, Surface Laptop go
+- Surface Studio (1st Generation), Surface Studio 2
+- DGM-Buch, DGM-Buch 2, DGM-Buch 3
+- Surface go, Surface Go 2
 
 ## Unterstützung für Cloud-basiertes Management
 
@@ -91,7 +102,7 @@ Auf der Seite Sicherheit können Sie außerdem die Konfiguration für den sicher
 
 *Abbildung 4. Konfigurieren des sicheren Starts*
 
-Je nach Gerät können Sie möglicherweise auch feststellen, ob Ihr TPM aktiviert oder deaktiviert ist. Wenn die Einstellung **TPM aktivieren** nicht angezeigt wird, öffnen Sie TPM. msc in Windows, um den Status zu überprüfen, wie in Abbildung 5 dargestellt. Das TPM wird zur Authentifizierung der Verschlüsselung Ihrer Gerätedaten mit BitLocker verwendet. Weitere Informationen finden Sie unter [Übersicht über BitLocker](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview). 
+Je nach Gerät können Sie möglicherweise auch feststellen, ob Ihr TPM aktiviert oder deaktiviert ist. Wenn die Einstellung **TPM aktivieren**  nicht angezeigt wird, öffnen Sie TPM. msc in Windows, um den Status zu überprüfen, wie in Abbildung 5 dargestellt. Das TPM wird zur Authentifizierung der Verschlüsselung Ihrer Gerätedaten mit BitLocker verwendet. Weitere Informationen finden Sie unter [Übersicht über BitLocker](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview). 
 
 ![TPM-Konsole](images/manage-surface-uefi-fig5-a.png "TPM console")
 

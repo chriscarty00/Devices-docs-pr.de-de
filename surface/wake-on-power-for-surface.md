@@ -12,9 +12,10 @@ appliesto:
 - Surface Pro 7
 - Surface Laptop 3
 - Surface Pro X
+- Surface Laptop Go
 ms.custom:
 - CI 121602
-ms.reviewer: johnk@cadencepreferred.com
+ms.reviewer: hachidan
 description: Beschreibt, wie Sie Wake-on-Power für Surface-Geräte aktivieren und deaktivieren.
 keywords: Update, bereitstellen, Treiber, wol, Wake-on-LAN
 ms.prod: w10
@@ -25,12 +26,12 @@ ms.localizationpriority: medium
 ms.topic: article
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: 272c19baedb295abac08e90012246e453b88f42f
-ms.sourcegitcommit: 6fd7008992503db9ae1f56654aa80110348924d3
+ms.openlocfilehash: dee2a2962cf6b70a1bf11cf597b4d41f4b5568e4
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "10903394"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114573"
 ---
 # Wake-on-Power für Surface-Geräte
 
@@ -41,7 +42,9 @@ Das Feature Wake-on-Power steht auf den folgenden Geräten zur Verfügung:
 - DGM-Buch 3
 - Surface Pro 7
 - Surface Laptop 3
+- Surface Laptop go
 - Surface Pro X 
+
 
 ## Übersicht und Voraussetzungen
 
@@ -58,13 +61,13 @@ Mit dem Surface UEFI Configurator können Sie einzelne UEFI-Einstellungen in ein
     :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-1.png" alt-text="Wählen Sie Surface Devices aus, und wählen Sie weiter aus.":::
 3.  Wählen Sie **Start**aus, und wählen Sie dann unter **Konfigurationspaket** **Erstellen** aus.
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-2.png" alt-text="Wählen Sie Konfigurationspaket erstellen aus.":::
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-2.png" alt-text="Wählen Sie Surface Devices aus, und wählen Sie weiter aus.":::
 4.  Wählen Sie **Zertifikatschutz**aus, und fügen Sie die Datei Certificate. pfx hinzu. 
 5. Geben Sie Ihr Kennwort ein, wählen Sie **weiter**aus, fügen Sie nach Bedarf **Kennwortschutz**hinzu, und wählen Sie dann **weiter**aus.
 6.  Wählen Sie auf der Seite **Wählen Sie den DGM-Typ aus, den Sie als Ziel auswählen möchten** die gewünschten Zielgeräte aus. Wählen Sie beispielsweise **Surface pro 7**aus.
 7.  Wählen Sie auf der Seite **Advanced Features** die Option **Wake on Power**aus, legen Sie das Feature auf **ein**, und wählen Sie dann **weiter**aus.
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-3.png" alt-text="Wählen Sie bei Stromversorgung aktivieren aus, und legen Sie auf ein."::: 
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-3.png" alt-text="Wählen Sie Surface Devices aus, und wählen Sie weiter aus."::: 
 8.  Wählen Sie auf der Seite **erfolgreich** die Option **Ende**aus.
 
     > [!NOTE]
@@ -83,10 +86,10 @@ Sie können das MSI-Paket auf Geräte im gesamten Netzwerk anwenden, indem Sie S
 
 2.  Wählen Sie im Dialogfeld **Warnung** die Option **OK** aus, oder deaktivieren Sie BitLocker, je nach Bedarf.
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-4.png" alt-text="Wählen Sie OK aus, oder deaktivieren Sie BitLocker entsprechend.":::
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-4.png" alt-text="Wählen Sie Surface Devices aus, und wählen Sie weiter aus.":::
 3.  Wählen Sie auf der Seite Willkommen die Option **weiter** aus, um das Paket auszuführen und die neu konfigurierte UEFI-Einstellung anzuwenden.
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-5.png" alt-text="Klicken Sie auf der Seite Willkommen auf Weiter.":::
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-5.png" alt-text="Wählen Sie Surface Devices aus, und wählen Sie weiter aus.":::
 4.  Starten Sie Ihr Gerät neu. 
 
 Wake-on-Power ist jetzt konfiguriert. Wenn Sie die Einstellungen testen möchten, schalten Sie Ihr Gerät aus, trennen Sie die Stromversorgung, und schließen Sie dann die Verbindung wieder an. Das Gerät sollte automatisch gestartet werden. 

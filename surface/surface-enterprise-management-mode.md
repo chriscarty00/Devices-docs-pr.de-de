@@ -13,20 +13,20 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
-ms.date: 09/01/2020
-ms.openlocfilehash: 239b5e4659ff48e6c0fd9d2fca03341eadb9a27d
-ms.sourcegitcommit: 78694f3958117a339a28d3a5854908181f1b65d7
+ms.date: 10/12/2020
+ms.openlocfilehash: 463759d2dd01b9333d10a66c1781055f4a5217ac
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "10993665"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114643"
 ---
 # Microsoft Surface Enterprise-Verwaltungsmodus
 
 Der Microsoft Surface Enterprise Management Mode (Semm) ist eine Funktion von Surface Devices mit Surface UEFI, mit der Sie die Firmwareeinstellungen innerhalb Ihrer Organisation sichern und verwalten können. Mit Semm können IT-Experten Konfigurationen von UEFI-Einstellungen vorbereiten und auf einem Surface-Gerät installieren. Neben der Möglichkeit zum Konfigurieren von UEFI-Einstellungen verwendet Semm auch ein Zertifikat, um die Konfiguration vor unbefugten Manipulationen oder Entfernungen zu schützen. SEMM ist eine Voraussetzung, um einen Surface Hub 2S auf Windows 10 pro und Enterprise migrieren zu können.
 
 >[!NOTE]
->SEMM ist nur auf Geräten mit Surface UEFI-Firmware verfügbar. Dies umfasst die meisten anderen Surface-Geräte einschließlich Surface pro 7, Surface pro X, Surface Hub 2S und Surface Laptop 3 Commercial SKUs mit einem Intel-Prozessor. SEMM wird auf der 15 "Surface Laptop 3-SKU mit AMD-Prozessor (nur als Einzelhandels-SKU verfügbar) nicht unterstützt. 
+>SEMM ist nur auf Geräten mit Surface UEFI-Firmware verfügbar. Dies umfasst die meisten anderen Surface-Geräte einschließlich Surface pro 7, Surface pro X, Surface Hub 2S und Surface Laptop 3 Commercial SKUs mit einem Intel-Prozessor und Surface Laptop go. SEMM wird auf der 15 "Surface Laptop 3-SKU mit AMD-Prozessor (nur als Einzelhandels-SKU verfügbar) nicht unterstützt. 
 
 Wenn Surface-Geräte von Semm konfiguriert und mit dem Semm-Zertifikat gesichert werden, gelten Sie als in Semm *registriert* . Wenn das Semm-Zertifikat entfernt und die Steuerung der UEFI-Einstellungen an den Benutzer des Geräts zurückgegeben wird, gilt das Surface-Gerät als "nicht *registriert* " in Semm.
 
@@ -174,7 +174,7 @@ Die folgenden Einstellungen werden für das Semm-Zertifikat empfohlen:
 * **Ablaufdatum** – 15 Monate nach der Erstellung des Zertifikats
 * **Schlüssel Export Richtlinie** – exportierbar
 
-Außerdem wird empfohlen, das Semm-Zertifikat in einer PKI-Architektur (zweistufig) zu authentifizieren, in der die Zwischenzertifizierungsstelle für Semm dediziert ist und die Zertifikatsperrung aktiviert. Weitere Informationen zu einer zweistufigen PKI-Konfiguration finden Sie unter [Test Labor Handbuch: Bereitstelleneiner zweistufigen PKI-Hierarchie in der AD CS](https://technet.microsoft.com/library/hh831348).
+Außerdem wird empfohlen, das Semm-Zertifikat in einer PKI-Architektur (zweistufig) zu authentifizieren, in der die Zwischenzertifizierungsstelle für Semm dediziert ist und die Zertifikatsperrung aktiviert. Weitere Informationen zu einer zweistufigen PKI-Konfiguration finden Sie unter [Test Labor Handbuch: Bereitstelleneiner AD CS-Two-Tier PKI-Hierarchie](https://technet.microsoft.com/library/hh831348).
 
 ### Selbstsigniertes Zertifikat 
 Sie können das folgende Beispiel-PowerShell-Skript verwenden, um ein selbstsigniertes Zertifikat zur Verwendung in Szenarien mit Machbarkeitsstudie zu erstellen.
@@ -241,6 +241,18 @@ Wenn Semm Reset oder Recovery funktionieren soll, muss das Zertifikat gültig un
 Die PowerShell-Beispiele zum Erstellen eines Konfigurationspakets für einen bestimmten Gerätetyp können auch verwendet werden, um ein Reset-Paket zu erstellen, das unabhängig von der Seriennummer ist. Wenn das Zertifikat weiterhin gültig ist, können Sie mithilfe von PowerShell ein Reset-Paket erstellen, um Semm zurückzusetzen.
 
 ## Versionsverlauf
+
+
+### Version 2.78.139.0
+
+Diese Version von Semm umfasst:
+
+- Unterstützung für Surface Notebook Go und Surface pro X
+- Benachrichtigungen für die neue Version
+- Möglichkeit zum Erstellen benutzerdefinierter Pakete zum Ändern des Besitzers
+- Fehlerbehebungen
+
+
 
 
 ### Version 2.73.136.0

@@ -1,6 +1,6 @@
 ---
 title: Verwalten und Bereitstellen von Treiber- und Firmwareupdates für Surface
-description: In diesem Artikel werden die verfügbaren Optionen zum Verwalten und Bereitstellen von Firmware-und Treiberupdates für Surface-Geräte beschrieben.
+description: In diesem Artikel werden die verfügbaren Optionen zum Verwalten und Bereitstellen von Firmware-und Treiberupdates für Surface-Geräte erläutert.
 ms.assetid: CD1219BA-8EDE-4BC8-BEEF-99B50C211D73
 ms.reviewer: ''
 manager: laurawi
@@ -14,12 +14,13 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.audience: itpro
-ms.openlocfilehash: f41974193d62e4c0cbc1e286976105c20534d906
-ms.sourcegitcommit: ed4478dd3c6116a25b1e01a3a0f5ff6c1f940013
+ms.date: 10/12/2020
+ms.openlocfilehash: 39022ca631e35f4328d3c353b7b0d1e2ebaee6a7
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "10897063"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114633"
 ---
 # Verwalten und Bereitstellen von Treiber- und Firmwareupdates für Surface
 
@@ -68,7 +69,7 @@ Ab Endpunkt-Konfigurations-Manager können Sie Microsoft Surface-Firmware und-Tr
 
 ## Unterstützte Geräte
 
-Herunterladbare MSI-Dateien stehen für die Oberfläche pro 2 und höher zur Verfügung. Informationen zu MSI-Dateien für die neuesten Surface-Geräte wie Surface pro 7 und Surface Laptop 3 sind nach der Veröffentlichung auf dieser Seite verfügbar.
+Herunterladbare MSI-Dateien sind für Surface pro 2 und höhere Geräte verfügbar (mit Ausnahme von Surface pro X, auf dem Windows 10 auf dem Arm ausgeführt wird).
 
 ## Verwalten von Firmware mit DFCI
 

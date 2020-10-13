@@ -13,35 +13,25 @@ ms.localizationpriority: medium
 ms.audience: itpro
 ms.reviewer: ''
 manager: laurawi
-ms.date: 04/24/2020
-ms.openlocfilehash: e1a1d34c4d32c5e6f95c985e335e405c0d9e59e4
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 10/12/2020
+ms.openlocfilehash: d9bc720c846b2bb158241a55e1759c841f1d7b3a
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10833169"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114523"
 ---
 # Aktualisieren von Surface-Geräten auf Windows 10 mit Microsoft Deployment Toolkit
 
-#### Betrifft
-- Surface Pro 6
-- Surface Laptop 2
-- Surface Go
-- Surface Go mit LTE
-- Surface Book 2
-- Surface Pro mit LTE Advanced (Modell 1807)
-- Surface Pro (Modell 1796)
-- Surface Laptop
-- Surface Studio
-- Surface Studio 2
-- Surface Book
-- Surface Pro 4
-- Surface 3 LTE
-- Surface3
-- Surface Pro 3
-- Surface Pro 2
-- Surface Pro
-- Windows 10
+#### Gilt für:
+
+- DGM-Buch (alle Editionen)
+- Surface Go (alle Editionen)
+- Surface pro X (alle Editionen)
+- Surface Laptop (alle Editionen)
+- Surface Laptop go
+- Surface Studio (alle Editionen)
+- Surface pro 2 und höher
 
 Neben der herkömmlichen Bereitstellungsmethode von reimaging-Geräten können Administratoren, die Oberflächen-Devices mit Windows 8,1 oder Windows 10 upgraden möchten, die Möglichkeit haben, Upgrades bereitzustellen. Wenn Sie eine Upgrade-Bereitstellung durchführen, kann Windows 10 auf Geräte angewendet werden, ohne Benutzer, Apps oder Konfiguration zu entfernen. Die Benutzer der bereitgestellten Geräte können die Geräte einfach weiterhin mit den gleichen apps und Einstellungen verwenden, die Sie vor dem Upgrade verwendet haben. 
 
