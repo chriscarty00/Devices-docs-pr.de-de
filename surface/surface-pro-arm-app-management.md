@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/09/2020
+ms.date: 10/12/2020
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: 202818488f19c82ba9d08cfcbfcd091e3e8b7bf6
-ms.sourcegitcommit: 7d5b0a7948eb540d6849a0e2c70a1058584cc5f8
+ms.openlocfilehash: 7d82a24126798c20f11c51074f6099e1363c257f
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "11105840"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114623"
 ---
 # Bereitstellen, Verwalten und Warten von Surface Pro X
 
@@ -96,8 +96,7 @@ Bis auf einige Ausnahmen, werden die meisten Apps auf ARM-basierten Windows10-PC
 
 ### FastTrack App Assure 
 
-Das App Assure-Programm steht kommerziellen Kunden für ihre LOB-, ISV- und Microsoft First Party-Apps zur Verfügung, die auf Windows 10 auf ARM ausgerichtet sind. Wenn bei kommerziellen Anwendungen ein Kompatibilitätsproblem bei der Verwendung von Windows 10 auf ARM auftritt, stellt Microsoft Entwicklerressourcen zur Fehlerbehebung und Unterstützung bei der Behebung von Problemen mit Anwendungen zur Verfügung, und zwar ohne zusätzliche Kosten. Weitere Informationen finden Sie unter aka.ms/AppAssure
-
+Das App Assure-Programm steht kommerziellen Kunden für ihre LOB-, ISV- und Microsoft First Party-Apps zur Verfügung, die auf Windows 10 auf ARM ausgerichtet sind. Wenn bei kommerziellen Kunden ein Kompatibilitätsproblem mit einer Anwendung bei der Verwendung von Windows 10 auf ARM auftritt, stellt Microsoft Entwicklerressourcen zur Fehlerbehebung und Unterstützung bei der Behebung von Problemen mit Anwendungen zur Verfügung, und zwar ohne zusätzliche Kosten. Weitere Informationen finden Sie unter [aka.ms/AppAssure](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assure).
 
 Weitere Informationen zum Ausführen von Apps auf Surface Pro X finden Sie unter:
 
