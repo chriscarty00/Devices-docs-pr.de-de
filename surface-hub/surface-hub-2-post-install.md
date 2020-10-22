@@ -14,15 +14,15 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.date: 10/08/2020
+ms.date: 10/21/2020
 appliesto:
 - Surface Hub 2S
-ms.openlocfilehash: 66245f84f4413df2d9ae7b683947afbd84484325
-ms.sourcegitcommit: 56526c92d84dbc2cebcb8071d995efe399f306df
+ms.openlocfilehash: 25705f889f70e3d12dfef690c34e03d98254725e
+ms.sourcegitcommit: 959d2d856b1e5b5c72cd636f576b5feb1b633048
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "11105331"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "11133180"
 ---
 # Konfigurieren von Windows 10 Pro oder Enterprise auf Surface Hub 2
 
@@ -422,11 +422,11 @@ Aktivieren Sie den Tablet-Modus, wenn dies für Barrierefreiheitsanforderungen e
 
    - Die Anwesenheitserkennung ist ein grünes Symbol in der Taskleiste.
     
-6. Überprüfen Sie, ob das projizieren auf diesen PC mit der Connect-App aktiviert ist (die Anwendung muss vor dem Herstellen der Verbindung nicht ausgeführt werden).
+6. Überprüfen Sie, ob das projizieren auf diesen PC mit der Connect-App aktiviert ist. Nachdem  **Sie Project auf diese PC** -Einstellungen konfiguriert haben, führen Sie die Connect-App mindestens einmal aus. (Anschließend muss die Connect-APP nicht ausgeführt werden, damit Project to Surface Hub projiziert werden kann.)
 
 7. Überprüfen Sie die Energie-und Ruhezustandseinstellungen.
 
-    - Bildschirmschoner: 15 Minuten, auf (keine), Mystify oder leer; Kontrollkästchen zum Anfordern eines Kennworts ist aktiviert
+    - Bildschirmschoner: 15 Minuten, auf (keine), Mystify oder leer; Stellen Sie sicher, dass das Kontrollkästchen für das Anfordern eines Kennworts aktiviert ist.
     - Bildschirm: Ausschalten **nach 2 Stunden**.
     - PC: Ausschalten  **nach 4 Stunden**.
     
