@@ -17,12 +17,12 @@ ms.topic: article
 ms.date: 10/21/2020
 appliesto:
 - Surface Hub 2S
-ms.openlocfilehash: 25705f889f70e3d12dfef690c34e03d98254725e
-ms.sourcegitcommit: 959d2d856b1e5b5c72cd636f576b5feb1b633048
+ms.openlocfilehash: a17d4b05e6ee5f7415fed62d96b9e0a62a6dc123
+ms.sourcegitcommit: cbf237e59c97311bd8add3aae2a17738fe271ddc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "11133180"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "11134403"
 ---
 # Konfigurieren von Windows 10 Pro oder Enterprise auf Surface Hub 2
 
@@ -51,6 +51,7 @@ Wenn Sie diese Schritte ausführen, ist es möglicherweise hilfreich, eine kabel
 1. Tippen und halten oder klicken Sie mit der rechten Maustaste auf die Taskleiste, und wählen Sie dann die Schaltfläche **Bildschirmtastatur anzeigen** und die **Schaltfläche Touchpad anzeigen**aus. 
 
     - Die Bildschirmtastatur ist für die direkte Benutzereingabe hilfreich, und das virtuelle Touchpad hilft bei der präzisen Auswahl, dem Hovern des Bildschirms oder als Alternative zum Tippen und halten für das Klicken mit der rechten Maustaste. 
+    
     - Nachfolgend sehen Sie ein Beispiel.
 
       ![Touch-Einstellungen](images/touch.png)
@@ -63,10 +64,9 @@ Wenn Sie diese Schritte ausführen, ist es möglicherweise hilfreich, eine kabel
     
     3. Wählen Sie in der obersten Zeile den neben letzten Tastaturtyp aus, um die QWERTY-Funktion zu aktivieren, und die letzte Option in der zweiten Zeile, um das Floating zu aktivieren, was auf diesem großen Bildschirm sehr hilfreich ist. Weitere Informationen finden Sie in den folgenden Beispielen.
 
-      ![Tastatureinstellungen](images/kbd.png)
+       ![Tastatureinstellungen](images/kbd.png)
  
 3. Konfigurieren Sie die Einstellungen für die Soft-Tastatur.
-
 
     1. Wählen Sie auf der Bildschirmtastatur das Symbol **Einstellungen** aus, oder suchen Sie nach den **Eingabeeinstellungen**, und öffnen Sie Sie.
     
@@ -90,6 +90,7 @@ Wenn sich Ihr Surface-Hub-Gerät in der Nähe eines PCs befindet, können Sie di
 Verwenden Sie [OneDrive for Business](https://docs.microsoft.com/onedrive/onedrive) , um Tools, Protokolle und andere Dateien auf einfache Weise zwischen allen ihren Arbeitsgeräten freizugeben.
 
 - Mit OneDrive können Sie Ihre Arbeitsdateien zwischen ihren Laptops, dem Surface Hub-Desktop und ihren von InTune verwalteten mobilen Geräten freigeben. Dateien können auf jedem Gerät bearbeitet werden, und alle mit dem Netzwerk verbundenen Geräte werden mit den Änderungen aktualisiert.
+
 - Wenn Sie die Größe der Surface-Hub-SSD (128 GB) berücksichtigen und OneDrive auf Ihrem Surface Hub-Desktop Gerät konfigurieren, stellen Sie sicher, dass die Standardkonfiguration darin besteht, die Dateien online zu speichern und während der Verwendung Dateien herunterzuladen.
 
 Wenn Sie OneDrive so konfigurieren möchten, dass Dateien nur bei Bedarf heruntergeladen werden, legen Sie die Einstellung **files on-Demand** fest, um **Speicherplatz zu sparen und während der Verwendung Dateien herunterzuladen**. Weitere Informationen finden Sie unter [Abfragen und Einrichten von Dateien auf Anforderungsstatus in Windows](https://docs.microsoft.com/onedrive/files-on-demand-windows).
@@ -116,13 +117,17 @@ So synchronisieren Sie interne Unternehmensdateien mit der OneDrive-Synchronisie
 5. Überprüfen Sie, ob die Konfiguration so eingestellt ist, dass die Dateien online bleiben, und laden Sie die Dateien nur während der Verwendung herunter.
 
     1. Öffnen Sie den Datei-Explorer.
-    2. Navigieren Sie zu und wählen Sie mit der rechten Maustaste auf dem **Microsoft \ \<SharePoint Document Folder Name\> **aus.
+    
+    2. Navigieren Sie zu und klicken Sie mit der rechten Maustaste auf Ihren SharePoint-Namen Beispiel: **contoso \ \<SharePoint Document Folder Name\> **.
+    
     3. Wählen Sie **Speicherplatz freigeben**aus.
+    
     4. In der Spalte Status wird der Status von Dateien und Ordnern angezeigt. Weitere Informationen finden Sie unter [Synchronisieren von SharePoint-Dateien mit dem OneDrive-synchronisierungsclient](https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd).
     
 6. Teams-Kanaldateien werden auf SharePoint-Websites mit allen gleichen SharePoint-Dokumentfunktionen wie Versionsverlauf und Synchronisierung mit Ihren lokalen Desktopgeräten gespeichert. So synchronisieren Sie Teams-Kanaldateien:
 
-    1. Navigieren Sie zu dem Interessenbereich "Teams", und wählen Sie oben die Registerkarte " **Dateien** " aus. Wählen Sie dann **Synchronisieren**aus. Die Dateien werden synchronisiert und werden im Datei-Explorer unter **Desktop \ Microsoft \ \<name of the Teams Channel\> **angezeigt.
+    1. Navigieren Sie zu dem Interessenbereich "Teams", und wählen Sie oben die Registerkarte " **Dateien** " aus. Wählen Sie dann **Synchronisieren**aus. Die Dateien werden synchronisiert und werden im Datei-Explorer auf dem **Desktop \ Contoso \<name of the Teams Channel\> **angezeigt.
+    
     2. Verwenden Sie dasselbe Verfahren, das Sie zum Synchronisieren von SharePoint-Websites verwendet haben, um die Dateien in der Cloud zu speichern, und laden Sie Sie nur herunter, wenn Sie Sie verwenden, indem Sie im Datei-Explorer auf den Namen des Teams-Kanals tippen und halten oder mit der rechten Maustaste darauf klicken und dann **Platz freigeben**auswählen.
 
 ## Surface Hub-Stifteinstellungen
@@ -153,7 +158,7 @@ Koppeln Sie den Stift, um die Stift-Firmware auf dem neuesten Stand zu halten, u
 
 2. Wählen Sie am unteren Rand der Seite Stifttasten Kombinationen aus, die das Dialogfeld öffnen, das hier angezeigt wird:
 
-![Stifttasten Kombinationen](images/sh2-pen-shortcuts.png)
+   ![Stifttasten Kombinationen](images/sh2-pen-shortcuts.png)
 
 ## Kamerakonfiguration
 
@@ -200,7 +205,9 @@ So fügen Sie der Taskleiste ein Symbol hinzu, das eine Touchscreen-Sperre ähnl
 So aktualisieren Sie alle installierten Store-Apps:
 
 1. Öffnen Sie die Microsoft Store-App, und wählen Sie in der oberen rechten Ecke die Option Weitere Auslassungszeichen **anzeigen** aus.
+
 2. Klicken Sie auf **Downloads und Updates**.
+
 2. Klicken Sie auf **Updates abrufen**.
 
 ### Microsoft Whiteboard
@@ -246,6 +253,7 @@ Sie können Whiteboard auch über den Microsoft Store installieren:
 3. Wenn Outlook installiert ist, müssen Sie Outlook Ost so einstellen, dass nur der letzte zwei Wochen-Cache gespeichert wird. Dadurch werden die Datenträgernutzung und die Einrichtungszeit erheblich reduziert.
 
     - Wählen Sie **Datei**  >  **Kontoeinstellungen** aus, und wählen Sie Ihr Konto aus.
+    
     - Wählen Sie **ändern** aus, und legen Sie den Schieberegler für die **Verwendung des Exchange-Cache-Modus** auf 14 Tage.
 
 ### Microsoft Teams
@@ -307,6 +315,11 @@ Informationen zum Einrichten der App finden Sie unter so wird es [gemacht: Einri
 
 Laden Sie den neuen [Edge Chrom-Browser](https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL)herunter, und installieren Sie ihn.
 
+
+### Surface Hub-Hardware Diagnosetool
+
+Das [Surface Hub-Hardware Diagnosetool](https://www.microsoft.com/p/surface-hub-hardware-diagnostic/9nblggh51f2g) ist kostenlos im Microsoft Store erhältlich. Das Tool ist so konzipiert, dass Sie sicherstellen können, dass Ihr Surface Hub optimal ausgeführt wird. Sie enthält Tests, um festzustellen, ob Ihre Firmware auf dem neuesten Stand ist und richtig konfiguriert ist. Interaktive Tests ermöglichen Ihnen, zu bestätigen, dass die wesentlichen Funktionen wie erwartet funktionieren. Wenn Probleme auftreten, können Ergebnisse gespeichert und für das Surface Hub-Support-Team freigegeben werden. Klicken Sie auf den Link, um ihn aus dem Microsoft Store zu installieren, und anheften Sie die Anwendung dann an Ihre Taskleiste.
+
 ## Zusätzliche Einstellungen
 
 ### Stift Schwanz auswählen, um Whiteboard zu starten
@@ -336,7 +349,7 @@ Mit Windows 10 pro oder Enterprise auf Surface Hub 2 können Sie den Bildschirm 
 2. Konfigurieren Sie die Einstellungen für das **Bildschirm Timeout** und die **Bildschirmschonereinstellungen** nach Ihren Wünschen. Empfohlene Standardwerte:
 
    - Bildschirmschoner (ohne) oder Bildschirmschoner Ihrer Wahl.
-   - Warten Sie "Zeit bis 15 Minuten.
+   - Wartezeit auf 15 Minuten.
    - Zeigen Sie auf Resume den Anmeldebildschirm an.
 
 
