@@ -1,0 +1,67 @@
+---
+title: Installieren des Windows 10 Team 2020-Updates
+description: Holen Sie sich das neueste Update des Surface Hub-Betriebssystems, Windows 10 Team 2020-Update.
+keywords: Trennen Sie Werte durch Kommata
+ms.prod: surface-hub
+ms.sitesec: library
+author: greg-lindsay
+ms.author: greglin
+manager: laurawi
+audience: Admin
+ms.topic: article
+ms.date: 10/27/2020
+ms.localizationpriority: Medium
+ms.openlocfilehash: 3e376a740aa16333cbbabc812b0c0193ab90d585
+ms.sourcegitcommit: 19d2a78242777590bd09af3ac6552c07b032e0a1
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "11142936"
+---
+# <span data-ttu-id="0d61f-104">Installieren des Windows 10 Team 2020-Updates</span><span class="sxs-lookup"><span data-stu-id="0d61f-104">Install Windows 10 Team 2020 Update</span></span> 
+
+<span data-ttu-id="0d61f-105">Das neue Surface Hub-Betriebssystem, **Windows 10 Team 2020-Update**, basierend auf Windows 10-Version 20H2, ist jetzt für alle Surface-Hub-2S-Geräte verfügbar.</span><span class="sxs-lookup"><span data-stu-id="0d61f-105">The new Surface Hub operating system, **Windows 10 Team 2020 Update**, based on Windows 10 version 20H2, is now available for all Surface Hub 2S devices.</span></span>  
+
+## <span data-ttu-id="0d61f-106">Verteilung</span><span class="sxs-lookup"><span data-stu-id="0d61f-106">Distribution</span></span>
+
+<span data-ttu-id="0d61f-107">Sie können Windows 2020-Update mithilfe einer der folgenden Methoden abrufen:</span><span class="sxs-lookup"><span data-stu-id="0d61f-107">You can obtain Windows 2020 Update using one of the following methods:</span></span>
+
+- <span data-ttu-id="0d61f-108">**Windows Update für Unternehmen**.</span><span class="sxs-lookup"><span data-stu-id="0d61f-108">**Windows Update for Business**.</span></span>
+- <span data-ttu-id="0d61f-109">**Abbildung des Bare Metal Recovery (GU)**.</span><span class="sxs-lookup"><span data-stu-id="0d61f-109">**Bare metal recovery (BMR) image**.</span></span> <span data-ttu-id="0d61f-110">Empfohlene Option für Kunden, die Ihre Geräte mit Azure Active Directory verbinden oder Ihren Geräten nicht gestatten, Updates aus dem Internet zu erhalten.</span><span class="sxs-lookup"><span data-stu-id="0d61f-110">Recommended option for customers who join their devices to Azure Active Directory or don’t allow their devices to receive updates from the internet.</span></span> <span data-ttu-id="0d61f-111">Informationen zu den ersten Schritten finden Sie unter [Herunterladen eines Wiederherstellungs Bilds für Ihre Oberfläche](https://support.microsoft.com/surfacerecoveryimage).</span><span class="sxs-lookup"><span data-stu-id="0d61f-111">To get started, see [Download a recovery image for your Surface](https://support.microsoft.com/surfacerecoveryimage).</span></span>
+- **<span data-ttu-id="0d61f-112">WindowsUpdate.</span><span class="sxs-lookup"><span data-stu-id="0d61f-112">Windows Update.</span></span>** <span data-ttu-id="0d61f-113">Die Verfügbarkeit variiert je nach Region/Land, wie in der folgenden Tabelle angegeben:</span><span class="sxs-lookup"><span data-stu-id="0d61f-113">Availability varies by region/country, as noted in the following table:</span></span>
+
+| <span data-ttu-id="0d61f-114">Phase</span><span class="sxs-lookup"><span data-stu-id="0d61f-114">Phase</span></span> | <span data-ttu-id="0d61f-115">Land/Region</span><span class="sxs-lookup"><span data-stu-id="0d61f-115">Country/Region</span></span>                         | <span data-ttu-id="0d61f-116">Ausgangs</span><span class="sxs-lookup"><span data-stu-id="0d61f-116">Starting</span></span>          |
+| ----- | -------------------------------------- | ----------------- |
+| <span data-ttu-id="0d61f-117">1</span><span class="sxs-lookup"><span data-stu-id="0d61f-117">1</span></span>     | <span data-ttu-id="0d61f-118">Neuseeland, Australien, Kanada, Belgien, Mexiko</span><span class="sxs-lookup"><span data-stu-id="0d61f-118">NZ, Australia, Canada, Belgium, Mexico</span></span> | <span data-ttu-id="0d61f-119">27. Oktober 2020</span><span class="sxs-lookup"><span data-stu-id="0d61f-119">October 27, 2020</span></span>  |
+| <span data-ttu-id="0d61f-120">2</span><span class="sxs-lookup"><span data-stu-id="0d61f-120">2</span></span>     | <span data-ttu-id="0d61f-121">Großbritannien, Japan, Schweiz, Italien</span><span class="sxs-lookup"><span data-stu-id="0d61f-121">UK, Japan, Switzerland, Italy</span></span>          | <span data-ttu-id="0d61f-122">10. November 2020</span><span class="sxs-lookup"><span data-stu-id="0d61f-122">November 10, 2020</span></span> |
+| <span data-ttu-id="0d61f-123">3</span><span class="sxs-lookup"><span data-stu-id="0d61f-123">3</span></span>     | <span data-ttu-id="0d61f-124">USA, Deutschland</span><span class="sxs-lookup"><span data-stu-id="0d61f-124">US, Germany</span></span>                            | <span data-ttu-id="0d61f-125">30. November 2020</span><span class="sxs-lookup"><span data-stu-id="0d61f-125">November 30, 2020</span></span> |
+| <span data-ttu-id="0d61f-126">4</span><span class="sxs-lookup"><span data-stu-id="0d61f-126">4</span></span>     | <span data-ttu-id="0d61f-127">Globalen</span><span class="sxs-lookup"><span data-stu-id="0d61f-127">Global</span></span>                                 | <span data-ttu-id="0d61f-128">7. Dezember 2020</span><span class="sxs-lookup"><span data-stu-id="0d61f-128">December 7, 2020</span></span>  |
+
+
+## <span data-ttu-id="0d61f-129">Unterstützung für v1-Geräte</span><span class="sxs-lookup"><span data-stu-id="0d61f-129">V1 device support</span></span> 
+
+<span data-ttu-id="0d61f-130">Zunächst für Surface Hub 2S-Geräte freigegeben, wird das Windows Windows 10 Team 2020-Update in Kürze für Surface Hub v1-Geräte zur Verfügung stehen.</span><span class="sxs-lookup"><span data-stu-id="0d61f-130">Initially released for Surface Hub 2S devices, Windows Windows 10 Team 2020 Update will soon be available for Surface Hub v1 devices.</span></span> <span data-ttu-id="0d61f-131">Weitere Informationen finden Sie unter [Surface IT pro-Blog](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update-available-october-27/ba-p/1810739).</span><span class="sxs-lookup"><span data-stu-id="0d61f-131">To learn more, see [Surface IT Pro Blog](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update-available-october-27/ba-p/1810739).</span></span>
+ 
+## <span data-ttu-id="0d61f-132">Neuigkeiten </span><span class="sxs-lookup"><span data-stu-id="0d61f-132">What’s new</span></span>
+
+<span data-ttu-id="0d61f-133">Das Windows 10-Team 2020-Update bietet wichtige Verbesserungen bei der Gerätebereitstellung und-Verwaltbarkeit zusammen mit den neuesten Windows 10-Features.</span><span class="sxs-lookup"><span data-stu-id="0d61f-133">Windows 10 Team 2020 Update brings major improvements to device deployment and manageability along with the latest Windows 10 features.</span></span> 
+ 
+## <span data-ttu-id="0d61f-134">Vorbemerkungen</span><span class="sxs-lookup"><span data-stu-id="0d61f-134">Before you begin</span></span>
+
+<span data-ttu-id="0d61f-135">Stellen Sie vor der Installation des Windows 10 Team 2020-Updates sicher, dass Sie den BitLocker-Schlüssel speichern, der Ihrem Gerät zugeordnet ist.</span><span class="sxs-lookup"><span data-stu-id="0d61f-135">Prior to installing Windows 10 team 2020 update, make sure you save the BitLocker key associated with your device.</span></span>
+
+**<span data-ttu-id="0d61f-136">So speichern Sie den BitLocker-Schlüssel manuell</span><span class="sxs-lookup"><span data-stu-id="0d61f-136">To manually save your BitLocker key</span></span>**
+
+1. <span data-ttu-id="0d61f-137">Legen Sie ein USB-Laufwerk in Surface Hub ein.</span><span class="sxs-lookup"><span data-stu-id="0d61f-137">Insert a USB drive into Surface Hub.</span></span>
+2. <span data-ttu-id="0d61f-138">Öffnen Sie auf Surface Hub die **Einstellungen** , und geben Sie Ihre Administratoranmeldeinformationen ein, wenn Sie dazu aufgefordert werden.</span><span class="sxs-lookup"><span data-stu-id="0d61f-138">On Surface Hub, open **Settings** and enter your admin credentials when prompted.</span></span>
+3. <span data-ttu-id="0d61f-139">Navigieren Sie zu **Update & Security**  >  **Recovery**.</span><span class="sxs-lookup"><span data-stu-id="0d61f-139">Navigate to **Update & Security** > **Recovery**.</span></span>
+4. <span data-ttu-id="0d61f-140">Wählen Sie unter **BitLocker**die Option **Speichern**aus.</span><span class="sxs-lookup"><span data-stu-id="0d61f-140">Under **BitLocker**, select **Save**.</span></span> <span data-ttu-id="0d61f-141">Der BitLocker-Schlüssel wird in einer Textdatei auf dem USB-Laufwerk gespeichert.</span><span class="sxs-lookup"><span data-stu-id="0d61f-141">The BitLocker key is saved to a text file on the USB drive.</span></span>
+
+<span data-ttu-id="0d61f-142">Weitere Informationen finden Sie unter [Speichern des BitLocker-Schlüssels](save-bitlocker-key-surface-hub.md).</span><span class="sxs-lookup"><span data-stu-id="0d61f-142">To learn more, see [Save your BitLocker key](save-bitlocker-key-surface-hub.md).</span></span>
+
+
+## <span data-ttu-id="0d61f-143">Mehr erfahren</span><span class="sxs-lookup"><span data-stu-id="0d61f-143">Learn more</span></span>
+
+
+- [<span data-ttu-id="0d61f-144">Neues Surface Hub-Betriebssystemupdate für die öffentliche Vorschau verfügbar.</span><span class="sxs-lookup"><span data-stu-id="0d61f-144">New Surface Hub OS update released for public preview.</span></span>](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-hub-os-update-released-for-public-preview/ba-p/1534823)
+
