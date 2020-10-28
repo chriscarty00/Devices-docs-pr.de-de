@@ -10,14 +10,14 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 07/27/2017
+ms.date: 10/27/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 0ad65170b3cc2534fec1b22730c718025026d7bc
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: e070c28d13cd8466bff47022f4508fdb8aa06331
+ms.sourcegitcommit: 19d2a78242777590bd09af3ac6552c07b032e0a1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10833688"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "11142914"
 ---
 # Programm für die Erstausführung (Surface Hub)
 
@@ -71,7 +71,7 @@ Wenn die angezeigten Standardwerte richtig sind, klicken Sie auf **Weiter** , um
 ### Folgendes passiert:
 
 >[!NOTE]
-> Nachdem die Einstellungen auf dieser Seite festgelegt wurden, können Sie den Bildschirm erst dann wieder aufrufen, wenn Sie das Gerät zurücksetzen (weitere Informationen unter [Zurücksetzen des Geräts](device-reset-surface-hub.md)). Stellen Sie sicher, dass die Einstellungen richtig festgelegt sind, bevor Sie fortfahren.
+> Nachdem die Einstellungen auf dieser Seite festgelegt wurden, können Sie den Bildschirm erst dann wieder aufrufen, wenn Sie das Gerät zurücksetzen (weitere Informationen unter [Zurücksetzen des Geräts](device-reset-surface-hub.md)). Stellen Sie sicher, dass die Einstellungen richtig festgelegt sind, bevor Sie fortfahren.
 
  
 
@@ -128,17 +128,17 @@ Wird eine eingeschränkte drahtgebundene Verbindung erkannt, wird diese Seite an
 
 -   Sie können ein Drahtlosnetzwerk anstelle der eingeschränkten drahtgebundenen Verbindung auswählen.
 -   Sie können das Herstellen einer Verbindung mit einem Netzwerk überspringen, indem Sie auf **Diesen Schritt überspringen**klicken. Die Seite [Bereits für Sie eingerichtet](#set-up-for-you) wird angezeigt.
-    **Hinweis**  Wenn Sie dies überspringen, verfügt das Gerät nicht über eine Netzwerkverbindung, und nichts, was eine Netzwerkverbindung erfordert, funktioniert auf Ihrem Surface-Hub, einschließlich Sachen wie e-Mail-und Kalendersynchronisierung. Sie können später mithilfe von Einstellungen eine Verbindung mit einem Drahtlosnetzwerk herstellen (siehe [Drahtlosnetzwerk Verwaltung](wireless-network-management-for-surface-hub.md)).
+    **Hinweis**  Wenn Sie diesen Schritt überspringen, wird keine Netzwerkverbindung hergestellt, und es können keine Dienste auf dem Surface Hub verwendet werden, die eine Netzwerkverbindung erfordern,darunter die E-Mail- und Kalender-Synchronisierung. Sie können später mithilfe von Einstellungen eine Verbindung mit einem Drahtlosnetzwerk herstellen (siehe [Drahtlosnetzwerk Verwaltung](wireless-network-management-for-surface-hub.md)).
 
      
 
 -   Sie können **Proxyeinstellungen eingeben** auswählen, um die Nutzung des Netzwerkproxys anzugeben. Sie werden zum nächsten Bildschirm weitergeleitet.
 
-![Abbildung der Netzwerk-Proxy-Seite.](images/setupnetworksetup-2.png)
+    ![Abbildung der Netzwerk-Proxy-Seite.](images/setupnetworksetup-2.png)
 
-Dieser Bildschirm wird angezeigt, wenn Sie im vorherigen Bildschirm auf **Proxyeinstellungen eingeben** klicken.
+    Dieser Bildschirm wird angezeigt, wenn Sie im vorherigen Bildschirm auf **Proxyeinstellungen eingeben** klicken.
 
-![Abbildung der Proxyserver-Einstellungsdetails.](images/setupnetworksetup-4.png)
+    ![Abbildung der Proxyserver-Einstellungsdetails.](images/setupnetworksetup-4.png)
 
 ### Details
 
@@ -371,9 +371,10 @@ Wenn Sie das Surface Hub mit einem Azure Active Directory (Azure AD) verknüpfen
 Das Verknüpfen mit Azure AD bietet zwei wesentliche Vorteile:
 
 1.  Bestimmte Mitarbeiter Ihrer Organisation können als Administratoren auf das Gerät zugreifen, die Einstellungs-App starten und das Gerät konfigurieren. Personen mit Administratorberechtigungen werden in Ihrem Azure AD-Abonnement definiert.
+
 2.  Wenn eine Verbindung zwischen Azure AD und einer Lösung für die mobile Geräteverwaltung (MDM) hergestellt wird, wird diese MDM-Lösung für das Gerät verwendet, und Sie können Richtlinien und Konfiguration übernehmen.
 
-![Abbildung der Meldung, die angezeigt wird, wenn Sie Ihr Surface Hub mit Azure Active Directory verbinden.](images/setupjoiningazuread-1.png)
+    ![Abbildung der Meldung, die angezeigt wird, wenn Sie Ihr Surface Hub mit Azure Active Directory verbinden.](images/setupjoiningazuread-1.png)
 
 ### Details
 
@@ -451,7 +452,7 @@ Nach dem Eingeben der Anmeldeinformationen wird versucht, ein neues Administrato
 
 Um die neuesten Features und Updates zu erhalten, aktualisieren Sie das Surface Hub direkt im Anschluss an die Erstausführung.
 
-1.  Das Gerät muss auf die Windows Update-Server oder die Windows Server Update Services (WSUS) zugreifen können. Informationen zum Konfigurieren von WSUS finden Sie unter [Verwenden von WSUS](manage-windows-updates-for-surface-hub.md#use-windows-server-update-services).
+1.  Stellen Sie sicher, dass das Gerät auf die Windows Update-Server zugreifen kann. 
 2.  Öffnen Sie die Einstellungen, klicken Sie auf **Update und Sicherheit**, **Windows Update** und anschließend auf **Nach Updates suchen**.
 3.  Wenn Updates verfügbar sind, werden sie heruntergeladen. Nach dem Download klicken Sie auf die Schaltfläche **Jetzt aktualisieren**, um die Updates zu installieren.
 4.  Befolgen Sie die Anweisungen auf dem Bildschirm, nachdem die Updates installiert wurden. Gegebenenfalls muss das Gerät neu gestartet werden.

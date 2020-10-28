@@ -9,20 +9,23 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 08/13/2020
+ms.date: 10/27/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 51d6b9169b0074eb474ddc89b6fe9b43a921bb07
-ms.sourcegitcommit: feb81137d009d9b7c743aabd7d02615e89842200
+ms.openlocfilehash: 6d370db0232ae1f93d1ba6b8ff15b5ff2cfa9f10
+ms.sourcegitcommit: 19d2a78242777590bd09af3ac6552c07b032e0a1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "10929765"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "11142904"
 ---
 # Installieren der Vorabversion des Windows10 Team2020-Updates 
 
-Das neueste Update des Surface Hub-Betriebssystems, **Windows 10 Team 2020-Update**, ist jetzt ohne zusätzliche Kosten für die Surface Hub 50-Zoll-und Surface Hub 2S 55-Zoll-Geräte aus dem [Windows-Insider-Programm](https://insider.windows.com)verfügbar. Das 84-Zoll-Surface-Hub-Modell wird in der endgültigen Version von Windows 10 Team 2020-Update unterstützt.
+Der Preview-Build des Surface Hub-Betriebssystems, **Windows 10 Team 2020 Update Preview**, ist ohne zusätzliche Kosten vom Windows- [Insider-Programm](https://insider.windows.com)verfügbar. 
 
-Das Windows 10-Team 2020-Update bietet wichtige Verbesserungen bei der Gerätebereitstellung und-Verwaltbarkeit zusammen mit den neuesten Windows 10-Features. Wenn Sie mehr über die Neuerungen erfahren möchten, lesen Sie den folgenden Blogbeitrag: [Neues Surface Hub-Betriebssystemupdate, das für die öffentliche Vorschau freigegeben wurde.](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-hub-os-update-released-for-public-preview/ba-p/1534823) Informationen zu bekannten Problemen finden Sie unten im Abschnitt "bekannte Probleme".
+> [!NOTE] 
+> Die endgültige öffentliche Version des Windows 10 Team 2020-Updates ist jetzt verfügbar. Weitere Informationen finden Sie unter [Windows 10 Team 2020-Update](surface-hub-2020-update.md).
+
+Das Windows 10-Team 2020-Update bietet wichtige Verbesserungen bei der Gerätebereitstellung und-Verwaltbarkeit zusammen mit den neuesten Windows 10-Features. Wenn Sie mehr über die Neuerungen erfahren möchten, lesen Sie den folgenden Blogbeitrag: [Neues Surface Hub-Betriebssystemupdate, das für die öffentliche Vorschau freigegeben wurde.](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-hub-os-update-released-for-public-preview/ba-p/1534823) Informationen zu bekannten Problemen finden Sie unter [bekannte Probleme: Windows 10 Team 2020-Update](surface-hub-2020-team-update-known-issues.md)
  
 ## Voraussetzungen
 
