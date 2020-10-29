@@ -3,6 +3,7 @@
 # Surface Hub 2S
 
 ## Übersicht
+### [Neues in Windows10 Team2020-Update](surface-hub-2020-update-whats-new.md)
 ### [Neues in Surface Hub 2S für IT-Administratoren](surface-hub-2s-whats-new.md)
 ### [Surface Hub 2S 50-Zoll technische Daten](surface-hub-2s-techspecs.md) 
 ### [Surface Hub 2S 85-Zoll technische Daten](surface-hub-2s-85.md)
