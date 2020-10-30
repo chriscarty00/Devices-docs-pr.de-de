@@ -13,13 +13,13 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.date: 10/13/2020
-ms.openlocfilehash: bfd10df3bb7a7dd031c1719d4191ffc46418c4e3
-ms.sourcegitcommit: 30c1eb469610dfd2ad9169c154ca07e565240fdb
+ms.date: 10/28/2020
+ms.openlocfilehash: 2d31f520d8c4da54f47b2b89b58b43e2cb983f1a
+ms.sourcegitcommit: 7f5b97275fe301ef700f9c77954a1054e2e8d046
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "11117851"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "11145616"
 ---
 # Verwenden von Microsoft-Endpunkt-Konfigurations-Manager zum Verwalten von Geräten mit SEMM
 
@@ -388,11 +388,6 @@ Wenn Sie die Oberflächen-UEFI-Einstellungen oder-Berechtigungen für die Oberfl
 
 Auf dem Computer, auf dem ShowSettingsOptions.ps1 ausgeführt wird, muss Microsoft Surface UEFI Manager installiert sein, das Skript erfordert jedoch kein Surface-Gerät.
 
-Am besten können Sie die aktuellsten Einstellungsnamen und IDs für Geräte anzeigen, indem Sie das ConfigureSEMM.ps1-Skript oder das ConfigureSEMM- <device name> . ps1 aus dem SEMM_Powershell.zip in [Surface Tools für IT-Downloads](https://www.microsoft.com/download/details.aspx?id=46703)verwenden.
-
-Einstellungsnamen und IDs für alle Geräte sind im ConfigureSEMM.ps1-Skript zu sehen.
-
-Einstellungsnamen und IDs für bestimmte Geräte sind in den ConfigureSEMM- <device name> . ps1-Skripts zu sehen. 
 
 ## Bereitstellen von Semm-Konfigurations-Manager-Skripts
 
