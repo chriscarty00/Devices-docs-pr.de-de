@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 10/27/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 68eee89ac1b93501c73eccd3e5f9eecf514a8132
-ms.sourcegitcommit: b4cfb718274fd632661f9112e9fd086a2ad45640
+ms.openlocfilehash: 90bd5714b7427880f6e73c7031c26894d55ac500
+ms.sourcegitcommit: 5448f775d3fe177806fce6cbaf0b2b091ed8b7d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "11143640"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "11145950"
 ---
 # Installieren des Windows 10 Team 2020-Updates 
 
@@ -48,7 +48,7 @@ Das Windows 10-Team 2020-Update bietet wichtige Verbesserungen bei der Gerätebe
  
 ## Vorbemerkungen
 
-Stellen Sie vor der Installation des Windows 10 Team 2020-Updates sicher, dass Sie den BitLocker-Schlüssel speichern, der Ihrem Gerät zugeordnet ist. Weitere Informationen finden Sie unter [Neuerungen in Windows 10 Team 2020-Update](surface-hub-2020-update-whats-new.md)
+Stellen Sie vor der Installation des Windows 10 Team 2020-Updates sicher, dass Sie den BitLocker-Schlüssel speichern, der Ihrem Gerät zugeordnet ist. Weitere Informationen finden Sie unter [Neuerungen in Windows 10 Team 2020-Update](surface-hub-2020-update-whats-new.md).
 
 **So speichern Sie den BitLocker-Schlüssel manuell**
 

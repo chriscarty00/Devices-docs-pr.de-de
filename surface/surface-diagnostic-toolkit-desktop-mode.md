@@ -12,12 +12,12 @@ manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
 ms.date: 7/31/2020
-ms.openlocfilehash: ec4a90d0d72956eaa4f98e928d128dca70d49c59
-ms.sourcegitcommit: f875a45961ff5f3c04006afc8690b5e5965e4d80
+ms.openlocfilehash: 8b113d16f2053fe0904518b2643f1bafeaebdf64
+ms.sourcegitcommit: 5448f775d3fe177806fce6cbaf0b2b091ed8b7d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "10902956"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "11145940"
 ---
 # Surface-Diagnosetoolkit für Unternehmen im Desktopmodus verwenden
 
@@ -26,7 +26,7 @@ In diesem Thema wird erläutert, wie Sie mit dem Surface Diagnostic Toolkit (uns
 Durch das erfolgreiche Ausführen von "mit" können Sie schnell feststellen, ob ein gemeldetes Problem durch fehlerhafte Hardware oder Benutzer verursacht wurde. Eine Liste der unterstützten Surface-Geräte finden Sie unter [Bereitstellen des Surface Diagnostics Toolkit for Business](surface-diagnostic-toolkit-business.md).
 
 
-1. Weisen Sie den Benutzer an, das unstrukturierte [Paket](surface-diagnostic-toolkit-business.md#create-custom-sdt) von einem Softwareverteilungspunkt oder einer Netzwerkfreigabe zu installieren. Nachdem die Installation abgeschlossen ist, können Sie den Benutzer durch eine Reihe von Tests führen. 
+1. Weisen Sie den Benutzer an, [das Paket](surface-diagnostic-toolkit-business.md#preparing-the-sdt-package-for-distribution)mit einem Softwareverteilungspunkt oder einer Netzwerkfreigabe zu installieren. Nachdem die Installation abgeschlossen ist, können Sie den Benutzer durch eine Reihe von Tests führen. 
 
 2. Beginnen Sie auf der Startseite, die es Benutzern ermöglicht, eine Beschreibung des Problems einzugeben, und klicken Sie auf **weiter**, wie in Abbildung 1 dargestellt.
 
@@ -58,12 +58,12 @@ Durch das erfolgreiche Ausführen von "mit" können Sie schnell feststellen, ob 
 5. Wenn alle Tests fertig sind, werden Sie vom Tool aufgefordert, zu bestätigen, ob Ihr Problem behoben ist. 
 
  ![Wurde Ihr Problem behoben? ](images/sdt3.png)
- *Abbildung 3a. Wurde Ihr Problem behoben?*
+ *Abbildung 3a: wurde Ihr Problem behoben?*
 
 6. Wenn das Problem nicht behoben wird oder Sie nicht wissen, können Sie ein Support-Ticket einreichen, indem Sie auf " **Kontakt** " klicken, um **Hilfe zu erhalten.**
  
- ![Senden eines Support Tickets ](images/sdt4.png)
- *Abbildung 3B. Einreichen eines Support-Tickets*
+ ![Einreichen eines Support ](images/sdt4.png)
+ *-Tickets Abbildung 3B. ein Support-Ticket einreichen*
 
 <span id="multiple" />
 

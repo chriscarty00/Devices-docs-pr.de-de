@@ -12,12 +12,12 @@ ms.date: 10/12/2020
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 1f2661811516507abd432dba602cf8ce81e6dbb3
-ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
+ms.openlocfilehash: 97d0a3d76cf9286ca946e08be9f605084084b2ba
+ms.sourcegitcommit: 5448f775d3fe177806fce6cbaf0b2b091ed8b7d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "11114663"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "11145960"
 ---
 # Surface-Diagnosetoolkit für Unternehmen bereitstellen
 
@@ -25,7 +25,7 @@ Mit dem Microsoft Surface Diagnostics Toolkit for Business (Unternehmen) können
 
 Im speziellen bietet Ihnen das Unternehmen in der folgenden Funktion die folgenden Möglichkeiten:
 
-- [Passen Sie das Paket an.](#create-custom-sdt)
+- [Passen Sie das Paket an.](#preparing-the-sdt-package-for-distribution)
 - [Führen Sie die App mithilfe von Befehlen aus.](surface-diagnostic-toolkit-command-line.md)
 - [Führen Sie mehrere Hardwaretests aus, um Probleme zu beheben.](surface-diagnostic-toolkit-desktop-mode.md#multiple)
 - [Generieren von Protokollen zum Analysieren von Problemen](surface-diagnostic-toolkit-desktop-mode.md#logs)
@@ -123,8 +123,6 @@ Zusätzlich zu der exe-Datei installiert die Datei eine JSON-Datei und eine admi
 ![Liste der im Datei-Explorer installierten Dateien](images/sdt-2.png)
 
 *Abbildung2. Dateien, die von "unstrukturierte" installiert wurden*
-
-<span id="create-custom-sdt" />
 
 ## Vorbereiten des unstrukturierten Pakets für die Verteilung
 
