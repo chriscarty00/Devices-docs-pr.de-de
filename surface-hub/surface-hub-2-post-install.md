@@ -14,15 +14,15 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.date: 10/21/2020
+ms.date: 11/03/2020
 appliesto:
 - Surface Hub 2S
-ms.openlocfilehash: a17d4b05e6ee5f7415fed62d96b9e0a62a6dc123
-ms.sourcegitcommit: cbf237e59c97311bd8add3aae2a17738fe271ddc
+ms.openlocfilehash: b86776b56e892c34ea8b5abbc55d5c48723a5f9e
+ms.sourcegitcommit: 3ca1d1bc77452acca914d0af03e252ee260ebf1a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "11134403"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "11154127"
 ---
 # Konfigurieren von Windows 10 Pro oder Enterprise auf Surface Hub 2
 
@@ -34,7 +34,7 @@ Wenn Sie diese Schritte ausführen, ist es möglicherweise hilfreich, eine kabel
 
 1. Anmelden mit einem Konto, das über lokale Administratorrechte auf dem Gerät verfügt.  
 
-    - Auf Azure AD-verbundenen Geräten wird der Benutzer, der die Azure AD-Verknüpfung ausführt, automatisch der lokalen Administratorgruppe hinzugefügt. Azure AD Global Administrators und Azure AD Devices-Administratoren sind [auch lokale Administratoren](https://docs.microsoft.com/azure/active-directory/devices/assign-local-admin). 
+    - Auf Azure AD-verbundenen Geräten wird der Benutzer, der die Azure AD-Verknüpfung ausführt, automatisch der lokalen Administratorgruppe hinzugefügt. Azure AD Global Administrators und Azure AD Devices-Administratoren sind <a href="https://docs.microsoft.com/azure/active-directory/devices/assign-local-admin" target="_blank"> auch lokale Administratoren </a> . 
     
     - Sie können **net localgroup-Administratoren** an einer Eingabeaufforderung eingeben, um die Konten aufzulisten, die über lokale Administratorrechte verfügen.
     
@@ -83,17 +83,17 @@ Das folgende Beispiel zeigt das Trackpad, das nützlich ist, um zu navigieren un
 
 Schließen Sie eine Tastatur und Maus an, wenn Sie das Gerät als Ihr primäres Windows-Gerät verwenden, oder verwenden Sie es häufig für die Eingabe oder die Genauigkeit der Arbeit.
 
-Wenn sich Ihr Surface-Hub-Gerät in der Nähe eines PCs befindet, können Sie die [Maus ohne Rahmen](https://aka.ms/mm) verwenden, um nahtlos zwischen dem Surface-Hub und dem PC zu wechseln. Weitere Informationen finden Sie unter [Microsoft-Download aus der Garage: Maus ohne Rahmen](https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/).
+Wenn sich Ihr Surface-Hub-Gerät in der Nähe eines PCs befindet, können Sie <a href="https://aka.ms/mm" target="_blank"> die Maus ohne Rahmen verwenden, </a> um nahtlos zwischen dem Surface-Hub und dem PC zu wechseln. Weitere Informationen finden Sie unter <a href="https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/" target="_blank"> Microsoft-Download aus der Garage: Maus ohne Rahmen. </a>
 
 ## OneDrive for Business
 
-Verwenden Sie [OneDrive for Business](https://docs.microsoft.com/onedrive/onedrive) , um Tools, Protokolle und andere Dateien auf einfache Weise zwischen allen ihren Arbeitsgeräten freizugeben.
+Verwenden Sie <a href="https://docs.microsoft.com/onedrive/onedrive" target="_blank"> OneDrive for Business, </a> um Tools, Protokolle und andere Dateien auf einfache Weise zwischen allen ihren Arbeitsgeräten freizugeben.
 
 - Mit OneDrive können Sie Ihre Arbeitsdateien zwischen ihren Laptops, dem Surface Hub-Desktop und ihren von InTune verwalteten mobilen Geräten freigeben. Dateien können auf jedem Gerät bearbeitet werden, und alle mit dem Netzwerk verbundenen Geräte werden mit den Änderungen aktualisiert.
 
 - Wenn Sie die Größe der Surface-Hub-SSD (128 GB) berücksichtigen und OneDrive auf Ihrem Surface Hub-Desktop Gerät konfigurieren, stellen Sie sicher, dass die Standardkonfiguration darin besteht, die Dateien online zu speichern und während der Verwendung Dateien herunterzuladen.
 
-Wenn Sie OneDrive so konfigurieren möchten, dass Dateien nur bei Bedarf heruntergeladen werden, legen Sie die Einstellung **files on-Demand** fest, um **Speicherplatz zu sparen und während der Verwendung Dateien herunterzuladen**. Weitere Informationen finden Sie unter [Abfragen und Einrichten von Dateien auf Anforderungsstatus in Windows](https://docs.microsoft.com/onedrive/files-on-demand-windows).
+Wenn Sie OneDrive so konfigurieren möchten, dass Dateien nur bei Bedarf heruntergeladen werden, legen Sie die Einstellung **files on-Demand** fest, um **Speicherplatz zu sparen und während der Verwendung Dateien herunterzuladen**. Weitere Informationen finden Sie unter <a href="https://docs.microsoft.com/onedrive/files-on-demand-windows" target="_blank"> Abfragen und Einrichten von Dateien auf Anforderungsstatus in Windows </a> .
 
 ![OneDrive-Einstellungen](images/onedrive.png)
 
@@ -122,7 +122,7 @@ So synchronisieren Sie interne Unternehmensdateien mit der OneDrive-Synchronisie
     
     3. Wählen Sie **Speicherplatz freigeben**aus.
     
-    4. In der Spalte Status wird der Status von Dateien und Ordnern angezeigt. Weitere Informationen finden Sie unter [Synchronisieren von SharePoint-Dateien mit dem OneDrive-synchronisierungsclient](https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd).
+    4. In der Spalte Status wird der Status von Dateien und Ordnern angezeigt. Weitere Informationen finden Sie unter <a href="https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd" target="_blank"> Synchronisieren von SharePoint-Dateien mit dem OneDrive-synchronisierungsclient </a> .
     
 6. Teams-Kanaldateien werden auf SharePoint-Websites mit allen gleichen SharePoint-Dokumentfunktionen wie Versionsverlauf und Synchronisierung mit Ihren lokalen Desktopgeräten gespeichert. So synchronisieren Sie Teams-Kanaldateien:
 
@@ -164,13 +164,13 @@ Koppeln Sie den Stift, um die Stift-Firmware auf dem neuesten Stand zu halten, u
 
 Sie können die Kamera oben oder an jeder Seite des Geräts montieren. Montieren Sie die Kamera in einer Position, um den Kamerawinkel zu optimieren, wenn Sie den Hub mit einem Desktop-Standfuß statt mit einem Wagen verwenden oder sich in der Nähe des Hubs befinden. Da die Kamera nicht automatisch gedreht wird, benötigen Sie eine 2mm-Sechskant-Taste, um die Kamera manuell zu drehen. 
 
-Weitere Informationen dazu, wie Sie die Kamera seitlich montieren und die Kamera manuell drehen können, finden Sie unter [Surface Hub 2S-Kameralinsen Ausrichtung](https://support.microsoft.com/help/4509729/surface-hub-2s-camera-lens-orientation).
+Weitere Informationen dazu, wie Sie die Kamera seitlich montieren und die Kamera manuell drehen können, finden Sie unter <a href="https://support.microsoft.com/help/4509729/surface-hub-2s-camera-lens-orientation" target="_blank"> Surface Hub 2S-Kameralinsen Ausrichtung </a> .
 
 ## Windows Hello-Konfiguration
 
 Surface Hub 2S mit Windows 10 Enterprise ermöglicht die vollständige Suite von Win32-Desktopanwendungen sowie biometrische Windows Hello-Optionen. Der Surface Hub 2-Fingerabdruckleser-Zubehör kann an einen beliebigen USB-C-Anschluss des Geräts angeschlossen werden. 
 
-Wenn Sie einen Surface Hub 2-Fingerabdruckleser bestellen oder technische Daten anzeigen möchten, lesen Sie [grundlegende Add-ons für Windows 10 pro und Enterprise auf Surface Hub 2](surface-hub-2-essential-add-ons.md). 
+Wenn Sie einen Surface Hub 2-Fingerabdruckleser bestellen oder technische Daten anzeigen möchten, lesen Sie (Surface-Hub-2-Essential-Add-ons.MD "target =" _blank ">Essential Add-ons für Windows 10 pro und Enterprise auf Surface Hub 2 </a> . 
 
 Nachdem Sie den Fingerabdruckleser eingefügt haben, wählen Sie **Start**  >  **Einstellungen**  >  **Accounts**  >  für die**Anmeldeoptionen**  >  **Windows Hello Fingerabdruck** aus, um Ihren Fingerabdruck einzuschreiben.
 
@@ -246,7 +246,7 @@ Sie können Whiteboard auch über den Microsoft Store installieren:
 
 ### Microsoft Office
 
-1. Öffnen Sie das [Office-Portal](https://portal.office.com/account#installs) , und installieren Sie die gewünschten Anwendungen.
+1. Öffnen <a href="https://portal.office.com/account#installs" target="_blank"> Sie das Office </a> -Portal, und installieren Sie die gewünschten Anwendungen.
 
 2. Anheften Sie die gewünschten Office-Anwendungen an die Taskleiste.
 
@@ -258,7 +258,7 @@ Sie können Whiteboard auch über den Microsoft Store installieren:
 
 ### Microsoft Teams
 
-1. Laden Sie [Microsoft Teams](https://teams.microsoft.com/downloads)herunter, und installieren Sie Sie.
+1. Laden Sie Microsoft Teams herunter, und installieren Sie Sie <a href="https://teams.microsoft.com/downloads" target="_blank"> </a> .
 
 2. Konfigurieren Sie die Einstellungen für die automatische Startanwendung (optional).
 
@@ -305,20 +305,20 @@ Empfohlene Konfiguration im Unternehmensnetzwerk:
 
 Die APP **Ihres Telefons** wird unter Windows 10 standardmäßig installiert. Wenn Sie nicht vorhanden ist, können Sie Sie auch aus dem Windows Store installieren.
 
-Informationen zum Einrichten der App finden Sie unter so wird es [gemacht: Einrichten Ihres Telefons unter Windows 10 und Synchronisieren von Daten zwischen Ihrem PC und Smartphone](https://www.windowscentral.com/how-set-your-phone-windows-10). Weitere Informationen finden Sie unter [Beheben häufig auftretender Probleme mit ihrer Telefon-APP unter Windows 10](https://www.windowscentral.com/how-fix-common-problems-your-phone-app-windows-10).
+Informationen zum Einrichten der App finden Sie unter so wird es <a href="https://www.windowscentral.com/how-set-your-phone-windows-10" target="_blank"> gemacht: Einrichten Ihres Telefons unter Windows 10 und Synchronisieren von Daten zwischen Ihrem PC und Smartphone </a> . Weitere Informationen finden Sie unter <a href="https://www.windowscentral.com/how-fix-common-problems-your-phone-app-windows-10" target="_blank"> Beheben häufig auftretender Probleme mit ihrer Telefon-APP unter Windows 10 </a> .
 
 ### Super Fancy Zones
 
-**Super fancy Zones** hilft Benutzern beim Anordnen von Windows zum Maximieren von Bildschirm Immobilien. Sie ist jetzt in [PowerToys](https://github.com/microsoft/PowerToys/releases) auf GitHub enthalten.
+**Super fancy Zones** hilft Benutzern beim Anordnen von Windows zum Maximieren von Bildschirm Immobilien. Sie ist jetzt in <a href="https://github.com/microsoft/PowerToys/releases" target="_blank"> PowerToys </a> auf GitHub enthalten.
 
 ### Edge Chrom-Browser
 
-Laden Sie den neuen [Edge Chrom-Browser](https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL)herunter, und installieren Sie ihn.
+Laden Sie den neuen Edge Chrom-Browser herunter, und installieren Sie ihn <a href="https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL" target="_blank"> </a> .
 
 
 ### Surface Hub-Hardware Diagnosetool
 
-Das [Surface Hub-Hardware Diagnosetool](https://www.microsoft.com/p/surface-hub-hardware-diagnostic/9nblggh51f2g) ist kostenlos im Microsoft Store erhältlich. Das Tool ist so konzipiert, dass Sie sicherstellen können, dass Ihr Surface Hub optimal ausgeführt wird. Sie enthält Tests, um festzustellen, ob Ihre Firmware auf dem neuesten Stand ist und richtig konfiguriert ist. Interaktive Tests ermöglichen Ihnen, zu bestätigen, dass die wesentlichen Funktionen wie erwartet funktionieren. Wenn Probleme auftreten, können Ergebnisse gespeichert und für das Surface Hub-Support-Team freigegeben werden. Klicken Sie auf den Link, um ihn aus dem Microsoft Store zu installieren, und anheften Sie die Anwendung dann an Ihre Taskleiste.
+Das <a href="https://www.microsoft.com/p/surface-hub-hardware-diagnostic/9nblggh51f2g" target="_blank"> Surface Hub-Hardware Diagnosetool ist </a> kostenlos im Microsoft Store erhältlich. Das Tool ist so konzipiert, dass Sie sicherstellen können, dass Ihr Surface Hub optimal ausgeführt wird. Sie enthält Tests, um festzustellen, ob Ihre Firmware auf dem neuesten Stand ist und richtig konfiguriert ist. Interaktive Tests ermöglichen Ihnen, zu bestätigen, dass die wesentlichen Funktionen wie erwartet funktionieren. Wenn Probleme auftreten, können Ergebnisse gespeichert und für das Surface Hub-Support-Team freigegeben werden. Klicken Sie auf den Link, um ihn aus dem Microsoft Store zu installieren, und anheften Sie die Anwendung dann an Ihre Taskleiste.
 
 ## Zusätzliche Einstellungen
 
@@ -454,4 +454,4 @@ Aktivieren Sie den Tablet-Modus, wenn dies für Barrierefreiheitsanforderungen e
 
 ## Verwandte Themen
 
-[Migrieren zu Windows 10 Pro oder Enterprise auf Surface Hub 2](surface-hub-2s-migrate-os.md)
+<a href="surface-hub-2s-migrate-os.md" target="_blank"> Migrieren zu Windows 10 Pro oder Enterprise auf Surface Hub 2</a>
