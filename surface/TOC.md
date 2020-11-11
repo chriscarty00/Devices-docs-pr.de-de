@@ -78,8 +78,7 @@
 ### [Beheben allgemeiner Surface-Probleme mit dem Surface-Diagnosetoolkit für Unternehmen](surface-diagnostic-toolkit-for-business-intro.md)
 #### [Surface-Diagnosetoolkit für Unternehmen bereitstellen](surface-diagnostic-toolkit-business.md)
 #### [Surface-Diagnosetoolkit für Unternehmen im Desktopmodus verwenden](surface-diagnostic-toolkit-desktop-mode.md)
-#### [Ausführen von Surface-Diagnosetoolkit für Unternehmen mithilfe von Befehlen](surface-diagnostic-toolkit-command-line.md)
-### [Änderungsverlauf für die Surface-Dokumentation](change-history-for-surface.md)
+#### [Surface-Diagnosetoolkit für Unternehmen mit Befehlen ausführen](surface-diagnostic-toolkit-command-line.md)
 ### [Hilfe für Endbenutzer](https://support.microsoft.com/products/surface-devices)
 
 ## Garantie und erweiterte Servicepläne
