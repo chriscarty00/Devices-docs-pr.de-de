@@ -80,6 +80,7 @@
 #### [Surface-Diagnosetoolkit für Unternehmen im Desktopmodus verwenden](surface-diagnostic-toolkit-desktop-mode.md)
 #### [Surface-Diagnosetoolkit für Unternehmen mit Befehlen ausführen](surface-diagnostic-toolkit-command-line.md)
 ### [Hilfe für Endbenutzer](https://support.microsoft.com/products/surface-devices)
+### [Lebenszyklus von Surface-Treibern und -Firmware für Windows-basierte Geräte](surface-driver-firmware-lifecycle-support.md)
 
 ## Garantie und erweiterte Servicepläne
 ### [Surface für Unternehmen– Garantie und erweiterte Servicepläne](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
