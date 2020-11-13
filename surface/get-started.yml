@@ -11,12 +11,12 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 01c1cc2ea75e79825c80cc6f02970a755ae35b75
-  ms.sourcegitcommit: cbf237e59c97311bd8add3aae2a17738fe271ddc
+  ms.openlocfilehash: c356595e058c45cc95631d2ebd12ee2e5cc75c1d
+  ms.sourcegitcommit: b1c630dcf12530cf7034478bfe66ad3bb11b59c9
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 10/23/2020
-  ms.locfileid: "11134383"
+  ms.lasthandoff: 11/12/2020
+  ms.locfileid: "11166647"
 landingContent:
 - title: Surface-Geräte
   linkLists:
@@ -76,12 +76,8 @@ landingContent:
       url: surface-diagnostic-toolkit-business.md
     - text: Top-Supportlösungen
       url: support-solutions-surface.md
-    - text: Bewährte Methoden für die SSD-Entfernung in kompatiblen Surface-Geräten
-      url: surface-ssd-removal-guide.md
-    - text: Schützen Ihrer Daten während der Reparatur oder des Diensts
-      url: https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service
-    - text: Problembehandlung bei Surface Dock und Dockingstations
-      url: https://support.microsoft.com/help/4023468/surface-troubleshoot-surface-dock-and-docking-stations
+    - text: Oberflächen Treiber und Firmware-Lebenszyklus für Windows-basierte Geräte
+      url: surface-driver-firmware-lifecycle-support.md
 - title: Erkunden von Sicherheitsanleitungen
   linkLists:
   - linkListType: how-to-guide
