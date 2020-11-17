@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 10/27/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: d6b95ac565132c4e4f1632c2abaffa13ddb2c54c
-ms.sourcegitcommit: 19d2a78242777590bd09af3ac6552c07b032e0a1
+ms.openlocfilehash: e5ffefa44560d01135b3ac656d9357f1115110ba
+ms.sourcegitcommit: d60f82d9d22fe118f9c8dc24458d2c144b138eb8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "11142894"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "11174725"
 ---
 # Verwalten von Windows-Updates auf Surface Hub
 
@@ -120,7 +120,7 @@ Für alle neuen Surface Hub-Geräte ist ein Standardwartungsfenster festgelegt:
 2.  Navigieren Sie zu **Update und Sicherheit** > **Windows Update** > **Erweiterte Optionen**.
 3.  Wählen Sie unter **Wartungsstunden** **Ändern** aus.
 
-Um das Wartungsfenster mit MDM zu ändern, legen Sie den Knoten **MOMAgent** im [SurfaceHub-Konfigurationsdienstanbieter](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx) fest Weitere Details hierzu finden Sie unter [Verwalten von Einstellungen mit einem MDM-Anbieter](manage-settings-with-mdm-for-surface-hub.md).
+Wenn Sie das Wartungsfenster mithilfe von MDM ändern möchten, setzen Sie den **MaintenanceHoursSimple** -Knoten im [SurfaceHub-Konfigurationsdienst Anbieter](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx). Weitere Details hierzu finden Sie unter [Verwalten von Einstellungen mit einem MDM-Anbieter](manage-settings-with-mdm-for-surface-hub.md).
 
 
 ## Weitere Informationen

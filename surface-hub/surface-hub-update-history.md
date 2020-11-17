@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: f608e18d04a0d6c48ad2990715b400c95b6d8c12
-ms.sourcegitcommit: 5fa5efefd510ce6f435d7142fb2f2cc08b520da9
+ms.openlocfilehash: ab43155ee5e2973c5c45fc9ce8dd1395e3ca8bc5
+ms.sourcegitcommit: d60f82d9d22fe118f9c8dc24458d2c144b138eb8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "11078725"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "11174745"
 ---
 # Surface Hub-Updateverlauf
 
@@ -27,7 +27,17 @@ Wir werden diese Seite erneuern, wenn neue Updates veröffentlicht werden, also 
 
 Informationen zu verwandten Themen zu aktuellen und vergangenen Versionen, die möglicherweise Ihre Berücksichtung erfordern, finden Sie auf der Seite "[wichtige Informationen zu Surface Hub](https://support.microsoft.com/products/surface-devices/surface-hub)".
 
-## Windows 10 Team Creators Update 1703
+## Windows 10 Team 2020-Update (20H2)
+
+<details>
+<summary>Windows 10 Team 2020-Update für Surface Hub – allgemeine Versionshinweise (Betriebssystem Build 19042,572)</summary>
+
+Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Wichtige Updates für Surface Hub, die nicht bereits im [Windows 10-Updateverlauf](https://support.microsoft.com/help/4581839/windows-10-update-history)beschrieben sind, werden auf der Seite "[Neuerungen in Windows 10 Team 2020-Update](https://docs.microsoft.com/surface-hub/surface-hub-2020-update-whats-new)" aufgeführt.
+
+Weitere Informationen zur Verfügbarkeit von Updates nach Region, Verteilungsmethode und Gerätetyp finden Sie auf der Seite "[Windows 10 Team 2020-Update installieren](https://docs.microsoft.com/surface-hub/surface-hub-2020-update)".
+</details>
+
+## Windows 10 Team Creators Update (1703)
 
 <details>
 <summary>Sep 1, 2020 – Update für Surface Hub 2S</summary>
@@ -169,7 +179,7 @@ Weitere Informationen finden Sie im [Surface Hub-Administratorhandbuch](https://
 
 Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherheitsfixes. Zu den wichtigsten Updates für Surface Hub, die noch nicht im [Windows 10-Update Verlauf](https://support.microsoft.com/help/4018124/windows-10-update-history)beschrieben sind, gehören:
 
-* Behebt ein Problem, das verhindert, dass sich einige Benutzer bei "meine Besprechungen und Dateien" anmelden können.
+* Behebt ein Problem, das verhindert, dass einige Benutzer in "meine Besprechungen und Dateien" Signing-In.
 
 Weitere Informationen finden Sie im [Surface Hub-Administratorhandbuch](https://docs.microsoft.com/surface-hub/) zum Aktivieren/Deaktivieren von Gerätefeatures und-Diensten.
 *[KBKB4467699](https://support.microsoft.com/help/KB4467699)
@@ -322,7 +332,7 @@ Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherhe
 <summary>1. August 2017 – Update für Team basierend auf KB4032188 * (Betriebssystem Build 15063,498)</summary>
 
 * Skype for Business 
-  * Behebt das Skype for Business-Anmeldeproblem, bei dem eine erneute Wiederholung oder ein Neustart des Systems erforderlich ist.
+  * Behebt das Problem von Skype for Business Sign-In, bei dem eine Wiederholung oder ein Neustart des Systems erforderlich ist.
   * Behebt die fehlerhafte Anzeige von Skype for Business-Besprechungszeiten.
   * Korrekturen zur Verbesserung der Zuverlässigkeit des Surface Hub von Skype für Unternehmen.
 
@@ -424,7 +434,7 @@ Dieses Update für den Surface Hub umfasst Qualitätsverbesserungen und Sicherhe
 
 </details>
 
-## Windows 10-Team Anniversary Update 1607
+## Windows 10-Team Anniversary Update (1607)
 
 <details>
 <summary>14. März 2017 – Update für Team basierend auf KB4013429 * (Betriebssystem Build 14393,953)</summary>
@@ -546,7 +556,7 @@ Dieses Update umfasst Qualitätsverbesserungen und Sicherheitsfixes. In diesem U
 * Ein Problem wurde behoben, das zum Absturz des Diensts vor dem Herunterfahren führt
 * Ein Problem wurde behoben, bei dem einige APP-Daten nach einer Sitzung nicht ordnungsgemäß entfernt wurden.
 * Broadcom NFC-Treiber aktualisiert, um die NFC-Leistung zu verbessern
-* Aktualisierter Marvell Wi-Fi-Treiber zur Verbesserung der Miracast-Leistung
+* Marvell Wi-Fi Treiber aktualisiert, um die Miracast-Leistung zu verbessern
 * NVIDIA-Treiber aktualisiert, um einen Anzeigefehler zu beheben, bei dem 84 "Surface-Hub-Geräte Dim-oder Fuzzy-Inhalt anzeigen
 * Zahlreiche Probleme mit Skype for Business behoben, einschließlich: 
   * Problem, das dazu geführt hat, dass Skype for Business während Besprechungen getrennt wird
