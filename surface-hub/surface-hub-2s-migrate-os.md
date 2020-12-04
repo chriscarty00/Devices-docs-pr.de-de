@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 10/13/2020
+ms.date: 12/03/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: d1099da397e47ad1ea44645623dce48498259eaa
-ms.sourcegitcommit: 5c396f37ed90f81373b9fdf8464cb9163f2797d4
+ms.openlocfilehash: 01c5c8a5c6b9f7ed657829fe792fc9eecd1facb5
+ms.sourcegitcommit: 5d02cca9ca8c0a252798c2fc0a89dbda81911c44
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "11168574"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "11195400"
 ---
 # Migrieren zu Windows 10 Pro oder Enterprise auf Surface Hub 2
 
@@ -65,7 +65,7 @@ Die Oberflächen UEFI-Konfiguration funktioniert als Schnittstelle in Surface En
 
 Bevor Sie Surface Hub vom Windows 10-Team auf Windows 10-Desktop migrieren, benötigen Sie eine UEFI-Version, die mindestens *694.2938.768.0*ist.
  
-So überprüfen Sie die UEFI-Version auf Ihrem System:
+**So überprüfen Sie die UEFI-Version auf Ihrem System:**
 
 1. Wählen Sie auf der Startseite Surface Hub 2S **Start**aus, und öffnen Sie dann die Surface-app (**alle apps**  >  -**Oberfläche**).
 
@@ -74,9 +74,9 @@ So überprüfen Sie die UEFI-Version auf Ihrem System:
 
        ![Screenshot der Seite "Ihre Oberfläche" in der Surface-App](images/shm-fig1.png)
  
-   - Wenn die UEFI-Version älter als *694.2938.768.0*ist, rufen Sie mithilfe von Windows Update eine aktuelle Version ab.
-
-So aktualisieren Sie das UEFI mithilfe von Windows Update:
+   - Wenn die UEFI-Version älter als Version 694.2938.768.0 ist, müssen Sie eine aktuelle Version abrufen, indem Sie entweder das Windows 10-Team 2020 Update Bare Metal Recovery (grundlegendes)-Bild oder mithilfe von Windows Update installieren.
+   
+**So aktualisieren Sie UEFI über Windows Update:**
 
 1. Registrieren Sie sich auf dem Surface Hub 2S als **Administrator**. 
     >[!Note]
@@ -85,8 +85,14 @@ So aktualisieren Sie das UEFI mithilfe von Windows Update:
 1. Wechseln Sie zum Update für **alle apps**  >  **Settings**  >  **-Einstellungen und zur Sicherheit**von  >  **Windows Update**, und installieren Sie dann alle Updates. 
 1. Starten Sie das Gerät neu. 
 1. Überprüfen Sie die UEFI-Version mithilfe der Surface-app. 
-2. Wiederholen Sie diese Schritte, bis die UEFI-Version *694.2938.768.0* oder höher ist.
-3. Wenn das aktualisierte UEFI nach mehreren versuchen nicht angezeigt wird, überprüfen Sie den **Update Verlauf** , und suchen Sie nach Instanzen von fehlgeschlagenen Firmware-Installationen. Möglicherweise müssen Sie Ihr Gerät zurücksetzen (**Einstellungen**  >  **Aktualisieren & Sicherheits**  >  **Zurücksetzungs Gerät**).
+1. Wenn die UEFI-Version noch nicht Version 694.2938.768.0 oder höher ist, können Sie die obigen Schritte entweder wiederholen, oder Sie können das neueste UEFI abrufen, indem Sie das Windows 10-Team 2020 Update Bare Metal Recovery (GU)-Bild installieren.
+
+**So aktualisieren Sie UEFI über das Bare Metal Recovery-Bild (GU):**
+
+1.  Wechseln Sie zur [Surface Recovery-Website](https://support.microsoft.com/surfacerecoveryimage) , und wählen Sie **Surface Hub 2S** aus.
+3.  Geben Sie die Seriennummer Ihres Hubs ein (das sich auf der Rückseite des Hubs neben dem Netzanschluss befindet.)
+4.  Folgen Sie den Anweisungen, um das Bild auf ein formatiertes USB-Laufwerk herunterzuladen, indem Sie das Windows 10 Team 2020-Update installieren.
+5.  Nach Abschluss des Updates und dem Gerät, das das erste Mal in das OOBE-Setup eingegeben wurde, müssen Sie OOBE nicht durchführen, die UEFI-Version wird aktualisiert. Schalten Sie das Gerät stattdessen herunter, indem Sie den Netzschalter gedrückt halten, bis der Bildschirm ausgeschaltet wird. 
 
 ### Herunterladen von Surface UEFI Configurator und Surface Hub 2-Treibern und-Firmware
 
@@ -165,10 +171,20 @@ Das Semm-Paket, das von Surface UEFI Configurator erstellt wird, muss mit einem 
     
     ![Setzen Sie die Aktivierung der Betriebssystem Migration auf ein.](images/shm-fig12.png)
 
-> [!NOTE]
-> Nachdem Sie ein Semm-Paket angewendet haben, stehen im UEFI-Menü des Geräts alle UEFI-Einstellungen nicht zur Verfügung (gesperrt). Standardwerte für andere Einstellungen wie **IPv6 für PXE-Start** sind ebenfalls nicht verfügbar. 
->
->Wenn Sie die UEFI-Einstellungen nach Abschluss der Migration ändern möchten, wenden Sie ein weiteres Semm-Paket an, oder heben Sie die Registrierung des Geräts von Semm auf. Wenn Sie ein anderes Semm-Paket anwenden, um die UEFI-Einstellungen zu ändern, müssen Sie beim Erstellen des neuen Semm-Pakets das ursprüngliche Zertifikat verwenden. Verwenden Sie das Tool UEFI-Konfigurator, und geben Sie **EnableOSMigration** aus (nicht aktiviert, wie in den ursprünglichen Migrationsschritten gezeigt).
+### Verwalten der Semm-Registrierung
+
+Das Registrieren von Geräten in Semm wirkt sich auf die Verwaltung des Geräts in der Weiterleitung aus. Nachdem Sie beispielsweise ein Semm-Paket angewendet haben, sind alle UEFI-Einstellungen im UEFI-Menü des Geräts nicht verfügbar (gesperrt). Standardwerte für andere Einstellungen wie **IPv6 für PXE-Start** sind ebenfalls nicht verfügbar. 
+
+Wenn Sie die UEFI-Einstellungen nach Abschluss der Migration ändern möchten, wenden Sie ein weiteres Semm-Paket an, oder heben Sie die Registrierung des Geräts von Semm auf. Wenn Sie ein anderes Semm-Paket anwenden, um die UEFI-Einstellungen zu ändern, müssen Sie beim Erstellen des neuen Semm-Pakets das ursprüngliche Zertifikat verwenden. Verwenden Sie das Tool UEFI-Konfigurator, und geben Sie **EnableOSMigration** aus (nicht aktiviert, wie in den ursprünglichen Migrationsschritten gezeigt).
+
+#### Arbeiten mit Partnern
+
+Wenn Ihr Unternehmen die Migration auf Windows 10 pro oder Enterprise auf Surface Hub 2 auslagert, möchten Sie vielleicht, dass der Partner das Semm-Zertifikat, das Semm-Paket und das UEFI-Kennwort an Sie übertragen soll.  Alternativ können Sie nach der Migration des Hubs die Registrierung von Semm sofort deaktivieren, wodurch die lokale Verwaltung von UEFI und die Übertragung des Geräts an eine andere Partei zugelassen werden. Dennoch wird dringend empfohlen, ein UEFI-Kennwort zu verwenden, das nach der Migration konfiguriert werden kann. Weitere Informationen finden Sie unter [Verwalten von Oberflächen-UEFI-Einstellungen](https://docs.microsoft.com/surface/manage-surface-uefi-settings). 
+
+#### Zurücksetzen auf das Windows 10-Team
+
+Wenn Sie nach der Migration Ihr Gerät [wie unten beschrieben](#roll-back-to-windows-10-team)auf das Windows 10-Team wiederherstellen möchten, empfiehlt es sich, zuerst die Registrierung von Hub von Semm zu entnehmen. Weitere Informationen finden Sie unter aufteilen [der Registrierung von Surface Devices von Semm](https://docs.microsoft.com/surface/unenroll-surface-devices-from-semm).
+
 
 #### Speichern des Semm-Pakets auf einem USB-Laufwerk
 
@@ -299,12 +315,16 @@ Informationen zum vollständigen Konfigurieren von Surface Hub 2S als persönlic
 
 Wenn Sie Ihr Gerät auf das Windows 10-Team wiederherstellen möchten, lesen Sie <a href="surface-hub-2s-recover-reset.md" target="_blank"> Zurücksetzen und Wiederherstellen für Surface Hub 2S </a> .
 
+> [!NOTE]
+> Bevor Sie auf das Windows 10-Team zurückgreifen, wird empfohlen, zunächst die Registrierung von Hub von Semm zu entnehmen. Weitere Informationen finden Sie unter aufteilen [der Registrierung von Surface Devices von Semm](https://docs.microsoft.com/surface/unenroll-surface-devices-from-semm).
+
 ## Versionsverlauf
 
 In der folgenden Tabelle sind die Änderungen an diesem Artikel zusammengefasst.
 
 | Version | Date               | Beschreibung                                                                                           |
 | ------- | ------------------ | ----------------------------------------------------------------------------------------------------- |
+| v. 1,3  | 3. Dezember 2020 | Aktualisiert mit Anleitungen zum Verwalten der Semm-Registrierung                                                        |
 | v. 1.2  | 29. September 2020 | Verschiedene Updates, die sich mit dem Usability-Feedback befassen.                                                        |
 | v. 1.1  | 15. September 2020 | Eine zusätzliche Notiz in der Einleitung, in der die Lizenzierungsanforderungen für die Installation eines neuen Betriebssystems erläutert wurden. |
 | v. 1.0  | 1. September 2020  | Neuer Artikel.                                                                                           |
