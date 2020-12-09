@@ -42,6 +42,7 @@
 ### [Grundlegende Add-ons für Windows 10 Pro und Enterprise auf Surface Hub 2](surface-hub-2-essential-add-ons.md)
 ### [Installieren der Vorabversion des Windows10 Team2020-Updates](surface-hub-install-2020preview.md)  
 ### [Bekannte Probleme – Windows 10 Team 2020-Update](surface-hub-2020-team-update-known-issues.md)
+### [Konfigurieren nicht globaler Administratorkonten auf Surface Hub 2S](surface-hub-2s-nonglobal-admin.md)
 ### [Installieren und Konfigurieren des neuen MicrosoftEdge auf SurfaceHub](surface-hub-install-chromium-edge.md)        
 ### [Verwalten von Einstellungen für Surface Hub 2S mit Microsoft Intune](surface-hub-2s-manage-intune.md)
 ### [Lokale Verwaltung von Einstellungen für Surface Hub 2S](local-management-surface-hub-settings.md)
