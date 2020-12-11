@@ -26,7 +26,6 @@
 ## Bereitstellen
 ### [Surface Hub 2S – Einführung und Schulung](surface-hub-2s-adoption-kit.md)
 ### [Einführungsvideos für Surface Hub 2S](surface-hub-2s-adoption-videos.md)
-
 ### [Erstmalige Einrichtung von Surface Hub 2S](surface-hub-2s-setup.md)
 ### [Verbinden von Geräten mit Surface Surface Hub 2S](surface-hub-2s-connect.md)
 ### [Prüfliste für die Bereitstellung von Surface Hub 2S](surface-hub-2s-deploy-checklist.md)
@@ -40,7 +39,7 @@
 ### [Migrieren zu Windows 10 Pro oder Enterprise auf Surface Hub 2](surface-hub-2s-migrate-os.md)
 ### [Konfigurieren von Windows 10 Pro oder Enterprise auf Surface Hub 2](surface-hub-2-post-install.md)
 ### [Grundlegende Add-ons für Windows 10 Pro und Enterprise auf Surface Hub 2](surface-hub-2-essential-add-ons.md)
-### [Installieren der Vorabversion des Windows10 Team2020-Updates](surface-hub-install-2020preview.md)  
+### [Windows 10 Team 2020 Update installieren](surface-hub-2020-update.md)  
 ### [Bekannte Probleme – Windows 10 Team 2020-Update](surface-hub-2020-team-update-known-issues.md)
 ### [Konfigurieren nicht globaler Administratorkonten auf Surface Hub 2S](surface-hub-2s-nonglobal-admin.md)
 ### [Installieren und Konfigurieren des neuen MicrosoftEdge auf SurfaceHub](surface-hub-install-chromium-edge.md)        
@@ -99,9 +98,8 @@
 #### [Programm für die Erstausführung](first-run-program-surface-hub.md)
 
 ## Verwalten
-### [Verwalten von Microsoft Surface Hub](manage-surface-hub.md)
-### [Installieren der Vorabversion des Windows10 Team2020-Updates](surface-hub-install-2020preview.md)  
-### [Installieren und Konfigurieren des neuen MicrosoftEdge auf SurfaceHub](surface-hub-install-chromium-edge.md)    
+### [Verwalten von Microsoft Surface Hub](manage-surface-hub.md) 
+### [Das neue Microsoft Edge auf Surface Hub installieren und konfigurieren](surface-hub-install-chromium-edge.md)    
 ### [PowerShell für Surface Hub](appendix-a-powershell-scripts-for-surface-hub.md)
 ### [Remote-Verwaltung für Surface Hub](remote-surface-hub-management.md)
 #### [Verwalten von Einstellungen mithilfe eines MDM-Anbieters](manage-settings-with-mdm-for-surface-hub.md)
