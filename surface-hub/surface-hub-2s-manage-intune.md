@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 07/23/2020
+ms.date: 12/10/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 2fafca4a8f19da72d1584c02cbebe1ce3c03adde
-ms.sourcegitcommit: a16c75f4e81c48e2d0e3ec45430af0939e4feaa2
+ms.openlocfilehash: 6b5dac9f418207293e3b9b386d59fd26762feb72
+ms.sourcegitcommit: 4b1cfcac090910a3ea634929942063eb51fc54f9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "11105941"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "11206299"
 ---
 # Verwalten von Einstellungen für Surface Hub 2S mit Intune
 
@@ -52,13 +52,14 @@ Diese Einstellungen umfassen die folgenden Kategorien: apps und Benutzeroberflä
 
 Zusätzlich zu den Richtlinien, die direkt über die Intune-Konsole zur Verfügung stehen, gibt es zahlreiche Configuration Service Provider (LSP), die Registrierungsschlüsseln oder Dateien zugeordnet sind. 
 
-Microsoft stellt in der Regel neue Kryptografiedienstanbieter für jede neue Version des Windows 10-Betriebssystems bereit. Das [Windows 10-Team 2020-Update](surface-hub-install-2020preview.md), das in Preview über das Windows-Insider-Programm verfügbar ist, enthält mehr als 20 neue und aktualisierte Geräteverwaltungsrichtlinien für Surface Hub und Surface Hub 2S. Diese MDM-Richtlinien ermöglichen IT-Administratoren eine verbesserte Steuerung der APP-Updates aus dem Microsoft Store, WLAN-Projektions Einstellungen wie Miracast over Infrastructure, Netzwerkeinstellungen wie Quality-of-Service-und 802.1 x-kabelgebundene Authentifizierung sowie neue Einstellungen für den Datenschutz/dsgvo.
+Microsoft stellt in der Regel neue Kryptografiedienstanbieter für jede neue Version des Windows 10-Betriebssystems bereit. Das [Windows 10-Team 2020-Update](surface-hub-2020-update.md) umfasst mehr als 20 neue und aktualisierte Geräteverwaltungsrichtlinien für Surface Hub und Surface Hub 2S. Diese MDM-Richtlinien ermöglichen IT-Administratoren eine verbesserte Steuerung der APP-Updates aus dem Microsoft Store, WLAN-Projektions Einstellungen wie Miracast over Infrastructure, Netzwerkeinstellungen wie Quality-of-Service-und 802.1 x-kabelgebundene Authentifizierung sowie neue Einstellungen für den Datenschutz/dsgvo.
 
 Weitere Informationen finden Sie in den folgenden Ressourcen: 
 
 - [Referenz zum Konfigurationsdienstanbieter](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference) 
 - [SurfaceHub-Konfigurationsdienstanbieter](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
 - [Richtlinien-Konfigurationsdienstanbieter, die von MicrosoftSurface Hub unterstützt werden](https://docs.microsoft.com/windows/client-management/mdm/policy-csps-supported-by-surface-hub)
+- [Neuerungen beim Surface Hub Team 2020-Update](surface-hub-2020-update-whats-new.md)
 
 ## Quality of Service (QoS, Dienstqualität) – Einstellungen
 
