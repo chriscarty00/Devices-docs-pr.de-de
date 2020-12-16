@@ -9,16 +9,18 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 12/03/2020
+ms.date: 12/14/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 01c5c8a5c6b9f7ed657829fe792fc9eecd1facb5
-ms.sourcegitcommit: 5d02cca9ca8c0a252798c2fc0a89dbda81911c44
+ms.openlocfilehash: c2851505b3595ea768217de443676b45cc01a9ae
+ms.sourcegitcommit: efc38524f81238e0c36371f462eb57123e46d09b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "11195400"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "11228556"
 ---
 # Migrieren zu Windows 10 Pro oder Enterprise auf Surface Hub 2
+
+- [Versionsverlauf des Artikels](#version-history)
 
 Surface Hub 2S ist mit dem Windows 10-Team vorinstalliert. Diese angepasste Edition von Windows 10 wurde entwickelt, um die Zusammenarbeit in Besprechungsraum Umgebungen zu vereinfachen. Sie haben jetzt die Möglichkeit, Windows 10 pro oder Enterprise zu verwenden, um Surface Hub 2S ähnlich wie jeden anderen PC zu verwenden. 
 
@@ -82,7 +84,7 @@ Bevor Sie Surface Hub vom Windows 10-Team auf Windows 10-Desktop migrieren, ben�
     >[!Note]
     > Wenn Sie Ihren Benutzernamen oder Ihr Administratorkennwort nicht kennen, müssen Sie das Gerät zurücksetzen. Weitere Informationen finden Sie unter <a href="https://docs.microsoft.com/surface-hub/surface-hub-2s-recover-reset" target="_blank"> Zurücksetzen und Wiederherstellen für Surface Hub 2S.</a>
 
-1. Wechseln Sie zum Update für **alle apps**  >  **Settings**  >  **-Einstellungen und zur Sicherheit**von  >  **Windows Update**, und installieren Sie dann alle Updates. 
+1. Wechseln Sie zum Update für **alle apps**  >  ****  >  **-Einstellungen und zur Sicherheit**von  >  **Windows Update**, und installieren Sie dann alle Updates. 
 1. Starten Sie das Gerät neu. 
 1. Überprüfen Sie die UEFI-Version mithilfe der Surface-app. 
 1. Wenn die UEFI-Version noch nicht Version 694.2938.768.0 oder höher ist, können Sie die obigen Schritte entweder wiederholen, oder Sie können das neueste UEFI abrufen, indem Sie das Windows 10-Team 2020 Update Bare Metal Recovery (GU)-Bild installieren.
@@ -302,7 +304,7 @@ Im folgenden Verfahren wird beschrieben, wie Sie ein USB-Flashlaufwerk von Insta
 
 ### Installieren von Surface Hub 2-Treibern und-Firmware
 
-Wenn Sie sicherstellen möchten, dass Ihr Gerät über alle neuesten Updates und Treiber verfügt, installieren Sie <a href="https://www.microsoft.com/download/details.aspx?id=101974" target="_blank"> Treiber und Firmware für Windows 10 pro und Enterprise OS auf Surface Hub 2 </a> .
+Wenn Sie sicherstellen möchten, dass Ihr Gerät über alle neuesten Updates und Treiber verfügt, installieren Sie <a href="https://www.microsoft.com/download/details.aspx?id=101974" target="_blank"> Treiber und Firmware für Windows 10 pro und Enterprise OS auf Surface Hub 2 </a> . Nach der Installation der Treiber und der MSI-Firmware starten Sie das Gerät neu. Nachdem Sie den Hub wieder eingeschaltet haben, halten Sie den PC eine Stunde lang eingeschaltet, und starten Sie das Gerät erneut. Sie werden nicht zum zweiten Neustart aufgefordert. Je nach dem Zustand Ihres Computers vor der Migration zu Windows 10 pro oder Enterprise kann dieser zweite Schritt erforderlich sein, um sicherzustellen, dass alle Firmware aktualisiert wurde.
  
 ## Konfigurieren von empfohlenen Einstellungen
 
@@ -324,7 +326,8 @@ In der folgenden Tabelle sind die Änderungen an diesem Artikel zusammengefasst.
 
 | Version | Date               | Beschreibung                                                                                           |
 | ------- | ------------------ | ----------------------------------------------------------------------------------------------------- |
-| v. 1,3  | 3. Dezember 2020 | Aktualisiert mit Anleitungen zum Verwalten der Semm-Registrierung                                                        |
+| v. 1,4  | 14. Dezember 2020 | Hier finden Sie [Weitere Informationen](#install-surface-hub-2-drivers-and-firmware) zum Installieren der MSI-Datei für "Treiber und Firmware für Windows 10 pro und Enterprise OS auf Surface Hub 2", in der Sie darüber informiert werden, dass je nach Zustand Ihres Systems ein zweiter Neustart erforderlich sein kann.                                                          |
+| v. 1,3  | 3. Dezember 2020 | Aktualisiert mit Anleitungen zum [Verwalten der Semm-Registrierung](#managing-semm-enrollment).                                                       |
 | v. 1.2  | 29. September 2020 | Verschiedene Updates, die sich mit dem Usability-Feedback befassen.                                                        |
 | v. 1.1  | 15. September 2020 | Eine zusätzliche Notiz in der Einleitung, in der die Lizenzierungsanforderungen für die Installation eines neuen Betriebssystems erläutert wurden. |
 | v. 1.0  | 1. September 2020  | Neuer Artikel.                                                                                           |

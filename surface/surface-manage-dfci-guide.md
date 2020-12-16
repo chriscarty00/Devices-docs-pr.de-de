@@ -18,18 +18,18 @@ appliesto:
 - Surface Laptop 3
 - Surface Book 3
 - Surface Laptop Go
-ms.openlocfilehash: 20d1b187a565f210eedc632be1addeac5dd714ba
-ms.sourcegitcommit: 7d5b0a7948eb540d6849a0e2c70a1058584cc5f8
+ms.openlocfilehash: e984741a8367935eab18351815c5f00d9f8a72b7
+ms.sourcegitcommit: efc38524f81238e0c36371f462eb57123e46d09b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "11105860"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "11228546"
 ---
 # Intune-Verwaltung von Surface UEFI-Einstellungen
 
 ## Einführung
 
-Die Möglichkeit zum Verwalten von Geräten aus der Cloud hat die IT-Bereitstellung und-Bereitstellung im gesamten Lebenszyklus erheblich vereinfacht. Mit DFCI-Profilen (Device Firmware Configuration Interface), die in Microsoft InTune integriert sind (jetzt in [Public Preview](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows)verfügbar), erweitert die Oberfläche-UEFI-Verwaltung den modernen Verwaltungs Stapel auf die UEFI-Hardwareebene. DFCI unterstützt die Zero-Touch-Bereitstellung, beseitigt BIOS-Kennwörter, bietet die Kontrolle über Sicherheitseinstellungen, einschließlich Startoptionen und integrierte Peripheriegeräte, und legt die Grundlagen für fortschrittliche Sicherheitsszenarien in der Zukunft fest. Antworten auf häufig gestellte Fragen finden Sie unter [Ignite 2019: Ankündigung der Remoteverwaltung von DGM-UEFI-Einstellungen aus InTune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333).
+Die Möglichkeit zum Verwalten von Geräten aus der Cloud hat die IT-Bereitstellung und-Bereitstellung im gesamten Lebenszyklus erheblich vereinfacht. Mit DFCI-Profilen (Device Firmware Configuration Interface), die in [Microsoft InTune](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows)integriert sind, erweitert die Oberflächen UEFI-Verwaltung den modernen Verwaltungs Stapel auf die UEFI-Hardwareebene. DFCI unterstützt die Zero-Touch-Bereitstellung, beseitigt BIOS-Kennwörter, bietet die Kontrolle über Sicherheitseinstellungen, einschließlich Startoptionen und integrierte Peripheriegeräte, und legt die Grundlagen für fortschrittliche Sicherheitsszenarien in der Zukunft fest. Antworten auf häufig gestellte Fragen finden Sie unter [Ignite 2019: Ankündigung der Remoteverwaltung von DGM-UEFI-Einstellungen aus InTune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333).
 
 ### Hintergrund
 
@@ -39,9 +39,9 @@ Im Gegensatz zu anderen auf dem Markt verfügbaren Windows 10-Geräten bietet Su
 
 ### DFCI versus Semm
 
-Bislang musste die Verwaltung der Firmware die Registrierung von Geräten in Surface Enterprise Management Mode (Semm) mit dem Overhead der laufenden manuellen IT-intensiven Aufgaben ausführen. Als Beispiel erfordert Semm, dass IT-Mitarbeiter physisch auf jeden PC zugreifen, um eine zweistellige Pin als Teil des Zertifikats Verwaltungsprozesses einzugeben. Zwar bleibt Semm eine gute Lösung für Organisationen in einer strikt lokalen Umgebung, doch die Komplexität und die IT-intensiven Anforderungen machen die Verwendung kostspielig.
+Zuvor erforderte das Verwalten der Firmware die Registrierung von Geräten in Surface Enterprise Management Mode (Semm) mit dem Overhead laufender manueller IT-intensiver Aufgaben. Als Beispiel erfordert Semm, dass IT-Mitarbeiter physisch auf jeden PC zugreifen, um eine zweistellige Pin als Teil des Zertifikats Verwaltungsprozesses einzugeben. Zwar bleibt Semm eine gute Lösung für Organisationen in einer strikt lokalen Umgebung, doch die Komplexität und die IT-intensiven Anforderungen machen die Verwendung kostspielig.
 
-Mit den neu integrierten UEFI-Firmware-Verwaltungsfunktionen in Microsoft InTune ist die Möglichkeit, die Hardware zu sperren, vereinfacht und mit neuen Features für Bereitstellung, Sicherheit und optimierte Updates in einer einzigen Konsole, die jetzt als [Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager)einheitlich ist, einfacher zu verwenden. Die folgende Abbildung zeigt die UEFI-Einstellungen, die direkt auf dem Gerät angezeigt werden (links) und in der Endpunkt-Manager-Konsole angezeigt werden (rechts).
+ Mit integrierten UEFI-Firmware-Verwaltungsfunktionen in Microsoft InTune ist die Möglichkeit zum Sperren von Hardware vereinfacht und die Verwendung mit neuen Features für Bereitstellung, Sicherheit und optimierte Aktualisierung alles in einer einzigen Konsole, die jetzt als [Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager)einheitlich ist, vereinfacht. Die folgende Abbildung zeigt die UEFI-Einstellungen, die direkt auf dem Gerät angezeigt werden (links) und in der Endpunkt-Manager-Konsole angezeigt werden (rechts).
 
 ![Auf dem Gerät (links) und in der Endpunkt-Manager-Konsole angezeigte UEFI-Einstellungen (rechts)](images/uefidfci.png)
 
