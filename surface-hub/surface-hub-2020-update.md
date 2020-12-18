@@ -1,5 +1,5 @@
 ---
-title: Installieren des Windows 10 Team 2020-Updates
+title: Windows 10 Team 2020 Update installieren
 description: Holen Sie sich das neueste Update des Surface Hub-Betriebssystems, Windows 10 Team 2020-Update.
 keywords: Trennen Sie Werte durch Kommata
 ms.prod: surface-hub
@@ -9,18 +9,20 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 12/08/2020
+ms.date: 12/17/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 7035d4c89e2ef5937d0480cf2d77db2e7e829488
-ms.sourcegitcommit: e126b8ac66a781ebe42cdd677af3fe6a2eb5e72c
+ms.openlocfilehash: 043c7ed49dafab7e0f3d042f5b98d527ffe0610f
+ms.sourcegitcommit: 6252903b28f0c410065eb2515c746f5e9920c652
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "11203537"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "11237215"
 ---
-# Installieren des Windows 10 Team 2020-Updates 
+# Windows 10 Team 2020 Update installieren 
 
 Das neue Surface Hub-Betriebssystem, **Windows 10 Team 2020-Update**, basierend auf Windows 10-Version 20H2, ist jetzt für alle Surface-Hub-2S-Geräte verfügbar.  
+
+- Siehe auch: [bekannte Probleme: Windows 10 Team 2020-Update](surface-hub-2020-update.md)
 
 ## Verteilung
 
@@ -65,4 +67,5 @@ Weitere Informationen finden Sie unter [Speichern des BitLocker-Schlüssels](sav
 
 ## Mehr erfahren
 
+- [Bekannte Probleme: Windows 10 Team 2020-Update](surface-hub-2020-update.md)
 - [Wichtige Updates auf dem Surface Hub Windows 10 Team 2020-Update](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/important-updates-on-the-surface-hub-windows-10-team-2020-update/ba-p/1960897)

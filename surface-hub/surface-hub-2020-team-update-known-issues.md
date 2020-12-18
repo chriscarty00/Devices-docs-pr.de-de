@@ -9,20 +9,21 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 12/04/2020
+ms.date: 12/17/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 87eb7d193b5afb1f1b2ea6e2dc1c17143d7ef3ef
-ms.sourcegitcommit: f007f40f4b4fb49280fe6073bd857c9d7624a9cc
+ms.openlocfilehash: c17d9b41bf4abc74319b16932074343edbe988d1
+ms.sourcegitcommit: 6252903b28f0c410065eb2515c746f5e9920c652
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "11218876"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "11237225"
 ---
 # Bekannte Probleme: Windows 10 Team 2020-Update 
 
 In diesem Artikel werden bekannte Probleme bei Windows 10 Team 2020 Update, dem aktuellen Betriebssystem für Surface Hub, aufgeführt.
 
 Um sicherzustellen, dass Surface Hub die neuesten Updates erhält, loggen Sie sich mit einem Administratorkonto ein, und wählen Sie **alle apps**-  >  **Einstellungen**  >  **Update und Security**  >  **Windows Update**aus, und installieren Sie dann alle Updates.
+
 
 
 
@@ -36,5 +37,5 @@ Um sicherzustellen, dass Surface Hub die neuesten Updates erhält, loggen Sie si
 | Hub-2S-Geräte können keine Treiberupdates über WSUS empfangen.                                             | Surface Hub 2S unterstützt Windows Update und Windows Update für Unternehmen zum Verteilen von Treibern. die Verteilung über Windows Server Update Services (WSUS) wird nicht unterstützt.                                                                                                                                                                                                                                                                      | Wenn Sie WSUS verwenden, migrieren Sie zu Windows Update for Business.<br> <br>**Weitere Informationen**: [Was ist Windows Update für Unternehmen?](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb)                                                                                                                                                                                                                                                                                                                            |
 | Microsoft Whiteboard wird nicht vom Microsoft Store aktualisiert                                               | Nach dem Upgrade auf das Windows 10 Team 2020-Update kann die Microsoft Whiteboard-APP nicht über den Microsoft Store aktualisiert werden.                                                                                                                                                                                                                                                                                                                       | Deinstallieren Sie die Whiteboard-APP, und installieren Sie Sie erneut aus dem Microsoft Store oder Ihrem MDM-Anbieter.                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Einmaliges Anmelden schlägt für Azure Active Directory-verbundene Geräte fehl, wenn Sie sich mit einem Telefon bei Surface Hub anmelden | Wenn ein IT-Administrator den Mandanten so konfiguriert hat, dass er die [Kenn Wort lose Authentifizierung](surface-hub-2s-phone-authenticate.md) verwendet, um sich bei Surface Hub anzumelden, und das Gerät Aad-verbunden ist, können sich die Benutzer nicht mit einem mobilen Gerät wie einem Telefon anmelden.                                                                                                       | Manuelles Anmelden beim Surface Hub.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Im Aktions Center gibt es einen Link zu den Einstellungen für nicht anklickbar. | Dieser Link sollte nicht im Windows 10-Team angezeigt werden und kann zu Verwirrung führen.                                                                                                       | Die Funktionalität ist dieselbe wie vor dem 2020-Update; der Abschnitt "Apps" im Menü "Start" sollte verwendet werden, um die Einstellungs-APP zu starten.                                                                                                                                                                                                                                                                                                                                                                                                                           |
-
+| Im Aktions Center gibt es einen Link zu den Einstellungen für nicht anklickbar. | Dieser Link sollte nicht im Windows 10-Team angezeigt werden und kann zu Verwirrung führen.   | Die Funktionalität ist dieselbe wie vor dem 2020-Update; der Abschnitt "Apps" im Menü "Start" sollte verwendet werden, um die Einstellungs-APP zu starten.    |
+| Hub-2S-Geräte, die alle Nullen für die Seriennummer melden, nachdem Sie auf November 24 aktualisiert haben, 2020-Update für Windows 10 Team 2020 für 2S. | Nach dem Upgrade auf das Update vom November 24 für das Surface Hub 2S Windows 10 Team 2020-Update oder die Installation des Windows 10-Wiederherstellungsabbilds für Team 2020 melden einige Geräte alle Nullen für die Seriennummer. Dadurch wird verhindert, dass Geräte in MDM-Anbieter eingeschrieben werden.  | Vergewissern Sie sich vor dem Aktualisieren von Geräten mit dem 2020-Update vom November 24 für Windows 10 Team 2020, dass das Gerät das Update vom 1. September 2020 für Windows 10-Teamersteller installiert hat. Weitere Informationen finden Sie unter [Surface Hub-Updateverlauf](surface-hub-update-history.md). **Hinweis:** Geräte sollten über das **Surface SMC-Firmware-Update 1.177.139.0** verfügen, bevor Sie zum **SMC-Firmware-Update-3.91.139.0 wechseln.** Dadurch wird verhindert, dass Seriennummern auf NULL gesetzt werden. |
