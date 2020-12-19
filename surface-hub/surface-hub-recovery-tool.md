@@ -10,14 +10,14 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 05/22/2018
+ms.date: 12/18/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 1988a6ed59525d7dc77872e532247dbc50f01bdf
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: a9ebab6848efa706609a39b0eb99fa42df2156bf
+ms.sourcegitcommit: ce7ad475b776a78ba215e77111ea5371afeb4f28
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834168"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "11237327"
 ---
 # Verwenden des Wiederherstellungstools für Surface Hub
 
@@ -53,9 +53,9 @@ Wenn das Tool beim erneuten abbilden Ihres Laufwerks nicht erfolgreich ist, wend
 
 ## Herunterladen des Surface Hub-Wiederherstellungstools
 
-Surface Hub-Wiederherstellungs Tool steht unter dem Dateinamen **SurfaceHub_Recovery_v1.14.137.0.msi**für den Download von [Surface Hub-Tools](https://www.microsoft.com/download/details.aspx?id=52210) zur Verfügung.
+Surface Hub-Wiederherstellungs Tool steht unter dem Dateinamen **SurfaceHub_Recovery_v2.0.139.0.msi**für den Download von [Surface Hub-Tools](https://www.microsoft.com/download/details.aspx?id=52210) zur Verfügung.
 
-Klicken Sie zum Starten des Downloads auf **herunterladen**, wählen Sie in der Liste **SurfaceHub_Recovery_v1.14.137.0.msi** aus, und klicken Sie auf **weiter**. Wählen Sie im Popup-Fenster eine der folgenden Optionen aus:
+Klicken Sie zum Starten des Downloads auf **herunterladen**, wählen Sie in der Liste **SurfaceHub_Recovery_v2.0.139.0.msi** aus, und klicken Sie auf **weiter**. Wählen Sie im Popup-Fenster eine der folgenden Optionen aus:
 
 - Klicken Sie auf **Ausführen** , um die Installation sofort zu starten.
 - Klicken Sie auf **Speichern** , um den Download zur späteren Installation auf Ihren Computer zu kopieren.
@@ -72,13 +72,20 @@ Installieren des Surface Hub-Wiederherstellungstools auf dem Host-PC.
 
     ![Start Schaltfläche für das Wiederherstellungs Tool](images/shrt-start.png)
 
+
 3. Klicken Sie im Fenster " **Anleitung** " auf **weiter**.
 
     ![Lassen Sie Ihren Computer nicht in die Schlaf Anleitung gehen](images/shrt-guidance.png)
 
-4. Klicken Sie auf **Ja** , um das Bild herunterzuladen. Die Zeit zum Herunterladen des Wiederherstellungs Bilds hängt von den Geschwindigkeiten der Internetverbindung ab. Bei einer durchschnittlichen Unternehmensverbindung kann es bis zu einer Stunde dauern, bis die 8 GB-Imagedatei heruntergeladen wurde.
+4. Klicken Sie im Fenster Bild auswählen entweder auf **RS2** oder auf dessen Nachfolger **20H2**, wählen Sie **weiter** aus, und wählen Sie dann **Bild herunterladen aus.**
 
-    ![Das Bild herunterladen?](images/shrt-download.png)
+     ![Wiederherstellungstool auswählen des Bild ](images/shrt-select-image.png) ![ Wiederherstellungstools herunterladen](images/shrt-download-image.png)
+
+5. Die Zeit zum Herunterladen des Wiederherstellungs Bilds hängt von den Geschwindigkeiten der Internetverbindung ab. Bei einer durchschnittlichen Unternehmensverbindung kann es bis zu einer Stunde dauern, bis die 8 GB-Imagedatei heruntergeladen wurde.
+
+    ![Bild wird heruntergeladen](images/shrt-download.png)
+
+
 
 5. Wenn der Download abgeschlossen ist, weist das Tool Sie an, ein SSD-Laufwerk zu verbinden. Wenn das Tool das angefügte Laufwerk nicht finden kann, besteht eine gute Wahrscheinlichkeit, dass das verwendete Kabel nicht den Namen der SSD an Windows meldet.  Das Imaging-Tool muss den Namen des Laufwerks als "LiteOn L CH-128V2S USB-Gerät" finden, bevor es fortfahren kann.  Weitere Informationen zum Entfernen des vorhandenen Laufwerks aus dem Surface Hub finden Sie unter [Ersetzen des Surface Hub-SSD](surface-hub-ssd-replacement.md).
 
@@ -86,13 +93,11 @@ Installieren des Surface Hub-Wiederherstellungstools auf dem Host-PC.
 
 6. Wenn das Laufwerk erkannt wird, klicken Sie auf **Start** , um mit der Wiederherstellung zu beginnen. Klicken Sie auf der Warnung, dass alle Daten auf dem Laufwerk gelöscht werden, auf **OK**.
 
-    ![Erneutes Imaging der SSD starten](images/shrt-drive-start.png)
+
 
     Vor dem Anwenden des Systemabbilds auf das Laufwerk wird die SSD neu partitioniert und formatiert. Das Kopieren der Systembinärdateien dauert ungefähr 30 Minuten, kann aber je nach der Geschwindigkeit Ihres USB-Busses, des verwendeten Kabels oder der auf Ihrem System installierten Antivirensoftware länger dauern.
 
-    ![Kopieren erfolgt](images/shrt-done.png)
 
-    ![Reimaging abgeschlossen](images/shrt-complete.png)
 
 ## Problembehandlung und häufige Probleme
 
@@ -100,7 +105,19 @@ Problem | Anmerkungen
 --- | ---
 Das Tool kann die SSD nicht abbilden | Stellen Sie sicher, dass Sie eine von der Factory bereitgestellte SSD und eines der getesteten Kabel verwenden.
 Der Prozess der Bildbearbeitung wird angehalten/fixiert angezeigt | Es ist sicher, das Surface Hub-Wiederherstellungs Tool ohne negative Auswirkungen auf die SSD zu schließen und neu zu starten.
-Das Laufwerk wird vom Tool nicht erkannt | Überprüfen Sie, ob der Surface Hub SSD als Lite-On-Laufwerk "LiteOn L CH-128V2S USB Device" aufgelistet ist.  Wenn das Laufwerk als ein anderes benanntes Gerät erkannt wird, ist das aktuelle Kabel nicht kompatibel. Versuchen Sie es mit einem anderen Kabel oder einem der oben aufgeführten getesteten Kabel.
+Das Laufwerk wird vom Tool nicht erkannt | Überprüfen Sie, ob der Surface Hub SSD als Lite-On Laufwerk "LiteOn L CH-128V2S USB Device" aufgelistet ist.  Wenn das Laufwerk als ein anderes benanntes Gerät erkannt wird, ist das aktuelle Kabel nicht kompatibel. Versuchen Sie es mit einem anderen Kabel oder einem der oben aufgeführten getesteten Kabel.
 Fehler:-2147024809 | Öffnen Sie den Datenträger-Manager, und entfernen Sie die Partitionen auf dem Surface-Hub-Laufwerk.  Trennen Sie das Laufwerk, und schließen Sie es erneut an den Hostcomputer an. Starten Sie das Imaging-Tool erneut.
 
 Wenn das Tool beim erneuten abbilden Ihres Laufwerks nicht erfolgreich ist, wenden Sie sich bitte an den [Surface Hub-Support](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support).
+
+## Versionsverlauf
+
+### Version v 2.0.139.0
+
+*Veröffentlichungsdatum: 18. Dezember 2020*<br>
+Diese Version des Surface Hub-Wiederherstellungstools bietet Unterstützung für die folgenden Elemente:
+- Update zur Unterstützung von Windows 10 Team 2020 Update (20H2)
+- Verbesserungen bei der Benutzeroberfläche
+- Architektonische Änderungen
+- Telemetrie-Ergänzungen
+
