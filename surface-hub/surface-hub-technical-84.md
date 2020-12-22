@@ -9,16 +9,15 @@ author: dansimp
 ms.author: dansimp
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 932e5b801c0990a080148e420db3259cdb7e2ab5
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 12/21/2020
+ms.openlocfilehash: e8f01a7e6ce087f649d99c1fc13f149fa375fc8a
+ms.sourcegitcommit: e83316c8b5e3c29b0af0730ef05fd8b96b0d0cdd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10833526"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "11238110"
 ---
 # Technische Informationen zu 84 "Surface Hub
-
-## Messungen 
 
 |
 --- | ---
@@ -54,6 +53,11 @@ Eingangsspannung | 110/230V nominal, 90-265V Max
 Eingangsleistung, Betrieb |    900W Max
 Eingangsspannung, Standby    |   5W nominal, 1-10W Max
 
+> [!NOTE]
+> Surface Hub kann kontinuierlich für maximal 18 Stunden pro Tag verwendet werden. Um die Effizienz zu optimieren, verwendet Surface Hub intelligente Sensoren, um den LED-Bildschirm zu deaktivieren, wenn die Anwesenheit nicht mehr erkannt wird, was bedeutet, dass Sie am Ende des Tages keine Stromversorgung mehr benötigen. Wenn das Gerät in einem 24-Stunden-Arbeitsumfeld installiert ist, können die Sensoren deaktiviert werden, um die maximale Nutzungs Empfehlung von 18 Stunden pro Tag zu erfüllen. Beachten Sie, dass eine längere Anzeige eines Videosignals dazu führen kann, dass die verbrannte oder Bild Aufbewahrung auf dem Bildschirm auftritt. Weitere Informationen zum Verwalten von Energieeinstellungen finden Sie unter:
+>
+> - [Lokale Verwaltung von Surface Hub-Einstellungen](local-management-surface-hub-settings.md)
+> - [SurfaceHub CSP – Windows-Client Verwaltung](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
 
 ## Ersatz-PC-Verbindungen 
 
@@ -96,28 +100,28 @@ RJ11, untere e/a | ![](images/rj11.png) | Verbindung mit Raum Steuerungen.
 
 ## Diagramme von Ports und Abständen
 
-***Obere Ansicht von 84 "Surface Hub***
+**_Draufsicht von 84 "Surface Hub_*_
 
 ![](images/sh-84-top.png)
 
 ---
 
 
-***Vorderansicht des 84 "Surface Hub***
+_*_Vorderansicht des 84 "Surface Hub_*_
 
 ![](images/sh-84-front.png)
 
 
 ---
 
-***Untere Ansicht von 84 "Surface Hub***
+_*_Untere Ansicht von 84 "Surface Hub_*_
 
 ![](images/sh-84-bottom.png)
 
 
 ---
 
-***Ersatz-PC-Anschlüsse am 84"-Surface Hub***
+_*_Ersatz-PC-Anschlüsse am 84"-Surface Hub_*_
 
 ![](images/sh-84-rpc-ports.png)
 
@@ -125,21 +129,21 @@ RJ11, untere e/a | ![](images/rj11.png) | Verbindung mit Raum Steuerungen.
 
 ---
 
-***Rückansicht von 84 "Surface Hub***
+_*_Rückansicht von 84 "Surface Hub_*_
 
 ![](images/sh-84-rear.png)
 
 
 ---
 
-***Abstände für 84 "Surface Hub***
+_*_Abstände für 84 "Surface Hub_*_
 
 ![](images/sh-84-clearance.png)
 
 ---
 
 
-***Abnehmbare Hebegriffe auf 84 "Surface Hub***
+_*_Abnehmbare Hebegriffe auf 84 "Surface Hub_*_
 
 ![](images/sh-84-hand.png)
 
@@ -147,17 +151,17 @@ RJ11, untere e/a | ![](images/rj11.png) | Verbindung mit Raum Steuerungen.
 ---
 
 
-***Wand Halterungs Gewinde auf der Rückseite von 84 "Surface Hub***
+_*_Wand Halterungs Gewinde auf der Rückseite von 84 "Surface Hub_*_
 
 ![](images/sh-84-wall.png)
 
 ---
-***Hebegriffe in der Draufsicht von 84 "Surface Hub***
+_*_Hebegriffe in der Draufsicht von 84 "Surface Hub_*_
 
 ![](images/sh-84-hand-top.png)
 
 ---
-***Seitenansicht von 84 "Surface Hub***
+_*_Seitenansicht von 84 "Surface Hub_**
 
 ![](images/sh-84-side.png)
 

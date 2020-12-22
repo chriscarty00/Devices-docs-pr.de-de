@@ -9,16 +9,16 @@ manager: laurawi
 ms.author: greglin
 audience: Admin
 ms.topic: article
-ms.date: 09/22/2020
+ms.date: 12/21/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: c563a518cf1e30ce6e1aa95a4e71e748acdbf906
-ms.sourcegitcommit: 4f89d9af7bd0865828d097ed4a7863d8d396d41f
+ms.openlocfilehash: aa895e2fe5e2774d17f7f4729a3d1d613f59612d
+ms.sourcegitcommit: e83316c8b5e3c29b0af0730ef05fd8b96b0d0cdd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "11076383"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "11238080"
 ---
-# Surface Hub 2S 50-inch Tech Specs
+# Surface Hub 2S 50-Zoll technische Daten
 
 |**Element**|**Details**|
 |:------ |:--------- |
@@ -30,8 +30,8 @@ ms.locfileid: "11076383"
 |**Anzeige**| PixelSense-Anzeige, 3:2-Seitenverhältnis, 10-Bit-Farbe, 15,5-mm-Rahmen, Anti-Glare, IPS-LCD |
 |**Prozessor**| Quad-Core-8-Generation Intel Core i5-Prozessor, 8 GB Arbeitsspeicher, 128 GB SSD <sup> 1</sup> |
 |**Grafiken**| Intel uhd-Grafik 620 |
-|**Funk**| Wi-Fi 5 (IEEE 802,11 a/b/g/n/AC kompatibel) Bluetooth Wireless 4,1-Technologie <br> Miracast-Anzeige |
-|**Verbindungen**| USB-A <br> Mini-DisplayPort 1,2-Videoausgang <br> RJ45-Gigabit-Ethernet (1000/100/10-BaseT) <br> HDMI-Videoeingang (HDMI 2,0, HDCP 2,2/1,4) <br> USB-C mit DisplayPort-Eingang <br> Vier USB-C (auf dem Display) |
+|**Funk**| Wi-Fi 5 (IEEE 802,11 a/b/g/n/AC-kompatibel) Bluetooth Wireless 4,1-Technologie <br> Miracast-Anzeige |
+|**Verbindungen**| USB-A <br> Videoausgabe Mini-DisplayPort 1,2 <br> RJ45-Gigabit-Ethernet (1000/100/10-BaseT) <br> HDMI-Videoeingang (HDMI 2,0, HDCP 2,2/1,4) <br> USB-C mit DisplayPort-Eingang <br> Vier USB-C (auf dem Display) |
 |**Sensoren**| Doppler Belegung <sup> 2</sup> <br> Beschleunigungsmesser <br> Gyroskop |
 |**Audio/Video**| Vollbereichs-, Front-3-Wege-Stereolautsprecher <br> Voll Band-Mikrofonarray mit 8 Elementen <br> Microsoft Surface Hub 2 Kamera, 4K, USB-C-Anschluss, 90-Grad-hfov |
 |**Stift**| Microsoft Surface Hub 2-Stift (aktiv) |
@@ -46,5 +46,11 @@ ms.locfileid: "11076383"
 |**Eingangsspannung, Standby**| 5 W max  |
 
 > [!NOTE]
-> <sup>1 die </sup> System Software verwendet erheblichen Speicherplatz. Der verfügbare Speicher unterliegt Änderungen abhängig von den System Software-Updates und der apps-Nutzung. 1 GB = 1 Milliarde Bytes. Weitere Informationen finden Sie unter Surface.com/Storage. <br> <sup>2 </sup> Doppler Sensor nicht verfügbar in Hongkong, Indien, Kuwait und Oman aufgrund behördlicher Vorschriften.
+> <sup>1 die </sup> System Software verwendet erheblichen Speicherplatz. Der verfügbare Speicher unterliegt Änderungen abhängig von den System Software-Updates und der apps-Nutzung. 1 GB = 1 Milliarde Bytes. Weitere Informationen finden Sie unter Surface.com/Storage. <br> <sup>2 </sup> Doppler Sensor nicht verfügbar in Hongkong, Indien, Kuwait und Oman aufgrund örtlicher Bestimmungen.
 <br> <sup>3 </sup> Software-Lizenz für einige Features erforderlich. Separat erhältlich.<br> 
+
+> [!NOTE]
+> Surface Hub kann kontinuierlich für maximal 18 Stunden pro Tag verwendet werden. Um die Effizienz zu optimieren, verwendet Surface Hub intelligente Sensoren, um den LED-Bildschirm zu deaktivieren, wenn die Anwesenheit nicht mehr erkannt wird, was bedeutet, dass Sie am Ende des Tages keine Stromversorgung mehr benötigen. Wenn das Gerät in einem 24-Stunden-Arbeitsumfeld installiert ist, können die Sensoren deaktiviert werden, um die maximale Nutzungs Empfehlung von 18 Stunden pro Tag zu erfüllen. Beachten Sie, dass eine längere Anzeige eines Videosignals dazu führen kann, dass die verbrannte oder Bild Aufbewahrung auf dem Bildschirm auftritt. Weitere Informationen zum Verwalten von Energieeinstellungen finden Sie unter:
+>
+> - [Lokale Verwaltung von Surface Hub-Einstellungen](local-management-surface-hub-settings.md)
+> - [SurfaceHub CSP – Windows-Client Verwaltung](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)

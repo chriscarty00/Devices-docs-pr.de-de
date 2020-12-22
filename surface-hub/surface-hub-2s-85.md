@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/25/2020
+ms.date: 12/21/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 149e3498b2d976b5ab090db1726d56eb2357ffc5
-ms.sourcegitcommit: 5fa5efefd510ce6f435d7142fb2f2cc08b520da9
+ms.openlocfilehash: 7fe02f0e377c8ac586f7e60387f1d8e1f071a15a
+ms.sourcegitcommit: e83316c8b5e3c29b0af0730ef05fd8b96b0d0cdd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "11078735"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "11238100"
 ---
 # Surface Hub 2S 85 "Übersicht & technischen Daten
 
@@ -41,7 +41,7 @@ Die 85 "-Version der Surface Hub-Familie bietet die Oberfläche von Surface Hub 
 | Anzeige           | PixelSense™ Display, 16:9-Seitenverhältnis, 10-Bit-Farbe, 30,5 mm Rahmenbreite, Anti-Glare, IPS-LCD, in-Cell-Touch mit 20 simultanen Berührungspunkten                                                                                                           |
 | Compute           | Modulare Rechen Kassette<br>Quad-Core-8-Generation Intel® Core™ i5-Prozessor, 8 GB RAM, 128 GB SSD <sup> 1</sup>                                                                                                                                                      |
 | Software <sup> 2</sup>         | Windows 10 Team OS <sup> 3</sup><br>Microsoft Teams für Surface Hub<br>Skype for Business<br>Microsoft Whiteboard<br>Microsoft Office (mobil)<br>Microsoft Power BI                                                                                                   |
-| Verbindungen       | USB-A<br>Mini-DisplayPort-Video Ausgang<br>RJ45-Gigabit-Ethernet<br>HDMI-Video Eingang<br>USB-C-® mit DisplayPort-Eingang<br>(3) USB-C® (auf dem Display)                                                                                                           |
+| Verbindungen       | USB-A<br>Mini-DisplayPort Video Ausgabe<br>RJ45-Gigabit-Ethernet<br>HDMI-Video Eingang<br>USB-C-® mit DisplayPort-Eingang<br>(3) USB-C® (auf dem Display)                                                                                                           |
 | Grafiken          | Intel® uhd graphics 620                                                                                                                                                                                                                                   |
 | Audio/Video       | 100 Hz-12kHz Range 3-Way Stereo-Lautsprecher, einschließlich (2) MID/HI-Range-und (1) Mid/Low-Range in der hinteren Beule. <br>Voll Band-Mikrofonarray mit 8 Elementen<br>Microsoft Surface Hub 2 Kamera, 4K, USB-C®-Verbindung, 90-Grad-hfov |
 | Stift               | Microsoft Surface Hub 2-Stift (aktiv)<br>Surface Slim-Stift kompatibel                                                                                                                                                                                       |
@@ -51,6 +51,11 @@ Die 85 "-Version der Surface Hub-Familie bietet die Oberfläche von Surface Hub 
 | Garantie         | eingeschränkte Hardwaregarantie von 1 Jahr <sup> 5</sup>                                                                                                                                                                                                                          |
 | Inhalt des Felds | (1) Surface Hub 2S<br>(2) Surface Hub 2-Stift<br>(1) Surface Hub 2 Kamera<br>4M Netzkabel<br>Schnell Start Handbuch                                                                                                                                         |
 
+> [!NOTE]
+> Surface Hub kann kontinuierlich für maximal 18 Stunden pro Tag verwendet werden. Um die Effizienz zu optimieren, verwendet Surface Hub intelligente Sensoren, um den LED-Bildschirm zu deaktivieren, wenn die Anwesenheit nicht mehr erkannt wird, was bedeutet, dass Sie am Ende des Tages keine Stromversorgung mehr benötigen. Wenn das Gerät in einem 24-Stunden-Arbeitsumfeld installiert ist, können die Sensoren deaktiviert werden, um die maximale Nutzungs Empfehlung von 18 Stunden pro Tag zu erfüllen. Beachten Sie, dass eine längere Anzeige eines Videosignals dazu führen kann, dass die verbrannte oder Bild Aufbewahrung auf dem Bildschirm auftritt. Weitere Informationen zum Verwalten von Energieeinstellungen finden Sie unter:
+>
+> - [Lokale Verwaltung von Surface Hub-Einstellungen](local-management-surface-hub-settings.md)
+> - [SurfaceHub CSP – Windows-Client Verwaltung](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
 ### Verweise
 
 1. System Software und Updates verwenden beträchtlichen Speicherplatz. Der verfügbare Speicher kann je nach System Software und Updates sowie der Verwendung von apps geändert werden. 1 GB = 1 Milliarde Bytes. 1 TB = 1.000 GB. Weitere Informationen finden Sie unter [Surface Storage](https://www.surface.com/storage) .

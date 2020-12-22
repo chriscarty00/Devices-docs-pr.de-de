@@ -9,16 +9,15 @@ author: dansimp
 ms.author: dansimp
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 05e701d3f591ba1ca85a58eaa4acb585e710d3d8
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 12/21/2020
+ms.openlocfilehash: e321b64ebbbc62da70cfdc1979053ee8facb7235
+ms.sourcegitcommit: e83316c8b5e3c29b0af0730ef05fd8b96b0d0cdd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832374"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "11238090"
 ---
 # Technische Informationen zu 55 "Surface Hub
-
-## Messungen 
 
 |
 --- | ---
@@ -54,6 +53,12 @@ Eingangsleistung, Betrieb |    500W Max
 Eingangsspannung, Standby    |   5W nominal
 
 
+> [!NOTE]
+> Surface Hub kann kontinuierlich für maximal 18 Stunden pro Tag verwendet werden. Um die Effizienz zu optimieren, verwendet Surface Hub intelligente Sensoren, um den LED-Bildschirm zu deaktivieren, wenn die Anwesenheit nicht mehr erkannt wird, was bedeutet, dass Sie am Ende des Tages keine Stromversorgung mehr benötigen. Wenn das Gerät in einem 24-Stunden-Arbeitsumfeld installiert ist, können die Sensoren deaktiviert werden, um die maximale Nutzungs Empfehlung von 18 Stunden pro Tag zu erfüllen. Beachten Sie, dass eine längere Anzeige eines Videosignals dazu führen kann, dass die verbrannte oder Bild Aufbewahrung auf dem Bildschirm auftritt. Weitere Informationen zum Verwalten von Energieeinstellungen finden Sie unter:
+>
+> - [Lokale Verwaltung von Surface Hub-Einstellungen](local-management-surface-hub-settings.md)
+> - [SurfaceHub CSP – Windows-Client Verwaltung](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
+
 ## Ersatz-PC-Verbindungen 
 
 Verbinder und Speicherort | Label | Beschreibung
@@ -87,63 +92,67 @@ RJ45, untere e/a | ![](images/rj45.png) | Stellt eine Verbindung mit Ethernet he
 RJ11, untere e/a | ![](images/rj11.png) | Verbindung mit Raum Steuerungen.
 
 
-
+> [!NOTE]
+> Surface Hub kann kontinuierlich für maximal 18 Stunden pro Tag verwendet werden. Um die Effizienz zu optimieren, verwendet Surface Hub intelligente Sensoren, um den LED-Bildschirm zu deaktivieren, wenn die Anwesenheit nicht mehr erkannt wird, was bedeutet, dass Sie am Ende des Tages keine Stromversorgung mehr benötigen. Wenn das Gerät in einem 24-Stunden-Arbeitsumfeld installiert ist, können die Sensoren deaktiviert werden, um die maximale Nutzungs Empfehlung von 18 Stunden pro Tag zu erfüllen. Beachten Sie, dass eine längere Anzeige eines Videosignals dazu führen kann, dass die verbrannte oder Bild Aufbewahrung auf dem Bildschirm auftritt. Weitere Informationen zum Verwalten von Energieeinstellungen finden Sie unter:
+>
+> - [Lokale Verwaltung von Surface Hub-Einstellungen](local-management-surface-hub-settings.md)
+> - [SurfaceHub CSP – Windows-Client Verwaltung](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
 
 
 
 
 ## Diagramme von Ports und Abständen
 
-***Obere Ansicht von 55 "Surface Hub***
+**_Draufsicht von 55 "Surface Hub_*_
 
 ![](images/sh-55-top.png)
 
 ---
 
 
-***Vorderansicht des 55 "Surface Hub***
+_*_Vorderansicht des 55 "Surface Hub_*_
 
 ![](images/sh-55-front.png)
 
 
 ---
 
-***Untere Ansicht von 55 "Surface Hub***
+_*_Untere Ansicht von 55 "Surface Hub_*_
 
 ![](images/sh-55-bottom.png)
 
 
 ---
 
-***Ersatz-PC-Anschlüsse am 55"-Surface Hub.***
+_*_Ersatz-PC-Anschlüsse am 55"-Surface Hub._*_
 
 ![](images/sh-55-rpc-ports.png)
 
 
 ---
 
-***Tastatur auf der rechten Seite des 55 "Surface Hub***
+_*_Tastatur auf der rechten Seite des 55 "Surface Hub_*_
 
 ![](images/key-55.png)
 
 
 ---
 
-***Rückansicht von 55 "Surface Hub***
+_*_Rückansicht von 55 "Surface Hub_*_
 
 ![](images/sh-55-rear.png)
 
 
 ---
 
-***Abstände für 55 "Surface Hub***
+_*_Abstände für 55 "Surface Hub_*_
 
 ![](images/sh-55-clearance.png)
 
 ---
 
 
-***Front-und Bottom-Haltegriffe und Freigaben für 55 "Surface Hub***
+_*_Front-und Bottom-Haltegriffe und Freigaben für 55 "Surface Hub_*_
 
 ![](images/sh-55-hand.png)
 
@@ -151,7 +160,7 @@ RJ11, untere e/a | ![](images/rj11.png) | Verbindung mit Raum Steuerungen.
 ---
 
 
-***Hintere Haltegriffe und Freigaben für 55 "Surface Hub***
+_ Hintere Haltegriffe*_und Freigaben für 55 "Surface Hub_**
 
 ![](images/sh-55-hand-rear.png)
 
