@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 11/21/2019
+ms.date: 12/28/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: dddab2adce1bec9ff722a3324b9c4b1be609ae89
-ms.sourcegitcommit: ac34f0ec1a9df74ea688bf0da2a51fadf5139a41
+ms.openlocfilehash: af66449806c9aa525fa3f5df84012d3daeed96ba
+ms.sourcegitcommit: dbd14649442ad039aeb265cd60ed029d483a4bb0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "10934845"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "11251452"
 ---
 # Vorbereiten Ihrer Umgebung für Surface Hub 2S
 
@@ -27,6 +27,11 @@ Wenn Sie Exchange Online, Skype for Business Online, Microsoft Teams oder Micros
 Office 365-Endpunkte helfen, Ihr Netzwerk zu optimieren, indem Sie alle vertrauenswürdigen Office 365-Netzwerkanforderungen direkt über Ihre Firewall senden, wobei alle zusätzlichen Inspektionen oder Verarbeitungsschritte auf Paketebene umgangen werden. Dieses Feature verringert die Latenz und ihre Perimeter-Kapazitätsanforderungen.
 
 Microsoft aktualisiert den Office 365-Dienst regelmäßig mit neuen Features und Funktionen, die erforderliche Ports, URLs und IP-Adressen ändern können. Wenn Sie die Änderungen auswerten, konfigurieren und auf dem neuesten Stand bleiben möchten, abonnieren Sie die [Office 365-IP-Adresse und den URL-Webdienst](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service).
+
+> [!NOTE]
+> Surface Hub kann mit Microsoft Teams, Skype for Business Server 2019, Skype for Business Server 2015 oder Skype for Business Online verwendet werden.
+Frühere Plattformen wie lync Server 2013 werden nicht unterstützt. Surface Hub wird in GCC-High-oder DoD-Umgebungen nicht unterstützt.
+
 
 ## Geräte Zugehörigkeit
 
@@ -44,8 +49,10 @@ Keine Zugehörigkeit ist vergleichbar mit dem Surface Hub 2S in einer Arbeitsgru
 
 Wenn Sie Surface Hub 2S mit lokalen Active Directory-Domänendiensten verknüpfen, müssen Sie den Zugriff auf die Einstellungs-APP mithilfe einer Sicherheitsgruppe in Ihrer Domäne verwalten. Dadurch wird sichergestellt, dass alle Mitglieder der Sicherheitsgruppe über die Berechtigungen zum Ändern der Einstellungen für Surface Hub 2S verfügen. Beachten Sie außerdem Folgendes:
 
-- Wenn die Surface Hub 2S-Partner mit Ihren lokalen Active Directory-Domänendiensten verbunden sind, kann der BitLocker-Schlüssel im Active Directory-Schema gespeichert werden. Weitere Informationen finden Sie unter [Vorbereiten Ihrer Organisation für BitLocker: Planung und Richtlinien](https://docs.microsoft.com/windows/security/information-protection/bitlocker/prepare-your-organization-for-bitlocker-planning-and-policies). 
+- Wenn die Surface Hub 2S-Partner mit Ihren lokalen Active Directory-Domänendiensten verbunden sind, kann der BitLocker-Schlüssel im Active Directory-Schema gespeichert werden. Weitere Informationen finden Sie unter [Vorbereiten Ihrer Organisation für BitLocker: Planung und Richtlinien](https://docs.microsoft.com/windows/security/information-protection/bitlocker/prepare-your-organization-for-bitlocker-planning-and-policies).
+
 - Die vertrauenswürdigen Stammzertifizierungsstellen Ihrer Organisation werden in Surface Hub 2S an denselben Container übertragen, was bedeutet, dass Sie Sie nicht mit einem Bereitstellungspaket importieren müssen.
+
 - Sie können das Gerät weiterhin mit InTune registrieren, um die Einstellungen auf dem Surface Hub 2S zentral zu verwalten.
 
 ## Azure Active Directory
