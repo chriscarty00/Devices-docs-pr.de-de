@@ -11,18 +11,20 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: c356595e058c45cc95631d2ebd12ee2e5cc75c1d
-  ms.sourcegitcommit: b1c630dcf12530cf7034478bfe66ad3bb11b59c9
+  ms.openlocfilehash: aa883bb614b3d0230e00b4b8254e673182d60751
+  ms.sourcegitcommit: 00b6b59bd110633b6ae46345a592b72d68cc5121
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 11/12/2020
-  ms.locfileid: "11166647"
+  ms.lasthandoff: 01/11/2021
+  ms.locfileid: "11255686"
 landingContent:
 - title: Surface-Geräte
   linkLists:
   - linkListType: whats-new
     links:
-    - text: Surface Laptop go for Business
+    - text: Surface Pro 7+ für Unternehmen
+      url: https://www.microsoft.com/surface/business/surface-pro-7-plus
+    - text: Surface Laptop Go for Business
       url: https://www.microsoft.com/surface/business/surface-laptop-go
     - text: Surface Pro X für Unternehmen
       url: https://www.microsoft.com/surface/business/surface-pro-x
@@ -32,21 +34,21 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
-    - text: ROI-Maximierung mit Microsoft Surface
-      url: forrester-tei-study.md
+    - text: Neues in Surface Pro 7+ business
+      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-pro-7-brings-next-level-performance-and-versatility-to/ba-p/1928797
     - text: Windows virtueller Desktop auf Surface
       url: windows-virtual-desktop-surface.md
-    - text: Neuerungen in Surface Dock 2
+    - text: Neues in Surface Dock 2
       url: surface-dock-whats-new.md
 - title: Microsoft Ignite
   linkLists:
   - linkListType: video
     links:
-    - text: Zero Touch-Bereitstellung mit Surface & Autopilot
+    - text: Zero Touch Deployment mit Surface & AutoPilot
       url: https://youtu.be/WQ-wg8fRzN0
-    - text: Surface pro X und Windows on Arm in einer Remote-Welt
+    - text: Surface Pro X und Windows on ARM in einer Remotewelt
       url: https://youtu.be/bDw77ZQNPPw
-    - text: Surface Security – Chip to Cloud moderner Endpunktschutz von Microsoft
+    - text: Surface Security – Chip in Cloud Modern Endpoint Protection von Microsoft
       url: https://youtu.be/uadAecDbqf4
 - title: Bereitstellen von Surface-Geräten
   linkLists:
@@ -56,7 +58,7 @@ landingContent:
       url: windows-autopilot-and-surface-devices.md
     - text: Surface-Registrierungsunterstützung für Windows-Autopilot
       url: surface-autopilot-registration-support.md
-    - text: Surface Deployment Accelerator-Tool
+    - text: Surface Deployment Accelerator Tool
       url: microsoft-surface-deployment-accelerator.md
 - title: Verwalten von Surface-Geräten
   linkLists:
@@ -76,15 +78,15 @@ landingContent:
       url: surface-diagnostic-toolkit-business.md
     - text: Top-Supportlösungen
       url: support-solutions-surface.md
-    - text: Oberflächen Treiber und Firmware-Lebenszyklus für Windows-basierte Geräte
+    - text: Lebenszyklus von Surface-Treibern und -Firmware für Windows-basierte Geräte
       url: surface-driver-firmware-lifecycle-support.md
 - title: Erkunden von Sicherheitsanleitungen
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: DMA-Schutz auf Surface-Geräten
+    - text: DMA Protection auf Surface-Geräten
       url: dma-protect.md
-    - text: Sichere Surface Dock 2-Anschlüsse mit Surface Enterprise Management Mode (Semm)
+    - text: Sichern von Surface Dock 2-Ports mit Surface Enterprise Management Mode (SEMM)
       url: secure-surface-dock-ports-semm.md
     - text: Surface Data Eraser-Tool
       url: microsoft-surface-data-eraser.md
@@ -98,7 +100,7 @@ landingContent:
       url: surface-enterprise-management-mode.md
     - text: Einstellungen für Akkulimit
       url: battery-limit.md
-- title: Teilnehmen an Surface Community
+- title: Teilnehmen an der Surface Community
   linkLists:
   - linkListType: learn
     links:

@@ -1,6 +1,6 @@
 ---
 title: Surface Hub 2S Site Readiness Guide
-description: Machen Sie sich mit den Anforderungen der Website Bereitschaft und den Empfehlungen für Surface Hub 2S vertraut.
+description: Machen Sie sich mit den Anforderungen und Empfehlungen für die Standortbereitschaft für Surface Hub 2S vertraut.
 keywords: Trennen Sie Werte durch Kommata
 ms.prod: surface-hub
 ms.sitesec: library
@@ -9,22 +9,23 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 06/20/2019
+ms.date: 12/18/2019
 ms.localizationpriority: Medium
-ms.openlocfilehash: f31d33a96b64be95a4fe2f95c63dd6a4a3afa720
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 0a619b6ede98f2cd2fa1322c142ba56e1357413a
+ms.sourcegitcommit: 00b6b59bd110633b6ae46345a592b72d68cc5121
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832941"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "11255696"
 ---
 # Surface Hub 2S Site Readiness Guide
 
-|**Thema**|**Beschreibung**|
+| Thema | Beschreibung |
 |:-------|:-------|
-| [Standortplanung für Surface Hub 2S](surface-hub-2s-site-planning.md) | Überprüfen von Raum Überlegungen und Planen von Peripheriegeräten |
-| [Schnellstart: Surface Hub 2S](surface-hub-2s-quick-start.md) | Verschaffen Sie sich einen Überblick über die erforderlichen Schritte zum Entpacken und Starten des Surface Hub 2S. |
-| [Installieren und Montieren des Surface Hub 2S](surface-hub-2s-install-mount.md) | Informieren Sie sich über lizenziertes Zubehör zum Installieren und montieren des Surface Hub 2S. |
-| [Anpassen der Installation von Surface Hub 2S](surface-hub-2s-custom-install.md) | Hier erfahren Sie, wie Sie benutzerdefinierte Installationen ohne lizenziertes Zubehör installieren können.|
-| [Surface Hub 2S-Anschlüsse und Tastaturübersicht](surface-hub-2s-port-keypad-overview.md) | Abrufen von Details für I/O-Ports und Tasten-und Auswahlsteuerelemente. |
-| [Herstellen einer Verbindung mit Surface Hub 2S](surface-hub-2s-connect.md) | Hier finden Sie Informationen zu drahtgebundenen und drahtlosen Methoden zum Herstellen einer Verbindung mit Surface Hub.|
+| [Standortplanung für Surface Hub 2S](surface-hub-2s-site-planning.md) | Überprüfen Sie Raumüberlegungen und planen Sie Peripheriegeräte. |
+| [Schnellstart: Surface Hub 2S](surface-hub-2s-quick-start.md) | Hier erhalten Sie eine Übersicht über die erforderlichen Schritte zum Entpacken und Starten von Surface Hub 2S. |
+| [Installieren und Einbinden von Surface Hub 2S](surface-hub-2s-install-mount.md) | Erfahren Sie mehr über lizenziertes Zubehör zum Installieren und Mounten von Surface Hub 2S. |
+| [Installieren und Mounten von Surface Hub 2S 85"](surface-hub-2s-install-mount.md) | Lesen Sie die empfohlenen Anleitungen für die Installation von Surface Hub 2S 85". |
+| [Anpassen der Installation von Surface Hub 2S](surface-hub-2s-custom-install.md) | Erfahren Sie, wie Sie eine benutzerdefinierte Installation ohne lizenziertes Zubehör installieren.|
+| [Surface Hub 2S-Anschlüsse und Tastaturübersicht](surface-hub-2s-port-keypad-overview.md) | Hier finden Sie Details zu E/A-Ports und Netz- und Auswahlsteuerelementen für die Tastatur. |
+| [Herstellen einer Verbindung mit Surface Hub 2S](surface-hub-2s-connect.md) | Erfahren Sie mehr über kabelgebundene und drahtlose Methoden zum Herstellen einer Verbindung mit Surface Hub.|
