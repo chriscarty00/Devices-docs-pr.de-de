@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/12/2020
+ms.date: 1/15/2021
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: 7d82a24126798c20f11c51074f6099e1363c257f
-ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
+ms.openlocfilehash: 30f7cd7d861b6497cd536aeb0ea348b6946a2674
+ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "11114623"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "11271359"
 ---
 # Bereitstellen, Verwalten und Warten von Surface Pro X
 
@@ -42,7 +42,7 @@ Organisationen, die bereits moderne Management-, Sicherheits- und Produktivität
 
 ## Überlegungen zur imagebasierten Bereitstellung
 
-Microsoft Deployment Toolkit (MDT)) und Microsoft Endpoint Configuration Manager (ehemals System Center Configuration Manager) unterstützen Surface Pro X derzeit nicht für die Bereitstellung von Betriebssystemen. Kunden, die auf eine imagebasierte Bereitstellung vertrauen, sollten Surface Pro 7 in Betracht ziehen, während sie den richtigen Zeitpunkt für den Übergang zu modernen Bereitstellungslösungen evaluieren. 
+Microsoft Deployment Toolkit (MDT)) und Microsoft Endpoint Configuration Manager (ehemals System Center Configuration Manager) unterstützen Surface Pro X derzeit nicht für die Bereitstellung von Betriebssystemen. Kunden, die sich auf die imagebasierte Bereitstellung verlassen, sollten Surface Pro 7+ berücksichtigen, während sie den richtigen Zeitpunkt für den Übergang zu modernen Bereitstellungslösungen bewerten. 
 
 ## Verwalten von Surface Pro X-Geräten
 
@@ -180,7 +180,7 @@ Die folgenden Tabellen zeigen die Verfügbarkeit ausgewählter wichtiger Feature
 
 ### Kann ich Surface Pro X mit MDT oder Endpoint Configuration Manager bereitstellen?
 
-Das Microsoft Deployment Toolkit (MDT) und Microsoft Endpoint Configuration Manager unterstützen Surface Pro X derzeit nicht für die Bereitstellung von Betriebssystemen. Kunden, die auf eine imagebasierte Bereitstellung vertrauen, sollten Surface Pro 7 in Betracht ziehen, während sie den richtigen Zeitpunkt für den Wechsel zur Cloud abschätzen.
+Das Microsoft Deployment Toolkit (MDT) und Microsoft Endpoint Configuration Manager unterstützen derzeit keine Surface Pro X für die Betriebssystembereitstellung. Kunden, die sich auf die imagebasierte Bereitstellung verlassen, sollten Surface Pro 7+ berücksichtigen, während sie den richtigen Zeitpunkt für den Wechsel zur Cloud bewerten.
 
 ### Wie kann ich Surface Pro X bereitstellen?
 

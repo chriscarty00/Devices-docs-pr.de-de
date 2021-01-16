@@ -1,6 +1,6 @@
 ---
-title: Neuerungen in Surface Dock
-description: In diesem Artikel werden die neuen Features und Funktionen für das Surface Dock der nächsten Generation hervorgehoben.
+title: Neues in Surface Dock
+description: In diesem Artikel werden neue Features und Funktionen für surface Dock der nächsten Generation beschrieben.
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
@@ -12,30 +12,30 @@ ms.date: 12/2/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: b93813498dc19bc7fff95f651fca77ca2c677746
-ms.sourcegitcommit: 071ca4874e807bb61a22b38a04f53802478d8391
+ms.openlocfilehash: 81c224cf6c5232c4cefd4e64889bd2f724d22bac
+ms.sourcegitcommit: 1b86286bd13b13749ddbf454ae78d9a24fec44ee
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "11194839"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "11271132"
 ---
-# Neuerungen in Surface Dock 
+# Neues in Surface Dock 
 
-Surface Dock 2, das Surface Dock der nächsten Generation, ermöglicht Benutzern das Verbinden externer Monitore und mehrerer Peripheriegeräte, um eine vollständig modernisierte Desktopoberfläche von einem Surface-Gerät zu erhalten. Für die Maximierung der Effizienz im Büro, in einem flexiblen Arbeitsbereich oder zu Hause bietet Surface Dock 2 sieben Anschlüsse, darunter zwei frontseitige USB-C-Anschlüsse mit 15 Watt Schnelllade Leistung für Telefone und Zubehör. 
+Surface Dock 2, das Surface Dock der nächsten Generation, ermöglicht Benutzern das Verbinden externer Monitore und mehrerer Peripheriegeräte, um eine vollständig modernisierte Desktopoberfläche von einem Surface-Gerät zu erhalten. Surface Dock 2 wurde erstellt, um die Effizienz im Büro, in einem flexiblen Arbeitsbereich oder zu Hause zu maximieren. Surface Dock 2 verfügt über sieben Ports, darunter zwei nach vorne gerichtete USB-C-Ports, mit 15 Akkus mit schneller Ladeleistung für Telefone und Zubehör. 
 
-### Unterstützung für vollständige Geräteverwaltung
+### Vollständige Geräteverwaltungsunterstützung
 
-Surface Dock 2 wurde entwickelt, um die IT-Verwaltung zu vereinfachen, sodass Administratoren Firmware-Updates mithilfe von Windows Update automatisieren oder Updates mit internen Softwareverteilungstools zentralisieren können.
+Surface Dock 2 dient zur Vereinfachung der IT-Verwaltung, sodass Administratoren Firmwareupdates mithilfe von Windows Update automatisieren oder Updates mit internen Softwareverteilungstools zentralisieren können.
 
-- Der Surface Enterprise Management-Modus (Semm) ermöglicht IT-Administratoren, Ports auf Surface Dock 2 zu sichern. Weitere Informationen finden Sie unter [Secure Surface Dock 2-Anschlüsse mit Surface Enterprise-Verwaltungsmodus](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999).
--  Die Windows-Verwaltungsinstrumentation (WMI)-Unterstützung ermöglicht IT-Administratoren die Remoteüberwachung und Verwaltung der neuesten Firmware, des Richtlinien Zustands und der zugehörigen Daten auf Surface Dock 2-Geräten. Weitere Informationen finden Sie unter [Verwalten von Surface Dock 2 mit WMI](surface-dock2-wmi.md).
+- Der Surface Enterprise Management Mode (SEMM) ermöglicht es IT-Administratoren, Ports auf Surface Dock 2 zu sichern. Weitere Informationen finden Sie unter [Secure Surface Dock 2 ports with Surface Enterprise Management Mode](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999).
+-  Die Unterstützung der Windows-Verwaltungsinstrumentation (Windows Management Instrumentation, WMI) ermöglicht es IT-Administratoren, die neuesten Firmware-, Richtlinienstatus- und zugehörigen Daten auf Allen Surface Dock 2-Geräten remote zu überwachen und zu verwalten. Weitere Informationen finden Sie unter [Verwalten von Surface Dock 2 mit WMI](surface-dock2-wmi.md).
 
 ## Allgemeine Systemanforderungen
 
-- Windows 10, Version 1809. Es gibt keine Unterstützung für Windows 7-, Windows 8-oder nicht-Surface-Hostgeräte. Surface Dock 2 funktioniert mit den folgenden Surface-Geräten:
+- Windows 10, Version 1809. Es gibt keine Unterstützung für Windows 7-, Windows 8 oder Nicht-Surface-Hostgeräte. Surface Dock 2 funktioniert mit den folgenden Surface-Geräten:
 
-  - Surface pro (fünfte Generation)
-  - Surface-Laptop (1st Generation)
+  - Surface Pro (5. Generation)
+  - Surface Laptop (1. Generation)
   - Surface Pro 6
   - Surface Book 2
   - Surface Laptop 2
@@ -43,9 +43,10 @@ Surface Dock 2 wurde entwickelt, um die IT-Verwaltung zu vereinfachen, sodass Ad
   - Surface Pro 7
   - Surface Pro X 
   - Surface Laptop 3
-  - DGM-Buch 3
+  - Surface Book 3
   - Surface Go 2
-  - Surface Laptop go
+  - Surface Laptop Go
+  - Surface Pro 7+
 
 ## Surface Dock 2-Komponenten
 
@@ -53,83 +54,84 @@ Surface Dock 2 wurde entwickelt, um die IT-Verwaltung zu vereinfachen, sodass Ad
  
 ### USB
 
-- Zwei frontseitige USB-C-Anschlüsse.
-- Zwei Anschlüsse für USB-C (Gen 2) an der Rückseite.
-- Zwei nach hinten weisende USB-Anschlüsse. 
+- Zwei nach vorne gerichtete USB-C-Ports.
+- Zwei nach hinten gerichtete USB-C-Anschlüsse (Generation 2).
+- Zwei nach hinten gerichtete USB-A-Anschlüsse. 
 
 ### Video
     
-- Dual-4K@60Hz. Unterstützt bis zu zwei Displays auf den folgenden Geräten:
+- Duale 4K@60hz. Unterstützt bis zu zwei Displays auf den folgenden Geräten:
 
-  - DGM-Buch 3
+  - Surface Book 3
   - Surface Go 2
   - Surface Pro 7
+  - Surface Pro 7+
   - Surface Pro X
   - Surface Laptop 3
 
-- Dual 4K@ 4K@30Hz. Unterstützt bis zu zwei Displays auf den folgenden Geräten:
+- Duale 4K@ 4K@30Hz. Unterstützt bis zu zwei Displays auf den folgenden Geräten:
 
   - Surface Pro 6
-  - Surface pro (fünfte Generation)
+  - Surface Pro (5. Generation)
   - Surface Laptop 2
-  - Surface-Laptop (1st Generation)
+  - Surface Laptop (1. Generation)
   - Surface Go
-  - DGM-Buch 2.
+  - Surface Book 2.
 
 ### Ethernet
 
-- 1-Gigabit-Ethernet-Anschluss. 
+- 1 Gigabit-Ethernet-Port. 
 
-### Externe Stromversorgung
+### Externes Netzteil
 
-- 199 Watt unterstützt 100V-240V.
-
-
-## Vergleichen des Surface Docks 
-
-**Tabelle1. Surface Dock und USB-C-Hub für Reisen**
+- 199 Dollar unterstützen 100V-240V.
 
 
-| Komponente                           | Surface Dock                                                | Surface Dock 2                                                                                      | USB-C-Hub für Reisen |
+## Vergleich von Surface Dock 
+
+**Tabelle1. Surface Dock und USB-C Travel Hub**
+
+
+| Komponente                           | Surface Dock                                                | Surface Dock 2                                                                                      | USB-C Travel Hub |
 | ----------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------- |
 | Surflink                            | Ja                                                         | Ja                                                                                                 | Nein               |
-| USB-A                               | 2 frontseitig USB 3,1 Gen 1<br>2 Heckverkleidung USB 3,1 Gen 1 | 2 Heckverkleidung USB 3,2 Gen 2 (7.5 w Leistung)                                                            | 1 USB-3,1-Gen 2  |
-| Mini-Display-Port                   | 2 Heckverkleidung (DP 1.2)                                       | Keine                                                                                                | Keine             |
-| USB-C                               | Keine                                                        | 2 frontseitig USB 3,2 Gen 2<br>(20W Power)<br>2 Heckverkleidung USB 3,2 Gen 2 (DP 1.4 a)<br>(7.5 w Leistung) | 1 USB-3,2-Gen 2  |
-| 3,5 mm Audio-Eingang/-Ausgang                 | Ja                                                         | Ja                                                                                                 | Ja              |
-| Ethernet                            | Ja, 1 Gigabit                                              | Ja 1 Gigabit                                                                                       | Ja, 1 Gigabit   |
-| DC-Stromversorgung                         | Ja                                                         | Ja                                                                                                 |                  |
-| Kensington-Sperre                     | Ja                                                         | Ja                                                                                                 |                  |
-| Surflink-Kabellänge               | 65cm                                                        | 80cm                                                                                                | 20cm             |
-| Surflink-Hostleistung                 | 60W                                                         | 120W                                                                                                | n.a.              |
-| USB-Ladeleistung                      | 30W                                                         | 60W                                                                                                 |                  |
-| USB-Bitrate                        | 5 Gbit/s                                                      | 10 Gbit/s                                                                                             | 10 Gbit/s          |
-| Monitor-Unterstützung                     | 2 x 4K-@30fps oder<br>1 x 4K @ 60fps                         | 2 x 4K @ 60fps                                                                                      | 1 x 4K @ 60fps   |
-| Wake-on-LAN aus verbundenem Standby <sup> 1</sup> | Ja                                                         | Ja                                                                                                 |                  |
-| Wake-on-LAN von S4/S5 Sleep-Modi  | Nein                                                          | Ja                                                                                                 |          Ja        |
-| PXE-Netzwerkstart                    | Ja                                                         | Ja                                                                                                 |        Ja          |
-| SEMM-Host Zugriffssteuerung            | Nein                                                          | Ja                                                                                                 | Nein               |
-| SEMM-Port Zugriffssteuerung <sup> 2</sup>          | Nein                                                          | Ja                                                                                                 | Nein               |
-| Support für Wartung                   | MSI                                                         | Windows Update oder MSI                                                                               |                  |
+| USB-A                               | 2 FRONT-USB 3.1 Gen 1<br>2 nach hinten gerichtete USB 3.1 Gen 1 | 2 USB 3.2 Gen 2 (7,5W-Stromversorgung) nach hinten                                                            | 1 USB 3.1 Gen 2  |
+| Minianzeigeport                   | 2 nach hinten gerichtet (DP1.2)                                       | Keine                                                                                                | Keine             |
+| USB-C                               | Keine                                                        | 2 FRONT-USB 3.2 Gen 2<br>(15 W Leistung)<br>2 nach hinten gerichteter USB 3.2 Gen 2 (DP1.4a)<br>(7,5 W Leistung) | 1 USB 3.2 Gen 2  |
+| 3,5 mm Audio in/out                 | Ja                                                         | Ja                                                                                                 | Ja              |
+| Ethernet                            | Ja, 1 Gigabit                                              | Ja, 1 Gigabit                                                                                       | Ja, 1 Gigabit   |
+| Ein/Aus-Gleichstrom                         | Ja                                                         | Ja                                                                                                 |                  |
+| Sperre für Die Sperre                     | Ja                                                         | Ja                                                                                                 |                  |
+| Länge des Surflinkkabels               | 65cm                                                        | 80cm                                                                                                | 20cm             |
+| Leistung des Surflinkhosts                 | 60W                                                         | 120W                                                                                                | n.a.              |
+| Usb-Ladestrom                      | 30W                                                         | 60W                                                                                                 |                  |
+| USB-Bitrate                        | 5 GBit/s                                                      | 10 GBit/s                                                                                             | 10 GBit/s          |
+| Überwachen der Unterstützung                     | 2 x 4.000 @30fps oder<br>1 x 4 k @ 60fps                         | 2 x 4K @ 60fps                                                                                      | 1 x 4K @ 60fps   |
+| Wake-on-LAN von connected Standby <sup> 1</sup> | Ja                                                         | Ja                                                                                                 |                  |
+| Wake-on-LAN aus S4/S5-Ruhezustandsmodi  | Nein                                                          | Ja                                                                                                 |          Ja        |
+| Netzwerk-PXE-Start                    | Ja                                                         | Ja                                                                                                 |        Ja          |
+| Zugriffskontrolle für den HOST des SEMM-Hosts            | Nein                                                          | Ja                                                                                                 | Nein               |
+| SEMM-Portzugriffssteuerung <sup> 2</sup>          | Nein                                                          | Ja                                                                                                 | Nein               |
+| Wartungssupport                   | MSI                                                         | Windows Update oder MSI                                                                               |                  |
 
  
 
 
 
-1. *Geräte müssen für Wake-on-LAN über Surface Enterprise Management Mode (Semm) oder Device Firmware Control Interface (DFCI) konfiguriert werden, um aus dem Ruhezustand oder Power-Off Zuständen zu reaktivieren. Wake aus dem Ruhezustand oder Power-Off wird auf Surface pro 7, Surface Laptop 3, Surface pro X, Surface Book 3 und Surface Go 2 unterstützt.  Für einige Funktionen ist eine Software Lizenz erforderlich. Separat erhältlich.*
+1. *Geräte müssen für Wake on LAN über den Surface Enterprise Management Mode (SEMM) oder die Device Firmware Control Interface (DFCI) konfiguriert sein, um aus dem Ruhezustand oder dem Ruhezustand Power-Off zu können. Die Aktivierung des Ruhezustands oder Power-Off wird für Surface Pro 7+, Surface Pro 7, Surface Laptop 3, Surface Pro X, Surface Book 3 und Surface Go 2 unterstützt.  Für einige Features ist eine Softwarelizenz erforderlich. Separat erhältlich.*
 
-2. *Für einige Funktionen ist eine Software Lizenz erforderlich. Separat erhältlich.*
+2. *Für einige Features ist eine Softwarelizenz erforderlich. Separat erhältlich.*
 
 ## Optimierte Geräteverwaltung
 
-Surface hat mithilfe von Windows Update optimierte Verwaltungsfunktionen freigegeben und ermöglicht IT-Administratoren die Nutzung der folgenden unternehmensweiten Funktionen:
+Surface hat optimierte Verwaltungsfunktionen über Windows Update veröffentlicht, sodass die IT-Administratoren die folgenden Features auf Unternehmensklasse nutzen können:
 
-- **Reibungslose Updates**. Aktualisieren Sie Ihre Docks automatisch und automatisch mit Windows Update oder Microsoft Endpoint Configuration Manager (vormals System Center Configuration Manager-SCCM) oder anderen MSI-Bereitstellungstools. 
-- **Wake aus dem Netzwerk**. Verwalten und Zugreifen auf unternehmensgeräte, ohne dass die Benutzer ihre Geräte auf dem laufenden halten. Auch wenn sich ein angedocktes Gerät im Standbymodus, Ruhezustand oder Energiesparmodus befindet, kann Ihr Team mithilfe des Endpunkt Konfigurations-Managers oder anderer Enterprise-Verwaltungstools aus dem Netzwerk für Dienst und Verwaltung aufwachen.
-- **Zentralisierte IT-Steuerung**. Steuern Sie, wer eine Verbindung mit Surface Dock 2 herstellen kann, indem Sie die Ports ein-und ausschalten. Einschränken, welche Hostgeräte mit Surface Dock 2 verwendet werden können Beschränken Sie den Zugriff auf einen einzelnen Benutzer oder konfigurieren Sie Docks, damit nur bestimmte Benutzer in Ihrem Team oder im gesamten Unternehmen darauf zugreifen können.
+- **Reibungslose Updates**. Aktualisieren Sie Ihre Docks automatisch und automatisch mit Windows Update oder Microsoft Endpoint Configuration Manager (früher System Center Configuration Manager - SCCM) oder anderen MSI-Bereitstellungstools. 
+- **Wake from the network**. Verwalten und Zugreifen auf Unternehmensgeräte, ohne dass Benutzer ihre Geräte eingeschaltet lassen müssen. Selbst wenn sich ein angedockte Gerät im Ruhezustand, Ruhezustand oder Ausgeschaltetmodus befindet, kann Ihr Team mithilfe von Endpoint Configuration Manager oder anderen Unternehmensverwaltungstools aus dem Netzwerk für Dienst und Verwaltung reaktivierungen.
+- **Zentralisiertes IT-Steuerelement.** Steuern Sie, wer eine Verbindung mit Surface Dock 2 herstellen kann, indem Sie ports ein- und ausschalten. Beschränken Sie, welche Hostgeräte mit Surface Dock 2 verwendet werden können. Beschränken Sie den Dockzugriff auf einen einzelnen Benutzer, oder konfigurieren Sie Docks so, dass nur von bestimmten Benutzern in Ihrem Team oder im gesamten Unternehmen darauf zugegriffen werden kann.
 
 ## Nächste Schritte
 
-- [Sichere Surface Dock 2-Anschlüsse mit Surface Enterprise-Verwaltungsmodus](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)
+- [Sichern von Surface Dock 2-Ports mit dem Surface Enterprise-Verwaltungsmodus](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)
 - [Surface Enterprise Management-Modus](surface-enterprise-management-mode.md)
 - [Bewährte Energieeinstellungen für Surface-Geräte](maintain-optimal-power-settings-on-Surface-devices.md)

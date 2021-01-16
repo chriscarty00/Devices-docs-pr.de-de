@@ -1,6 +1,6 @@
 ---
-title: Surface-Registrierungsunterstützung für Windows Autopilot
-description: In diesem Artikel werden die Voraussetzungen für die Übermittlung von Autopilot-Registrierungsanforderungen an den Microsoft-Support beschrieben.
+title: Surface-Registrierungsunterstützung für Windows-Autopilot
+description: In diesem Artikel werden die Anforderungen für die Übermittlung von Registrierungsanforderungen für Autopilot an den Microsoft Support beschrieben.
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
@@ -12,39 +12,39 @@ ms.date: 9/14/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 9a308edb37cc2cfd99490acad16bd2ae6a4d458a
-ms.sourcegitcommit: c2df79cab0e59e9d7ea6640e5899531b57cd383f
+ms.openlocfilehash: 4ff3803701ffe71e1c5c0c36200c40e833a7fb25
+ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "11016473"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "11271389"
 ---
-# Surface-Registrierungsunterstützung für Windows Autopilot
+# Surface-Registrierungsunterstützung für Windows-Autopilot
 
-Ein vereinfachtes Verfahren zum Registrieren von Surface-Geräten für die Windows Autopilot-Bereitstellung steht nun über den Microsoft-Support zur Verfügung. Ab September 2020 können Kunden und Microsoft Cloud Solution Provider (LSP) Surface Devices registrieren, indem Sie Anfragen an den Microsoft-Support senden. Auf dieser Seite werden die Anforderungen für die folgenden unterstützten Autopilot-Registrierungs Szenarien erläutert:
+Ein vereinfachtes Verfahren zum Registrieren von Surface-Geräten für die Windows -Autopilot-Bereitstellung ist jetzt über den Microsoft Support verfügbar. Ab September 2020 können Kunden und Microsoft Cloud Solution Providers (CSPs) Surface-Geräte registrieren, indem sie Anforderungen an den Microsoft Support senden. Diese Seite beschreibt die Anforderungen für die folgenden unterstützten Autopilot-Registrierungsszenarien:
  
 
-- **Autopilot-Registrierung für Surface-Geräte**. Sendet eine Anforderung zum Registrieren von Surface-Geräten in Windows Autopilot.
-- **Hardware-Hash Anforderung für Surface-Geräte.** Sendet eine Anfrage an den Microsoft-Support, um Ihnen Hardware-Hashes zur Verfügung zu stellen, die Kunden oder LSP für die Selbstregistrierung von Geräten über Microsoft InTune oder das Microsoft Partner Center verwenden können.
-- **Autopilot-Deregistrierung für Oberflächen Geräte.** Sendet eine Anforderung zum Löschen von Geräten von Windows Autopilot, die normalerweise in Szenarien für das Lebenszyklusende des Geräts verwendet wird.
+- **Surface Device Autopilot Registration**. Sendet die Anforderung zur Registrierung von Surface-Geräten bei Windows Autopilot.
+- **Hardwarehashanforderung für Surface-Geräte.** Sendet eine Anforderung an den Microsoft-Support, um Ihnen Hardwarehashes bereitzustellen, die Kunden oder CSPs verwenden können, um Geräte über Microsoft Intune oder das Microsoft Partner Center selbst zu registrieren.
+- **Surface Device Autopilot Deregistration.** Sendet eine Anforderung zum Löschen von Geräten aus Windows Autopilot, die in der Regel in Szenarien verwendet werden, die das Ende der Lebensdauer des Geräts ermöglichen.
 
-In der folgenden Tabelle finden Sie Informationen zu den Informationen, die Sie sammeln müssen, bevor Sie Registrierungsanforderungen an den Microsoft-Support übermitteln.
+In der folgenden Tabelle finden Sie Details zu den Informationen, die Sie sammeln müssen, bevor Sie Registrierungsanforderungen an den Microsoft Support übermitteln.
  
-**Tabelle1. Erforderliche Informationen für Autopilot-Registrierungsanforderungen**
+**Tabelle1. Erforderliche Informationen für Registrierungsanforderungen für Autopilot**
  
 
-| Erforderliche Informationen                   | Beschreibung                                                                                                                                                                                                                                                                                    | Autopilot-Registrierung | Hardware-Hash Anforderung | Autopilot<br>Abmeldung |
+| Erforderliche Informationen                   | Beschreibung                                                                                                                                                                                                                                                                                    | Registrierung von Autopilot | Hardwarehashanforderung | Autopilot<br>Deregistration |
 | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | --------------------- | --------------------------- |
-| **Azure Active Directory-Mandanten-ID**   | Ihre Azure Active Directory-Mandanten-ID ist eine GUID (Globally Unique Identifier), die sich von Ihrem Organisationsnamen oder Ihrer Domäne unterscheidet.<br> <br>Um Ihre Mandanten-ID-Signatur im Azure-Portal zu finden, lesen Sie [hier](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties). | Y                      | N                     | Y                           |
-| **Azure Active Directory-Domänen Name** | Ihr Domänenname auf oberster Ebene; Beispiel: contoso.com.                                                                                                                                                                                                                                          | Y                      | N                     | Y                           |
-| **Nachweis des Besitzes**                 | Überprüfen Sie den Beweis des Besitzes, indem Sie den ursprünglichen Kauf-oder Rechnungs Schein im PDF-Format hochladen. Screenshots werden nicht akzeptiert.<br> <br>Der Kaufvertrag oder die Rechnung muss Folgendes umfassen:<br>Geräteseriennummern.<br>Name des Unternehmens.                                                           | Y                      | Y                     | Y                           |
-| **Geräteseriennummern**              | Hochladen einer Excel-Datei im CSV-Format mit jeder Geräteseriennummer in einer neuen Zeile                                                                                                                                                                                                                  | Y                      | Y                     | Y                           |
+| **Azure Active Directory-Mandanten-ID**   | Ihre Azure Active Directory-Mandanten-ID ist eine GUID (Globally Unique Identifier), die sich vom Namen oder der Domäne Ihrer Organisation abh?nt.<br> <br>Um Ihre Mandanten-ID zu finden, melden Sie sich hier im Azure Portal [an.](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties) | Y                      | N                     | Y                           |
+| **Azure Active Directory Domain Name** | Ihr Domänenname auf oberster Ebene; Beispiel: contoso.com.                                                                                                                                                                                                                                          | Y                      | N                     | Y                           |
+| **Nachweis des Besitzes**                 | Überprüfen Sie den Besitznachweis, indem Sie die ursprüngliche Rechnung oder Verkaufsrechnung im PDF-Format hochladen. Screenshots werden nicht akzeptiert.<br> <br>Die Rechnung muss Folgendes enthalten:<br>Seriennummern des Geräts.<br>Firmenname.                                                           | Y                      | Y                     | Y                           |
+| **Seriennummern des Geräts**              | Laden Sie die Excel-Datei mit jeder Seriennummer des Geräts in einer neuen Zeile in das CSV-Format hoch.                                                                                                                                                                                                                  | Y                      | Y                     | Y                           |
 
  
 
-## Supportanfragen senden
+## Übermitteln von Supportanfragen
 
-  [![Get Autopilot-Registrierungsunterstützung für Surface](images/autopilot-reg-support-surface.png)](https://support.microsoft.com/supportrequestform/0d8bf192-cab7-6d39-143d-5a17840b9f5f)
+  [![Get Autopilot Registration Support for Surface](images/autopilot-reg-support-surface.png)](https://prod.support.services.microsoft.com/supportrequestform/0d8bf192-cab7-6d39-143d-5a17840b9f5f)
  
  
  

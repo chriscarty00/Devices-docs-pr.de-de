@@ -1,5 +1,5 @@
 ---
-title: Installieren und Mounten von Surface Hub 2S 85
+title: Installieren und Montieren von Surface Hub 2S 85
 description: Informationen zum Installieren und Mounten von Surface Hub 2S 85.
 keywords: Trennen Sie Werte durch Kommata
 ms.prod: surface-hub
@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 01/11/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: b01c9e2a98e6b8064c3fd27c1b4909174872cbcb
-ms.sourcegitcommit: 00b6b59bd110633b6ae46345a592b72d68cc5121
+ms.openlocfilehash: 65a1784fbbcea8861d6d9ed7a160cbe39d4d4d6c
+ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "11255797"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "11271589"
 ---
 # Installieren und Mounten von Surface Hub 2S 85"
 
@@ -24,14 +24,14 @@ Dieser Artikel enthält unterstützende Anleitungen für die physische Installat
 
 ## Unboxing video
 
-Ein Begleitvideo zur Installation von Surface Hub 2S 85" ist jetzt verfügbar. Bevor Sie beginnen, lesen Sie ["Unboxing and Installing Surface Hub 2S 85"](https://aka.ms/Hub2S85Unboxing).
+Ein Begleitvideo zum Verschieben und Installieren von Surface Hub 2S 85" ist jetzt verfügbar. Bevor Sie beginnen, lesen Sie bitte [Microsoft Surface Hub 2S 85" - Unboxing and Set Up](https://aka.ms/Hub2S85Unboxing). 
 
 ## Befolgen Sie alle Sicherheitsvorkehrungen 
 
 > [!WARNING]
 > **Handhabung und Websitevorbehandlung**<br>
 >- Das Gerät ist sehr stark. Um das Risiko von persönlichen Verletzungen, Schädigungen oder Schäden am Gerät aufgrund seiner Größe und Gewichtung zu verringern, ist es wichtig, das Gerät aufrecht zu halten.
->- Bevor Sie das Gerät an den Ort verschieben, an dem es installiert wird, überprüfen Sie die Website, um zu ermitteln, wie es sicher an den Ort bewegt wird, an dem es entpackt und bereitgestellt wird.
+>- Bevor Sie das Gerät an den Ort verschieben, an dem es installiert wird, überprüfen Sie die Website, um zu ermitteln, wie sie es sicher an den Speicherort verschieben, an dem es entpackt und bereitgestellt wird.
 >- Verwenden Sie immer mindestens zwei Personen zum Entpacken und Installieren.
 >- Sobald das Gerät entpackt ist, sollte es sofort bereitgestellt werden, damit das Vorrichtungssystem vor dem Entpacken installiert werden sollte. Wenn Sie sich auf einem rollbaren Ständer zusammenschließen, sperren oder blockieren Sie die Lenkräder des Ständer vor dem Auspacken.
 >- Um Stolperrisiken zu vermeiden, halten Sie den Assemblybereich von Verpackungsmaterialien frei.
@@ -76,7 +76,7 @@ Zusätzliche Riemenmaterialien werden in dem kleinen Feld unter den Handschnalle
  ![Drehen des Verpackungsrahmens für die Anpassung an die Gerüste](images/hub85mount4a.png) <br>
 
 > [!NOTE]
-> Die Radpalette passt sich an den Inneren Frame an und kann während des gesamten Bereitstellungsprozesses der Installationswebsite verwendet werden. Inneres Ende des Rahmens aus Wood verfügt über gesprungene Platten.
+> Die Radpalette passt sich an den inneren Frame-Verpackungsbedarf an und kann während des gesamten Bereitstellungsprozesses der Installationswebsite verwendet werden. Inneres Ende des Rahmens aus Wood verfügt über gesprungene Platten.
  
 ## 5. Entfernen aus der Umhingung
 
@@ -89,7 +89,7 @@ Zusätzliche Riemenmaterialien werden in dem kleinen Feld unter den Handschnalle
 ## 6. Surface Hub 85" wieder auf der Palette platzieren
 
 1. Drehen Sie mithilfe des abschrägten Endes wieder auf die Palette.
-2. Radräder entsperren (x4).
+2. Radräder entsperrt (x4).
 3. Verschieben Sie das Produkt an die Position der Wand oder des Einkaufswagens.
 
  ![Surface Hub 85" wieder auf der Palette platzieren](images/hub85mount6a.png) <br>
@@ -112,7 +112,7 @@ Zusätzliche Riemenmaterialien werden in dem kleinen Feld unter den Handschnalle
    >  Lassen Sie Hub 2S 85" nicht unbeaufsichtigt. Eine zusätzliche Person wird benötigt, um das Gerät aufrecht zu halten. Nachdem die Endteile entfernt wurden, muss mindestens eine Person den Kontakt mit Hub 2S aufrecht erhalten, bis die Platzierung auf der Wandeinfassung oder im Einkaufswagen abgeschlossen ist.
 
 10. Heben Sie das Sperrbaumende nach oben und zurück.
-11. Entfernen Sie die Bumpbeschriftung von hinten.
+11. Entfernen Sie die Bezeichnung "Bump" von hinten.
 12. Heben Sie den Hub 2S vom unteren Schacht ab, und platzieren Sie es auf dem Einkaufswagen oder der Wandhalterung.
 
     > [!NOTE]
@@ -139,7 +139,7 @@ Surface Hub 2S 85" verwendet ein 600 x 600 VESA-Bereitstellungsmuster. Wie in de
 
 ### Abmessungen der Halterung
 
-Wenn Sie andere (Nicht-Steelcase)-Vorrichtungsoptionen verwenden, benötigen Sie Abstandhalter, um die Computeanlage auf der Rückseite des Geräts zu berücksichtigen. Abstandsgeräte und anderes zertifiziertes Zubehör sind bei [Designs von Designs von Designs erhältlich.](http://www.salamandercommercial.com/surface-hub-2)
+Wenn Sie andere (Nicht-Steelcase)-Vorrichtungsoptionen verwenden, benötigen Sie Abstandhalter, um die Computeanlage auf der Rückseite des Geräts zu berücksichtigen. Abstandsgeräte und anderes zertifiziertes Zubehör sind bei [Designs von Olesander erhältlich.](http://www.salamandercommercial.com/surface-hub-2)
 
 
 ![Details der Surface Hub 85"-Abmessungen für die Halterung](images/sh2-85-measure2.png) <br>
@@ -147,7 +147,7 @@ Wenn Sie andere (Nicht-Steelcase)-Vorrichtungsoptionen verwenden, benötigen Sie
 ![Surface Hub 85"-Abmessungen für die Halterung](images/sh2-85-measure1.png) <br>
 
 
-## Supplemental Strapping Kit
+## Ergänzendes Bänderkit
 
 Eine zusätzliche Gruppe von umreihenden Materialien für innere Verpackung befindet sich im Kit, das hinten rechts unten angefügt ist.
 
@@ -167,7 +167,7 @@ Eine zusätzliche Gruppe von umreihenden Materialien für innere Verpackung befi
 >- Krümmen Sie sich an Ihren Krümmungen, und halten Sie den Hintergrund gerade.
 >- Halten Sie die Einheit nah am Textkörper.
 >- Zentrieren Sie Ihren Text über der Einheit. Halten Sie die Fußbreite der Fußbreite auseinander.
->- Direkt nach oben heben.
+>- Gerade nach oben heben.
 >- Halten Sie Ihren Torso gerade; beim Anheben oder nach dem Aufheben der Last nicht verdrehen
 
 
@@ -189,7 +189,7 @@ Es liegt in der Verantwortung des Installationsprogramms, nicht gefundene Gefahr
 > **Tipprisiko**<br>
 > Um das Risiko von persönlichen Verletzungen, Schädigungen oder Schäden an einem Einkaufswagen/stand-mountierten Gerät zu vermeiden, wenn es verschoben wird:
 > - Verwenden Sie nur einen Einkaufswagen/Ständer, der mit diesem Gerät kompatibel ist.
->- Befolgen Sie alle Anweisungen des Herstellers von Einkaufswagen/Ständern, um ein stand-mounted Gerät zu verschieben oder zu verschieben.
+>- Befolgen Sie alle Anweisungen des Herstellers von Einkaufswagen/Ständern zum Verschieben oder Neuverlagerung eines bereitgestellten Geräts.
 >-  Legen Sie keine großen Objekte vom Gerät oder auf dem Einkaufswagen/Ständer ab oder platzieren Sie sie nicht.
 >-  Trennen Sie das Netzkabel und andere Kabel nach Bedarf vor dem Verschieben des Einkaufswagens bzw. des bereitgestellten Geräts. Gehen Sie vorsichtig vor, und bewegen Sie sich beim Bewegen des Einkaufswagens bzw. des bereitgestellten Geräts langsam. Befolgen Sie die Anweisungen des Herstellers für den Einkaufswagen/Stand zum Verschieben oder Neuverlagerung des Stands.
 >-  Vorsicht beim Transport eines Einkaufswagens/stand-mounted Geräts nach oben oder unten. Lassen Sie niemals ein Einkaufswagen-/stand-mountiertes Gerät unbeaufsichtigt auf oder in der Nähe einer Ramp.
@@ -198,7 +198,7 @@ Es liegt in der Verantwortung des Installationsprogramms, nicht gefundene Gefahr
 > [!CAUTION]
 > **Touchscreenglas**<br>
 Der Touchscreen auf dem Gerät ist wie die meisten Touchscreens aus Einemglas. Das Glas kann brechen, wenn das Gerät verworfen wird oder erhebliche Auswirkungen erhält. Um das Risiko persönlicher Verletzungen zu verringern, vermeiden Sie es, den Bildschirm zu berühren, wenn das Fenster beschädigt, gehackt oder gebrochen ist und so angeordnet ist, dass der Bildschirm ersetzt wird.
-Ein gehackter oder gehackter Touchscreen, der durch Missbrauch oder Missbrauch Ihres Geräts verursacht wird, wird nicht unter die eingeschränkte Garantie des Produkts fallen.
+Ein durch Missbrauch oder Missbrauch Ihres Geräts verursachter gehackter oder gehackter Touchscreen wird nicht unter die eingeschränkte Garantie des Produkts fallen.
 
 > [!WARNING]
 >  **Ordnungsgemäße Installation**<br>

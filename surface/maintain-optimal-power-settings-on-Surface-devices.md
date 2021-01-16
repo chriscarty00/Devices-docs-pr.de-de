@@ -1,6 +1,6 @@
 ---
-title: Bewährte Methoden für die Energieeinstellungen für Surface-Geräte
-description: In diesem Thema finden Sie Empfehlungen für bewährte Methoden zum Verwalten optimaler Energieeinstellungen und erläutern, wie die Oberfläche die Energieverwaltungsfunktionalität optimiert. Dieser Artikel bezieht sich auf alle derzeit unterstützten Surface-Geräte wie Surface pro 7, Surface pro X und Surface Laptop 3.
+title: Bewährte Energieeinstellungen für Surface-Geräte
+description: Dieses Thema enthält Empfehlungen zu bewährten Vorgehensweisen für die Aufrechterhaltung optimaler Energieeinstellungen und erläutert, wie Surface die Energieverwaltung optimiert. Dieser Artikel bezieht sich auf alle derzeit unterstützten Surface-Geräte, einschließlich Surface Pro 7+, Surface Pro 7, Surface Pro X und Surface Laptop 3.
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -11,122 +11,122 @@ ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.date: 10/28/2019
-ms.openlocfilehash: 73a74dc05a5a6929fa6360e04aac5d342b9c06a8
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 1/15/2021
+ms.openlocfilehash: 54aff228e8a72d413fc53bd14fe15d8ad7b15ab0
+ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832512"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "11271399"
 ---
-# Bewährte Methoden für die Energieeinstellungen für Surface-Geräte
+# Bewährte Energieeinstellungen für Surface-Geräte
 
-Surface-Geräte sind so konzipiert, dass Sie die neuesten Fortschritte beim Energieverbrauch von mobilen Geräten nutzen, um eine optimierte, Arbeits übergreifende Arbeitsauslastung zu gewährleisten. Je nachdem, was Sie gerade tun, wird in Surface dynamisch optimiert, wie die Leistung auf einzelne Hardwarekomponenten übertragen wird, indem Sie im Moment Systemkomponenten zur Behandlung von Hintergrundaufgaben-wie etwa einer eingehenden e-Mail oder einem Netzwerkdatenverkehr--durchlaufen, bevor Sie zu einem schwachen Leerlaufzustand (S0ix) zurückkehren.
+Surface Geräte sind so konzipiert, dass sie die neuesten Fortschritte beim Energieverbrauch mobiler Geräte nutzen, um eine optimierte Oberfläche für alle Workloads zu bieten. Je nachdem, was Sie tun, passt Surface dynamisch an, wie der Strom zu einzelnen Hardwarekomponenten fließt. Dabei werden systemkomponenten zur Verarbeitung von Hintergrundaufgaben (z. B. eingehender E-Mail- oder Netzwerkdatenverkehr) vor der Rückkehr zu einem niedrigen Energieleerzustand (S0ix) für einen Moment auf die Systemkomponenten aktualisiert.
 
 ## Zusammenfassung der Empfehlungen für IT-Administratoren
 
-Um sicherzustellen, dass Surface-Geräte in ihrer gesamten Organisation von den Funktionen zur Oberflächenenergie Optimierung voll profitieren:
+So stellen Sie sicher, dass surface-Geräte in Ihrer gesamten Organisation vollständig von den Features der Surface-Energieoptimierung profitieren:
 
--  Installieren Sie die neuesten Treiber und Firmware von Windows Update oder den Surface Driver und die MSI-Firmware. Dadurch wird standardmäßig der symmetrische Energiesparplan (aka Power Profile) erstellt und die optimalen Energieeinstellungen konfiguriert.  Weitere Informationen finden Sie unter [Verwalten und Bereitstellen von Oberflächen Treiber-und Firmware-Updates](manage-surface-driver-and-firmware-updates.md).
-- Vermeiden Sie das Erstellen benutzerdefinierter Energieprofile oder das Anpassen erweiterter Energieeinstellungen, die nicht in der Standardbenutzeroberfläche angezeigt werden (**System**  >  **Power & Sleep**).
-- Wenn Sie das Power Profile von Geräten im gesamten Netzwerk verwalten müssen (beispielsweise in stark verwalteten Organisationen), verwenden Sie das powercfg-Befehls Tool, um den Energiesparplan aus dem Factory-Abbild des Surface-Geräts zu exportieren und dann in das Bereitstellungspaket für Ihre Surface-Geräte zu importieren. 
+-  Installieren Sie die neuesten Treiber und Firmware von Windows Update oder surface Driver and Firmware MSI. Dadurch wird der Energieplan (auch als Energieprofil bezeichnet) standardmäßig erstellt und optimale Energieeinstellungen konfiguriert.  Weitere Informationen finden Sie unter Verwalten und Bereitstellen von Treiber- und [Firmwareupdates für Surface.](manage-surface-driver-and-firmware-updates.md)
+- Vermeiden Sie das Erstellen von benutzerdefinierten Energieprofilen oder das Anpassen erweiterter Energieeinstellungen, die nicht in der Standardbenutzeroberfläche angezeigt werden (**System**  >  **Power & Ruhezustand).**
+- Wenn Sie das Energieprofil von Geräten im Netzwerk verwalten müssen (z. B. in stark verwalteten Organisationen), verwenden Sie das Powercfg-Befehlstool, um den Energieplan aus dem Werksimage des Surface-Geräts zu exportieren und ihn dann in das Bereitstellungspaket für Ihre Surface-Geräte zu importieren. 
 
     >[!NOTE]
-    >Sie können einen Energiesparplan nur über die gleiche Art von Oberflächengerät exportieren.  So können Sie beispielsweise einen Energiesparplan nicht von Surface Laptop exportieren und auf Surface pro importieren.  Weitere Informationen finden Sie unter [Konfigurieren von Energieeinstellungen](https://docs.microsoft.com/windows-hardware/customize/power-settings/configure-power-settings).
+    >Sie können einen Energieplan nur über den gleichen Typ von Surface-Gerät exportieren.  Beispielsweise können Sie einen Energieplan nicht vom Surface Laptop exportieren und auf einem Computer Surface Pro.  Weitere Informationen finden Sie unter ["Energieeinstellungen konfigurieren".](https://docs.microsoft.com/windows-hardware/customize/power-settings/configure-power-settings)
 
-- Schließen Sie Oberflächen Geräte aus allen vorhandenen Energieverwaltungsrichtlinien Einstellungen aus. 
+- Schließen Sie die Geräte von Surface von vorhandenen Richtlinieneinstellungen für die Energieverwaltung aus. 
 
 ## Hintergrund
 
-Die Art und Weise, wie die Oberfläche die Energieverwaltung implementiert, unterscheidet sich erheblich vom früheren Betriebssystemstandard, der die Leistung durch eine Reihe von Sleep-Zuständen allmählich verringert und deaktiviert. Beispiel: Radfahren durch S1, S2, S3 usw.
+Die Art und Weise, wie Surface die Energieverwaltung implementiert, unterscheidet sich erheblich von dem früheren Betriebssystemstandard, der die Energie durch eine Reihe von Ruhezustandszuständen schrittweise reduziert und deaktiviert. Beispielsweise durch S1, S2, S3 und so weiter.
 
-Stattdessen wird Surface mit einem benutzerdefinierten Power profile-Feature abbildet, das die Legacy-Ruhezustands-und Energieverbrauchs Funktionen durch moderne standbyfunktionen und dynamische Feinabstimmung ersetzt. Dieses benutzerdefinierte Energieprofil wird über den Surface Serial-Hub-Treiber und das System-Aggregator-Modul (Sam) implementiert. Der Sam-Chip fungiert als Energierichtlinienbesitzer des Surface-Geräts und verwendet Algorithmen zur Berechnung des optimalen Energiebedarfs. Es funktioniert in Verbindung mit Windows Power Manager, um nur die für Hardwarekomponenten benötigte Energiemenge zuzuweisen oder zu drosseln. Dieser Artikel bezieht sich auf alle derzeit unterstützten Surface-Geräte wie Surface pro 7, Surface pro X und Surface Laptop 3.
+Surface wird stattdessen mit einem benutzerdefinierten Energieprofil abbilden, das ältere Funktionen für Ruhezustand und Energieverbrauch durch moderne Standbyfunktionen und dynamische Optimierung ersetzt. Dieses benutzerdefinierte Energieprofil wird über den Surface Serial Hub Driver und das Systemaggregatormodul (Sam) implementiert. Der SAM-Chip fungiert als Besitzer der Energierichtlinie des Surface-Geräts und verwendet Algorithmen, um optimale Energieanforderungen zu berechnen. In Verbindung mit Dem Windows Power Manager wird nur die genaue Energiemenge zugewiesen oder gedrosselt, die für die Funktion von Hardwarekomponenten erforderlich ist. Dieser Artikel bezieht sich auf alle derzeit unterstützten Surface-Geräte, einschließlich Surface Pro 7 und höher, Surface Laptop Go, Surface Pro 7, Surface Pro X und Surface Laptop 3.
 
 ## Verwenden des benutzerdefinierten Energieprofils in Surface
 
-Wenn Sie die Power-Optionen auf einem Surface-Gerät aufrufen, sehen Sie, dass ein einzelner Energiesparplan verfügbar ist. Dies ist das benutzerdefinierte Energieprofil. Und wenn Sie zu den erweiterten Energieeinstellungen wechseln, sehen Sie eine weitaus kleinere Teilmenge der Energieoptionen im Vergleich zu einem generischen PC mit Windows 10. Im Gegensatz zu generischen Geräten verfügt Surface über Firmware und benutzerdefinierte Komponenten, um diese Energieoptionen zu verwalten.
+Wenn Sie die Energieoptionen auf einem Oberflächengerät verwenden, werden Sie sehen, dass ein einzelner Energieplan verfügbar ist. Dies ist das benutzerdefinierte Energieprofil. Und wenn Sie zu den erweiterten Energieeinstellungen wechseln, sehen Sie im Vergleich zu einem generischen PC unter Windows 10 eine wesentlich kleinere Teilmenge der Energieoptionen. Im Gegensatz zu generischen Geräten verfügt Surface über Firmware und benutzerdefinierte Komponenten, um diese Energieoptionen zu verwalten.
 
 
 ## Moderner Standbymodus
 
-Das algorithmisch eingebettete benutzerdefinierte Power Profile ermöglicht moderne Standby-Konnektivität für Surface, indem ein Energiesparmodus für Instant-On/Instant-off-Funktionen, die für Smartphones typisch sind, beibehalten wird. S0ix, auch als tiefste Runtime Idle-Platt Form Status (Drips) bezeichnet, ist der standardmäßige Power Mode für Surface-Geräte. Moderner Standbymodus hat zwei Modi:
+Das algorithmisch eingebettete benutzerdefinierte Energieprofil ermöglicht eine moderne Standbyverbindung für Surface, indem ein niedriger Energiezustand für die für Smartphones typische Sofort-/Sofortbetriebsfunktionen beibehalten wird. S0ix, auch bekannt als DEEPS (Deepest Runtime Idle Platform State), ist der Standardmäßige Energiemodus für Surface-Geräte. Der moderne Standbymodus verfügt über zwei Modi:
 
-- **Verbundener Standbymodus.** Der Standardmodus für die aktuelle Zustellung von e-Mails, Nachrichten und Cloud-synchronisierten Daten, verbundener Standby-Modus sorgt für WLAN und verwaltet die Netzwerkverbindung.
+- **Verbundener Standbymodus.** Der Standardmodus für die minutenweise Zustellung von E-Mails, Nachrichten und cloudsynchronen Daten, verbundener Standbymodus, hält Wi-Fi und behält die Netzwerkkonnektivität bei.
 
-- **Nicht verbundener Standbymodus.** Ein optionaler Modus für längere Akkulaufzeit, nicht verbundener Standby-Modus sorgt für die gleiche spontane Nutzung und spart Strom, indem WLAN, Bluetooth und verwandte Netzwerkverbindungen ausgeschaltet werden.
+- **Getrennter Standbymodus.** Ein optionaler Modus für eine längere Akkulaufzeit, getrennter Standbymodus bietet die gleiche Sofortbetriebserfahrung und spart Energie durch Deaktivieren von WLAN, Bluetooth und zugehöriger Netzwerkkonnektivität.
 
-Weitere Informationen zum modernen Standby-Modus finden Sie im [Microsoft Hardware dev Center](https://docs.microsoft.com/windows-hardware/design/device-experiences/modern-standby-wake-sources).
+Weitere Informationen zum modernen Standbymodus finden Sie im [Microsoft Hardware Dev Center.](https://docs.microsoft.com/windows-hardware/design/device-experiences/modern-standby-wake-sources)
 
-## Optimierte Oberfläche für die Energieverwaltung 
+## Optimieren der Energieverwaltung durch Surface 
 
-Surface integriert die folgenden Features, die Benutzern dabei helfen sollen, die Energieverwaltungsfunktionalität zu optimieren:
+Surface integriert die folgenden Features, mit deren Hilfe Benutzer die Energieverwaltung optimieren können:
 
-- [Einzelner Energiesparplan](#singular-power-plan)
+- [Singular Power Plan](#singular-power-plan)
 
-- [Vereinfachte Benutzeroberfläche für Energieeinstellungen](#simplified-power-settings-user-interface)
+- [Benutzeroberfläche für vereinfachte Energieeinstellungen](#simplified-power-settings-user-interface)
 
-- [Windows-Leistungsstärke Regler](#windows-performance-power-slider)
+- [Windows-Leistungs-Power-Schieberegler](#windows-performance-power-slider)
 
-### Einzelner Energiesparplan
+### Singular Power Plan
 
-Surface wurde für eine optimierte Energie Verwaltungsumgebung entwickelt, die das Erstellen benutzerdefinierter Energiesparpläne oder das manuelle Konfigurieren von Energieeinstellungen entfällt. Microsoft optimiert die Benutzeroberfläche durch die Bereitstellungeines einzelnen Energiesparplans (Balanced), der die verschiedenen Energiesparpläne von standardmäßigen Windows-Builds ersetzt.
+Surface ist für eine optimierte Energieverwaltung ausgelegt, die das Erstellen benutzerdefinierter Energiepläne oder das manuelle Konfigurieren von Energieeinstellungen entfällt. Microsoft optimiert die Benutzerfreundlichkeit, indem ein einzelner Energieplan (ausgeglichen) zur Vererbung der verschiedenen Energiepläne aus standardmäßigen Windows-Builds erstellt wird.
 
-### Vereinfachte Benutzeroberfläche für Energieeinstellungen
+### Benutzeroberfläche für vereinfachte Energieeinstellungen
 
-Surface bietet eine vereinfachte Benutzeroberfläche in Übereinstimmung mit den Empfehlungen zur Energieeinstellung für bewährte Methoden. Im Allgemeinen empfiehlt es sich, nur die in der Standardbenutzeroberfläche sichtbaren Einstellungen anzupassen und die Konfiguration erweiterter Energieeinstellungen oder Gruppenrichtlinieneinstellungen zu vermeiden. Die Verwendung des standardmäßigen Bildschirms und der Sleep-Timeouts, wobei maximale Helligkeitswerte vermieden werden, sind die effektivste Möglichkeit für Benutzer, eine längere Akkulaufzeit beizubehalten.
+Surface bietet eine vereinfachte Benutzeroberfläche in Übereinstimmung mit empfehlungen für die Energieeinstellung mit bewährten Vorgehensweisen. Im Allgemeinen wird empfohlen, nur einstellungen anzupassen, die auf der Standardbenutzerschnittstelle angezeigt werden, und die Konfiguration erweiterter Energieeinstellungen oder Gruppenrichtlinieneinstellungen zu vermeiden. Die Verwendung der Standardtimeouts für Bildschirm und Ruhezustand bei gleichzeitiger Vermeidung von maximalen Helligkeitsstufen ist die effektivste Methode für Benutzer, um eine längere Akkulaufzeit auf sich zu nehmen.
 
-![Abbildung1. Vereinfachte Energie & Ruhezustandseinstellungen](images/powerintrofig1.png)
+![Abbildung1. Vereinfachte Einstellungen & Energiemodus](images/powerintrofig1.png)
 
-Abbildung1. Vereinfachte Energie-und Ruhezustandseinstellungen
+Abbildung1. Vereinfachte Energie- und Ruhezustandseinstellungen
 
-### Windows-Leistungsstärke Regler
+### Windows-Leistungs-Power-Schieberegler
 
-Surface-Geräte mit Windows 10 Build 1709 und höher verfügen über einen Power-Schieberegler, der es Ihnen ermöglicht, die Akkulaufzeit bei Bedarf zu priorisieren oder die Leistung bei Bedarf zu bevorzugen. Sie können über die Taskleiste auf den Power Slider zugreifen, indem Sie auf das Batteriesymbol klicken. Ziehen Sie nach links, um die Akkulaufzeit zu verlängern (Batteriesparmodus) oder nach rechts, um die Leistung zu beschleunigen.
+Surface-Geräte, auf denen Windows 10 Build 1709 und höher ausgeführt wird, verfügen über einen Netzschieberegler, mit dem Sie bei Bedarf die Akkulaufzeit priorisieren oder die Leistung bei Bedarf bevorzugen können. Sie können über die Taskleiste auf den Netzschieberegler zugreifen, indem Sie auf das Akkusymbol klicken. Ziehen Sie für eine längere Akkulaufzeit nach links (Stromsparmodus) oder ziehen Sie nach rechts, um eine schnellere Leistung zu erzielen.
 
-![Abbildung2. Power-Schieberegler](images/powerintrofig2a.png)
+![Abbildung2. Netzschieberegler](images/powerintrofig2a.png)
 
-Abbildung2. Power-Schieberegler
+Abbildung2. Netzschieberegler
 
-Der Power-Schieberegler aktiviert vier Zustände, wie in der folgenden Tabelle beschrieben:
+Der Netzschieberegler aktiviert vier Zustände, wie in der folgenden Tabelle beschrieben:
 
-| Slider-Modus| Beschreibung |
+| Schiebereglermodus| Beschreibung |
 |---|---|
-| Stromsparmodus| Hilft, Strom zu sparen und die Akkulaufzeit zu verlängern, wenn das System von einer Stromquelle getrennt wird. Wenn der Stromsparmodus aktiviert ist, sind einige Windows-Features deaktiviert, gedrosselt oder Verhalten sich anders. Die Bildschirmhelligkeit wird ebenfalls reduziert. Der Stromsparmodus steht nur zur Verfügung, wenn der Akku (DC) verwendet wird. Weitere Informationen finden Sie unter [Stromsparmodus](https://docs.microsoft.com/windows-hardware/design/component-guidelines/battery-saver).|
+| Stromsparmodus| Spart Energie und verlängert die Akkulaufzeit, wenn das System von einer Stromquelle getrennt ist. Wenn der Stromsparen aktiviert ist, sind einige Windows-Features deaktiviert, gedrosselt oder verhalten sich anders. Die Helligkeit des Bildschirms wird ebenfalls verringert. Der Stromsparen ist nur verfügbar, wenn der Akkustrom (DC) verwendet wird. Weitere Informationen finden Sie unter ["Stromsparen".](https://docs.microsoft.com/windows-hardware/design/component-guidelines/battery-saver)|
 | Empfohlen | Bietet eine längere Akkulaufzeit als die Standardeinstellungen in früheren Versionen von Windows. |
-| Bessere Leistung | Etwas begünstigt die Leistung über die Akkulaufzeit und funktioniert als standardmäßiger Schieberegler. |
-| Beste Leistung | Begünstigt die Leistung gegenüber Power für Arbeitslasten, die maximale Leistung und Reaktionsfähigkeit erfordern, unabhängig von der Stromaufnahme des Akkus.|
+| Bessere Leistung | Etwas bevorzugt die Leistung gegenüber der Akkulaufzeit, die als Standardschiebereglermodus funktioniert. |
+| Beste Leistung | Bevorzugt Leistung gegenüber Leistung für Workloads, die eine maximale Leistung und Reaktionsfähigkeit erfordern, unabhängig vom Akkuverbrauch.|
 
-Der Power Slider-Modus steuert direkt bestimmte Hardwarekomponenten, die in der folgenden Tabelle aufgeführt sind.
+Power Slider-Modi steuern direkt bestimmte Hardwarekomponenten, die in der folgenden Tabelle dargestellt sind.
 
-| Komponente | Slider-Funktionalität |
+| Komponente | Schiebereglerfunktionalität |
 |---|---|
-| Intel-Drehzahl Schicht (CPU-Energie Register) und Präferenz Hinweis für Energieleistung. | Wählt die beste Betriebsfrequenz und-Spannung für optimale Leistung und Leistung aus. Die Energy Performance-Einstellung (PERFEPP) ist ein globaler Energieeffizienz Hinweis für die CPU. |
-| Lüftergeschwindigkeit (RPM)| Passt sich gegebenenfalls den geänderten Bedingungen an, wie etwa das stumm halten des Lüfters im Batteriesparmodus.|
-| Leistungsgrenzwerte für Prozessor Pakete (PL1/pl2).| Erfordert, dass die CPU ihre Häufigkeits Auswahl verwaltet, um einen durchschnittlichen Leistungsgrenzwert für PL1-und Turbo (pl2)-Arbeitslasten zu erfüllen.|
-| Prozessor-turbofrequenz Grenzwerte (IA Turbo-Einschränkungen). | Stellt die Prozessor-und Grafikleistung so ein, dass Prozessorkerne schneller oder langsamer als die Nennbetriebs Häufigkeit ausgeführt werden können.                                                |
+| Intel Speed Shift (CPU Energy Registers) und Hinweise zur Energieleistungseinstellung. | Wählt für optimale Leistung und Leistung die beste Betriebshäufigkeit und -leistung aus. Die Energieleistungseinstellung (Energy Performance Preference, PERFEPP) ist ein globaler Hinweis zur Energieeffizienz für die CPU. |
+| Fächergeschwindigkeit (RPM)| Passt sich ggf. an geänderte Bedingungen an, z. B. das Automatische Halten des Fächers im Schiebereglermodus des Stromsparmodus.|
+| Prozessorpaket-Energielimits (PL1/PL2).| Erfordert, dass die CPU ihre Frequenzoptionen verwaltet, um einen laufenden durchschnittlichen Leistungsgrenzwert sowohl für Stabile Zustands- (PL1)- als auch für geschwindigkeitsgeladene Workloads (PL2) zu verwenden.|
+| Grenzwerte für die Prozessorfrequenz (IA-Grenzwerte). | Passt die Prozessor- und Grafikleistung an, sodass Prozessorkerne schneller oder langsamer als die bewertete Betriebshäufigkeit ausgeführt werden können.                                                |
 
 >[!NOTE]
->Der Power-Schieberegler ist völlig unabhängig von den Energieeinstellungen des Betriebssystems, unabhängig davon, ob Sie über die Systemsteuerung/Energieoptionen, Gruppenrichtlinien oder verwandte Methoden konfiguriert sind.
+>Der Netzschieberegler ist unabhängig von den Energieeinstellungen des Betriebssystems, unabhängig davon, ob er über die Systemsteuerung/Energieoptionen, Gruppenrichtlinien oder verwandte Methoden konfiguriert ist.
 
 Weitere Informationen finden Sie unter:
 
--   [Anpassen des Windows-Leistungsstärke Reglers](https://docs.microsoft.com/windows-hardware/customize/desktop/customize-power-slider)
+-   [Anpassen des Schiebereglers für die Leistung von Windows](https://docs.microsoft.com/windows-hardware/customize/desktop/customize-power-slider)
 
--   [Stromsparmodus.](https://docs.microsoft.com/windows-hardware/design/component-guidelines/battery-saver)
+-   [Stromsparen.](https://docs.microsoft.com/windows-hardware/design/component-guidelines/battery-saver)
 
 ## Bewährte Methoden für eine längere Akkulaufzeit
 
 
 | Bewährte Methode | Wechseln Sie zu | Nächste Schritte |
 |---|---|---|                                                                                                                                    
-| Sicherstellen, dass Ihr Surface-Gerät auf dem neuesten Stand ist| Windows Update | Geben Sie **Windows Update** in das Suchfeld der Taskleiste ein, und wählen Sie **auf Updates überprüfen**aus. |
-| Wählen Sie die optimale Energieeinstellung für das, was Sie gerade tun. | Power-Schieberegler | Wählen Sie in der Taskleiste das Akkusymbol aus, und wählen Sie dann **beste Leistung**, **optimale Akkulaufzeit**oder zwischendurch aus.|
-| Akku schonen, wenn er nicht zu klein ist | Stromsparmodus | Wählen Sie in der Taskleiste das Akkusymbol aus, und klicken Sie auf **Batterie Einstellungen**. Wählen Sie " **Stromsparmodus automatisch aktivieren" aus, wenn meine Batterie unter fällt** , und verschieben Sie dann den Schieberegler nach rechts, um die Akkulaufzeit zu verlängern. |
-| Konfigurieren der optimalen Bildschirmhelligkeit | Stromsparmodus | Wählen Sie in der Taskleiste das Akkusymbol aus, und klicken Sie auf **Batterie Einstellungen**, und wählen Sie **im Batteriesparmodus niedrigere Bildschirmhelligkeit**aus. |
-| Energie sparen, wenn Sie nicht angeschlossen sind | Stromsparmodus| Wählen Sie **den Status des Stromsparmodus bis zum nächsten Aufladen aktivieren**aus.|
-| Untersuchen Sie Probleme mit ihren Energieeinstellungen. | Power-Problembehandlung | Wählen Sie in der Taskleiste Suche nach Problembehandlung die Option **Problembehandlung**aus, und wählen Sie dann **Power** aus, und folgen Sie den Anweisungen.|
-| Überprüfen der APP-Verwendung | Ihre apps | Schließen Sie apps.|
-| Überprüfen Sie das Netzkabel auf eventuelle Schäden.| Ihr Netzkabel | Ersetzen Sie das Netzkabel, wenn es verschlissen oder beschädigt ist.|
+| Sicherstellen, dass Ihr Surface Gerät auf dem neuesten Stand ist| Windows Update | Geben Sie im Suchfeld der Taskleiste **Windows Update ein,** und wählen **Sie "Nach Updates suchen" aus.** |
+| Wählen Sie die beste Energieeinstellung für Ihre Arbeit aus. | Netzschieberegler | Wählen Sie in der Taskleiste das Akkusymbol aus, und wählen Sie dann **"Beste**Leistung", **"Beste Akkulaufzeit"** oder irgendwo dazwischen aus.|
+| Sparen von Akku bei niedrigem Akkustand | Stromsparmodus | Wählen Sie in der Taskleiste das Akkusymbol aus, und klicken Sie auf **"Akkueinstellungen".** Wählen **Sie "Stromsparen automatisch aktivieren"** aus, wenn mein Akku unter den Strom fällt, und bewegen Sie dann den Schieberegler für eine längere Akkulaufzeit weiter nach rechts. |
+| Konfigurieren der optimalen Bildschirmhelligkeit | Stromsparmodus | Wählen Sie in der Taskleiste das Akkusymbol aus, und klicken Sie auf **"Akkueinstellungen",** wählen Sie "Helligkeit des unteren Bildschirms" im **Stromsparmodus aus.** |
+| Energie sparen, wenn Sie nicht angeschlossen sind | Stromsparmodus| Wählen **Sie den Status "Stromsparen aktivieren" bis zum nächsten Ladezustand aus.**|
+| Untersuchen Sie Probleme mit Ihren Energieeinstellungen. | Energieproblemebehandlung | Wählen Sie in der Taskleistensuche nach Einer Problembehandlung die Option **"Problembehandlung"** aus, und wählen Sie dann **"Ein/Aus"** aus, und folgen Sie den Anweisungen.|
+| Überprüfen der App-Nutzung | Ihre Apps | Schließen Sie Apps.|
+| Überprüfen Sie Ihr Netzkabel auf Beschädigungen.| Ihr Netzkabel | Ersetzen Sie das Netzkabel, wenn es beschädigt oder beschädigt ist.|
 
 ## Mehr erfahren 
 
@@ -134,7 +134,7 @@ Weitere Informationen finden Sie unter:
 
 <!-- -->
 
-- [Anpassen des Windows-Leistungsstärke Reglers](https://docs.microsoft.com/windows-hardware/customize/desktop/customize-power-slider)
+- [Anpassen des Schiebereglers für die Leistung von Windows](https://docs.microsoft.com/windows-hardware/customize/desktop/customize-power-slider)
 
-- [Stromsparmodus](https://docs.microsoft.com/windows-hardware/design/component-guidelines/battery-saver)
+- [Stromsparen](https://docs.microsoft.com/windows-hardware/design/component-guidelines/battery-saver)
 - [Verwalten und Bereitstellen von Treiber- und Firmwareupdates für Surface](manage-surface-driver-and-firmware-updates.md)
