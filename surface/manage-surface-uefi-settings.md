@@ -12,17 +12,17 @@ ms.author: greglin
 ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
-ms.date: 01/15/2021
-ms.openlocfilehash: d8d47db3bd6f69783670b285a797337373e02d72
-ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
+ms.date: 01/25/2021
+ms.openlocfilehash: af9eac171dea5d29ce9776766a2c5842bea9eb8c
+ms.sourcegitcommit: 1b12ea363785697ddc705b0a0cc7bb35cad6b327
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "11271429"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "11300696"
 ---
 # Verwalten der Surface UEFI-Einstellungen
 
-Alle aktuellen und zukünftigen Generationen von Surface-Geräten verwenden eine eindeutige Unified Extensible Firmware Interface (UEFI), die von Microsoft speziell für diese Geräte entwickelt wurde. Surface -UEFI-Einstellungen bieten die Möglichkeit, integrierte Geräte und Komponenten zu aktivieren oder zu deaktivieren, die Änderung von UEFI-Einstellungen zu schützen und die Starteinstellungen des Surface-Geräts anzupassen. 
+ Surface -PC-Geräte sind für die Verwendung einer eindeutigen Unified Extensible Firmware Interface (UEFI) ausgelegt, die von Microsoft speziell für diese Geräte entwickelt wurde. Surface -UEFI-Einstellungen bieten die Möglichkeit, integrierte Geräte und Komponenten zu aktivieren oder zu deaktivieren, die Änderung von UEFI-Einstellungen zu schützen und die Starteinstellungen des Surface-Geräts anzupassen. 
 
 ## Unterstützte Produkte
 
@@ -32,7 +32,7 @@ Die Verwaltung der UEFI wird in folgenden Themen unterstützt:
 - Surface Laptop (1. Generation), Surface Laptop 2, Surface Laptop 3, Surface Laptop Go
 - Surface Studio (1. Generation), Surface Studio 2
 - Surface Book, Surface Book 2, Surface Book 3
-- Surface Go, Surface Go 2
+- Surface Go, Surface Go 2[ <sup> 1 </sup> ](#references)
 
 ## Unterstützung für cloudbasierte Verwaltung
 
@@ -227,6 +227,10 @@ Wenn Sie die Firmware für das Surface-Gerät mit Windows Update oder per manuel
 ![Surface-Startbildschirm mit dem Hinweis, dass die Option "Sicherer Start" deaktiviert wurde.](images/manage-surface-uefi-fig18.png "Surface boot screen that indicates Secure Boot has been disabled")
 
 *Abbildung 20. Surface-Startbildschirm mit dem Hinweis, dass die Option "Sicherer Start" in den Surface UEFI-Einstellungen deaktiviert wurde.*
+
+## Verweise
+
+1. Surface Go und Surface Go 2 verwenden UEFI eines Drittanbieters und unterstützen dfCI nicht. 
 
 ## Verwandte Themen
 
