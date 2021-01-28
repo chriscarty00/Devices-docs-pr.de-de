@@ -36,6 +36,7 @@
 ### [Bereitstellen von Apps für Surface Hub 2S mithilfe von Intune](surface-hub-2s-deploy-apps-intune.md)
 ### [Erstellen lokaler Konten für Surface Hub 2S mit PowerShell](surface-hub-2s-onprem-powershell.md)
 ### [Surface Hub Teams-App](hub-teams-app.md)
+### [Teams-zertifiziertes Zubehör für Surface Hub 2S](surface-hub-2s-certifications.md)
 
 ## Verwalten
 ### [Migrieren zu Windows 10 Pro oder Enterprise auf Surface Hub 2](surface-hub-2s-migrate-os.md)
