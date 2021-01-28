@@ -1,7 +1,7 @@
 ---
-title: System-SKU-Referenz (Surface)
-description: Siehe eine Referenz zu Systemmodell- und System-SKU-Namen.
-keywords: uefi, configure, firmware, secure, semm
+title: Referenz für Surface-System-SKU
+description: Siehe eine Referenz zu Systemmodell- und System-SKU-Namen für alle Surface-Geräte.
+keywords: uefi, configure, firmware, secure, semm, Autopilot
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.pagetype: surface, devices, security
@@ -9,23 +9,23 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 1/15/2021
+ms.date: 01/27/2021
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 2140faf346229842bffc4f9348041f4667b94686
-ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
+ms.openlocfilehash: 0fe13750e7e8c8188b52726c114a6b3668434d39
+ms.sourcegitcommit: 25b8d880c6438f94b008f47b4fecc3aa4c473e85
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "11271369"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "11304828"
 ---
-# Referenz zur System-SKU
+# Referenz für Surface-System-SKU
 
-Dieses Dokument enthält eine Referenz zu Systemmodell- und System-SKU-Namen, mit deren Hilfe Sie den Computerstatus eines bestimmten Geräts mithilfe von PowerShell oder WMI schnell ermitteln können.
+Dieses Dokument enthält eine Referenz, die für verschiedene IT-Aufgaben verwendet werden kann, z. B. das Registrieren von Surface-Geräten bei Windows Autopilot oder das Überprüfen des Computerzustands eines bestimmten Geräts mit PowerShell oder WMI.
 
-Systemmodell und System-SKU sind Variablen, die in den System management BIOS (SMBIOS)-Tabellen auf der UEFI-Ebene von Surface-Geräten gespeichert werden. Verwenden Sie den System-SKU-Namen, wenn Sie zwischen Geräten mit demselben Systemmodellnamen unterscheiden müssen, z. B. Surface Pro und Surface Pro LTE Advanced.
+Systemmodell und System-SKU sind Variablen, die in den Systemverwaltungs-BIOS -Tabellen (SMBIOS) auf der UEFI-Ebene von Surface-Geräten gespeichert werden. Verwenden Sie den System-SKU-Namen, wenn Sie zwischen Geräten mit demselben Systemmodellnamen unterscheiden müssen, z. B. Surface Pro und Surface Pro LTE Advanced.
 
 | Gerät   | Systemmodell | System-SKU       |
 | ---------- | ----------- | -------------- |
@@ -44,7 +44,7 @@ Systemmodell und System-SKU sind Variablen, die in den System management BIOS (S
 | Surface Go Consumer                                          | Surface Go       | Surface_Go_1824_Consumer         |
 | Surface Go Commercial                                        | Surface Go       | Surface_Go_1824_Commercial       |
 | Surface Go 2                                                 | Surface Go 2     | Surface_Go_2_1927                |
-| Surface Pro 6 Consumer                                       | Surface Pro 6    | Surface_Pro_6_1796_Consumer      |
+| Surface Pro 6 Verbraucher                                       | Surface Pro 6    | Surface_Pro_6_1796_Consumer      |
 | Surface Pro 6 Commercial                                     | Surface Pro 6    | Surface_Pro_6_1796_Commercial    |
 | Surface Laptop                                               | Surface Laptop   | Surface_Laptop                   |
 | Surface Laptop 2 Consumer                                    | Surface Laptop 2 | Surface_Laptop_2_1769_Consumer   |
@@ -81,3 +81,8 @@ Sie können die System-SKU-Informationen im Microsoft Deployment Toolkit (MDT) o
     - WMI Namespace – Root\WMI
     - WQL Query – SELECT * FROM MS_SystemInformation WHERE SystemSKU = "Surface_Pro_1796"
  ``` 
+
+## Weitere Informationen
+
+- [Referenz zu WMI](https://docs.microsoft.com/windows/win32/wmisdk/wmi-reference)
+- [Surface-Registrierungsunterstützung für Windows-Autopilot](surface-autopilot-registration-support.md)

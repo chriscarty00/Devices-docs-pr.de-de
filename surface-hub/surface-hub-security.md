@@ -9,18 +9,18 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 03/27/2020
+ms.date: 01/26/2021
 ms.localizationpriority: High
-ms.openlocfilehash: f6022c4fd16cd8afbbea892e73ad831f12b10eaa
-ms.sourcegitcommit: ac34f0ec1a9df74ea688bf0da2a51fadf5139a41
+ms.openlocfilehash: 446166618161fc54a77bab94b2d61ad85359a082
+ms.sourcegitcommit: 25b8d880c6438f94b008f47b4fecc3aa4c473e85
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "10934855"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "11304848"
 ---
 # Sicherheitsübersicht für Surface Hub
 
-Surface Hub bietet eine gesperrte Computing-Appliance mit benutzerdefinierter Platt Form Firmware, auf denen das Betriebssystem Windows 10 ausgeführt wird. Das daraus resultierende Gerät nimmt die traditionelle Philosophie des "sicheren Einwegkiosks", "nur das ausführen, was Sie brauchen", auf und liefert eine moderne Sichtweise darauf. Der Surface Hub wurde zur Unterstützung der Zusammenarbeit der Benutzer entwickelt und ist gegen die sich ständig weiterentwickelnden Sicherheitsbedrohungen geschützt.
+Surface Hub bietet eine gesperrte Appliance-übliche Oberfläche mit benutzerdefinierter Plattformfirmware, auf der das Windows 10 Team-Betriebssystem ausgeführt wird. Das daraus resultierende Gerät nimmt die traditionelle Philosophie des "sicheren Einwegkiosks", "nur das ausführen, was Sie brauchen", auf und liefert eine moderne Sichtweise darauf. Der Surface Hub wurde zur Unterstützung der Zusammenarbeit der Benutzer entwickelt und ist gegen die sich ständig weiterentwickelnden Sicherheitsbedrohungen geschützt.
 
 Das auf Windows 10 basierende Sufrace Hub bietet moderne Sicherheit auf Unternehmensniveau, die IT-Administratoren das Erzwingen des Datenschutzes durch BitLocker, Trusted Platform Module 2.0 (TPM) und Cloud-basierte Sicherheit mit Windows Defender (auch bekannt als Microsoft Defender) ermöglicht.
 
@@ -28,7 +28,7 @@ Das auf Windows 10 basierende Sufrace Hub bietet moderne Sicherheit auf Unterneh
 
 Die Sicherheitsprotokolle starten, sobald Surface Hub eingeschaltet ist. Von der Firmware-Ebene ausgehend, lädt Surface Hub das Betriebssystem und seine Komponenten nur als Reaktion auf mehrere Sicherheitsprüfungen. Surface Hub setzt eine Strategie namens "Defense in Depth" (tiefgreifende Abwehr) ein, die die Überlagerung unabhängiger defensiver Unterkomponenten umfasst, um das gesamte System bei Teilfehlern zu schützen. Diese Branchenpraxis hat sich als äußerst effektiv erwiesen, um potenziellen einseitigen Exploits und Schwachstellen in Unterkomponenten entgegenzuwirken.
 
-Das moderne Unified Extensible Firmware Interface (UEFI) ist statisch und sicher von Microsoft konfiguriert, um nur ein authentifiziertes Windows 10-Team Betriebssystem vom internen Speicher zu booten.  Jede Codezeile, die auf dem Surface Hub läuft, wird vor der Ausführung auf ihre Signatur überprüft. Nur Anwendungen, die von Microsoft signiert wurden, entweder als Teil des Betriebssystems oder über den Microsoft Store installiert sind, können auf dem Surface Hub ausgeführt werden. Code oder Apps, die diese Anforderungen nicht erfüllen, werden blockiert.
+Die moderne Unified Extensible Firmware Interface (UEFI) wird von Microsoft statisch und sicher so konfiguriert, dass nur ein authentifiziertes Windows 10 -Team-Betriebssystem aus dem internen Speicher gestartet wird.  Jede Codezeile, die auf dem Surface Hub läuft, wird vor der Ausführung auf ihre Signatur überprüft. Nur Anwendungen, die von Microsoft signiert wurden, entweder als Teil des Betriebssystems oder über den Microsoft Store installiert sind, können auf dem Surface Hub ausgeführt werden. Code oder Apps, die diese Anforderungen nicht erfüllen, werden blockiert.
 
 Zu den Sicherheitssystemen von Surface Hub gehören:
 

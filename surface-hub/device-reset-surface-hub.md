@@ -1,10 +1,10 @@
 ---
-title: Zurücksetzen oder Wiederherstellen eines Surface-Hubs
-description: Beschreibt die Zurücksetzungs-und Wiederherstellungsprozesse für den Surface Hub und enthält Anweisungen.
+title: Zurücksetzen oder Wiederherstellen eines Surface Hub
+description: Beschreibt die Zurücksetzungs- und Wiederherstellungsprozesse für den Surface Hub und enthält Anweisungen.
 ms.assetid: 44E82EEE-1905-464B-A758-C2A1463909FF
 ms.reviewer: ''
 manager: laurawi
-keywords: Oberflächen Nabe zurücksetzen, wiederherstellen
+keywords: Zurücksetzen von Surface Hub, Wiederherstellen
 ms.prod: surface-hub
 ms.sitesec: library
 author: dansimp
@@ -12,119 +12,122 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 07/31/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: 1c8d8b6d89ec1a20550b7aa13c82c73a239c3965
-ms.sourcegitcommit: d0a5c8fb2b37eb11858c7be4549e55c4b36d7471
+ms.openlocfilehash: 73c7cf5a387bf7506bb69f62100171df4d94ad2d
+ms.sourcegitcommit: 25b8d880c6438f94b008f47b4fecc3aa4c473e85
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "11104817"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "11304818"
 ---
-# Zurücksetzen oder Wiederherstellen eines Surface-Hubs
+# Zurücksetzen oder Wiederherstellen eines Surface Hub
 
-In diesem Artikel wird beschrieben, wie Sie einen Microsoft Surface-Hub zurücksetzen oder wiederherstellen.  
+In diesem Artikel wird das Zurücksetzen oder Wiederherstellen eines Microsoft Surface beschrieben.  
 
-[Beim Zurücksetzen des Surface-Hubs](#reset-a-surface-hub) wird sein Betriebssystem auf das letzte kumulative Windows-Update zurückgesetzt, und alle lokalen Benutzer Dateien und Konfigurationsinformationen werden entfernt. Die Informationen, die entfernt werden, umfassen Folgendes:
+[Beim Zurücksetzen des Surface Hub](#reset-a-surface-hub) wird das Betriebssystem auf das letzte kumulative Windows Update zurückgegeben, und alle lokalen Benutzerdateien und Konfigurationsinformationen werden entfernt. Die entfernten Informationen umfassen Folgendes:
 
 - das Gerätekonto
 - Kontoinformationen für die lokalen Administratoren des Geräts
-- Domain-Join-oder Azure AD-Join-Informationen
-- Informationen zur Mobile Device Management (MDM)-Registrierung
-- Konfigurationsinformationen, die mithilfe von MDM oder der Einstellungs-APP festgesetzt wurden
+- Domänen- oder Azure AD-Join-Informationen
+- Registrierungsinformationen zur mobilen Geräteverwaltung (Mobile Device Management, MDM)
+- Konfigurationsinformationen, die mithilfe von MDM oder der App "Einstellungen" festgelegt wurden
 
-Wenn Sie [einen Surface-Hub aus der Cloud wiederherstellen](#recover-a-surface-hub-from-the-cloud) , werden diese Informationen ebenfalls entfernt. Darüber hinaus downloadet der Surface Hub ein neues Betriebssystemabbild und installiert es. Sie können angeben, ob beim Wiederherstellungsvorgang andere Informationen beibehalten werden sollen, die auf dem Surface Hub gespeichert sind.
+[Durch das Wiederherstellen eines Surface Hub aus der Cloud](#recover-a-surface-hub-from-the-cloud) werden diese Informationen ebenfalls entfernt. Darüber hinaus lädt der Surface Hub ein neues Betriebssystemimage herunter und installiert es. Sie können angeben, ob beim Wiederherstellungsprozess andere Informationen beibehalten werden, die auf dem Surface Hub gespeichert sind. Dasselbe Betriebssystemimage wird vom [Surface Hub Recovery Tool](surface-hub-recovery-tool.md) verwendet, wenn Sie einen Surface Hub wiederherstellen müssen, für den keine dieser Optionen verwendet werden kann.
 
-## Zurücksetzen eines Surface-Hubs
+## Zurücksetzen eines Surface Hub
 
-Möglicherweise müssen Sie den Surface-Hub aus folgenden Gründen zurücksetzen:
+Möglicherweise müssen Sie den Surface Hub aus folgenden Gründen zurücksetzen:
 
-- Sie purposing das Gerät erneut für einen neuen Besprechungsraum und möchten es neu konfigurieren.
+- Sie löschen das Gerät für einen neuen Besprechungsraum neu und möchten es neu konfigurieren.
 - Sie möchten die lokale Verwaltung des Geräts ändern.
-- Der Benutzername oder das Kennwort für das Geräte Konto oder das Administrator Konto ging verloren.
-- Nachdem Sie ein Update installiert haben, sinkt die Leistung des Geräts.
+- Der Benutzername oder das Kennwort für das Gerätekonto oder das Administratorkonto ist verloren gegangen.
+- Nach der Installation eines Updates nimmt die Leistung des Geräts ab.
 
-Wenn während des Reset-Vorgangs ein leerer Bildschirm für längere Zeit angezeigt wird, warten Sie bitte, und nehmen Sie keine Aktion vor.
+Wenn während des Zurücksetzens für längere Zeit ein leerer Bildschirm angezeigt wird, warten Sie, und ergreifen Sie keine Aktion.
 
 > [!WARNING]
-> Der Geräte Zurücksetzungsvorgang kann bis zu sechs Stunden dauern. Schalten Sie den Surface Hub erst ab, wenn Sie den Vorgang beenden. Wenn Sie den Vorgang unterbrechen, wird das Gerät nicht mehr funktionsfähig. Das Gerät erfordert Gewährleistungs Service, um wieder funktionsfähig zu werden.
+> Der Zurücksetzen des Geräts kann bis zu sechs Stunden dauern. Deaktivieren oder trennen Sie den Surface Hub erst, wenn der Prozess abgeschlossen ist. Wenn Sie den Vorgang unterbrechen, ist das Gerät nicht mehr funktionsfähig. Das Gerät erfordert einen Garantiedienst, um wieder funktionsfähig zu werden.
 
 1. Öffnen Sie **Einstellungen** auf dem Surface Hub.
 
-   ![Abbildung mit der Einstellungs-APP für Surface Hub](images/sh-settings.png)
+   ![Abbildung der Einstellungs-App für Surface Hub.](images/sh-settings.png)
 
-1. Wählen Sie **Update & Security**aus.
+2. Wählen **Sie "Update & Security" aus.**
 
-   ![Abbildung, die das Update & Sicherheitsgruppe in der Einstellungs-APP für Surface Hub zeigt.](images/sh-settings-update-security.png)
+   ![Abbildung der Gruppe "Update & Security" in der App "Einstellungen" für Surface Hub.](images/sh-settings-update-security.png)
 
-1. Wählen Sie **Wiederherstellen**aus, und wählen Sie dann unter **Gerät zurücksetzen**die Option **Erste Schritte**aus.
+3. Wählen **Sie "Wiederherstellung"** aus, und wählen Sie dann unter **"Gerät zurücksetzen"** die Option **"Erste Schritte" aus.**
 
-   ![Abbildung, die die Option "Gerät zurücksetzen" in der Einstellungs-APP für Surface Hub zeigt.](images/sh-settings-reset-device.png)
+   > [!IMPORTANT]
+   > Stellen Sie sicher, dass Ihr BitLocker-Schlüssel verfügbar ist, bevor Sie das Gerät zurücksetzen, da Sie später dazu aufgefordert werden. Weitere Informationen finden Sie unter ["Speichern des BitLocker-Schlüssels".](save-bitlocker-key-surface-hub.md) Wenn der Hub mit der Wiederherstellungspartition neu startet, werden Sie zur Eingabe des BitLocker-Schlüssels aufgefordert. Wenn Sie diese Eingabeaufforderung überspringen, kann die Zurücksetzung fehlschlagen.
+   
+   ![Abbildung der Option "Gerät zurücksetzen" in der App "Einstellungen" für Surface Hub.](images/sh-settings-reset-device.png)
 
-   Nachdem der Zurücksetzungsvorgang abgeschlossen ist, startet der Surface-Hub das [erste Ausführungsprogramm](first-run-program-surface-hub.md) erneut. Wenn der Reset-Prozess auf ein Problem stößt, wird der Surface-Hub wieder auf das zuvor vorhandene Betriebssystembild gerollt und dann der Begrüßungsbildschirm angezeigt.
+   Nach Abschluss des Zurücksetzungsprozesses startet Surface Hub das Programm für die [erste Ausführung](first-run-program-surface-hub.md) erneut. Wenn beim Zurücksetzen ein Problem besteht, wird der Surface Hub wieder auf das zuvor vorhandene Betriebssystemimage zurückgesetzt, und dann wird die Willkommensbildschirm angezeigt.
 
 <span id="cloud-recovery" />
 
 ## Wiederherstellen von Surface Hub-Gerät aus der Cloud
 
-Wenn der Surface-Hub aus irgendeinem Grund unbrauchbar wird, können Sie ihn weiterhin ohne Unterstützung durch den Microsoft-Support aus der Cloud wiederherstellen. Mit dem Surface Hub können Sie ein neues Betriebssystemabbild aus der Cloud herunterladen und dieses Bild verwenden, um das Betriebssystem neu zu installieren.
+Wenn der Surface Hub aus einem bestimmten Grund nicht mehr verwendet werden kann, können Sie ihn ohne Unterstützung des Microsoft Support weiterhin aus der Cloud wiederherstellen. Surface Hub kann ein neues Betriebssystemimage aus der Cloud herunterladen und dieses Image verwenden, um das Betriebssystem neu zu installieren.
 
-Möglicherweise müssen Sie diese Art des Wiederherstellungsprozesses unter den folgenden Umständen verwenden:
+Unter den folgenden Umständen müssen Sie diese Art von Wiederherstellungsprozess möglicherweise verwenden:
 
-- [Der Surface-Hub oder die zugehörigen Konten haben einen instabilen Zustand eingegeben.](#recover-a-surface-hub-in-a-bad-state)
-- [Der Surface-Hub ist gesperrt](#recover-a-locked-surface-hub)
+- [Der Surface Hub oder die zugehörigen Konten sind in einen instabilen Zustand bzw.](#recover-a-surface-hub-in-a-bad-state)
+- [Surface Hub ist gesperrt](#recover-a-locked-surface-hub)
 
 >[!IMPORTANT]
->Der Prozess " **Wiederherstellen aus der Cloud** " erfordert eine Kabelverbindung, die eine offene Internetverbindung (keine Proxy-oder andere Authentifizierungs Aufforderungen) bereitstellt.
+>Für **die Wiederherstellung aus dem Cloudprozess** ist eine kabelgebundene Verbindung erforderlich, die eine offene Internetverbindung (kein Proxy oder andere Authentifizierungsaufforderungen) bietet.
 
 ### Wiederherstellen von Surface Hub in einem fehlerhaften Zustand
 
-Wenn das Geräte Konto in einen instabilen Zustand gelangt oder wenn beim Administratorkonto Probleme auftreten, können Sie die app "Einstellungen" verwenden, um den Cloud-Wiederherstellungsprozess zu starten. Sie sollten den Cloud-Wiederherstellungsprozess nur verwenden, wenn das Problem durch das [Zurücksetzen des Geräts](#reset-a-surface-hub) nicht behoben wird.
+Wenn das Gerätekonto instabil wird oder beim Administratorkonto Probleme auftreten, können Sie den Cloudwiederherstellungsprozess mithilfe der App "Einstellungen" starten. Sie sollten den Cloudwiederherstellungsprozess nur verwenden, [wenn](#reset-a-surface-hub) das Problem beim Zurücksetzen des Geräts nicht behoben wird.
 
-1. Wählen Sie auf dem Surface Hub die Option **Einstellungen** &gt; **Aktualisieren & Security** &gt; **Recovery**aus.
+1. Wählen Sie auf dem Surface Hub **"Einstellungen** &gt; **aktualisieren" & Sicherheitswiederherstellung** &gt; **aus.**
 
-1. Wählen Sie unter **aus der Cloud wiederherstellen die**Option **jetzt neu starten**aus.
+2. Wählen **Sie unter "Aus Der Cloud wiederherstellen"** die Option **"Jetzt neu starten" aus.**
 
    ![Aus der Cloud wiederherstellen](images/recover-from-the-cloud.png)
 
 ### Wiederherstellen eines gesperrten Surface Hub-Geräts
 
-In seltenen Fällen kann für einen Surface Hub ein Fehler auftreten, während am Ende einer Sitzung Benutzer- und App-Daten bereinigt werden. In diesem Fall wird das Gerät automatisch neu gestartet und versucht, den Vorgang erneut auszuführen. Wenn dieser Vorgang jedoch wiederholt fehlschlägt, sperrt das Gerät automatisch, um Benutzerdaten zu schützen. Wenn Sie die Sperre aufheben möchten, müssen Sie [das Gerät zurücksetzen](#reset-a-surface-hub) oder, falls das nicht funktioniert, es aus der Cloud wiederherstellen.
+In seltenen Fällen kann für einen Surface Hub ein Fehler auftreten, während am Ende einer Sitzung Benutzer- und App-Daten bereinigt werden. In diesem Fall wird das Gerät automatisch neu gestartet und versucht, den Vorgang erneut zu starten. Wenn dieser Vorgang jedoch wiederholt fehlschlägt, wird das Gerät automatisch gesperrt, um Benutzerdaten zu schützen. Um es zu entsperren, müssen Sie das [Gerät](#reset-a-surface-hub) zurücksetzen oder, falls dies nicht funktioniert, es aus der Cloud wiederherstellen.
 
-1. Suchen Sie den Netzschalter an der Unterkante des Surface Hub. Der Netzschalter befindet sich neben dem Netzkabel. Weitere Informationen zum Netzschalter finden Sie im [Readiness-Leitfaden zur Surface Hub-Website (PDF)](surface-hub-site-readiness-guide.md).
+1. Suchen Sie den Netzschalter unten im Surface Hub. Der Netzschalter befindet sich neben der Netzkabelverbindung. Weitere Informationen zum Netzschalter finden Sie im [Surface Hub Site Readiness Guide (PDF).](surface-hub-site-readiness-guide.md)
 
-1. Wenn der Surface-Hub den Begrüßungsbildschirm anzeigt, verwenden Sie den Netzschalter, um den Surface Hub zu deaktivieren.
+2. Während der Surface Hub den Willkommensbildschirm anzeigt, verwenden Sie den Netzschalter, um den Surface Hub zu deaktivieren.
 
-1. Verwenden Sie den Netzschalter, um den Surface Hub wieder einzuschalten. Das Gerät wird gestartet, und der Bildschirm des Surface Hub-Logos wird angezeigt. Wenn sich drehende Punkte unterhalb des Surface Hub-Logos befinden, verwenden Sie den Netzschalter, um den Surface Hub wieder zu deaktivieren.  
+3. Verwenden Sie den Netzschalter, um den Surface Hub wieder zu aktivieren. Das Gerät wird gestartet und zeigt den Surface Hub-Logo-Bildschirm an. Wenn unter dem Surface Hub-Logo Sich drehende Punkte angezeigt werden, deaktivieren Sie den Surface Hub mithilfe des Netzschalters erneut.  
 
-1. Wiederholen Sie den Schritt 3 3 Mal, oder bis der Surface-Hub die Meldung "Automatische Reparatur wird vorbereitet" anzeigt. Nachdem diese Meldung angezeigt wird, zeigt der Surface-Hub den Windows RE-Bildschirm an.
+4. Wiederholen Sie Schritt 3 dreimal, oder bis surface Hub die Meldung "Vorbereiten der automatischen Reparatur" anzeigt. Nachdem diese Meldung angezeigt wurde, zeigt der Surface Hub den Windows RE-Bildschirm an.
 
-1. Wählen Sie **Erweiterte Optionen**aus.
+5. Wählen Sie **erweiterte Optionen aus.**
 
-1. Wählen Sie **in der Cloud wiederherstellen aus**. (Optional können Sie " **Zurücksetzen**" auswählen. Die **Wiederherstellung aus der Cloud** ist jedoch die empfohlene Vorgehensweise.)
+6. Wählen Sie **"Aus der Cloud wiederherstellen" aus.** (Optional können Sie **"Zurücksetzen" auswählen.** Es wird **jedoch empfohlen, die Wiederherstellung** aus der Cloud zu verwenden.)
 
    ![Wiederherstellen aus der Cloud](images/recover-from-cloud.png)
-1. Wenn Sie aufgefordert werden, den BitLocker-Schlüssel einzugeben, führen Sie eine der folgenden Aktionen aus:
+7. Wenn Sie zur Eingabe des Bitlocker-Schlüssels aufgefordert werden, gehen Sie wie folgt vor:
 
-   - Wenn Sie die Informationen beibehalten möchten, die BitLocker auf dem Surface-Hub schützt, geben Sie den BitLocker-Schlüssel ein.
-   - Wenn Sie die geschützten Informationen verwerfen möchten, wählen Sie **dieses Laufwerk überspringen** aus.  
+   - Um die Informationen zu erhalten, die Bitlocker auf dem Surface Hub schützt, geben Sie den Bitlocker-Schlüssel ein.
+   - Um die geschützten Informationen zu verwerfen, wählen **Sie "Dieses Laufwerk überspringen" aus.**  
 
-1. Wenn Sie dazu aufgefordert werden, wählen Sie **erneut installieren**aus.
+8. Wenn Sie dazu aufgefordert werden, wählen Sie **"Neu installieren" aus.**
 
     ![Neuinstallation](images/reinstall.png)
 
-1. Wenn Sie den Datenträger neu partitionieren möchten, wählen Sie **Ja**aus.
+9. Wählen Sie "Ja" aus, um den Datenträger neu **zupartitionieren.**
 
    ![Neu partitionieren](images/repartition.png)
 
-   Zunächst downloadet der Wiederherstellungsvorgang das Betriebssystemabbild aus der Cloud.  
+   Zunächst lädt der Wiederherstellungsprozess das Betriebssystemimage aus der Cloud herunter.  
 
    ![Wird heruntergeladen: 97&](images/recover-progress.png)
 
-   Wenn der Download abgeschlossen ist, stellt der Wiederherstellungsprozess den Surface-Hub entsprechend den von Ihnen ausgewählten Optionen wieder her.
+   Wenn der Download abgeschlossen ist, stellt der Wiederherstellungsprozess den Surface Hub entsprechend den von Ihnen ausgewählten Optionen wieder bereit.
    
 
 ## Hilfe und Support zu Windows
 
-Wenn Sie Fragen haben oder Hilfe benötigen, können Sie [eine Supportanfrage erstellen](https://support.microsoft.com/supportforbusiness/productselection).
+Wenn Sie Fragen haben oder Hilfe benötigen, können [Sie eine Supportanfrage erstellen.](https://support.microsoft.com/supportforbusiness/productselection)
 
 
 ## Verwandte Themen
