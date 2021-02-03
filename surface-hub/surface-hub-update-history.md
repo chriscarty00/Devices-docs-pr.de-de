@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: ad4de8a154e1169eb0beb08685a3c6a75056b94d
-ms.sourcegitcommit: 1b86286bd13b13749ddbf454ae78d9a24fec44ee
+ms.openlocfilehash: 28f6f844818a00078f2efa812da8bdd7dc28b115
+ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "11271082"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "11311991"
 ---
 # Surface Hub-Updateverlauf
 
@@ -28,6 +28,15 @@ We'll be refreshing this page as new updates are released, so stay tuned for the
 Auf der Seite "Wichtige Informationen zu[Surface Hub"](https://support.microsoft.com/products/surface-devices/surface-hub)finden Sie verwandte Themen zu aktuellen und früheren Versionen, die Ihre Aufmerksamkeit erfordern können.
 
 ## Windows 10 Team 2020 Update (20H2)
+
+<details>
+<summary>15. Januar 2021 – Update für Surface Hub 2S</summary>
+
+Dieses Update gilt speziell für Surface Hub 2S und stellt die unten beschriebenen Treiber- und Firmwareupdates zur Verfügung:
+
+* Surface SMC Firmware Update - 3.93.139.0
+* Surface UEFI update - 694.3473.768.0
+</details>
 
 <details>
 <summary>11. Dezember 2020 – Update für Surface Hub 2S</summary>

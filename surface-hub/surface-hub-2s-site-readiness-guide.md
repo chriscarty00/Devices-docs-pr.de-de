@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 12/18/2019
 ms.localizationpriority: Medium
-ms.openlocfilehash: 0a619b6ede98f2cd2fa1322c142ba56e1357413a
-ms.sourcegitcommit: 00b6b59bd110633b6ae46345a592b72d68cc5121
+ms.openlocfilehash: 0c27cfbff26bdb72135151cb579e2b6eac4d0b08
+ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "11255696"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "11311981"
 ---
 # Surface Hub 2S Site Readiness Guide
 
@@ -24,7 +24,8 @@ ms.locfileid: "11255696"
 |:-------|:-------|
 | [Standortplanung für Surface Hub 2S](surface-hub-2s-site-planning.md) | Überprüfen Sie Raumüberlegungen und planen Sie Peripheriegeräte. |
 | [Schnellstart: Surface Hub 2S](surface-hub-2s-quick-start.md) | Hier erhalten Sie eine Übersicht über die erforderlichen Schritte zum Entpacken und Starten von Surface Hub 2S. |
-| [Installieren und Einbinden von Surface Hub 2S](surface-hub-2s-install-mount.md) | Erfahren Sie mehr über lizenziertes Zubehör zum Installieren und Mounten von Surface Hub 2S. |
+| [Installieren und Montieren von Surface Hub 2S](surface-hub-2s-install-mount.md) | Erfahren Sie mehr über lizenziertes Zubehör zum Installieren und Mounten von Surface Hub 2S. |
+| [Verschieben und Behandeln von Surface Hub 2S 85"](hub-move.md) | Erfahren Sie mehr über das sichere sichere Verschieben von Surface Hub 2S 85" in einen kommerziellen Raum.  |
 | [Installieren und Mounten von Surface Hub 2S 85"](surface-hub-2s-install-mount.md) | Lesen Sie die empfohlenen Anleitungen für die Installation von Surface Hub 2S 85". |
 | [Anpassen der Installation von Surface Hub 2S](surface-hub-2s-custom-install.md) | Erfahren Sie, wie Sie eine benutzerdefinierte Installation ohne lizenziertes Zubehör installieren.|
 | [Surface Hub 2S-Anschlüsse und Tastaturübersicht](surface-hub-2s-port-keypad-overview.md) | Hier finden Sie Details zu E/A-Ports und Netz- und Auswahlsteuerelementen für die Tastatur. |
