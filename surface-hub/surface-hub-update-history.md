@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 28f6f844818a00078f2efa812da8bdd7dc28b115
-ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
+ms.openlocfilehash: b26351fa822f1c3bc8933578902ea304581f5e6f
+ms.sourcegitcommit: 040dffc996fa5be0d93103b5093748c8d919679e
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 02/03/2021
-ms.locfileid: "11311991"
+ms.locfileid: "11312711"
 ---
 # Surface Hub-Updateverlauf
 
@@ -28,6 +28,20 @@ We'll be refreshing this page as new updates are released, so stay tuned for the
 Auf der Seite "Wichtige Informationen zu[Surface Hub"](https://support.microsoft.com/products/surface-devices/surface-hub)finden Sie verwandte Themen zu aktuellen und früheren Versionen, die Ihre Aufmerksamkeit erfordern können.
 
 ## Windows 10 Team 2020 Update (20H2)
+
+<details>
+<summary>Februar 2021 – Update für Team basierend auf KB4598291* (Betriebssystem Build 19042.789)</summary>
+
+Dieses Update für Surface Hub enthält Qualitätsverbesserungen und Sicherheitsfixes. Wichtige Updates für Surface Hub, die noch nicht im [Windows 10-Updateverlauf](https://support.microsoft.com/help/4581839/windows-10-update-history)beschrieben sind, umfassen:
+
+* Behebung eines Problems, der die Kalendersynchronisierung mit Exchange ermöglicht, wenn der UPN des Gerätekontos nicht dem SMTP entspricht.
+* Fügt Administratoren die Möglichkeit hinzu, die Verwendung der modernen Authentifizierung während der Kalendersynchronisierung mit Exchange zu deaktivieren.
+* Stellt sicher, dass Surface Hub-Benutzer nicht zur Eingabe von Proxyanmeldeinformationen aufgefordert werden, nachdem das Feature "Gerätekontoanmeldeinformationen verwenden" aktiviert wurde.
+* Behebt ein Problem, bei dem Windows Update- und Store-Updateüberprüfungen niemals abgeschlossen wurden, wenn ein Proxy verwendet wird, der eine Authentifizierung erfordert.
+* Verbessert die Zuverlässigkeit der Connect-App bei Szenarien mit verkabelter Aufnahme.
+
+Informationen zum Aktivieren/Deaktivieren von Gerätefeatures und -diensten finden Sie im Surface Hub-Administratorhandbuch. [](https://docs.microsoft.com/surface-hub/) *[KB4598291](https://support.microsoft.com/help/4598291)
+</details>
 
 <details>
 <summary>15. Januar 2021 – Update für Surface Hub 2S</summary>
