@@ -12,12 +12,15 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 02/01/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 36c6010307603b36b8798a09aed26f8b337b2c1b
-ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
+appliesto:
+- Surface Hub
+- Surface Hub 2S
+ms.openlocfilehash: c76ac577c1560020bf865a25d4a812343089013a
+ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "11311951"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "11314438"
 ---
 # Administratorgruppenverwaltung für Surface Hub
 
@@ -32,7 +35,7 @@ Sie können Administratorkonten für das Gerät auf folgende Weise einrichten:
 - [Erstellen eines lokalen Administratorkontos](#create-a-local-admin-account)
 - [Domänen join the device to Active Directory](#domain-join-the-device-to-active-directory)
 - [Azure AD join the device](#azure-ad-join-the-device)
-- [Konfigurieren von nicht globalen Administratorkonten auf geräten, die mit Azure AD verbunden sind (Surface Hub 2S)](#configure-non-global-admin-accounts-on-azure-ad-joined-devices)
+- [Konfigurieren von nicht globalen Administratorkonten auf Geräten, die Azure AD beigetreten sind (Surface Hub 2S)](#configure-non-global-admin-accounts-on-azure-ad-joined-devices)
 
 
 ### Erstellen eines lokalen Administratorkontos
@@ -51,7 +54,7 @@ Surface Hubs verwenden Domänenbeitritte zu folgenden Zwecken:
 - Sichern des BitLocker-Wiederherstellungsschlüssels des Geräts durch dessen Speicherung unter dem Computerobjekt in Active Directory Details hierzu finden Sie unter [Speichern des BitLocker-Schlüssels](save-bitlocker-key-surface-hub.md).
 - Synchronisieren der Systemuhr mit dem Domänencontroller für verschlüsselte Kommunikation
 
-Surface Hub unterstützt die Anwendung von Gruppenrichtlinien oder Zertifikaten aus dem Domänencontroller nicht.
+Surface Hub unterstützt das Anwenden von Gruppenrichtlinien oder Zertifikaten vom Domänencontroller nicht.
 
 > [!NOTE]
 > Wenn der Surface Hub die Vertrauensstellung mit der Domäne verliert (wenn Sie z.B. den Surface Hub nach dem Domänenbeitritt aus der Domäne entfernen), können Sie sich nicht beim Gerät authentifizieren und keine Einstellungen öffnen. Wenn Sie die Vertrauensstellung des Surface Hub mit Ihrer Domäne entfernen möchten, [müssen Sie zuerst das Gerät zurücksetzen](device-reset-surface-hub.md).
@@ -90,6 +93,6 @@ Wenn Ihre Organisation AD oder Azure AD verwendet, empfehlen wir entweder einen 
 | &nbsp;                                            | Ihre Organisation verwendet Azure AD Premium oder Enterprise Mobility Suite (EMS). | Globale Administratoren und zusätzliche Administratoren |
 
 
-### Konfigurieren von nicht globalen Administratorkonten auf Geräten, die mit Azure AD verbunden sind
+### Konfigurieren von nicht globalen Administratorkonten auf Geräten, die Azure AD beigetreten sind
 
 Für Surface Hub 2S-Geräte, die mit Azure AD verbunden sind, können Sie mit Windows 10 Team 2020 Update die Administratorberechtigungen auf die Verwaltung der App "Einstellungen" auf Surface Hub 2S beschränken. Auf diese Weise können Sie administratorberechtigungen nur für Surface Hub 2S festlegen und potenziell unerwünschten Administratorzugriff auf eine gesamte Azure AD-Domäne verhindern. Weitere Informationen finden Sie unter ["Konfigurieren von nicht globalen Administratorkonten auf Surface Hub 2S".](surface-hub-2s-nonglobal-admin.md)

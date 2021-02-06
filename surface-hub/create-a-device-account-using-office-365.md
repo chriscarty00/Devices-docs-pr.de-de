@@ -1,10 +1,10 @@
 ---
-title: Erstellen eines Gerätekontos mithilfe der UI (Surface Hub)
+title: Erstellen eines Gerätekontos mithilfe der Benutzeroberfläche (Surface Hub v1)
 description: Wenn Sie lieber eine grafische Benutzeroberfläche verwenden möchten, können Sie ein Gerätekonto für Microsoft Surface Hub entweder mit der Office 365-UI oder mit dem Exchange Admin Center erstellen.
 ms.assetid: D11BCDC4-DABA-4B9A-9ECB-58E02CC8218C
 ms.reviewer: ''
 manager: laurawi
-keywords: Erstellen eines Geräte Kontos, Office 365 UI, Exchange Admin Center, Microsoft 365 Admin Center, Skype for Business, Postfachrichtlinie für mobile Geräte
+keywords: Erstellen eines Gerätekontos, Office 365 UI, Exchange Admin Center, Microsoft 365 Admin Center, Skype for Business, Postfachrichtlinie für mobile Geräte
 ms.prod: surface-hub
 ms.sitesec: library
 author: dansimp
@@ -12,22 +12,24 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 05/04/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: e1f82f084103d4eef942e812c5e4f0e8bf425def
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 9e6d72dc2b36bb149ee09c2edab885c80e60ac14
+ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834075"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "11314468"
 ---
-# Erstellen eines Gerätekontos mithilfe der UI (Surface Hub)
+# Erstellen eines Gerätekontos mithilfe der Benutzeroberfläche (Surface Hub v1)
 
+ > [!NOTE]
+ >Diese Seite enthält Informationen zum ursprünglichen Surface Hub (v1). Informationen zu Surface Hub 2S finden Sie unter [Erstellen des Surface Hub 2S-Gerätekontos.](surface-hub-2s-account.md)
 
 Wenn Sie lieber eine grafische Benutzeroberfläche verwenden möchten, können Sie ein Gerätekonto für Microsoft Surface Hub entweder mit der [Office 365-UI](#create-device-acct-o365) oder mit dem [Exchange Admin Center](#create-device-acct-eac) erstellen.
 
 ## <a href="" id="create-device-acct-o365"></a>Erstellen eines Gerätekontos mithilfe von Office 365
 
 
-1.  [Erstellen Sie das Konto im Microsoft 365 Admin Center](#create-device-acct-o365-admin-ctr).
+1.  [Erstellen Sie das Konto im Microsoft 365 Admin Center.](#create-device-acct-o365-admin-ctr)
 2.  [Erstellen einer Postfachrichtlinie für mobile Geräte (ActiveSync) über das Microsoft Exchange Admin Center](#create-device-acct-o365-mbx-policy)
 3.  [Abschließen der Gerätekontoerstellung mit PowerShell](#create-device-acct-o365-complete-acct)
 4.  [Konfigurieren der Exchange-Eigenschaften des Kontos mit PowerShell](#create-device-acct-o365-configure-exch-prop)
@@ -35,14 +37,14 @@ Wenn Sie lieber eine grafische Benutzeroberfläche verwenden möchten, können S
 
 ### <a href="" id="create-device-acct-o365-admin-ctr"></a>Erstellen des Kontos im Admin Center
 
-1.  Wenn Sie sich bei Office 365 anmelden, besuchen Siehttps://portal.office.com
-2.  Geben Sie die Administratoranmeldeinformationen für den Office 365-Mandanten an. Damit gelangen Sie zu Ihrem Microsoft 365 Admin Center.
+1.  Melden Sie sich bei Office 365 an, indem Sie https://portal.office.com
+2.  Geben Sie die Administratoranmeldeinformationen für den Office 365-Mandanten an. Dadurch werden Sie zu Ihrem Microsoft 365 Admin Center iert.
 
-    ![Microsoft 365 Admin Center](images/setupdeviceaccto365-02.png)
+    ![Microsoft 365 Admin Center.](images/setupdeviceaccto365-02.png)
 
-3. Navigieren Sie im Admin Center zu **Ressourcen** im linken Bereich, und klicken Sie dann auf **Räume & Geräte**.
+3. Navigieren Sie im Admin **** Center im linken Bereich zu "Ressourcen", und klicken Sie dann auf "Räume" **& Gerät**.
 
-    ![Option "Räume & Ausstattung" im Admin Center](images/room-equipment.png)
+    ![Räume & Geräteoption im Admin Center](images/room-equipment.png)
 
 4. Klicken Sie auf **Hinzufügen**, um ein neues Raumkonto zu erstellen. Geben Sie einen Anzeigenamen und eine E-Mail-Adresse für das Konto ein, und klicken Sie dann auf **Hinzufügen**.
 
@@ -54,9 +56,9 @@ Wenn Sie lieber eine grafische Benutzeroberfläche verwenden möchten, können S
 
 ### <a href="" id="create-device-acct-o365-mbx-policy"></a>Erstellen einer Postfachrichtlinie für mobile Geräte (ActiveSync) über das Exchange Admin Center
 
-1.  Klicken Sie im linken Bereich des Admin Centers auf **Administrator**und dann auf **Exchange**.
+1.  Klicken Sie im linken Bereich des Admin Centers auf **ADMIN**, und klicken Sie dann auf **Exchange**.
 
-    ![Admin Center mit Exchange-aktiven Benutzern](images/setupdeviceaccto365-08.png)
+    ![Admin Center mit aktiven Exchange-Benutzern.](images/setupdeviceaccto365-08.png)
 
 2.  Dadurch wird eine weitere Registerkarte in Ihrem Browser geöffnet, über die Sie zum Exchange Admin Center gelangen, wo Sie die Postfacheinstellung für Surface Hub erstellen und festlegen können.
 
@@ -82,11 +84,11 @@ Ab hier müssen Sie den Vorgang zur Kontoerstellung mithilfe von PowerShell absc
 
 Um von diesen PowerShell-Skripts verwendete Cmdlets auszuführen, muss Folgendes für die PowerShell-Verwaltungskonsole installiert werden:
 
--   [Microsoft Online Services-Anmelde Assistent für IT-Experten RTW](https://www.microsoft.com/download/details.aspx?id=41950)
+-   [Microsoft Online Services Sign-In Assistent für IT-Experten RTW](https://www.microsoft.com/download/details.aspx?id=41950)
 -   [Windows Azure Active Directory-Modul für Windows PowerShell](https://www.microsoft.com/web/handlers/webpi.ashx/getinstaller/WindowsAzurePowershellGet.3f.3f.3fnew.appids)
 -   [Skype for Business Online, Windows PowerShell-Modul](https://www.microsoft.com/download/details.aspx?id=39366)
 
-Installieren des folgenden Moduls in PowerShell
+Installieren des folgenden Moduls in Powershell
 ``` syntax
     install-module AzureAD
     Install-module MsOnline
@@ -197,10 +199,10 @@ Aktivieren Sie das Gerätekonto mit Skype for Business.
 
 Zum Aktivieren von Skype for Business muss Ihre Umgebung folgende Voraussetzungen erfüllen:
 
--   Sie müssen Skype for Business Online Standalone Plan 2 oder höher in Ihrem Office 365-Plan haben. Der Plan muss Konferenzfunktionen unterstützen.
--   Wenn Sie Enterprise-VoIP (PSTN-Telefonie) mithilfe von Telefoniedienstanbieter für den Surface Hub benötigen, benötigen Sie den Standalone-Plan 3 von Skype for Business Online.
+-   Sie benötigen Skype for Business Online Eigenständig Plan 2 oder höher in Ihrem O365-Plan. Der Plan muss Konferenzfunktionen unterstützen.
+-   Wenn Sie eine Enterprise-VoIP (PSTN-Telefonie) mithilfe von Telefoniedienstanbietern für den Surface Hub benötigen, benötigen Sie Skype for Business Online Eigenständig, Plan 3.
 -   Die Mandantenbenutzer müssen über Exchange-Postfächer verfügen.
--   Ihr Surface Hub-Konto erfordert einen eigenständigen Skype for Business Online-Plan 2 oder eine Skype for Business Online Standalone Plan 3-Lizenz, es ist jedoch keine Exchange Online-Lizenz erforderlich.
+-   Für Ihr Surface Hub-Konto ist eine Skype for Business Online Standalone Plan 2- oder Skype for Business Online Standalone Plan 3-Lizenz erforderlich, es ist jedoch keine Exchange Online-Lizenz erforderlich.
 
 1.  Beginnen Sie mit dem Erstellen einer Remote-PowerShell-Sitzung von einem PC aus.
 
@@ -225,7 +227,7 @@ Zum Aktivieren von Skype for Business muss Ihre Umgebung folgende Voraussetzunge
 ## <a href="" id="create-device-acct-eac"></a>Erstellen eines Gerätekontos mithilfe von Exchange Admin Center
 
 >[!NOTE]
->Diese Methode funktioniert nur, wenn Sie die Synchronisierung von einem lokalen Active Directory aus durchführt.
+>Diese Methode funktioniert nur, wenn Sie eine Synchronisierung von einem lokalen Active Directory aus erstellen.
 
 Sie können das Exchange Admin Center zum Erstellen eines Gerätekontos verwenden:
 
@@ -248,7 +250,7 @@ Sie können das Exchange Admin Center zum Erstellen eines Gerätekontos verwende
 ### <a href="" id="create-device-acct-exch-mbx-policy"></a>Erstellen einer Postfachrichtlinie für mobile Geräte aus dem Exchange Admin Center
 
 >[!NOTE]
->Wenn Sie dem erstellten Konto eine Richtlinie erstellen und zuweisen möchten und Exchange 2010 verwenden, lesen Sie die entsprechenden Informationen zur Richtlinienerstellung und Richtlinienzuweisung, wenn Sie die Exchange-Verwaltungskonsole verwenden.
+>Wenn Sie dem erstellten Konto eine Richtlinie erstellen und zuweisen möchten und Exchange 2010 verwenden, suchen Sie die entsprechenden Informationen zur Richtlinienerstellung und -zuweisung, wenn Sie die EMC (Exchange Management Console) verwenden.
 
  
 
@@ -314,7 +316,7 @@ Nachdem Sie mit den Onlinediensten verbunden sind, können Sie die Einrichtung d
 
     Die richtige E-Mail-Adresse wird angezeigt.
 
-2.  Sie müssen das Konto in ein Raumpostfach konvertieren, damit Sie Folgendes ausführen können:
+2.  Sie müssen das Konto in ein Raumpostfach konvertieren. Führen Sie daher dies aus:
 
     ``` syntax
     Set-Mailbox $strEmail -Type Room
@@ -357,12 +359,12 @@ Aktivieren Sie das Gerätekonto mit Skype for Business.
 
 Zum Aktivieren von Skype for Business muss Ihre Umgebung folgende Voraussetzungen erfüllen:
 
--   Sie müssen Skype for Business Online Standalone Plan 2 oder höher in Ihrem Office 365-Plan haben. Der Plan muss Konferenzfunktionen unterstützen.
--   Wenn Sie Enterprise-VoIP (PSTN-Telefonie) mithilfe von Telefoniedienstanbieter für den Surface Hub benötigen, benötigen Sie den Standalone-Plan 3 von Skype for Business Online.
--   Die Mandantenbenutzer müssen über Exchange-Postfächer verfügen.
--   Ihr Surface Hub-Konto erfordert einen eigenständigen Skype for Business Online-Plan 2 oder eine Skype for Business Online Standalone Plan 3-Lizenz, es ist jedoch keine Exchange Online-Lizenz erforderlich.
+- Sie benötigen Skype for Business Online Eigenständig Plan 2 oder höher in Ihrem O365-Plan. Der Plan muss Konferenzfunktionen unterstützen.
+- Wenn Sie eine Enterprise-VoIP (PSTN-Telefonie) mit Telefoniedienstanbietern für den Surface Hub benötigen, benötigen Sie Skype for Business Online Eigenständig, Plan 3.
+- Die Mandantenbenutzer müssen über Exchange-Postfächer verfügen.
+- Für Ihr Surface Hub-Konto ist eine Skype for Business Online Standalone Plan 2- oder Skype for Business Online Standalone Plan 3-Lizenz erforderlich, es ist jedoch keine Exchange Online-Lizenz erforderlich.
 
-1.  Beginnen Sie mit dem Erstellen einer Remote-PowerShell-Sitzung von einem PC aus.
+1. Beginnen Sie mit dem Erstellen einer Remote-PowerShell-Sitzung von einem PC aus.
 
     ```PowerShell
     Import-Module SkypeOnlineConnector
@@ -370,23 +372,16 @@ Zum Aktivieren von Skype for Business muss Ihre Umgebung folgende Voraussetzunge
     Import-PSSession $cssess -AllowClobber
     ```
 
-2. Abrufen des Surface Hub-Konto registrierungspools
+2. Abrufen des Surface Hub-Kontoregistrierungspools
 
 Wenn Sie sich nicht sicher sind, welcher Wert für den `RegistrarPool` -Parameter in Ihrer Umgebung verwendet werden soll, können Sie den Wert aus einem vorhandenen Skype for Business-Benutzer mit diesem Cmdlet abrufen:
 
-    ```PowerShell
+ ```PowerShell
     Get-CsOnlineUser -Identity ‘alice@contoso.microsoft.com’| fl *registrarpool*
-    ```
-    
+ ```
+
 3. Um Ihr Surface Hub-Konto für Skype for Business Server zu aktivieren, führen Sie dieses Cmdlet aus:
 
    ```PowerShell
    Enable-CsMeetingRoom -Identity $strEmail -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
-
-    
-
-
-
-
-

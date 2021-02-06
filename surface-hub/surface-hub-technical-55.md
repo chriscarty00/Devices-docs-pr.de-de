@@ -1,8 +1,8 @@
 ---
-title: Technische Informationen zu 55 "Surface Hub
+title: Technische Informationen für den 55"-Surface Hub (v1)
 ms.reviewer: ''
 manager: laurawi
-description: Spezifikationen für den 55 "Surface Hub
+description: Spezifikationen für den 55"-Surface Hub (v1)
 ms.prod: surface-hub
 ms.sitesec: library
 author: dansimp
@@ -10,149 +10,151 @@ ms.author: dansimp
 ms.topic: article
 ms.localizationpriority: medium
 ms.date: 12/21/2020
-ms.openlocfilehash: e321b64ebbbc62da70cfdc1979053ee8facb7235
-ms.sourcegitcommit: e83316c8b5e3c29b0af0730ef05fd8b96b0d0cdd
+appliesto:
+- Surface Hub
+ms.openlocfilehash: 5d0c88b1e0b7fdd0f144a7ee641dcab7599c68a1
+ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "11238090"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "11314448"
 ---
-# Technische Informationen zu 55 "Surface Hub
+# Technische Informationen für den 55"-Surface Hub (v1)
 
 |
 --- | ---
-Preise | Ab $8.999 
-Size |  31,75 "x 59,62" x 3,38 "(806.4 mm x 1514.3 mm x 85.8 mm)
+Preise | Ab 8.999 USD 
+Size |  31,75 "x 59,62" x 3,38" (806,4 mm x 1514,3 x 85,8 mm)
 Speicher/RAM | SSD 128 GB mit 8 GB RAM
-Prozessor | Intel® Core™ i5 der vierten Generation 
+Prozessor | Intel® 4. Generation Core™ i5 
 Grafiken |  Intel® HD 4600 
-Anschlüsse | **Interner PC**<br>• (1) USB 3,0 (unten) + (1) USB 3,0 (seitlicher Zugriff) <br>• (2) USB 2,0<br>• Ethernet 1000 Base-T<br>• DisplayPort <br>• Video Ausgang<br>• 3,5-mm-Stereo-Ausgang<br>• RJ11-Stecker für Steuerung auf Systemebene<br>**Alternativer PC**<br>• (2) USB 2,0 Typ B-Ausgang<br>• Anschluss für Kamera, Sensoren, Mikrofon, Lautsprecher<br>• (1) DisplayPort-Video Eingang<br>**Gast-PC**<br>• DisplayPort-Video Eingang<br>• HDMI-Video Eingang<br>• VGA-Video Eingang<br>• 3,5-mm-Stereo-Eingang<br>• (1) USB 2,0 Typ B Touchback™ Ausgabe
-Sensoren |   (2) passive Infrarot-Anwesenheitssensoren, Umgebungslichtsensoren 
-Lautsprecher |  (2) Stereolautsprecher mit Front Verkleidung 
-Mikrofon |    Hochleistungs-Array mit 4 Elementen 
-Kamera |    (2) Weitwinkel-HD-Kameras 1080p @ 30 bps 
-Stift  | (2) powered, Active, Subpixel-Genauigkeit 
-Physikalische seitliche Schaltflächen | Power, Eingangsauswahl, Lautstärke, Helligkeit 
+Anschlüsse | **Interner PC**<br>• (1) USB 3.0 (unten) + (1) USB 3.0 (Seitenzugriff) <br>• (2) USB 2.0<br>• Ethernet 1000 Base-T<br>• DisplayPort <br>• Videoausgabe<br>• 3,5 mm Stereo out<br>• RJ11-Verbinder für Die Steuerung auf Systemebene<br>**Alternativer PC**<br>• (2) USB 2.0 Typ B-Ausgabe<br>• Verbindung für Kamera, Sensoren, Mikrofon, Lautsprecher<br>• (1) DisplayPort Video Input<br>**Gast-PC**<br>• DisplayPort Video Input<br>• HDMI-Video-Eingabe<br>• VGA Video Input<br>• 3,5-mm-Stereoeingabe<br>• (1) USB 2.0 Typ B Touchback™ Ausgabe
+Sensoren |   (2) Passive Infrarot-Anwesenheitssensoren, Umgebungslichtsensoren 
+Lautsprecher |  (2) Nach vorne gerichtete Stereolautsprecher 
+Mikrofon |    Hochleistungsarray mit vier Elementen 
+Kamera |    (2) Weitwinkel-HD-Kameras 1080p @ 30fps 
+Stift  | (2) Genauigkeit der unterstützten, aktiven Subpixel 
+Physische Seitentasten | Energie, Eingabeauswahl, Lautstärke, Helligkeit 
 Software |  Windows 10 + Office (Word, PowerPoint, Excel) 
-Inhalt des Felds | • Surface Hub 55 "<br>• (2) Surface-Hub-Stifte<br>• Netzkabel<br>• Einrichtungsleitfaden<br>• Leitfaden starten<br>• Sicherheits-und Gewährleistungs Unterlagen<br>• Drahtlose all-in-One-Tastatur
-Befestigungs Funktionen   | 4X VESA-Standard, 400mm x 400mm Plus 1150mm x 400mm-Muster, 8x M6 x 1,0 Gewindemontage stellen
-Anzeigehöhe vom Boden   | Empfohlene Höhe von 55 Zoll (139,7 cm) zur Bildschirmmitte
-Produktgewicht |    Ca. 105 lb (47,6 kg) ohne Zubehör
-Produktversand Gewicht  | Ca. 150 lb (68 kg)
-Product Dimensions HxBxT |  31,63 x 59,62 x 3,2 Zoll (80,34 x 151,44 x 8,14 cm)
-Produktversand Dimensionen HxBxT | 43 x 65 x 20 Zoll (109 x 165 x 51 cm)
-Produktstärke   | Touch-Oberfläche auf Befestigungsfläche: ≤ 2,4 Zoll (6 cm)
+Was ist im Feld? | • Surface Hub 55"<br>• (2) Surface Hub-Stifte<br>• Netzkabel<br>• Einrichtungshandbuch<br>• Starthandbuch<br>• Dokumente zu Sicherheit und Garantie<br>• Drahtlose All-in-One-Tastatur
+Einbaufeatures   | 4X VESA Standard, 400 x 400mm plus 1150mm x 400mm-Muster, 8X M6 X 1,0-Thread-Halterungsstandorte
+Höhe des Bodens anzeigen   | Empfohlene Höhe von 55 Zoll (139,7 cm) bis Bildschirmmitte
+Produktgewichtung |    Ungefähr. 105 Lb. (47,6kg) ohne Zubehör
+Gewichtung des Produktversands  | Gewicht. 150 Lb. (68 kg)
+Produktabmessungen HxWxD |  31,63 x 59,62 x 3,2 Zoll (80,34 x 151,44 x 8,14 cm)
+Produktversandabmessungen HxWxD | 43 x 65 x 20 Zoll (109 x 165 x 51 cm)
+Produktstärke   | Touchoberfläche zur Halterung: ≤ 2,4 Zoll (6 cm)
 Ausrichtung  | Nur Querformat. Die Anzeige kann nicht im Hochformat verwendet werden.
 BTU  | 1706 BTU/h
 Bildauflösung |  1920 x 1080
 Bildfrequenz |    120Hz
-EDID bevorzugte Anzeigedauer, Ersatz-PC | 1920 x 1080, 120Hz vertikal aktualisieren
-EDID-bevorzugte Anzeigedauer, kabelgebundene Verbindung |  1920 x 1080, 60Hz vertikal aktualisieren
-Eingangsspannung | (50/60Hz) 110/230V, max. 90 265V
-Eingangsleistung, Betrieb |    500W Max
-Eingangsspannung, Standby    |   5W nominal
+EDID bevorzugter Timing, Ersatz-PC | Vertikale Aktualisierung mit 1920 x 1080 120 Hz
+EDID bevorzugte Zeitsteuerung, kabelgebundene Verbindung |  Vertikale Aktualisierung mit 1920 x 1080 60 Hz
+Eingaben werden nicht verwendet | (50/60Hz) 110/230v nominal, 90-265v max
+Eingabeleistung, Betrieb |    Max. 500W
+Eingabeleistung, Standby    |   5W nominal
 
 
 > [!NOTE]
-> Surface Hub kann kontinuierlich für maximal 18 Stunden pro Tag verwendet werden. Um die Effizienz zu optimieren, verwendet Surface Hub intelligente Sensoren, um den LED-Bildschirm zu deaktivieren, wenn die Anwesenheit nicht mehr erkannt wird, was bedeutet, dass Sie am Ende des Tages keine Stromversorgung mehr benötigen. Wenn das Gerät in einem 24-Stunden-Arbeitsumfeld installiert ist, können die Sensoren deaktiviert werden, um die maximale Nutzungs Empfehlung von 18 Stunden pro Tag zu erfüllen. Beachten Sie, dass eine längere Anzeige eines Videosignals dazu führen kann, dass die verbrannte oder Bild Aufbewahrung auf dem Bildschirm auftritt. Weitere Informationen zum Verwalten von Energieeinstellungen finden Sie unter:
+> Surface Hub kann maximal 18 Stunden am Tag kontinuierlich verwendet werden. Zur Optimierung der Effizienz verwendet Surface Hub intelligente Sensoren, um den LED-Bildschirm zu deaktivieren, wenn die Anwesenheit nicht mehr erkannt wird, was bedeutet, dass es nicht mehr nötig ist, den Bildschirm am Ende des Tages auszuschalten. Wenn die Einheit in einer 24-Stunden-Arbeitsumgebung installiert ist, können die Sensoren deaktiviert werden, um die maximale Nutzungsempfehlung von 18 Stunden pro Tag zu erfüllen. Beachten Sie, dass eine längere Anzeige eines Videosignals dazu führen kann, dass ein Video ein- oder bildaufbewahrung auf dem Bildschirm auftritt. Weitere Informationen zum Verwalten von Energieeinstellungen finden Sie unter:
 >
 > - [Lokale Verwaltung von Surface Hub-Einstellungen](local-management-surface-hub-settings.md)
-> - [SurfaceHub CSP – Windows-Client Verwaltung](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
+> - [SurfaceHub CSP – #A0](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
 
 ## Ersatz-PC-Verbindungen 
 
-Verbinder und Speicherort | Label | Beschreibung
+Connector und Standort | Label | Beschreibung
 --- | --- | ---
-Schalter, untere e/a | ![](images/switch.png) | Wechselt die Funktion zwischen dem internen PC oder einem externen PC.
-Anzeige Anschluss, untere e/a | ![](images/dport.png) | Bietet Eingaben für den Ersatz-PC.
-USB-Typ B, untere e/a | ![](images/usb.png) | Bietet USB-Anschluss für Ersatz-PC an interne Peripheriegeräte. 
-USB-Typ B, untere e/a | ![](images/usb.png) | Bietet eine USB-Verbindung für integrierten Hub.
+Switch, untere E/A | ![](images/switch.png) | Schaltet die Funktion zwischen internen oder externen PCs um.
+Anzeigeport, untere E/A | ![](images/dport.png) | Stellt Eingaben für ersatz-PC.
+USB-Typ B, untere E/A | ![](images/usb.png) | Bietet eine USB-Verbindung für den Ersatz-PC mit internen Peripheriegeräten. 
+USB-Typ B, untere E/A | ![](images/usb.png) | Bietet eine USB-Verbindung für integrierte Hubs.
 
 
-## Kabelgebundene Verbindungs Verbindungen
+## Kabelgebundene Verbindungen
 
-Verbinder und Speicherort | Label | Beschreibung
+Connector und Standort | Label | Beschreibung
 --- | --- | ---
-Anzeige Anschluss, untere e/a | ![](images/dportio.png) | Bietet Eingaben für kabelgebundenen PC.
-HDMI, untere e/a | ![](images/hdmi.png) | Bietet HDMI-Eingang für kabelgebundenen PC.
-VGA, untere e/a | ![](images/vga.png) | Bietet VGA-Eingang für kabelgebundenen PC.
-3,5 mm, untere e/a | ![](images/35mm.png) | Bietet analoge Audioeingabe.
-USB-Typ B, untere e/a | ![](images/usb.png) | Bietet eine USB-Verbindung für Video-touchback.
+Anzeigeport, untere E/A | ![](images/dportio.png) | Stellt Eingaben für einen pc mit kabelgebundener Verbindung zur Verkabelung
+HDMI, untere E/A | ![](images/hdmi.png) | Bietet eine HDMI-Eingabe für einen PC mit kabelgebundenem Anschluss.
+VGA, untere E/A | ![](images/vga.png) | Stellt eine VGA-Eingabe für einen pc mit kabelgebundener Verbindung zur Verkabelung
+3,5 mm, untere E/A | ![](images/35mm.png) | Bietet analoge Audioeingaben.
+USB-Typ B, untere E/A | ![](images/usb.png) | Bietet eine USB-Verbindung für das Touchback für die Videoaufnahme.
 
-## Weitere Verbindungen
+## Zusätzliche Verbindungen
 
-Verbinder und Speicherort | Label | Beschreibung
+Connector und Standort | Label | Beschreibung
 --- | --- | ---
-USB-Typ A, seitliche e/a | ![](images/usb.png) | Bietet 1 USB-3,0-Verbindung für USB-Geräte. Wake-on USB-fähig.
-USB-Typ A, untere I/O mit blauem Isolator | ![](images/usb.png) | Bietet USB 3,0-Verbindung.
-3,5 mm, untere e/a | ![](images/analog.png) | Bietet analoge Audioausgabe.
-Anzeige Anschluss, untere e/a | ![](images/dportout.png) | Bietet eine gespiegelte Videofunktion auf einem anderen Bildschirm.
-IEC/EN60320-C13-Buchse mit festem Schalter | ![](images/iec.png) | Bietet AC-Eingabe und Beachtung des EU-Energiebedarfs.
-RJ45, untere e/a | ![](images/rj45.png) | Stellt eine Verbindung mit Ethernet her.
-RJ11, untere e/a | ![](images/rj11.png) | Verbindung mit Raum Steuerungen.
+USB-Typ A, seitenseitige E/A | ![](images/usb.png) | Bietet 1 USB 3.0-Verbindung für USB-Geräte. Wake-on-USB-fähig.
+USB-Typ A, untere E/A mit blauem Isulator | ![](images/usb.png) | Stellt eine USB 3.0-Verbindung zur
+3,5 mm, untere E/A | ![](images/analog.png) | Bietet analoge Audiowiedergabe.
+Anzeigeport, untere E/A | ![](images/dportout.png) | Stellt eine gespiegelte Videofunktion auf einer anderen Anzeige zur Verans nkung.
+IEC/EN60320-C13-Empfänge mit Festschalter | ![](images/iec.png) | Bietet Ac-Eingabe und Compliance mit den EU-Energieanforderungen.
+RJ45, untere E/A | ![](images/rj45.png) | Verbindet sich mit Ethernet.
+RJ11, untere E/A | ![](images/rj11.png) | Stellt eine Verbindung mit Raumsteuerungssystemen zur Verfügung.
 
 
 > [!NOTE]
-> Surface Hub kann kontinuierlich für maximal 18 Stunden pro Tag verwendet werden. Um die Effizienz zu optimieren, verwendet Surface Hub intelligente Sensoren, um den LED-Bildschirm zu deaktivieren, wenn die Anwesenheit nicht mehr erkannt wird, was bedeutet, dass Sie am Ende des Tages keine Stromversorgung mehr benötigen. Wenn das Gerät in einem 24-Stunden-Arbeitsumfeld installiert ist, können die Sensoren deaktiviert werden, um die maximale Nutzungs Empfehlung von 18 Stunden pro Tag zu erfüllen. Beachten Sie, dass eine längere Anzeige eines Videosignals dazu führen kann, dass die verbrannte oder Bild Aufbewahrung auf dem Bildschirm auftritt. Weitere Informationen zum Verwalten von Energieeinstellungen finden Sie unter:
+> Surface Hub kann maximal 18 Stunden am Tag kontinuierlich verwendet werden. Um die Effizienz zu optimieren, verwendet Surface Hub intelligente Sensoren, um den LED-Bildschirm zu deaktivieren, wenn die Anwesenheit nicht mehr erkannt wird, was bedeutet, dass der Bildschirm am Ende des Tages nicht ausgeschaltet werden muss. Wenn die Einheit in einer 24-Stunden-Arbeitsumgebung installiert ist, können die Sensoren deaktiviert werden, um die maximale Nutzungsempfehlung von 18 Stunden pro Tag zu erfüllen. Beachten Sie, dass eine längere Anzeige eines Videosignals dazu führen kann, dass ein Video ein- oder bildaufbewahrung auf dem Bildschirm auftritt. Weitere Informationen zum Verwalten von Energieeinstellungen finden Sie unter:
 >
 > - [Lokale Verwaltung von Surface Hub-Einstellungen](local-management-surface-hub-settings.md)
-> - [SurfaceHub CSP – Windows-Client Verwaltung](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
+> - [SurfaceHub CSP – #A0](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
 
 
 
 
 ## Diagramme von Ports und Abständen
 
-**_Draufsicht von 55 "Surface Hub_*_
+***Obere Ansicht des 55"-Surface Hub***
 
 ![](images/sh-55-top.png)
 
 ---
 
 
-_*_Vorderansicht des 55 "Surface Hub_*_
+***Frontansicht des 55"-Surface Hub***
 
 ![](images/sh-55-front.png)
 
 
 ---
 
-_*_Untere Ansicht von 55 "Surface Hub_*_
+***Untere Ansicht des 55"-Surface Hub***
 
 ![](images/sh-55-bottom.png)
 
 
 ---
 
-_*_Ersatz-PC-Anschlüsse am 55"-Surface Hub._*_
+***Ersatz-PC-Anschlüsse am 55"-Surface Hub.***
 
 ![](images/sh-55-rpc-ports.png)
 
 
 ---
 
-_*_Tastatur auf der rechten Seite des 55 "Surface Hub_*_
+***Tastatur auf der rechten Seite des 55"-Surface Hub***
 
 ![](images/key-55.png)
 
 
 ---
 
-_*_Rückansicht von 55 "Surface Hub_*_
+***Rückansicht des 55"-Surface Hub***
 
 ![](images/sh-55-rear.png)
 
 
 ---
 
-_*_Abstände für 55 "Surface Hub_*_
+***Abstand für 55"-Surface Hub***
 
 ![](images/sh-55-clearance.png)
 
 ---
 
 
-_*_Front-und Bottom-Haltegriffe und Freigaben für 55 "Surface Hub_*_
+***Vorder- und untere Handflächen und Abstände für 55"-Surface Hub***
 
 ![](images/sh-55-hand.png)
 
@@ -160,7 +162,7 @@ _*_Front-und Bottom-Haltegriffe und Freigaben für 55 "Surface Hub_*_
 ---
 
 
-_ Hintere Haltegriffe*_und Freigaben für 55 "Surface Hub_**
+***Zurückrücken von Handholden und Abständen für 55"-Surface Hub***
 
 ![](images/sh-55-hand-rear.png)
 
