@@ -14,12 +14,12 @@ ms.date: 02/01/2021
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub
-ms.openlocfilehash: 09d600efbf07bb58de1b5ebffcb6731e4125a62d
-ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
+ms.openlocfilehash: 73c028357849cd660d3b8720aaaa28aade12fea1
+ms.sourcegitcommit: 32b6c25698479fa289f642c5b5761ff3be15b686
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "11314428"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "11317979"
 ---
 # PowerShell für Surface Hub (v1)
 
@@ -38,7 +38,7 @@ ms.locfileid: "11314428"
     -   [Akzeptieren von externen Besprechungsanfragen](#accept-ext-meetings-cmdlet)
     
  > [!NOTE]
- > Siehe auch [moderne Authentifizierungs- und unbeaufsichtigte Skripts in Exchange Online PowerShell V2](https://techcommunity.microsoft.com/t5/exchange-team-blog/modern-auth-and-unattended-scripts-in-exchange-online-powershell/ba-p/1497387)
+ > Siehe auch moderne Authentifizierungs- und [unbeaufsichtigte Skripts in Exchange Online PowerShell V2](https://techcommunity.microsoft.com/t5/exchange-team-blog/modern-auth-and-unattended-scripts-in-exchange-online-powershell/ba-p/1497387)
 
 ## Voraussetzungen
 
@@ -68,11 +68,11 @@ Was benötigen Sie zur Skriptausführung?
 
 Die Kontoerstellungsskripts führen folgende Schritte aus:
 
--   Anfordern von Administrator-Anmeldeinformationen
--   Erstellen von Gerätekonten in Ihrer Domäne/Ihrem Mandanten
--   Erstellen oder Zuweisen einer Surface Hub-kompatiblen ActiveSync-Richtlinie zu den Gerätekonten
+-   Bitten Sie um Administratoranmeldeinformationen.
+-   Erstellen Sie Gerätekonten in Ihrer Domäne/Ihrem Mandanten.
+-   Erstellen sie eine Surface Hub-kompatible ActiveSync-Richtlinie, oder weisen Sie sie den Gerätekontos zu.
 -   Festlegen verschiedener Attribute für die erstellten Konten in Exchange und Skype for Business
--   Zuweisen von Lizenzen und Berechtigungen zu den erstellten Konten
+-   Weisen Sie den erstellten Konten Lizenzen und Berechtigungen zu.
 
 Die folgenden Attribute werden von den Skripts festgelegt:
 
@@ -551,7 +551,7 @@ else
 
 ### <a href="" id="create-os356-ps-scripts"></a>Erstellen eines Gerätekontos mithilfe von Office 365
 
-Erstellt ein Konto, wie unter [Erstellen eines Gerätekontos mithilfe von Office 365](create-a-device-account-using-office-365.md) beschrieben.
+Erstellt ein Konto, wie unter ["Erstellen eines Gerätekontos mit Office 365" beschrieben.](create-a-device-account-using-office-365.md)
 
 ```PowerShell
 # SHAccountCreateO365.ps1
@@ -998,7 +998,7 @@ else
 
 Dieses Skript überprüft das zuvor erstellte Gerätekonto auf Surface Hub und Surface Hub 2S, unabhängig davon, welche Methode zum Erstellen verwendet wurde. Dieses Skript beruht im Grunde auf den Ergebnissen Erfolgreich/Fehler. Wird einer der Tests mit einem Fehler beendet, wird eine detaillierte Fehlermeldung angezeigt. Wenn jedoch alle Tests erfolgreich sind, ist das Endergebnis ein Zusammenfassungsbericht. Beispiele:
 
-``` syntax
+```console
 15 tests executed
 0 failures
 2 warnings

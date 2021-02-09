@@ -1,6 +1,6 @@
 ---
 title: Neues in Surface Dock
-description: In diesem Artikel werden neue Features und Funktionen für surface Dock der nächsten Generation beschrieben.
+description: In diesem Artikel werden neue Features und Funktionen für die nächste Generation von Surface Dock beschrieben.
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
@@ -8,31 +8,31 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 12/2/2020
+ms.date: 02/08/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 81c224cf6c5232c4cefd4e64889bd2f724d22bac
-ms.sourcegitcommit: 1b86286bd13b13749ddbf454ae78d9a24fec44ee
+ms.openlocfilehash: d1eb3a6e01d28dc5b3239396c8149c97c0e6a91e
+ms.sourcegitcommit: 7029e80d9ca1a3de5c336cf662e566ed4b6b3e7a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "11271132"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "11319199"
 ---
 # Neues in Surface Dock 
 
-Surface Dock 2, das Surface Dock der nächsten Generation, ermöglicht Benutzern das Verbinden externer Monitore und mehrerer Peripheriegeräte, um eine vollständig modernisierte Desktopoberfläche von einem Surface-Gerät zu erhalten. Surface Dock 2 wurde erstellt, um die Effizienz im Büro, in einem flexiblen Arbeitsbereich oder zu Hause zu maximieren. Surface Dock 2 verfügt über sieben Ports, darunter zwei nach vorne gerichtete USB-C-Ports, mit 15 Akkus mit schneller Ladeleistung für Telefone und Zubehör. 
+Surface Dock 2, das Surface Dock der nächsten Generation, ermöglicht Benutzern das Verbinden externer Monitore und mehrerer Peripheriegeräte, um von einem Surface-Gerät eine vollständig modernisierte Desktopoberfläche zu erhalten. Surface Dock 2 wurde erstellt, um die Effizienz im Büro, in einem flexiblen Arbeitsbereich oder zu Hause zu maximieren. Surface Dock 2 verfügt über sieben Ports, darunter zwei nach vorne gerichtete USB-C-Ports, mit 15 Akkus mit schneller Ladeleistung für Telefon und Zubehör. 
 
 ### Vollständige Geräteverwaltungsunterstützung
 
 Surface Dock 2 dient zur Vereinfachung der IT-Verwaltung, sodass Administratoren Firmwareupdates mithilfe von Windows Update automatisieren oder Updates mit internen Softwareverteilungstools zentralisieren können.
 
-- Der Surface Enterprise Management Mode (SEMM) ermöglicht es IT-Administratoren, Ports auf Surface Dock 2 zu sichern. Weitere Informationen finden Sie unter [Secure Surface Dock 2 ports with Surface Enterprise Management Mode](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999).
+- Der Surface Enterprise Management Mode (SEMM) ermöglicht es IT-Administratoren, Ports auf Surface Dock 2 zu sichern. Weitere Informationen finden Sie unter ["Secure Surface Dock 2 ports with Surface Enterprise Management Mode".](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)
 -  Die Unterstützung der Windows-Verwaltungsinstrumentation (Windows Management Instrumentation, WMI) ermöglicht es IT-Administratoren, die neuesten Firmware-, Richtlinienstatus- und zugehörigen Daten auf Allen Surface Dock 2-Geräten remote zu überwachen und zu verwalten. Weitere Informationen finden Sie unter [Verwalten von Surface Dock 2 mit WMI](surface-dock2-wmi.md).
 
 ## Allgemeine Systemanforderungen
 
-- Windows 10, Version 1809. Es gibt keine Unterstützung für Windows 7-, Windows 8 oder Nicht-Surface-Hostgeräte. Surface Dock 2 funktioniert mit den folgenden Surface-Geräten:
+- Windows 10, Version 1809. Es gibt keine Unterstützung für Windows 7-, Windows 8- oder Nicht-Surface-Hostgeräte. Surface Dock 2 funktioniert mit den folgenden Surface-Geräten:
 
   - Surface Pro (5. Generation)
   - Surface Laptop (1. Generation)
@@ -96,9 +96,9 @@ Surface Dock 2 dient zur Vereinfachung der IT-Verwaltung, sodass Administratoren
 | ----------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------- |
 | Surflink                            | Ja                                                         | Ja                                                                                                 | Nein               |
 | USB-A                               | 2 FRONT-USB 3.1 Gen 1<br>2 nach hinten gerichtete USB 3.1 Gen 1 | 2 USB 3.2 Gen 2 (7,5W-Stromversorgung) nach hinten                                                            | 1 USB 3.1 Gen 2  |
-| Minianzeigeport                   | 2 nach hinten gerichtet (DP1.2)                                       | Keine                                                                                                | Keine             |
-| USB-C                               | Keine                                                        | 2 FRONT-USB 3.2 Gen 2<br>(15 W Leistung)<br>2 nach hinten gerichteter USB 3.2 Gen 2 (DP1.4a)<br>(7,5 W Leistung) | 1 USB 3.2 Gen 2  |
-| 3,5 mm Audio in/out                 | Ja                                                         | Ja                                                                                                 | Ja              |
+| Minianzeigeport                   | 2 nach hinten gerichtet (DP1.2)                                       | Keiner                                                                                                | Keiner             |
+| USB-C                               | Keiner                                                        | 2 FRONT-USB 3.2 Gen 2<br>(15 W Leistung)<br>2 nach hinten gerichteter USB 3.2 Gen 2 (DP1.4a)<br>(7,5 W Leistung) | 1 USB 3.2 Gen 2  |
+| 3,5 mm Audio ein/aus                 | Ja                                                         | Ja                                                                                                 | Ja              |
 | Ethernet                            | Ja, 1 Gigabit                                              | Ja, 1 Gigabit                                                                                       | Ja, 1 Gigabit   |
 | Ein/Aus-Gleichstrom                         | Ja                                                         | Ja                                                                                                 |                  |
 | Sperre für Die Sperre                     | Ja                                                         | Ja                                                                                                 |                  |
@@ -106,11 +106,11 @@ Surface Dock 2 dient zur Vereinfachung der IT-Verwaltung, sodass Administratoren
 | Leistung des Surflinkhosts                 | 60W                                                         | 120W                                                                                                | n.a.              |
 | Usb-Ladestrom                      | 30W                                                         | 60W                                                                                                 |                  |
 | USB-Bitrate                        | 5 GBit/s                                                      | 10 GBit/s                                                                                             | 10 GBit/s          |
-| Überwachen der Unterstützung                     | 2 x 4.000 @30fps oder<br>1 x 4 k @ 60fps                         | 2 x 4K @ 60fps                                                                                      | 1 x 4K @ 60fps   |
+| Überwachen der Unterstützung                     | 2 x 4.000 @30fps oder<br>1 x 4 k @ 60fps                         | 2 x 4K @ 60fps<br> oder 1 x 4.000 @120fps                                                                                     | 1 x 4K @ 60fps   |
 | Wake-on-LAN von connected Standby <sup> 1</sup> | Ja                                                         | Ja                                                                                                 |                  |
 | Wake-on-LAN aus S4/S5-Ruhezustandsmodi  | Nein                                                          | Ja                                                                                                 |          Ja        |
 | Netzwerk-PXE-Start                    | Ja                                                         | Ja                                                                                                 |        Ja          |
-| Zugriffskontrolle für den HOST des SEMM-Hosts            | Nein                                                          | Ja                                                                                                 | Nein               |
+| Zugriffssteuerung für den HOST des SEMM-Hosts            | Nein                                                          | Ja                                                                                                 | Nein               |
 | SEMM-Portzugriffssteuerung <sup> 2</sup>          | Nein                                                          | Ja                                                                                                 | Nein               |
 | Wartungssupport                   | MSI                                                         | Windows Update oder MSI                                                                               |                  |
 
@@ -118,7 +118,7 @@ Surface Dock 2 dient zur Vereinfachung der IT-Verwaltung, sodass Administratoren
 
 
 
-1. *Geräte müssen für Wake on LAN über den Surface Enterprise Management Mode (SEMM) oder die Device Firmware Control Interface (DFCI) konfiguriert sein, um aus dem Ruhezustand oder dem Ruhezustand Power-Off zu können. Die Aktivierung des Ruhezustands oder Power-Off wird für Surface Pro 7+, Surface Pro 7, Surface Laptop 3, Surface Pro X, Surface Book 3 und Surface Go 2 unterstützt.  Für einige Features ist eine Softwarelizenz erforderlich. Separat erhältlich.*
+1. *Geräte müssen für Wake on LAN über den Surface Enterprise Management Mode (SEMM) oder die Device Firmware Control Interface (DFCI) konfiguriert sein, um aus dem Ruhezustand oder dem Ruhezustand Power-Off zu können. Die Aktivierung nach dem Ruhezustand oder Power-Off wird unter Surface Pro 7+, Surface Pro 7, Surface Laptop 3, Surface Pro X, Surface Book 3 und Surface Go 2 unterstützt.  Für einige Features ist eine Softwarelizenz erforderlich. Separat erhältlich.*
 
 2. *Für einige Features ist eine Softwarelizenz erforderlich. Separat erhältlich.*
 

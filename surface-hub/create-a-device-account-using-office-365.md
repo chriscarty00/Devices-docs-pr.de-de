@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 05/04/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 9e6d72dc2b36bb149ee09c2edab885c80e60ac14
-ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
+ms.openlocfilehash: dd19e2fd2417acd29e71c7555e94ee849fbc1bec
+ms.sourcegitcommit: 32b6c25698479fa289f642c5b5761ff3be15b686
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "11314468"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "11318009"
 ---
 # Erstellen eines Gerätekontos mithilfe der Benutzeroberfläche (Surface Hub v1)
 
@@ -37,18 +37,22 @@ Wenn Sie lieber eine grafische Benutzeroberfläche verwenden möchten, können S
 
 ### <a href="" id="create-device-acct-o365-admin-ctr"></a>Erstellen des Kontos im Admin Center
 
-1.  Melden Sie sich bei Office 365 an, indem Sie https://portal.office.com
-2.  Geben Sie die Administratoranmeldeinformationen für den Office 365-Mandanten an. Dadurch werden Sie zu Ihrem Microsoft 365 Admin Center iert.
+1.  Melden Sie sich bei Office 365 über einen Besuch [https://portal.office.com](https://portal.office.com) an.
 
-    ![Microsoft 365 Admin Center.](images/setupdeviceaccto365-02.png)
+2.  Geben Sie die Administratoranmeldeinformationen für den Office 365-Mandanten an. Dadurch gehen Sie zu Ihrem Microsoft 365 Admin Center.
+
+    > [!div class="mx-imgBorder"]
+    > ![Microsoft 365 Admin Center.](images/setupdeviceaccto365-02.png)
 
 3. Navigieren Sie im Admin **** Center im linken Bereich zu "Ressourcen", und klicken Sie dann auf "Räume" **& Gerät**.
 
-    ![Räume & Geräteoption im Admin Center](images/room-equipment.png)
+    > [!div class="mx-imgBorder"]
+    > ![Räume & Geräteoption im Admin Center](images/room-equipment.png)
 
 4. Klicken Sie auf **Hinzufügen**, um ein neues Raumkonto zu erstellen. Geben Sie einen Anzeigenamen und eine E-Mail-Adresse für das Konto ein, und klicken Sie dann auf **Hinzufügen**.
 
-    ![Erstellen eines neuen Raumkontofensters](images/room-add.png)
+    > [!div class="mx-imgBorder"]
+    > ![Erstellen eines neuen Raumkontofensters](images/room-add.png)
 
 5. Wählen Sie das Raumkonto, das Sie gerade erstellt haben, aus der Liste Aktive Benutzer aus. Im rechten Bereich werden die Kontoeigenschaften und mehrere optionale Aktionen angezeigt. Klicken Sie auf **Kennwort zurücksetzen**, um das Kennwort zu ändern, und heben Sie die Auswahl von **Diesen Benutzer bei der ersten Anmeldung sein Kennwort ändern lassen** auf, da es nicht möglich ist, beim Surface Hub-Anmeldeprozesses das Kennwort zu ändern.
 
@@ -58,15 +62,18 @@ Wenn Sie lieber eine grafische Benutzeroberfläche verwenden möchten, können S
 
 1.  Klicken Sie im linken Bereich des Admin Centers auf **ADMIN**, und klicken Sie dann auf **Exchange**.
 
-    ![Admin Center mit aktiven Exchange-Benutzern.](images/setupdeviceaccto365-08.png)
+    > [!div class="mx-imgBorder"]
+    > ![Admin Center mit aktiven Exchange-Benutzern.](images/setupdeviceaccto365-08.png)
 
 2.  Dadurch wird eine weitere Registerkarte in Ihrem Browser geöffnet, über die Sie zum Exchange Admin Center gelangen, wo Sie die Postfacheinstellung für Surface Hub erstellen und festlegen können.
 
-    ![Exchange Admin Center](images/setupdeviceaccto365-09.png)
+    > [!div class="mx-imgBorder"]
+    > ![Exchange Admin Center](images/setupdeviceaccto365-09.png)
 
 3.  Zum Erstellen einer Postfachrichtlinie für mobile Geräte klicken Sie im linken Bereich auf **Mobil** und dann auf **Postfachrichtlinien für mobile Geräte**. Surface Hubs erfordern ein Konto mit einer Postfachrichtlinie für mobile Geräte, die kein Kennwort erfordert. Wenn Sie bereits über eine vorhandene Richtlinie verfügen, die dieser Anforderung entspricht, können Sie diese Richtlinie auf das Konto anwenden. Führen Sie andernfalls die folgenden Schritte aus, um eine neue Richtlinie zu erstellen, die nur für Surface Hub-Gerätekonten verwendet wird.
 
-    ![Exchange Admin Center – Erstellen einer Postfachrichtlinie für mobile Geräte](images/setupdeviceaccto365-10.png)
+    > [!div class="mx-imgBorder"]
+    > ![Exchange Admin Center – Erstellen einer Postfachrichtlinie für mobile Geräte](images/setupdeviceaccto365-10.png)
 
 4.  Zum Erstellen einer neuen Postfachrichtlinie für mobile Geräte für Surface Hub klicken Sie in den Steuerelementen oberhalb der Liste der Richtlinien auf die Schaltfläche **+** , um eine neue Richtlinie hinzuzufügen. Geben Sie als Namen einen Namen an, mit dem Sie diese Richtlinie von anderen Gerätekonten unterscheiden können (z. B. *SurfaceHubDeviceMobilePolicy*). Stellen Sie sicher, dass die Richtlinie kein Kennwort für die zugewiesenen Geräte erfordert. Überprüfen Sie daher, dass **Kennwort anfordern** deaktiviert bleibt, und klicken Sie dann auf **Speichern**.
 
@@ -74,7 +81,8 @@ Wenn Sie lieber eine grafische Benutzeroberfläche verwenden möchten, können S
 
 5.  Nachdem Sie die neue Postfachrichtlinie für mobile Geräte erstellt haben, wechseln Sie zurück zum **Exchange Admin Center**. Dort wird die neue Richtlinie angezeigt.
 
-    ![Bild mit der neuen Postfachrichtlinie für mobile Geräte im Exchange Admin Center](images/setupdeviceaccto365-12.png)
+    > [!div class="mx-imgBorder"]
+    > ![Bild mit der neuen Postfachrichtlinie für mobile Geräte im Exchange Admin Center](images/setupdeviceaccto365-12.png)
 
 
 
@@ -88,17 +96,19 @@ Um von diesen PowerShell-Skripts verwendete Cmdlets auszuführen, muss Folgendes
 -   [Windows Azure Active Directory-Modul für Windows PowerShell](https://www.microsoft.com/web/handlers/webpi.ashx/getinstaller/WindowsAzurePowershellGet.3f.3f.3fnew.appids)
 -   [Skype for Business Online, Windows PowerShell-Modul](https://www.microsoft.com/download/details.aspx?id=39366)
 
-Installieren des folgenden Moduls in Powershell
-``` syntax
-    install-module AzureAD
-    Install-module MsOnline
+Installieren Sie das folgende Modul in PowerShell.
+
+```powershell
+install-module AzureAD
+Install-module MsOnline
 ```
 
 ### Herstellen einer Verbindung mit Onlinediensten
 
 1.  Führen Sie Windows PowerShell als Administrator aus.
 
-    ![Abbildung zur Verdeutlichung, wie Sie Windows PowerShell starten und als Administrator ausführen](images/setupdeviceaccto365-17.png)
+    > [!div class="mx-imgBorder"]
+    > ![Abbildung zur Verdeutlichung, wie Sie Windows PowerShell starten und als Administrator ausführen](images/setupdeviceaccto365-17.png)
 
 2.  Erstellen Sie ein Anmeldeinformationsobjekt, erstellen Sie dann eine neue Sitzung, die eine Verbindung mit Skype for Business Online herstellt, geben Sie das globale Mandantenadministratorkonto an, und klicken Sie dann auf **OK**.
 
@@ -106,7 +116,7 @@ Installieren des folgenden Moduls in Powershell
 
 3.  Führen Sie zur Herstellung einer Verbindung mit Microsoft Online Services Folgendes aus:
 
-    ``` syntax
+    ```powershell
     Connect-MsolService -Credential $Cred
     ```
 
@@ -114,7 +124,7 @@ Installieren des folgenden Moduls in Powershell
 
 4.  Führen Sie nun zur Herstellung einer Verbindung mit Skype for Business Online-Diensten Folgendes aus:
 
-    ``` syntax
+    ```powershell
     $sfbsession = New-CsOnlineSession -Credential $cred
     ```
 
@@ -122,7 +132,7 @@ Installieren des folgenden Moduls in Powershell
 
 5.  Führen Sie zum Schluss zur Herstellung einer Verbindung mit Exchange Online-Diensten Folgendes aus:
 
-    ``` syntax
+    ```powershell
     $exchangeSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri "https://outlook.office365.com/powershell-liveid/" -Credential $cred -Authentication "Basic" –AllowRedirection
     ```
 
@@ -130,7 +140,7 @@ Installieren des folgenden Moduls in Powershell
 
 6.  Sie müssen nun die gerade erstellte Skype for Business Online-Sitzung und Exchange Online-Sitzung importieren, wodurch die Exchange- und Skype-Befehle importiert werden, sodass Sie diese lokal verwenden können.
 
-    ``` syntax
+    ```powershell
     Import-PSSession $exchangesession -AllowClobber -WarningAction SilentlyContinue
     Import-PSSession $sfbsession -AllowClobber -WarningAction SilentlyContinue
     ```
@@ -180,7 +190,7 @@ Nachdem Sie mit den Onlinediensten verbunden sind, können Sie die Einrichtung d
 
 4.  Für das Gerätekonto können verschiedene Exchange-Eigenschaften festgelegt werden, um das Besprechungserlebnis zu verbessern. Sie können im Abschnitt [Exchange-Eigenschaften](exchange-properties-for-surface-hub-device-accounts.md) sehen, welche Eigenschaften festgelegt werden müssen.
 
-    ``` syntax
+    ```powershell
     Set-CalendarProcessing -Identity $strEmail -AutomateProcessing AutoAccept -AddOrganizerToSubject $false –AllowConflicts   $false –DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
     Set-CalendarProcessing -Identity $strEmail -AddAdditionalResponse $true -AdditionalResponse "This is a Surface Hub room!"
     ```
@@ -189,7 +199,7 @@ Nachdem Sie mit den Onlinediensten verbunden sind, können Sie die Einrichtung d
 
 5.  Wenn das Kennwort nicht ablaufen soll, können Sie auch dies mit PowerShell-Cmdlets festlegen. Weitere Informationen finden Sie unter [Kennwortverwaltung](password-management-for-surface-hub-device-accounts.md).
 
-    ``` syntax
+    ```powershell
     Set-MsolUser -UserPrincipalName $strEmail -PasswordNeverExpires $True
     ```
 
@@ -200,7 +210,7 @@ Aktivieren Sie das Gerätekonto mit Skype for Business.
 Zum Aktivieren von Skype for Business muss Ihre Umgebung folgende Voraussetzungen erfüllen:
 
 -   Sie benötigen Skype for Business Online Eigenständig Plan 2 oder höher in Ihrem O365-Plan. Der Plan muss Konferenzfunktionen unterstützen.
--   Wenn Sie eine Enterprise-VoIP (PSTN-Telefonie) mithilfe von Telefoniedienstanbietern für den Surface Hub benötigen, benötigen Sie Skype for Business Online Eigenständig, Plan 3.
+-   Wenn Sie eine Enterprise-VoIP (PSTN-Telefonie) mit Telefoniedienstanbietern für den Surface Hub benötigen, benötigen Sie Skype for Business Online Eigenständig, Plan 3.
 -   Die Mandantenbenutzer müssen über Exchange-Postfächer verfügen.
 -   Für Ihr Surface Hub-Konto ist eine Skype for Business Online Standalone Plan 2- oder Skype for Business Online Standalone Plan 3-Lizenz erforderlich, es ist jedoch keine Exchange Online-Lizenz erforderlich.
 
@@ -214,13 +224,13 @@ Zum Aktivieren von Skype for Business muss Ihre Umgebung folgende Voraussetzunge
 
 2.  Um Ihr Surface Hub-Konto für Skype for Business Server zu aktivieren, führen Sie dieses Cmdlet aus:
 
-    ```PowerShell
+    ```powershell
     Enable-CsMeetingRoom -Identity $strEmail -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
     ```
 
-    Wenn Sie sich nicht sicher sind, welcher Wert für den `RegistrarPool` -Parameter in Ihrer Umgebung verwendet werden soll, können Sie den Wert aus einem vorhandenen Skype for Business-Benutzer mit diesem Cmdlet abrufen:
+     Wenn Sie sich nicht sicher sind, welcher Wert für den `RegistrarPool` -Parameter in Ihrer Umgebung verwendet werden soll, können Sie den Wert aus einem vorhandenen Skype for Business-Benutzer mit diesem Cmdlet abrufen:
 
-    ```PowerShell
+    ```powershell
     Get-CsOnlineUser -Identity ‘alice@contoso.microsoft.com’| fl *registrarpool*
     ```
 
@@ -250,7 +260,7 @@ Sie können das Exchange Admin Center zum Erstellen eines Gerätekontos verwende
 ### <a href="" id="create-device-acct-exch-mbx-policy"></a>Erstellen einer Postfachrichtlinie für mobile Geräte aus dem Exchange Admin Center
 
 >[!NOTE]
->Wenn Sie dem erstellten Konto eine Richtlinie erstellen und zuweisen möchten und Exchange 2010 verwenden, suchen Sie die entsprechenden Informationen zur Richtlinienerstellung und -zuweisung, wenn Sie die EMC (Exchange Management Console) verwenden.
+>Wenn Sie dem erstellten Konto eine Richtlinie erstellen und zuweisen möchten und Exchange 2010 verwenden, suchen Sie bei Verwendung der EMC (Exchange Management Console) die entsprechenden Informationen zur Richtlinienerstellung und -zuweisung.
 
  
 
@@ -298,19 +308,19 @@ Nachdem Sie mit den Onlinediensten verbunden sind, können Sie die Einrichtung d
 
 1.  Sie müssen die E-Mail-Adresse des Kontos eingeben und eine Variable mit diesem Wert erstellen:
 
-    ``` syntax
+    ```powershell
     $mailbox = (Get-Mailbox <your device account’s alias>)
     ```
 
     Rufen Sie den Wert zum Speichern aus dem Postfach ab:
 
-    ``` syntax
+    ```powershell
     $strEmail = $mailbox.WindowsEmailAddress
     ```
 
     Drucken Sie den Wert, indem Sie Folgendes ausführen:
 
-    ``` syntax
+    ```powershell
     $strEmail
     ```
 
@@ -318,38 +328,38 @@ Nachdem Sie mit den Onlinediensten verbunden sind, können Sie die Einrichtung d
 
 2.  Sie müssen das Konto in ein Raumpostfach konvertieren. Führen Sie daher dies aus:
 
-    ``` syntax
+    ```powershell
     Set-Mailbox $strEmail -Type Room
     ```
 
 3.  Zum Authentifizieren des Gerätekontos auf einem Surface Hub müssen Sie das Raumpostfachkonto aktivieren und ein Kennwort festlegen, damit das Gerät das Konto zum Abrufen von Besprechungsinformationen mithilfe von ActiveSync und zum Anmelden bei Skype for Business verwenden kann.
 
-    ``` syntax
+    ```powershell
     Set-Mailbox $strEmail -RoomMailboxPassword (ConvertTo-SecureString  -String "<your password>" -AsPlainText -Force) -EnableRoomMailboxAccount $true
     ```
 
 4.  Für das Gerätekonto können verschiedene Exchange-Eigenschaften festgelegt werden, um das Besprechungserlebnis zu verbessern. Sie können im Abschnitt [Exchange-Eigenschaften](exchange-properties-for-surface-hub-device-accounts.md) sehen, welche Eigenschaften festgelegt werden müssen.
 
-    ``` syntax
+    ```powershell
     Set-CalendarProcessing -Identity $strEmail -AutomateProcessing AutoAccept -AddOrganizerToSubject $false –AllowConflicts   $false –DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
     Set-CalendarProcessing -Identity $strEmail -AddAdditionalResponse $true -AdditionalResponse "This is a Surface Hub room!"
     ```
 
 5.  Jetzt müssen wir einige Eigenschaften in AD festlegen. Dazu benötigen Sie das Alias des Kontos (dies ist der Teil des Benutzerprinzipalnamens vor „@“).
 
-    ``` syntax
+    ```powershell
     $strAlias = “<your device account’s alias>”
     ```
 
 6.  Der Benutzer muss in AD aktiviert werden, bevor er mit einem Surface Hub authentifiziert werden kann. Führen Sie Folgendes aus:
 
-    ``` syntax
+    ```powershell
     Set-ADUser $strAlias -Enabled $True
     ```
 
 7.  Wenn das Kennwort nicht ablaufen soll, können Sie auch dies mit PowerShell-Cmdlets festlegen. Weitere Informationen finden Sie unter [Kennwortverwaltung](password-management-for-surface-hub-device-accounts.md).
 
-    ``` syntax
+    ```powershell
     Set-ADUser $strAlias -PasswordNeverExpires $True
     ```
 
@@ -372,13 +382,13 @@ Zum Aktivieren von Skype for Business muss Ihre Umgebung folgende Voraussetzunge
     Import-PSSession $cssess -AllowClobber
     ```
 
-2. Abrufen des Surface Hub-Kontoregistrierungspools
+2. Rufen Sie den Surface Hub-Kontoregistrierungspool ab.
 
-Wenn Sie sich nicht sicher sind, welcher Wert für den `RegistrarPool` -Parameter in Ihrer Umgebung verwendet werden soll, können Sie den Wert aus einem vorhandenen Skype for Business-Benutzer mit diesem Cmdlet abrufen:
+   Wenn Sie sich nicht sicher sind, welcher Wert für den `RegistrarPool` -Parameter in Ihrer Umgebung verwendet werden soll, können Sie den Wert aus einem vorhandenen Skype for Business-Benutzer mit diesem Cmdlet abrufen:
 
- ```PowerShell
-    Get-CsOnlineUser -Identity ‘alice@contoso.microsoft.com’| fl *registrarpool*
- ```
+   ```PowerShell
+   Get-CsOnlineUser -Identity ‘alice@contoso.microsoft.com’| fl *registrarpool*
+   ```
 
 3. Um Ihr Surface Hub-Konto für Skype for Business Server zu aktivieren, führen Sie dieses Cmdlet aus:
 

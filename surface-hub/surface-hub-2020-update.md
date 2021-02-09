@@ -1,6 +1,6 @@
 ---
 title: Windows 10 Team 2020 Update installieren
-description: Holen Sie sich das neueste Update des Surface Hub-Betriebssystems, Windows 10 Team 2020-Update.
+description: Erhalten Sie das neueste Update des Surface Hub-Betriebssystems, Windows 10 Team 2020 Update.
 keywords: Trennen Sie Werte durch Kommata
 ms.prod: surface-hub
 ms.sitesec: library
@@ -11,64 +11,67 @@ audience: Admin
 ms.topic: article
 ms.date: 12/17/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: c89063765462a76ae48d17e1480bbff29f48ebdc
-ms.sourcegitcommit: 8bca7edea5401dfc97614e18a058a023aa9497c4
+appliesto:
+- Surface Hub
+- Surface Hub 2S
+ms.openlocfilehash: 291a2eda0c1fa6e5e2fd2240861c8570d00054df
+ms.sourcegitcommit: 7029e80d9ca1a3de5c336cf662e566ed4b6b3e7a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "11254204"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "11319179"
 ---
 # Windows 10 Team 2020 Update installieren 
 
-Das neue Surface Hub-Betriebssystem, **Windows 10 Team 2020-Update**, basierend auf Windows 10-Version 20H2, ist jetzt für alle Surface-Hub-2S-Geräte verfügbar.  
+Das neue Surface Hub-Betriebssystem, **Windows 10 Team 2020 Update,** basierend auf Windows 10, Version 20H2, ist jetzt für Surface Hub 2S und den ursprünglichen Surface Hub (v1) verfügbar. 
 
-- Siehe auch: [bekannte Probleme: Windows 10 Team 2020-Update](surface-hub-2020-update.md)
+- Siehe auch: [Bekannte Probleme: Windows 10 Team 2020 Update](surface-hub-2020-team-update-known-issues.md)
 
 ## Verteilung
 
-Sie können Windows 2020-Update mithilfe einer der folgenden Methoden abrufen:
+Sie können Windows 2020 Update mit einer der folgenden Methoden abrufen:
 
-- **Windows Update für Unternehmen**.
-- **Abbildung des Bare Metal Recovery (GU)**. Empfohlene Option für Kunden, die Ihre Geräte mit Azure Active Directory verbinden oder Ihren Geräten nicht gestatten, Updates aus dem Internet zu erhalten. Informationen zu den ersten Schritten finden Sie unter [Herunterladen eines Wiederherstellungs Bilds für Ihre Oberfläche](https://support.microsoft.com/surfacerecoveryimage).
+- **Windows Update for Business**.
+- **Bare-Metal-Wiederherstellungsabbild (Bare Metal Recovery, BMR).** Empfohlene Option für Kunden, die ihre Geräte mit Azure Active Directory verbinden oder nicht zulassen, dass ihre Geräte Updates aus dem Internet erhalten. Informationen zu den ersten Schritte finden Sie unter ["Herunterladen eines Wiederherstellungsimages für Ihr Surface".](https://support.microsoft.com/surfacerecoveryimage)
 - **WindowsUpdate.** Die Verfügbarkeit variiert je nach Region/Land, wie in der folgenden Tabelle angegeben:
 
-| Phase | Land/Region                         | Ausgangs          |
+| Phase | Land/Region                         | Starten          |
 | ----- | -------------------------------------- | ----------------- |
-| 1     | Neuseeland, Australien, Kanada, Belgien, Mexiko | 27. Oktober 2020  |
-| 2     | Großbritannien, Japan, Schweiz, Italien          | 10. November 2020 |
-| 3     | USA, Deutschland                            | TBD |
-| 4     | Globalen                                 | TBD  |
+| 1     | NZ, Australien, Kanada, Belgien, Mexiko | Oktober 2020  |
+| 2     | Vereinigtes Königreich, Japan, Schweiz, Italien          | November 2020 |
+| 3     | USA, Deutschland                            | Ende Februar 2021 |
+| 4     | Global                                 | Ende Februar 2021 |
 
-## Wartungs Oberflächen-Hubs mit Windows 10 Team Edition, Version 1703 
+## Wartung von Surface Hubs mit Windows 10 Team Edition, Version 1703 
 
-Der vollständige Wartungs Support für Windows 10 Team Edition, Version 1703, soll bis zum 16. März 2021 fortgesetzt werden.
+Der vollständige Wartungssupport [für Windows 10 Team Edition, Version 1703,](https://support.microsoft.com/topic/november-12-2019-kb4525245-os-build-15063-2172-dfc81b85-11a6-54ef-4370-11408193419f) soll bis zum 16. März 2021 fortgesetzt werden.
 
 ### 2S-Geräte 
 
-Kunden in allen Regionen können Ihre Surface-Hub-2S-Geräte weiterhin auf das 2020-Update unter Verwendung von Windows Update for Business oder mit einem unbaren Metall Wiederherstellungsbild (grundlegendes) aktualisieren, wie unter [Zurücksetzen und Wiederherstellen für Surface Hub 2S](surface-hub-2s-recover-reset.md)erläutert wird.
+Kunden in allen Regionen können ihre Surface Hub 2S-Geräte mithilfe von Windows Update for Business oder mithilfe eines Bare-Metal-Wiederherstellungsimages (Bare Metal Recovery, BMR) weiterhin auf das 2020 Update aktualisieren, wie unter Zurücksetzen und Wiederherstellung für [Surface Hub 2S](surface-hub-2s-recover-reset.md)erläutert.
 
 ### V1-Geräte 
 
-Kunden in allen Regionen können nun ihre Surface-Hub-v1-Geräte auf das 2020-Update [mithilfe des Surface Hub-Wiederherstellungstools](surface-hub-recovery-tool.md)aktualisieren. Andere Methoden zum Aktualisieren dieser Geräte auf das Windows 10-Team 2020-Update sind in Kürze verfügbar. Weitere Informationen finden Sie unter [Surface IT pro-Blog](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update/ba-p/2000144).
+Kunden in allen Regionen können jetzt ihre Surface Hub v1-Geräte mithilfe des [Surface Hub-Wiederherstellungstools](surface-hub-recovery-tool.md)auf das 2020-Update aktualisieren. Andere Methoden zum Aktualisieren dieser Geräte auf das Windows 10 Team 2020 Update werden in Kürze verfügbar sein. Weitere Informationen finden Sie im [Surface IT Pro Blog](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/update-to-the-windows-10-team-rollout/ba-p/1669655).
  
 ## Neuigkeiten 
 
-Das Windows 10-Team 2020-Update bietet wichtige Verbesserungen bei der Gerätebereitstellung und-Verwaltbarkeit zusammen mit den neuesten Windows 10-Features. Weitere Informationen finden Sie unter [Neuerungen in Windows 10 Team 2020-Update](surface-hub-2020-update-whats-new.md).
+Windows 10 Team 2020 Update bietet wesentliche Verbesserungen bei der Gerätebereitstellung und Verwaltbarkeit zusammen mit den neuesten Windows 10-Features. Weitere Informationen finden Sie unter ["Neues" in Windows 10 Team 2020 Update.](surface-hub-2020-update-whats-new.md)
  
 ## Vorbemerkungen
 
-Stellen Sie vor der Installation des Windows 10 Team 2020-Updates sicher, dass Sie den BitLocker-Schlüssel speichern, der Ihrem Gerät zugeordnet ist. 
+Stellen Sie vor der Installation von Windows 10 Team 2020 Update sicher, dass Sie den ihrem Gerät zugeordneten BitLocker-Schlüssel speichern. 
 
 **So speichern Sie den BitLocker-Schlüssel manuell**
 
-1. Legen Sie ein USB-Laufwerk in Surface Hub ein.
-2. Öffnen Sie auf Surface Hub die **Einstellungen** , und geben Sie Ihre Administratoranmeldeinformationen ein, wenn Sie dazu aufgefordert werden.
+1. Fügen Sie ein USB-Laufwerk in Surface Hub ein.
+2. Öffnen Sie auf Surface Hub **"Einstellungen",** und geben Sie ihre Administratoranmeldeinformationen ein, wenn Sie dazu aufgefordert werden.
 3. Navigieren Sie zu **Update & Security**  >  **Recovery**.
-4. Wählen Sie unter **BitLocker**die Option **Speichern**aus. Der BitLocker-Schlüssel wird in einer Textdatei auf dem USB-Laufwerk gespeichert.
+4. Wählen **Sie unter BitLocker**"Speichern" **aus.** Der BitLocker-Schlüssel wird in einer Textdatei auf dem USB-Laufwerk gespeichert.
 
-Weitere Informationen finden Sie unter [Speichern des BitLocker-Schlüssels](save-bitlocker-key-surface-hub.md).
+Weitere Informationen finden Sie unter ["Speichern des BitLocker-Schlüssels".](save-bitlocker-key-surface-hub.md)
 
-## Mehr erfahren
+## Weitere Informationen
 
-- [Bekannte Probleme: Windows 10 Team 2020-Update](surface-hub-2020-team-update-known-issues.md)
-- [Wichtige Updates auf dem Surface Hub Windows 10 Team 2020-Update](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/important-updates-on-the-surface-hub-windows-10-team-2020-update/ba-p/1960897)
+- [Neues in Windows10 Team2020-Update](surface-hub-2020-update-whats-new.md)
+- [Aktualisieren auf das Windows 10 Team-Rollout](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/update-to-the-windows-10-team-rollout/ba-p/1669655)
