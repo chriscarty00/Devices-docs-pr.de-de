@@ -10,25 +10,25 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 12/18/2020
+ms.date: 02/11/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 9df9de731ac5c8f8acb393db3d4b16e9d1c98a9e
-ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
+ms.openlocfilehash: 34a05eeabd284e0ad43317577b8e7ff9348ffe21
+ms.sourcegitcommit: 7e028c1e66fb393dc0e8917dac257ce95e5e9ce7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "11312031"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "11327339"
 ---
 # Verwenden des Wiederherstellungstools für Surface Hub
 
-Das [Microsoft Surface Hub Recovery Tool](https://www.microsoft.com/download/details.aspx?id=52210) hilft Ihnen, ein neues Image ihres Surface Hub Solid State Drive (SSD) mit einem Windows 10-Desktopgerät zu erstellen, ohne unterstützung oder das SSD zu ersetzen. Mit diesem Tool können Sie ein Reimage für ein SSD erstellen, das ein unbekanntes Administratorkennwort, Startfehler, keine Cloudwiederherstellung oder ein Gerät mit einer älteren Version des Betriebssystems enthält. Das Tool korrigiert nicht physisch beschädigte SSDs.
+Das [Microsoft Surface Hub Recovery Tool](https://www.microsoft.com/download/details.aspx?id=52210) hilft Ihnen, ein neues Image ihres Surface Hub Solid State Drive (SSD) mithilfe eines Windows 10-Desktopgeräts zu erstellen, ohne die Unterstützung aufforderen oder ssd ersetzen zu müssen. Mit diesem Tool können Sie ein Reimage für ein SSD erstellen, das ein unbekanntes Administratorkennwort, Startfehler, keine Cloudwiederherstellung oder ein Gerät mit einer älteren Version des Betriebssystems enthält. Das Tool korrigiert nicht physisch beschädigte SSDs.
 
-Zum erneuten Abbilden der Surface Hub-SSD mit dem Wiederherstellungstool müssen Sie das SSD vom Surface Hub entfernen, das Laufwerk mit dem USB-zu-SATA-Kabel verbinden und dann das Kabel mit dem Desktop-PC verbinden, auf dem das Wiederherstellungstool installiert ist. Weitere Informationen zum Entfernen des vorhandenen Laufwerks vom Surface Hub finden Sie unter [Surface Hub-SSD-Ersatz.](surface-hub-ssd-replacement.md)
+Zum erneuten Abbilden der Surface Hub-SSD mithilfe des Wiederherstellungstools müssen Sie das SSD vom Surface Hub entfernen, das Laufwerk mit dem USB-zu-SATA-Kabel verbinden und dann das Kabel mit dem Desktop-PC verbinden, auf dem das Wiederherstellungstool installiert ist. Weitere Informationen zum Entfernen des vorhandenen Laufwerks vom Surface Hub finden Sie unter [Surface Hub-SSD-Ersatz.](surface-hub-ssd-replacement.md)
 
 > [!IMPORTANT]
 > Lassen Sie das Gerät nicht in den Ruhezustand wechseln oder unterbrechen Sie den Download der Bilddatei.
 
-Wenn das Tool beim Erstellen des Laufwerks nicht erfolgreich ist, wenden Sie sich an [den Surface Hub-Support.](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support)
+Wenn das Tool beim Reimaging ihres Laufwerks nicht erfolgreich ist, wenden Sie sich an [den Surface Hub-Support.](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support)
 
 ## Voraussetzungen
 
@@ -53,9 +53,12 @@ Wenn das Tool beim Erstellen des Laufwerks nicht erfolgreich ist, wenden Sie sic
 
 ## Surface Hub Recovery Tool herunterladen
 
-Das Surface Hub-Wiederherstellungstool steht unter dem Dateinamen "Surface Hub-Wiederherstellungstool" unter dem Namen "Surface Hub Tools for [IT"](https://www.microsoft.com/download/details.aspx?id=52210) zum **SurfaceHub_Recovery_v2.0.139.0.msi. **
+Das Surface Hub-Wiederherstellungstool steht unter dem Dateinamen "Surface Hub-Wiederherstellungstool" unter dem Namen "Surface Hub Tools for [IT"](https://www.microsoft.com/download/details.aspx?id=52210) zum **SurfaceHub_Recovery_v2.7.139.0.msi. **
 
-Klicken Sie zum Starten des Downloads auf **"Herunterladen",** **wählenSurfaceHub_Recovery_v2.0.139.0.msi** aus der Liste aus, und klicken Sie auf **"Weiter".** Wählen Sie im Popup eine der folgenden Optionen aus:
+> [!IMPORTANT]
+> Diese version, released February 11, 2021, replaces the earlier build, which is no longer functional. Wenn Sie dieses Tool zuvor heruntergeladen haben, verwerfen Sie es, und verwenden Sie die aktuelle Version.
+
+Klicken Sie zum Starten des Downloads auf **"Herunterladen",** **wählenSurfaceHub_Recovery_v2.7.139.0.msi** aus der Liste aus, und klicken Sie auf **"Weiter".** Wählen Sie im Popup eine der folgenden Optionen aus:
 
 - Klicken **Sie auf "Ausführen",** um die Installation sofort zu starten.
 - Klicken **Sie auf "Speichern",** um den Download zur späteren Installation auf Ihren Computer zu kopieren.
@@ -70,18 +73,18 @@ Installieren Sie das Surface Hub-Wiederherstellungstool auf dem Host-PC.
 
 2. Klicken Sie auf **Start**.
 
-    ![Schaltfläche "Wiederherstellungstool starten"](images/shrt-start.png)
+    ![Schaltfläche "Start" des Wiederherstellungstools](images/shrt-start.png)
 
 
 3. Klicken Sie **im Fenster "Anleitung"** auf **"Weiter".**
 
     ![Lassen Sie Ihren Computer nicht in den Ruhezustand wechseln.](images/shrt-guidance.png)
 
-4. Klicken Sie im Fenster "Bild auswählen" entweder **auf RS2** oder dessen Nachfolger **20H2,** wählen Sie "Weiter" und dann **"Bild herunterladen" aus.** ****
+4. Klicken Sie im Fenster "Bild auswählen" entweder **auf RS2** oder dessen Nachfolger **20H2,** wählen Sie **"Weiter"** und dann **"Bild herunterladen" aus.**
 
      ![Bild "Wiederherstellungstool Auswählen des ](images/shrt-select-image.png) ![ Bildwiederherstellungstools herunterladen"](images/shrt-download-image.png)
 
-5. Die Zeit zum Herunterladen des Wiederherstellungsabbilds hängt von der Geschwindigkeit der Internetverbindung ab. Bei einer durchschnittlichen Unternehmensverbindung kann es bis zu einer Stunde dauern, bis die 8 GB-Bilddatei heruntergeladen wurde.
+5. Die Zeit zum Herunterladen des Wiederherstellungsimages hängt von der Geschwindigkeit der Internetverbindung ab. Bei einer durchschnittlichen Unternehmensverbindung kann es bis zu einer Stunde dauern, bis die 8 GB-Bilddatei heruntergeladen wurde.
 
     ![Bild herunterladen](images/shrt-download.png)
 
@@ -108,11 +111,23 @@ Der Reimagingprozess wird angehalten/eingefroren angezeigt. | Es ist sicher, das
 Das Laufwerk wird vom Tool nicht erkannt | Stellen Sie sicher, dass die Surface Hub-SSD als Lite-On "LITEON L CH-128V2S-USB-Gerät" aufgezählt wird.  Wenn das Laufwerk als ein anderes benanntes Gerät erkannt wird, ist das aktuelle Kabel nicht kompatibel. Versuchen Sie es mit einem anderen Kabel oder einem der oben aufgeführten getesteten Kabel.
 Fehler: -2147024809 | Öffnen Sie den Datenträger-Manager, und entfernen Sie die Partitionen auf dem Surface Hub-Laufwerk.  Trennen Sie das Laufwerk, und stellen Sie es wieder mit dem Hostcomputer wieder her. Starten Sie das Imageerstellungstool erneut.
 
-Wenn das Tool beim Erstellen des Laufwerks nicht erfolgreich ist, wenden Sie sich an [den Surface Hub-Support.](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support)
+Wenn das Tool beim Reimaging ihres Laufwerks nicht erfolgreich ist, wenden Sie sich an [den Surface Hub-Support.](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support)
 
 ## Versionsverlauf
 
+
+### Version v2.7.139.0
+
+*Veröffentlichungsdatum: 11. Februar 2021*<br>
+Diese Version des Surface Hub-Wiederherstellungstools bietet Unterstützung für Folgendes:
+
+- Sicherheitsupdate
+
+
 ### Version v2.0.139.0
+
+> [!IMPORTANT]
+> Diese Version ist nicht mehr funktionsfähig. Laden Sie die oben aufgeführte aktuelle Version herunter. 
 
 *Veröffentlichungsdatum: 18. Dezember 2020*<br>
 Diese Version des Surface Hub-Wiederherstellungstools bietet Unterstützung für Folgendes:

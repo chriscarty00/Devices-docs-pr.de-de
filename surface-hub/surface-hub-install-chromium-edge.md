@@ -9,17 +9,17 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 02/08/2021
+ms.date: 02/10/2021
 ms.localizationpriority: Medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: 74ae47e80447f89753110c52a49daf649478dd50
-ms.sourcegitcommit: 7029e80d9ca1a3de5c336cf662e566ed4b6b3e7a
+ms.openlocfilehash: 2bc11fb18137ce21cba27368e0c12bbb9e73a4c2
+ms.sourcegitcommit: 7e028c1e66fb393dc0e8917dac257ce95e5e9ce7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "11319169"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "11327309"
 ---
 # Das neue Microsoft Edge auf Surface Hub installieren und konfigurieren
 
@@ -75,14 +75,14 @@ Microsoft Edge ist mit den folgenden Richtlinieneinstellungen vorkonfiguriert, u
 | Richtlinieneinstellung                                                                                                   | Empfohlene Erfahrung                                                                                                                                                                                                                                               | Standardwert |
 | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------- |
 | [AutoImportAtFirstRun](https://docs.microsoft.com/deployedge/microsoft-edge-policies#autoimportatfirstrun)             | Importieren Sie Datentypen und Einstellungen nicht automatisch aus der Vorgängerdatei von Microsoft Edge. Dadurch wird verhindert, dass die Profile angemeldeter Benutzer mit freigegebenen Einstellungen vom Surface Hub geändert werden.                                                                                                 | 4                 |
-| [BackgroundModeEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#backgroundmodeenabled)           | Zulassen, dass Microsoft Edge-Prozesse auch nach dem Schließen des letzten Browserfensters im Hintergrund ausgeführt werden, sodass während einer Sitzung schneller auf Web-Apps zugegriffen werden kann.                                                                                                      | 1                 |
-| [BrowserAddProfileEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#browseraddprofileenabled)     | Benutzer dürfen keine neuen Profile in Microsoft Edge erstellen. Dies vereinfacht das Browsen und die angemeldete Erfahrung.                                                                                                                                                      | 0                 |
+| [BackgroundModeEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#backgroundmodeenabled)           | Zulassen, dass Microsoft Edge-Prozesse auch nach dem Schließen des letzten Browserfensters im Hintergrund ausgeführt werden, sodass während einer Sitzung schneller auf Web Apps zugegriffen werden kann.                                                                                                      | 1                 |
+| [BrowserAddProfileEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#browseraddprofileenabled)     | Benutzer dürfen keine neuen Profile in Microsoft Edge erstellen. Dies vereinfacht das Browsen und die angemeldete Benutzererfahrung.                                                                                                                                                      | 0                 |
 | [BrowserGuestModeEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#browserguestmodeenabled)       | Ermöglicht nur einem Benutzer die Anmeldung bei Microsoft Edge. Dies vereinfacht das Browsen und die angemeldete Benutzererfahrung.                                                                                                                                                                | 0                 |
 | [BrowserSignin](https://docs.microsoft.com/deployedge/microsoft-edge-policies#browsersignin)                           | Ermöglicht Benutzern die Verwendung von single Sign-On (SSO) in Microsoft Edge. Wenn ein Benutzer bei Surface Hub angemeldet ist, können seine Anmeldeinformationen zu unterstützten Websites fließen, ohne dass er sich erneut authentifizieren muss.  | 1                 |
 | [ExtensionInstallBlockList](https://docs.microsoft.com/deployedge/microsoft-edge-policies#extensioninstallblocklist)   | Verhindert, dass Benutzer, die keine Administratoren sind, neue Erweiterungen in Microsoft Edge installieren. Verwenden Sie [ExtensionInstallForcelist](https://docs.microsoft.com/deployedge/microsoft-edge-policies#extensioninstallforcelist), um eine Liste von Erweiterungen zu konfigurieren, die standardmäßig installiert werden sollen. | *                 |
 | [HideFirstRunExperience](https://docs.microsoft.com/deployedge/microsoft-edge-policies#hidefirstrunexperience)         | Blendet die Erste Ausführung und den Begrüßungsbildschirm aus, der normalerweise angezeigt wird, wenn Benutzer Microsoft Edge zum ersten Mal ausführen. Da Surface Hub ein freigegebenes Gerät ist, vereinfacht dies die Benutzerfreundlichkeit.                                                                      | 1                 |
 | [InPrivateModeAvailability](https://docs.microsoft.com/deployedge/microsoft-edge-policies#inprivatemodeavailability)   | Deaktiviert den InPrivate-Modus. Da "Sitzung beenden" bereits Browserdaten löschen, vereinfacht dies das Browsen und die angemeldete Erfahrung.                                                                                                                                          | 1                 |
-| [NewTabPageSetFeedType](https://docs.microsoft.com/deployedge/microsoft-edge-policies#newtabpagesetfeedtype)           | Zeigt die Office 365-Feederfahrung auf neuen Registerkartenseiten an. Wenn ein Benutzer bei Surface Hub angemeldet ist, ermöglicht dies den schnellen Zugriff auf seine Dateien und Inhalte in Office 365.                                                                                                        | 1                 |
+| [NewTabPageSetFeedType](https://docs.microsoft.com/deployedge/microsoft-edge-policies#newtabpagesetfeedtype)           | Zeigt die Office 365-Feederfahrung auf neuen Registerkartenseiten an. Wenn ein Benutzer bei Surface Hub angemeldet ist, ermöglicht dies schnellen Zugriff auf seine Dateien und Inhalte in Office 365.                                                                                                        | 1                 |
 | [NonRemovableProfileEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#nonremovableprofileenabled) | Wenn ein Benutzer bei Surface Hub angemeldet ist, wird ein nicht wechselbares Profil mit dem Organisationskonto erstellt. Dadurch wird die Single Sign-On (SSO) vereinfacht.                                                                                                 | 1                 |
 | [PrintingEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#printingenabled)                       | Deaktiviert das Drucken in Microsoft Edge. Surface Hub unterstützt das Drucken nicht.                                                                                                                                                                                              | 0                 |
 | [ProActiveAuthEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#proactiveauthenabled)             | Ermöglicht Microsoft Edge die proaktive Authentifizierung angemeldeter Benutzer mit Microsoft-Diensten. Dadurch wird die Single Sign-On (SSO) vereinfacht.                                                                                                                         | 1                 |
@@ -108,33 +108,10 @@ Beachten Sie, dass Surface Hub die folgenden Microsoft Edge-Updaterichtlinien ni
 - **Allowsxs** – Auf Surface Hub ersetzt der Microsoft Edge Stable-Kanal immer Microsoft Edge Legacy.
 - **CreateDesktopShortcut** – Surface Hub verwendet keine Desktopverknüpfungen.
 
-> [!NOTE]
+> [!TIP]
 >  Microsoft Edge erfordert zur Unterstützung der zugehörigen Features eine Internetverbindung. Stellen Sie sicher, [dass die erforderlichen Domänen-URLs](https://docs.microsoft.com/deployedge/microsoft-edge-security-endpoints) der Liste "Zulassen" hinzugefügt werden, um die Kommunikation über Firewalls und andere Sicherheitsmechanismen sicherzustellen.
- 
-### Anzeigen von Microsoft Edge im Surface Hub-Startmenü
-
-Wenn Sie das standardmäßige Startmenülayout verwenden, können Sie das Startmenü mit dem Microsoft Edge-Bereitstellungspaket installieren, um Microsoft Edge als angeheftete App hinzuzufügen.
-Wenn Sie ein angepasstes Startmenülayout anwenden möchten, verwenden Sie den folgenden XML-Code, um eine angeheftierte Kachel für Microsoft Edge hinzuzufügen.
-
-```xml
-
-<start:DesktopApplicationTile
-
-DesktopApplicationLinkPath="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-
-Size="2x2"
-
-Row="0"
-
-Column="0"/>
-```
-
-Weitere Informationen finden Sie unter ["Surface Hub-Startmenü konfigurieren".](https://docs.microsoft.com/surface-hub/surface-hub-start-menu)
- 
-> [!NOTE]
-> Das neue Microsoft Edge unterstützt keine angeheftet Websites.
 
 ## Verwandte Links
 
-- [Microsoft Edge-Dokumentation](https://docs.microsoft.com/microsoft-edge/).
+- [Dokumentation für Microsoft Edge](https://docs.microsoft.com/microsoft-edge/)
 
