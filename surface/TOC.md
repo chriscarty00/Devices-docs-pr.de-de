@@ -19,7 +19,7 @@
 
 ## Planen
 
-### [Kompatibilität von Surface-Geräten mit Windows10 Long-Term Servicing Branch](surface-device-compatibility-with-windows-10-ltsc.md)
+### [Kompatibilität von Surface-Geräten mit Windows 10 Long-Term Servicing Branch](surface-device-compatibility-with-windows-10-ltsc.md)
 ### [Long-Term Servicing Branch für Surface-Geräte](ltsb-for-surface.md)
 ### [Wake-On-LAN für Surface-Geräte](wake-on-lan-for-surface-devices.md)
 ### [Überlegungen zu Surface und Endpoint Configuration Manager](considerations-for-surface-and-system-center-configuration-manager.md)
@@ -37,9 +37,9 @@
 ### [App-Kompatibilität für Surface Pro X](surface-pro-arm-app-performance.md)
 ### [Verwalten und Bereitstellen von Treiber- und Firmwareupdates für Surface](manage-surface-driver-and-firmware-updates.md)
 ### [Surface Deployment Accelerator](microsoft-surface-deployment-accelerator.md)
-### [Bereitstellen von Windows10 auf Surface-Geräten mit MDT](deploy-windows-10-to-surface-devices-with-mdt.md)
+### [Bereitstellen von Windows 10 auf Surface-Geräten mit MDT](deploy-windows-10-to-surface-devices-with-mdt.md)
 ### [Aktivieren der Surface Laptop-Tastatur während der MDT-Bereitstellung](enable-surface-keyboard-for-windows-pe-deployment.md)
-### [Upgrade von Surface-Geräten zu Windows10 mit MDT](upgrade-surface-devices-to-windows-10-with-mdt.md)
+### [Upgrade von Surface-Geräten zu Windows 10 mit MDT](upgrade-surface-devices-to-windows-10-with-mdt.md)
 ### [Anpassen der Windows-Willkommensseite für die Bereitstellung von Surface-Geräten](customize-the-oobe-for-surface-deployments.md)
 ### [Referenz für Surface-System-SKU](surface-system-sku-reference.md)
 
@@ -81,8 +81,8 @@
 ### [Hilfe für Endbenutzer](https://support.microsoft.com/products/surface-devices)
 ### [Lebenszyklus von Surface-Treibern und -Firmware für Windows-basierte Geräte](surface-driver-firmware-lifecycle-support.md)
 
-## Garantie und erweiterte Servicepläne
-### [Surface für Unternehmen– Garantie und erweiterte Servicepläne](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
+## Garantie und Schutzpläne
+### [Surface für Unternehmen – Garantie und Schutzpläne](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
 ### [Geschäftsbedingungen](https://support.microsoft.com/help/4493926/warranties-extended-service-plans-and-terms-conditions-for-your-device)
 ### [Überprüfen des Garantiestatus von Geräten](https://mybusinessservice.surface.com/)
 ### [Schützen von Daten beim Einsenden von Surface an den Service](https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service)
