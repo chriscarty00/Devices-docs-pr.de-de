@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 12/05/2019
 ms.localizationpriority: Medium
-ms.openlocfilehash: 88f5d912f7505aecaa5bd7ba659acab2d6c4fa1a
-ms.sourcegitcommit: 25b8d880c6438f94b008f47b4fecc3aa4c473e85
+ms.openlocfilehash: 64ceee291d3d3e067f581707d9431fa92398c785
+ms.sourcegitcommit: ecb4909c091e69b7bdb1faacfc8c34b480dc884b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "11304808"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "11342975"
 ---
 # Zurücksetzen und Wiederherstellung für Surface Hub 2S
 
@@ -38,7 +38,7 @@ Melden Sie sich zunächst bei Surface Hub 2S mit Administratoranmeldeinformation
   
 3. Führen Sie zum Neukonfigurieren des Geräts das erste Setupprogramm aus.
 
-4. Wenn Sie das Gerät mithilfe von Microsoft Intune oder einer anderen Lösung für die Verwaltung mobiler Geräte verwalten, ziehen Sie den vorherigen Eintrag zurück, löschen Sie ihn, und registrieren Sie das neue Gerät erneut. Weitere Informationen finden Sie unter [Entfernen von Geräten mithilfe von Zurückziehen,](https://docs.microsoft.com/intune/devices-wipe)Zurückziehen oder manuellen Entfernen der Registrierung des Geräts.
+4. Wenn Sie das Gerät mithilfe von Microsoft Intune oder einer anderen Verwaltungslösung für mobile Geräte verwalten, ziehen Sie den vorherigen Eintrag zurück, löschen Sie ihn, und registrieren Sie das neue Gerät erneut. Weitere Informationen finden Sie unter ["Entfernen von Geräten mithilfe von Wipe", "Zurückziehen" oder "Manuelles](https://docs.microsoft.com/intune/devices-wipe)Entfernen der Registrierung des Geräts".
 
    > [!div class="mx-imgBorder"]
    > ![*Zurücksetzen und Wiederherstellung für Surface Hub 2S*](images/sh2-reset.png)
@@ -57,11 +57,25 @@ Mit Surface Hub 2S können Sie das Gerät mithilfe eines Wiederherstellungsabbil
 
 1. Laden Sie von einem separaten PC das Wiederherstellungsimage der ZIP-Datei von der [Surface -Wiederherstellungswebsite](https://support.microsoft.com/surfacerecoveryimage?devicetype=surfacehub2s) herunter, und kehren Sie dann zu diesen Anweisungen zurück. 
 
-1. Entpacken Sie die heruntergeladene Datei im Stammverzeichnis des USB-Laufwerks.  
+1. Geben Sie in das Suchfeld auf der Taskleiste **** das Wiederherstellungslaufwerk **ein,** und wählen Sie dann in den Ergebnissen ein Wiederherstellungslaufwerk oder Wiederherstellungslaufwerk erstellen aus. **** Möglicherweise müssen Sie ein Administratorkennwort eingeben oder Ihre Auswahl bestätigen.
 
-1. Schließen Sie das #A0 an einen beliebigen USB-C- oder #A1 auf Surface Hub 2S an.
+1. Wählen Sie **im Feld Benutzerkontensteuerung** **"Ja" aus.**
 
-1. Deaktivieren Sie das Gerät:
+1. Stellen Sie sicher, dass Sie das **Kontrollkästchen "Systemdateien auf dem** Wiederherstellungslaufwerk sichern" aktivieren und dann **"Weiter" auswählen.**
+
+1. Wählen Sie Ihr USB-Laufwerk aus, und wählen Sie dann **"Weiter > Erstellen" aus.**  Einige Hilfsprogramme müssen auf das Wiederherstellungslaufwerk kopiert werden, sodass dies einige Minuten dauern kann.
+
+1. Wenn das Wiederherstellungslaufwerk bereit ist, wählen Sie **"Fertig stellen" aus.**
+
+1. Doppelklicken Sie auf die ZIP-Wiederherstellungsabbilddatei, die Sie zuvor heruntergeladen haben, um sie zu öffnen.
+
+1. Wählen Sie alle Dateien aus dem Wiederherstellungsimageordner aus, kopieren Sie sie in das Stammverzeichnis Ihres USB-Laufwerks, und wählen Sie dann "Auswählen, um die Dateien im Ziel **zu ersetzen" aus.**
+
+1. Sobald die Dateien kopiert wurden, wählen Sie auf der Taskleiste das Symbol "Hardware sicher entfernen" und **"Eject Media"** aus, und entfernen Sie das USB-Laufwerk.
+
+1. Schließen Sie das #A0 an einen beliebigen USB-C- oder #A1 auf dem Surface Hub 2S an.
+
+1. Deaktivieren Sie den Hub, und gehen Sie dann wie im Folgenden vor, um vom USB-Laufwerk zu starten:
 
    1. Drücken Sie beim Drücken der Taste "Lautstärke nach unten" die Ein-/Aus-Taste.
    1. Drücken Sie weiterhin beide Tasten, bis das Windows-Logo angezeigt wird.
@@ -72,9 +86,9 @@ Mit Surface Hub 2S können Sie das Gerät mithilfe eines Wiederherstellungsabbil
 
 1. Wählen Sie auf dem Sprachauswahlbildschirm die Anzeigesprache für Surface Hub 2S aus.
 
-1. Wählen **Sie "Von einem Laufwerk wiederherstellen"** aus, und **bereinigen**Sie das Laufwerk vollständig, und wählen Sie dann **"Wiederherstellen" aus.** Wenn Sie zur Eingabe eines BitLocker-Schlüssels aufgefordert werden, wählen Sie **"Dieses Laufwerk überspringen" aus.** Surface Hub 2S wird mehrmals neu gestartet und benötigt ca. 30 Minuten, um den Wiederherstellungsvorgang abschließen zu können.
+1. Wählen **Sie "Von einem Laufwerk wiederherstellen"** aus, und **bereinigen**Sie das Laufwerk vollständig, und wählen Sie dann "Wiederherstellen" **aus.** Wenn Sie zur Eingabe eines BitLocker-Schlüssels aufgefordert werden, wählen Sie **"Dieses Laufwerk überspringen" aus.** Surface Hub 2S wird mehrmals neu gestartet und benötigt ca. 30 Minuten, um den Wiederherstellungsvorgang abschließen zu können.
 
-Entfernen Sie beim ersten Einrichten des Bildschirms das USB-Laufwerk.
+Wenn der Bildschirm zum ersten Einrichten angezeigt wird, entfernen Sie das USB-Laufwerk.
 
 ## Hilfe und Support zu Windows
 
