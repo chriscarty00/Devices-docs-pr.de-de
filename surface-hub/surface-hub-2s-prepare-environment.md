@@ -9,54 +9,60 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 12/28/2020
+ms.date: 2/26/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: af66449806c9aa525fa3f5df84012d3daeed96ba
-ms.sourcegitcommit: dbd14649442ad039aeb265cd60ed029d483a4bb0
+ms.openlocfilehash: caa6372820222f6f2f225f028161b3441b147a82
+ms.sourcegitcommit: 7e1b351024e33926901ddbdc562ba12aea0b4196
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "11251452"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "11385143"
 ---
-# Vorbereiten Ihrer Umgebung für Surface Hub 2S
+# <a name="prepare-your-environment-for-surface-hub-2s"></a>Vorbereiten Ihrer Umgebung für Surface Hub 2S
 
-## Office 365-Bereitschaft
+## <a name="office-365-readiness"></a>Office 365-Bereitschaft
 
-Wenn Sie Exchange Online, Skype for Business Online, Microsoft Teams oder Microsoft Whiteboard verwenden und Surface Hub 2S mit InTune verwalten möchten, überprüfen Sie zunächst die [Office 365-Anforderungen für Endpunkte](https://docs.microsoft.com/office365/enterprise/office-365-endpoints).
+Wenn Sie Exchange Online, Skype for Business Online, Microsoft Teams oder Microsoft Whiteboard verwenden und Surface Hub 2S mit Intune verwalten möchten, überprüfen Sie zunächst die [Office 365-Anforderungen für Endpunkte.](https://docs.microsoft.com/office365/enterprise/office-365-endpoints)
 
-Office 365-Endpunkte helfen, Ihr Netzwerk zu optimieren, indem Sie alle vertrauenswürdigen Office 365-Netzwerkanforderungen direkt über Ihre Firewall senden, wobei alle zusätzlichen Inspektionen oder Verarbeitungsschritte auf Paketebene umgangen werden. Dieses Feature verringert die Latenz und ihre Perimeter-Kapazitätsanforderungen.
+Office 365-Endpunkte helfen Bei der Optimierung Ihres Netzwerks, indem alle vertrauenswürdigen Office 365-Netzwerkanforderungen direkt über Ihre Firewall gesendet werden und alle zusätzlichen Überprüfungen oder Verarbeitungen auf Paketebene umgangen werden. Mit diesem Feature werden die Wartezeit und die Anforderungen an die Umkreiskapazität reduziert.
 
-Microsoft aktualisiert den Office 365-Dienst regelmäßig mit neuen Features und Funktionen, die erforderliche Ports, URLs und IP-Adressen ändern können. Wenn Sie die Änderungen auswerten, konfigurieren und auf dem neuesten Stand bleiben möchten, abonnieren Sie die [Office 365-IP-Adresse und den URL-Webdienst](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service).
-
-> [!NOTE]
-> Surface Hub kann mit Microsoft Teams, Skype for Business Server 2019, Skype for Business Server 2015 oder Skype for Business Online verwendet werden.
-Frühere Plattformen wie lync Server 2013 werden nicht unterstützt. Surface Hub wird in GCC-High-oder DoD-Umgebungen nicht unterstützt.
-
-
-## Geräte Zugehörigkeit
-
-Verwenden Sie die Geräte Zugehörigkeit, um den Benutzer Zugriff auf die Einstellungs-APP auf Surface Hub 2S zu verwalten.
-Mit dem Windows 10-Team Betriebssystem (das auf Surface Hub 2S ausgeführt wird) können nur autorisierte Benutzer die Einstellungen mithilfe der Einstellungs-APP anpassen. Da sich die Auswahl der Zuordnung auf die Verfügbarkeit von Features auswirken kann, sollten Sie entsprechend planen, um sicherzustellen, dass Benutzer auf Funktionen wie beabsichtigt zugreifen können.
+Microsoft aktualisiert den Office 365-Dienst regelmäßig mit neuen Features und Funktionen, die erforderliche Ports, URLs und IP-Adressen ändern können. Um Änderungen auszuwerten, zu konfigurieren und auf dem neuesten Stand zu bleiben, abonnieren Sie den [Office 365-IP-Adress- und URL-Webdienst](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service).
 
 > [!NOTE]
-> Sie können die Geräte Zugehörigkeit nur während des anfänglichen out-of-Box Experience (OOBE)-Setups festzulegen. Wenn Sie die Geräte Zugehörigkeit zurücksetzen müssen, müssen Sie das OOBE-Setup wiederholen.
+> Surface Hub funktioniert mit Microsoft Teams, Skype for Business Server 2019, Skype for Business Server 2015 oder Skype for Business Online.
+Frühere Plattformen wie Lync Server 2013 werden nicht unterstützt. Surface Hub wird in GCC-High oder DoD-Umgebungen nicht unterstützt.
 
-## Keine Zugehörigkeit
 
-Keine Zugehörigkeit ist vergleichbar mit dem Surface Hub 2S in einer Arbeitsgruppe mit einem anderen lokalen Administrator Konto auf jeder Surface Hub 2S. Wenn Sie keine Zuordnung auswählen, müssen Sie den [BitLocker-Schlüssel lokal auf einem USB-Daumen Laufwerk](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-key-management-faq)speichern. Sie können das Gerät weiterhin mit InTune registrieren; Allerdings kann nur der lokale Administrator auf die Einstellungs-APP mit den Kontoanmeldeinformationen zugreifen, die während OOBE konfiguriert sind. Sie können das Kennwort für das Administrator Konto aus der Einstellungs-APP ändern.
+## <a name="device-affiliation"></a>Gerätezugehörigkeit
 
-## Active Directory Domain Services
+Verwenden Sie Gerätezugehörigkeit, um den Benutzerzugriff auf die Einstellungen-App auf Surface Hub 2S zu verwalten.
+Mit dem Windows 10 Team-Betriebssystem (das auf Surface Hub 2S ausgeführt wird) können nur autorisierte Benutzer Einstellungen mithilfe der Einstellungs-App anpassen. Da sich die Auswahl der Zuordnung auf die Featureverfügbarkeit auswirken kann, sollten Sie entsprechend planen, um sicherzustellen, dass Benutzer wie beabsichtigt auf Features zugreifen können.
 
-Wenn Sie Surface Hub 2S mit lokalen Active Directory-Domänendiensten verknüpfen, müssen Sie den Zugriff auf die Einstellungs-APP mithilfe einer Sicherheitsgruppe in Ihrer Domäne verwalten. Dadurch wird sichergestellt, dass alle Mitglieder der Sicherheitsgruppe über die Berechtigungen zum Ändern der Einstellungen für Surface Hub 2S verfügen. Beachten Sie außerdem Folgendes:
+> [!NOTE]
+> Sie können die Gerätezugehörigkeit nur während des anfänglichen Setups für die out-of-box-Besens (OOBE) festlegen. Wenn Sie die Gerätezugehörigkeit zurücksetzen müssen, müssen Sie das OOBE-Setup wiederholen.
 
-- Wenn die Surface Hub 2S-Partner mit Ihren lokalen Active Directory-Domänendiensten verbunden sind, kann der BitLocker-Schlüssel im Active Directory-Schema gespeichert werden. Weitere Informationen finden Sie unter [Vorbereiten Ihrer Organisation für BitLocker: Planung und Richtlinien](https://docs.microsoft.com/windows/security/information-protection/bitlocker/prepare-your-organization-for-bitlocker-planning-and-policies).
+## <a name="no-affiliation"></a>Keine Zugehörigkeit
 
-- Die vertrauenswürdigen Stammzertifizierungsstellen Ihrer Organisation werden in Surface Hub 2S an denselben Container übertragen, was bedeutet, dass Sie Sie nicht mit einem Bereitstellungspaket importieren müssen.
+Keine Zuordnung ist so, als würde Surface Hub 2S in einer Arbeitsgruppe mit einem anderen lokalen Administratorkonto auf jedem Surface Hub 2S erstellt. Wenn Sie Keine Zugehörigkeit auswählen, müssen Sie den [BitLocker-Schlüssel](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-key-management-faq)lokal auf einem USB-Stick speichern. Sie können das Gerät weiterhin bei Intune registrieren. Allerdings kann nur der lokale Administrator mithilfe der Kontoanmeldeinformationen, die während der OOBE konfiguriert wurden, auf die Einstellungs-App zugreifen. Sie können das Administratorkontokennwort über die Einstellungs-App ändern.
 
-- Sie können das Gerät weiterhin mit InTune registrieren, um die Einstellungen auf dem Surface Hub 2S zentral zu verwalten.
+## <a name="active-directory-domain-services"></a>Active Directory Domain Services
 
-## Azure Active Directory
+Wenn Sie Surface Hub 2S mit lokalen Active Directory-Domänendiensten verbinden, müssen Sie den Zugriff auf die Einstellungs-App mithilfe einer Sicherheitsgruppe in Ihrer Domäne verwalten. Dadurch wird sichergestellt, dass alle Mitglieder der Sicherheitsgruppe über Berechtigungen zum Ändern von Einstellungen auf Surface Hub 2S verfügen. Beachten Sie außerdem Folgendes:
 
-Wenn Sie sich entscheiden, ihre Surface Hub 2S mit Azure Active Directory (Azure AD) zu verknüpfen, kann sich jeder Benutzer in der Sicherheitsgruppe globale Administratoren bei der Einstellungs-APP auf Surface Hub 2S anmelden. Derzeit kann keine andere Gruppe delegiert werden, um sich bei der Einstellungs-APP auf Surface Hub 2S anzumelden.
+- Wenn Surface Hub 2S mit Ihren lokalen Active Directory-Domänendiensten verbunden ist, kann der BitLocker-Schlüssel im Active Directory-Schema gespeichert werden. Weitere Informationen finden Sie unter [Prepare your organization for BitLocker: Planning and policies](https://docs.microsoft.com/windows/security/information-protection/bitlocker/prepare-your-organization-for-bitlocker-planning-and-policies).
 
-Wenn Sie die automatische Registrierung von InTune für Ihre Organisation aktiviert haben, wird Surface Hub 2S automatisch bei InTune registriert. Der BitLocker-Schlüssel des Geräts wird in Azure AD automatisch gespeichert. Bei der Zuordnung von Surface Hub 2S mit Azure AD können einmaliges Anmelden und einfache Authentifizierung nicht funktionieren.
+- Die vertrauenswürdigen Stammzertifizierungsstelle Ihrer Organisation werden in Surface Hub 2S an denselben Container geschubst, d. h., Sie müssen sie nicht mithilfe eines Bereitstellungspakets importieren.
+
+- Sie können das Gerät weiterhin bei Intune registrieren, um Einstellungen auf Ihrem Surface Hub 2S zentral zu verwalten.
+
+## <a name="azure-active-directory"></a>Azure Active Directory
+
+Wenn Sie Surface Hub 2S mit Azure Active Directory (Azure AD) verbinden möchten, kann sich jeder Benutzer in der Globalen Sicherheitsgruppe "Administratoren" bei der Einstellungs-App auf Surface Hub 2S anmelden. Sie können auch nicht globale Administratorkonten konfigurieren, die die Berechtigungen auf die Verwaltung der Einstellungen-App auf Surface Hub 2S beschränken. Auf diese Weise können Sie administratorberechtigungen nur für Surface Hub 2S festlegen und potenziell unerwünschten Administratorzugriff über eine gesamte Azure AD-Domäne hinweg verhindern. 
+
+Wenn Sie die automatische Registrierung von Intune für Ihre Organisation aktiviert haben, registriert sich Surface Hub 2S automatisch bei Intune. Der BitLocker-Schlüssel des Geräts wird automatisch in Azure AD gespeichert. 
+
+Weitere Informationen zum Verwalten von Surface Hub mit Azure AD finden Sie unter: 
+
+ - [Administratorgruppenverwaltung](admin-group-management-for-surface-hub.md)
+ - [Konfigurieren nicht globaler Administratorkonten auf Surface Hub 2S](surface-hub-2s-nonglobal-admin.md)
+

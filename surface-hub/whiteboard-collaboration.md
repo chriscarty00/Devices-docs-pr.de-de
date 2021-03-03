@@ -1,6 +1,6 @@
 ---
 title: Einrichten und Verwenden von Microsoft Whiteboard
-description: Das neueste Update von Microsoft Whiteboard umfasst die Möglichkeit, dass zwei Surface Hubs in Echtzeit auf derselben Platine zusammenarbeiten können.
+description: Das neueste Update von Microsoft Whiteboard bietet zwei Surface Hubs die Möglichkeit, in Echtzeit auf demselben Board zusammenzuarbeiten.
 ms.prod: surface-hub
 ms.sitesec: library
 author: dansimp
@@ -10,70 +10,71 @@ ms.date: 03/18/2019
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 55db1240c13bf2bb124603717f37e0a0da154683
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 1b19aced34bdd6580836406015deec42f169e30b
+ms.sourcegitcommit: 7e1b351024e33926901ddbdc562ba12aea0b4196
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832611"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "11385183"
 ---
-# Einrichten und Verwenden von Microsoft Whiteboard
+# <a name="set-up-and-use-microsoft-whiteboard"></a>Einrichten und Verwenden von Microsoft Whiteboard
 
-Die Microsoft Whiteboard-App bietet die Möglichkeit für Surface Hubs und andere Geräte, auf denen die Microsoft Whiteboard-App installiert ist, um in Echtzeit auf derselben Tafel zusammenzuarbeiten.
+Die Microsoft Whiteboard-App umfasst die Funktion für Surface Hubs und andere Geräte, auf dem die Microsoft Whiteboard-App installiert ist, um auf demselben Board in Echtzeit zusammenzuarbeiten.
 
-## Voraussetzungen
+## <a name="prerequisites"></a>Voraussetzungen
 
-Führen Sie die folgenden Aktionen aus, um die Whiteboard-Zusammenarbeit zu verwenden:
+Führen Sie die folgenden Aktionen aus, um die Whiteboardzusammenarbeit zu verwenden:
 
-- Fügen Sie Whiteboard.ms, Whiteboard.Microsoft.com und wbd.ms zu Ihrer Liste der zulässigen Websites hinzu.
-- Port öffnen: **https: 443** (wird normalerweise beim ersten Ausführen von Surface Hub konfiguriert.)
+- Fügen Whiteboard.ms, whiteboard.microsoft.com und wbd.ms ihrer Liste der zulässigen Websites hinzu.
+- Offener Port: **HTTPS: 443** (normalerweise konfiguriert, wenn Sie Surface Hub zum ersten Mal ausführen.)
 
-## Office 365-Anforderungen
+## <a name="office-365-requirements"></a>Office 365-Anforderungen
 
-- Die Zusammenarbeit an Whiteboards wird nur in der Office 365-Geschäftsumgebung unterstützt und erfordert Office 365 mit Cloud-basiertem Azure Active Directory (Azure AD).
-- Sie können kollaborative Sitzungen nur unter Benutzern ausführen, die zum gleichen Office 365-Mandanten gehören.
-- Office 365 Deutschland oder Office 365, betrieben von 21Vianet, unterstützen keine Whiteboard-Zusammenarbeit.
+- Die Whiteboardzusammenarbeit wird nur in der kommerziellen Office 365-Umgebung unterstützt und erfordert Office 365 mit cloudbasiertem Azure Active Directory (Azure AD).
+- Sie können nur gemeinsame Sitzungen zwischen Benutzern ausführen, die zum gleichen Office 365-Mandanten gehören.
+- Office 365 Deutschland oder Office 365, betrieben von 21Vianet, unterstützen keine Whiteboardzusammenarbeit.
 
-## Zusammenarbeiten mit Whiteboards
+## <a name="collaborating-with-whiteboards"></a>Zusammenarbeit mit Whiteboards
 
 So starten Sie eine Zusammenarbeits-Sitzung:
 
 1. Tippen Sie in der Whiteboard-App auf die Schaltfläche **Anmelden**.
 2. Melden Sie sich mit Ihrer Organisations-ID an.
 3. Tippen Sie auf die Schaltfläche **Einladen** neben Ihrem Namen am oberen Rand der App.
-4. Schreiben Sie die Namen der Kollegen, mit denen Sie zusammenarbeiten möchten, oder geben Sie Sie ein.
+4. Schreiben oder geben Sie die Namen der Kollegen ein, mit der Sie zusammenarbeiten möchten.
 
-Auf dem anderen Gerät, beispielsweise einem Surface Hub, wenn Sie angemeldet sind, wird das freigegebene Board nun im Board-Katalog angezeigt.
+Auf dem anderen Gerät, z. B. einem Surface Hub, wird die freigegebene Platine nun im Boardkatalog angezeigt, wenn Sie angemeldet sind.
 
-### Tipps für Benutzer
-- Melden Sie sich an, um auf Ihre Whiteboards zuzugreifen. Während der Arbeit werden Änderungen automatisch gespeichert.
-- Benennen Sie Ihre Whiteboards, damit Sie Ihre Inhalte organisieren und schnell finden können. Wählen Sie die Option... , um das Menü zu öffnen. Wählen Sie das Zahnradsymbol für **Optionen** aus, um auf weitere Tools und Features des Whiteboards zuzugreifen.
-- Verwenden Sie **Freihand für Shape** , um die Zeichnung in tatsächliche Formen wie Kreise, Quadrate und Dreiecke umzuwandeln.
-- Verwenden Sie **Freihand in einer Tabelle** , um ein gezeichnetes Raster in eine Tabelle mit Zeilen und Spalten umzuwandeln.
-- Sie können auch die Hintergrundfarbe und das Design von Solid in Raster oder Punkte ändern. Wählen Sie den Hintergrund aus, und wählen Sie dann die Farbe aus dem Rad um ihn herum aus.
-- Sie können eine Kopie der Whiteboard-Zusammenarbeit über den Charm "freigeben" für sich selbst exportieren und das Board verlassen, damit andere Personen weiterhin arbeiten können.
+### <a name="user-tips"></a>Benutzertipps
+
+- Melden Sie sich an, um auf Ihre Whiteboards zu zugreifen. Während Der Arbeit werden Änderungen automatisch gespeichert.
+- Nennen Sie Ihre Whiteboards, um Ihre Inhalte zu organisieren und schnell zu finden. Wählen Sie die Option ... aus. , um das Menü zu öffnen. Wählen Sie das **Zahnradsymbol** Optionen aus, um auf weitere Tools und Features des Whiteboards zu zugreifen.
+- Verwenden **Sie Freihand, um** das Zeichnen in tatsächliche Formen wie Kreise, Quadrate und Dreiecke zu verwandeln.
+- Verwenden **Sie Freihand, um** ein gezeichnetes Raster in eine Tabelle mit Zeilen und Spalten zu verwandeln.
+- Sie können auch die Hintergrundfarbe und das Design von einfarbig in Raster oder Punkte ändern. Wählen Sie den Hintergrund aus, und wählen Sie dann die Farbe aus dem Rad um ihn herum aus.
+- Sie können eine Kopie der Whiteboard-Zusammenarbeit über den Share-Charm selbst exportieren und das Board verlassen, damit andere weiterhin arbeiten können.
 
 Weitere Informationen finden Sie unter [Verwenden von Microsoft Whiteboard auf einem Surface Hub](https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d).
 
-> [!NOTE]
->  Wenn Sie Whiteboard verwenden und sich nicht anmelden können, können Sie zusammenarbeiten, indem Sie an einem Team oder einer Skype for Business-Besprechung teilnehmen und dann Ihren Bildschirm freigeben. Wenn Sie fertig sind, tippen Sie auf **Einstellungen**  >  **exportieren, um eine e-Mail zu senden** , oder speichern Sie eine Kopie des Boards. Wenn Sie sich für den Export in SVG entscheiden, werden Vektorgrafiken exportiert und eine höhere Auflösung als PNG bereitgestellt und können in einem Webbrowser geöffnet werden.
+> [!TIP]
+>  Wenn Sie Whiteboard verwenden und sich nicht anmelden können, können Sie zusammenarbeiten, indem Sie an einer Teams- oder Skype for Business-Besprechung beitreten und dann Ihren Bildschirm freigeben. Tippen Sie anschließend auf **** Einstellungen  >  **Exportieren in** E-Mail, oder speichern Sie eine Kopie des Board. Wenn Sie in SVG exportieren möchten, exportiert es Vektorgrafiken und bietet eine höhere Auflösung als PNG und kann in einem Webbrowser geöffnet werden.
 
-## Neue Features in Whiteboard
+## <a name="new-features-in-whiteboard"></a>Neue Features in Whiteboard
 
-Die Microsoft Whiteboard-APP, aktualisiert für Surface Hub am 1. Juli, 2019 umfasst eine Reihe neuer Features, einschließlich:
+Die Microsoft Whiteboard-App, die am 1. Juli 2019 für Surface Hub aktualisiert wurde, enthält eine Vielzahl neuer Features, darunter:
 
-- **Automatisches Speichern** – Tafeln werden automatisch in der Cloud gespeichert, wenn Sie sich anmelden, und finden Sie im Board-Katalog. Es gibt keinen lokalen Ordnernamen oder Verzeichnis.
-- **Erweiterte Zusammenarbeit auf allen Geräten** – Sie können mit neuen apps für Windows 10 PC und IOS und einer Web-Version für andere Geräte zusammenarbeiten.
-- **Reichere Leinwand** – neben Freihand und Bildern enthält Whiteboard nun auch Haftnotizen, Text und GIF-Dateien, in denen weitere Objekte in Kürze zur Verfügung stehen.
-- **Intelligenz** – neben Freihand in Form und Tabelle enthält Whiteboard nun eine frei Hand Verschönerung, um die Handschrift und die Freihandeingabe zu verbessern, um Bilder in Freihand umzuwandeln.
-- **Weitere Farb-und Hintergrundoptionen** – Whiteboard enthält jetzt mehr stiftfarben und-Optionen sowie zusätzliche Hintergrundfarben und-Designs.
-- **Integration von Teams** – Sie können das Whiteboard automatisch aus einer Teambesprechung starten und für Teilnehmer freigeben (derzeit in der Vorschau).
+- **Automatisches Speichern** – Boards werden bei der Anmeldung automatisch in der Cloud gespeichert und finden Sie im Board gallery. Der Name oder das Verzeichnis des lokalen Ordners ist nicht vorhanden.
+- **Erweiterte Zusammenarbeit auf allen** Geräten – Sie können mit neuen Apps für Windows 10 PC und iOS und einer Webversion für andere Geräte zusammenarbeiten.
+- **Reichhaltigere Zeichenfläche** – Neben Freihandeingaben und Bildern enthält Whiteboard jetzt auch Klebenotizen, Text und GIFs, mit weiteren Objekten, die in Kürze zur Verfügung stehen.
+- **Intelligenz** – Zusätzlich zu Freihandeingaben in Form und Tabelle umfasst Whiteboard jetzt auch die Freihandverschönerung, um die Handschrift und das Freihandgreifen zu verbessern, um Bilder in Freihand zu konvertieren.
+- **Weitere Farb- und Hintergrundoptionen** – Whiteboard enthält jetzt mehr Stiftfarben und Dickeoptionen sowie zusätzliche Hintergrundfarben und Designs.
+- **Teams-Integration** – Sie können Whiteboard automatisch aus einer Teams-Besprechung starten und für Teilnehmer freigeben.
 
 
-## Verwandte Themen
+## <a name="related-topics"></a>Verwandte Themen
 
 - [Windows 10 Creators Update für Surface Hub](https://www.microsoft.com/surface/support/surface-hub/windows-10-creators-update-surface-hub)
 
 - [Dokumentation für Microsoft Whiteboard](https://support.office.com/article/Whiteboard-Help-0c0f2aa0-b1bb-491c-b814-fd22de4d7c01)
 
-- [Verwenden von Microsoft Whiteboard auf einem Surface Hub](https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d)
+- [Verwenden von Microsoft Whiteboard auf ein Surface Hub](https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d)
