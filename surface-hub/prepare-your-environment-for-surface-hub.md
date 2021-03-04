@@ -1,5 +1,5 @@
 ---
-title: Vorbereiten der Umgebung für Microsoft Surface Hub (v1)
+title: Vorbereiten Der Umgebung für Microsoft Surface Hub (v1)
 description: Dieser Abschnitt enthält eine Übersicht über die zum Vorbereiten der Umgebung erforderlichen Schritte, damit Sie alle Features von Microsoft Surface Hub verwenden können.
 ms.assetid: 336A206C-5893-413E-A270-61BFF3DF7DA9
 ms.reviewer: ''
@@ -10,24 +10,24 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 12/04/2017
+ms.date: 03/03/2021
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub
-ms.openlocfilehash: 95b575e5213e3e11685b342cb2a7b77eb3e868a0
-ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
+ms.openlocfilehash: 075724153709fd86ccc00ef98ad532bf45557714
+ms.sourcegitcommit: 5c904229a0257297be7f724c264e484d2c4b5168
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "11314398"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "11387444"
 ---
-# Vorbereiten der Umgebung für Microsoft Surface Hub (v1)
+# <a name="prepare-your-environment-for-microsoft-surface-hub-v1"></a>Vorbereiten Der Umgebung für Microsoft Surface Hub (v1)
 
 
-Dieser Abschnittenthält eine Übersicht über Setupabhängigkeiten und den Setupprozess. Lesen Sie die Informationen in diesem Abschnitt, um Ihre Umgebung vorzubereiten und die für die Einrichtung von Surface Hub erforderlichen Informationen zu sammeln.
+Dieser Abschnittenthält eine Übersicht über Setupabhängigkeiten und den Setupprozess. Überprüfen Sie die Informationen, um Ihre Umgebung vorzubereiten und Informationen zu sammeln, die zum Einrichten ihres Surface Hub erforderlich sind.
 
 
-## Überprüfen der Infrastrukturabhängigkeiten
+## <a name="review-infrastructure-dependencies"></a>Überprüfen der Infrastrukturabhängigkeiten
 Überprüfen Sie diese Abhängigkeiten, um sicherzustellen, dass die Surface Hub-Features in Ihrer IT-Infrastruktur funktionieren.
 
 | Abhängigkeit        | Zweck           |
@@ -36,24 +36,24 @@ Dieser Abschnittenthält eine Übersicht über Setupabhängigkeiten und den Setu
 | Exchange (Exchange 2013 oder höher oder Exchange Online) und Exchange ActiveSync | <p>Exchange dient zum Aktivieren von E-Mail- und Kalenderfunktionen und ermöglicht außerdem Benutzern des Geräts das Senden von Besprechungsanfragen an das Surface Hub-Gerät, wodurch die One-Touch-Besprechungsteilnahme ermöglicht wird.</p>ActiveSync wird verwendet, um Kalender und E-Mail des Gerätekontos mit dem Surface Hub zu synchronisieren. Wenn das Gerät ActiveSync nicht verwenden kann, werden keine Besprechungen auf der Willkommensseite angezeigt, und die Besprechungsteilnahme und das Senden von Whiteboards per E-Mail sind nicht aktiviert. |
 | Skype for Business (Lync Server2013 oder höher oder Skype for Business Online)  | Skype for Business wird für verschiedene Konferenzfeatures wie Videoanrufe, Chats und Bildschirmfreigabe verwendet.|
 | Mobile Device Management (MDM)-Lösung (Microsoft Intune, Microsoft Endpoint Configuration Manager oder unterstützter MDM-Drittanbieter) | Wenn Sie per Remoteverbindung auf mehreren Geräten gleichzeitig Einstellungen anwenden und Apps installieren möchten, müssen Sie eine MDM-Lösung einrichten und das Gerät für diese Lösung registrieren. Ausführliche Informationen finden Sie unter [Verwalten von Einstellungen mit einem MDM-Anbieter](manage-settings-with-mdm-for-surface-hub.md). |
-| Microsoft Operations Management Suite (OMS)   | OMS wird zum Überwachen der Integrität von Surface Hub-Geräten verwendet. Ausführliche Informationen finden Sie unter [Überwachen von Surface Hub](monitor-surface-hub.md). |
-| Netzwerk- und Internetzugriff   | Um korrekt zu funktionieren, muss Surface Hub Zugriff auf ein verkabeltes Netzwerk oder ein Drahtlosnetzwerk haben. Im Allgemeinen wird eine Kabelverbindung bevorzugt. 802.1x-Authentifizierung wird sowohl für kabelgebundene als auch drahtlose Verbindungen unterstützt.</br></br></br>**802.1x-Authentifizierung:** In Windows10, Version 1703 ist die 802. 1 X-Authentifizierung für Kabel- und Drahtlosverbindungen standardmäßig in Surface Hub aktiviert. Wenn Ihre Organisation nicht die 802.1x-Authentifizierung verwendet, ist keine Konfiguration erforderlich, und Surface Hub funktioniert weiterhin wie gewohnt. Wenn Sie die 802.1X-Authentifizierung verwenden, müssen Sie sicherstellen, dass das Authentifizierungszertifikat auf Surface Hub installiert ist. Sie können das Zertifikat an Surface Hub mittels [ClientCertificateInstall CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/clientcertificateinstall-csp) in MDM übermitteln, oder Sie können [ein Bereitstellungspaket erstellen](provisioning-packages-for-surface-hub.md) und es bei der ersten Ausführung oder über die Einstellungs-App installieren. Nachdem das Zertifikat auf Surface Hub angewendet wurde, funktioniert die 802.1x-Authentifizierung automatisch.</br>**Hinweis:** Weitere Informationen zum Aktivieren der kabelgebundenen 802.1x-Authentifizierung auf Surface Hub finden Sie unter [Kabelgebundene 802.1x-Authentifizierung ermöglichen](enable-8021x-wired-authentication.md).</br></br>**Dynamische IP:** Surface Hub kann nicht für die Verwendung einer statischen IP konfiguriert werden. Das Gerät muss DHCP zum Zuweisen einer IP-Adresse verwenden.</br></br>**Proxyserver:** Wenn die Topologie eine Verbindung über einen Proxyserver erfordert, um Internetdienste zu erreichen, kann dieser bei der ersten Ausführung oder in den Einstellungen konfiguriert werden. Proxyanmeldeinformationen werden für alle Surface Hub-Sitzungen gespeichert und müssen nur einmal festgelegt werden. |
+|Azure Monitor   | Azure Monitor wird verwendet, um die Integrität von Surface Hub-Geräten zu überwachen. Weitere Informationen zur Integrität finden Sie unter [Monitor Surface Hubs with Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/surface-hubs). 
+| Netzwerk- und Internetzugriff   | Um korrekt zu funktionieren, muss Surface Hub Zugriff auf ein verkabeltes Netzwerk oder ein Drahtlosnetzwerk haben. Im Allgemeinen wird eine Kabelverbindung bevorzugt. 802.1x-Authentifizierung wird sowohl für kabelgebundene als auch drahtlose Verbindungen unterstützt.</br></br></br>**802.1x-Authentifizierung:** In Windows10, Version 1703 ist die 802. 1 X-Authentifizierung für Kabel- und Drahtlosverbindungen standardmäßig in Surface Hub aktiviert. Wenn Ihre Organisation nicht die 802.1x-Authentifizierung verwendet, ist keine Konfiguration erforderlich, und Surface Hub funktioniert weiterhin wie gewohnt. Wenn Sie die 802.1X-Authentifizierung verwenden, müssen Sie sicherstellen, dass das Authentifizierungszertifikat auf Surface Hub installiert ist. Sie können das Zertifikat an Surface Hub mittels [ClientCertificateInstall CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/clientcertificateinstall-csp) in MDM übermitteln, oder Sie können [ein Bereitstellungspaket erstellen](provisioning-packages-for-surface-hub.md) und es bei der ersten Ausführung oder über die Einstellungs-App installieren. Nachdem das Zertifikat auf Surface Hub angewendet wurde, funktioniert die 802.1x-Authentifizierung automatisch.</br><br>**Hinweis:** Weitere Informationen zum Aktivieren der kabelgebundenen 802.1x-Authentifizierung auf Surface Hub finden Sie unter [Kabelgebundene 802.1x-Authentifizierung ermöglichen](enable-8021x-wired-authentication.md).</br></br>**Dynamische IP:** Surface Hub kann nicht für die Verwendung einer statischen IP konfiguriert werden. Das Gerät muss DHCP zum Zuweisen einer IP-Adresse verwenden.</br></br>**Proxyserver:** Wenn die Topologie eine Verbindung über einen Proxyserver erfordert, um Internetdienste zu erreichen, kann dieser bei der ersten Ausführung oder in den Einstellungen konfiguriert werden. Proxyanmeldeinformationen werden für alle Surface Hub-Sitzungen gespeichert und müssen nur einmal festgelegt werden. |
 
 Beachten Sie darüber hinaus, dass für Surface Hub die folgenden offenen Ports erforderlich sind:
 - HTTPS: 443
 - HTTP: 80
 - NTP: 123
 
-Wenn Sie Surface Hub mit Skype for Business verwenden, müssen Sie zusätzliche Ports öffnen. Befolgen Sie die nachstehenden Anleitungen:
-- Wenn Sie Skype for Business Online verwenden, lesen Sie [die Office 365-IP-URLs und -IP-Adressbereiche.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US)
-- Wenn Sie Skype for Business Server verwenden, lesen [Sie Skype for Business Server: Ports und](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/network-requirements/ports-and-protocols)Protokolle für interne Server. 
-- Wenn Sie eine Hybridlösung von Skype for Business Online und Skype for Business Server verwenden, müssen Sie alle dokumentierten Ports von [Office 365-IP-URLs und -Adressbereichen](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US) und [Skype for Business Server öffnen:](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/network-requirements/ports-and-protocols?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)Ports und Protokolle für interne Server.
+Wenn Sie Surface Hub mit Skype for Business verwenden, müssen Sie zusätzliche Ports öffnen. Befolgen Sie die folgenden Anleitungen:
+- Wenn Sie Skype for Business Online verwenden, finden Sie weitere Informationen unter [Office 365-IP-URLs und IP-Adressbereiche](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US).
+- Wenn Sie Skype for Business Server verwenden, lesen [Sie Skype for Business Server: Ports und Protokolle für interne Server](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/network-requirements/ports-and-protocols). 
+- Wenn Sie eine Hybridlösung aus Skype for Business Online und Skype for Business Server verwenden, müssen Sie alle dokumentierten Ports von [Office 365-IP-URLs und -Adressbereichen](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US) und [Skype for Business Server: Ports](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/network-requirements/ports-and-protocols?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)und Protokolle für interne Server öffnen.
 
 Microsoft sammelt Diagnosedaten zur Verbesserung der Surface Hub-Erfahrung. Fügen Sie die folgenden Websites zur Liste zugelassener Websites hinzu:
 - Clientendpunkt der Diagnosedaten: `https://vortex.data.microsoft.com/`
 - Endpunkt der Einstellungen für Diagnosedaten: `https://settings.data.microsoft.com/`
 
-### Proxykonfiguration
+### <a name="proxy-configuration"></a>Proxykonfiguration
 
 Wenn Ihre Organisation die Internetverbindungen der Computer im Netzwerk einschränkt, muss für Geräte, die den Microsoft Store für Unternehmen verwenden, ein bestimmter Satz von URLs verfügbar sein. Einige der Features des Microsoft Store für Unternehmen verwenden die Microsoft Store-App und Microsoft Store-Dienste. Geräte, die den Microsoft Store für Unternehmen verwenden, um Apps zu erwerben, zu installieren oder zu aktualisieren, benötigen Zugriff auf diese URLs. Wenn Sie einen Proxyserver verwenden, um Datenverkehr zu blockieren, muss die Konfiguration die folgenden URLs zulassen:
 
@@ -68,12 +68,12 @@ Wenn Ihre Organisation die Internetverbindungen der Computer im Netzwerk einschr
 - www.msftconnecttest.com/connecttest.txt (ersetzt ab Windows 10, Version 1607, „www.msftncsi.com“)
 
 
-## Zusammenarbeit mit anderen Administratoren
+## <a name="work-with-other-admins"></a>Zusammenarbeit mit anderen Administratoren
 
 Surface Hub interagiert mit einigen anderen Produkten und Diensten. Je nach Größe Ihrer Organisation kann es mehrere Personen geben, die Support für verschiedene Produkte in Ihrer Umgebung bereitstellen. Sie möchten Personen, die Exchange, Active Directory (oder Azure Active Directory), MDM (Verwaltung mobiler Geräte) und Netzwerkressourcen verwalten, in die Planung und Vorbereitung von SurfaceHub-Bereitstellungen einschließen. 
 
 
-## Erstellen und Überprüfen eines Gerätekontos
+## <a name="create-and-verify-device-account"></a>Erstellen und Überprüfen eines Gerätekontos
 
 Ein Gerätekonto ist ein Exchange-Ressourcenkonto, das Surface Hub verwendet, um den Besprechungskalender anzuzeigen, an Skype for Business-Anrufen teilzunehmen und (optional) die Authentifizierung bei Exchange durchzuführen. Ausführliche Informationen finden Sie unter [Erstellen und Testen eines Gerätekontos](create-and-test-a-device-account-surface-hub.md).
 
@@ -81,20 +81,20 @@ Führen Sie nach der Erstellung Ihres Gerätekontos PowerShell-Skripts zur Surfa
 
  
 
-## Vorbereiten des Programms für die Erstausführung 
+## <a name="prepare-for-first-run-program"></a>Vorbereiten des Programms für die Erstausführung 
 Es gibt einige weitere Aspekte, die vor dem Starten des [Programms für die Erstausführung](first-run-program-surface-hub.md) berücksichtigt werden sollten.  
 
-### Erstellen von Bereitstellungspaketen (optional)
+### <a name="create-provisioning-packages-optional"></a>Erstellen von Bereitstellungspaketen (optional)
 Sie können Bereitstellungspakete verwenden, um Zertifikate hinzuzufügen, Einstellungen anzupassen und Apps zu installieren. Ausführliche Informationen finden Sie unter [Erstellen von Bereitstellungspaketen](provisioning-packages-for-certificates-surface-hub.md). Sie können [Bereitstellungspakete bei der ersten Ausführung installieren](first-run-program-surface-hub.md#first-page).
 
-### Einrichten von Administratorgruppen
+### <a name="set-up-admin-groups"></a>Einrichten von Administratorgruppen
 Jedes Surface Hub-Gerät kann mithilfe der Einstellungs-App auf dem Gerät lokal konfiguriert werden. Um die Änderung der Einstellungen durch nicht autorisierte Benutzer zu verhindern, sind zum Öffnen der Einstellungs-App Administratoranmeldeinformationen erforderlich. Ausführliche Informationen zum Einrichten und Verwalten von Administratorgruppen finden Sie unter [Administratorgruppenverwaltung](admin-group-management-for-surface-hub.md) . Sie [richten Administratoren für das Gerät bei der Erstausführung ein](first-run-program-surface-hub.md#setup-admins).
 
-### Lesen und Abschließen des Surface Hub-Setup-Arbeitsblatts (optional)
+### <a name="review-and-complete-surface-hub-setup-worksheet-optional"></a>Lesen und Abschließen des Surface Hub-Setup-Arbeitsblatts (optional)
 Im Programm für die Erstausführung für Surface Hub müssen Sie einige Informationen bereitstellen. Im Setup-Arbeitsblatt sind diese Informationen zusammengefasst. Darüber hinaus enthält es Listen mit umgebungsspezifischen Infos, die Sie beim Durchlaufen des Programms für die Erstausführung benötigen. Weitere Informationen finden Sie unter [Setup-Arbeitsblatt](setup-worksheet-surface-hub.md).
 
 
-## Inhalt dieses Abschnitts
+## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
 <table>
 <colgroup>
@@ -124,7 +124,7 @@ Im Programm für die Erstausführung für Surface Hub müssen Sie einige Informa
 </tbody>
 </table>
 
-## Weitere Informationen
+## <a name="more-information"></a>Weitere Informationen
 
 - [Blogbeitrag: Surface Hub and the Skype for Business Trusted Domain List (in englischer Sprache)](https://blogs.technet.microsoft.com/y0av/2017/10/25/95/)
 - [Blogbeitrag: Surface Hub in a Multi-Domain Environment (in englischer Sprache)](https://blogs.technet.microsoft.com/y0av/2017/11/08/11/)
