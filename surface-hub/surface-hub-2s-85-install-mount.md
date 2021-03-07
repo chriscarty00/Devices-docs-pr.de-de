@@ -1,6 +1,6 @@
 ---
 title: Installieren und Montieren von Surface Hub 2S 85
-description: Erfahren Sie, wie Sie Surface Hub 2S 85 installieren und mounten.
+description: Weitere Informationen zum Installieren und Montieren von Surface Hub 2S 85.
 keywords: Trennen Sie Werte durch Kommata
 ms.prod: surface-hub
 ms.sitesec: library
@@ -13,204 +13,204 @@ ms.date: 03/02/2020
 ms.localizationpriority: Medium
 ms.openlocfilehash: 1fab09ef21dbddbb2b4f292acd716c6e6cbaff7e
 ms.sourcegitcommit: 5c904229a0257297be7f724c264e484d2c4b5168
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/04/2021
 ms.locfileid: "11387484"
 ---
-# <a name="install-and-mount-surface-hub-2s-85"></a>Installieren und Mounten von Surface Hub 2S 85"
+# <a name="install-and-mount-surface-hub-2s-85"></a>Installieren und Montieren von Surface Hub 2S 85"
 
-Dieser Artikel enthält unterstützende Anleitungen für die physische Installation Microsoft Surface Hub 2S 85" in kommerziellen Umgebungen. 
+Dieser Artikel enthält unterstützende Anleitungen für die eigentliche Installation von Microsoft Surface Hub 2S 85" in gewerblichen Umgebungen. 
 
-## <a name="unboxing-video"></a>Unboxing video
+## <a name="unboxing-video"></a>Video zum Auspacken
 
-- Bevor Sie beginnen, lesen Sie Microsoft Surface Hub 2S 85" Unboxing and Set Up video:
+- Bevor Sie beginnen, sehen Sie sich das Video zum Auspacken und Einrichten des Microsoft Surface Hub 2S 85" an:
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWwwgL]
 
-- Eine chinesische Version dieses Videos ist in [Anhang B unten](#appendix-b-unboxing-video) verfügbar. 
+- Eine chinesische Version dieses Videos ist in [Anhang B](#appendix-b-unboxing-video) unten verfügbar. 
 
 ## <a name="follow-all-safety-precautions"></a>Befolgen Sie alle Sicherheitsvorkehrungen 
 
 > [!WARNING]
-> **Handhabung und Websitevorbehandlung**<br>
-> - Das Gerät ist sehr schwer. Um das Risiko von Personenschäden, Tod oder Beschädigungen des Geräts aufgrund seiner Größe und Seines Gewichtes zu verringern, ist es wichtig, das Gerät aufrecht zu halten.
->- Bevor Sie das Gerät an den Ort verschieben, an dem es installiert wird, überprüfen Sie die Website, um zu bestimmen, wie sie es sicher an den Ort verschieben, an dem es entpackt und bereitgestellt wird.
->- Verwenden Sie immer mindestens zwei Personen zum Auspacken und Installieren.
->- Sobald das Gerät ausgepackt wurde, sollte es sofort bereitgestellt werden, sodass das Montagesystem vor dem Auspacken installiert sein sollte. Wenn Sie sich auf einen rollbaren Ständer stellen, sperren oder blockieren Sie die Rollen des Ständers vor dem Auspacken.
->- Um Stolperrisiken zu vermeiden, halten Sie den Montagebereich von Packmaterialien frei.
+> **Handhabung und Vorbereitung des Einbauorts**<br>
+> - Das Gerät ist sehr schwer. Um das Risiko von Personenschäden, Tod oder Beschädigung des Geräts aufgrund seiner Größe und seines Gewichts zu verringern, ist es wichtig, das Gerät aufrecht zu halten.
+>- Bevor Sie das Gerät an den Einbauort bringen, überprüfen Sie den Ort, um festzustellen, wie Sie das Gerät sicher an den Ort bringen können, an dem es ausgepackt und montiert werden soll.
+>- Zum Auspacken und Installieren sind immer mindestens zwei Personen erforderlich.
+>- Nach dem Auspacken sollte das Gerät sofort montiert werden, daher sollte das Montagesystem vor dem Auspacken montiert werden. Wenn Sie auf ein Rollstativ montieren, blockieren Sie die Räder des Stativs vor dem Auspacken.
+>- Um Stolpergefahren zu vermeiden, halten Sie den Montagebereich frei von Verpackungsmaterial.
 
 > [!IMPORTANT]
->Bevor Sie fortfahren, überprüfen Sie die zusätzlichen Sicherheitsinformationen, die in [Anhang A unten](#appendix-a-additional-safety-information) aufgeführt sind.
+>Bevor Sie fortfahren, lesen Sie die zusätzlichen Sicherheitshinweise, die in [Anhang A](#appendix-a-additional-safety-information) unten aufgeführt sind.
 
-## <a name="1-remove-outer-packaging-materials"></a>1. Entfernen von äußeren Verpackungsmaterialien
+## <a name="1-remove-outer-packaging-materials"></a>1.Äußeres Verpackungsmaterial entfernen
 
-1. Entfernen und Recyceln der äußeren Abdeckung.
-2. Schneiden Sie vier (4) Plastikbänder aus.
+1. Entfernen und Recyceln Sie die äußere Abdeckung.
+2. Schneiden Sie vier (4) Plastikstreifen aus.
 3. Öffnen und entfernen Sie die sechs (6) Clips von den Enden.
 4. Entfernen Sie den Deckel, und heben Sie die Front- und Rückseitenelemente auf und entfernen Sie sie.
 
- ![Entfernen der äußeren Verpackung](images/hub85mount1a.png) <br>
+ ![Entfernen Sie die äußere Verpackung](images/hub85mount1a.png) <br>
 
-## <a name="2-remove-black-outer-packaging-foam"></a>2. Entfernen von schwarzem äußerem Verpackungsschaum
+## <a name="2-remove-black-outer-packaging-foam"></a>2. Schwarzen äußeren Verpackungsschaum entfernen
 
-1. Entfernen Sie schwarze Eckschaumteile (4).
-2. Entfernen Sie die Unterstützung für schwarzes Mittelschaum.
+1. Entfernen Sie die schwarzen Eckschaumstoffteile (4).
+2. Entfernen Sie den schwarzen mittleren Schaumstoffträger.
 
- ![Entfernen von schwarzem äußerem Verpackungsschaum](images/hub85mount2a.png) <br>
+ ![Entfernen Sie den schwarzen äußeren Verpackungsschaum](images/hub85mount2a.png) <br>
 
 > [!Caution]
-> Entfernen Sie keine weißen Schäume-, Umreifungs- oder Verpackungsmaterialien, bis sich hub 2S neben dem Wagen oder der Wandhalterung befindet, auf dem sie platziert wird.
-Zusätzliche Umreifungsmaterialien werden in dem kleinen Feld unter den Handdrehreglern auf der Rückseite des Pakets bereitgestellt. Original- oder Ersatzbandmaterial muss vor dem Verschieben und insbesondere vor dem Drehen des Geräts und seines Schutzpakets verwendet werden.
+> Entfernen Sie den weißen Schaumstoff, das Umreifungsmaterial und das Verpackungsmaterial erst, wenn der Hub 2S neben dem Wagen oder der Wandhalterung steht, auf dem/der er platziert werden soll.
+Zusätzliches Umreifungsmaterial befindet sich in der kleinen Packung, die sich unter den Handschraubenknöpfen auf der Rückseite der Verpackung befindet. Original- oder Ersatzumreifungsmaterial muss vor dem Transport und insbesondere vor dem Drehen des Gerätes und seiner Schutzverpackung angebracht sein
  
 
-## <a name="3-remove-inner-packaging-frame-from-pallet"></a>3. Entfernen des inneren Packrahmens von der Palette
+## <a name="3-remove-inner-packaging-frame-from-pallet"></a>3. Inneren Verpackungsrahmen von der Palette entfernen
 
-1. Verschieben der Palettenbaugruppe an den Standort des Aufzugs.
-2. Sperren von Radbremsen (4).
-3. Folien innen verpacken von der Palette.
+1. Bewegen Sie die Palettenbaugruppe zum Aufzug.
+2. Sperren Sie die Radbremsen (4).
+3. Schieben Sie die Innenverpackung von der Palette.
 
- ![Entfernen des inneren Packrahmens von der Palette](images/hub85mount3b.png) <br>
+ ![Entfernen Sie den inneren Verpackungsrahmen von der Palette](images/hub85mount3b.png) <br>
 
-## <a name="4-rotate-packaging-frame-to-fit-elevator"></a>4. Drehen des Packrahmens für den Lift
+## <a name="4-rotate-packaging-frame-to-fit-elevator"></a>4. Drehen des Verpackungsrahmens, damit er in den Aufzug passt
 
-1. Drehen des Rahmens für den Lift
-2. Drehen Sie sich am abgeschrägten Ende des inneren Rahmens, und gleiten Sie in den Lift.
+1. Drehen Sie den Rahmen, damit er in den Aufzug passt
+2. Drehen Sie am abgeschrägten Ende des Innenrahmens und gleiten Sie zum Aufzug.
 
- ![Drehen des Packrahmens für den Aufzug](images/hub85mount4a.png) <br>
+ ![Drehen Sie den Verpackungsrahmen, damit er in den Aufzug passt](images/hub85mount4a.png) <br>
 
 > [!TIP]
-> Die Radpalette ist für die Innenrahmenverpackung angepasst und kann während des gesamten Bereitstellungsprozesses am Installationsstandort verwendet werden. Das Endteil des inneren Holzrahmens verfügt über 3D-Platten aus Demy.
+> Die Palette mit Rädern ist an die Grundfläche der Innenrahmenverpackung angepasst und kann während des gesamten Lieferprozesses am Einbauort verwendet werden. Das innere Holzrahmen-Endstück hat Nylon-Kufenplatten.
  
-## <a name="5-remove-from-elevator"></a>5. Entfernen aus dem Lift
+## <a name="5-remove-from-elevator"></a>5. Aus dem Aufzug entfernen
 
-1. Aus dem Lift gleiten
-2. Sperren von Radbremsen (x4).
+1. Aus dem Aufzug gleiten
+2. Sperren Sie die Radbremsen (4 St.).
 
- ![Entfernen aus dem Lift](images/hub85mount5a.png) <br>
+ ![Aus dem Aufzug entfernen](images/hub85mount5a.png) <br>
 
 
 ## <a name="6-place-surface-hub-85-back-on-pallet"></a>6. Surface Hub 85" wieder auf Palette platzieren
 
-1. Drehen Sie mithilfe des abgeschrägten Endes wieder auf die Palette.
-2. Radbremsen entsperren (x4).
-3. Verschieben Sie das Produkt an die Position der Wand- oder Einkaufswagenhalterung.
+1. Drehen Sie mithilfe des abgeschrägten Endes zurück auf die Palette.
+2. Entsperren Sie die Radbremsen (4 St.).
+3. Verschieben Sie das Produkt an den Ort der Wand- oder Wagenmontage.
 
- ![Surface Hub 85" wieder auf Palette platzieren](images/hub85mount6a.png) <br>
+ ![Platzieren Sie den Surface Hub 85" wieder auf die Palette](images/hub85mount6a.png) <br>
 
-## <a name="7-place-surface-hub-85-on-wall-mount-or-cart"></a>7. Platzieren Sie Surface Hub 85" auf der Wandhalterung oder im Einkaufswagen
+## <a name="7-place-surface-hub-85-on-wall-mount-or-cart"></a>7. Surface Hub 85" auf Wandhalterung oder Wagen platzieren
 
-1. Platzieren Sie Hub 2S vor der Wandhalterung oder dem Einkaufswagen.
-2. Sperren von Radbremsen (x4).
-3. Folien innen verpacken von der Palette.
-4. Schneiden Sie die 3 Plastikbänder aus.
-5. Deckel entfernen.
-6. Entfernen Sie weiße Ausschaumteile.
-7. Remove Welcome Kit.
-8. Entfernen Sie das Endteil, indem Sie vertikal heben.
-9. Entfernen Sie die Endstücke aus Holz durch die vier Handknaufschnämme auf dem Holzfuß.
+1. Platzieren Sie den Hub 2S vor der Wandhalterung oder dem Wagen.
+2. Sperren Sie die Radbremsen (4 St.).
+3. Schieben Sie die Innenverpackung von der Palette.
+4. Schneiden Sie die 3 Plastikstreifen aus.
+5. Entfernen Sie den Deckel.
+6. Entfernen Sie die weißen Schaumstoffteile.
+7. Entfernen Sie den Willkommenssatz.
+8. Entfernen Sie das Endstück durch senkrechtes Anheben.
+9. Entfernen Sie die Holzendstücke an den vier Handknopfschrauben am Holzsockel.
 
-   ![Platzieren von Surface Hub 85" am Wall Mount oder Cart](images/hub85mount7a.png) <br>
+   ![Surface Hub 85" auf Wandhalterung oder Wagen platzieren.](images/hub85mount7a.png) <br>
 
    > [!CAUTION]
-   >  Lassen Sie Hub 2S 85" nicht unbeaufsichtigt. Es wird eine zusätzliche Person benötigt, um das Gerät aufrecht zu halten. Nachdem die Endteile entfernt wurden, muss mindestens eine Person den Kontakt zum Hub 2S aufrecht erhalten, bis die Platzierung an der Wandhalterung oder im Einkaufswagen abgeschlossen ist.
+   >  Lassen Sie den Hub 2S 85" nicht unbeaufsichtigt. Es wird eine zusätzliche Person benötigt, um das Gerät aufrecht zu halten. Sobald die Endstücke entfernt sind, muss mindestens eine Person den Hub 2S halten, bis die Platzierung auf der Wandhalterung oder dem Wagen abgeschlossen ist.
 
-10. Heben Sie das Sperrbaumende stückig nach oben und zurück.
-11. Entfernen Sie die Bump-Bezeichnung von hinten.
-12. Heben Sie den Hub 2S aus der unteren Leiste und platzieren Sie den Wagen oder die Wandhalterung.
+10. Heben Sie das Sperrholzendstück nach oben und nach hinten.
+11. Entfernen Sie das Hinweisschild auf der Rückseite.
+12. Heben Sie den Hub 2S aus der unteren Ablage und stellen Sie ihn auf einen Wagen oder eine Wandhalterung.
 
     > [!NOTE]
-    > Wenn Sie den Anweisungen für die Herstellung des Einkaufswagens oder der Wandhalterung folgen, bereiten Sie das Montagesystem vor, bevor Sie den Hub 2S aus der inneren Verpackung entfernen.
+    > Bereiten Sie das Montagesystem gemäß den Anweisungen des Herstellers des Wagens oder der Wandhalterung vor, bevor Sie den Hub 2S aus seiner inneren Verpackungsablage nehmen.
  
     > [!TIP]
-    > Beachten Sie beim Erfassen des Hub 2S, dass die Hand im unteren Schäum ausgeschnitten ist. Achten Sie darauf, dass die obere Hand nicht das Gerät erfasst, auf dem sich die Lautsprecher befinden. Die Grafik auf den Enden der Geräteabdeckung bietet eine allgemeine Lautsprecherposition.
+    > Beachten Sie beim Greifen des Hub 2S die Handgriffaussparungen im unteren Schaumstoff. Achten Sie darauf, dass Sie mit der oberen Hand nicht in den Bereich des Geräts greifen, in dem sich die Lautsprecher befinden. Die Grafik an den Enden der Geräteabdeckung gibt die grobe Position der Lautsprecher an.
 
-13. Lockern sie spannbare Spannklammern (x2).
+13. Lösen Sie die elastischen Spannclips (2 St.).
 14. Entfernen Sie die Tuchabdeckung.
-15. Notieren Sie die Positionen für die Platzierung von Stiften (x2), Kamera und Netzkabel.
-16. Stifte (x2), Kamera und Netzkabel anfügen.
-17. Entfernen von #A0 (x4).
-18. Drücken Sie die Netzschaltfläche unten rechts. Die Installation ist nun abgeschlossen.
+15. Notieren Sie die Positionen für die Platzierung der Stifte (2St.), der Kamera und des Netzkabels.
+16. Fügen Sie Stifte (2St.), Kamera und Netzkabel an.
+17. Entfernen Sie die Klebeetiketten (4St.).
+18. Drücken Sie die Netztaste unten rechts. Die Installation ist nun abgeschlossen.
 
  
 
  
-## <a name="mounting-surface-hub-2s-85"></a>Mounting Surface Hub 2S 85" 
+## <a name="mounting-surface-hub-2s-85"></a>Montieren von Surface Hub 2S 85" 
 
-Surface Hub 2S 85" verwendet ein 600 x 600 VESA-Mountmuster. Wie in der folgenden Abbildung gezeigt, hat Microsoft eine Partnerschaft mit [Steelcase](https://www.steelcase.com/products/collaboration/steelcase-roam/) hergestellt, um Montageoptionen zu erstellen, die mit dem einzigartigen Design von Surface Hub 2S 85" kompatibel sind. 
+Der Surface Hub 2S 85" verwendet ein 600 x 600 VESA-Montagemuster. Wie in der folgenden Abbildung angezeigt, hat Microsoft in Zusammenarbeit mit [Steelcase](https://www.steelcase.com/products/collaboration/steelcase-roam/) Montageoptionen entwickelt, die mit dem einzigartigen Design des Surface Hub 2S 85" kompatibel sind. 
 
-![Steelcase Wall Mount](images/sh2-steelcasemount.png) <br>
+![Steelcase Wandhalterung](images/sh2-steelcasemount.png) <br>
 
 ### <a name="mounting-dimensions"></a>Montagemaße
 
-Wenn Sie andere (Nicht-Steelcase-) Montageoptionen verwenden, benötigen Sie Abstandhalter, um die Computeanlage auf der Rückseite des Geräts zu berücksichtigen. Abstandsgeräte und anderes zertifiziertes Zubehör sind von ["Salamander Designs" verfügbar.](http://www.salamandercommercial.com/surface-hub-2)
+Wenn Sie andere (außer Steelcase) Montageoptionen verwenden, benötigen Sie Abstandshalter, um das Computergehäuse auf der Rückseite des Geräts zu berücksichtigen. Abstandshalter und anderes zertifiziertes Zubehör sind bei [Salamander Designs](http://www.salamandercommercial.com/surface-hub-2) erhältlich.
 
 
-![Surface Hub 85"-Dimensionsdetails für die Montage](images/sh2-85-measure2.png) <br>
+![Surface Hub 85"-Detailabmessungen für die Montage](images/sh2-85-measure2.png) <br>
 
 ![Surface Hub 85"-Abmessungen für die Montage](images/sh2-85-measure1.png) <br>
 
 
-## <a name="supplemental-strapping-kit"></a>Ergänzendes Umreifungskit
+## <a name="supplemental-strapping-kit"></a>Zusätzlicher Umreifungssatz
 
-Eine zusätzliche Gruppe von Umreifungsmaterialien für Innenverpackungen finden Sie im Kit, das hinten rechts unten angefügt ist.
+Ein zusätzlicher Satz Umreifungsmaterial für die Innenverpackung befindet sich in dem hinten rechts unten angebrachten Set.
 
 ## <a name="appendix-a-additional-safety-information"></a>Anhang A: Zusätzliche Sicherheitsinformationen
 
 > [!WARNING]
 > **Schweres Objekt/ergonomisches Heben**<br>
-> Das Gerät ist sehr schwer. Um das Risiko von Verletzungen, Tod oder Beschädigungen am Gerät zu verringern, wird empfohlen, dass mindestens zwei Personen das Gerät heben. Es ist wichtig, beim Heben und/oder Bewegen des Geräts die richtige Hebehaltung zu verwenden.
-> Verwenden Sie gute methoden für das ergonomische Heben, einschließlich, aber nicht beschränkt auf:
-> - Planen Sie voraus. Stellen Sie sicher, dass das Hubteam dem Plan zustimmt.
->- Ermitteln Sie, ob Sie die Einheit heben können. Ist sie zu schwer oder zu unrätlich?
->- Entscheiden Sie, ob Sie Einehebehilfe benötigen.
->- Überprüfen Sie Ihre Umgebung auf Hindernisse und schlüpfrige Oberflächen.
->- Heben Sie mit den Beinen, nicht mit dem Rücken.
->- Krümmen Sie sich an den Knien, und halten Sie den Rücken gerade.
->- Halten Sie die Einheit in der Nähe Ihres Textkörpers.
->- Zentrieren Sie Ihren Textkörper über der Einheit. Halten Sie die Fußbreite der Fußbreite auseinander.
->- Heben Sie geradeaus nach oben.
->- Halten Sie Ihren Oberkörper gerade. Beim Heben oder Nachheben der Last nicht verdrehen
+> Das Gerät ist sehr schwer. Um das Risiko von hebebedingten Verletzungen, Tod oder Beschädigung des Geräts zu verringern, empfehlen wir, dass mindestens zwei oder mehr Personen das Gerät heben. Es ist wichtig, beim Anheben und/oder Bewegen des Geräts eine korrekte Hebehaltung einzunehmen.
+> Verwenden Sie gute ergonomische Hebepraktiken, einschließlich, aber nicht beschränkt auf:
+> - Vorausschauend planen. Sicherstellen, dass das Hubteam dem Plan folgt.
+>- Ermitteln, ob Sie die Einheit heben können. Ist sie zu schwer oder zu unhandlich?
+>- Entscheiden, ob Sie eine Hebevorrichtung benötigen.
+>- Die Umgebung auf Hindernisse und schlüpfrige Oberflächen überprüfen.
+>- Mit den Beinen heben, nicht mit dem Rücken.
+>- In die Knie gehen, dabei den Rücken gerade halten.
+>- Das Gerät nahe am Körper halten.
+>- Ihren Körper über dem Gerät mittig ausrichten. Die Füße etwa schulterbreit auseinander halten.
+>- Gerade und gleichmäßig anheben.
+>- Den Oberkörper gerade halten; nicht während des Hebens oder nach dem Heben der Last verdrehen
 
 
 > [!WARNING]
->  **Ordnungsgemäße Montage**<br> Das Gerät ist schwer und wird an einen Wagen oder eine Wandhalterung anheften. So verringern Sie das Risiko von Verletzungen, Tod oder Beschädigungen des Geräts: 
->- Befolgen Sie alle Anweisungen des Herstellers der Wagen- oder Wandhalterung.
->- Stellen Sie sicher, dass das vorgeschlagene Montagesystem die Gewichtung dieses Geräts unterstützt.
->- Verwenden Sie nur die bei der Systemhalterung bereitgestellte Montagehardware.
->- Stellen Sie sicher, dass alle Schrauben gemäß den Anweisungen des Herstellers sicher angezogen sind.
->- Lassen Sie das Gerät erst los, wenn Sie bestimmte Geräte vollständig mit Denkpunkten des Montagesystems verbunden sind.
->- Microsoft empfiehlt die Verwendung von Wagen oder Wandhalterungssystemen, die für die Verwendung mit Ihrem Gerät entwickelt wurden. Microsoft ist nicht verantwortlich für Schäden, Verletzungen oder Tod, die durch die Verwendung anderer Montagesysteme verursacht werden.
+>  **Ordnungsgemäße Montage**<br> Das Gerät ist schwer und wird an einem Wagen oder einer Wandhalterung befestigt. So verringern Sie das Risiko von Verletzungen, Tod oder Beschädigung des Geräts: 
+>- Befolgen Sie alle Anweisungen, die vom Hersteller des Wagens oder der Wandhalterung bereitgestellt werden.
+>- Stellen Sie sicher, dass das vorgeschlagene Montagesystem das Gewicht dieses Geräts tragen kann.
+>- Verwenden Sie nur das mitgelieferte Befestigungsmaterial für die Montage des Systems.
+>- Stellen Sie sicher, dass alle Schrauben gemäß den Anweisungen des Herstellers fest angezogen sind.
+>- Lassen Sie das Gerät erst los, wenn Sie sicher sind, dass das Gerät vollständig in den Befestigungspunkten des Montagesystems eingerastet ist.
+>- Microsoft empfiehlt die Verwendung von Wagen oder Wandmontagesystemen, die für die Verwendung mit Ihrem Gerät vorgesehen sind. Microsoft ist nicht verantwortlich für Schäden, Verletzungen oder Tod, die durch die Verwendung anderer Befestigungssysteme verursacht werden.
 
 > [!WARNING]
->  **Nicht zu sehende Gefahren in Wänden oder anderen Montageoberflächen** <br>
-Wände und andere Montageflächen können elektrische Leitungen, Gasleitungen und andere nicht zu sehende Gefahren oder Hindernisse enthalten. Das Schneiden oder Bohren in eine nicht angezeigte Gefahr kann zu schwerwiegenden Persönlichen Verletzungen oder Tod führen.
-Es liegt in der Verantwortung des Installationsprogramms, nicht zu erhaltende Gefahren vor und während der Installation zu vermeiden. Bewerten Sie die Montageumgebung, und stellen Sie vor dem Bohren und/oder Schneiden immer sicher, dass keine unsichtbaren Gefahren in der Wand oder auf einer anderen Montagefläche liegen.
+>  **Unsichtbare Gefahrenstellen in Wänden oder anderen Montageflächen** <br>
+An Wänden und anderen Montageflächen können sich elektrische Leitungen, Gasleitungen und andere unsichtbare Gefahren oder Hindernisse befinden. Das Schneiden oder Bohren in eine nicht sichtbare Gefahrenstelle kann zu schweren Verletzungen oder zum Tod führen.
+Es liegt in der Verantwortung des Installateurs, unsichtbare Gefahren vor der Installation zu lokalisieren und diese Gefahren während der Installation zu vermeiden. Beurteilen Sie die Montageumgebung und vergewissern Sie sich vor dem Bohren und/oder Schneiden immer, dass keine unsichtbaren Gefahren in der Wand oder anderen Montageflächen vorhanden sind.
 
 > [!WARNING]
-> **Tipprisiko**<br>
-> Um das Risiko von Personenschäden, Tod oder Beschädigungen eines Wagens/stand-mounted Geräts zu vermeiden, wenn es verschoben wird:
-> - Verwenden Sie nur einen Wagen/Stand, der mit diesem Gerät kompatibel ist.
->- Befolgen Sie alle Anweisungen des Herstellers für Wagen/Ständer zum Verschieben oder Verschieben eines bereitgestellten Geräts.
->-  Hängen oder platzieren Sie keine schweren Objekte vom Gerät oder auf dem Wagen/Ständer.
->-  Trennen Sie das Netzkabel und andere Kabel nach Bedarf vor dem Verschieben des Wagens/des Ständergeräts. Gehen Sie vorsichtig vor, und bewegen Sie sich langsam, wenn Sie wagen-/stand-mounted-Gerät verschieben. Befolgen Sie die Anweisungen des Einkaufswagen-/Standherstellers zum Verschieben oder Verschieben des Ständers.
->-  Vorsicht beim Transport eines Wagens/stand-mounted Geräts nach oben oder unten ramps. Lassen Sie ein Cart-/Stand-mounted-Gerät niemals unbeaufsichtigt auf oder in der Nähe einer Rampe.
->-  Nur Erwachsene sollten das Cart-/Stand-Mounted-Gerät verschieben.
+> **Kippgefahr**<br>
+> So vermeiden Sie das Risiko von Verletzungen, Tod oder Beschädigung eines auf einem Wagen/Ständer montierten Geräts, wenn dieses bewegt wird:
+> - Verwenden Sie nur einen Wagen/Ständer, der mit diesem Gerät kompatibel ist.
+>- Befolgen Sie alle Anweisungen des Herstellers des Wagens/Ständers, wenn Sie ein am Ständer montiertes Gerät bewegen oder verlegen wollen.
+>-  Hängen oder platzieren Sie keine schweren Gegenstände an das Gerät oder auf den Wagen/Ständer.
+>-  Trennen Sie das Netzkabel und ggf. andere Kabel, bevor Sie das Gerät auf dem Wagen/Ständer verlegen. Seien Sie vorsichtig und bewegen Sie sich langsam, wenn Sie das Gerät auf dem Wagen/Ständer verlegen. Befolgen Sie die Anweisungen des Wagen-/Ständerherstellers zum Bewegen oder Verlegen des Ständers.
+>-  Seien Sie vorsichtig, wenn Sie ein Gerät, das auf einem Wagen/Ständer montiert ist, über Rampen transportieren. Lassen Sie ein Gerät, das auf einem Wagen/Ständer montiert ist, niemals unbeaufsichtigt auf oder in der Nähe einer Rampe.
+>-  Nur Erwachsene sollten das Gerät auf dem Wagen/Ständer bewegen.
 
 > [!CAUTION]
 > **Touchscreenglas**<br>
-Der Touchscreen auf dem Gerät ist wie die meisten Touchscreens aus Glas. Das Glas kann brechen, wenn das Gerät verworfen wird oder erhebliche Auswirkungen erhält. Um das Risiko von Persönlichen Verletzungen zu reduzieren, vermeiden Sie das Berühren des Bildschirms, wenn das Fenster gebrochen, gechipt oder geknackt ist, und ordnen Sie an, dass der Bildschirm ersetzt wird.
-Ein geknackter oder gechipter Touchscreen, der durch Missbrauch oder Missbrauch Ihres Geräts verursacht wird, wird nicht von der eingeschränkten Garantie des Produkts abgedeckt.
+Der Touchscreen des Geräts ist, wie die meisten Touchscreens, aus Glas gefertigt. Das Glas kann brechen, wenn das Gerät fallen gelassen wird oder einen starken Stoß erhält. Ein gesprungener oder abgesplitterter Touchscreen, der durch unsachgemäßen Gebrauch oder Missbrauch Ihres Geräts verursacht wurde, ist nicht durch die beschränkte Garantie des Produkts abgedeckt.
+Ein gesprungener oder abgesplitterter Touchscreen, der durch unsachgemäßen Gebrauch oder Missbrauch Ihres Geräts verursacht wurde, ist nicht durch die eingeschränkte Garantie des Produkts abgedeckt.
 
 > [!WARNING]
 >  **Richtige Installation**<br>
-Um Gefahren im Zusammenhang mit einer nicht ordnungsgemäßen Geräteinstallation zu vermeiden, muss die Installation von Personen durchgeführt werden, die die Installationsanweisung vor Beginn der Arbeit gelesen und verstanden haben. Wenn Sie nicht über die erforderlichen Geräte oder Kenntnisse verfügen oder wenn Sie unsicher sind, kann die Montagefläche einen professionellen Installateur ordnungsgemäß unterstützen.
+Um Gefahren durch eine unsachgemäße Geräteinstallation zu vermeiden, muss die Installation von Personen durchgeführt werden, die vor Beginn der Arbeiten die Installationsanleitung gelesen und verstanden haben. Wenn Sie nicht über die erforderliche Ausrüstung oder Fachkenntnisse verfügen, oder wenn Sie sich nicht sicher sind, ob die Montagefläche ausreichend Halt bietet, wenden Sie sich an einen professionellen Installateur.
 
 
-## <a name="appendix-b-unboxing-video"></a>Anhang B: Unboxing video
+## <a name="appendix-b-unboxing-video"></a>Anhang B: Video zum Auspacken
 
 
-### <a name="microsoft-surface-hub-2s-85-unboxing-and-set-up-video-chinese"></a>Microsoft Surface Hub 2S 85" Unboxing and Set Up video (Chinesisch)
+### <a name="microsoft-surface-hub-2s-85-unboxing-and-set-up-video-chinese"></a>Video zum Auspacken und Einrichten des Microsoft Surface Hub 2S 85" (Chinesisch)
 
 > [!VIDEO https://www.microsoft.com/zh-cn/videoplayer/embed/RE4MRqV]
 
@@ -218,4 +218,4 @@ Um Gefahren im Zusammenhang mit einer nicht ordnungsgemäßen Geräteinstallatio
 ## <a name="more-information"></a>Weitere Informationen
 
 - [Steelcase Roam Collection](https://www.steelcase.com/products/collaboration/steelcase-roam/)
-- [10.000](http://www.salamandercommercial.com/surface-hub-2)
+- [Salamander Designs](http://www.salamandercommercial.com/surface-hub-2)
