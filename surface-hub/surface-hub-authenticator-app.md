@@ -1,5 +1,5 @@
 ---
-title: Anmelden bei Surface Hub mit Microsoft Authenticator
+title: Melden Sie sich bei Surface Hub mit Microsoft Authenticator an
 description: Verwenden Sie Microsoft Authenticator zum Anmelden auf Surface Hub auf Ihrem mobilen Gerät.
 ms.prod: surface-hub
 ms.sitesec: library
@@ -10,18 +10,18 @@ ms.date: 08/28/2017
 ms.reviewer: ''
 manager: laurawi
 localizationpriority: medium
-ms.openlocfilehash: 11768488d2ef7509af6a592b9e4ac945a7e35650
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: f8a2bf8ddb75ca6dd3ff89e16fe0d37e099be29d
+ms.sourcegitcommit: 85f5a2e67b34fe073ec588ed441ebee239ab0ac6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832959"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "11400736"
 ---
-# Melden Sie sich bei Surface Hub mit Microsoft Authenticator an
+# <a name="sign-in-to-surface-hub-with-microsoft-authenticator"></a>Melden Sie sich bei Surface Hub mit Microsoft Authenticator an
 
 Personen in Ihrem Unternehmen können sich auf einem Surface Hub ohne Kennwort mithilfe der Microsoft Authenticator-App auf Android und iOS anmelden.
 
-## Voraussetzungen für die Organisation
+## <a name="organization-prerequisites"></a>Voraussetzungen für die Organisation
 
 Wenn Personen in Ihrer Organisation sich auf Surface Hub mit ihrem Handy und anderen Geräten anstelle eines Kennworts anmelden möchten, müssen Sie sicherstellen, dass Ihre Organisation folgende Voraussetzungen erfüllt: 
 
@@ -33,15 +33,13 @@ Wenn Personen in Ihrer Organisation sich auf Surface Hub mit ihrem Handy und and
 
     ![Multi-Factor Authentication-Optionen](images/mfa-options.png)
 
-- Aktivieren von Inhalts Hosting auf Azure AD Services wie Office, SharePoint usw. 
+- Aktivieren des Inhaltshostings auf Azure AD-Diensten wie Office, SharePoint usw. 
 
 - Surface Hub muss Windows10, Version 1703 oder höher ausführen.
 
 - Surface Hub ist mit einem lokalen oder mit einer Domäne verbundenen Konto eingerichtet.
 
-Derzeit können Sie Microsoft Authenticator nicht verwenden, um sich auf Surface Hubs anzumelden, die mit Azure AD verknüpft sind.
-
-## Einzelne Voraussetzungen
+## <a name="individual-prerequisites"></a>Einzelne Voraussetzungen
 
 - Eine Android-Telefon mit 6.0 oder höher, oder ein iPhone oder iPad mit iOS9 oder höher 
 
@@ -54,9 +52,7 @@ Derzeit können Sie Microsoft Authenticator nicht verwenden, um sich auf Surface
 
 - Kennung oder Sperrbildschirm muss auf Ihrem Gerät aktiviert sein
 
-- Eine gültige SMTP-E-Mail-Adresse (Beispiel: joe@contoso.com). Nicht standardmäßige oder Vanity-SMTP-E-Mail-Adressen (Beispiel: firstname.lastname@contoso.com) funktionieren derzeit nicht.
-
-## So richten Sie die Microsoft Authenticator-App ein
+## <a name="how-to-set-up-the-microsoft-authenticator-app"></a>So richten Sie die Microsoft Authenticator-App ein
 
 >[!NOTE]
 >Wenn das Unternehmensportal auf Ihrem Android-Gerät installiert ist, deinstallieren Sie es vor dem Einrichten von Microsoft Authenticator. Nachdem Sie die App eingerichtet haben, können Sie das Unternehmensportal neu installieren.
@@ -67,7 +63,7 @@ Derzeit können Sie Microsoft Authenticator nicht verwenden, um sich auf Surface
 2. Wechseln Sie zu **Einstellungen** und registrieren Sie Ihr Gerät.
 3. Wechseln Sie auf die Seite "Konten" zurück und wählen Sie **Aktivieren der telefonbasierten Anmeldung** aus dem Dropdownmenü des Kontos aus.
 
-## Vorgehensweise beim Anmelden auf Surface Hub während einer Besprechung
+## <a name="how-to-sign-in-to-surface-hub-during-a-meeting"></a>Vorgehensweise beim Anmelden auf Surface Hub während einer Besprechung
 
 1. Nachdem Sie eine Besprechung eingerichtet haben, wechseln Sie zu Surface Hub und wählen Sie **Anmelden, um Ihre Besprechungen und Dateien zu sehen** aus.
 
