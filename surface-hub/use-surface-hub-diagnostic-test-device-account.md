@@ -9,66 +9,69 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 127be0a5f320418d8a1086aec3de62e3ef54e42a
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 6661f2347d2f411ed11fe6057ede8ca2bab07c33
+ms.sourcegitcommit: f0c976664116c45605edf3d56c4f58119a246b93
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832680"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "11406668"
 ---
-# Verwenden des Hardwarediagnosetools für Surface Hub zum Testen eines Gerätekontos
+# <a name="using-the-surface-hub-hardware-diagnostic-tool-to-test-a-device-account"></a>Verwenden des Hardwarediagnosetools für Surface Hub zum Testen eines Gerätekontos
 
-## Einführung
+## <a name="introduction"></a>Einführung
 
 > [!NOTE]
-> Im Abschnitt "Kontoeinstellungen" des Surface Hub Hardware-Diagnosetools werden keine Informationen erfasst. Die e-Mail-Adresse und das Kennwort, die als Eingabe eingegeben werden, werden nur direkt in Ihrer Umgebung verwendet und nicht erfasst oder an andere Personen übertragen. Die Anmeldeinformationen bleiben nur solange bestehen, bis die Anwendung geschlossen ist, oder Sie beenden die aktuelle Sitzung auf dem Surface Hub.
+> Im Abschnitt "Kontoeinstellungen" des Surface Hub-Hardwarediagnosetools werden keine Informationen gesammelt. Die E-Mail und das Kennwort, die als Eingabe eingegeben werden, werden nur direkt in Ihrer Umgebung verwendet und nicht gesammelt oder an niemanden übertragen. Die Anmeldeinformationen bleiben nur so lange erhalten, bis die Anwendung geschlossen ist oder Sie die aktuelle Sitzung auf dem Surface Hub beenden.
 
 > [!IMPORTANT]
-> * Zum Ausführen dieser Anwendung sind keine Administrator Rechte erforderlich.
-> * Die Ergebnisse der Diagnose sollten mit Ihrem lokalen Administrator besprochen werden, bevor Sie einen Service-Anruf mit Microsoft öffnen.
+> * Zum Ausführen dieser Anwendung sind keine Administratorrechte erforderlich.
+> * Die Ergebnisse der Diagnose sollten mit Ihrem lokalen Administrator besprochen werden, bevor Sie einen Dienstanruf mit Microsoft öffnen.
 
-### Surface Hub-Hardware Diagnose
+### <a name="surface-hub-hardware-diagnostic"></a>Surface Hub Hardware Diagnostic
 
-Standardmäßig ist die [Surface Hub-Hardware Diagnose](https://www.microsoft.com/store/apps/9nblggh51f2g) Anwendung in früheren Versionen des Surface Hub-Systems nicht installiert. Die Anwendung steht kostenlos im Microsoft Store zur Verfügung. Zum Installieren der Anwendung sind Administrator Rechte erforderlich.
+Standardmäßig ist die [Surface Hub-Hardwarediagnoseanwendung](https://www.microsoft.com/store/apps/9nblggh51f2g) in früheren Versionen des Surface Hub-Systems nicht installiert. Die Anwendung ist kostenlos im Microsoft Store verfügbar. Zum Installieren der Anwendung sind Administratorrechte erforderlich.
 
-   ![Screenshot der Hardware Diagnose](images/01-diagnostic.png)
+   ![Screenshot der Hardwarediagnose](images/01-diagnostic.png)
 
-## Informationen zum Hardware-Diagnose Tool Surface Hub
+## <a name="about-the-surface-hub-hardware-diagnostic-tool"></a>Informationen zum Surface Hub Hardware Diagnostic Tool
 
-Das Surface-Hub-Hardware-Diagnosetool ist ein einfach zu navigierendes Tool, mit dem der Benutzer viele der Hardware Komponenten innerhalb des Surface Hub-Geräts testen kann. Mit diesem Tool können Sie auch ein Surface Hub-Geräte Konto testen und überprüfen. In diesem Artikel wird beschrieben, wie Sie den Konto Einstellungstest innerhalb des Surface Hub Hardware-Diagnosetools verwenden.
+Das Surface Hub-Hardwarediagnosetool ist ein leicht zu navigierendes Tool, mit dem der Benutzer viele der Hardwarekomponenten innerhalb des Surface Hub-Geräts testen kann. Dieses Tool kann auch ein Surface Hub-Gerätekonto testen und überprüfen. In diesem Artikel wird beschrieben, wie Sie den Test "Kontoeinstellungen" im Surface Hub-Hardwarediagnosetool verwenden.
 
 > [!NOTE]
-> Das Geräte Konto für den Surface Hub sollte erstellt werden, bevor eine Prüfung durchgeführt wird. Das Surface Hub-Administrator Handbuch enthält Anweisungen und PowerShell-Skripts, die Ihnen beim Erstellen von lokalen, Online-(Office365) oder hybriden Geräte Konten helfen. Weitere Informationen finden Sie im Leitfaden unter [Erstellen und Testen eines Geräte Kontos (Surface Hub)](https://docs.microsoft.com/surface-hub/create-and-test-a-device-account-surface-hub) .
+> Das Gerätekonto für den Surface Hub sollte erstellt werden, bevor tests durchgeführt werden. Das Surface Hub-Administratorhandbuch enthält Anweisungen und PowerShell-Skripts, mit deren Hilfe Sie lokale, online (Office365) oder Hybridgerätekonten erstellen können. Weitere Informationen finden Sie im Thema Erstellen und Testen eines Gerätekontos [(Surface Hub).](https://docs.microsoft.com/surface-hub/create-and-test-a-device-account-surface-hub)
 
-### Testprozess für Geräte Konten
+### <a name="device-account-testing-process"></a>Testprozess für Gerätekonto
 
-1. Navigieren Sie zu **allen apps**, und suchen Sie dann nach der Surface Hub-Hardware Diagnoseanwendung.
+1. Navigieren Sie **zu Alle Apps,** und suchen Sie dann die Surface Hub Hardware Diagnostic-Anwendung.
 
-    ![Screenshot aller apps](images/02-all-apps.png)
+    ![Screenshot aller Apps](images/02-all-apps.png)
 
-1. Wenn die Anwendung gestartet wird, enthält die **Willkommens** Seite ein Textfenster, um den Grund für das Testen des Hubs zu dokumentieren. Diese Notiz kann zusammen mit den Diagnoseergebnissen nach Abschluss des Tests auf USB gespeichert werden. Nachdem Sie die Eingabe einer Notiz abgeschlossen haben, wählen Sie die Schaltfläche **weiter** aus.
+1. Wenn die Anwendung gestartet wird, stellt die **Willkommensseite** ein Textfenster zur Verfügung, um den Grund zu dokumentieren, warum Sie den Hub testen. Dieser Hinweis kann zusammen mit den Diagnoseergebnissen nach Abschluss der Tests auf USB gespeichert werden. Nachdem Sie die Eingabe einer Notiz abgeschlossen haben, wählen Sie die Schaltfläche **Weiter** aus.
 
-    ![Screenshot der Willkommensseite](images/03-welcome.png)
+    >[!NOTE]
+    >Ändern Sie beim Speichern von Diagnoseergebnissen nicht den Standardpfad, oder wählen Sie ein Unterverzeichnis aus. Die Dateien können später über die Datei-Explorer-App kopiert werden.
 
-1. Der nächste Bildschirm bietet Ihnen die Möglichkeit, alle oder einige der Surface Hub-Komponenten zu testen. Um mit dem Testen des Geräte Kontos zu beginnen, wählen Sie das Symbol **Testergebnisse** aus.
+    ![Screenshot von Willkommen](images/03-welcome.png)
 
-    ![Screenshot der Test Ergebnisse](images/04-test-results-1.png)
+1. Auf dem nächsten Bildschirm können Sie alle oder einige Surface Hub-Komponenten testen. Um mit dem Testen des Gerätekontos zu beginnen, wählen Sie das **Symbol Testergebnisse** aus.
 
-    ![Screenshot der Test Ergebnisse](images/05-test-results-2.png)
+    ![Screenshot der Testoptionen](images/04-test-results-1.png)
 
-1. Wählen Sie **Kontoeinstellungen**aus.  
+    ![Screenshot der Testergebnisse](images/05-test-results-2.png)
+
+1. Wählen **Sie Kontoeinstellungen aus.**  
 
     ![Screenshot der Kontoeinstellungen](images/06-account-settings.png)
 
-    Der Bildschirm Kontoeinstellungen wird verwendet, um Ihr Geräte Konto zu testen.
+    Der Bildschirm Kontoeinstellungen wird zum Testen Ihres Gerätekontos verwendet.
 
-    ![Screenshot der Details zur Kontoeinstellungen](images/07-account-settings-details.png)
+    ![Screenshot der Kontoeinstellungen](images/07-account-settings-details.png)
 
-1. Geben Sie die e-Mail-Adresse Ihres Geräte Kontos ein. Das Kennwort ist optional, wird aber empfohlen. Wählen Sie die Schaltfläche **Testkonto** aus, wenn Sie den Vorgang fortsetzen möchten.
+1. Geben Sie die E-Mail-Adresse Ihres Gerätekontos ein. Das Kennwort ist optional, wird jedoch empfohlen. Wählen Sie **die Schaltfläche Konto testen** aus, wenn Sie zum Fortfahren bereit sind.
 
-    ![Screenshot des Test Kontos](images/08-test-account.png)
+    ![Screenshot des Testkontos](images/08-test-account.png)
 
-1. Überprüfen Sie nach Abschluss der Tests die Ergebnisse für die vier Testbereiche. Jeder Abschnitt kann erweitert oder reduziert werden, indem Sie das Plus-oder Minus Zeichen neben den einzelnen Themen auswählen.
+1. Überprüfen Sie nach Abschluss der Tests die Ergebnisse für die vier Testbereiche. Jeder Abschnitt kann durch Auswählen des Plus- oder Minuszeichens neben jedem Thema erweitert oder reduziert werden.
 
     **Network**
 
@@ -80,61 +83,61 @@ Das Surface-Hub-Hardware-Diagnosetool ist ein einfach zu navigierendes Tool, mit
 
     **Zertifikate**
 
-    ![Screenshot der Zertifikate](images/11-certificates.png)
+    ![Screenshot von Zertifikaten](images/11-certificates.png)
 
-    **Trust-Modell**
+    **Vertrauensstellungsmodell**
 
-    ![Screenshot des Trust-Modells](images/12-trust-model.png)
+    ![Screenshot des Vertrauensstellungsmodells](images/12-trust-model.png)
 
-## Anhang
+## <a name="appendix"></a>Anhang
 
-### Feld Nachrichten und-Auflösung
+### <a name="field-messages-and-resolution"></a>Feldmeldungen und -auflösung
 
-#### Network
+#### <a name="network"></a>Network
 
-Feld |Erfolgreich |Fehler |Kommentar |Verweis
+Feld |Möglich |Fehler |Kommentar |Verweis
 |------|------|------|------|------|
-Internet Konnektivität |Gerät verfügt über eine Internet Verbindung |Gerät hat keine Internet Verbindung |Überprüft die Internetkonnektivität, einschließlich der Proxyverbindung |
-HTTP-Version |1.1 |1.0 |Wenn HTTP 1,0 gefunden wird, führt dies zu Problemen mit Wu und Store |
-Direkte Internet Verbindung |Gerät verfügt über ein Proxy konfiguriertes Gerät hat keinen Proxy konfiguriert |n.v. |Informations. Befindet sich Ihr Gerät hinter einem Proxy? |
-Proxy Adresse | | |Wenn konfiguriert, gibt Proxyadresse zurück. |
-Proxy Authentifizierung |Proxy erfordert keine Authentifizierung |Proxy erfordert Proxy-Authentifizierung |Das Ergebnis kann ein falsch positiver Effekt sein, wenn ein Benutzer bereits über eine offene Sitzung in Edge verfügt und über den Proxy authentifiziert wurde. |
-Proxy-auth-Typen | | |Wenn Proxyauthentifizierung verwendet wird, geben Sie die vom Proxy angekündigten Authentifizierungsmethoden zurück.  |
+Internetkonnektivität |Gerät verfügt über Internetverbindung |Gerät hat keine Internetverbindung |Überprüft die Internetverbindung, einschließlich der Proxyverbindung |
+HTTP-Version |1.1 |1.0 |Wenn HTTP 1.0 gefunden wurde, verursacht dies ein Problem mit WU und Store |
+Direkte Internetverbindung |Gerät verfügt über einen Proxy konfiguriertEs Gerät hat keinen Proxy konfiguriert |n.a. |Informationell. Befindet sich Ihr Gerät hinter einem Proxy? |
+Proxyadresse | | |Wenn konfiguriert, gibt Proxyadresse zurück. |
+Proxyauthentifizierung |Proxy erfordert keine Authentifizierung |Proxy erfordert Proxyauth |Das Ergebnis kann ein falsch positives Ergebnis sein, wenn ein Benutzer bereits über eine geöffnete Sitzung in Edge verfügt und sich über den Proxy authentifiziert hat. |
+Proxy-Authentifizierungstypen | | |Wenn die Proxyauthentifizierung verwendet wird, geben Sie die vom Proxy angekündigten Authentifizierungsmethoden zurück.  |
 
-#### Umgebung
+#### <a name="environment"></a>Umgebung
 
-Feld |Erfolgreich |Fehler |Kommentar |Verweis
+Feld |Möglich |Fehler |Kommentar |Verweis
 |------|------|------|------|------|
-SIP-Domäne | | |Informations.  |
-Skype-Umgebung |Skype for Business Online, Skype for Business onprem, Skype for Business-Hybrid |Informations. |Der Typ der Umgebung wurde erkannt. Hinweis: Hybrid kann nur erkannt werden, wenn das Kennwort eingegeben wurde.
-LyncDiscover-FQDN | | |Informations. Zeigt das LyncDiscover-DNS-Ergebnis an |
-LyncDiscover-URI | | |Informations. Zeigt die URL an, die zum Ausführen eines LyncDiscover in Ihrer Umgebung verwendet wird.|
-LyncDiscover |Verbindung erfolgreich |Verbindung fehlgeschlagen |Antwort des LyncDiscover-Webdiensts. |
-SIP-Pool-Hostname | | |Informations. Anzeigen des von LyncDiscover entdeckten SIP-Pool namens |
+SIP-Domäne | | |Informationell.  |
+Skype-Umgebung |Skype for Business Online, Skype for Business OnPrem, Skype for Business Hybrid |Informationell. |Welche Art von Umgebung erkannt wurde. Hinweis: Hybrid kann nur erkannt werden, wenn das Kennwort eingegeben wird.
+LyncDiscover-FQDN | | |Informationell. Zeigt das LyncDiscover-DNS-Ergebnis an |
+LyncDiscover-URI | | |Informationell. Zeigt die URL an, die zum Ausführen einer LyncDiscover in Ihrer Umgebung verwendet wird.|
+LyncDiscover |Verbindung erfolgreich |Verbindung fehlgeschlagen |Antwort vom LyncDiscover-Webdienst. |
+SIP-Pool-Hostname | | |Informationell. Anzeigen des aus LyncDiscover ermittelten SIP-Poolnamens |
 
-#### Zertifikate (nur in-Premise-Hybrid)
+#### <a name="certificates-in-premises-hybrid-only"></a>Zertifikate (nur lokale Hybride)
 
 LyncDiscover-Zertifikat
 
-Feld |Erfolgreich |Fehler |Kommentar |Verweis
+Feld |Möglich |Fehler |Kommentar |Verweis
 |------|------|------|------|------|
-LyncDiscover CERT CN | | |Informations. Zeigt den allgemeinen Namen LD CERT an |
-LyncDiscover CERT-Zertifizierungsstelle | | |Informations. Zeigt die LD CERT-Zertifizierungsstelle an |
-LyncDiscover CERT-Stammzertifizierungsstelle | | |Informations. Zeigt die LD CERT-Stammzertifizierungsstelle an, sofern verfügbar. |
-LD-Vertrauens Status |Zertifikat ist vertrauenswürdig. |Zertifikat nicht vertrauenswürdig ist, fügen Sie die Stammzertifizierungsstelle hinzu. |Überprüfen Sie das Zertifikat für den lokalen CERT-Speicher. Gibt positive zurück, wenn der Computer dem Zertifikat vertraut.|[Herunterladen und Bereitstellen von Skype for Business-Zertifikaten mithilfe von PowerShell](https://blogs.msdn.microsoft.com/surfacehub/2016/06/07/download-and-deploy-skype-for-business-certificates-using-powershell/) / [Unterstützte Elemente für Surface Hub-Bereitstellungspakete](https://docs.microsoft.com/surface-hub/provisioning-packages-for-surface-hub#supported-items-for-surface-hub-provisioning-packages)
+LyncDiscover Cert CN | | |Informationell. Zeigt den #A0 Common name an |
+LyncDiscover Cert CA | | |Informationell. Zeigt die #A0 an |
+LyncDiscover Cert Stammzertifizierungsstelle | | |Informationell. Zeigt die LD Cert-Stammzertifizierungsstelle an, sofern verfügbar. |
+LD Trust Status |Das Zertifikat ist vertrauenswürdig. |Zertifikat ist nicht vertrauenswürdig, fügen Sie bitte die Stammzertifizierungsstelle hinzu. |Überprüfen Sie das Zertifikat mit dem lokalen Zertifikatspeicher. Gibt positive Ergebnisse zurück, wenn der Computer dem Zertifikat vertraut.|[Herunterladen und Bereitstellen von Skype for Business-Zertifikaten mithilfe von PowerShell](https://blogs.msdn.microsoft.com/surfacehub/2016/06/07/download-and-deploy-skype-for-business-certificates-using-powershell/) / [Unterstützte Elemente für Surface Hub-Bereitstellungspakete](https://docs.microsoft.com/surface-hub/provisioning-packages-for-surface-hub#supported-items-for-surface-hub-provisioning-packages)
 
-SIP-Pool-Zertifizierung
+SIP-Poolzertifizierung
 
-Feld |Erfolgreich |Fehler |Kommentar |Verweis
+Feld |Möglich |Fehler |Kommentar |Verweis
 |------|------|------|------|------|
-SIP-Pool CERT CN | | |Inhalt |
-SIP-Pool-CERT-Zertifizierungsstelle | | |Inhalt |
-SIP-Pool-Vertrauens Status |Zertifikat ist vertrauenswürdig. |Zertifikat nicht vertrauenswürdig ist, fügen Sie die Stammzertifizierungsstelle hinzu. |Überprüfen Sie das Zertifikat für den lokalen Zertifikatspeicher, und geben Sie einen positiven Wert zurück, wenn die Geräte dem Zertifikat vertrauen. |
-SIP-Pool CERT-Stammzertifizierungsstelle | | |Informationen. Anzeigen der SIP-Pool CERT-Stammzertifizierungsstelle (sofern verfügbar) |
+SIP-Pool-Cert-CN | | |(INHALT) |
+#A0 | | |(INHALT) |
+SIP-Pool-Vertrauensstatus |Das Zertifikat ist vertrauenswürdig. |Zertifikat ist nicht vertrauenswürdig, fügen Sie bitte die Stammzertifizierungsstelle hinzu. |Überprüfen Sie das Zertifikat mit dem lokalen Zertifikatspeicher, und geben Sie ein Positives zurück, wenn die Geräte dem Zertifikat vertrauen. |
+SIP-Pool-Zertifikatstammzertifizierungsstelle | | |Informationen. Zeigen Sie die SIP-Pool-Cert-Stammzertifizierungsstelle an, sofern verfügbar. |
 
-#### Trust-Modell (nur lokales Hybrid)
+#### <a name="trust-model-on-premises-hybrid-only"></a>Vertrauensstellungsmodell (nur lokale Hybridbereitstellung)
 
-Feld |Erfolgreich |Fehler |Kommentar |Verweis
+Feld |Möglich |Fehler |Kommentar |Verweis
 |------|------|------|------|------|
-Status des Trust-Modells |Das Problem mit dem Trust-Modell wurde nicht erkannt. |SIP-Domäne und Server Domäne sind unterschiedlich Bitte fügen Sie die folgenden Domänen hinzu. |Überprüfen Sie den LD-FQDN/LD-Servernamen/Pool Servernamen für das Problem des Vertrauensmodells. 
-Domänen Name (n) | | |Geben Sie die Liste der Domänen zurück, die der SFB hinzugefügt werden soll, um eine Verbindung herzustellen. |
+Status des Vertrauensstellungsmodells |Kein Vertrauensstellungsmodellproblem erkannt. |SIP-Domäne und Serverdomäne unterscheiden sich, fügen Sie bitte die folgenden Domänen hinzu. |Überprüfen Sie den NAMEN des LD-FQDN/LD-Servernamens/Poolservers auf das Problem mit dem Vertrauensstellungsmodell. 
+Domänenname(n) | | |Gibt die Liste der Domänen zurück, die hinzugefügt werden sollen, damit SFB eine Verbindung herstellen kann. |
