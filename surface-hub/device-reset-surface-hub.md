@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 03/10/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 4b6797a83936b919aa43a7ae9fc8ae4dd720223a
-ms.sourcegitcommit: f0c976664116c45605edf3d56c4f58119a246b93
+ms.openlocfilehash: 8d9a4f995abda4e005e8136ace62e10fb564c9b8
+ms.sourcegitcommit: ea853f2dba67e63e6df33538670fd581e17facab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "11406628"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "11408810"
 ---
 # <a name="reset-or-recover-a-surface-hub"></a>Zurücksetzen oder Wiederherstellen eines Surface Hub
 
@@ -37,7 +37,7 @@ In diesem Artikel wird das Zurücksetzen oder Wiederherstellen eines Microsoft S
 
 Möglicherweise müssen Sie Ihren Surface Hub aus folgenden Gründen zurücksetzen:
 
-- Sie müssen das Gerät für einen neuen Besprechungsraum neu löschen und neu konfigurieren.
+- Sie verwenden das Gerät für einen neuen Besprechungsraum um und möchten es neu konfigurieren.
 - Sie möchten die lokale Verwaltung des Geräts ändern.
 - Der Benutzername oder das Kennwort für das Gerätekonto oder das Administratorkonto ist verloren gegangen.
 - Nach der Installation eines Updates nimmt die Leistung des Geräts ab.
@@ -49,18 +49,21 @@ Wenn während des Zurücksetzens ein leerer Bildschirm für längere Zeit angeze
 
 1. Öffnen Sie **Einstellungen** auf dem Surface Hub.
 
-   ![Abbildung, die die Einstellungs-App für Surface Hub zeigt.](images/sh-settings.png)
+   > [!div class="mx-imgBorder"]
+   > ![Abbildung, die die Einstellungs-App für Surface Hub zeigt.](images/sh-settings.png)
 
 2. Wählen **Sie Update & Security aus.**
 
-   ![Abbildung, die update & security group in Settings app for Surface Hub zeigt.](images/sh-settings-update-security.png)
+   > [!div class="mx-imgBorder"]
+   > ![Abbildung, die update & security group in Settings app for Surface Hub zeigt.](images/sh-settings-update-security.png)
 
 3. Wählen **Sie Wiederherstellung**aus, und wählen Sie dann unter **Gerät zurücksetzen**die Option Erste Schritte **aus.**
 
    > [!IMPORTANT]
    > Stellen Sie sicher, dass Ihr BitLocker-Schlüssel verfügbar ist, bevor Sie das Gerät zurücksetzen, wie Sie später dazu aufgefordert werden. Weitere Informationen finden Sie [unter Save your BitLocker key](save-bitlocker-key-surface-hub.md). Wenn der Hub mit der Wiederherstellungspartition neu gestartet wird, werden Sie zur Eingabe des BitLocker-Schlüssels aufgefordert. Wenn Sie diese Eingabeaufforderung überspringen, wird die Zurücksetzung fehlschlagen.
    
-   ![Abbildung, die die Option Geräte zurücksetzen in der App Einstellungen für Surface Hub zeigt.](images/sh-settings-reset-device.png)
+   > [!div class="mx-imgBorder"]
+   > ![Abbildung, die die Option Geräte zurücksetzen in der App Einstellungen für Surface Hub zeigt.](images/sh-settings-reset-device.png)
 
    Nach Abschluss des Zurücksetzens startet Surface Hub das [erste Ausführungsprogramm](first-run-program-surface-hub.md) erneut. Wenn beim Zurücksetzen ein Problem besteht, wird der Surface Hub wieder auf das zuvor vorhandene Betriebssystemimage zurückgesetzt und dann der Willkommensbildschirm angezeigt.
 
@@ -86,7 +89,8 @@ Wenn das Gerätekonto in einen instabilen Zustand gerät oder wenn beim Administ
 
 2. Wählen **Sie unter Wiederherstellen aus der Cloud**die Option Jetzt neu starten **aus.**
 
-   ![Aus der Cloud wiederherstellen](images/recover-from-the-cloud.png)
+   > [!div class="mx-imgBorder"]
+   > ![Aus der Cloud wiederherstellen](images/recover-from-the-cloud.png)
 
 ### <a name="recover-a-locked-surface-hub"></a>Wiederherstellen eines gesperrten Surface Hub-Geräts
 
@@ -99,26 +103,31 @@ In seltenen Fällen kann für einen Surface Hub ein Fehler auftreten, während a
 3. Verwenden Sie den Netzschalter, um den Surface Hub wieder zu aktivieren. Das Gerät startet und zeigt den Surface Hub-Logo-Bildschirm an. Wenn unter dem Surface Hub-Logo Spinnenpunkte angezeigt werden, verwenden Sie den Netzschalter, um den Surface Hub erneut zu deaktivieren.  
 
 4. Wiederholen Sie Schritt 3 dreimal, oder bis der Surface Hub die Meldung "Automatische Reparatur vorbereiten" anzeigt. Nachdem diese Meldung angezeigt wurde, wird auf dem Surface Hub der Windows RE-Bildschirm angezeigt.
-
  
-5. Wählen **Sie Zurücksetzen aus, um Windows erneut zu installieren.** 
-![Zurücksetzen auf Neuinstallation](images/recover-from-cloud.png)
+5. Wählen Sie **Zurücksetzen** aus. 
 
-8. Wählen Sie **Clouddownload aus.** 
+6. Wenn Sie zur Eingabe des BitLocker-Schlüssels aufgefordert werden, gehen Sie wie folgt vor:
+   - Um die Informationen zu erhalten, die BitLocker auf dem Surface Hub schützt, geben Sie die BitLocker-Taste ein.
+   - Wenn Sie die geschützten Informationen verwerfen möchten, wählen Sie Dieses Laufwerk überspringen aus.
+
+7. Wählen Sie **Clouddownload aus.** 
 
    ![Clouddownload](images/recover-cloud-download.png)
 
->[!IMPORTANT]
->Wenn eine Fehlermeldung angezeigt wird, die angibt, dass **der Download nicht möglich ist,** wählen Sie Abbrechen **aus,** und versuchen Sie es erneut.
+   >[!IMPORTANT]
+   >Wenn eine Fehlermeldung angezeigt wird, die angibt, dass **der Download nicht möglich ist,** wählen Sie **Abbrechen** und dann **erneut** zurücksetzen aus.
 
-9. Wählen **Sie Vollständiges Bereinigen des Laufwerks aus.**  
-![ Wiederherstellen und vollständig bereinigtes Laufwerk](images/recover-fully-clean-drive.png)
+8. Wählen **Sie Vollständiges Bereinigen des Laufwerks aus.**
+ 
+   ![Wiederherstellen und vollständig bereinigtes Laufwerk](images/recover-fully-clean-drive.png)
 
-10. Sie werden **gefragt, ob Sie bereit sind, dieses Gerät zurückzusetzen?**. Wählen Sie **Zurücksetzen** aus. 
-![Zurücksetzen wiederherstellen und bestätigen](images/recover-confirm-reset.png)
+9. Sie werden **gefragt, ob Sie bereit sind, dieses Gerät zurückzusetzen?**. Wählen Sie **Zurücksetzen** aus. 
+   
+   ![Zurücksetzen wiederherstellen und bestätigen](images/recover-confirm-reset.png)
 
-11. Der Download beginnt, und der Wiederherstellungsprozess gibt das **Zurücksetzen dieses Geräts an.** 
-![Wiederherstellung in Bearbeitung](images/recover-in-progress.png)
+10. Der Download beginnt, und der Wiederherstellungsprozess gibt das **Zurücksetzen dieses Geräts an.**
+
+    ![Wiederherstellung in Bearbeitung](images/recover-in-progress.png)
 
 ## <a name="contact-support"></a>Hilfe und Support zu Windows
 
