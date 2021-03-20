@@ -1,140 +1,81 @@
 ---
-title: Vorbereiten Der Umgebung für Microsoft Surface Hub (v1)
-description: Dieser Abschnitt enthält eine Übersicht über die zum Vorbereiten der Umgebung erforderlichen Schritte, damit Sie alle Features von Microsoft Surface Hub verwenden können.
+title: Vorbereiten der Umgebung für Microsoft Surface Hub
+description: Auf dieser Seite werden Abhängigkeiten zum Einrichten und Verwalten von Surface Hub v1 oder Surface Hub 2S beschrieben.
 ms.assetid: 336A206C-5893-413E-A270-61BFF3DF7DA9
 ms.reviewer: ''
 manager: laurawi
-keywords: Umgebung vorbereiten, Features von Surface Hub, Gerätekonto erstellen und testen, Netzwerkverfügbarkeit überprüfen
+keywords: Vorbereiten der Umgebung, Surface Hub, Gerätekonto, Netzwerkverfügbarkeit, M365-Endpunkte, Intune
 ms.prod: surface-hub
 ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 03/03/2021
+ms.date: 03/16/2021
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub
-ms.openlocfilehash: 075724153709fd86ccc00ef98ad532bf45557714
-ms.sourcegitcommit: 5c904229a0257297be7f724c264e484d2c4b5168
+- Surface Hub 2S
+ms.openlocfilehash: 33724f84171cb9485bd20ff5c437ad8b3f60a463
+ms.sourcegitcommit: 8b35cdee6c638359403697711ee53d07cca6ee51
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "11387444"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "11442123"
 ---
-# <a name="prepare-your-environment-for-microsoft-surface-hub-v1"></a>Vorbereiten Der Umgebung für Microsoft Surface Hub (v1)
-
-
-Dieser Abschnittenthält eine Übersicht über Setupabhängigkeiten und den Setupprozess. Überprüfen Sie die Informationen, um Ihre Umgebung vorzubereiten und Informationen zu sammeln, die zum Einrichten ihres Surface Hub erforderlich sind.
-
-
-## <a name="review-infrastructure-dependencies"></a>Überprüfen der Infrastrukturabhängigkeiten
-Überprüfen Sie diese Abhängigkeiten, um sicherzustellen, dass die Surface Hub-Features in Ihrer IT-Infrastruktur funktionieren.
-
-| Abhängigkeit        | Zweck           |
-|-------------|------------------|
-| Active Directory oder Azure Active Directory (Azure AD) | <p>Surface Hub verwendet ein Active Directory- oder Azure AD-Konto (**Gerätekonto** genannt), um auf den Exchange- und den Skype for Business-Dienst zuzugreifen. Surface Hub muss eine Verbindung mit dem Active Directory-Domänencontroller oder dem AzureAD-Mandanten herstellen können, um die Anmeldeinformationen des Gerätekontos zu überprüfen und um auf Informationen wie Anzeigename, Alias, Exchange-Server und Adresse des Session Initiation-Protokolls (SIP) des Gerätekontos zuzugreifen.</p>Sie können Surface Hub auch mit der Domäne oder Azure AD verknüpfen, um einer Gruppe autorisierter Benutzer die Konfiguration von Einstellungen auf Surface Hub zu erlauben. |
-| Exchange (Exchange 2013 oder höher oder Exchange Online) und Exchange ActiveSync | <p>Exchange dient zum Aktivieren von E-Mail- und Kalenderfunktionen und ermöglicht außerdem Benutzern des Geräts das Senden von Besprechungsanfragen an das Surface Hub-Gerät, wodurch die One-Touch-Besprechungsteilnahme ermöglicht wird.</p>ActiveSync wird verwendet, um Kalender und E-Mail des Gerätekontos mit dem Surface Hub zu synchronisieren. Wenn das Gerät ActiveSync nicht verwenden kann, werden keine Besprechungen auf der Willkommensseite angezeigt, und die Besprechungsteilnahme und das Senden von Whiteboards per E-Mail sind nicht aktiviert. |
-| Skype for Business (Lync Server2013 oder höher oder Skype for Business Online)  | Skype for Business wird für verschiedene Konferenzfeatures wie Videoanrufe, Chats und Bildschirmfreigabe verwendet.|
-| Mobile Device Management (MDM)-Lösung (Microsoft Intune, Microsoft Endpoint Configuration Manager oder unterstützter MDM-Drittanbieter) | Wenn Sie per Remoteverbindung auf mehreren Geräten gleichzeitig Einstellungen anwenden und Apps installieren möchten, müssen Sie eine MDM-Lösung einrichten und das Gerät für diese Lösung registrieren. Ausführliche Informationen finden Sie unter [Verwalten von Einstellungen mit einem MDM-Anbieter](manage-settings-with-mdm-for-surface-hub.md). |
-|Azure Monitor   | Azure Monitor wird verwendet, um die Integrität von Surface Hub-Geräten zu überwachen. Weitere Informationen zur Integrität finden Sie unter [Monitor Surface Hubs with Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/surface-hubs). 
-| Netzwerk- und Internetzugriff   | Um korrekt zu funktionieren, muss Surface Hub Zugriff auf ein verkabeltes Netzwerk oder ein Drahtlosnetzwerk haben. Im Allgemeinen wird eine Kabelverbindung bevorzugt. 802.1x-Authentifizierung wird sowohl für kabelgebundene als auch drahtlose Verbindungen unterstützt.</br></br></br>**802.1x-Authentifizierung:** In Windows10, Version 1703 ist die 802. 1 X-Authentifizierung für Kabel- und Drahtlosverbindungen standardmäßig in Surface Hub aktiviert. Wenn Ihre Organisation nicht die 802.1x-Authentifizierung verwendet, ist keine Konfiguration erforderlich, und Surface Hub funktioniert weiterhin wie gewohnt. Wenn Sie die 802.1X-Authentifizierung verwenden, müssen Sie sicherstellen, dass das Authentifizierungszertifikat auf Surface Hub installiert ist. Sie können das Zertifikat an Surface Hub mittels [ClientCertificateInstall CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/clientcertificateinstall-csp) in MDM übermitteln, oder Sie können [ein Bereitstellungspaket erstellen](provisioning-packages-for-surface-hub.md) und es bei der ersten Ausführung oder über die Einstellungs-App installieren. Nachdem das Zertifikat auf Surface Hub angewendet wurde, funktioniert die 802.1x-Authentifizierung automatisch.</br><br>**Hinweis:** Weitere Informationen zum Aktivieren der kabelgebundenen 802.1x-Authentifizierung auf Surface Hub finden Sie unter [Kabelgebundene 802.1x-Authentifizierung ermöglichen](enable-8021x-wired-authentication.md).</br></br>**Dynamische IP:** Surface Hub kann nicht für die Verwendung einer statischen IP konfiguriert werden. Das Gerät muss DHCP zum Zuweisen einer IP-Adresse verwenden.</br></br>**Proxyserver:** Wenn die Topologie eine Verbindung über einen Proxyserver erfordert, um Internetdienste zu erreichen, kann dieser bei der ersten Ausführung oder in den Einstellungen konfiguriert werden. Proxyanmeldeinformationen werden für alle Surface Hub-Sitzungen gespeichert und müssen nur einmal festgelegt werden. |
-
-Beachten Sie darüber hinaus, dass für Surface Hub die folgenden offenen Ports erforderlich sind:
-- HTTPS: 443
-- HTTP: 80
-- NTP: 123
-
-Wenn Sie Surface Hub mit Skype for Business verwenden, müssen Sie zusätzliche Ports öffnen. Befolgen Sie die folgenden Anleitungen:
-- Wenn Sie Skype for Business Online verwenden, finden Sie weitere Informationen unter [Office 365-IP-URLs und IP-Adressbereiche](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US).
-- Wenn Sie Skype for Business Server verwenden, lesen [Sie Skype for Business Server: Ports und Protokolle für interne Server](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/network-requirements/ports-and-protocols). 
-- Wenn Sie eine Hybridlösung aus Skype for Business Online und Skype for Business Server verwenden, müssen Sie alle dokumentierten Ports von [Office 365-IP-URLs und -Adressbereichen](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US) und [Skype for Business Server: Ports](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/network-requirements/ports-and-protocols?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)und Protokolle für interne Server öffnen.
-
-Microsoft sammelt Diagnosedaten zur Verbesserung der Surface Hub-Erfahrung. Fügen Sie die folgenden Websites zur Liste zugelassener Websites hinzu:
-- Clientendpunkt der Diagnosedaten: `https://vortex.data.microsoft.com/`
-- Endpunkt der Einstellungen für Diagnosedaten: `https://settings.data.microsoft.com/`
-
-### <a name="proxy-configuration"></a>Proxykonfiguration
-
-Wenn Ihre Organisation die Internetverbindungen der Computer im Netzwerk einschränkt, muss für Geräte, die den Microsoft Store für Unternehmen verwenden, ein bestimmter Satz von URLs verfügbar sein. Einige der Features des Microsoft Store für Unternehmen verwenden die Microsoft Store-App und Microsoft Store-Dienste. Geräte, die den Microsoft Store für Unternehmen verwenden, um Apps zu erwerben, zu installieren oder zu aktualisieren, benötigen Zugriff auf diese URLs. Wenn Sie einen Proxyserver verwenden, um Datenverkehr zu blockieren, muss die Konfiguration die folgenden URLs zulassen:
-
-- login.live.com
-- login.Windows.net
-- account.live.com
-- clientconfig.passport.net
-- Windowsphone.com
-- *.wns.windows.com
-- *.microsoft.com
-- www.msftncsi.com (vor Windows 10, Version 1607)
-- www.msftconnecttest.com/connecttest.txt (ersetzt ab Windows 10, Version 1607, „www.msftncsi.com“)
-
-
-## <a name="work-with-other-admins"></a>Zusammenarbeit mit anderen Administratoren
-
-Surface Hub interagiert mit einigen anderen Produkten und Diensten. Je nach Größe Ihrer Organisation kann es mehrere Personen geben, die Support für verschiedene Produkte in Ihrer Umgebung bereitstellen. Sie möchten Personen, die Exchange, Active Directory (oder Azure Active Directory), MDM (Verwaltung mobiler Geräte) und Netzwerkressourcen verwalten, in die Planung und Vorbereitung von SurfaceHub-Bereitstellungen einschließen. 
-
-
-## <a name="create-and-verify-device-account"></a>Erstellen und Überprüfen eines Gerätekontos
-
-Ein Gerätekonto ist ein Exchange-Ressourcenkonto, das Surface Hub verwendet, um den Besprechungskalender anzuzeigen, an Skype for Business-Anrufen teilzunehmen und (optional) die Authentifizierung bei Exchange durchzuführen. Ausführliche Informationen finden Sie unter [Erstellen und Testen eines Gerätekontos](create-and-test-a-device-account-surface-hub.md).
-
-Führen Sie nach der Erstellung Ihres Gerätekontos PowerShell-Skripts zur Surface Hub-Gerätekontoüberprüfung aus, um sicherzustellen, dass es ordnungsgemäß eingerichtet ist. Weitere Informationen finden Sie unter [PowerShell-Skripts für Surface Hub](appendix-a-powershell-scripts-for-surface-hub.md) weiter unten in diesem Handbuch. 
+# <a name="prepare-your-environment-for-microsoft-surface-hub"></a>Vorbereiten der Umgebung für Microsoft Surface Hub
 
  
+Auf dieser Seite werden Abhängigkeiten zum Einrichten und Verwalten von Surface Hub v1 oder Surface Hub 2S beschrieben.
+ 
 
-## <a name="prepare-for-first-run-program"></a>Vorbereiten des Programms für die Erstausführung 
-Es gibt einige weitere Aspekte, die vor dem Starten des [Programms für die Erstausführung](first-run-program-surface-hub.md) berücksichtigt werden sollten.  
+## <a name="infrastructure-dependencies"></a>Infrastrukturabhängigkeiten
 
-### <a name="create-provisioning-packages-optional"></a>Erstellen von Bereitstellungspaketen (optional)
-Sie können Bereitstellungspakete verwenden, um Zertifikate hinzuzufügen, Einstellungen anzupassen und Apps zu installieren. Ausführliche Informationen finden Sie unter [Erstellen von Bereitstellungspaketen](provisioning-packages-for-certificates-surface-hub.md). Sie können [Bereitstellungspakete bei der ersten Ausführung installieren](first-run-program-surface-hub.md#first-page).
+Überprüfen Sie diese Abhängigkeiten, um sicherzustellen, dass die Surface Hub-Features in Ihrer IT-Infrastruktur funktionieren.
+ 
+ 
+| Abhängigkeit                                                                                                                                  | Beschreibung                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Weitere Informationen                                                                                                                                                                                                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Lokale Dienste und Active Directory oder M365                                                                                           |  Surface Hub verwendet ein Active Directory- oder Azure AD-Konto (als Gerätekonto **bezeichnet)** für den Zugriff auf Exchange- und Teams-Dienste (oder Skype for Business). Surface Hub muss eine Verbindung mit dem Active Directory-Domänencontroller oder dem AzureAD-Mandanten herstellen können, um die Anmeldeinformationen des Gerätekontos zu überprüfen und um auf Informationen wie Anzeigename, Alias, Exchange-Server und Adresse des Session Initiation-Protokolls (SIP) des Gerätekontos zuzugreifen.  <br><br>**HINWEIS: Surface Hubs arbeiten mit Microsoft Teams, Skype for Business Server 2019, Skype for Business Server 2015 oder Skype for Business Online. Frühere Plattformen wie Lync Server 2013 werden nicht unterstützt. Surface Hubs werden in GCC High- oder DoD-Umgebungen nicht unterstützt.**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | [Microsoft 365-Endpunkte](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-endpoints) <br> <br> [Erstellen und Testen eines Gerätekontos](create-and-test-a-device-account-surface-hub.md)                                                                                                                                                    |
+| Windows Update, Store und Diagnose                                                                                                       | Der Zugriff auf Windows Update oder Windows Update for Business ist erforderlich, um Surface Hub mit Funktions- und Qualitätsupdates des Betriebssystems zu verwalten. Der Zugriff auf den Microsoft Store ist erforderlich, um Apps zu verwalten.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | [Verwalten von Verbindungsendpunkten für Windows 10 Enterprise, Version 20H2](https://docs.microsoft.com/windows/privacy/manage-windows-20h2-endpoints)<br> <br>[Verwalten von Windows-Updates auf Surface Hub](manage-windows-updates-for-surface-hub.md) |
+| Mobile Device Management (MDM)-Lösung (Microsoft Intune, Microsoft Endpoint Configuration Manager oder unterstützter MDM-Drittanbieter) | Wenn Sie per Remoteverbindung auf mehreren Geräten gleichzeitig Einstellungen anwenden und Apps installieren möchten, müssen Sie eine MDM-Lösung einrichten und das Gerät für diese Lösung registrieren.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | [Netzwerkendpunkte für Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/intune-endpoints)<br> <br>[Verwalten von Einstellungen mithilfe eines MDM-Anbieters](manage-settings-with-mdm-for-surface-hub.md)                                  |
+| Azure Monitor                                                                                                                               | Azure Monitor kann zum Überwachen der Integrität von Surface Hub-Geräten verwendet werden. <br><br>**HINWEIS: Surface Hubs unterstützen derzeit nicht die Verwendung eines Proxyservers für die Kommunikation mit dem von Azure Monitor verwendeten Protokollanalysedienst.**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | [Log Analytics-Endpunkte](https://docs.microsoft.com/azure/azure-monitor/agents/log-analytics-agent#firewall-requirements)<br> <br> [Überwachen Sie Surface Hubs mit Azure Monitor, um deren Integrität zu verfolgen.](https://docs.microsoft.com/azure/azure-monitor/insights/surface-hubs)                                                                                                                                               |
+| Netzwerkzugriff                                                                                                                              |  Surface Hubs unterstützen kabelgebundene oder drahtlose Verbindungen (eine kabelgebundene Verbindung wird bevorzugt) . <br> <br>**802.1X-Authentifizierung**<br>In Windows 10 Team 20H2 müssen Sie, obwohl die 802.1X-Authentifizierung für kabelgebundene und drahtlose Verbindungen standardmäßig aktiviert ist, sicherstellen, dass auch ein 802.1x-Netzwerkprofil und Authentifizierungszertifikat auf Surface Hub installiert ist. Wenn Sie Surface Hub mit Intune oder einer anderen Verwaltungslösung für mobile Geräte verwalten, können Sie das Zertifikat mithilfe des [ClientCertificateInstall CSP bereitstellen.](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/clientcertificateinstall-csp) Andernfalls können [Sie ein Bereitstellungspaket erstellen](provisioning-packages-for-surface-hub.md) und es während der ersten Ausführung des Setups oder mithilfe der Settings-App installieren. Wenn das Zertifikat angewendet wird, wird die 802.1X-Authentifizierung automatisch gestartet.<br> <br>**Dynamische IP**<br>Surface Hubs kann nicht für die Verwendung einer statischen IP konfiguriert werden. Ihnen muss über DHCP eine IP-Adresse zugewiesen werden.<br> <br>**Anschlüsse**<br>Der Surface Hub erfordert die folgenden geöffneten Ports:<br><br>HTTPS: 443<br>HTTP: 80<br>NTP: 123 | [Aktivieren der kabelgebundenen 802.1x-Authentifizierung](enable-8021x-wired-authentication.md)  <br><br>[Erstellen von Bereitstellungspaketen für Surface Hub 2S](surface-hub-2s-deploy.md)                                                                                 |
 
-### <a name="set-up-admin-groups"></a>Einrichten von Administratorgruppen
-Jedes Surface Hub-Gerät kann mithilfe der Einstellungs-App auf dem Gerät lokal konfiguriert werden. Um die Änderung der Einstellungen durch nicht autorisierte Benutzer zu verhindern, sind zum Öffnen der Einstellungs-App Administratoranmeldeinformationen erforderlich. Ausführliche Informationen zum Einrichten und Verwalten von Administratorgruppen finden Sie unter [Administratorgruppenverwaltung](admin-group-management-for-surface-hub.md) . Sie [richten Administratoren für das Gerät bei der Erstausführung ein](first-run-program-surface-hub.md#setup-admins).
+## <a name="device-affiliation"></a>Gerätezugehörigkeit
+
+Verwenden Sie Gerätezugehörigkeit, um den Benutzerzugriff auf die Einstellungen-App auf Surface Hub zu verwalten. Mit dem Windows 10 Team-Betriebssystem (das auf Surface Hub ausgeführt wird) können nur autorisierte Benutzer Einstellungen mithilfe der Einstellungs-App anpassen. Da sich die Auswahl der Zuordnung auf die Featureverfügbarkeit auswirken kann, sollten Sie entsprechend planen, um sicherzustellen, dass Benutzer wie beabsichtigt auf Features zugreifen können.
+ 
+ 
+> [!NOTE]
+> Sie können die Gerätezugehörigkeit nur während des anfänglichen Setups für die out-of-box-Besens (OOBE) festlegen. Wenn Sie die Gerätezugehörigkeit zurücksetzen müssen, müssen Sie das OOBE-Setup wiederholen.
+ 
+
+### <a name="no-affiliation"></a>Keine Zugehörigkeit
+
+Keine Zugehörigkeit ist so, als würde Surface Hub in einer Arbeitsgruppe mit einem anderen lokalen Administratorkonto auf jedem Surface Hub arbeiten. Wenn Sie Keine Zugehörigkeit auswählen, müssen Sie den [BitLocker-Schlüssel](https://docs.microsoft.com/surface-hub/save-bitlocker-key-surface-hub)lokal auf einem USB-Stick speichern. Sie können das Gerät weiterhin bei Intune registrieren. Allerdings kann nur der lokale Administrator mithilfe der Kontoanmeldeinformationen, die während der OOBE konfiguriert wurden, auf die Einstellungs-App zugreifen. Sie können das Administratorkontokennwort über die Einstellungs-App ändern.
+ 
+
+### <a name="active-directory-domain-services"></a>Active Directory Domain Services
+
+Wenn Sie Surface Hub mit lokalen Active Directory-Domänendiensten verbinden, müssen Sie den Zugriff auf die Einstellungs-App mithilfe einer Sicherheitsgruppe in Ihrer Domäne verwalten. Dadurch wird sichergestellt, dass alle Mitglieder der Sicherheitsgruppe über Berechtigungen zum Ändern von Einstellungen auf Surface Hub verfügen. Beachten Sie außerdem Folgendes: Wenn Surface Hub ihren lokalen Active Directory-Domänendiensten zuteil wird, kann der BitLocker-Schlüssel im Active Directory-Schema gespeichert werden. Weitere Informationen finden Sie unter [Prepare your organization for BitLocker: Planning and policies](https://docs.microsoft.com/windows/security/information-protection/bitlocker/prepare-your-organization-for-bitlocker-planning-and-policies).
+ 
+Die vertrauenswürdigen Stammzertifizierungsstelle Ihrer Organisation werden in Surface Hub an denselben Container geschubst, d. h., Sie müssen sie nicht mithilfe eines Bereitstellungspakets importieren.
+ 
+Sie können das Gerät weiterhin bei Intune registrieren, um Einstellungen auf Ihrem Surface Hub zentral zu verwalten.
+ 
+
+### <a name="azure-active-directory"></a>Azure Active Directory
+
+Wenn Sie Ihren Surface Hub mit Azure Active Directory (Azure AD) verbinden möchten, kann sich jeder Benutzer in der globalen Sicherheitsgruppe "Administratoren" bei der App "Einstellungen" auf Surface Hub anmelden. Sie können auch nicht globale Administratorkonten konfigurieren, die die Berechtigungen auf die Verwaltung der Einstellungen-App auf Surface Hub beschränken. Auf diese Weise können Sie administratorberechtigungen nur für Surface Hub festlegen und potenziell unerwünschten Administratorzugriff über eine gesamte Azure AD-Domäne hinweg verhindern.
+
+Wenn Sie die [automatische Registrierung von Intune für](https://docs.microsoft.com/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment) Ihre Organisation aktiviert haben, registriert sich Surface Hub automatisch bei Intune. Der BitLocker-Schlüssel des Geräts wird automatisch in Azure AD gespeichert.
+
+Weitere Informationen zum Verwalten von Surface Hub mit Azure AD finden Sie unter:
+
+- [Administratorgruppenverwaltung](admin-group-management-for-surface-hub.md)
+- [Konfigurieren nicht globaler Administratorkonten auf Surface Hub](surface-hub-2s-nonglobal-admin.md)
 
 ### <a name="review-and-complete-surface-hub-setup-worksheet-optional"></a>Lesen und Abschließen des Surface Hub-Setup-Arbeitsblatts (optional)
+
 Im Programm für die Erstausführung für Surface Hub müssen Sie einige Informationen bereitstellen. Im Setup-Arbeitsblatt sind diese Informationen zusammengefasst. Darüber hinaus enthält es Listen mit umgebungsspezifischen Infos, die Sie beim Durchlaufen des Programms für die Erstausführung benötigen. Weitere Informationen finden Sie unter [Setup-Arbeitsblatt](setup-worksheet-surface-hub.md).
-
-
-## <a name="in-this-section"></a>Inhalt dieses Abschnitts
-
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Thema</th>
-<th align="left">Beschreibung</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><p><a href="create-and-test-a-device-account-surface-hub.md" data-raw-source="[Create and test a device account](create-and-test-a-device-account-surface-hub.md)">Erstellen und Testen eines Gerätekontos</a></p></td>
-<td align="left"><p>In diesem Thema wird erläutert, wie Sie das Gerätekonto, das Surface Hub für die Kommunikation mit Skype verwendet, erstellen und testen.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p><a href="provisioning-packages-for-certificates-surface-hub.md" data-raw-source="[Create provisioning packages](provisioning-packages-for-certificates-surface-hub.md)">Erstellen von Bereitstellungspaketen</a></p></td>
-<td align="left"><p>Für Windows 10 können Einstellungen, die die Registrierung oder eine Content Services-Plattform (CSP) verwenden, mithilfe von Bereitstellungspaketen konfiguriert werden. Sie können bei der ersten Ausführung auch Zertifikate mit der Bereitstellung hinzufügen.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p><a href="admin-group-management-for-surface-hub.md" data-raw-source="[Admin group management](admin-group-management-for-surface-hub.md)">Administratorgruppenverwaltung</a></p></td>
-<td align="left"><p>Jeder Surface Hub kann durch Öffnen der Einstellungs-App auf dem Gerät einzeln konfiguriert werden. Um jedoch zu verhindern, dass Benutzer, die keine Administratoren sind, die Einstellungen ändern, erfordert die Einstellungs-App Administratoranmeldeinformationen zum Öffnen der App und Ändern der Einstellungen.</p>
-<p>Die Einstellungs-App erfordert lokale Administratoranmeldeinformationen zum Öffnen der App.</p></td>
-</tr>
-</tbody>
-</table>
-
-## <a name="more-information"></a>Weitere Informationen
-
-- [Blogbeitrag: Surface Hub and the Skype for Business Trusted Domain List (in englischer Sprache)](https://blogs.technet.microsoft.com/y0av/2017/10/25/95/)
-- [Blogbeitrag: Surface Hub in a Multi-Domain Environment (in englischer Sprache)](https://blogs.technet.microsoft.com/y0av/2017/11/08/11/)
-- [Blogbeitrag: Configuring a proxy for your Surface Hub (in englischer Sprache)](https://blogs.technet.microsoft.com/y0av/2017/12/03/7/)
-
- 
-
- 
-
-
-
-
 

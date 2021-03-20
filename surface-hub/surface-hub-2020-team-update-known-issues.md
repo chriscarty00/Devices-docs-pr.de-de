@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 02/09/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: ddfa9369c03296d9a7792ee0b28bf3b91163b9c7
-ms.sourcegitcommit: f0c976664116c45605edf3d56c4f58119a246b93
+ms.openlocfilehash: 903307112433d794052a4a4e9694f3e793d248c8
+ms.sourcegitcommit: 8b35cdee6c638359403697711ee53d07cca6ee51
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "11406598"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "11442113"
 ---
 # <a name="known-issues-windows-10-team-2020-update"></a>Bekannte Probleme: Windows 10 Team 2020 Update 
 
@@ -37,4 +37,3 @@ Um sicherzustellen, dass Surface Hub die neuesten Updates empfängt, melden Sie 
 | Einmaliges Anmelden schlägt bei Azure Active Directory-beigetretenen Geräten fehl, wenn sie ein Telefon verwenden, um sich bei Surface Hub zu anmelden | Wenn ein IT-Administrator den Mandanten [](surface-hub-2s-phone-authenticate.md) so konfiguriert hat, dass er die kennwortlose Authentifizierung für die Anmeldung bei Surface Hub verwendet und das Gerät mit AAD verbunden ist, können sich Benutzer nicht mit einem mobilen Gerät wie einem Telefon anmelden.                                                                                                       | Melden Sie sich manuell bei Surface Hub an.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Bei Verwendung des Edge-Legacybrowsers können Web Notes nicht per E-Mail freigegeben werden. | Nach dem Erstellen einer Webnotiz und dem Durchlauf des Freigabeflusses, um die Notiz per E-Mail zu senden, wird die Schaltfläche "Senden" nicht angezeigt. Daher kann die Notiz nicht per E-Mail freigegeben werden. | Surface Hubs, auf die das Update 2020 installiert ist, können auf den neuen Microsoft Edge-Browser aktualisiert werden, und die Freigabe von Notizen per E-Mail funktioniert mit diesem Browser.<br> <br>**Weitere Informationen**: [Installieren des neuen Microsoft Edge auf Surface Hub](surface-hub-install-chromium-edge.md) |
 | Das Aktionscenter verfügt über einen Link für nicht klickbare Einstellungen. | Dieser Link sollte nicht im Windows 10-Team angezeigt werden und kann zu Verwirrung führen.   | Die Funktionalität ist mit der vor dem Update 2020 identisch. Der Abschnitt Apps des Startmenüs sollte zum Starten der App "Einstellungen" verwendet werden.    |
-| Hub 2S-Geräte, die alle 0er für Seriennummer melden, nachdem sie auf das Update vom 24. November 2020 für Windows 10 Team 2020 für 2S aktualisiert wurden. | Nach der Installation des Surface Hub 2S-Updates vom 24. November für Windows 10 Team 2020 oder der Installation des Windows 10 Team 2020-Wiederherstellungsimages (BmR) melden einige Geräte alle Nullen für die Seriennummer. Dadurch wird verhindert, dass Sich Geräte bei MDM-Anbietern registrieren.  | Dieses Problem ist aufgetreten, wenn ein Gerät nicht über **das Surface SMC Firmware Update 1.177.139.0** (Teil des 1. Septembers, 2020-Update für Windows 10 Team Creators Update) vor dem Wechsel zu **SMC Firmware Update 3.91.139.0** (im ursprünglichen Windows 10 Team 2020 BMR enthalten oder Teil des Updates vom 24. November 2020 für Windows 10 Team 2020). Da **Surface SMC Firmware Update 3.93.139.0** nun im aktuellen Windows 10 Team 2020 BMR enthalten ist und Surface Hub 2S-Geräten über Windows Update angeboten wird, ist es nicht mehr möglich, dieses Problem zu lösen. Auf geräten, die bereits betroffen sind, wird eine neue Seriennummer generiert, sobald das Firmwareupdate installiert ist. Beachten Sie, dass das Gerät nach der Installation des Updates zweimal neu gestartet werden muss, um die Installation abzuschließen. **Weitere Informationen:** [Surface Hub-Updateverlauf](surface-hub-update-history.md). |

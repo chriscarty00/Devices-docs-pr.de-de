@@ -1,6 +1,6 @@
 ---
-title: Erstmaliges Einrichten von Surface Hub 2S
-description: Erfahren Sie, wie Sie das erstmalige Setup für Surface Hub 2S abschließen.
+title: Erstes Setup für Surface Hub 2S
+description: Erfahren Sie, wie Sie das Setup für Surface Hub 2S zum ersten Mal abschließen.
 keywords: Trennen Sie Werte durch Kommata
 ms.prod: surface-hub
 ms.sitesec: library
@@ -9,97 +9,104 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 07/03/2019
+ms.date: 03/03/2019
 ms.localizationpriority: Medium
-ms.openlocfilehash: 47a393944c1b524931a6ac56962cc2cd60786007
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 9cbce8bf0cc9c729af4cd052167fef016197274f
+ms.sourcegitcommit: 8b35cdee6c638359403697711ee53d07cca6ee51
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10833610"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "11442193"
 ---
-# Erstmaliges Einrichten von Surface Hub 2S
+# <a name="first-time-setup-for-surface-hub-2s"></a>Erstes Setup für Surface Hub 2S
 
-Wenn Sie Surface Hub 2S zum ersten Mal starten, wechselt das Gerät automatisch in den erstmaligen Setup Modus, um Sie durch die Kontokonfiguration und die zugehörigen Einstellungen zu führen.
+Wenn Sie Surface Hub 2S zum ersten Mal starten, wechselt das Gerät automatisch in den ersten Setupmodus, um Sie durch die Kontokonfiguration und die zugehörigen Einstellungen zu führen.
 
-## Konfigurieren des Surface Hub 2S-Kontos
+## <a name="configuring-surface-hub-2s-account"></a>Konfigurieren des Surface Hub 2S-Kontos
 
-1. **Konfigurieren Sie Ihr Gebietsschema.** Geben Sie Region, Sprache, Tastaturlayout und Zeitzoneninformationen ein. Wählen Sie **Weiter** aus.
+1. **Konfigurieren Sie Ihr Locale.** Geben Sie Informationen zu Region, Sprache, Tastaturlayout und Zeitzone ein. Wählen Sie **Weiter** aus.
 
-   ![* Konfigurieren Ihres Gebietsschemas *](images/sh2-run1.png) <br>
-1. **Herstellen einer Verbindung mit einem Drahtlosnetzwerk** Wählen Sie Ihr bevorzugtes Drahtlosnetzwerk aus, und wählen Sie **weiter aus.**
+   ![* Konfigurieren Des Locale *](images/sh2-run1.png)
 
-- Diese Option wird nicht angezeigt, wenn Sie über ein Ethernet-Kabel verbunden sind.
-- Sie können keine Verbindung zu einem Drahtlosnetzwerk in Hotspots (Captive Portals) herstellen, die Anmeldeanfragen an die Website eines Anbieters umleiten.
+1. **Stellen Sie eine Verbindung mit einem Drahtlosnetzwerk herzustellen.** Wählen Sie Ihr bevorzugtes Drahtlosnetzwerk aus, und wählen Sie **Weiter aus.**
 
-3. **Geben Sie Geräte Kontoinformationen ein.** Verwenden Sie **Domäne \** Benutzer für lokale und Hybrid Umgebungen sowie für **Benutzer \ @example. com** für Online-Umgebungen. Wählen Sie **weiter aus.**
+   - Diese Option wird nicht angezeigt, wenn sie über ein Ethernetkabel verbunden ist.
 
-   ![* Geben Sie Geräte Kontoinformationen ein *](images/sh2-run2.png) <br>
-1. **Geben Sie zusätzliche Informationen ein.** Geben Sie bei Bedarf Ihre Exchange Server-Adresse ein, und wählen Sie dann **weiter aus.**
+   - Sie können keine Verbindung mit einem Drahtlosnetzwerk in Hotspots (Unternehmensportale) herstellen, die Anmeldeanforderungen an die Website eines Anbieters umleiten.
 
-    ![* Geben Sie weitere Informationen ein; Beispiel: Exchange Servername *](images/sh2-run3.png) <br>
+3. **Geben Sie Gerätekontoinformationen ein.** Verwenden **Sie Domäne\Benutzer** für lokale und Hybridumgebungen und **benutzer\@example.com** für Onlineumgebungen. Wählen Sie **Weiter aus.**
 
-1. **Benennen Sie dieses Gerät.** Geben Sie einen Namen für Ihr Gerät ein, oder verwenden Sie den vorgeschlagenen Namen basierend auf dem Anzeige Namen und dem Benutzerprinzipalnamen des Kontos. **Wählen Sie weiter aus**.
+   ![* Geben Sie Gerätekontoinformationen * ein.](images/sh2-run2.png)
 
-- Der **Anzeigename** wird in der unteren linken Ecke von Surface Hub 2S angezeigt und beim projizieren auf das Gerät angezeigt.
+1. **Geben Sie weitere Informationen ein.** Geben Sie auf Wunsch Ihre Exchange-Serveradresse an, und wählen Sie dann **Weiter aus.**
 
-- Der **Gerätename** identifiziert das Gerät, wenn es mit Active Directory oder Azure Active Directory verbunden ist, und beim Registrieren des Geräts mit InTune.
+   ![* Geben Sie weitere Informationen ein; Beispiel: Exchange-Servername*](images/sh2-run3.png)
 
-  ![* Name dieses Geräts *](images/sh2-run4.png) <br>
+1. **Nennen Sie dieses Gerät.** Geben Sie einen Namen für Ihr Gerät ein, oder verwenden Sie den vorgeschlagenen Namen basierend auf dem Anzeigenamen ihres Kontos und dem Benutzernamen des Benutzerprinzips [UPN]. **Wählen Sie Weiter**aus.
+
+   - Der **Anzeigename** wird in der unteren linken Ecke von Surface Hub 2S angezeigt und beim Projiziert auf das Gerät angezeigt.
+
+   - Der **Gerätename** identifiziert das Gerät, wenn es mit Active Directory oder Azure Active Directory verbunden ist, und beim Registrieren des Geräts bei Intune.
+
+   ![* Nennen Sie dieses Gerät*](images/sh2-run4.png)
  
-## Konfigurieren von Geräteadministrator Konten
 
-Sie können geräteadministratoren nur während der erstmaligen Einrichtung einrichten. Weitere Informationen finden Sie unter [Surface Hub 2S Device Affiliation](https://docs.microsoft.com/surface-hub/surface-hub-2s-prepare-environment#device-affiliation).
+## <a name="configuring-device-admin-accounts"></a>Konfigurieren von Geräteadministratorkonten
 
- Wählen Sie im Fenster **Setup-Administratoren für dieses Gerät** eine der folgenden Optionen aus: Active Directory-Domänendienste, Azure Active Directory oder lokaler Administrator.
+Sie können Geräteadministratoren nur beim ersten Setup einrichten. Weitere Informationen finden Sie unter [Surface Hub 2S device affiliation](https://docs.microsoft.com/surface-hub/prepare-your-environment-for-surface-hub#device-affiliation).
 
-   ![* Setup-Administratoren für dieses Gerät *](images/sh2-run5.png) <br>
+Wählen Sie **im Fenster Setupadministratoren** für dieses Gerät eine der folgenden Optionen aus: Active Directory-Domänendienste, Azure Active Directory oder Lokaler Administrator.
 
-### Active Directory Domain Services
+![* Setupadministratoren für dieses Gerät *](images/sh2-run5.png)
 
-1. Geben Sie die Anmeldeinformationen eines Benutzers ein, der über die Berechtigung zum Beitritt des Geräts zu Active Directory verfügt.
+### <a name="active-directory-domain-services"></a>Active Directory Domain Services
 
-    ![* Setup-Administratoren mithilfe von Domain Join *](images/sh2-run6.png) <br>
+1. Geben Sie die Anmeldeinformationen eines Benutzers ein, der über Berechtigungen zum Beitreten des Geräts zu Active Directory verfügt.
 
-2. Wählen Sie die Active Directory-Sicherheitsgruppe aus, die Mitglieder enthält, die sich bei der Einstellungs-APP auf Surface Hub 2S anmelden dürfen.
+    ![* Setupadministratoren mit Domänen beitreten *](images/sh2-run6.png)
 
-    ![* Geben Sie eine Sicherheitsgruppe ein *](images/sh2-run7.png) <br>
+2. Wählen Sie die Active Directory-Sicherheitsgruppe aus, die Mitglieder enthält, die sich bei der App "Einstellungen" auf Surface Hub 2S anmelden dürfen.
+
+   ![* Geben Sie eine Sicherheitsgruppe ein *](images/sh2-run7.png)
+
 1. Wählen Sie **Fertig stellen**aus. Das Gerät wird neu gestartet.
 
-### Azure Active Directory
+### <a name="azure-active-directory"></a>Azure Active Directory
 
-Wenn Sie sich für die Partnereinrichtung Ihres Geräts mit Azure Active Directory entscheiden, wird das Gerät sofort neu gestartet und die folgende Seite angezeigt. Wählen Sie **Weiter** aus.
+Wenn Sie Ihr Gerät azure Active Directory 2013 nennen, wird das Gerät sofort neu gestartet und die folgende Seite angezeigt.
 
-![* Wenn Ihre Organisation Office 365 oder andere Unternehmensdienste von Microsoft verwendet, werden wir dieses Gerät für Ihre Organisation * registrieren. *](images/sh2-run8.png) <br>
+![* Wenn Ihre Organisation Office 365 oder andere Geschäftsdienste von Microsoft verwendet, registrieren wir dieses Gerät bei Ihrer Organisation*](images/sh2-run8.png)
 
-1. Geben Sie die e-Mail-Adresse oder den UPN eines Kontos **bei InTune Plan 1** oder höher ein, und wählen Sie dann **weiter aus.**
+1. Wählen Sie **Weiter** aus.
 
-    ![* Geben Sie ein Geschäfts-oder Schulkonto ein *](images/sh2-run9.png) <br>
+1. Geben Sie die E-Mail-Adresse oder den UPN eines Kontos mit **Intune Plan 1** oder höher ein, und wählen Sie dann **Weiter aus.**
 
-2. Wenn umgeleitet, authentifizieren Sie sich mithilfe der Anmeldeseite Ihrer Organisation, und geben Sie bei Bedarf zusätzliche Anmeldeinformationen an. Das Gerät wird neu gestartet.
+   ![* Eingeben eines Arbeits- oder Schulkontos*](images/sh2-run9.png)
 
-## Lokales Administrator Konto
+1. Wenn Sie umgeleitet werden, authentifizieren Sie sich über die Anmeldeseite Ihrer Organisation, und stellen Sie auf Anfrage zusätzliche Anmeldeinformationen zur Verfügung. Das Gerät wird neu gestartet.
+
+## <a name="local-administrator-account"></a>Lokales Administratorkonto
 
 - Geben Sie einen Benutzernamen und ein Kennwort für Ihren lokalen Administrator ein. Das Gerät wird neu gestartet.
 
-     ![* Einrichten eines Administratorkontos *](images/sh2-run10.png) <br>
+  ![* Einrichten eines Administratorkontos*](images/sh2-run10.png)
  
-## Verwenden von Bereitstellungspaketen
+## <a name="using-provisioning-packages"></a>Verwenden von Bereitstellungspaketen
 
-Wenn Sie ein USB-Daumen Laufwerk mit einem Bereitstellungspaket in einen der USB-Anschlüsse einfügen, wenn Sie Surface Hub 2S starten, zeigt das Gerät die folgende Seite an.
+Wenn Sie beim Starten von Surface Hub 2S ein USB-Stick mit einem Bereitstellungspaket in einen der USB-Ports einfügen, zeigt das Gerät die folgende Seite an.
 
-1. Geben Sie die gewünschten Einstellungen ein, und wählen Sie **Einrichten**aus.
+1. Geben Sie die angeforderten Einstellungen ein, und wählen **Sie Einrichten aus.**
 
-    ![* Geben Sie die regionalen Einstellungen für das Bereitstellungspaket ein *](images/sh2-run11.png) <br>
+   ![* Geben Sie regionale Einstellungen für das Bereitstellungspaket ein*](images/sh2-run11.png)
 
-    ![* Bereitstellung dieses Geräts auf Wechselmedien *](images/sh2-run12.png) <br>
+   ![* Bereitstellen dieses Geräts von Wechselmedien*](images/sh2-run12.png)
+
 2. Wählen Sie das Bereitstellungspaket aus, das Sie verwenden möchten.
 
-   ![* Wählen Sie das zu verwendende Bereitstellungspaket * aus.](images/sh2-run13.png) <br>
+   ![* Wählen Sie das zu verwendende Bereitstellungspaket aus*](images/sh2-run13.png)
 
 3. Wenn Sie eine CSV-Datei mit mehreren Geräten erstellt haben, können Sie eine Gerätekonfiguration auswählen. Weitere Informationen finden Sie unter [Erstellen von Bereitstellungspaketen für Surface Hub 2S](https://docs.microsoft.com/surface-hub/surface-hub-2s-deploy#provisioning-multiple-devices-csv-file).
 
+   ![* Wählen Sie ein Gerätekonto und einen Anzeigenamen aus Ihrer Konfigurationsdatei* aus.](images/sh2-run14.png)
 
-    ![* Wählen Sie ein Geräte Konto und einen Anzeigenamen aus Ihrer Konfigurationsdatei * aus.](images/sh2-run14.png) <br>
-
-4. Folgen Sie den Anweisungen, um die erstmalige Einrichtung abzuschließen.
+4. Befolgen Sie die Anweisungen, um das Setup zum ersten Mal abzuschließen.
