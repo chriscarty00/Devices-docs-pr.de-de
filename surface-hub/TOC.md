@@ -21,8 +21,8 @@
 #### [Anpassen der Wandhalterung für Surface Hub 2S](surface-hub-2s-custom-install.md)
 #### [Arbeitsblatt für die Einrichtung](setup-worksheet-surface-hub.md)
 #### [Surface Hub 2S-Anschlüsse und Tastaturübersicht](surface-hub-2s-port-keypad-overview.md)
-#### [Verbinden von Geräten mit Surface Surface Hub 2S](surface-hub-2s-connect.md)
-### [Vorbereiten der Umgebung für Microsoft Surface Hub 2S](surface-hub-2s-prepare-environment.md)
+#### [Verbinden von Geräten mit Surface Hub 2S](surface-hub-2s-connect.md)
+### [Vorbereiten der Umgebung für Microsoft Surface Hub](prepare-your-environment-for-surface-hub.md)
 
 
 ## Bereitstellen
