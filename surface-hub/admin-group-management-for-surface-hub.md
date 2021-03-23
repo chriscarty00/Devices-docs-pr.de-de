@@ -15,40 +15,40 @@ ms.localizationpriority: medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: c76ac577c1560020bf865a25d4a812343089013a
-ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
+ms.openlocfilehash: 217567ef310c4288a5073edd1313ce02a633568c
+ms.sourcegitcommit: 6c362c5d5f67449f1adf4618847093eaf6ad087b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "11314438"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "11442849"
 ---
-# Administratorgruppenverwaltung für Surface Hub
+# <a name="admin-group-management-for-surface-hub"></a>Verwaltung von Administratorgruppen für Surface Hub
 
 
 Jedes Surface Hub-Gerät kann mithilfe der Einstellungs-App auf dem Gerät lokal konfiguriert werden. Um die Änderung der Einstellungen durch nicht autorisierte Benutzer zu verhindern, sind zum Öffnen der Einstellungs-App Administratoranmeldeinformationen erforderlich.
 
 
-## Administratorgruppenverwaltung
+## <a name="admin-group-management"></a>Administratorgruppenverwaltung
 
 Sie können Administratorkonten für das Gerät auf folgende Weise einrichten:
 
 - [Erstellen eines lokalen Administratorkontos](#create-a-local-admin-account)
-- [Domänen join the device to Active Directory](#domain-join-the-device-to-active-directory)
-- [Azure AD join the device](#azure-ad-join-the-device)
-- [Konfigurieren von nicht globalen Administratorkonten auf Geräten, die Azure AD beigetreten sind (Surface Hub 2S)](#configure-non-global-admin-accounts-on-azure-ad-joined-devices)
+- [Domäne wird dem Gerät zu Active Directory beitreten](#domain-join-the-device-to-active-directory)
+- [Azure AD wird dem Gerät beitreten](#azure-ad-join-the-device)
+- [Konfigurieren nicht globaler Administratorkonten auf Azure AD-geräten (Surface Hub 2S)](#configure-non-global-admin-accounts-on-azure-ad-joined-devices)
 
 
-### Erstellen eines lokalen Administratorkontos
+### <a name="create-a-local-admin-account"></a>Erstellen eines lokalen Administratorkontos
 
 Verwenden Sie zum Erstellen eines lokalen Administrators [bei der ersten Ausführung einen lokalen Administrator](first-run-program-surface-hub.md#use-a-local-admin). Dadurch wird auf dem Surface Hub ein einzelnes lokales Administratorkonto mit einem Benutzernamen und Kennwort Ihrer Wahl erstellt. Verwenden Sie diese Anmeldeinformationen, um die Einstellungs-App zu öffnen.
 
 Beachten Sie, dass die Informationen des lokalen Administratorkontos nicht von einem Verzeichnisdienst unterstützt werden. Es wird empfohlen, dass Sie nur dann einen lokalen Administrator auswählen, wenn das Gerät nicht auf Active Directory (AD) oder Azure Active Directory (Azure AD) zugreifen kann. Wenn Sie das Kennwort des lokalen Administrators ändern möchten, können Sie dies in den Einstellungen tun. Wenn Sie jedoch von der Verwendung des lokalen Administratorkontos zur Verwendung einer Gruppe aus Ihrer Domäne oder Ihrem Azure AD-Mandanten wechseln möchten, müssen Sie [das Gerät zurückzusetzen](device-reset-surface-hub.md) und das Programm für die erste Ausführung erneut ausführen.
 
-### Domänen join the device to Active Directory
+### <a name="domain-join-the-device-to-active-directory"></a>Domäne wird dem Gerät zu Active Directory beitreten
 
 Sie können für den Surface Hub einen Beitritt zu Ihrer AD-Domäne ausführen, um Benutzern aus einer angegebenen Sicherheitsgruppe das Konfigurieren von Einstellungen zu ermöglichen. Wählen Sie bei der ersten Ausführung die Verwendung von [Active Directory Domain Services](first-run-program-surface-hub.md#use-active-directory-domain-services) aus. Sie müssen Anmeldeinformationen angeben, die einen Beitritt zur Domäne Ihrer Wahl ermöglichen, sowie den Namen einer vorhandenen Sicherheitsgruppe. Jedes Mitglied dieser Sicherheitsgruppe kann seine Anmeldeinformationen eingeben und die Einstellungen entsperren.
 
-#### Was geschieht, wenn Sie einen Domänenbeitritt für den Surface Hub ausführen?
+#### <a name="what-happens-when-you-domain-join-your-surface-hub"></a>Was geschieht, wenn Sie einen Domänenbeitritt für den Surface Hub ausführen?
 Surface Hubs verwenden Domänenbeitritte zu folgenden Zwecken:
 - Gewähren von Administratorrechten für Mitglieder einer angegebenen Sicherheitsgruppe in Active Directory
 - Sichern des BitLocker-Wiederherstellungsschlüssels des Geräts durch dessen Speicherung unter dem Computerobjekt in Active Directory Details hierzu finden Sie unter [Speichern des BitLocker-Schlüssels](save-bitlocker-key-surface-hub.md).
@@ -60,9 +60,9 @@ Surface Hub unterstützt das Anwenden von Gruppenrichtlinien oder Zertifikaten v
 > Wenn der Surface Hub die Vertrauensstellung mit der Domäne verliert (wenn Sie z.B. den Surface Hub nach dem Domänenbeitritt aus der Domäne entfernen), können Sie sich nicht beim Gerät authentifizieren und keine Einstellungen öffnen. Wenn Sie die Vertrauensstellung des Surface Hub mit Ihrer Domäne entfernen möchten, [müssen Sie zuerst das Gerät zurücksetzen](device-reset-surface-hub.md).
 
 
-### Azure AD join the device
+### <a name="azure-ad-join-the-device"></a>Azure AD wird dem Gerät beitreten
 
-Sie können Azure Active Directory (Azure AD) zum Surface Hub hinzufügen, um es IT-Profis aus Ihrem Azure AD-Mandanten zu ermöglichen, Einstellungen zu konfigurieren. Wählen Sie bei der ersten Ausführung die Verwendung von [Microsoft Azure Active Directory](first-run-program-surface-hub.md#use-microsoft-azure-active-directory) aus. Sie müssen Anmeldeinformationen angeben, die einen Beitritt zum Azure AD-Mandanten Ihrer Wahl ausführen können. Nach dem erfolgreichen Beitritt zu Azure AD werden den entsprechenden Benutzern Administratorrechte auf dem Gerät gewährt.
+Sie können Azure Active Directory (Azure AD) zum Surface Hub hinzufügen, damit IT-Profis aus Ihrem Azure AD-Mandanten Einstellungen konfigurieren können. Wählen Sie bei der ersten Ausführung die Verwendung von [Microsoft Azure Active Directory](first-run-program-surface-hub.md#use-microsoft-azure-active-directory) aus. Sie müssen Anmeldeinformationen angeben, die einen Beitritt zum Azure AD-Mandanten Ihrer Wahl ausführen können. Nach dem erfolgreichen Beitritt zu Azure AD werden den entsprechenden Benutzern Administratorrechte auf dem Gerät gewährt.
 
 Standardmäßig erhalten alle **globalen Administratoren** Administratorrechte auf einem Surface Hub, das Azure AD beigetreten ist. Mithilfe von **Azure AD Premium** oder **Enterprise Mobility Suite (EMS)** können Sie weitere Administratoren hinzufügen:
 1.  Klicken Sie im [klassischen Azure-Portal](https://manage.windowsazure.com/) auf **Active Directory** und anschließend auf den Namen des Verzeichnisses Ihrer Organisation.
@@ -70,18 +70,18 @@ Standardmäßig erhalten alle **globalen Administratoren** Administratorrechte a
 3.  Klicken Sie auf **Hinzufügen**, und wählen Sie die Benutzer aus, die Sie als Administratoren auf dem Surface Hub und anderen Geräten hinzufügen möchten, die Azure AD beigetreten sind.
 4.  Wenn Sie fertig sind, klicken Sie auf das Kontrollkästchen, um die Änderung zu speichern.
 
-#### Was geschieht, wenn Sie einen Beitritt zu Azure AD für den Surface Hub ausführen?
+#### <a name="what-happens-when-you-azure-ad-join-your-surface-hub"></a>Was geschieht, wenn Sie einen Beitritt zu Azure AD für den Surface Hub ausführen?
 Surface Hubs verwenden Beitritte zu Azure AD zu folgenden Zwecken:
 - Gewähren von Administratorrechten für die entsprechenden Benutzer in Ihrem Azure AD-Mandanten
 - Sichern des BitLocker-Wiederherstellungsschlüssels des Geräts durch dessen Speicherung unter dem Konto, das für den Beitritt des Geräts zu Azure AD verwendet wurde Details hierzu finden Sie unter [Speichern des BitLocker-Schlüssels](save-bitlocker-key-surface-hub.md).
 
-#### Automatische Registrierung über Azure Active Directory-Beitritt
+#### <a name="automatic-enrollment-via-azure-active-directory-join"></a>Automatische Registrierung über Azure Active Directory-Beitritt
 
-Surface Hub unterstützt jetzt die Möglichkeit, sich automatisch in Intune zu registrieren, indem das Gerät mit Azure Active Directory verbunden wird. 
+Surface Hub unterstützt jetzt die Möglichkeit, sich automatisch in Intune zu registrieren, indem das Gerät azure Active Directory hinzugefügt wird. 
 
-Weitere Informationen finden Sie unter Aktivieren [der automatischen Registrierung von Windows 10.](https://docs.microsoft.com/intune/windows-enroll#enable-windows-10-automatic-enrollment)
+Weitere Informationen finden Sie unter [Aktivieren der automatischen Registrierung von Windows 10](https://docs.microsoft.com/intune/windows-enroll#enable-windows-10-automatic-enrollment).
 
-#### Welche Option sollte ausgewählt werden?
+#### <a name="which-should-i-choose"></a>Welche Option sollte ausgewählt werden?
 
 Wenn Ihre Organisation AD oder Azure AD verwendet, empfehlen wir entweder einen Domänenbeitritt oder einen Beitritt zu Azure AD, vor allem aus Sicherheitsgründen. Benutzer können Einstellungen mit ihren eigenen Anmeldeinformationen authentifizieren und entsperren und in die oder aus den der Domäne zugeordneten Sicherheitsgruppen verschoben werden.
 
@@ -93,6 +93,6 @@ Wenn Ihre Organisation AD oder Azure AD verwendet, empfehlen wir entweder einen 
 | &nbsp;                                            | Ihre Organisation verwendet Azure AD Premium oder Enterprise Mobility Suite (EMS). | Globale Administratoren und zusätzliche Administratoren |
 
 
-### Konfigurieren von nicht globalen Administratorkonten auf Geräten, die Azure AD beigetreten sind
+### <a name="configure-non-global-admin-accounts-on-azure-ad-joined-devices"></a>Konfigurieren nicht globaler Administratorkonten auf Azure AD-beigetretenen Geräten
 
-Für Surface Hub 2S-Geräte, die mit Azure AD verbunden sind, können Sie mit Windows 10 Team 2020 Update die Administratorberechtigungen auf die Verwaltung der App "Einstellungen" auf Surface Hub 2S beschränken. Auf diese Weise können Sie administratorberechtigungen nur für Surface Hub 2S festlegen und potenziell unerwünschten Administratorzugriff auf eine gesamte Azure AD-Domäne verhindern. Weitere Informationen finden Sie unter ["Konfigurieren von nicht globalen Administratorkonten auf Surface Hub 2S".](surface-hub-2s-nonglobal-admin.md)
+Für Surface Hub v1- und Surface Hub 2S-Geräte, die Azure AD beigetreten sind, können Sie mit Windows 10 Team 2020 Update die Administratorberechtigungen auf die Verwaltung der Einstellungs-App auf Surface Hub beschränken. Auf diese Weise können Sie administratorberechtigungen nur für Surface Hub festlegen und potenziell unerwünschten Administratorzugriff auf eine gesamte Azure AD-Domäne verhindern. Weitere Informationen finden Sie unter [Configure non Global admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).

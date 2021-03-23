@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 03/02/2020
+ms.date: 03/22/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 1fab09ef21dbddbb2b4f292acd716c6e6cbaff7e
-ms.sourcegitcommit: 5c904229a0257297be7f724c264e484d2c4b5168
-ms.translationtype: HT
+ms.openlocfilehash: 6224f9aa3abed85d5aff7e7e58fccbb6df41d283
+ms.sourcegitcommit: 6c362c5d5f67449f1adf4618847093eaf6ad087b
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "11387484"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "11442909"
 ---
 # <a name="install-and-mount-surface-hub-2s-85"></a>Installieren und Montieren von Surface Hub 2S 85"
 
@@ -27,8 +27,6 @@ Dieser Artikel enthält unterstützende Anleitungen für die eigentliche Install
 - Bevor Sie beginnen, sehen Sie sich das Video zum Auspacken und Einrichten des Microsoft Surface Hub 2S 85" an:
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWwwgL]
-
-- Eine chinesische Version dieses Videos ist in [Anhang B](#appendix-b-unboxing-video) unten verfügbar. 
 
 ## <a name="follow-all-safety-precautions"></a>Befolgen Sie alle Sicherheitsvorkehrungen 
 
@@ -205,15 +203,6 @@ Ein gesprungener oder abgesplitterter Touchscreen, der durch unsachgemäßen Geb
 > [!WARNING]
 >  **Richtige Installation**<br>
 Um Gefahren durch eine unsachgemäße Geräteinstallation zu vermeiden, muss die Installation von Personen durchgeführt werden, die vor Beginn der Arbeiten die Installationsanleitung gelesen und verstanden haben. Wenn Sie nicht über die erforderliche Ausrüstung oder Fachkenntnisse verfügen, oder wenn Sie sich nicht sicher sind, ob die Montagefläche ausreichend Halt bietet, wenden Sie sich an einen professionellen Installateur.
-
-
-## <a name="appendix-b-unboxing-video"></a>Anhang B: Video zum Auspacken
-
-
-### <a name="microsoft-surface-hub-2s-85-unboxing-and-set-up-video-chinese"></a>Video zum Auspacken und Einrichten des Microsoft Surface Hub 2S 85" (Chinesisch)
-
-> [!VIDEO https://www.microsoft.com/zh-cn/videoplayer/embed/RE4MRqV]
-
 
 ## <a name="more-information"></a>Weitere Informationen
 

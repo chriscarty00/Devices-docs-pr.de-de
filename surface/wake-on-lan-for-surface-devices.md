@@ -14,12 +14,12 @@ ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
 ms.date: 3/19/2021
-ms.openlocfilehash: 1fbbf899876d154469d48fa75a179196697205c1
-ms.sourcegitcommit: 8b35cdee6c638359403697711ee53d07cca6ee51
+ms.openlocfilehash: 9c3302616de97cf60b7d750948fed653456a7cba
+ms.sourcegitcommit: 6c362c5d5f67449f1adf4618847093eaf6ad087b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "11442161"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "11442889"
 ---
 # <a name="wake-on-lan-for-surface-devices"></a>Wake-On-LAN für Surface-Geräte
 
@@ -44,7 +44,7 @@ IT-Administratoren können Geräte mithilfe einer Wake-on-LAN-Anforderung (Magis
 Viele Verwaltungslösungen, z. B. Microsoft Endpoint Configuration Manager und Microsoft Store-Apps von Drittanbietern, bieten integrierte Unterstützung für WOL. Beachten Sie, dass sich Geräte im Modus "Verbundener Standbymodus" (Standbymodus) befinden und mit Netzstrom verbunden sein müssen. Weitere Informationen zum Aufwachen von Geräten mit Endpoint Configuration Manager finden Sie unter [Configure Wake on LAN - Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/clients/deploy/configure-wake-on-lan).
 
 
-## <a name="to-check-wol-is-enabled-on-your-device"></a>So überprüfen Sie, ob WOL auf Ihrem Gerät aktiviert ist
+### <a name="to-check-wol-is-enabled-on-your-device"></a>So überprüfen Sie, ob WOL auf Ihrem Gerät aktiviert ist
 
 1. Wählen Sie auf Ihrem ethernetgebundenen Gerät den Netzwerkadapter aus, und wählen Sie dann **Eigenschaften aus.**
 
