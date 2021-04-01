@@ -26,7 +26,7 @@ ms.locfileid: "11442909"
 
 - <span data-ttu-id="e15b8-107">Bevor Sie beginnen, sehen Sie sich das Video zum Auspacken und Einrichten des Microsoft Surface Hub 2S 85" an:</span><span class="sxs-lookup"><span data-stu-id="e15b8-107">Before you begin, please review Microsoft Surface Hub 2S 85" Unboxing and Set Up video:</span></span>
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWwwgL]
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWwweU]
 
 ## <a name="follow-all-safety-precautions"></a><span data-ttu-id="e15b8-108">Befolgen Sie alle Sicherheitsvorkehrungen</span><span class="sxs-lookup"><span data-stu-id="e15b8-108">Follow all safety precautions</span></span> 
 
