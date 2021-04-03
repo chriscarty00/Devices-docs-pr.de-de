@@ -15,17 +15,17 @@ ms.localizationpriority: medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: e8181ec499364c48586f5218983f667331788fc3
-ms.sourcegitcommit: f9e7c091a26df0f99500c0d8b6cf40a81133e4e2
+ms.openlocfilehash: 7ead08e49d3eee2d616ac9fcf06b85dd82e136dc
+ms.sourcegitcommit: 4ec96ff1cd563d055fa0689a63f136acf2794a2e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "11470443"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "11474732"
 ---
 # <a name="applying-activesync-policies-to-device-accounts-surface-hub"></a>Anwenden von ActiveSync-Richtlinien auf Gerätekonten (Surface Hub)
 
 
-Surface Hubs, die das Windows 10 Team 1703-Betriebssystem verwenden, verwenden ActiveSync, um E-Mails und Kalender des Gerätekontos zu synchronisieren. Dadurch können Benutzer an geplante Besprechungen teilnehmen und diese von Surface Hub aus starten sowie während der Besprechung erstellte Whiteboards per E-Mail senden.
+Surface Hubs mit Active Directory-Gerätekonten (bereitgestellt auf dem Hub im Format **Domäne\Benutzername)** und lokale Exchange-Dienste nutzen ActiveSync zum Synchronisieren von E-Mails und Kalendern. Dadurch können Benutzer an geplante Besprechungen teilnehmen und diese von Surface Hub aus starten sowie während der Besprechung erstellte Whiteboards per E-Mail senden.
 
 Damit diese Features funktionieren, müssen die ActiveSync-Richtlinien für Ihre Organisation folgendermaßen konfiguriert werden:
 
