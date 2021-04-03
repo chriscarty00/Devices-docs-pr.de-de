@@ -15,28 +15,28 @@ ms.localizationpriority: medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: 4db5066c62f4e0e324a5cc3ddad027e00a2e18c9
-ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
+ms.openlocfilehash: e8181ec499364c48586f5218983f667331788fc3
+ms.sourcegitcommit: f9e7c091a26df0f99500c0d8b6cf40a81133e4e2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "11314408"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "11470443"
 ---
-# Anwenden von ActiveSync-Richtlinien auf Gerätekonten (Surface Hub)
+# <a name="applying-activesync-policies-to-device-accounts-surface-hub"></a>Anwenden von ActiveSync-Richtlinien auf Gerätekonten (Surface Hub)
 
 
-Das Gerätekonto in allen Versionen von Microsoft Surface Hub verwendet ActiveSync zum Synchronisieren von E-Mails und Kalendern. Dadurch können Benutzer an geplante Besprechungen teilnehmen und diese von Surface Hub aus starten sowie während der Besprechung erstellte Whiteboards per E-Mail senden.
+Surface Hubs, die das Windows 10 Team 1703-Betriebssystem verwenden, verwenden ActiveSync, um E-Mails und Kalender des Gerätekontos zu synchronisieren. Dadurch können Benutzer an geplante Besprechungen teilnehmen und diese von Surface Hub aus starten sowie während der Besprechung erstellte Whiteboards per E-Mail senden.
 
 Damit diese Features funktionieren, müssen die ActiveSync-Richtlinien für Ihre Organisation folgendermaßen konfiguriert werden:
 
 -   Es darf keine globalen Richtlinien geben, die die Synchronisierung des Ressourcenpostfachs blockieren, das vom Surface Hub-Gerätekonto verwendet wird. Wenn eine solche Sperrrichtlinie vorlag, müssen Sie den Surface Hub als zulässiges Gerät hinzufügen.
 -   Sie müssen eine Postfachrichtlinie für mobile Geräte festlegen, in der die **PasswordEnabled** -Eigenschaft auf „False“ festgelegt ist. Andere Einstellungen von Postfachrichtlinien für mobile Geräte sind nicht mit Surface Hub kompatibel.
 
-## Zulassen der DeviceID
+## <a name="allowing-the-deviceid"></a>Zulassen der DeviceID
 
 Ihre Organisation verfügt möglicherweise über eine globale Richtlinie, die die Synchronisierung von auf Surface Hubs bereitgestellten Gerätekonten verhindert. Informationen zum Konfigurieren dieser Eigenschaft finden Sie unter [Zulassen von Geräte-IDs für ActiveSync](appendix-a-powershell-scripts-for-surface-hub.md#allowing-device-ids-for-activesync).
 
-## Festlegen von PasswordEnabled
+## <a name="setting-passwordenabled"></a>Festlegen von PasswordEnabled
 
 Das Gerätekonto muss über eine ActiveSync-Richtlinie verfügen, in der das **PasswordEnabled** -Attribut auf „False“ oder 0 festgelegt ist. Informationen zum Konfigurieren dieser Eigenschaft finden Sie unter [Erstellen einer Surface Hub-kompatiblen Microsoft Exchange ActiveSync-Richtlinie](appendix-a-powershell-scripts-for-surface-hub.md#create-compatible-as-policy).
 

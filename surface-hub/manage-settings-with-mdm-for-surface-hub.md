@@ -10,269 +10,177 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 03/03/2021
+ms.date: 03/25/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: d09a95d25b4f4ae86d64acd7d7f16f004f991ce3
-ms.sourcegitcommit: 5c904229a0257297be7f724c264e484d2c4b5168
+ms.openlocfilehash: 1afa4d63dde793e61e30d1c4dd54f552b5581a81
+ms.sourcegitcommit: f9e7c091a26df0f99500c0d8b6cf40a81133e4e2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "11387496"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "11470457"
 ---
-# <a name="manage-settings-with-an-mdm-provider-surface-hub"></a>Verwalten von Einstellungen mit einem MDM-Anbieter (Surface Hub)
+# <a name="manage-surface-hub-with-an-mdm-provider"></a>Verwalten von Surface Hub mit einem MDM-Anbieter
 
-Surface Hub und andere Windows10-Geräte ermöglichen IT-Administratoren das Verwalten von Einstellungen und Richtlinien mithilfe eines Anbieters für die mobile Geräteverwaltung (Mobile Device Management, MDM). Eine integrierte Verwaltungskomponente kommuniziert mit dem Verwaltungsserver, sodass keine zusätzlichen Clients auf dem Gerät installiert werden müssen. Weitere Informationen finden Sie unter [Mobile Geräteverwaltung für Windows 10](https://msdn.microsoft.com/library/windows/hardware/dn914769.aspx) .
+Surface Hub ermöglicht es IT-Administratoren, Einstellungen und Richtlinien mithilfe eines Anbieters für mobile Geräteverwaltung (Mobile Device Management, MDM) wie Microsoft Intune zu verwalten. Surface Hub verfügt über eine integrierte Verwaltungskomponente für die Kommunikation mit dem Verwaltungsserver. Es ist nicht nötig, zusätzliche Clients auf dem Gerät zu installieren.
 
-Surface Hub wurde mit den Erstanbietern von Microsoft für MDM überprüft:
-- Eigenständiges Microsoft Intune
-- Lokales MDM mit Microsoft Endpoint Configuration Manager
+## <a name="enrolling-surface-hub-into-mdm-management"></a>Registrieren von Surface Hub bei der MDM-Verwaltung 
 
-Sie können Surface Hub-Geräte auch mithilfe von MDM-Lösungen von Drittanbietern verwalten, die mithilfe des MDM-Protokolls mit Windows10 kommunizieren können.
-
-## <a name="enroll-a-surface-hub-into-mdm"></a><a href="" id="enroll-into-mdm"></a>Registrieren eines Surface Hub bei MDM
-Sie können Ihre Surface Hubs mithilfe einer Massen-, manuellen oder automatischen Registrierung registrieren.
-
-### <a name="bulk-enrollment"></a>Massenregistrierung
-**So konfigurieren Sie die Massenregistrierung**
-- Surface Hub unterstützt den [Konfigurationsdienstanbieter (CSP) für Bereitstellungen](https://msdn.microsoft.com/library/windows/hardware/mt203665.aspx) für MDM- Massenregistrierungen. Weitere Informationen finden Sie unter [Windows10-Massenregistrierung](https://msdn.microsoft.com/library/windows/hardware/mt613115.aspx).<br>
-– ODER –
-- Wenn Sie über eine lokale Microsoft Endpoint Configuration Manager-Infrastruktur verfügen, finden Sie weitere Informationen unter So registrieren Sie Geräte in Massen bei der lokalen Verwaltung mobiler Geräte [in Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/configmgr/mdm/deploy-use/bulk-enroll-devices-on-premises-mdm).
+Sie können Surface über die manuelle oder automatische Registrierung bei Microsoft Intune oder einem anderen MDM-Anbieter registrieren.
 
 ### <a name="manual-enrollment"></a>Manuelle Registrierung
-**So konfigurieren Sie die manuelle Registrierung**
-1. Öffnen Sie **Einstellungen** auf dem Surface Hub.
-2. Geben Sie bei Aufforderung die Geräteadministrator-Anmeldeinformationen ein.
-3. Wählen Sie **Dieses Gerät** aus, und navigieren Sie zu **Geräteverwaltung**.
-4. Wählen Sie unter **Geräteverwaltung** **+ Geräteverwaltung** aus.
-5. Folgen Sie den Anweisungen im Dialogfeld, um eine Verbindung mit Ihrem MDM-Anbieter herzustellen.
 
-### <a name="automatic-enrollment-via-azure-active-directory-join"></a>Automatische Registrierung über Azure Active Directory-Beitritt
+1. Öffnen **** Sie die Einstellungs-App, und melden Sie sich als lokaler Administrator an. Wählen **Sie Surface Hub**  >  **Geräteverwaltung** aus, und wählen Sie dann **+Geräteverwaltung aus.**
+2. Sie werden aufgefordert, sich mit dem Für Ihren MDM-Anbieter zu verwendenden Konto zu registrieren. Nach der Authentifizierung registriert sich das Gerät automatisch bei Ihrem MDM-Anbieter.
 
-Surface Hub unterstützt jetzt die Möglichkeit, sich automatisch in Intune zu registrieren, indem das Gerät azure Active Directory hinzugefügt wird. 
+> [!TIP]
+> Wenn Sie Intune verwenden und die Serveradresse nicht erkannt wird, geben Sie **manage.microsoft.com**.
+   
+> [!NOTE]
+>  Die MDM-Registrierung verwendet die kontodetails, die für die Authentifizierung bereitgestellt werden. Das Konto muss über Berechtigungen zum Registrieren eines Windows-Geräts sowie einer Intune-Lizenz (oder der entsprechenden Registrierungspromissionen verfügen, die in Ihrem Drittanbieter-MDM-Anbieter konfiguriert sind).
 
-Der erste Schritt besteht im Einrichten der automatischen MDM-Registrierung. Weitere [Informationen finden Sie unter Aktivieren der automatischen Registrierung von Windows 10.](https://docs.microsoft.com/intune/windows-enroll#enable-windows-10-automatic-enrollment)
+### <a name="auto-enrollment--azure-ad-affiliated"></a>Automatische Registrierung – Azure AD verbunden
 
-Wählen Sie dann beim Einrichten von Geräten während der ersten Ausführung die Option zum Beitreten zu Azure Active Directory aus. Weitere Informationen finden Sie unter Einrichten von Administratoren [für dieses Gerät.](https://docs.microsoft.com/surface-hub/first-run-program-surface-hub#set-up-admins-for-this-device-page)
+Während des anfänglichen Setupprozesses wird das Gerät automatisch bei Intune registriert, wenn Surface Hub mit einem Azure Active Directory (AD)-Mandanten verbunden ist, für den die automatische Registrierung von Intune aktiviert ist. Weitere Informationen finden Sie unter [Intune-Registrierungsmethoden für Windows-Geräte](https://docs.microsoft.com/intune/enrollment/windows-enrollment-methods). Die Azure AD-Zugehörigkeit und die automatische Intune-Registrierung sind erforderlich, damit der Surface Hub ein „konformes Gerät“ im Intune ist. 
 
-## <a name="manage-surface-hub-settings-with-mdm"></a>Verwalten von Surface Hub-Einstellungen mit MDM
+## <a name="manage-surface-hub-windows-10-team-settings-with-intune"></a>Verwalten von Windows 10-Teameinstellungen für Surface Hub mit Intune
 
-Für die Verwaltung einiger [Surface Hub-CSP-Einstellungen](#supported-surface-hub-csp-settings) und [Windows10-Einstellungen](#supported-windows-10-settings) können Sie MDM verwenden. Abhängig vom verwendeten MDM-Anbieter können Sie diese Einstellungen möglicherweise über eine integrierte Benutzeroberfläche oder durch die Bereitstellung von benutzerdefiniertem SyncML festlegen. Microsoft Intune und Microsoft Endpoint Configuration Manager bieten integrierte Erfahrungen zum Erstellen von Richtlinienvorlagen für Surface Hub. Lesen Sie die Dokumentation Ihres MDM-Anbieters, um mehr über das Erstellen und Bereitstellen von SyncML zu erfahren.
-
-### <a name="supported-surface-hub-csp-settings"></a>Unterstützte Surface Hub-CSP-Einstellungen
-
-Sie können die Surface Hub-Einstellungen in der folgenden Tabelle mit MDM konfigurieren. Die Tabelle gibt an, ob die Einstellung mit Microsoft Intune, Microsoft Endpoint Configuration Manager oder SyncML unterstützt wird.
-
-Weitere Informationen finden Sie unter [SurfaceHub-Konfigurationsdienstanbieter](https://msdn.microsoft.com/library/windows/hardware/mt608323). 
+Der basisbasierte Baustein der Richtlinieneinstellungenverwaltung in Intune und anderen MDM-Anbietern ist das XML-basierte Open Mobile Alliance-Device Management (OMA-DM)-Protokoll. Windows 10 implementiert OMA-DM XML über einen von vielen verfügbaren Konfigurationsdienstanbietern (Configuration Service Providers, CSPs) mit Namen wie AccountManagement CSP, DeviceStatus CSP, Wirednetwork-CSP und so weiter. Eine vollständige Liste finden Sie unter [CSPs, die in Microsoft Surface Hub unterstützt werden.](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)
 
 
-|                                     Einstellung                                      |                                                    Knoten im SurfaceHub-CSP                                                    |            Unterstützt durch<br>Intune?             |    Unterstützt durch<br>Konfigurations-Manager?     | Unterstützt durch<br>SyncML\*? |
-|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-----------------------------|
-|                                Wartungsstunden                                 |                        MaintenanceHoursSimple/Hours/StartTime <br> MaintenanceHoursSimple/Hours/Duration                         |                       Ja                        |                       Ja                       |             Ja             |
-|              Automatisches Aktivieren des Bildschirms mittels Bewegungssensoren               |                                                 InBoxApps/Welcome/AutoWakeScreen                                                 |                       Ja                        |                       Ja                       |             Ja             |
-|                      Anfordern einer PIN für die drahtlose Projektion                       |                                             InBoxApps/WirelessProjection/PINRequired                                             |                       Ja                        |                       Ja                       |             Ja             |
-|                            Aktivieren der drahtlosen Projektion                            |                                               InBoxApps/WirelessProjection/Enabled                                               |                       Ja                        | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|                 Miracast-Kanal für die drahtlose Projektion                  |                                               InBoxApps/WirelessProjection/Channel                                               |                       Ja                        | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|              Verknüpfung mit dem Operations Management Suite-Arbeitsbereich               |                                         MOMAgent/WorkspaceID <br> MOMAgent/WorkspaceKey                                          |                       Ja                        | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|                         Hintergrundbild der Willkommensseite                          |                                             InBoxApps/Welcome/CurrentBackgroundPath                                              |                       Ja                        | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|               Anzeige von Besprechungsinformationen auf der Willkommensseite                |                                               InBoxApps/Welcome/MeetingInfoOption                                                |                       Ja                        | Ja.<br> [Verwenden einer benutzerdefinierten Einstellung.] (#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager |             Ja             |
-|                      Anzeigename für die drahtlose Projektion                       |                                                     Properties/FriendlyName                                                      | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|                   Gerätekonto                                                 | DeviceAccount/*`<name_of_policy>`* <br> Weitere Informationen finden Sie unter [SurfaceHub-CSP](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx). |                        Nein                        |                       Nein                        |             Ja             |
-|                               Skype-Domäne angeben                               |                                              InBoxApps/SkypeForBusiness/DomainName                                               |                    Ja </br>                     | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|               App "Verbinden" bei Initiieren der Projektion automatisch starten               |                                                   InBoxApps/Connect/AutoLaunch                                                   |                    Ja </br>                     | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|                                Standardlautstärke festlegen                                |                                                     Properties/DefaultVolume                                                     |                    Ja </br>                     | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|                                Bildschirmtimeout festlegen                                |                                                     Properties/ScreenTimeout                                                     |                    Ja </br>                     | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|                               Sitzungstimeout festlegen                                |                                                    Properties/SessionTimeout                                                     |                    Ja </br>                     | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|                                Timeout für Standby festlegen                                 |                                                     Properties/SleepTimeout                                                      |                    Ja </br>                     | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|                   Fortsetzen der Sitzung zulassen, nachdem sich der Bildschirm im Leerlauf befand                   |                                                  Properties/AllowSessionResume                                                   |                    Ja </br>                     | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|             Zulassen, dass das Gerätekonto für die Proxyauthentifizierung verwendet wird             |                                                  Properties/AllowAutoProxyAuth                                                   |                    Ja </br>                     | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-| Automatisches Auffüllen des Anmeldedialogfelds mit eingeladenen Teilnehmern aus geplanten Besprechungen deaktivieren |                                               Properties/DisableSignInSuggestions                                                |                    Ja </br>                     | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|              Funktion "My meetings and files" im Startmenü deaktivieren               |                                              Properties/DoNotShowMyMeetingsAndFiles                                              |                    Ja </br>                     | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|                     Festlegen von LanProfile für die verkabelte 802.1x-Authentifizierung                     |                                                         Dot3/LanProfile                                                          | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|                    Festlegen von EapUserData für die verkabelte 802.1x-Authentifizierung                     |                                                         Dot3/EapUserData                                                         | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
+Microsoft Intune und andere MDM-Anbieter verwenden CSPs, um eine Benutzeroberfläche bereitzustellen, mit der Sie Richtlinieneinstellungen in Konfigurationsprofilen konfigurieren können. Intune verwendet den Surface Hub CSP für sein integriertes Profil – Geräteeinschränkungen  **(Windows 10 Team)** – mit dem Sie grundlegende Einstellungen konfigurieren können, z. B. verhindern, dass Surface Hub "aufwacht", wenn sich jemand innerhalb seines Näherungsbereichs in der Nähe bewegt. Zum Verwalten von Hubeinstellungen und -features außerhalb des integrierten Profils von Intune müssen Sie ein benutzerdefiniertes Profil verwenden, wie [unten gezeigt.](#create-custom-configuration-profile) 
 
-\*Mit SyncML unterstützte Einstellungen können auch in einem Bereitstellungspaket des Windows-Konfigurations-Designers konfiguriert werden.
-
-### <a name="supported-windows-10-settings"></a>Unterstützte Windows10-Einstellungen
-
-Zusätzlich zu den Surface Hub-spezifischen Einstellungen sind zahlreiche Einstellungen verfügbar, die allen Windows10-Geräten gemeinsam sind. Diese Einstellungen werden in der [Referenz zum Konfigurationsdienstanbieter](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference) definiert. 
-
-Die folgenden Tabelle enthalten Informationen zu Windows10-Einstellungen, die für Surface Hub überprüft wurden. Es gibt jeweils eine Tabelle mit den Einstellungen für folgende Bereiche: Sicherheit, Browser, Windows-Updates, Windows Defender, Remoteneustart, Zertifikate und Protokolle. Jede Tabelle gibt an, ob die Einstellung mit Microsoft Intune, Microsoft Endpoint Configuration Manager oder SyncML unterstützt wird.
-
-#### <a name="security-settings"></a>Sicherheitseinstellungen
-
-|      Einstellung       |                                            Details                                             |                                                                          CSP-Referenz                                                                           |            Unterstützt durch<br>Intune?             |    Unterstützt durch<br>Konfigurations-Manager?     | Unterstützt durch<br>SyncML\*? |
-|--------------------|------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-----------------------------|
-|  Bluetooth zulassen   |                      Lassen Sie diese Einstellung aktiviert, um Bluetooth-Peripheriegeräte zu unterstützen.                       |                   [Connectivity/AllowBluetooth](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Connectivity_AllowBluetooth)                   |                    Ja. <br>                     | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-| Bluetooth-Richtlinien | Verwenden Sie diese Einstellung, um den Namen des Bluetooth-Geräts festzulegen und Werbung, Erkennung und automatische Kopplung zu blockieren. |                     Bluetooth/*`<name of policy>`* <br> Weitere Informationen finden Sie unter [Richtlinien-CSP](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx)                      |                    Ja. <br>                     | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|    Kamera zulassen    |                           Lassen Sie diese Einstellung aktiviert, um Skype for Business verwenden zu können.                            |                            [Camera/AllowCamera](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Camera_AllowCamera)                            |                    Ja. <br>                     | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|   Standort zulassen   |                        Lassen Sie diese Einstellung aktiviert, um Apps wie Karten zu unterstützen.                         |                          [System/AllowLocation](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#System_AllowLocation)                          |                   Ja. <br> .                    | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|  Telemetrie zulassen   |                    Lassen Sie diese Einstellung aktiviert, um Microsoft bei der Verbesserung von Surface Hub zu unterstützen.                    |                         [System/AllowTelemetry](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#System_AllowTelemetry)                         |                    Ja. <br>                     | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|  USB-Laufwerke zulassen  |                     Lassen Sie diese Einstellung aktiviert, um USB-Laufwerke auf Surface Hub zu unterstützen.                     | [System/AllowStorageCard](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/policy-configuration-service-provider#system-allowstoragecard) | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-
-\*Mit SyncML unterstützte Einstellungen können auch in einem Bereitstellungspaket des Windows-Konfigurations-Designers konfiguriert werden. 
-
-#### <a name="browser-settings"></a>Browsereinstellungen
-
-|                          Einstellung                          |                                                                        Details                                                                        |                                                                             CSP-Referenz                                                                              |            Unterstützt durch<br>Intune?             |    Unterstützt durch<br>Konfigurations-Manager?     | Unterstützt durch<br>SyncML\*? |
-|-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-----------------------------|
-|                         Startseiten                         |                                               Verwenden Sie diese Einstellung, um die Standardstartseiten in Microsoft Edge zu konfigurieren.                                               |                                [Browser/Homepages](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Browser_Homepages)                                | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|                       Cookies zulassen                       |                    Surface Hub löscht Cookies am Ende einer Sitzung automatisch. Verwenden Sie diese Einstellung, um innerhalb einer Sitzung Cookies zu blockieren.                     |                             [Browser/AllowCookies](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Browser_AllowCookies)                             | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|                   Entwicklertools zulassen                   |                                                   Verwenden Sie diese Einstellung, um zu verhindern, dass Benutzer F12-Entwicklungstools verwenden.                                                   |                      [Browser/AllowDeveloperTools](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Browser_AllowDeveloperTools)                      | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|                    Nicht verfolgen (Do not track) zulassen                     |                                                          Verwenden Sie diese Einstellung, um Do Not Track-Header zu verwenden.                                                          |                          [Browser/AllowDoNotTrack](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Browser_AllowDoNotTrack)                          | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|                       Popups zulassen                       |                                                         Verwenden Sie diese Einstellung, um Popupfenster im Browser zu blockieren.                                                          |                              [Browser/AllowPopups](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Browser_AllowPopups)                              | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|                 Suchvorschläge zulassen                  |                                                  Verwenden Sie diese Einstellung, um Suchvorschläge in der Adressleiste zu blockieren.                                                  |       [Browser/AllowSearchSuggestionsinAddressBar](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Browser_AllowSearchSuggestionsinAddressBar)       | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|                     Zulassen Windows Defender SmartScreen                     |                                                       Lassen Sie dies aktiviert, um Windows Defender SmartScreen zu aktivieren.                                                       |                         [Browser/AllowSmartScreen](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Browser_AllowSmartScreen)                         | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-| Ignorieren von Windows Defender von SmartScreen-Warnungen für Websites verhindern |     Verwenden Sie aus Sicherheitsgründen, um zu verhindern, dass Benutzer Windows Defender SmartScreen-Warnungen ignorieren und den Zugriff auf potenziell schädliche Websites blockieren.     |         [Browser/PreventSmartScreenPromptOverride](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Browser_PreventSmartScreenPromptOverride)         | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|  Ignorieren von Windows Defender SmartScreen-Warnungen für Dateien verhindern   | Um zusätzliche Sicherheit zu gewährleisten, können Sie verhindern, dass Benutzer Windows Defender #A0 ignorieren und verhindern, dass nicht überprüfte Dateien von Microsoft Edge heruntergeladen werden. | [Browser/PreventSmartScreenPromptOverrideForFiles](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Browser_PreventSmartScreenPromptOverrideForFiles) | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-
-\*Mit SyncML unterstützte Einstellungen können auch in einem Bereitstellungspaket des Windows-Konfigurations-Designers konfiguriert werden.
-
-#### <a name="windows-update-settings"></a>Windows Update-Einstellungen
-
-|                      Einstellung                      |                                                                                                           Details                                                                                                            |                                                                    CSP-Referenz                                                                    |            Unterstützt durch<br>Intune?             |    Unterstützt durch<br>Konfigurations-Manager?     | Unterstützt durch<br>SyncML\*? |
-|---------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-----------------------------|
-| Current Branch oder Current Branch for Business verwenden |                                                       Verwenden Sie diese Einstellung, um Windows Update for Business zu konfigurieren. Weitere Informationen finden Sie unter [Windows-Updates](manage-windows-updates-for-surface-hub.md).                                                       |            [Update/BranchReadinessLevel](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Update_BranchReadinessLevel)             | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|               Zurückstellen von Featureupdates               |                                                                                                          Siehe oben.                                                                                                          | [Update/ DeferFeatureUpdatesPeriodInDays](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Update_DeferFeatureUpdatesPeriodInDays) | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|               Zurückstellen von Qualitätsupdates               |                                                                                                          Siehe oben.                                                                                                          | [Update/DeferQualityUpdatesPeriodInDays](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Update_DeferQualityUpdatesPeriodInDays)  | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|               Unterbrechen von Featureupdates               |                                                                                                          Siehe oben.                                                                                                          |             [Update/PauseFeatureUpdates](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Update_PauseFeatureUpdates)              | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|               Unterbrechen von Qualitätsupdates               |                                                                                                          Siehe oben.                                                                                                          |             [Update/PauseQualityUpdates](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Update_PauseQualityUpdates)              | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|           Konfigurieren des Geräts für die Verwendung von WSUS            |                                            Verwenden Sie diese Einstellung, um den Surface Hub mit WSUS anstelle von Windows Update zu verbinden. Weitere Informationen finden Sie unter [Windows-Updates](manage-windows-updates-for-surface-hub.md).                                             |                [Update/UpdateServiceUrl](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Update_UpdateServiceUrl)                 | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|               Übermittlungsoptimierung               | Verwenden Sie die Peer-to-Peer-Inhaltsfreigabe, um Bandbreitenprobleme während Aktualisierungen zu reduzieren. Details hierzu finden Sie unter [Konfigurieren der Übermittlungsoptimierung für Windows10](https://technet.microsoft.com/itpro/windows/manage/waas-delivery-optimization). |         Übermittlungsoptimierung/*`<name of policy>`* <br> Weitere Informationen finden Sie unter [Richtlinien-CSP](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx)          | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-
-\*Mit SyncML unterstützte Einstellungen können auch in einem Bereitstellungspaket des Windows-Konfigurations-Designers konfiguriert werden.
-
-#### <a name="windows-defender-settings"></a>Windows Defender-Einstellungen
-
-|      Einstellung      |                                              Details                                               |                                                     CSP-Referenz                                                      |            Unterstützt durch<br>Intune?             |    Unterstützt durch<br>Konfigurations-Manager?     | Unterstützt durch<br>SyncML\*? |
-|-------------------|----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-----------------------------|
-| Defender-Richtlinien |            Verwenden Sie diese Einstellung, um verschiedene Defender-Einstellungen zu konfigurieren, einschließlich der Planung der Überprüfungszeit.            | Defender/*`<name of policy>`* <br> Weitere Informationen finden Sie unter [Richtlinien-CSP](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx) | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-|  Defender-Status  | Verwenden Sie diese, um eine Defender-Überprüfung zu initiieren, ein Security Intelligence-Update zu erzwingen und erkannte Bedrohungen zu abfragen. |                   [Defender-Konfigurationsdienstanbieter](https://msdn.microsoft.com/library/windows/hardware/mt187856.aspx)                    |                       Ja                        |                       Ja                       |             Ja             |
-
-\*Mit SyncML unterstützte Einstellungen können auch in einem Bereitstellungspaket des Windows-Konfigurations-Designers konfiguriert werden.
-
-#### <a name="remote-reboot"></a>Remoteneustart
-
-|                       Einstellung                        |                                                          Details                                                          |                                                             CSP-Referenz                                                             |            Unterstützt durch<br>Intune?             |    Unterstützt durch<br>Konfigurations-Manager?     | Unterstützt durch<br>SyncML\*? |
-|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-----------------------------|
-|            Gerät sofort neu starten             | Verwenden Sie in Verbindung mit Azure Monitor, um Supportkosten zu minimieren – siehe [Monitor your Microsoft Surface Hub](monitor-surface-hub.md). |        ./Vendor/MSFT/Reboot/RebootNow <br> Siehe [Neustarten des CSP](https://msdn.microsoft.com/library/windows/hardware/mt720802.aspx)        |                       Ja                        |                       Nein                        |             Ja             |
-|    Neustarten des Geräts zu einem geplanten Datum und einer geplanten Uhrzeit    |                                                        Siehe oben.                                                         |     ./Vendor/MSFT/Reboot/Schedule/Single <br> Siehe [Neustarten des CSP](https://msdn.microsoft.com/library/windows/hardware/mt720802.aspx)     | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-| Tägliches Neustarten des Geräts zu einem geplanten Datum und einer geplanten Uhrzeit |                                                        Siehe oben.                                                         | ./Vendor/MSFT/Reboot/Schedule/DailyRecurrent <br> Siehe [Neustarten des CSP](https://msdn.microsoft.com/library/windows/hardware/mt720802.aspx) | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-
-\*Mit SyncML unterstützte Einstellungen können auch in einem Bereitstellungspaket des Windows-Konfigurations-Designers konfiguriert werden.
-
-#### <a name="install-certificates"></a>Zertifikate installieren
-
-|             Einstellung             |                           Details                            |                                           CSP-Referenz                                            |                                                         Unterstützt durch<br>Intune?                                                          |                                                                  Unterstützt durch<br>Konfigurations-Manager?                                                                  | Unterstützt durch<br>SyncML\*? |
-|---------------------------------|--------------------------------------------------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|
-| Vertrauenswürdige ZS-Zertifikate installieren | Verwenden Sie diese Einstellung, um vertrauenswürdige Stamm- und Zwischen-ZS-Zertifikate bereitzustellen. | [RootCATrustedCertificates CSP](https://msdn.microsoft.com/library/windows/hardware/dn904970.aspx) | Ja <br> Weitere Informationen finden Sie unter [Konfigurieren von Intune-Zertifikatprofilen](https://docs.microsoft.com/intune/deploy-use/configure-intune-certificate-profiles). | Ja <br> Weitere Informationen finden Sie unter Erstellen [von Zertifikatprofilen in Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/configmgr/protect/deploy-use/create-certificate-profiles). |             Ja             |
-
-<!--
-| Install client certificates  | Use to deploy Personal Information Exchange (.pfx, .p12) certificates. | [ClientCertificateInstall CSP](https://msdn.microsoft.com/library/windows/hardware/dn920023.aspx) | Yes. <br> See [How to Create and Deploy PFX Certificate Profiles in Intune Standalone](https://blogs.technet.microsoft.com/karanrustagi/2016/03/16/want-to-push-a-certificate-to-device-but-cant-use-ndes-continue-reading/). | Yes. <br> See [How to create PFX certificate profiles in Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/configmgr/protect/deploy-use/create-pfx-certificate-profiles). | Yes |
--->
-\*Mit SyncML unterstützte Einstellungen können auch in einem Bereitstellungspaket des Windows-Konfigurations-Designers konfiguriert werden.
-
-#### <a name="collect-logs"></a>Protokolle erfassen
-
-|     Einstellung      |                      Details                       |                                     CSP-Referenz                                      | Unterstützt durch<br>Intune? | Unterstützt durch<br>Konfigurations-Manager? | Unterstützt durch<br>SyncML\*? |
-|------------------|----------------------------------------------------|----------------------------------------------------------------------------------------|---------------------------|------------------------------------------|-----------------------------|
-| ETW-Protokolle erfassen | Verwenden Sie diese Einstellung, um ETW-Protokolle remote von Surface Hub zu erfassen. | [DiagnosticLog CSP](https://msdn.microsoft.com/library/windows/hardware/mt219118.aspx) |            Nein             |                    Nein                    |             Ja             |
-
-<!--
-| Collect security auditing logs | Use to remotely collect security auditing logs from Surface Hub. | SecurityAuditing node in [Reporting CSP](https://msdn.microsoft.com/library/windows/hardware/mt608321.aspx) | No | No | Yes |-->
-\*Mit SyncML unterstützte Einstellungen können auch in einem Bereitstellungspaket des Windows-Konfigurations-Designers konfiguriert werden.
-
-#### <a name="set-network-quality-of-service-qos-policy"></a>Netzwerkrichtlinien für QoS festlegen
-
-|        Einstellung         |                                                            Details                                                             |                                                    CSP-Referenz                                                     |            Unterstützt durch<br>Intune?             |    Unterstützt durch<br>Konfigurations-Manager?     | Unterstützt durch<br>SyncML\*? |
-|------------------------|--------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-----------------------------|
-| Netzwerkrichtlinien für QoS festlegen | Verwenden Sie eine QoS-Richtlinie zum Ausführen von Aktionen auf dem Netzwerkverkehr. Dies ist hilfreich für die Priorisierung von Skype-Paketen. | [Netzwerk-QoS-Richtlinie-Konfigurationsdienstanbieter](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/networkqospolicy-csp) | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-
-\*Mit SyncML unterstützte Einstellungen können auch in einem Bereitstellungspaket des Windows-Konfigurations-Designers konfiguriert werden.
-
-#### <a name="set-network-proxy"></a>Netzwerk-Proxy festlegen
-
-|      Einstellung      |                               Details                               |                                                CSP-Referenz                                                 |            Unterstützt durch<br>Intune?             |    Unterstützt durch<br>Konfigurations-Manager?     | Unterstützt durch<br>SyncML\*? |
-|-------------------|---------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-----------------------------|
-| Netzwerk-Proxy festlegen | Wird verwendet, um einen Proxyserver für Ethernet und WLAN-Verbindungen festzulegen. | [Netzwerkproxy-Konfigurationsdienstanbieter](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/networkproxy-csp) | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-
-\*Mit SyncML unterstützte Einstellungen können auch in einem Bereitstellungspaket des Windows-Konfigurations-Designers konfiguriert werden.
-
-#### <a name="configure-start-menu"></a>Startmenü konfigurieren
-
-|       Einstellung        |                                                                       Details                                                                        |                                                        CSP-Referenz                                                         |            Unterstützt durch<br>Intune?             |    Unterstützt durch<br>Konfigurations-Manager?     | Unterstützt durch<br>SyncML\*? |
-|----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-----------------------------|
-| Startmenü konfigurieren | Wird verwendet, um festzulegen, welche Apps im Startmenü angezeigt werden. Unter [Konfigurieren des Surface Hub-Startmenüs](surface-hub-start-menu.md) finden Sie weitere Informationen. | [Policy CSP: Start/StartLayout](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-startlayout) | Ja <br> [Verwenden Sie eine benutzerdefinierte Richtlinie.](#example-manage-surface-hub-settings-with-microsoft-intune) | Ja.<br> [Verwenden Sie eine benutzerdefinierte Einstellung.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Ja             |
-
-\*Mit SyncML unterstützte Einstellungen können auch in einem Bereitstellungspaket des Windows-Konfigurations-Designers konfiguriert werden.
-
-### <a name="generate-oma-uris-for-settings"></a>OMA-URIs für Einstellungen generieren 
-Sie müssen den OMA-URI einer Einstellung verwenden, um eine benutzerdefinierte Richtlinie in Intune oder eine benutzerdefinierte Einstellung in Microsoft Endpoint Configuration Manager zu erstellen.
-
-**So generieren Sie den OMA-URI für eine Einstellung in der CSP-Dokumentation**
-1. Identifizieren Sie in der CSP-Dokumentation den Stammknotens des CSP. Im Allgemeinen sieht dieser wie folgt aus: `./Vendor/MSFT/<name of CSP>` <br>
-*Der Stammknoten für den [SurfaceHub-CSP](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx) ist beispielsweise `./Vendor/MSFT/SurfaceHub`.*
-2. Identifizieren Sie den Knotenpfad für die Einstellung, die Sie verwenden möchten. <br>
-*Der Knotenpfad für die Einstellung zum Aktivieren der drahtlosen Projektion ist beispielsweise `InBoxApps/WirelessProjection/Enabled`.*
-3. Fügen Sie den Knotenpfad dem Stammknoten an, um den OMA-URI zu generieren. <br>
-*Der OMA-URI für die Einstellung zum Aktivieren der drahtlosen Projektion ist beispielsweise `./Vendor/MSFT/SurfaceHub/InBoxApps/WirelessProjection/Enabled`.*
-
-Der Datentyp wird auch in der CSP-Dokumentation angegeben. Die am häufigsten verwendeten Datentypen sind:
-- char (Zeichenfolge)
-- int (ganze Zahl)
-- bool (boolescher Wert)
+Zusammenfassend können Sie die folgenden Optionen zum Konfigurieren und Verwalten von Richtlinieneinstellungen in Intune verwenden: 
+ 
+- **Erstellen Sie ein Geräteeinschränkungsprofil.** Verwenden Sie das integrierte Profil von Intune, und konfigurieren Sie die Einstellungen direkt in der Intune-Benutzeroberfläche. Weitere [Informationen finden Sie unter Create device restriction profile](#create-device-restriction-profile).
+- **Erstellen Sie ein Gerätekonfigurationsprofil.**  Wählen Sie eine Vorlage aus, die sich auf ein bestimmtes Feature oder eine bestimmte Technologie wie Microsoft Defender oder Sicherheitszertifikate konzentriert. Weitere [Informationen finden Sie unter Create Device configuration profile](#create-device-configuration-profile).
+- **Erstellen Sie ein benutzerdefiniertes Konfigurationsprofil.**  Erweitern Sie Ihren Verwaltungsbereich mithilfe eines OMA Uniform Resource Identifier (OMA URI) von allen [csPs,](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)die in Microsoft Surface Hub unterstützt werden. Weitere [Informationen finden Sie unter Erstellen eines benutzerdefinierten Konfigurationsprofils.](#create-custom-configuration-profile)
 
 
-## <a name="example-manage-surface-hub-settings-with-microsoft-intune"></a>Beispiel: Verwalten von Surface Hub-Einstellungen mit Microsoft Intune
+## <a name="create-device-restriction-profile"></a>Erstellen eines Geräteeinschränkungsprofils
 
-Sie können Microsoft Intune zum Verwalten von Surface Hub-Einstellungen verwenden. Führen Sie für benutzerdefinierte Einstellungen Sie die Schritte unter [Konfigurieren von benutzerdefinierten Geräteeinstellungen in Microsoft Intune](https://docs.microsoft.com/intune/custom-settings-configure) durch. Für **Plattform**, wählen Sie **Windows10 und höher** und im **Profiltyp** die Option **Geräteeinschränkungen (Windows10 Team)** aus.
+1. Melden Sie sich beim [**Microsoft Endpoint Manager Admin Center an,**](https://endpoint.microsoft.com/)wählen Sie **Gerätekonfigurationsprofile**  >  **Erstellen**  >  **+** **eines Profils aus.**
+2. Wählen **Sie unter Plattform**Windows **10 und höher aus.** >
+3. Wählen Sie unter ******Profiltyp** **Vorlagen** und dann **Geräteeinschränkungen aus (Windows 10 Team)**
+4. Wählen **Sie Erstellen**aus, fügen Sie einen Namen hinzu, und wählen Sie dann Weiter **aus.**
+6. Sie können nun in den folgenden Kategorien nach voreingestellten Geräteeinschränkungseinstellungen für Surface Hub suchen und diese auswählen: Apps und Erfahrung, Einblicke in den Betrieb von Azure, Wartung, Sitzung und Drahtlose Projektion. Das in der folgenden Abbildung gezeigte Beispiel gibt ein 4-Stunden-Wartungsfenster und ein 15-minütiges Timeout für Bildschirm, Ruhezustand und Fortsetzung der Sitzung an.
+
+     ![Konfigurieren von Surface Hub-Einstellungen mit dem Intune-Geräteeinschränkungsprofil](images/sh-device-restrictions.png)
+
+Weitere Informationen zum Erstellen und Verwalten von Profilen finden Sie unter [Restrict devices features using policy in Microsoft Intune](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-configure#create-the-profile).
+ 
+Weitere Informationen zum Verwalten von Surface Hub-Features und -Einstellungen finden Sie unter Geräteeinschränkungen für [Surface Hub Windows 10 Team in Microsoft Intune.](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10-teams)
+ 
+
+## <a name="create-device-configuration-profile"></a>Erstellen eines Gerätekonfigurationsprofils
+
+1. Melden Sie sich beim [**Microsoft Endpoint Manager Admin Center an,**](https://endpoint.microsoft.com/)wählen Sie **Gerätekonfigurationsprofile**+ Profil erstellen  >  ****  >  **aus.**
+2. Wählen **Sie unter Plattform**Windows **10 und höher aus.** >
+3. Wählen **Sie unter Profiltyp** **Vorlagen aus,** und wählen Sie aus den folgenden Vorlagen aus, die auf Surface Hub unterstützt werden:
+
+    - Geräteeinschränkungen (Windows 10 Team), wie im [vorherigen Abschnitt beschrieben.](#create-device-restriction-profile)
+    - Microsoft Defender for Endpoint (Windows 10 Desktop)
+    - #A0
+    - IMPORTIERTES #A0
+    - SCEP-Zertifikat
+    - Vertrauenswürdiges Zertifikat
+
+## <a name="create-custom-configuration-profile"></a>Erstellen eines benutzerdefinierten Konfigurationsprofils
+
+Sie können den Verwaltungsbereich [erweitern,](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) indem Sie ein benutzerdefiniertes Profil mithilfe eines OMA-URI aus einem der csPs erstellen, die in Microsoft Surface Hub [unterstützt werden.](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport) Jede Einstellung in einem CSP verfügt über einen entsprechenden OMA-URI, den Sie mithilfe von benutzerdefinierten Konfigurationsprofilen in Intune festlegen können. Für Details zu den von Surface Hub unterstützten CSPs können Sie auf die folgenden Ressourcen verweisen: 
+
+- [Referenz zum Konfigurationsdienstanbieter](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)
+- [Richtlinien-Konfigurationsdienstanbieter, die von MicrosoftSurface Hub unterstützt werden](https://docs.microsoft.com/windows/client-management/mdm/policy-csps-supported-by-surface-hub)
+- [SurfaceHub-Konfigurationsdienstanbieter](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
+> [!NOTE]
+> Die Verwaltung des Gerätekontos mithilfe von Einstellungen von [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp) ist derzeit mit Intune nicht möglich und erfordert die Verwendung eines Drittanbieters für MDM.
+
+Um CSP-basierte Richtlinieneinstellungen zu implementieren, generieren Sie zunächst einen OMA-URI und fügen ihn dann einem benutzerdefinierten Konfigurationsprofil in Intune hinzu.
+
+### <a name="generate-oma-uri-for-target-setting"></a>Generieren von OMA-URI für die Zieleinstellung
+ 
+So generieren Sie den OMA-URI für jede Einstellung:
+
+1. Identifizieren Sie [in der #A0](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)den Stammknoten des CSP. Im Allgemeinen sieht dies wie **./Vendor/MSFT/ aus. <name of CSP> ** 
+    - **Beispiel:** Der Stammknoten des [SurfaceHub-CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp) ist **./Vendor/MSFT/SurfaceHub**.
+2. Identifizieren Sie den Knotenpfad für die Einstellung, die Sie verwenden möchten. 
+    - **Beispiel:** Der Knotenpfad für die Einstellung zum Aktivieren der drahtlosen Projektion ist **InBoxApps/WirelessProjection/Enabled**.
+3. Fügen Sie den Knotenpfad dem Stammknoten an, um den OMA-URI zu generieren. 
+    - **Beispiel:** Der OMA-URI für die Einstellung zum Aktivieren der drahtlosen Projektion ist **./Vendor/MSFT/SurfaceHub/InBoxApps/WirelessProjection/Enabled.**
+4. Der Datentyp wird auch in der CSP-Dokumentation angegeben. Die am häufigsten verwendeten Datentypen sind:
+    - char (Zeichenfolge)
+    - int (ganze Zahl)
+    - bool (boolescher Wert)
+
+### <a name="add-oma-uri-to-custom-configuration-profile"></a>Hinzufügen von OMA-URI zum benutzerdefinierten Konfigurationsprofil
+
+1. Wählen Sie im **** Endpunkt-Manager  >  **Gerätekonfigurationsprofile**  >  **Erstellen eines Profils aus.**
+2. Wählen Sie unter Plattform **Windows 10 und höher aus.** Wählen Sie unter Profil **die Option Benutzerdefiniert**aus, und wählen Sie dann **Erstellen aus.**
+3. Fügen Sie einen Namen und eine optionale Beschreibung hinzu, und wählen Sie dann **Weiter aus.**
+4. Wählen **Sie unter**  >  **Konfigurationseinstellungen OMA-URI-Einstellungen**die Option **Hinzufügen aus.**
+
+  
+## <a name="manage-specific-surface-hub-features"></a>Verwalten bestimmter Surface Hub-Features
+
+In diesem Abschnitt werden Informationen zu Features beschrieben, die Sie über Intune oder einen anderen MDM-Anbieter verwalten können. Dies umfasst Folgendes:
+
+- [Quality of Service (QoS)](#quality-of-service-settings)
+- [Microsoft Teams und Skype for Business](#microsoft-teams-and-skype-for-business-settings)
+
+### <a name="quality-of-service-settings"></a>Dienstqualitätseinstellungen
+
+Um eine optimale Video- und Audioqualität auf Surface Hub sicherzustellen, fügen Sie dem Gerät die folgenden QoS-Einstellungen hinzu. 
+
+| Name | Beschreibung | OMA-URI | Typ | Wert |
+|:------ |:------------- |:--------- |:------ |:------- |
+|**Audio-Ports**| Audio-Portbereich | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DestinationPortMatchCondition | Zeichenfolge  | 3478-3479 |
+|**Audio DSCP**| Markierung der Audio-Ports | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DSCPAction | Ganze Zahl | 46 |
+|**Video-Port**| Video-Portbereich | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/DestinationPortMatchCondition | Zeichenfolge  | 3480 |
+|**Video DSCP**| Markierung der Video-Ports | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/DSCPAction | Ganze Zahl | 34 |
+|**Freigabeport**| Freigabeportbereich | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsSharing/DestinationPortMatchCondition | Zeichenfolge  | 3481 |
+|**Freigeben von DSCP**| Kennzeichnung von Freigabeports | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsSharing/DSCPAction | Ganze Zahl | 18 |
+|**P2P Audio-Ports**| Audio-Portbereich | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PAudio/DestinationPortMatchCondition | Zeichenfolge  | 50000-50019 |
+|**P2P Audio DSCP**| Markierung der Audio-Ports | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PAudio/DSCPAction | Ganze Zahl | 46 |
+|**P2P Video Ports**| Video-Portbereich | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PVideo/DestinationPortMatchCondition | Zeichenfolge  | 50020-50039 |
+|**P2P Video DSCP**| Markierung der Video-Ports | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PVideo/DSCPAction | Ganze Zahl | 34 |
+|**P2P-Freigabeports**| Freigabeportbereich | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PSharing/DestinationPortMatchCondition | Zeichenfolge  | 50040-50059 |
+|**P2P Sharing DSCP**| Kennzeichnung von Freigabeports | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PSharing/DSCPAction | Ganze Zahl | 18 |
 
 
+#### <a name="skype-for-business-qos-settings"></a>Skype for Business QoS – Einstellungen
 
-## <a name="example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager"></a>Beispiel: Verwalten von Surface Hub-Einstellungen mit Microsoft Endpoint Configuration Manager
-Configuration Manager unterstützt die Verwaltung moderner Geräte, für die der Configuration Manager-Client nicht benötigt wird, einschließlich Surface Hub. Wenn Sie Configuration Manager bereits zum Verwalten anderer Geräte in Ihrer Organisation verwenden, können Sie weiterhin die Configuration Manager-Konsole als zentralen Speicherort für die Verwaltung von Surface Hubs verwenden.
+| Name                 | Beschreibung           | OMA-URI                                                                    | Typ    | Wert                          |
+| -------------------- | --------------------- | -------------------------------------------------------------------------- | ------- | ------------------------------ |
+| Audio-Ports          | Audio-Portbereich      | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBAudio/SourcePortMatchCondition    | Zeichenfolge  | 50000-50019                    |
+| Audio DSCP           | Markierung der Audio-Ports   | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBAudio/DSCPAction                  | Ganze Zahl | 46                             |
+| Audio-Medienquelle   | Name der Skype-App        | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBAudio/AppPathNameMatchCondition   | Zeichenfolge  | Microsoft.PPISkype.Windows.exe |
+| Video Ports          | Video-Portbereich      | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBVideo/SourcePortMatchCondition    | Zeichenfolge  | 50020-50039                    |
+| Video DSCP           | Markierung der Video-Ports   | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBVideo/DSCPAction                  | Ganze Zahl | 34                             |
+| Video-Medienquelle   | Name der Skype-App        | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBVideo/AppPathNameMatchCondition   | Zeichenfolge  | Microsoft.PPISkype.Windows.exe |
+| Freigabeports        | Freigabeportbereich    | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBSharing/SourcePortMatchCondition  | Zeichenfolge  | 50040-50059                    |
+| Freigeben von DSCP         | Kennzeichnung von Freigabeports | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBSharing/DSCPAction                | Ganze Zahl | 18                             |
+| Freigeben von Medienquellen | Name der Skype-App        | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBSharing/AppPathNameMatchCondition | Zeichenfolge  | Microsoft.PPISkype.Windows.exe |
 
 > [!NOTE]
-> Diese Anweisungen basieren auf dem aktuellen Zweig von Configuration Manager.
+> In beiden Tabellen werden standardmäßige Portbereiche angezeigt. Administratoren können die Portbereiche in der Systemsteuerung in Skype for Business und Teams ändern.
 
-**So erstellen Sie ein Konfigurationselement für Surface Hub-Einstellungen**
+### <a name="microsoft-teams-and-skype-for-business-settings"></a>Microsoft Teams- und Skype for Business-Einstellungen
 
-1. Klicken Sie im Arbeitsbereich **Bestand und Kompatibilität** der Konfigurations-Manager-Konsole auf **Übersicht** > **Kompatibilitätseinstellungen** > **Konfigurationselemente**.
-2. Klicken Sie auf der Registerkarte **Start** in der Gruppe **Erstellen** auf **Konfigurationselement erstellen**.
-3. Geben Sie auf der Seite **Allgemein** des Assistenten zum Erstellen von Konfigurationselementen einen Namen und optional eine Beschreibung für das Konfigurationselement an.
-4. Wählen Sie unter **Einstellungen für Geräte, die ohne den Konfigurations-Manager-Client verwaltet werden** die Option **Windows 8.1 und Windows 10** aus, und klicken Sie dann auf **Weiter**.
+Sie können ein benutzerdefiniertes Konfigurationsprofil erstellen, um koordinierte Besprechungen, Näherungsbesprechungen und andere Features von Teams zu verwalten. Weitere Informationen finden Sie unter [Manage Microsoft Teams configuration on Surface Hub](https://docs.microsoft.com/microsoftteams/rooms/surface-hub-manage-config).
 
-    ![Beispiel für die Benutzeroberfläche](images/configmgr-create.png)
-5. Erweitern Sie auf der Seite **Unterstützte Plattformen** die Option **Windows10**, und wählen Sie **Alle Geräte mit Windows 10 Team und höher** aus. Heben Sie die Auswahl für die anderen Windows-Plattformen auf, und klicken Sie dann auf **Weiter**.
+#### <a name="changing-default-business-communications-platform"></a>Ändern der Standardmäßigen Geschäftskommunikationsplattform
 
-    ![Plattform auswählen](images/configmgr-platform.png)
-7. Wählen Sie auf der Seite **Geräteeinstellungen** unter **Geräteeinstellungsgruppen** die Option **Windows10 Team** aus.
+Die Standardmäßige Geschäftskommunikationsplattform auf Surface Hub variiert je nach Installation von Windows 10 Team 2020 Update (auch als Windows 10 20H2 bekannt). Wenn Sie Surface Hub erneut in Windows 10 20H2 abbilden, wird Microsoft Teams als Standard festgelegt, und die Skype for Business-Funktionalität ist verfügbar (Modus 1). Wenn Sie Ihren Hub von einer früheren Betriebssystemversion aktualisieren, bleibt Skype for Business als Standard, und die Teams-Funktionalität ist verfügbar (Modus 0), es sei denn, Sie haben Teams bereits als Standard konfiguriert. 
 
+Verwenden Sie zum Ändern der Standardinstallation ein [benutzerdefiniertes Profil,](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) indem Sie den Teams-App-Modus wie folgt festlegen:  
 
-8. Konfigurieren Sie auf der Seite **Windows10 Team** die Einstellungen, die Sie benötigen.
+- Modus 0 – Skype for Business mit Microsoft Teams für geplante Besprechungen.
+- Modus 1 – Microsoft Teams mit Skype for Business für geplante Besprechungen.
+- Modus 2 – Nur Microsoft Teams.
 
-    ![Windows 10 Team](images/configmgr-team.png)
-9. Sie müssen benutzerdefinierte Einstellungen erstellen, um Einstellungen zu verwalten, die nicht auf der Seite für Windows10 Team verfügbar sind. Aktivieren Sie auf der Seite **Geräteeinstellungen** das Kontrollkästchen **Zusätzliche Einstellungen konfigurieren, die in den Standardeinstellungsgruppen nicht enthalten sind**.
-
-    ![Zusätzliche Einstellungen](images/configmgr-additional.png)
-10. Klicken Sie auf der Seite **Zusätzliche Einstellungen** auf **Hinzufügen**.
-11. Klicken Sie im Dialogfeld **Einstellungen durchsuchen** auf **Einstellung erstellen**.
-12. Geben Sie im Dialogfeld **Einstellung erstellen** auf der Registerkarte **Allgemein** einen Namen und optional eine Beschreibung für die benutzerdefinierte Einstellung an.
-13. Wählen Sie unter **Einstellungstyp** **OMA-URI** aus.
-14. Füllen Sie das Formular zum Erstellen einer neuen Einstellung aus, und klicken Sie dann auf **OK**.
-
-    ![OMA-URI-Einstellung](images/configmgr-oma-uri.png)
-15. Wählen Sie im Dialogfeld **Einstellungen durchsuchen** unter **Verfügbare Einstellungen** die von Ihnen erstellte neue Einstellung aus, und klicken Sie dann auf **Auswählen**.
-16. Füllen Sie im Dialogfeld **Regel erstellen** das Formular zum Festlegen einer Regel für die Einstellung aus, und klicken Sie dann auf **OK**.
-17. Wiederholen Sie die Schritte9 bis 15 für jede benutzerdefinierte Einstellung, die Sie dem Konfigurationselement hinzufügen möchten.
-18. Wenn Sie fertig sind, klicken Sie im Dialogfeld **Einstellungen durchsuchen** auf **Schließen**.
-19. Führen Sie den Assistenten bis zum Ende aus. <br> Sie können das neue Konfigurationselement im Knoten **Konfigurationselemente** des Arbeitsbereichs **Bestand und Kompatibilität** anzeigen.
-
-Weitere Informationen finden Sie unter [Create configuration items for Windows 8.1 and Windows 10 devices managed without the Microsoft Endpoint Configuration Manager client](https://docs.microsoft.com/configmgr/compliance/deploy-use/create-configuration-items-for-windows-8.1-and-windows-10-devices-managed-without-the-client).
-
-## <a name="related-topics"></a>Verwandte Themen
-
-[Verwalten von Microsoft Surface Hub](manage-surface-hub.md)
-
+| Name | Beschreibung | OMA-URI | Typ | Wert |
+|:--- |:--- |:--- |:--- |:--- |
+|**ID der Teams-App**|Name der App|./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId|Zeichenfolge| Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams|
+|**Modus der Teams-App**|Teams-Modus|./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode|Ganze Zahl| 0 oder 1 oder 2|
 
 
 

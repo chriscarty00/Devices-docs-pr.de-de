@@ -1,6 +1,6 @@
 ---
 title: PowerShell für Surface Hub (v1)
-description: Diese Seite enthält PowerShell-Skripts, die für den ursprünglichen Surface Hub (v1) vorgesehen sind.
+description: Diese Seite enthält PowerShell-Skripts für den ursprünglichen Surface Hub (v1)
 ms.assetid: 3EF48F63-8E4C-4D74-ACD5-461F1C653784
 ms.reviewer: ''
 manager: laurawi
@@ -14,17 +14,17 @@ ms.date: 02/01/2021
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub
-ms.openlocfilehash: 73c028357849cd660d3b8720aaaa28aade12fea1
-ms.sourcegitcommit: 32b6c25698479fa289f642c5b5761ff3be15b686
+ms.openlocfilehash: bf130c2707de4507a76f0c0d6f711af3082a7647
+ms.sourcegitcommit: 4ec96ff1cd563d055fa0689a63f136acf2794a2e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "11317979"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "11474752"
 ---
-# PowerShell für Surface Hub (v1)
+# <a name="powershell-for-surface-hub-v1"></a>PowerShell für Surface Hub (v1)
 
 > [!NOTE]
- >Diese Seite enthält PowerShell-Skripts, die für den ursprünglichen Surface Hub (v1) vorgesehen sind. Die neuesten Kontoerstellungsskripts für Surface Hub 2S finden Sie unter [Erstellen des Surface Hub 2S-Gerätekontos.](surface-hub-2s-account.md)
+ >Diese Seite enthält PowerShell-Skripts, die für den ursprünglichen Surface Hub (v1) vorgesehen sind. Die neuesten Kontoerstellungsskripts für Surface Hub 2S finden Sie unter [Create and test a device account](create-and-test-a-device-account-surface-hub.md).
 
 -   [PowerShell-Skripts für Surface Hub-Administratoren](#scripts-for-admins)
     -   [Erstellen eines lokalen Kontos](#create-on-premises-ps-scripts)
@@ -38,9 +38,9 @@ ms.locfileid: "11317979"
     -   [Akzeptieren von externen Besprechungsanfragen](#accept-ext-meetings-cmdlet)
     
  > [!NOTE]
- > Siehe auch moderne Authentifizierungs- und [unbeaufsichtigte Skripts in Exchange Online PowerShell V2](https://techcommunity.microsoft.com/t5/exchange-team-blog/modern-auth-and-unattended-scripts-in-exchange-online-powershell/ba-p/1497387)
+ > Siehe auch [Moderne Authentifizierungs- und unbeaufsichtigte Skripts in Exchange Online PowerShell V2](https://techcommunity.microsoft.com/t5/exchange-team-blog/modern-auth-and-unattended-scripts-in-exchange-online-powershell/ba-p/1497387)
 
-## Voraussetzungen
+## <a name="prerequisites"></a>Voraussetzungen
 
 Um diese PowerShell-Skripts erfolgreich ausführen zu können, müssen Sie vorher folgende Komponenten installieren:
 
@@ -48,7 +48,7 @@ Um diese PowerShell-Skripts erfolgreich ausführen zu können, müssen Sie vorhe
 - [Microsoft Azure Active Directory-Modul für Windows PowerShell (64-Bit-Version)](https://www.powershellgallery.com/packages/MSOnline/1.1.183.17)
 - [Windows PowerShell-Modul für Skype for Business Online](https://www.microsoft.com/download/details.aspx?id=39366)
 
-## <a href="" id="scripts-for-admins"></a>PowerShell-Skripts für Surface Hub-Administratoren
+## <a name="powershell-scripts-for-surface-hub-administrators"></a><a href="" id="scripts-for-admins"></a>PowerShell-Skripts für Surface Hub-Administratoren
 
 Wie funktionieren die Skripts?
 
@@ -64,13 +64,13 @@ Was benötigen Sie zur Skriptausführung?
 > [!NOTE]
 > Egal, ob Sie ein neues Konto erstellen oder ein bereits vorhandenes Konto ändern, prüft das Validierungsskript, ob Ihr Gerätekonto richtig konfiguriert ist. Sie sollten das Validierungsskript immer vor dem Hinzufügen eines Gerätekontos zu Surface Hub ausführen.
 
-## Ausführen der Skripts
+## <a name="running-the-scripts"></a>Ausführen der Skripts
 
 Die Kontoerstellungsskripts führen folgende Schritte aus:
 
--   Bitten Sie um Administratoranmeldeinformationen.
+-   Fragen Sie nach Administratoranmeldeinformationen.
 -   Erstellen Sie Gerätekonten in Ihrer Domäne/Ihrem Mandanten.
--   Erstellen sie eine Surface Hub-kompatible ActiveSync-Richtlinie, oder weisen Sie sie den Gerätekontos zu.
+-   Erstellen oder Zuweisen einer Surface Hub-kompatiblen ActiveSync-Richtlinie zu den Gerätekontos.
 -   Festlegen verschiedener Attribute für die erstellten Konten in Exchange und Skype for Business
 -   Weisen Sie den erstellten Konten Lizenzen und Berechtigungen zu.
 
@@ -183,15 +183,14 @@ Die folgenden Attribute werden von den Skripts festgelegt:
 </tbody>
 </table>
 
-## Kontoerstellungsskripts
+## <a name="account-creation-scripts"></a>Kontoerstellungsskripts
 
 Diese Skripts erstellen ein Gerätekonto für Sie. Sie können mithilfe des [Kontovalidierungsskripts](#acct-verification-ps-scripts) sicherstellen, dass sie richtig ausgeführt wurden.
 
 Die Kontoerstellungsskripts können ein bereits vorhandenes Konto nicht ändern, aber sie können Ihnen zeigen, welche Cmdlets ausgeführt werden müssen, um das vorhandene Konto korrekt zu konfigurieren.
 
-### <a href="" id="create-on-premises-ps-scripts"></a>Erstellen eines lokalen Kontos
+### <a name="create-an-on-premises-account"></a><a href="" id="create-on-premises-ps-scripts"></a>Erstellen eines lokalen Kontos
 
-Erstellt ein Konto, wie unter [Lokale Bereitstellung](on-premises-deployment-surface-hub-device-accounts.md) beschrieben.
 
 ```PowerShell
 # SHAccountCreateOnPrem.ps1
@@ -549,9 +548,9 @@ else
 }
 ```
 
-### <a href="" id="create-os356-ps-scripts"></a>Erstellen eines Gerätekontos mithilfe von Office 365
+### <a name="create-a-device-account-using-office-365"></a><a href="" id="create-os356-ps-scripts"></a>Erstellen eines Gerätekontos mithilfe von Office 365
 
-Erstellt ein Konto, wie unter ["Erstellen eines Gerätekontos mit Office 365" beschrieben.](create-a-device-account-using-office-365.md)
+Erstellt ein Konto, wie unter [Erstellen eines Gerätekontos mit Office 365 beschrieben.](create-and-test-a-device-account-surface-hub.md)
 
 ```PowerShell
 # SHAccountCreateO365.ps1
@@ -994,7 +993,7 @@ else
 }
 ```
 
-## <a href="" id="acct-verification-ps-scripts"></a>Kontovalidierungsskript
+## <a name="account-verification-script"></a><a href="" id="acct-verification-ps-scripts"></a>Kontovalidierungsskript
 
 Dieses Skript überprüft das zuvor erstellte Gerätekonto auf Surface Hub und Surface Hub 2S, unabhängig davon, welche Methode zum Erstellen verwendet wurde. Dieses Skript beruht im Grunde auf den Ergebnissen Erfolgreich/Fehler. Wird einer der Tests mit einem Fehler beendet, wird eine detaillierte Fehlermeldung angezeigt. Wenn jedoch alle Tests erfolgreich sind, ist das Endergebnis ein Zusammenfassungsbericht. Beispiele:
 
@@ -1445,7 +1444,7 @@ Write-Host -ForegroundColor Green $Global:iTotalPasses "passes "
 Cleanup
 ```
 
-## <a href="" id="enable-sfb-ps-scripts"></a>Skype for Business aktivieren
+## <a name="enable-skype-for-business"></a><a href="" id="enable-sfb-ps-scripts"></a>Skype for Business aktivieren
 
 Dieses Skript aktiviert Skype for Business auf einem Gerätekonto. Verwenden Sie es nur dann, wenn zuvor Skype for Business nicht bei der Erstellung des Kontos aktiviert wurde.
 
@@ -1605,9 +1604,9 @@ PrintSuccess "Successfully enabled $strRoomUri as a Skype for Business meeting r
 Cleanup
 ```
 
-## Nützliche Cmdlets
+## <a name="useful-cmdlets"></a>Nützliche Cmdlets
 
-### <a href="" id="create-compatible-as-policy"></a>Erstellen einer Surface Hub-kompatiblen ActiveSync-Richtlinie
+### <a name="creating-a-surface-hub-compatible-activesync-policy"></a><a href="" id="create-compatible-as-policy"></a>Erstellen einer Surface Hub-kompatiblen ActiveSync-Richtlinie
 
 Für die Verwendung von Exchange-Diensten durch Surface Hub muss ein mit einer kompatiblen ActiveSync-Richtlinie konfiguriertes Gerätekonto auf dem Gerät bereitgestellt werden. Für diese Richtlinie ist Folgendes erforderlich:
 
@@ -1645,7 +1644,7 @@ Jetzt muss das Gerätekonto einfach zurück in einen Raumtyp konvertiert werden.
 Set-Mailbox $strRoomUpn -Type Room
 ```
 
-### Zulassen von Geräte-IDs für ActiveSync
+### <a name="allowing-device-ids-for-activesync"></a>Zulassen von Geräte-IDs für ActiveSync
 
 Um `$strRoomUpn` für ein Konto zuzulassen, führen Sie folgenden Befehl aus:
 
@@ -1661,7 +1660,7 @@ Get-ActiveSyncDevice -Mailbox $strRoomUpn
 
 Dadurch werden Geräteinformationen für jedes Gerät abgerufen, auf dem das Konto bereitgestellt wurde, einschließlich der `DeviceId`-Eigenschaft.
 
-### <a href="" id="auto-accept-meetings-cmdlet"></a>Automatisches Akzeptieren und Ablehnen von Besprechungsanfragen
+### <a name="auto-accepting-and-declining-meeting-requests"></a><a href="" id="auto-accept-meetings-cmdlet"></a>Automatisches Akzeptieren und Ablehnen von Besprechungsanfragen
 
 Damit ein Gerätekonto Besprechungsanfragen basierend auf seiner Verfügbarkeit automatisch annehmen oder ablehnen kann, muss das **AutomateProcessing**-Attribut auf **AutoAccept** festgelegt werden. Dies wird empfohlen, um überlappende Besprechungen zu verhindern.
 
@@ -1669,12 +1668,12 @@ Damit ein Gerätekonto Besprechungsanfragen basierend auf seiner Verfügbarkeit 
 Set-CalendarProcessing $strRoomUpn -AutomateProcessing AutoAccept
 ```
 
-### <a href="" id="accept-ext-meetings-cmdlet"></a>Akzeptieren von externen Besprechungsanfragen
+### <a name="accepting-external-meeting-requests"></a><a href="" id="accept-ext-meetings-cmdlet"></a>Akzeptieren von externen Besprechungsanfragen
 
 Damit ein Gerätekonto externe Besprechungsanfragen (eine Besprechungsanfrage von einem Konto außerhalb desselben Mandanten/derselben Domäne) akzeptiert, muss das Gerätekonto für die Verarbeitung externer Besprechungsanfragen konfiguriert sein. Nach erfolgter Festlegung akzeptiert das Gerätekonto automatisch Besprechungsanfragen von externen Konten sowie lokalen Konten oder lehnt diese ab.
 
 > [!Note]
-> Wenn das **Attribut AutomateProcessing** nicht auf **"AutoAccept"** festgelegt ist, hat dies keine Auswirkung.
+> Wenn das **AutomateProcessing-Attribut** nicht auf **AutoAccept**festgelegt ist, hat dies keine Auswirkung.
 
 ```PowerShell
 Set-CalendarProcessing $strRoomUpn -ProcessExternalMeetingMessages $true
