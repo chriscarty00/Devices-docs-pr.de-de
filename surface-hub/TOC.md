@@ -30,10 +30,10 @@
 ### [Erstmalige Einrichtung von Surface Hub 2S](surface-hub-2s-setup.md)
 ### [Verbinden von Geräten mit Surface Surface Hub 2S](surface-hub-2s-connect.md)
 ### [Prüfliste für die Bereitstellung von Surface Hub 2S](surface-hub-2s-deploy-checklist.md)
-### [Erstellen des Gerätekontos für Surface Hub 2S](surface-hub-2s-account.md)
+### [Erstellen und Testen eines Gerätekontos](create-and-test-a-device-account-surface-hub.md)
 ### [Erstellen von Bereitstellungspaketen für Surface Hub 2S](surface-hub-2s-deploy.md)
 ### [Bereitstellen von Apps für Surface Hub 2S mithilfe von Intune](surface-hub-2s-deploy-apps-intune.md)
-### [Erstellen lokaler Konten für Surface Hub 2S mit PowerShell](surface-hub-2s-onprem-powershell.md)
+### [Erstellen lokaler Konten für Surface Hub 2S mit PowerShell](https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015)
 ### [Surface Hub Teams-App](hub-teams-app.md)
 ### [Teams-zertifiziertes Zubehör für Surface Hub 2S](surface-hub-2s-certifications.md)
 
@@ -84,12 +84,10 @@
 
 ## Bereitstellen
 ### [Erstellen und Testen eines Gerätekontos](create-and-test-a-device-account-surface-hub.md)
-#### [Onlinebereitstellung](online-deployment-surface-hub-device-accounts.md)
-#### [Lokale Bereitstellung (einzelne Gesamtstruktur)](on-premises-deployment-surface-hub-device-accounts.md)
-#### [Lokale Bereitstellung (mehrere Gesamtstrukturen)](on-premises-deployment-surface-hub-multi-forest.md)
+#### [Onlinebereitstellung](https://docs.microsoft.com/microsoftteams/rooms/with-office-365)
+#### [Lokale Bereitstellung (einzelne Gesamtstruktur)](https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015)
+#### [Lokale Bereitstellung (mehrere Gesamtstrukturen)](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments
 #### [Hybridbereitstellung](hybrid-deployment-surface-hub-device-accounts.md)
-#### [Online- oder Hybridbereitstellung mithilfe der Skype Hybrid Voice-Umgebung](skype-hybrid-voice.md)
-#### [Erstellen eines Gerätekontos über die Benutzeroberfläche](create-a-device-account-using-office-365.md)
 #### [Microsoft Exchange-Eigenschaften](exchange-properties-for-surface-hub-device-accounts.md)
 #### [Anwenden von ActiveSync-Richtlinien auf Gerätekonten](apply-activesync-policies-for-surface-hub-device-accounts.md)
 #### [Kennwortverwaltung](password-management-for-surface-hub-device-accounts.md)
