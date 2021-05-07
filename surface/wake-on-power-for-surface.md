@@ -60,16 +60,16 @@ ms.locfileid: "11271559"
 1.  <span data-ttu-id="5da3e-120">Laden Sie die neueste Version von [Surface UEFI Configurator herunter.](https://www.microsoft.com/download/confirmation.aspx?id=46703)</span><span class="sxs-lookup"><span data-stu-id="5da3e-120">Download the latest version of [Surface UEFI Configurator](https://www.microsoft.com/download/confirmation.aspx?id=46703).</span></span>
 2.  <span data-ttu-id="5da3e-121">Melden Sie sich als Administrator bei Ihrem Surface-Gerät an, öffnen Sie **den Surface UEFI-Konfigurator,** wählen Sie **"Surface Devices"** aus, und wählen Sie dann **"Weiter" aus.**</span><span class="sxs-lookup"><span data-stu-id="5da3e-121">Sign in to your Surface device as an administrator, open **Surface UEFI Configurator**, select **Surface Devices**, and then select **Next**.</span></span>
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-1.png" alt-text="Wählen Sie "Surface-Geräte" und "Weiter" aus.":::
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-1.png" alt-text="Wählen Sie Surface-Geräte und Weiter aus.":::
 3.  <span data-ttu-id="5da3e-123">Wählen **Sie "Start"** und dann **"Erstellen"** unter **"Konfigurationspaket" aus.**</span><span class="sxs-lookup"><span data-stu-id="5da3e-123">Select **Start**, and then select **Create** under **Configuration Package**.</span></span>
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-2.png" alt-text="Wählen Sie "Konfigurationspaket erstellen" aus.":::
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-2.png" alt-text="Wählen Sie Konfigurationspaket erstellen aus.":::
 4.  <span data-ttu-id="5da3e-125">Wählen **Sie Zertifikatschutz**aus, und fügen Sie die ZERTIFIKAT-PFX-Datei hinzu.</span><span class="sxs-lookup"><span data-stu-id="5da3e-125">Select **Certificate Protection**, and add your certificate .pfx file.</span></span> 
 5. <span data-ttu-id="5da3e-126">Geben Sie Ihr Kennwort ein, wählen **Sie "Weiter",** **fügen**Sie gegebenenfalls Den Kennwortschutz hinzu, und wählen Sie dann **"Weiter" aus.**</span><span class="sxs-lookup"><span data-stu-id="5da3e-126">Enter your password, select **Next**, add **Password Protection**, as appropriate, and then select **Next**.</span></span>
 6.  <span data-ttu-id="5da3e-127">Wählen Sie **auf der Seite "Wählen Sie aus,** welchen Surface-Typ Sie als Ziel verwenden möchten" ihre Zielgeräte aus.</span><span class="sxs-lookup"><span data-stu-id="5da3e-127">On the **Choose which Surface type you want to target** page, select your target devices as appropriate.</span></span> <span data-ttu-id="5da3e-128">Wählen Sie beispielsweise Surface Pro **7 aus.**</span><span class="sxs-lookup"><span data-stu-id="5da3e-128">For example, select **Surface Pro 7**.</span></span>
 7.  <span data-ttu-id="5da3e-129">On the **Advanced Features** page, select Wake **on Power,** set the feature to **On**, and then select **Next**.</span><span class="sxs-lookup"><span data-stu-id="5da3e-129">On the **Advanced Features** page, select **Wake on Power**, set the feature to **On**, and then select **Next**.</span></span>
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-3.png" alt-text="Wählen Sie "Aktivierung aktivieren" aus, und legen Sie es auf "Ein" festgelegt."::: 
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-3.png" alt-text="Wählen Sie Aktivierung aktivieren aus, und legen Sie es auf Ein festgelegt."::: 
 8.  <span data-ttu-id="5da3e-131">Wählen Sie **auf der Seite "Erfolgreich"** die Option **"Ende" aus.**</span><span class="sxs-lookup"><span data-stu-id="5da3e-131">On the **Successful** page, select **End**.</span></span>
 
     > [!NOTE]
@@ -91,7 +91,7 @@ ms.locfileid: "11271559"
     :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-4.png" alt-text="Wählen Sie OK aus, oder deaktivieren Sie BitLocker.":::
 3.  <span data-ttu-id="5da3e-140">Wählen Sie auf der Willkommensseite **"Weiter"** aus, um das Paket ausführen und die neu konfigurierte Einstellung für UEFI anzuwenden.</span><span class="sxs-lookup"><span data-stu-id="5da3e-140">On the Welcome page, select **Next** to run the package and apply the newly configured UEFI setting.</span></span>
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-5.png" alt-text="Wählen Sie auf der Willkommensseite "Weiter" aus.":::
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-5.png" alt-text="Wählen Sie auf der Willkommensseite Weiter aus.":::
 4.  <span data-ttu-id="5da3e-142">Starten Sie Das Gerät neu.</span><span class="sxs-lookup"><span data-stu-id="5da3e-142">Restart your device.</span></span> 
 
 <span data-ttu-id="5da3e-143">Wake on Power ist jetzt konfiguriert.</span><span class="sxs-lookup"><span data-stu-id="5da3e-143">Wake on Power is now configured.</span></span> <span data-ttu-id="5da3e-144">Um die Einstellungen zu testen, schalten Sie Ihr Gerät aus, trennen Sie das Netzgerät, und verbinden Sie es erneut.</span><span class="sxs-lookup"><span data-stu-id="5da3e-144">To test the settings, turn off your device, disconnect the power, and then reconnect the power.</span></span> <span data-ttu-id="5da3e-145">Das Gerät sollte automatisch gestartet werden.</span><span class="sxs-lookup"><span data-stu-id="5da3e-145">The device should start automatically.</span></span> 
