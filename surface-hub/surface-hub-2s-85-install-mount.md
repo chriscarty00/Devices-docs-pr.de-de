@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 03/22/2021
+ms.date: 03/22/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 9b7a3e49f3fa05117fa37cbd47695e54ff26e899
-ms.sourcegitcommit: f9e7c091a26df0f99500c0d8b6cf40a81133e4e2
+ms.openlocfilehash: 6224f9aa3abed85d5aff7e7e58fccbb6df41d283
+ms.sourcegitcommit: 6c362c5d5f67449f1adf4618847093eaf6ad087b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "11470493"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "11442909"
 ---
 # <a name="install-and-mount-surface-hub-2s-85"></a>Installieren und Montieren von Surface Hub 2S 85"
 
@@ -125,9 +125,9 @@ Zusätzliches Umreifungsmaterial befindet sich in der kleinen Packung, die sich 
 
 13. Lösen Sie die elastischen Spannclips (2 St.).
 14. Entfernen Sie die Tuchabdeckung.
-15. Notieren Sie die Positionen für die Platzierung der Stifte (2St.), der Kamera und des Netzkabels.
-16. Fügen Sie Stifte (2St.), Kamera und Netzkabel an.
-17. Entfernen Sie die Klebeetiketten (4St.).
+15. Notieren Sie die Positionen für die Platzierung der Stifte (2 St.), der Kamera und des Netzkabels.
+16. Fügen Sie Stifte (2 St.), Kamera und Netzkabel an.
+17. Entfernen Sie die Klebeetiketten (4 St.).
 18. Drücken Sie die Netztaste unten rechts. Die Installation ist nun abgeschlossen.
 
  

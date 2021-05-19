@@ -25,7 +25,7 @@ ms.locfileid: "11271359"
 
 Surface Pro X ist für hohe kommerzielle Leistungsanforderungen konzipiert und beschreitet neue Wege durch den integrierten leistungsstärksten Prozessor seiner Klasse, den Microsoft SQ1 und Microsoft SQ1 ARM-Chipsatz.
 
-Mit einer CPU mit 3GHz und einer GPU mit 2,1 Teraflops bietet Surface Pro X eine vollständige Windows-Umgebung. Dank der integrierten Gigabit-LTE-Batterie mit einer Laufzeit von 15 Stunden und der Vielseitigkeit von Touch, Stift, Tablett und Laptop eignet es sich für mobile Mitarbeiter und Profis in den Bereichen Finanzen, Recht und Medizin oder in allen Bereichen, in denen eine längere Akkulaufzeit und kontinuierliche Konnektivität erforderlich sind.
+Mit einer CPU mit 3 GHz und einer GPU mit 2,1 Teraflops bietet Surface Pro X eine vollständige Windows-Umgebung. Dank der integrierten Gigabit-LTE-Batterie mit einer Laufzeit von 15 Stunden und der Vielseitigkeit von Touch, Stift, Tablett und Laptop eignet es sich für mobile Mitarbeiter und Profis in den Bereichen Finanzen, Recht und Medizin oder in allen Bereichen, in denen eine längere Akkulaufzeit und kontinuierliche Konnektivität erforderlich sind.
 
 Surface Pro X ist fast ausschließlich für eine moderne, cloudbasierte Umgebung konzipiert und funktioniert am besten in Verbindung mit Microsoft 365, Intune und Windows Autopilot. Dieser Artikel beschreibt, wie das im Einzelnen aussieht, und führt die wichtigsten Überlegungen zur Bereitstellung, Verwaltung und Wartung des Surface Pro X aus.
 
@@ -64,7 +64,7 @@ Sie können Surface Pro X-Geräte möglicherweise mit MDM-Tools von Drittanbiete
 
 Windows Defender trägt während der unterstützten Lebensdauer Ihres Windows 10-Geräts zum Schutz von Windows 10 auf ARM-basierten PCs bei. 
 
-Die Antivirensoftware eines Drittanbieters kann nicht auf einem Windows10-PC installiert werden, auf dem ein ARM-basierter Prozessor ausgeführt wird. Die Zusammenarbeit mit Drittanbietern von Antivirensoftware wird fortgesetzt, um die AV-App-Vorbereitung auf ARM-basierten PCs zu gewährleisten. Wenden Sie sich den Anbieter der Antivirensoftware, um weitere Informationen zur Verfügbarkeit ihrer Apps zu erhalten.
+Die Antivirensoftware eines Drittanbieters kann nicht auf einem Windows 10-PC installiert werden, auf dem ein ARM-basierter Prozessor ausgeführt wird. Die Zusammenarbeit mit Drittanbietern von Antivirensoftware wird fortgesetzt, um die AV-App-Vorbereitung auf ARM-basierten PCs zu gewährleisten. Wenden Sie sich den Anbieter der Antivirensoftware, um weitere Informationen zur Verfügbarkeit ihrer Apps zu erhalten.
 
 ## Warten von Surface Pro X
 
@@ -83,13 +83,13 @@ Surface Pro X ist auf Windows Update ausgelegt, um das Aktualisieren von Treiber
 
 ## Ausführen von Apps auf Surface Pro X
 
-Bis auf einige Ausnahmen, werden die meisten Apps auf ARM-basierten Windows10-PCs ausgeführt.
+Bis auf einige Ausnahmen, werden die meisten Apps auf ARM-basierten Windows 10-PCs ausgeführt.
 
 ### Unterstützte Apps
 
 - Die meisten x86 Win32-Apps werden auf Surface Pro X ausgeführt.
 - Native ARM64- und UWP-Apps für den Microsoft Store bieten eine hervorragende Benutzerfreundlichkeit durch die Nutzung der vollständig nativen Geschwindigkeit des ARM-basierten Prozessors, und dies bei gleichzeitiger Optimierung der Akkulaufzeit.
-- Apps, die Treiber verwenden, die für einen Windows10-PC mit einem ARM-basierten Prozessor ausgelegt sind.
+- Apps, die Treiber verwenden, die für einen Windows 10-PC mit einem ARM-basierten Prozessor ausgelegt sind.
 
 > [!NOTE]
 > Mit der 64-Bit-Emulation, die demnächst in der Vorschau über das Windows-Insider-Programm eingeführt wird, können Sie 64-Bit (x64) Apps auf Surface Pro X ausführen.
@@ -100,8 +100,8 @@ Das App Assure-Programm steht kommerziellen Kunden für ihre LOB-, ISV- und Micr
 
 Weitere Informationen zum Ausführen von Apps auf Surface Pro X finden Sie unter:
 
-- [Häufig gestellte Fragen zu Windows10 ARM-basierten PCs](https://support.microsoft.com/help/4521606)
-- [Dokumentation zu Windows10 auf ARM](https://docs.microsoft.com/windows/arm)
+- [Häufig gestellte Fragen zu Windows 10 ARM-basierten PCs](https://support.microsoft.com/help/4521606)
+- [Dokumentation zu Windows 10 auf ARM](https://docs.microsoft.com/windows/arm)
 
 ## Virtuelle Desktops (VDI)
 
@@ -112,22 +112,22 @@ Windows Virtual Desktop ermöglicht den Zugriff auf Windows-Desktopcomputer, -An
 Gängige auf Surface Pro X ausgeführte Browser:
 
 - Integrierte Browser wie Edge, Firefox, Chrome und Internet Explorer werden auf Surface Pro X ausgeführt.
-- Firefox und Microsoft Edge, die auf Chrome basieren, sind direkt ausführbar und bieten somit eine höhere Leistung auf einem Windows10-PC mit ARM-basiertem Prozessor.
+- Firefox und Microsoft Edge, die auf Chrome basieren, sind direkt ausführbar und bieten somit eine höhere Leistung auf einem Windows 10-PC mit ARM-basiertem Prozessor.
 
 ## Installieren und Verwenden von Microsoft Office
 
-- Verwenden Sie Office365 auf einem Windows10-PC mit ARM-basiertem Prozessor, um optimale Ergebnisse zu erzielen.
+- Verwenden Sie Office 365 auf einem Windows 10-PC mit ARM-basiertem Prozessor, um optimale Ergebnisse zu erzielen.
 - Office 365 "Klick-und-Los" installiert Outlook, Word, Excel und PowerPoint, optimiert für die Ausführung auf einem Windows 10-PC auf einem ARM-basierten Prozessor.
 - Microsoft Teams wird problemlos auf Surface Pro X ausgeführt.
 - Installieren Sie für "unbefristete Versionen" von Office wie Office 2019 die 32-Bit-Version.
 
 ## VPN
 
-Um zu ermitteln, ob ein bestimmtes VPN eines Drittanbieters einen Windows10 PC auf einem ARM-basierten Prozessor unterstützt, wenden Sie sich an den VPN-Anbieter.
+Um zu ermitteln, ob ein bestimmtes VPN eines Drittanbieters einen Windows 10 PC auf einem ARM-basierten Prozessor unterstützt, wenden Sie sich an den VPN-Anbieter.
 
 ## Featurezusammenfassung
 
-Die folgenden Tabellen zeigen die Verfügbarkeit ausgewählter wichtiger Features auf Surface Pro X mit Windows10 auf ARM.
+Die folgenden Tabellen zeigen die Verfügbarkeit ausgewählter wichtiger Features auf Surface Pro X mit Windows 10 auf ARM.
 
 
 **Bereitstellung**
@@ -167,8 +167,8 @@ Die folgenden Tabellen zeigen die Verfügbarkeit ausgewählter wichtiger Feature
  Feature                                       | J/N     | Anmerkungen                                                                                 |
 | --------------------------------------------- | ------- | ------------------------------------------------------------------------------------- |
 | BitLocker                                     | Ja     |                                                       |
-| WindowsDefender                              | Ja     |                                                                                       |
-| Unterstützung für Antivirensoftware von Drittanbietern             | Siehe Hinweis| Die Antivirensoftware eines Drittanbieters kann nicht auf einem Windows10-PC installiert werden, auf dem ein ARM-basierter Prozessor ausgeführt wird. Die Zusammenarbeit mit Drittanbietern von Antivirensoftware wird fortgesetzt, um die AV-App-Vorbereitung auf ARM-basierten PCs zu gewährleisten. Wenden Sie sich den Anbieter der Antivirensoftware, um weitere Informationen zur Verfügbarkeit ihrer Apps zu erhalten. |
+| Windows Defender                              | Ja     |                                                                                       |
+| Unterstützung für Antivirensoftware von Drittanbietern             | Siehe Hinweis| Die Antivirensoftware eines Drittanbieters kann nicht auf einem Windows 10-PC installiert werden, auf dem ein ARM-basierter Prozessor ausgeführt wird. Die Zusammenarbeit mit Drittanbietern von Antivirensoftware wird fortgesetzt, um die AV-App-Vorbereitung auf ARM-basierten PCs zu gewährleisten. Wenden Sie sich den Anbieter der Antivirensoftware, um weitere Informationen zur Verfügbarkeit ihrer Apps zu erhalten. |
 | Sicherer Start               | Ja     |                                                                                       |
 | Windows Information Protection                      | Ja     |                                                                                       |
 | Surface Data Eraser (SDE)     | Ja     |                                                                                       |
