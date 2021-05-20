@@ -10,248 +10,91 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 06/20/2019
+ms.date: 05/14/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: e0c31082669336d3762fd02f46a939aa8b0ff1bc
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+appliesto:
+- Surface Hub
+- Surface Hub 2S
+ms.openlocfilehash: c0bba196aa71c751d092b4e1f2f6005d653b2f69
+ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10833853"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "11576715"
 ---
-# Setup-Arbeitsblatt (Surface Hub)
-
+# <a name="setup-worksheet-surface-hub"></a>Setup-Arbeitsblatt (Surface Hub)
 
 Wenn Sie die Vorab-Einrichtung abgeschlossen haben und bereit für das erste Einrichten von Microsoft Surface Hub sind, stellen Sie sicher, dass Sie alle in diesem Abschnitt aufgeführten Informationen zur Hand haben.
 
 Füllen Sie für jedes zu konfigurierende Surface Hub eine Liste aus. Einige Informationen können für alle Surface Hubs verwendet werden, z.B. die Proxyinformationen oder Domänenanmeldeinformationen. Einige dieser Informationen sind ggf. nicht erforderlich, je nachdem, wie Sie das Gerät konfigurieren möchten oder je nach Konfiguration der Infrastrukturumgebung Ihrer Organisation.
 
-<table>
-<tr>
-<th>Eigenschaft</th>
-<th>Verwendungszweck</th>
-<th>Beispiel</th>
-<th>Tatsächlicher Wert</th>
-</tr>
-<tr>
-<td>
-<p>Proxyinformationen</p>
-</td>
-<td>
-<p>Wenn Sie einen Proxy für Netzwerk- und/oder Internetzugriff verwenden, müssen Sie ein Skript oder Server-/Portinformationen angeben.</p>
-</td>
-<td>
-<p>Proxyskript: <code>http://contoso/proxy.pa</code> </br>
-- ODER </br>
-Server- und Portinformationen: 10.10.10.100, Port 80
-</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Drahtlosnetzwerk-Anmeldeinformationen (Benutzername und Kennwort)</p>
-</td>
-<td>
-<p>Wenn Sie Ihr Gerät per WLAN verbinden möchten und für Ihr Drahtlosnetzwerk Benutzeranmeldeinformationen erforderlich sind.</p>
-</td>
-<td>
-<p>admin1@contoso.com, #MyPassw0rd</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Gerätekonto-Benutzerprinzipalname oder Domäne\Benutzername und Gerätekonto-Kennwort</p>
-</td>
-<td>
-<p>Dies sind der Benutzerprinzipalname (UPN) oder Domäne\Benutzername und das Kennwort für das Gerätekonto. E-Mail-, Kalender-Funktionen und Skype for Business erfordern ein kompatibles Gerätekonto.</p>
-</td>
-<td>
-<p> Benutzerprinzipalname: ConfRoom15@contoso.com, #Passw0rd1 </br>
-- ODER <br> 
-Domäne und Benutzername: CONTOSO\ConfRoom15, #Passw0rd1</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Microsoft Exchange Server für Gerätekonto</p>
-</td>
-<td>
-<p>Dies ist der Exchange-Server für das Gerätekonto.
-E-Mail-, Kalender-Funktionen und Skype for Business erfordern ein kompatibles Gerätekonto.
-Zu Nutzung von E-Mail und Kalender-Funktionen muss das Gerätekonto einen gültigen Exchange-Server aufweisen. Es wird versucht, diesen automatisch zu finden.</p>
-</td>
-<td>
-<p>outlook.office365.com</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Session Initiation-Protokoll (SIP)-Adresse für Gerätekonto</p>
-</td>
-<td>
-<p>Hierbei handelt es sich um die Skype for Business-SIP-Adresse des Gerätekontos.
-E-Mail-, Kalender-Funktionen und Skype for Business erfordern ein kompatibles Gerätekonto.
-Zur Nutzung von Skype for Business muss das Gerätekonto eine gültige SIP-Adresse aufweisen. Es wird versucht, diesen automatisch zu finden.</p>
-</td>
-<td>
-<p>sip: ConfRoom15@contoso.com</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Anzeigename</p>
-</td>
-<td>
-<p>Der Anzeigename des Geräts ist der Name, der beim Herstellen einer Drahtlosverbindung mit dem Surface-Hub angezeigt wird. Der Name wird gut sichtbar auf dem Bildschirm des Surface Hub angezeigt.
-Es wird empfohlen, einen einprägsamen und aussagekräftigen Anzeigename auszuwählen, sodass die Benutzer beim Herstellen einer Verbindung mehrere Surface Hubs voneinander unterscheiden können.</p>
-</td>
-<td>
-<p>Konferenzraum 15</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Gerätename</p>
-</td>
-<td>
-<p>Der Gerätename ist der Name, der zum Beitreten zu einer Domäne verwendet wird, und die Kennung für die Registrierung des Geräts bei einem MDM-Anbieter.
-Der gewählte Gerätename muss sich von den Namen aller anderen Geräte in der Active Directory-Domäne unterscheiden (wenn Sie das Gerät einer Domäne hinzufügen möchten). Das Gerät kann der Domäne nicht hinzugefügt werden, wenn der Name nicht eindeutig ist.
-</p>
-</td>
-<td>
-<p>Konfraum15</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td colspan="4">
-<p><b>WENN SIE AZURE AD BEITRETEN</b></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Azure AD-Mandanten-Anmeldeinformationen (Benutzername und Kennwort)</p>
-</td>
-<td>
-<p>Wenn Sie Personen in Ihrer Azure Active Directory (Azure AD)-Organisation Administratorberechtigungen für das Gerät zuweisen möchten, müssen Sie Azure AD beitreten.
-Um Azure AD beizutreten, benötigen Sie gültige Benutzeranmeldeinformationen.</p>
-</td>
-<td>
-<p>admin1@contoso.com, #MyPassw0rd</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td colspan="4">
-<p><b>WENN SIE EINER DOMÄNE BEITRETEN</b></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Domäne für den Beitritt</p>
-</td>
-<td>
-<p>Hierbei handelt es sich um die Domäne, der Sie beitreten müssen, damit der Sicherheitsgruppe Ihrer Wahl Administratorberechtigungen für das Gerät zugewiesen werden können.
-Möglicherweise ist der vollqualifizierte Domänenname (FQDN) erforderlich.</p>
-</td>
-<td>
-<p>contoso (Kurzname) ODER contoso.corp.com (FQDN)</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Domänenkonto-Anmeldeinformationen (Benutzername und Kennwort)</p>
-</td>
-<td>
-<p>Der Beitritt zu einer Domäne kann nur dann erfolgen, wenn die angegebenen Kontoanmeldeinformationen für den Beitritt zur Domäne ausreichen. Nachdem Sie eine Domäne und Anmeldeinformationen für den Beitritt angegeben haben, kann die Sicherheitsgruppe Ihrer Wahl Einstellungen auf dem Gerät ändern.</p>
-</td>
-<td>
-<p>admin1, #MyPassw0rd</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Alias für Administrator-Sicherheitsgruppe</p>
-</td>
-<td>
-<p>Dies ist eine Sicherheitsgruppe in Active Directory (AD). Alle Mitglieder dieser Sicherheitsgruppe können Einstellungen auf dem Gerät ändern.</p>
-</td>
-<td>
-<p>SurfaceHubAdmins</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td colspan="4">
-<p><b>WENN SIE EINEN LOKALEN ADMINISTRATOR VERWENDEN</b></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Kontoanmeldeinformationen für lokalen Administrator (Benutzername und Kennwort)</p>
-</td>
-<td>
-<p>Wenn Sie keiner Active Directory-Domäne oder Azure AD beitreten möchten, können Sie ein lokales Administratorkonto auf dem Gerät erstellen.</p>
-</td>
-<td>
-<p>admin1, #MyPassw0rd</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td colspan="4">
-<p><b>WENN ZERTIFIKATE ODER APPS INSTALLIERT WERDEN MÜSSEN</b></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>USB-Laufwerk</p>
-</td>
-<td>
-<p>Wenn Sie vor der ersten Ausführung Zertifikate oder universelle Apps installieren möchten, führen Sie die Schritte unter <a href="provisioning-packages-for-certificates-surface-hub.md">Erstellen von Bereitstellungspaketen</a> aus. Die Bereitstellungspakete werden auf einem USB-Laufwerk erstellt.</p>
-</td>
-<td>
-<p></p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-</table> 
+Wenn Sie fertig sind, lesen Sie [die Prüfliste nach der Bereitstellung](#post-deployment-checklist) unten.
 
+| Eigenschaft                                                          | Verwendungszweck                                                                                                                                                                                                                                                                                                                                                           | Beispiel                                                                                                                               | Mehr erfahren                                                                                                                                                                                                                                                              |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Proxyinformationen                                                 | Wenn Sie einen Proxy für den Netzwerk- oder Internetzugriff verwenden, müssen Sie ein Skript oder Server-/Portinformationen bereitstellen.                                                                                                                                                                                                                                                                        |  Proxyskript: http://contoso/proxy.pac <br><br>Oder:<br><br>Server- und Portinformationen: 10.10.10.100, Port 80                                  | [Konfigurieren des Proxys mithilfe des Bereitstellungspakets.](surface-hub-2s-deploy.md)                                                                                                                           |
+| Drahtlosnetzwerk-Anmeldeinformationen (Benutzername und Kennwort)              | Wenn Sie Ihr Gerät mit WLAN verbinden und Ihr Drahtlosnetzwerk Benutzeranmeldeinformationen benötigt.                                                                                                                                                                                                                                                                                           | admin1@contoso.com, #MyPassw0rd                                                                                                       | [Verwalten eines Funknetzwerks](wireless-network-management-for-surface-hub.md)                                                                                                                                                 |
+| Gerätekonto-Benutzerprinzipalname oder Domäne\Benutzername und Gerätekonto-Kennwort | Dies sind der Benutzerprinzipalname (UPN) oder Domäne\Benutzername und das Kennwort für das Gerätekonto. E-Mail, Kalender, Microsoft Teams und Skype for Business sind von einem kompatiblen Gerätekonto abhängig.                                                                                                                                                                            | Benutzerprinzipalname: ConfRoom15@contoso.com, #Passw0rd1 <br><br>Oder:<br><br>Domäne und Benutzername: CONTOSO\ConfRoom15, #Passw0rd1                        | [Erstellen und Testen eines Gerätekontos](create-and-test-a-device-account-surface-hub.md) |
+| Postfacheigenschaften                                                | Das Postfach muss mit den richtigen Eigenschaften konfiguriert sein, um eine optimale Besprechungserfahrung auf Surface Hub zu ermöglichen.                                                                                                                                                                                                                                                                | Siehe [Microsoft Exchange-Eigenschaften](exchange-properties-for-surface-hub-device-accounts.md) |                                                                                                                                        |
+| EWS-URL für das Postfach des Gerätekontos                              | Dies ist der Exchange-Server für das Gerätekonto. E-Mail, Kalender, Microsoft Teams und Skype for Business sind von einem kompatiblen Gerätekonto abhängig. Zu Nutzung von E-Mail und Kalender-Funktionen muss das Gerätekonto einen gültigen Exchange-Server aufweisen. Es wird versucht, diesen automatisch zu finden.                                                                                               | https://outlook.office365.com/EWS/exchange.asmx                                                                                                                 | [Erstellen und Testen eines Gerätekontos](create-and-test-a-device-account-surface-hub.md)<br><br>[Microsoft Exchange-Eigenschaften](exchange-properties-for-surface-hub-device-accounts.md)      |
+| Session Initiation-Protokoll (SIP)-Adresse für Gerätekonto          | Dies ist die SIP-Adresse des Gerätekontos. E-Mail, Kalender, Microsoft Teams und Skype for Business sind von einem kompatiblen Gerätekonto abhängig. Damit Teams oder Skype business funktionieren, muss das Gerätekonto über eine gültige SIP-Adresse verfügen Das Gerät versucht, diese automatisch zu finden.                                                                                              | sip: ConfRoom15@contoso.com                                                                                                           |                                                                                                                                                                                                                                                                         |
+| Gerätekontokennwort                                           | Um die Verwaltung zu vereinfachen, können Sie entweder den Ablauf des Kennworts für das Gerätekonto deaktivieren oder Surface Hub das Gerätekontokennwort automatisch drehen. <br> <br>**Hinweis:** Wenn Sie das Konto im Format "Domäne\Benutzername" hinzufügen, verbinden Sie den Hub während der Ersteinrichtung mit dem lokalen Active Directory. Wenn Sie das Konto im username@domain.com hinzufügen, verbinden Sie den Hub Azure Active Directory Ersteinrichtung. Andernfalls funktioniert die Kennwortrotation nicht.                                                                                                                                                                                                                 |                                                                                                                                       | [Kennwortverwaltung](password-management-for-surface-hub-device-accounts.md)                                                                                                                                                 |
+| Exchange Webdienste (EWS)                                       | Aktivieren Sie EWS. Surface Hub verwendet EWS, um seinen Kalender zu synchronisieren.                                                                                                                                                                                                                                                                                                                          |                                                                                                                                       | [Moderne Authentifizierung auf Surface Hub](surface-hub-modern-auth.md)                                                                                                                                                            |
+| Mehrstufige Authentifizierung                                        | Deaktivieren Sie die mehrstufige Authentifizierung für das Gerätekonto. Da sich Surface Hub im Hintergrund Exchange Benutzerinteraktion anmeldet, kann es nicht auf interaktive Eingabeaufforderungen reagieren, z. B. auf die mehrstufige Authentifizierung.                                                                                                                                                                         |                                                                                                                                       |                                                                                                                                                                                                                                                                         |
+| Details zur MDM-Registrierung                                            | Wenn Sie das Gerät manuell bei MDM registrieren möchten, benötigen Sie Benutzeranmeldeinformationen, die für den MDM-Anbieter und die Registrierungs-URL gültig sind. Das Gerät versucht, die Registrierungs-URL automatisch zu finden. | manage.microsoft.com | [Verwalten von Surface Hub mit einem MDM-Anbieter](manage-settings-with-mdm-for-surface-hub.md) |
+| Anzeigename                                                     | Der Anzeigename des Geräts ist der Name, der beim Herstellen einer Drahtlosverbindung mit dem Surface-Hub angezeigt wird. Der Name wird gut sichtbar auf dem Bildschirm des Surface Hub angezeigt. Es wird empfohlen, einen einprägsamen und aussagekräftigen Anzeigename auszuwählen, sodass die Benutzer beim Herstellen einer Verbindung mehrere Surface Hubs voneinander unterscheiden können.             | Konferenzraum 15                                                                                                                    | [Erstes Setup für Surface Hub](surface-hub-2s-setup.md)                                                                                                                                                                   |
+| Gerätename                                                       | Der Gerätename ist der Name, der zum Beitreten zu einer Domäne verwendet wird, und die Kennung für die Registrierung des Geräts bei einem MDM-Anbieter. Der gerätename, den Sie auswählen, darf nicht mit dem Namen eines anderen Geräts in Ihrer Active Directory-Domäne identisch sein (wenn Sie sich für den Beitritt zum Gerät entscheiden). Das Gerät kann der Domäne nicht ohne einen eindeutigen Namen beitreten.  | Konfraum15                                                                                                                            | [Erstes Setup für Surface Hub](surface-hub-2s-setup.md)                                                                                                                                                                   |
+| Modus der Teams-App                                                    | - Modus 0 – Skype for Business mit Microsoft Teams für geplante Besprechungen.<br>- Modus 1 – Microsoft Teams mit Skype for Business für geplante Besprechungen.<br>- Modus 2 – nur Microsoft Teams                                                                                                                                                         |                                                                                                                                       | [Ändern der Standardmäßigen Geschäftskommunikationsplattform](manage-settings-with-mdm-for-surface-hub.md)                                                                            |
 
+## <a name="device-affiliation"></a>Gerätezugehörigkeit
 
+Verwenden Sie Gerätezugehörigkeit, um den Benutzerzugriff auf die Einstellungen app auf Surface Hub. Mit dem Windows 10 Team Betriebssystem (das auf Surface Hub ausgeführt wird) können nur autorisierte Benutzer Einstellungen mithilfe der Einstellungen anpassen. Da sich die Auswahl der Zuordnung auf die Featureverfügbarkeit auswirken kann, sollten Sie entsprechend planen, um sicherzustellen, dass Benutzer wie beabsichtigt auf Features zugreifen können.
 
+> [!NOTE]
+> Sie können die Gerätezugehörigkeit nur während des anfänglichen Setups für die out-of-box-Besens (OOBE) festlegen. Wenn Sie die Gerätezugehörigkeit zurücksetzen müssen, müssen Sie das OOBE-Setup wiederholen.
 
+### <a name="if-youre-joining-azure-ad"></a>Wenn Sie Azure AD beitreten
+
+| Eigenschaft                                                 | Verwendungszweck                                                                                                                                                                                                                                                    | Beispiel                         | Mehr erfahren                                                                                                                        |
+| -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Azure AD-Mandanten-Anmeldeinformationen (Benutzername und Kennwort) | Wenn Sie entscheiden, dass Personen in Ihrer Azure Active Directory (Azure AD)-Organisation Administrator auf dem Gerät werden, müssen Sie der Surface Hub Azure AD beitreten. Zum Beitreten mit Azure AD benötigen Sie gültige Anmeldeinformationen für ein Konto im Mandanten.                                                               | admin1@contoso.com, #MyPassw0rd | [Administratorgruppenverwaltung](admin-group-management-for-surface-hub.md)                     |
+| Nicht globale Administratorkonten                                | Für Surface Hub, die Azure AD beigetreten sind, können Sie Administratorberechtigungen auf die Verwaltung der Einstellungen App auf Surface Hub. Auf diese Weise können Sie Administratorberechtigungen Surface Hub und potenziell unerwünschten Administratorzugriff auf eine gesamte Azure AD-Domäne verhindern. |                                 | [Konfigurieren nicht globaler Administratorkonten auf Surface Hub](surface-hub-2s-nonglobal-admin.md) |
+
+### <a name="if-youre-joining-a-domain"></a>Wenn Sie einer Domäne beitreten
+
+| Eigenschaft                                           | Verwendungszweck                                                                                                                                                                                                                        | Beispiel                                         |
+| -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| Domäne für den Beitritt                                     | Hierbei handelt es sich um die Domäne, der Sie beitreten müssen, damit der Sicherheitsgruppe Ihrer Wahl Administratorberechtigungen für das Gerät zugewiesen werden können. Möglicherweise ist der vollqualifizierte Domänenname (FQDN) erforderlich.                                                                          | contoso (Kurzname) ODER contoso.corp.com (FQDN) |
+| Domänenkonto-Anmeldeinformationen (Benutzername und Kennwort) | Der Beitritt zu einer Domäne kann nur dann erfolgen, wenn die angegebenen Kontoanmeldeinformationen für den Beitritt zur Domäne ausreichen. Nachdem Sie eine Domäne und Anmeldeinformationen für den Beitritt angegeben haben, kann die Sicherheitsgruppe Ihrer Wahl Einstellungen auf dem Gerät ändern. | admin1, #MyPassw0rd                             |
+| Alias für Administrator-Sicherheitsgruppe                         | Dies ist eine Sicherheitsgruppe in Active Directory (AD). Alle Mitglieder dieser Sicherheitsgruppe können Einstellungen auf dem Gerät ändern.                                                                                                                | SurfaceHubAdmins                                |
+
+### <a name="if-youre-using-a-local-admin"></a>Wenn Sie einen lokalen Administrator verwenden
+
+| Eigenschaft                                                | Verwendungszweck                                                                                   | Beispiel             |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------- |
+| Kontoanmeldeinformationen für lokalen Administrator (Benutzername und Kennwort) | Wenn Sie keiner Active Directory-Domäne oder Azure AD beitreten möchten, können Sie ein lokales Administratorkonto auf dem Gerät erstellen. | admin1, #MyPassw0rd |
+
+### <a name="if-you-need-to-install-certificates-or-apps"></a>Wenn Sie Zertifikate oder Apps installieren müssen
+
+| Eigenschaft  | Verwendungszweck                                                                                                                                                                                                                                                                                        |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| USB-Laufwerk | Wenn Sie vor der ersten Ausführung Zertifikate oder universelle Apps installieren möchten, führen Sie die Schritte unter [Erstellen von Bereitstellungspaketen](provisioning-packages-for-certificates-surface-hub.md) aus. Die Bereitstellungspakete werden auf einem USB-Laufwerk erstellt. |
+
+## <a name="post-deployment-checklist"></a>Prüfliste für die Bereitstellung nach der Bereitstellung
+
+| Überprüfen                                      | Antwort                                                                                                                                                                                                          |
+| ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Gerätekontosynchronisierung**                 | ☐ Ja <br><br>☐ Nein                                                                                                                                                                                                |
+| **Bitlocker-Taste**                          | ☐ in Datei gespeichert (keine Zugehörigkeit) <br><br>☐ in Active Directory gespeichert (AD-Zugehörigkeit) <br><br>☐ in Azure AD gespeichert (Azure AD-Zugehörigkeit)                                                                          |
+| **Gerätebetriebssystemupdates**                      | ☐ Abgeschlossen                                                                                                                                                                                                       |
+| **Windows Store Updates**                  | ☐ Automatisch <br><br>☐ Manual                                                                                                                                                                                      |
+| **Microsoft Teams geplante Besprechung**      | ☐ erhaltene Bestätigungs-E-Mail <br><br>☐ Besprechung wird auf dem Startbildschirm angezeigt <br><br>☐ One-Touch-Verknüpfungsfunktionen <br><br>☐ Audio beitreten <br><br>☐ Video beitreten <br><br>☐ Bildschirm freigeben               |
+| **Skype for Business geplante Besprechung**   | ☐ erhaltene Bestätigungs-E-Mail<br>☐ Besprechung wird auf dem Startbildschirm angezeigt<br>☐ one-touch join functions correctly<br>☐ Audio beitreten<br>☐ Video beitreten<br>☐ Bildschirm freigeben<br>☐ In der Lage, Im-Mail-Nachrichten zu senden/zu empfangen |
+| **Geplante Besprechung, wenn sie bereits eingeladen wurde** | ☐ Besprechung abgelehnt                                                                                                                                                                                                |
+| **Microsoft Teams ad-hoc-Besprechung**         | ☐ Andere Benutzer einladen <br><br>☐ Audio beitreten <br><br>☐ Video beitreten <br><br>☐ Bildschirm freigeben                                                                                                |
+| **Microsoft Whiteboard**                   | ☐ Starten vom Willkommens-/Startbildschirm <br><br>☐ Starten von Microsoft Teams                                                                                                                                        |
+| **Eingehender Teams/Skype Anruf**              | ☐ Audio beitreten<br>☐ Video beitreten<br>☐ Bildschirm freigeben<br>☐ Senden/Empfangen von Nachrichten (nur Skype for Business)                                                                                     |
+| **Eingehende Livevideostreams**            | ☐ Maximum 2 (Skype for Business)<br>☐ Maximal 4 (Microsoft Teams)                                                                                                                                                 |
+| **Microsoft Teams Verhalten im Modus 0**        | ☐ Skype for Business kachel auf dem Willkommens-/Startbildschirm<br>☐ Kann an geplanten Skype for Business (Skype) teilnehmen<br>☐ Kann an geplanten Teams (Teams) teilnehmen                                                |
+| **Microsoft Teams Verhalten von Modus 1**        | ☐ Teams kachel auf dem Willkommens-/Startbildschirm<br>☐ Kann an geplanten Skype for Business (Skype) teilnehmen<br>☐ Kann an geplanten Teams (Teams) teilnehmen                                                             |
+| **Microsoft Teams Verhalten von Modus 2**        | ☐ Teams Kachel auf dem Willkommens-/Startbildschirm<br>☐ Kann an geplanten Teams teilnehmen<br>☐ Fehler beim Beitreten Skype for Business Besprechungen                                                                                       |

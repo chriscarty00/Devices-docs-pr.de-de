@@ -1,6 +1,6 @@
 ---
-title: Installieren und Montieren des Surface Hub 2S
-description: Hier erfahren Sie, wie Sie Surface Hub 2S installieren und montieren.
+title: Installieren und Mounten Surface Hub 2S 50 Zoll
+description: Erfahren Sie, wie Sie 2S Surface Hub 50 Zoll installieren und mounten.
 keywords: Trennen Sie Werte durch Kommata
 ms.prod: surface-hub
 ms.sitesec: library
@@ -9,33 +9,33 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 06/20/2019
+ms.date: 04/16/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: 7e8e71b1c2d18f1c285ecbb4e494423fcd066723
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: de8274250de25085bc53c70e7f7d2a7f77b73f4d
+ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834175"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "11577105"
 ---
-# Installieren und Montieren des Surface Hub 2S
+# <a name="install-and-mount-surface-hub-2s-50"></a>Installieren und Mounten Surface Hub 2S 50"
 
-Surface Hub 2S ist für eine einfache Mobilität mit einem Formfaktor konzipiert, mit dem Sie das Gerät schnell installieren und verwenden können. Microsoft hat sich mit Steelcase mit den folgenden zertifizierten Befestigungslösungen zusammengearbeitet: mobiler Standfuß und durchstreifen der Wandhalterung. Beide werden vollständig in das Design von Surface Hub 2S integriert, wodurch ungehinderter Zugriff auf die Compute-Cartridge, Power, USB-A, USB-C und andere Ports möglich ist.
+Surface Hub 2S 50" ist für eine einfache Mobilität mit einem Formfaktor konzipiert, mit dem Sie das Gerät schnell installieren und verwenden können. Microsoft hat eine Partnerschaft mit Steelcase für die folgenden zertifizierten Montagelösungen hergestellt: Roam Mobile Stand und Roam Wall Mount. Beide sind vollständig in das Design von Surface Hub 2S 50" integriert und ermöglichen einen ungehinderten Zugriff auf die Rechentusche, den Strom, USB-A, USB-C und andere Ports.
 
-Sie können Surface Hub 2S mit der zertifizierten Wandhalterung oder dem zertifizierten mobilen Standfuß montieren, die beide in Partnerschaft mit Steelcase entwickelt wurden. Beide werden vollständig in das Design von Surface Hub 2S integriert, wodurch ungehinderter Zugriff auf die Compute-Cartridge zusammen mit allen e/a-Anschlüssen und Strom ermöglicht wird. 
+Sie können Surface Hub 2S 50" mit der zertifizierten Wandhalterung oder dem zertifizierten mobilen Ständer, beide in Zusammenarbeit mit Steelcase entwickelt, mounten. Beide sind vollständig in das Design von Surface Hub 2S 50" integriert und ermöglichen einen ungehinderten Zugriff auf die Rechenstusche zusammen mit allen E/A-Ports und Energie. 
 
-Weitere Informationen finden Sie unter [offiziell lizenziertes Zubehör von Drittanbietern](http://licensedhardware.azurewebsites.net/surface) und Anzeigen der Installations Demos des Surface-Produktteams unter [Steelcase Mobile-Ständer und APC-Batterie Einrichtung](https://youtu.be/VTzdu4Skpkg).
+Weitere Informationen finden Sie unter [Offiziell](http://licensedhardware.azurewebsites.net/surface) lizenziertes Zubehör von Drittanbietern und Anzeigen von Installationsdemos aus dem Surface-Produktteam am mobilen Stand von Steelcase und einrichten des [APC-Akkus.](https://youtu.be/VTzdu4Skpkg)
 
- ![Surface Hub 2S auf mobilem Roaming-Standfuß](images/sh2-mobile-stand.png)<br>
+ ![Surface Hub 2S 50" auf dem Roam Mobile Stand](images/sh2-mobile-stand.png)<br>
 
-Wenn Sie kein lizenziertes Zubehör verwenden, lesen Sie [Anpassen der Wandhalterung von Surface Hub 2S](surface-hub-2s-custom-install.md).
+Wenn Sie kein lizenziertes Zubehör verwenden, finden Sie weitere Informationen unter [Customize wall mount of Surface Hub 2S 50"](surface-hub-2s-custom-install.md).
 
-| 1. **richten Sie Ihre Halterung zuerst** ein | |
+| 1. **Richten Sie zuerst die Bereitstellung ein** | |
 |:------ |:-------- |
-| Belasse den Surface Hub in dem Feld, bis die Halterung eingerichtet ist und die Befestigungs Hardware verwendet wird. Mount ist nicht im Lieferumfang enthalten. Ihr Reittier ist separat erhältlich. | ![* Richten Sie zuerst Ihre Halterung ein *](images/sh2-setup-1.png) <br> |
-| 2. **Hardware an den Surface Hub anschließen** | |
-| Befestigungs-Hardware und spezifische Anweisungen finden Sie im Feld für ihre Halterung. | ![* Hardware an den Surface Hub * anschließen *](images/sh2-setup-2.png) <br> |
-| 3. **Entfernen Sie die Anleitungs Beschriftung, bevor Sie Sie montieren.** | |
-| Holen Sie sich jemanden, der Ihnen beim Heben und montieren Ihres Surface-Hubs hilft. Achten Sie darauf, den Surface Hub von unten zu halten und anzuheben. | ![* Entfernen Sie die Hinweis Beschriftung vor dem Einbau *](images/sh2-setup-3.png) <br> |
-| 4. **Zubehör anschließen und Einschalten** | |
-| Zubehör installieren und Netzkabel anschließen (siehe Abbildung). Schauen Sie sich die Führungslinien auf dem Bildschirm an. Entfernen Sie die Klammer Folie vom Bildschirm. Drücken Sie die Power-Taste, um ein-und auszuschalten. | ![* Zubehör anschließen und Einschalten *](images/sh2-setup-4.png) <br> |
+| Lassen Sie Surface Hub im Feld, bis die Bereitstellung eingerichtet ist und die Montagehardware angewendet wird. Die Bereitstellung ist nicht enthalten. Ihre Bereitstellung wird separat verkauft. | ![* Richten Sie zuerst die Bereitstellung ein *](images/sh2-setup-1.png) <br> |
+| 2. **Anfügen von Hardware an Surface Hub** | |
+| Die Installationshardware und bestimmte Anweisungen finden Sie im Feld für Ihre Bereitstellung. | ![* Anfügen von Hardware Surface Hub *](images/sh2-setup-2.png) <br> |
+| 3. **Entfernen Sie die Anweisungsbezeichnung vor der Befestigung.** | |
+| Holen Sie sich jemanden, der Ihnen beim Heben und Mounten Ihrer Surface Hub. Achten Sie darauf, die Surface Hub von unten zu halten und anheben. | ![* Entfernen Sie die Anweisungsbezeichnung vor der Montage *](images/sh2-setup-3.png) <br> |
+| 4. **Anfügen von Zubehör und Ein-/Aus** | |
+| Installieren Sie Zubehör, und schließen Sie das Netzkabel an, wie dargestellt. Siehe Führungslinien auf dem Bildschirm, die sich bündeln. Entfernen Sie den Umbruch aus dem Bildschirm. Drücken Sie die Ein-/Aus-Taste, um das Netz zu aktivieren. | ![* Zubehör und Netz anfügen *](images/sh2-setup-4.png) <br> |

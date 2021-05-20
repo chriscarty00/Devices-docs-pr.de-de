@@ -10,20 +10,20 @@ ms.date: 08/15/2018
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: c5b6a083d543649eab899d2fea36327d08f8bc29
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: cf9649b8d1f747722064793fbbde70116bc7f424
+ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832404"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "11576845"
 ---
-# Konfigurieren des Surface Hub-Startmenüs
+# <a name="configure-surface-hub-start-menu"></a>Konfigurieren des Surface Hub-Startmenüs
 
 Das [Update vom 17. Januar2018 für Windows10](https://support.microsoft.com/help/4057144) (Build 15063.877) ermöglicht angepasste Startmenüs auf Surface Hub-Geräten. Sie können das angepasste Startmenü-Layout mit der Verwaltung mobiler Geräte (MDM) verwenden.
 
 Wenn Sie ein benutzerdefiniertes Startmenü-Layout auf Surface Hub verwenden, können Benutzer auf dem Startbildschirm keine Apps anheften, lösen oder deinstallieren. 
 
-## So verwenden Sie ein angepasstes Startmenü auf Surface Hub
+## <a name="how-to-apply-a-customized-start-menu-to-surface-hub"></a>So verwenden Sie ein angepasstes Startmenü auf Surface Hub
 
 Das angepasste Startmenü ist in einer XML-Startlayoutdatei definiert. Zum Erstellen Ihrer XML-Startlayoutdatei verfügen Sie über zwei Optionen:
 
@@ -41,19 +41,23 @@ Um die standardmäßige XML-Datei oder das exportierte Layout zu bearbeiten, mac
 Wenn Sie das Startmenü in einem Startlayout-XML-Code definiert haben [erstellen Sie eine MDM-Richtlinie, um das Layout zu übernehmen.](https://docs.microsoft.com/windows/configuration/customize-windows-10-start-screens-by-using-mobile-device-management#a-href-idbkmk-domaingpodeploymentacreate-a-policy-for-your-customized-start-layout)
 
 <span id="differences" />
-## Unterschiede zwischen dem Startmenü auf Surface Hub und dem Desktop
+
+## <a name="differences-between-surface-hub-and-desktop-start-menu"></a>Unterschiede zwischen dem Startmenü auf Surface Hub und dem Desktop
 
 Es gibt einige wichtige Unterschiede zwischen der Anpassung der Startseite im Menü für Surface Hub und einem Windows10-Desktop:
 
-- Sie können **DesktopApplicationTile** ( https://docs.microsoft.com/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile) in Ihrem Start Layout-XML nicht verwenden, da Windows-Desktopanwendungen (Win32) nicht auf Surface Hub unterstützt werden.
+- Sie können **DesktopApplicationTile** ( in Ihrem Startlayout-XML nicht verwenden, da Windows Desktopanwendungen (Win32) nicht auf der https://docs.microsoft.com/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile) Surface Hub.
 - Sie können das Startlayout-XML nicht zur Konfiguration der Taskleiste oder der Willkommensseite für Surface Hub verwenden.  
+- Die Startlayoutrichtlinie sollte nur Geräten und nicht Benutzern zugewiesen werden.
+- Die in der Richtlinie zu verwendende OMA-URI-Einstellung ist `./Device/Vendor/MSFT/Policy/Config/Start/StartLayout`
 - Surface Hub unterstützt bis zu 6 Spalten (6 1x1-Kacheln), Sie **müssen** allerdings `GroupCellWidth=8` definieren, obwohl Surface Hub nur die Kacheln 0 bis 5 in Spalten anzeigt, und nicht die Spalten 6 und 7.
 - Surface Hub unterstützt maximal 6 Zeilen (6 Kacheln 1x1)
 - `SecondaryTile`, die für Links verwendet werden und den Link in Microsoft Edge öffnet.
 
 
 <span id="default" />
-## Beispiel: Surface Hub XML-Standardlayout
+
+## <a name="example-default-surface-hub-start-layout"></a>Beispiel: Surface Hub XML-Standardlayout
 
 ```xml
 <LayoutModificationTemplate Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
@@ -110,7 +114,8 @@ Es gibt einige wichtige Unterschiede zwischen der Anpassung der Startseite im Me
 ```
 
 <span id="edge" />
-## Beispiel: Startseitenlayout, das einen Link zu Microsoft Edge enthält
+
+## <a name="example-start-layout-that-includes-a-microsoft-edge-link"></a>Beispiel: Startseitenlayout, das einen Link zu Microsoft Edge enthält
 
 Dieses Beispiel zeigt einen Link zu einer Website und einen Link zu einer PDF-Datei. Die sekundäre Kachel für Microsoft Edge verwendet ein 150 x 150 Pixel-Symbol.
 
@@ -186,4 +191,4 @@ Dieses Beispiel zeigt einen Link zu einer Website und einen Link zu einer PDF-Da
 ```
 
 >[!NOTE]
->Der Standardwert für `ForegroundText` ist Light; Sie müssen `ForegroundText` Ihre XML-Datei nur dann einbeziehen, wenn Sie den Wert in "dunkel" ändern.
+>Der Standardwert für ist hell. Sie müssen ihre #A0 nur dann in die #A1 ein- und ausdunklieren, wenn Sie `ForegroundText` den Wert in Dunkel `ForegroundText` ändern.

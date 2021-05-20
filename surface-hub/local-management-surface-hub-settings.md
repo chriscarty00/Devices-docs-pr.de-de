@@ -11,18 +11,18 @@ ms.date: 07/08/2019
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 524d207ec1c117fb81d26ee233ea382ccb8d71d9
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 2403c57f88b0e14209b77b9f666141694384868d
+ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834030"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "11577035"
 ---
-# Lokale Verwaltung von Surface Hub-Einstellungen
+# <a name="local-management-for-surface-hub-settings"></a>Lokale Verwaltung von Surface Hub-Einstellungen
 
 Nach der Erstinstallation von Microsoft Surface Hub können die Einstellungen des Geräts lokal über **Einstellungen** verwaltet werden.
 
-## Surface Hub-Einstellungen
+## <a name="surface-hub-settings"></a>Surface Hub-Einstellungen
 
 Surface Hub-Geräte besitzen zahlreiche Einstellungen, die sie mit anderen Windows-Geräten gemeinsam haben. Es gibt jedoch auch Einstellungen, die nur auf Surface Hub-Geräten konfiguriert werden können. In dieser Tabelle werden die Einstellungen aufgelistet, die nur auf Surface Hubs konfiguriert werden können. 
 
@@ -45,20 +45,19 @@ Surface Hub-Geräte besitzen zahlreiche Einstellungen, die sie mit anderen Windo
 | Kanal für die drahtlose Projektion (Miracast) | Surface Hub > Projektion | Hier können Sie den Kanal für die Miracast-Projektion festlegen. |
 | Anzeige von Besprechungsinformationen auf der Willkommensseite | Surface Hub > Willkommensseite | Hier können Sie wählen, ob der Besprechungsorganisator, die Uhrzeit und der Betreff auf der Willkommensseite angezeigt werden. |
 | Hintergrund der Willkommensseite |  Surface Hub > Willkommensseite | Hier können Sie ein Hintergrundbild für die Willkommensseite auswählen. |
-| Sitzungstimeout für Willkommensbildschirm | Surface Hub > Sitzung & Power | Hier können Sie wählen, wie lange es dauert, bis Surface Hub zur Willkommensseite zurückkehrt, nachdem keine Bewegung erkannt wurde. |
-| Sitzung fortsetzen | Surface Hub > Sitzung & Power | Legen Sie Optionen fest, um Benutzern zu erlauben, dass sie eine Sitzung fortsetzen, nachdem keine Bewegung erkannt wurde, oder dass sie eine Sitzung automatisch bereinigen. |
-| Zugriff auf Office365-Besprechungen und -Dateien | Surface Hub > Sitzung & Power | Wählen Sie, ob sich ein Benutzer bei Office365 anmelden kann, um Zugriff auf Termine und Dateien zu erhalten. |
-| Aktivieren des Bildschirms mittels Bewegungssensoren | Surface Hub > Sitzung & Power | Hier können Sie wählen, ob der Bildschirm aktiviert wird, wenn eine Bewegung erkannt wird. |
-| Timeout des Bildschirms | Surface Hub > Sitzung & Power | Wählen Sie aus, wie lange das Gerät inaktiv sein muss, bevor Sie den Bildschirm ausschalten. |
-| Timeout für Standbymodus | Surface Hub > Sitzung & Power | Hier können Sie wählen, wie lange das Gerät inaktiv sein muss, bevor der Standbymodus aktiviert wird. |
+| Sitzungstimeout zum Willkommensbildschirm | Surface Hub > sitzungs & Power | Hier können Sie wählen, wie lange es dauert, bis Surface Hub zur Willkommensseite zurückkehrt, nachdem keine Bewegung erkannt wurde. |
+| Sitzung fortsetzen | Surface Hub > sitzungs & Power | Legen Sie Optionen fest, um Benutzern zu erlauben, dass sie eine Sitzung fortsetzen, nachdem keine Bewegung erkannt wurde, oder dass sie eine Sitzung automatisch bereinigen. |
+| Zugriff auf Office365-Besprechungen und -Dateien | Surface Hub > sitzungs & Power | Wählen Sie, ob sich ein Benutzer bei Office365 anmelden kann, um Zugriff auf Termine und Dateien zu erhalten. |
+| Aktivieren des Bildschirms mittels Bewegungssensoren | Surface Hub > sitzungs & Power | Hier können Sie wählen, ob der Bildschirm aktiviert wird, wenn eine Bewegung erkannt wird. |
+| Bildschirmzeitzeit | Surface Hub > sitzungs & Power | Wählen Sie aus, wie lange das Gerät inaktiv sein muss, bevor Sie den Bildschirm deaktivieren. |
+| Timeout für Standbymodus | Surface Hub > sitzungs & Power | Hier können Sie wählen, wie lange das Gerät inaktiv sein muss, bevor der Standbymodus aktiviert wird. |
 | Anzeigename | Surface Hub > Info | Legen Sie den Surface Hub-Namen fest, der Benutzern bei einer drahtlosen Verbindung angezeigt wird. |
 | Wartungsstunden | Update und Sicherheit > Windows-Update > Erweiterte Optionen | Hier können Sie konfigurieren, wann Updates installiert werden können. |
-| Konfigurieren des Windows Server Update Services (WSUS)-Servers | Update und Sicherheit > Windows-Update > Erweiterte Optionen | Hier können Sie festlegen, ob Surface Hub Updates von einem WSUS-Server anstelle von Windows Update erhalten soll. |
 | Wiederherstellen aus der Cloud | Update und Sicherheit > Wiederherstellung | Stellen Sie das Betriebssystem auf Surface Hub zu einem Herstellerbuild aus der Cloud wieder her. |
 | Speichern des BitLocker-Schlüssels | Update und Sicherheit > Wiederherstellung | Hier können Sie den BitLocker-Schlüssel des Surface Hub auf einem USB-Laufwerk sichern. |
 | Protokolle erfassen | Update und Sicherheit > Wiederherstellung | Hier können Sie Protokolle auf einem USB-Laufwerk speichern, um sie zu einem späteren Zeitpunkt an Microsoft zu senden. | 
 
-## Verwandte Themen
+## <a name="related-topics"></a>Verwandte Themen
 
 [Verwalten von Surface Hub-Einstellungen](manage-surface-hub-settings.md)
 

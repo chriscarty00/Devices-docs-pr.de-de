@@ -1,45 +1,42 @@
 ---
 title: Surface Hub installiert möglicherweise Updates und könnte außerhalb der Wartungszeiten neu starten
-description: Informationen zur Problembehandlung für Surface Hub bezüglich automatischer Updates
+description: Problembehandlungsinformationen für Surface Hub zu automatischen Updates
 ms.assetid: 6C09A9F8-F9CF-4491-BBFB-67A1A1DED0AA
-keywords: Surface Hub, Wartungsfenster, aktualisieren
+keywords: Surface Hub, Wartungsfenster, Update
 ms.prod: surface-hub
 ms.sitesec: library
 author: Teresa-MOTIV
 ms.author: v-tea
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 117c18cfce6dfb84b4fe2156ea98198f96da2abf
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 04/15/2021
+ms.openlocfilehash: 7df7857258c1baeedf4ff239eda17c66c93a531c
+ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10833820"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "11577025"
 ---
-# Surface Hub installiert möglicherweise Updates und könnte außerhalb der Wartungszeiten neu starten
+# <a name="surface-hub-may-install-updates-and-restart-outside-maintenance-hours"></a>Surface Hub installiert möglicherweise Updates und könnte außerhalb der Wartungszeiten neu starten
 
-Unter bestimmten Umständen installiert Surface Hub Updates während der Geschäftszeiten anstatt während des normalen Wartungsfensters. Wenn dies erforderlich ist, wird das Gerät neu gestartet. Sie können das Gerät erst dann verwenden, wenn der Vorgang abgeschlossen ist.
+Unter bestimmten Umständen installiert Surface Hub Updates während der Geschäftszeiten statt während des regulären Wartungsfensters. Das Gerät wird dann bei Bedarf neu gestartet. Sie können das Gerät erst verwenden, wenn der Prozess abgeschlossen ist.
 
 > [!NOTE]  
-> Dieses Verhalten wird nicht erwartet, wenn ein Wartungsfenster fehlt. Sie tritt nur auf, wenn das Gerät lange Zeit veraltet ist.
+> Dies ist nicht das erwartete Verhalten, wenn ein Wartungsfenster fehlt. Er tritt nur auf, wenn das Gerät für einen langen Zeitraum veraltet ist.
 
-## Ursache
-Um sicherzustellen, dass Surface Hub während der Geschäftszeiten zur Verwendung zur Verfügung steht, ist der Hub für die Ausführung von administrativen Funktionen während eines in den Einstellungen definierten Wartungsfensters konfiguriert (siehe "Verweise" unten). Während dieses Wartungszeitraums installiert der Hub automatisch alle verfügbaren Updates über Windows Update oder Windows Server Update Service (WSUS). Sobald Updates abgeschlossen sind, kann der Hub neu gestartet werden.
+## <a name="cause"></a>Ursache
 
-Updates können nur im Wartungsfenster installiert werden, wenn der Surface-Hub aktiviert, aber nicht verwendet oder reserviert ist. Wenn der Surface-Hub beispielsweise für eine Besprechung geplant ist, die 24 Stunden dauert, werden alle Updates, die für die Installation geplant sind, verzögert, bis der Hub im nächsten Wartungsfenster verfügbar ist. Wenn der Hub weiterhin ausgelastet ist und mehrere Wartungsfenster nicht vorhanden ist, beginnt der Hub schließlich mit der Installation und dem Herunterladen von Updates. Dies kann während oder außerhalb des Wartungsfensters erfolgen. Nachdem der Download und die Installation begonnen haben, kann das Gerät neu gestartet werden.
+Um sicherzustellen, dass Surface Hub während der Geschäftszeiten zur Verfügung steht, ist der Hub so konfiguriert, dass verwaltungstechnische Funktionen während eines Wartungsfensters ausführen, das in Einstellungen definiert ist (siehe "Verweise", unten). Während dieses Wartungszeitraums installiert der Hub alle verfügbaren Updates automatisch über Windows Update oder Windows Update for Business (WUfB). Sobald Updates abgeschlossen sind, kann der Hub neu gestartet werden.
 
-## So vermeiden Sie dieses Problem
+Updates können während des Wartungsfensters nur installiert werden, wenn Surface Hub aktiviert, aber nicht verwendet oder reserviert ist. Wenn die Surface Hub beispielsweise für eine Besprechung geplant ist, die 24 Stunden dauert, werden alle updates, die installiert werden sollen, zurückgestellt, bis der Hub während des nächsten Wartungsfensters verfügbar ist. Wenn der Hub weiterhin ausgelastet ist und mehrere Wartungsfenster fehlen, beginnt der Hub schließlich mit der Installation und dem Herunterladen von Updates. Dies kann während oder außerhalb des Wartungsfensters auftreten. Sobald der Download und die Installation begonnen haben, kann das Gerät neu gestartet werden.
 
-Es ist wichtig, dass Sie die Wartungszeit für Surface Hub beiseite legen, um administrative Funktionen auszuführen. Das Reservieren des Surface Hub für 24-Stunden-Intervalle oder das Verwenden des Geräts während des Wartungsfensters verzögert die Installation von Updates. Wir empfehlen, den Hub während des geplanten Wartungszeitraums nicht zu verwenden oder zu reservieren. Ein zweistündiges Fenster sollte für die Aktualisierung reserviert werden.
+## <a name="to-avoid-this-issue"></a>So vermeiden Sie dieses Problem
 
-Eine Option, die Sie verwenden können, um die Verfügbarkeit von Updates zu steuern, ist der Windows Server Update-Dienst (WSUS). WSUS bietet die Kontrolle darüber, welche Updates wann installiert werden.
+Es ist wichtig, dass Sie Wartungszeit für Surface Hub verwaltungstechnische Funktionen festlegen. Das Reservieren der Surface Hub 24-Stunden-Intervalle oder die Verwendung des Geräts während des Wartungsfensters verzögert die Installation von Updates. Es wird empfohlen, den Hub während des geplanten Wartungszeitraums nicht zu verwenden oder zu reservieren. Ein Zwei-Stunden-Fenster sollte für die Aktualisierung reserviert werden.
 
-## Verweise 
+Eine Option, mit der Sie die Verfügbarkeit von Updates steuern können, ist Windows Update for Business.
+
+## <a name="learn-more"></a>Mehr erfahren
  
-[Aktualisieren des Surface Hub](first-run-program-surface-hub.md#update-the-surface-hub) 
-
-[Wartungsfenster](manage-windows-updates-for-surface-hub.md#maintenance-window) 
-
-[Bereitstellen von Windows10-Updates mit Windows Server Update Services (WSUS)](/windows/deployment/update/waas-manage-updates-wsus) 
-
-
+- [Aktualisieren des Surface Hub](first-run-program-surface-hub.md#update-the-surface-hub) 
+- [Wartungsfenster](manage-windows-updates-for-surface-hub.md#maintenance-window) 
