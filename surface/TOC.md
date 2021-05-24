@@ -4,10 +4,11 @@
 
 ## Übersicht
 
+### [Surface Laptop 4 für Unternehmen](https://www.microsoft.com/surface/business/surface-laptop-4)
+### [Surface Laptop 4-Prozessoren – Technische Übersicht](surface-laptop-processors.md)
 ### [Surface Pro 7+ für Unternehmen](https://www.microsoft.com/surface/business/surface-pro-7-plus)
 ### [Surface Go 2 für Unternehmen](https://www.microsoft.com/surface/business/surface-go-2)
 ### [Surface Pro X für Unternehmen](https://www.microsoft.com/surface/business/surface-pro-x)
-### [Surface Laptop 3 für Unternehmen](https://www.microsoft.com/surface/business/surface-laptop-3)
 ### [Surface Studio 2 für Unternehmen](https://www.microsoft.com/surface/business/surface-studio-2)
 ### [Surface Book 3 für Unternehmen](https://www.microsoft.com/surface/business/surface-book-3)
 ### [ROI-Maximierung mit Microsoft Surface](forrester-tei-study.md)
@@ -16,6 +17,8 @@
 ### [Surface Book 3 GPU – Technische Übersicht](surface-book-GPU-overview.md)
 ### [Surface Book 3 Quadro RTX 3000 – Technische Übersicht](surface-book-quadro.md)
 ### [Überall sicher und mobil arbeiten mit LTE Advanced](https://www.microsoft.com/surface/business/lte-laptops-and-tablets)
+### [Surface Headphones 2+ – Technische Übersicht](surface-headphones.md)
+
 
 ## Planen
 
