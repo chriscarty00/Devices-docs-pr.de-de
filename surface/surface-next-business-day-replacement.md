@@ -3,7 +3,7 @@ title: "\"Next Business Day Replacement\"-Informationen und -Abdeckungsbereiche"
 ms.author: v-kaij
 author: greg-lindsay
 manager: laurawi
-ms.date: 02/19/2021
+ms.date: 05/18/2021
 audience: Admin
 ms.topic: article
 ms.prod: surface
@@ -14,39 +14,108 @@ appliesto:
 - Surface Hub
 ms.reviewer: irenewhite
 description: "\"Next Business Day Replacement\"-Informationen und -Abdeckungsbereiche"
-ms.openlocfilehash: febc81156fea88d1f08ef162152b9cde6d78a559
-ms.sourcegitcommit: 8b35cdee6c638359403697711ee53d07cca6ee51
+ms.openlocfilehash: 387286698a1f82066bf1631682e2ceb749c0a6ab
+ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "11442133"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "11577085"
 ---
 # <a name="next-business-day-replacement-information--coverage-areas"></a>"Next Business Day Replacement"-Informationen und -Abdeckungsbereiche
 
 "Next Business Day Replacement" ist ein kostenpflichtiger Dienst, bei dem ein Ersatz-Surface-Gerät bis zum nächsten Arbeitstag zu Ihrem Betriebsgelände geliefert wird. 
 
-"Next Business Day Replacement" steht mit den Schutzplänen "Complete for Business Plus" in den meisten großstädtischen Regionen in den USA, Kanada, Europa (beschränkt auf Österreich, Belgien, Tschechische Republik, Frankreich, Deutschland, Niederlande, Polen, Vereinigtes Königreich), Australien, Singapur und Japan zur Verfügung. Die Dienste werden ausgeführt, wenn ein Agent festgestellt hat, dass ein Ersatzgerät erforderlich ist, das erforderliche Gerät verfügbar ist und einen Ersatz innerhalb einer standardmäßigen und von Microsoft zuvor festgelegten Frist angefordert wurde. 
+„Ersatz am nächsten Arbeitstag“ ist mit dem Kauf Ihres „Microsoft Complete for Business Plus“-Schutzplans verfügbar (Verfügbarkeit in ausgewählten Ländern). Diese Dienste kommen zur Anwendung, nachdem ein Agent feststellt, dass ein Ersatzgerät benötigt wird, den verfügbaren Bestand bestätigt und eine Bestellung für ein Ersatzgerät innerhalb einer von Microsoft festgelegten Annahmefrist einreicht. 
 
 ## <a name="guidelines"></a>Anleitungen
 
 - Die Übernachtlieferung ist abhängig von der Verfügbarkeit unserer autorisierten Übernachtzusteller.
-- Um die Zustellung eines Ersatzgeräts bis zum nächsten Arbeitstag zu gewährleisten, müssen Ersatzanforderungen innerhalb der in Tabelle 1 aufgeführten Fristen abgeschlossen werden. 
-- Vollständige Nutzungsbedingungen finden Sie unter [Gewährleistungen, erweiterte Servicepläne und Bedingungen für Ihr Gerät](https://support.microsoft.com/topic/warranties-extended-service-plans-and-terms-conditions-for-your-device-eedf7a23-84a7-1a47-480b-0e10503eedf5)
+- Um die Zustellung eines Ersatzgeräts bis zum nächsten Arbeitstag zu gewährleisten, müssen Ersatzanforderungen innerhalb der unten aufgeführten Annahmefristen abgeschlossen werden.
+- Vollständige Geschäftsbedingungen finden Sie unter [Gewährleistungen, erweiterte Servicepläne und Bestimmungen für Ihr Gerät](https://support.microsoft.com/topic/warranties-extended-service-plans-and-terms-conditions-for-your-device-eedf7a23-84a7-1a47-480b-0e10503eedf5)
 
-### <a name="table-1-replacement-request-cutoff-times-by-locale"></a>Tabelle 1: Fristen für die Ersatzanforderung nach Region
+## <a name="coverage"></a>Abdeckung
 
-| Locale                                                                                                    | Frist |
-| -------------------------------------------------------------------------------------------------------------- | --------------- |
-| **Vereinigte Staaten und Kanada**                                                                                     | 14:00 CST    (UTC-6)      |
-| **Europa** (beschränkt auf Österreich, Belgien, Tschechische Republik, Frankreich, Deutschland, Niederlande, Polen und Vereinigtes Königreich) | 12:00 CET   (UTC+1)     |
-| **Australien**                                                                                                  | 13:00 AET   (UTC+11)    |
-| **Singapur**                                                                                                  | 13:00 SGT    (UTC+8)   |
-| **Japan**                                                                                                      | 13:00 JST    (UTC+9)   |
+Eine Liste der unterstützten Postleitzahlen finden Sie unter "Abdeckung für nächsten Arbeitstag", sofern unten zutreffend. 
+
+- [Australien](#australia)
+- [Österreich](#austria)
+- [Belgien](#belgium)
+- [Kanada](#canada)
+- [Tschechische Republik](#czech-republic)
+- [Dänemark](#denmark)
+- [Finnland](#finland)
+- [Frankreich](#france)
+- [Deutschland](#germany)
+- [Irland](#ireland)
+- [Italien](#italy)
+- [Japan](#japan)
+- [Norwegen](#norway)
+- [Polen](#poland)
+- [Portugal](#portugal)
+- [Singapur](#singapore)
+- [Spanien](#spain)
+- [Schweden](#sweden)
+- [Schweiz](#switzerland)
+- [Niederlande](#the-netherlands)
+- [USA](#united-states)
 
 
-##  <a name="available-areas-in-japan"></a>Verfügbare Bereiche in Japan 
+#### <a name="australia"></a>Australien
 
-Es wird in den folgenden Regionen in Japan zur Verfügung stehen. Weitere Informationen finden Sie unter [Surface Complete for Business Plus (Japan)](https://cdn.techcommunity.microsoft.com/assets/Surface/jp-next-day-replace-surface.pdf)
+- Annahmefrist: 14:30 Uhr AET (UTC+11)
+
+#### <a name="austria"></a>Österreich
+
+- Annahmefrist: 12:00 UHR (UTC+1)
+- [Abdeckung für nächsten Arbeitstag](https://download.microsoft.com/download/5/7/5/575447e3-70c1-468b-a714-22d3cded7a6e/NBD%20Coverage%20-%20Austria%20Post%20Codes%20030321.xlsx)
+
+#### <a name="belgium"></a>Belgien
+
+- Annahmefrist: 12:00 UHR (UTC+1)
+- [Abdeckung für nächsten Arbeitstag](https://download.microsoft.com/download/f/b/9/fb95d99c-1403-4ecf-bbde-0bab2af2c2ce/NBD%20Coverage%20-%20Belgium%20Post%20Codes%20030321.xlsx)
+
+#### <a name="canada"></a>Kanada
+
+- Annahmefrist: 14:00 CST (UTC-6)
+
+#### <a name="czech-republic"></a>Tschechische Republik
+
+- Annahmefrist: 12:00 UHR (UTC+1)
+
+#### <a name="denmark"></a>Dänemark 
+
+- Annahmefrist: 12:00 UHR (UTC+1) 
+- [Abdeckung für nächsten Arbeitstag](https://download.microsoft.com/download/9/e/6/9e6b4db6-b9f6-412e-a296-a10b5bc6e591/NBD%20Coverage%20-%20Denmark%20Post%20Codes%20030321.xlsx)
+
+#### <a name="finland"></a>Finnland
+
+- Annahmefrist: 12:00 UHR (UTC+1)
+- [Abdeckung für nächsten Arbeitstag](https://download.microsoft.com/download/b/d/d/bddd01a3-6f8e-4bd2-9549-4dbf0a5aee86/NBD%20Coverage%20-%20Finland%20Post%20Codes%20030321.xlsx)
+
+#### <a name="france"></a>Frankreich
+
+- Annahmefrist: 12:00 UHR (UTC+1)
+
+#### <a name="germany"></a>Deutschland
+
+- Annahmefrist: 12:00 UHR (UTC+1)
+
+#### <a name="ireland"></a>Irland
+
+- Annahmefrist: 12:00 UHR (UTC+1)
+- [Abdeckung für nächsten Arbeitstag](https://download.microsoft.com/download/d/6/f/d6f05276-3657-49d3-8871-a2e445b686ef/NBD%20Coverage%20-%20Ireland%20Post%20Codes%20030321.xlsx)
+
+#### <a name="italy"></a>Italien
+
+- Annahmefrist: 12:00 UHR (UTC+1)
+- [Abdeckung für nächsten Arbeitstag](https://download.microsoft.com/download/6/9/a/69a57c96-f4ce-4f93-a99a-2469ed737351/NBD%20Coverage%20-%20Italy%20Post%20Codes%20030321.xlsx)
+
+#### <a name="japan"></a>Japan
+
+- Annahmefrist: 15:30 JST (UTC+9)
+- [Abdeckung für nächsten Arbeitstag](https://cdn.techcommunity.microsoft.com/assets/Surface/jp-next-day-replace-surface.pdf)
+
+**Verfügbare Regionen in Japan** 
 
 - Aomori
 - Iwate
@@ -79,3 +148,44 @@ Es wird in den folgenden Regionen in Japan zur Verfügung stehen. Weitere Inform
 - Hiroshima
 - Yamaguchi
 
+#### <a name="norway"></a>Norwegen
+
+- Annahmefrist: 12:00 UHR (UTC+1)
+- [Abdeckung für nächsten Arbeitstag](https://download.microsoft.com/download/2/8/0/2803e50f-b7fb-431a-9eb9-efba7fb32260/NBD%20Coverage%20-%20Norway%20Post%20Codes%20032521.xlsx)
+
+#### <a name="poland"></a>Polen
+
+- Annahmefrist: 12:00 UHR (UTC+1)
+
+
+#### <a name="portugal"></a>Portugal
+
+- Annahmefrist: 12:00 UHR (UTC+1)
+- [Abdeckung für nächsten Arbeitstag](https://download.microsoft.com/download/5/1/4/5146ceeb-651c-4b10-afeb-ea1abb733e33/NBD%20Coverage%20-%20Portugal%20Post%20Codes%20030321.xlsx)
+
+#### <a name="singapore"></a>Singapur
+
+- Annahmefrist: 13:00 SGT (UTC+8)
+
+#### <a name="spain"></a>Spanien
+
+- Annahmefrist: 12:00 UHR (UTC+1)
+- [Abdeckung für nächsten Arbeitstag](https://download.microsoft.com/download/6/1/d/61da1e35-e17e-4a67-ab81-27cf7a21f91b/NBD%20Coveragef-%20Spain%20Post%20Codes%20030321.xlsx)
+
+#### <a name="sweden"></a>Schweden
+
+- Annahmefrist: 12:00 UHR (UTC+1)
+- [Abdeckung für nächsten Arbeitstag](https://download.microsoft.com/download/3/c/8/3c8a0591-2ee9-4742-835f-86b8c79b986f/NBD%20Coverage%20-%20Sweden%20Post%20Codes%20030321.xlsx)
+
+#### <a name="switzerland"></a>Schweiz
+
+- Annahmefrist: 12:00 UHR (UTC+1)
+- [Abdeckung für nächsten Arbeitstag](https://download.microsoft.com/download/e/6/9/e69789ca-4617-4b23-afb2-09529f320de3/NBD%20Coverage%20-%20Switzerland%20Post%20Codes%20030321%20update.xlsx)
+
+#### <a name="the-netherlands"></a>Niederlande
+
+- Annahmefrist: 12:00 UHR (UTC+1)
+
+#### <a name="united-states"></a>USA 
+
+- Annahmefrist: 14:00 CST (UTC-6)

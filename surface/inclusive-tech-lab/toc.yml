@@ -1,0 +1,93 @@
+items:
+  - name: Inklusives Tech Lab
+    href: index.md
+    items:
+      - name: Verstehen der Funktion zum Entwerfen für Behinderungen
+        href: understanding-function-to-design-for-disabilities.md
+        items:
+          - name: Hindernisse für die Barrierefreiheit können gleichzeitig auftreten
+            href: barriers-to-accessibility-can-co-occur.md
+          - name: Was ist Wahrnehmung?
+            href: cognition.md
+            items:
+              - name: Aufmerksamkeit
+                href: cognition-attention.md
+              - name: Gedächtnis
+                href: cognition-memory.md
+              - name: Beurteilung
+                href: cognition-judgment.md
+              - name: Verarbeitung (Geschwindigkeit)
+                href: cognition-processing-speed.md
+              - name: Verarbeitung (Verständnis)
+                href: cognition-processing-comprehension.md
+          - name: Was ist Mobilität?
+            href: mobility.md
+            items:
+              - name: Verstehen
+                href: mobility-grasp.md
+              - name: Feinmotorische Fähigkeiten
+                href: mobility-fine-motor-skills.md
+              - name: Koordination
+                href: mobility-coordination.md
+              - name: Steuerung (freiwillige vs. unfreiwillige Bewegung)
+                href: mobility-control.md
+              - name: Geschwindigkeit
+                href: mobility-speed.md
+              - name: Muskelspannung
+                href: mobility-muscle-tone.md
+              - name: Ausdauer
+                href: mobility-endurance.md
+              - name: Körperhaltung
+                href: mobility-posture.md
+          - name: Was ist Sehvermögen?
+            href: vision.md
+            items:
+              - name: Blindheit (ohne Sehkraft)
+                href: vision-blindness-sightlessness.md
+              - name: Sehbehindert (teilweise Sehkraft)
+                href: vision-low-vision-partially-sighted.md
+              - name: Verringerte Sehschärfe
+                href: vision-decreased-acuity.md
+              - name: Verlust des Gesichtsfeldes
+                href: vision-visual-field-loss.md
+              - name: Farbblindheit
+                href: vision-color-blindness.md
+              - name: Photophobie (Lichtempfindlichkeit)
+                href: vision-photophobia-light-sensitivity.md
+          - name: Was ist Hörvermögen?
+            href: hearing.md
+            items:
+              - name: Hörverlust (mild)
+                href: hearing-mild.md
+              - name: Hörverlust (mittel/schwer)
+                href: hearing-moderate-severe.md
+              - name: Hörverlust (hochgradig)
+                href: hearing-profound.md
+              - name: Hörverlust (asymmetrisch)
+                href: hearing-asymmetrical.md
+          - name: 'Was ist Sprache, Spracherkennung und Kommunikation?'
+            href: voice-speech-communication.md
+            items:
+              - name: Aphasia (rezeptiv)
+                href: voice-speech-communication-aphasia-receptive.md
+              - name: Aphasia (expressiv)
+                href: voice-speech-communication-aphasia-expressive.md
+              - name: Spracherkennungsqualität
+                href: voice-speech-communication-speech-quality.md
+              - name: Soziale Teilnahme
+                href: voice-speech-communication-social-participation.md
+              - name: Nonverbal
+                href: voice-speech-communication-non-verbal.md
+          - name: Was ist Empfindung und Wahrnehmung?
+            href: sensation-perception.md
+            items:
+              - name: Vestibulär
+                href: sensation-perception-vestibular.md
+              - name: Chronischer Schmerz
+                href: sensation-perception-chronic-pain.md
+              - name: Unversehrtheit der Haut
+                href: sensation-perception-skin-integrity.md
+              - name: Empfindung (überempfindlich und unterempfindlich)
+                href: sensation-perception-sensation.md
+              - name: Propriozeption
+                href: sensation-perception-proprioception.md
