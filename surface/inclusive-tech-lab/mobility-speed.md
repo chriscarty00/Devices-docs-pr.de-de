@@ -45,7 +45,7 @@ ms.locfileid: "11577842"
 
 <span data-ttu-id="2c404-122">BARRIER – Aufgaben wie die Eingabe auf einer Tastatur können zeitaufwändig und anstrengend sein für jemanden, der seine Finger nicht schnell bewegen kann.</span><span class="sxs-lookup"><span data-stu-id="2c404-122">BARRIER — Tasks like typing on a keyboard can be time consuming and strenuous for someone who can't move their fingers at a fast pace.</span></span>
 
-:::image type="content" source="images/mobility-speed-facilitator.jpg" alt-text="Auf dem Tabletbildschirm wird eine Bildschirmtastatur angezeigt, und jemand hat "Ich bin" ohne das &quot; &quot; Apostroph eingeben.":::
+:::image type="content" source="images/mobility-speed-facilitator.jpg" alt-text="Auf dem Tabletbildschirm wird eine Bildschirmtastatur angezeigt, und jemand hat Ich bin ohne das &quot; &quot; Apostroph eingeben.":::
 
 <span data-ttu-id="2c404-124">FACILITATOR – Die Unterstützung von Features wie Vorhersagetext kann die physischen Anforderungen der Eingabe verringern und es jemandem ermöglichen, eine Aufgabe schneller auszuführen.</span><span class="sxs-lookup"><span data-stu-id="2c404-124">FACILITATOR — Support for features like predictive text can decrease the physical demands of typing and allow someone to perform a task at a faster rate.</span></span>
 

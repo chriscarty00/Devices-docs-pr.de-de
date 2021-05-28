@@ -40,7 +40,7 @@ ms.locfileid: "11577863"
 <span data-ttu-id="8f37e-119">BARRIER – Eine Person mit asymmetrischem Hörverlust muss möglicherweise die Lautstärke erhöhen.</span><span class="sxs-lookup"><span data-stu-id="8f37e-119">BARRIER — A person with asymmetric hearing loss may need to increase the volume.</span></span> <span data-ttu-id="8f37e-120">Die Ausgabe auf einer Seite ihrer Kopfhörer kann zu laut werden, damit die andere Seite richtig ist.</span><span class="sxs-lookup"><span data-stu-id="8f37e-120">The output on one side of their headphones may become too loud for the other side to be just right.</span></span> 
 
 
-:::image type="content" source="images/hearing-symmetry-facilitator.jpg" alt-text="Das Mädel hält ein Telefon. Der Inhalt auf dem Telefon zeigt das Fenster "Audioeinstellungen" an. <span data-ttu-id="8f37e-123">Das Mädel passt nur die Audioausgabelautstärke des rechten Ohrs an.</span><span class="sxs-lookup"><span data-stu-id="8f37e-123">The girl is adjusting only the right ear audio output volume.</span></span>":::
+:::image type="content" source="images/hearing-symmetry-facilitator.jpg" alt-text="Das Mädel passt nur die Audioausgabelautstärke des rechten Ohrs an.":::
 
 <span data-ttu-id="8f37e-124">FACILITATOR – Die Möglichkeit, die Audioausgabe auf der linken und rechten Seite des Geräts separat anzupassen, ermöglicht es einer Person, zu wählen, was für sie am bequemsten ist.</span><span class="sxs-lookup"><span data-stu-id="8f37e-124">FACILITATOR — The ability to adjust audio output on the left and right side of the device, separately, allows a person to choose what is most comfortable for them.</span></span> 
 
