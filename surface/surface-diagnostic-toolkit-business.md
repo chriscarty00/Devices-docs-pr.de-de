@@ -112,7 +112,7 @@ ms.locfileid: "11271579"
 
 *<span data-ttu-id="cc21a-178">Abbildung2.</span><span class="sxs-lookup"><span data-stu-id="cc21a-178">Figure 2.</span></span> <span data-ttu-id="cc21a-179">Von SDT installierte Dateien</span><span class="sxs-lookup"><span data-stu-id="cc21a-179">Files installed by SDT</span></span>*
 
-## <span data-ttu-id="cc21a-180">Vorbereiten des SDT-Pakets für die Verteilung</span><span class="sxs-lookup"><span data-stu-id="cc21a-180">Preparing the SDT package for distribution</span></span>
+## <a name="preparing-the-sdt-package-for-distribution"></a><span data-ttu-id="cc21a-180">Vorbereiten des SDT-Pakets für die Verteilung</span><span class="sxs-lookup"><span data-stu-id="cc21a-180">Preparing the SDT package for distribution</span></span>
 
 <span data-ttu-id="cc21a-181">Durch das Erstellen eines benutzerdefinierten Pakets können Sie das Tool auf bestimmte bekannte Probleme konzentrieren.</span><span class="sxs-lookup"><span data-stu-id="cc21a-181">Creating a custom package allows you to target the tool to specific known issues.</span></span>
 

@@ -156,7 +156,7 @@ ms.locfileid: "10897073"
 
 <span data-ttu-id="146a5-171">Weitere Informationen zur Bereitstellung finden Sie unter [System Center 2012 Configuration Manager – Part7: Software Updates (Deploy)](https://blogs.technet.microsoft.com/elie/2012/05/25/system-center-2012-configuration-managerpart7-software-updates-deploy/).</span><span class="sxs-lookup"><span data-stu-id="146a5-171">For more information about deployment, see [System Center 2012 Configuration Manager–Part7: Software Updates (Deploy)](https://blogs.technet.microsoft.com/elie/2012/05/25/system-center-2012-configuration-managerpart7-software-updates-deploy/).</span></span>
 
-## <span data-ttu-id="146a5-172">Häufig gestellte Fragen</span><span class="sxs-lookup"><span data-stu-id="146a5-172">Frequently asked questions (FAQ)</span></span>
+## <a name="frequently-asked-questions-faq"></a><span data-ttu-id="146a5-172">Häufig gestellte Fragen</span><span class="sxs-lookup"><span data-stu-id="146a5-172">Frequently asked questions (FAQ)</span></span>
 
 **<span data-ttu-id="146a5-173">Nachdem ich die in diesem Artikel beschriebenen Schritte ausgeführt habe, sind meine Oberflächen Treiber weiterhin nicht synchronisiert.</span><span class="sxs-lookup"><span data-stu-id="146a5-173">After I follow the steps in this article, my Surface drivers are still not synchronized.</span></span> <span data-ttu-id="146a5-174">Woran liegt das?</span><span class="sxs-lookup"><span data-stu-id="146a5-174">Why?</span></span>**
 

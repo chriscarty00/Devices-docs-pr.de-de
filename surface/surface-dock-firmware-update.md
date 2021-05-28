@@ -31,7 +31,7 @@ ms.locfileid: "11319209"
 
 <span data-ttu-id="cc0c3-112">Dieses Tool ersetzt das frühere Microsoft Surface Dock Updater-Tool, das zuvor als Teil der Surface Tools für die IT zum Download verfügbar war.</span><span class="sxs-lookup"><span data-stu-id="cc0c3-112">This tool supersedes the earlier Microsoft Surface Dock Updater tool, previously available for download as part of Surface Tools for IT.</span></span> <span data-ttu-id="cc0c3-113">Das frühere Tool hieß Surface_Dock_Updater_vx.xx.xxx.x.msi (wobei x die Versionsnummer angibt) und ist nicht mehr zum Download verfügbar und sollte nicht verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="cc0c3-113">The earlier tool was named Surface_Dock_Updater_vx.xx.xxx.x.msi (where x indicates the version number) and is no longer available for download and should not be used.</span></span>
 
-## <span data-ttu-id="cc0c3-114">Installieren des Surface Dock Firmware Update</span><span class="sxs-lookup"><span data-stu-id="cc0c3-114">Install the Surface Dock Firmware Update</span></span>
+## <a name="install-the-surface-dock-firmware-update"></a><span data-ttu-id="cc0c3-114">Installieren des Surface Dock Firmware Update</span><span class="sxs-lookup"><span data-stu-id="cc0c3-114">Install the Surface Dock Firmware Update</span></span>
 
 <span data-ttu-id="cc0c3-115">In diesem Abschnitt wird beschrieben, wie Sie das Firmwareupdate manuell installieren.</span><span class="sxs-lookup"><span data-stu-id="cc0c3-115">This section describes how to manually install the firmware update.</span></span>
 
@@ -61,7 +61,7 @@ ms.locfileid: "11319209"
 
 4. <span data-ttu-id="cc0c3-132">Ereignis 2007 mit dem folgenden Text weist auf ein erfolgreiches Update hin: **Firmwareupdate abgeschlossen. hr=0 DriverTelementry EventCode = 2007**.</span><span class="sxs-lookup"><span data-stu-id="cc0c3-132">Event 2007 with the following text indicates a successful update: **Firmware update finished. hr=0 DriverTelementry EventCode = 2007**.</span></span> 
 
-   <span data-ttu-id="cc0c3-133">Wenn das Update nicht erfolgreich ist, wird die Ereignis-ID 2007 als Fehlerereignis und nicht als **Information angezeigt.** \*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="cc0c3-133">If the update is not successful, then event ID 2007 will be displayed as an **Error** event rather than **Information**.</span></span> <span data-ttu-id="cc0c3-134">Darüber hinaus ist die in der Registrierung von Windows gemeldete Version nicht aktuell.</span><span class="sxs-lookup"><span data-stu-id="cc0c3-134">Additionally, the version reported in the Windows Registry will not be current.</span></span>
+   <span data-ttu-id="cc0c3-133">Wenn das Update nicht erfolgreich ist, wird die Ereignis-ID 2007 als Fehlerereignis und nicht als **Information angezeigt.**</span><span class="sxs-lookup"><span data-stu-id="cc0c3-133">If the update is not successful, then event ID 2007 will be displayed as an **Error** event rather than **Information**.</span></span> <span data-ttu-id="cc0c3-134">Darüber hinaus ist die in der Registrierung von Windows gemeldete Version nicht aktuell.</span><span class="sxs-lookup"><span data-stu-id="cc0c3-134">Additionally, the version reported in the Windows Registry will not be current.</span></span>
    
 5. <span data-ttu-id="cc0c3-135">Nach Abschluss des Updates werden aktualisierte DWORD-Werte in der Windows-Registrierung angezeigt, die der aktuellen Version des Tools entspricht.</span><span class="sxs-lookup"><span data-stu-id="cc0c3-135">When the update is complete, updated DWORD values will be displayed in the Windows Registry, corresponding to the current version of the tool.</span></span> <span data-ttu-id="cc0c3-136">Weitere Informationen finden Sie im Abschnitt ["Versionsreferenz"](#versions-reference) in diesem Artikel.</span><span class="sxs-lookup"><span data-stu-id="cc0c3-136">See the [Versions reference](#versions-reference) section in this article for details.</span></span> <span data-ttu-id="cc0c3-137">Zum Beispiel:</span><span class="sxs-lookup"><span data-stu-id="cc0c3-137">For example:</span></span>
 
@@ -104,7 +104,7 @@ msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.316
 <span data-ttu-id="cc0c3-158">Verwenden Sie den folgenden Befehl:</span><span class="sxs-lookup"><span data-stu-id="cc0c3-158">Use the following command:</span></span>
   - **<span data-ttu-id="cc0c3-159">msiexec /i \<path to msi file\> /quiet /q</span><span class="sxs-lookup"><span data-stu-id="cc0c3-159">msiexec /i \<path to msi file\> /quiet /q</span></span>**
 
-## <span data-ttu-id="cc0c3-160">So überprüfen Sie den Abschluss des Firmwareupdates</span><span class="sxs-lookup"><span data-stu-id="cc0c3-160">How to verify completion of the firmware update</span></span>
+## <a name="how-to-verify-completion-of-the-firmware-update"></a><span data-ttu-id="cc0c3-160">So überprüfen Sie den Abschluss des Firmwareupdates</span><span class="sxs-lookup"><span data-stu-id="cc0c3-160">How to verify completion of the firmware update</span></span>
 
 <span data-ttu-id="cc0c3-161">Die Surface Dock Firmware besteht aus zwei Komponenten:</span><span class="sxs-lookup"><span data-stu-id="cc0c3-161">Surface dock firmware consists of two components:</span></span>
 
@@ -127,7 +127,7 @@ msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.316
 
 4. <span data-ttu-id="cc0c3-172">Wenn die Überprüfung nicht möglich ist, lesen Sie die Tipps zur Ereignisprotokollierung und Problembehandlung im nächsten Abschnitt.</span><span class="sxs-lookup"><span data-stu-id="cc0c3-172">If unable to verify, review Event logging and Troubleshooting tips in the next section.</span></span>
 
-## <span data-ttu-id="cc0c3-173">Ereignisprotokollierung</span><span class="sxs-lookup"><span data-stu-id="cc0c3-173">Event logging</span></span>
+## <a name="event-logging"></a><span data-ttu-id="cc0c3-173">Ereignisprotokollierung</span><span class="sxs-lookup"><span data-stu-id="cc0c3-173">Event logging</span></span>
 
 **<span data-ttu-id="cc0c3-174">Tabelle1.</span><span class="sxs-lookup"><span data-stu-id="cc0c3-174">Table 1.</span></span> <span data-ttu-id="cc0c3-175">Protokolldateien für Surface Dock Firmware Update</span><span class="sxs-lookup"><span data-stu-id="cc0c3-175">Log files for Surface Dock Firmware Update</span></span>**
 
@@ -152,7 +152,7 @@ msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.316
 | <span data-ttu-id="cc0c3-205">2008</span><span class="sxs-lookup"><span data-stu-id="cc0c3-205">2008</span></span>     | <span data-ttu-id="cc0c3-206">BEGIN Dock-Telemetrie.</span><span class="sxs-lookup"><span data-stu-id="cc0c3-206">BEGIN dock telemetry.</span></span>                                                |
 | <span data-ttu-id="cc0c3-207">2011</span><span class="sxs-lookup"><span data-stu-id="cc0c3-207">2011</span></span>     | <span data-ttu-id="cc0c3-208">End dock telemetry.</span><span class="sxs-lookup"><span data-stu-id="cc0c3-208">END dock telemetry.</span></span>                                                  |
 
-## <span data-ttu-id="cc0c3-209">Hinweise zur Problembehandlung</span><span class="sxs-lookup"><span data-stu-id="cc0c3-209">Troubleshooting tips</span></span>
+## <a name="troubleshooting-tips"></a><span data-ttu-id="cc0c3-209">Hinweise zur Problembehandlung</span><span class="sxs-lookup"><span data-stu-id="cc0c3-209">Troubleshooting tips</span></span>
 
 - <span data-ttu-id="cc0c3-210">Trennen Sie die Stromversorgung für Surface Dock vollständig vom Netzstrom, um Surface Dock zurückzusetzen.</span><span class="sxs-lookup"><span data-stu-id="cc0c3-210">Completely disconnect power for Surface dock from the AC power to reset the Surface Dock.</span></span>
 - <span data-ttu-id="cc0c3-211">Trennen Sie alle Peripheriegeräte mit Ausnahme von Surface Dock.</span><span class="sxs-lookup"><span data-stu-id="cc0c3-211">Disconnect all peripherals except for the Surface Dock.</span></span>
@@ -160,7 +160,7 @@ msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.316
 - <span data-ttu-id="cc0c3-213">Stellen Sie sicher, dass das Surface Dock getrennt ist, und lassen Sie dann genügend Zeit, bis das Update wie über eine LED im Ethernetport des Docks überwacht wird.</span><span class="sxs-lookup"><span data-stu-id="cc0c3-213">Ensure that the Surface Dock is disconnected, and then allow enough time for the update to complete as monitored via an LED in the Ethernet port of the dock.</span></span> <span data-ttu-id="cc0c3-214">Warten Sie, bis die LED nicht mehr blinkt, bevor Sie Surface Dock von der Stromversorgung trennen.</span><span class="sxs-lookup"><span data-stu-id="cc0c3-214">Wait until the LED stops blinking before you unplug Surface Dock from power.</span></span>
 - <span data-ttu-id="cc0c3-215">Verbinden Sie Surface Dock mit einem anderen Gerät, um zu sehen, ob das Dock aktualisiert werden kann.</span><span class="sxs-lookup"><span data-stu-id="cc0c3-215">Connect the Surface Dock to a different device to see if it is able to update the dock.</span></span>
 
-## <span data-ttu-id="cc0c3-216">Versionsreferenz</span><span class="sxs-lookup"><span data-stu-id="cc0c3-216">Versions reference</span></span>
+## <a name="versions-reference"></a><span data-ttu-id="cc0c3-216">Versionsreferenz</span><span class="sxs-lookup"><span data-stu-id="cc0c3-216">Versions reference</span></span>
 
 >[!NOTE]
 ><span data-ttu-id="cc0c3-217">Die Installationsdatei wird im folgenden Namensformat veröffentlicht: **Surface_Dock_FwUpdate_X.XX.XXX_Win10_XXXXX_XX.XXX.XXXXX_X.MSI** (z. B. Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.msi) und wird standardmäßig unter "C:\Programme\SurfaceUpdate" installiert.</span><span class="sxs-lookup"><span data-stu-id="cc0c3-217">The installation file is released with the following naming format: **Surface_Dock_FwUpdate_X.XX.XXX_Win10_XXXXX_XX.XXX.XXXXX_X.MSI** (ex: Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.msi) and installs by default to C:\Program Files\SurfaceUpdate.</span></span>
