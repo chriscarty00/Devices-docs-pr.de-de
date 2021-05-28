@@ -31,7 +31,7 @@ ms.locfileid: "10832686"
 
 
 
-## <span data-ttu-id="c11d4-113">Setup-Problembehandlung</span><span class="sxs-lookup"><span data-stu-id="c11d4-113">Setup troubleshooting</span></span>
+## <a name="setup-troubleshooting"></a><span data-ttu-id="c11d4-113">Setup-Problembehandlung</span><span class="sxs-lookup"><span data-stu-id="c11d4-113">Setup troubleshooting</span></span>
 
 
 <span data-ttu-id="c11d4-114">In diesem Abschnitt werden Ursachen und Behebungen für Probleme aufgeführt, die beim Einrichten von Microsoft Surface Hub auftreten können.</span><span class="sxs-lookup"><span data-stu-id="c11d4-114">This section lists causes, and possible fixes to help troubleshoot issues you might find when you set up your Microsoft Surface Hub.</span></span>
@@ -431,7 +431,7 @@ ms.locfileid: "10832686"
 
  
 
-## <span data-ttu-id="c11d4-243">Exchange ActiveSync-Fehler</span><span class="sxs-lookup"><span data-stu-id="c11d4-243">Exchange ActiveSync errors</span></span>
+## <a name="exchange-activesync-errors"></a><span data-ttu-id="c11d4-243">Exchange ActiveSync-Fehler</span><span class="sxs-lookup"><span data-stu-id="c11d4-243">Exchange ActiveSync errors</span></span>
 
 
 <span data-ttu-id="c11d4-244">In diesem Abschnitt werden Statuscodes, Zuordnung, Benutzermeldungen und Maßnahmen aufgeführt, die ein Administrator zur Behebung von Exchange ActiveSync-Fehlern ergreifen kann.</span><span class="sxs-lookup"><span data-stu-id="c11d4-244">This section lists status codes, mapping, user messages, and actions an admin can take to solve Exchange ActiveSync errors.</span></span>
